@@ -1,0 +1,201 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #fff;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Header */
+
+.uk-navbar-container {
+    background-color: #fff;
+
+}
+
+#cl {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #0C4DA2;
+    font-weight: 500;
+}
+
+ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+
+}
+
+.logo {
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+}
+
+.kenya {
+    width: 42px;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.uganda {
+    width: 42px;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
+
+/* slider */
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    display: table;
+    width: 100%;
+    height: 90vh;
+    background: #000;
+}
+
+#intro .carousel-item {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#intro .carousel-item::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#intro .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#intro .carousel-content {
+    margin: 20% 0 0 0;
+    text-align: center;
+}
+
+#intro h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    #intro h2 {
+        font-size: 28px;
+    }
+}
+
+#intro p {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    #intro p {
+        width: 60%;
+    }
+}
+
+#intro .carousel-fade .carousel-inner .carousel-item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+
+#intro .carousel-fade .carousel-inner .carousel-item,
+#intro .carousel-fade .carousel-inner .active.carousel-item-left,
+#intro .carousel-fade .carousel-inner .active.carousel-item-right {
+    opacity: 0;
+}
+
+#intro .carousel-fade .carousel-inner .active,
+#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
+#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#intro .carousel-fade .carousel-inner .carousel-item-next,
+#intro .carousel-fade .carousel-inner .carousel-item-prev,
+#intro .carousel-fade .carousel-inner .active.carousel-item-left,
+#intro .carousel-fade .carousel-inner .active.carousel-item-right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#intro .carousel-control-prev,
+#intro .carousel-control-next {
+    width: 10%;
+}
+
+@media (min-width: 1024px) {
+
+    #intro .carousel-control-prev,
+    #intro .carousel-control-next {
+        width: 5%;
+    }
+}
+
+#intro .carousel-control-next-icon,
+#intro .carousel-control-prev-icon {
+    background: none;
+    font-size: 32px;
+    line-height: 1;
+}
+
+#intro .carousel-indicators li {
+    cursor: pointer;
+}
+
+#intro .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #C80D10;
+}
+
+#intro .btn-get-started:hover {
+    background: #fff;
+    color: #C80D10;
+}
