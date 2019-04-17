@@ -15,15 +15,15 @@
 
 /* JOB PAGE */
 .job-box{
-    margin: 5% auto;
+    margin: 1.5% auto;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
 .job-description{
-    padding: 20px 10px;
+    padding: 10px 10px 0 10px ;
     font-family: 'Trebuchet MS',
     'Lucida Sans Unicode',
     'Lucida Grande',
@@ -37,8 +37,8 @@
 .job-description h2 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
-    font-size: 34px;
-    padding: 10px 0 15px 0;
+    font-size: 26px;
+    padding: 10px 0 0px 0;
 }
 
 .job-description h3 {
@@ -56,6 +56,10 @@
 .job-content p{
     font-size: 18px;
     font-weight: 700;
+}
+
+.btn-career{
+    margin-top: 20%;
 }
 
 
