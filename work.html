@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/career.css" />
 
      <!-- My js copy -->
-    <script type="text/javascript" src="js/workexperience.js"></script>
+    <script type="text/javascript" src="js/work.js"></script>
 
     <!-- Font Awsome 5.7.2 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -352,108 +352,17 @@
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
 
 
-    <div class="container">
-    <br>   
-        <div class="row">
-            <div class="col-10 job-box">
-                <div class="job-description text-center">
-                        <h2>EMPLOYMENT HISTORY</h2>
-                        <div class="desc-cont text-left">
-                             <h3>WORK EXPERIENCE</h3>
-                             <p>Please list your work experience below, starting with the most recient one</p>
-                        </div>
+<input type="button" id="more_fields" onclick="add_fields();" value="Add More" />
 
-                        <form class="text-left">
-                          <div id="room_fileds">  
-                                <h3>WORK EXPERIENCE 1</h3>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label id="label-1"><span class="icon_star">&#10040;</span>EMPLOYER/COMPANY</label>
-                                            <input type="text" class="form-control my-input" name="COMPANY" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1"><span
-                                                    class="icon_star">&#10040;</span>TITLE/POSITION</label>
-                                            <input type="text" name="POSITION" class="form-control my-input"
-                                                placeholder="">
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="row empl">
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label id="label-1"><span class="icon_star">&#10040;</span>START DATE</label>
-                                        <input type="date" name="lastname" class="form-control my-input" placeholder="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1"><span
-                                                class="icon_star">&#10040;</span>END DATE</label>
-                                        <input type="date" name="lastname" class="form-control my-input" placeholder="">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div class="form-group form-check Check-box1">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">CURRENT JOB</label>
-                                    </div>
-                                </div>
-
-                                </div>
-
-                                <div class="row empl">
-                                <div class="col-12">
-                                        <div class="form-group">
-                                            <label>ACHIEVEMENT</label>
-                                            <textarea type="text" name="comment" class="form-control my-input" >
-                                            </textarea>    
-                                        </div>
-                                </div>
-                                </div>
-                                <!-- <a href="#"> -->
-                                <h3 id="remove_field" class="dup-text1" onclick="remove_fields();">Remove work experience</h3>
-                                <!-- </a> -->
-                            </div>
-                            <hr>
-                               <h3 id="more_fields"  class="dup-text" onclick="add_fields();">ADD WORK EXPERIENCE</h3>
-                               
-                           <br>
-                            <div class="row btn-form">
-                                <div class="col-md-3">
-                                    <div class="text-center new-bt bt-back">
-                                        <a href="#" class="btn btn-secondary">BACK</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-center  new-bt">
-                                        <a href="#" class="btn btn-primary">save & continue</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class=" text-center new-bt bt-back">
-                                        <a href="#" class="btn btn-danger g-log1">QUIT</a>
-                                    </div>
-                                </div>
-                            </div>
-                         <br>
-                        
-                        
-                        </form>
-
-                    
-                </div>
-            </div>
+<div id="room_fileds">
+    <div>
+        <div class='label'>Room 1:</div>
+        <div class="content">
+            <span>Width: <input type="text" style="width:48px;" name="width[]" value="" /><small>(ft)</small> X </span>
+            <span>Length: <input type="text" style="width:48px;" namae="length[]" value="" /><small>(ft)</small></span>
         </div>
     </div>
-   
-<br><br>
-
+</div>
   
 
     <!-- =====================================FOOTER===================================== -->

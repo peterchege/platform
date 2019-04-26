@@ -197,3 +197,21 @@ form .my-input {
     padding-left: 20px;
     
 }
+
+.dup-text{
+    cursor: pointer;
+}
+
+.dup-text:hover{
+    text-decoration: underline;
+    color: #00ac00;
+}
+
+.dup-text1 {
+    cursor: pointer;
+}
+
+.dup-text1:hover {
+    text-decoration: underline;
+    color: #c71610;
+}
