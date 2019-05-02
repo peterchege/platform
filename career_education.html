@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/test.css" />
     <link rel="stylesheet" href="css/career.css" />
 
+     <!-- My js copy -->
+    <script type="text/javascript" src="js/workexperience.js"></script>
 
     <!-- Font Awsome 5.7.2 -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -31,7 +33,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="asset/bootstrap-4.3.1/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/bootstrap-4.3.1/css/bootstrap.min.css">
+
 
     <!-- UIkit css -->
     <link rel="stylesheet" href="css/uikit.min.css" />
@@ -347,84 +350,148 @@
 
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
-    <ul id="progressbar">
-        <li class="active">PERSONAL <br>INFORMATION</li>
-        <li>EMPLOYMENT<br> HISTORY</li>
-        <li>EDUCATION<br> BACKGROUND</li>
-        <li>FILE <br>ATTACHMENT</li>
-        <li><br>SUMMARY</li>
-    </ul>
+
 
     <div class="container">
-      <br>  
+    <br>   
         <div class="row">
-            <div class="col-10 job-box"> 
+            <div class="col-10 job-box">
                 <div class="job-description text-center">
-                        <h2>PERSONAL INFORMATION</h2>
-                            <p>Please enter all relevant personal information in the fields below</p>
+                        <h2>EDUCATION AND PROFESSIONAL<BR> QUALIFICATION</h2>
+                        <div class="desc-cont text-left">
+                             <h3>EDUCATION</h3>
+                             <p>Please list your educational experiences below, starting with the most recent one.</p>
+                        </div>
+
                         <form class="text-left">
-                            <br>
-                            <div class="row">
-                                <div class="col-md-4">
-                                      <div class="form-group">
-                                          <label id="label-1" for="exampleInputEmail1"><span class="icon_star">&#10040;</span>First Name</label>
-                                          <input type="text" class="form-control my-input" name="firstname" placeholder="">
-                                      </div>
-                                </div>
-                                <div class="col-md-4">
-                                     <div class="form-group">
-                                         <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Last Name</label>
-                                         <input type="text" name="lastname" class="form-control my-input" placeholder="">
-                                     </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Surname</label>
-                                        <input type="text"  name="surname" class="form-control my-input" placeholder="">
+                          <div id="education_fileds">  
+                                <h3>EDUCATION 1</h3>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label id="label-1">INSTITUTION</label>
+                                            <input type="text" class="form-control my-input" name="institution[]" placeholder="">
+                                        </div>
+                                    </div><br>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">PROGRAM</label>
+                                            <input type="text" name="program[]" class="form-control my-input" placeholder="">
+                                        </div>
+                                    </div><br>
+                                    <div class="col-md-12">
+                                       <div class="form-group">
+                                           <label for="exampleFormControlSelect1">EDUCATION LEVEL</label>
+                                           <select class="form-control my-input" name="education_level[]" >
+                                               <option>NOT SPECIFIED</option>
+                                               <option>NONE</option>
+                                               <option>KCPE</option>
+                                               <option>KCSE</option>
+                                               <option>HIGH SCHOOL DIPLOMA</option>
+                                               <option>TECHNICAL DIPLOMA</option>
+                                               <option>COLLEGE DIPLOMA</option>
+                                               <option>NON-DEGREE PROGRAM</option>
+                                               <option>BACHELOR'S DEGREE</option>
+                                               <option>MASTER'S DEGREE</option>
+                                               <option>DOCTORATE DEGREE</option>
+                                               <option>HIGHER DEGREE</option>
+                                               <option>OTHER</option>
+                                           </select>
+                                       </div>
                                     </div>
+                                    
                                 </div>
+                                <div class="row empl">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label id="label-1">START DATE</label>
+                                            <input type="date" name="start_date_education[]" class="form-control my-input" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">GRADUATION DATE</label>
+                                            <input type="date" name="graduation_date[]" class="form-control my-input" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="form-group form-check Check-box1">
+                                            <input type="checkbox" class="form-check-input" name="anticipating_graduation[]">
+                                            <label class="form-check-label" for="exampleCheck1">ANTICIPATED GRADUATION DATE</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                             
+                                <!-- <a href="#"> -->
+                                <h3 id="remove_field" class="dup-text1" onclick="remove_education();">Remove Education</h3>
+                                <!-- </a> -->
                             </div>
                             <hr>
-                          
-                            <h3>PLACE OF RESIDENCE</h3>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label id="label-1" for="exampleInputEmail1"><span class="icon_star">&#10040;</span>COUNTRY</label>
-                                            <input type="text" name="country" class="form-control my-input" aria-describedby="basic-addon" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>STATE/PROVINCE/COUNTY</label>
-                                            <input type="text" name="state" class="form-control my-input" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1"><span
-                                                    class="icon_star">&#10040;</span>REGION/CITY</label>
-                                            <input type="text" name="city" class="form-control my-input" placeholder="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-                        <h3>CONTACT DETAILS</h3>
-                            <div class="form-group">
-                                   <label for="exampleInputPassword1"><span class="icon_star">&#10040;</span>Phone Number</label>
-                                   <input type="tel" name="phonenumber" class="form-control my-input" placeholder="">
-                            </div>
-                                
-                             <div class="form-group">
-                                 <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Email address</label>
-                                 <input type="email" name="email" class="form-control my-input" id="exampleInputEmail1"
-                                     aria-describedby="emailHelp" placeholder="">
-                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">EXPECTED SALARY</label>
-                                <input type="text" name="salary" class="form-control my-input" placeholder="">
-                            </div>
+                               <h3 id="more_fields" class="dup-text" onclick="add_education();">Add Education</h3>
+                               
                            <br>
+                           <div class="certificate">
+                               <h3>CERTIFICATIONS AND LICENSES</h3>
+                               <p>Please start by entering the most recent relevant certification/professional
+                                   qualification and continue adding until you have entered all that you feel are
+                                   important to disclose for this job. Please do not list expired certifications.
+                                </p>
+                            </div>    
+                                <div id="certification_fileds">
+                                    <h3>CERTIFICATE 1</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label id="label-1">CERTIFICATE</label>
+                                                <input type="text" class="form-control my-input" name="institution[]"
+                                                    placeholder="">
+                                            </div>
+                                         </div>
+                                     </div>
+                                    <div class="row empl">
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">ISSUING ORGANIZATION</label>
+                                                <input type="text" name="issue_org[]" class="form-control my-input"
+                                                    placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                            <label for="exampleInputEmail1">NUMBER/ID</label>
+                                            <input type="text" name="nmber_id[]" class="form-control my-input"
+                                                placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row empl">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label id="label-1">ISSUE DATE</label>
+                                                <input type="date" name="start_date_education[]"
+                                                    class="form-control my-input" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">EXPIRATION DATE</label>
+                                                <input type="date" name="graduation_date[]"
+                                                    class="form-control my-input" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div><br>
+                                    <small><i>If this certification will be received in the future, enter the expected issuing
+                                        date</i></small>
+                                    <h3 id="remove_field" class="dup-text2" onclick="remove_certificate();">Remove Certificate</h3>
+                                    <hr>
+                                    <h3 id="more_fields" class="dup-text" onclick="add_certificate();">Add Certificate</h3>
+                                    <br>
+                                </div>
+                           
                             <div class="row btn-form">
                                 <div class="col-md-3">
                                     <div class="text-center new-bt bt-back">
@@ -433,7 +500,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="text-center  new-bt">
-                                        <a href="career_employment.html" class="btn btn-primary">save & continue</a>
+                                        <a href="#" class="btn btn-primary">save & continue</a>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -541,6 +608,7 @@
     </footer><!-- #footer -->
 
 
+ 
 
     <!-- Optional JavaScript -->
 

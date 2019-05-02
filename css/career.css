@@ -188,6 +188,71 @@ form .my-input {
 
 /* multiform employment */
 
+/* PROGRESSBAR */
+
+#progressbar {
+    text-align: center;
+    list-style: none;
+    margin-top: 5%;
+    /* CSS counter to number the steps */
+    counter-reset: step;
+}
+
+#progressbar li {
+  margin: 0 30px auto;
+  display:inline-block;
+  color: #0D345F;
+  font-weight: 500;
+  position: relative;
+}
+
+#progressbar li::before{
+    content: counter(step);
+    counter-increment: step;
+    width: 70px;
+    line-height: 60px;
+    display: block;
+    font-size: 14px;
+    color: #0077B5;
+    background: rgb(241, 241, 241);
+    -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    border-radius: 100%;
+    margin: 0 auto 25% auto;
+    cursor: pointer;
+    
+}
+
+/* progressbar connectors */
+
+#progressbar li::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: red;
+    position: absolute;
+    left: -80%;
+    top: 30px;
+    z-index: -1;
+
+}
+
+#progressbar li:first-child::after{
+    /* connector not needed before the first step */
+    content: none;
+}
+
+ /* marking active /completed steps green */
+ /* the number of the step and the connector before it =green */
+
+ #progressbar li.active::before,
+ #progressbar li.active::after{
+     background: #00ac00;
+     color: #fff;
+ }
+
+/* FORMS */
 .empl{
     margin-top: 20px;
 }
@@ -195,7 +260,6 @@ form .my-input {
 .Check-box1{
     padding-top: 25%;
     padding-left: 20px;
-    
 }
 
 .dup-text{
@@ -211,7 +275,16 @@ form .my-input {
     cursor: pointer;
 }
 
+.dup-text2 {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .dup-text1:hover {
+    text-decoration: underline;
+    color: #c71610;
+}
+.dup-text2:hover {
     text-decoration: underline;
     color: #c71610;
 }
