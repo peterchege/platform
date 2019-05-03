@@ -212,7 +212,7 @@ form .my-input {
     width: 70px;
     line-height: 60px;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     color: #0077B5;
     background: rgb(241, 241, 241);
     -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
@@ -222,6 +222,7 @@ form .my-input {
     margin: 0 auto 25% auto;
     cursor: pointer;
     
+    
 }
 
 /* progressbar connectors */
@@ -230,11 +231,11 @@ form .my-input {
     content: "";
     width: 100%;
     height: 5px;
-    background: red;
+    background: rgb(241, 241, 241);
     position: absolute;
-    left: -80%;
+    left: -82.5%;
     top: 30px;
-    z-index: -1;
+    /* z-index: -1; */
 
 }
 
@@ -250,6 +251,7 @@ form .my-input {
  #progressbar li.active::after{
      background: #00ac00;
      color: #fff;
+     
  }
 
 /* FORMS */
@@ -287,4 +289,13 @@ form .my-input {
 .dup-text2:hover {
     text-decoration: underline;
     color: #c71610;
+}
+
+/* fieldset {
+    display: none;
+} */
+
+/* HIDE ALL EXCEPT FIRST FIELDSET */
+#msform fieldset:not(:first-of-type){
+    display: none;
 }
