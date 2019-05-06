@@ -299,3 +299,18 @@ form .my-input {
 #msform fieldset:not(:first-of-type){
     display: none;
 }
+
+/* SUMMARY */
+p1{
+     font-family: 'Oswald',
+     sans-serif;
+     color: #0C4DA2;
+     font-size: 18px;
+     font-weight: 800;
+}
+
+.personal h4{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+}
