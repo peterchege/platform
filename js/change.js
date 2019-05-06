@@ -67,14 +67,14 @@ function prev_step3() {
 }
 // Function that executes on click of fourth next button.
 function next_step4() {
-    document.getElementById("second").style.display = "none";
-    document.getElementById("third").style.display = "block";
-    document.getElementById("active3").style.color = "#00ac00";
+    document.getElementById("fourth").style.display = "none";
+    document.getElementById("fifth").style.display = "block";
+    document.getElementById("active4").style.color = "#00ac00";
 }
 // Function that executes on click of fourth previous button.
 function prev_step4() {
-    document.getElementById("third").style.display = "none";
-    document.getElementById("second").style.display = "block";
+    document.getElementById("fifth").style.display = "none";
+    document.getElementById("fourth").style.display = "block";
     document.getElementById("active2").style.color = "#00ac00";
     document.getElementById("active3").style.color = "gray";
 }
