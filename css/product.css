@@ -1,8 +1,29 @@
 
-.header-image{
+.header-image11 {
     width: 100%;
     height: 80vh;
     background-image: url(../images/travell.jpg);
+    background-size: cover;
+}
+
+.header-image1 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/baby.jpg);
+    background-size: cover;
+}
+
+.header-image2 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/marine.jpeg);
+    background-size: cover;
+}
+
+.header-image3 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/educate.jpeg);
     background-size: cover;
 }
 

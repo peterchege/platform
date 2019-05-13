@@ -89,6 +89,9 @@ a:focus {
     right: 0;
     transition: all 0.5s;
     z-index: 997;
+    -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
 }
 
 #header .nav-menu li a {

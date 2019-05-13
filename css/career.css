@@ -314,3 +314,57 @@ p1{
     sans-serif;
     color: #0C4DA2;
 }
+
+/* PRIVACY AND AGREEMENT */
+
+.privacy{
+    width: 100%;
+}
+
+.privacy .card-body {
+    width: 100%;
+}
+
+.privacy h2{
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.privacy h5 {
+    padding: 15px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode',
+     'Lucida Grande',
+     'Lucida Sans',
+     Arial,
+     sans-serif;
+}
+
+.privacy .card-text{
+    padding-left: 15px;
+}
+
+.privacy .frame-card {
+    border: 1px solid #d4d9dd;
+    padding: 25px 30px;
+    height: 50vh;
+    overflow: auto;
+    margin-bottom: 29px;
+    border-radius: 10px; 
+
+}
+
+.accept_decline .btn{
+   padding: 7px 20px;
+   width: 120px;
+   margin: 10px;
+   border-radius: 20px;
+   -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+
+}
