@@ -82,11 +82,11 @@ a:focus {
 #header {
     padding: 20px 0 0 0;
     height: 85px;
-    position: fixed;
     background-color: #fff;
     left: 0;
     top: 0;
     right: 0;
+    position: fixed;
     transition: all 0.5s;
     z-index: 997;
     -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
@@ -121,7 +121,25 @@ a:focus {
     float: left;
 }
 
+#header #logo1 {
+   position: absolute;
+   top: 12%;
+   right: 5%;
+}
 
+#header #logo2 {
+    position: absolute;
+    top: 1%;
+    right: 10%;
+
+}
+
+#header #logo2 .img-crl{
+    border-radius: 50%;
+     -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+     box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+}
 
 @media (min-width: 1024px) {
     #header #logo {
@@ -573,7 +591,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   right: 15%;
   width: 100%; */
-    margin-right: 5%;
+    margin-right: 12%;
 }
 
 #flags img {
@@ -646,8 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .content-offer {
-    padding-top: 50px;
-
+    padding-top: 10px;
 }
 
 .product p {
@@ -754,7 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-4 {
-    background-image: url(../images/educate.jpeg);
+    background-image: url(../images/fruit-big.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -1049,20 +1066,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .apollo-facility {
     width: 80%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 15%;
 }
 
-.line2 {
-    margin: 0 auto;
-    width: 80%;
-    height: 4px;
-    border-radius: 50%;
-    background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158));
+.under-line img{
+    height: 3px;
 }
 
+.img1 {
+    width: 40%;
+}
+.img2 {
+    width: 18%;
+}
+.img3 {
+    width: 90%;
+}
+.img4 {
+    width: 20%;
+}
+.img5 {
+    width: 40%;
+}
+.img6 {
+    width: 30%;
+}
+.img7 {
+    width: 25%;
+}
+
+
+
 .apollo-facility p {
-    padding-top: 7%;
+    padding-top: 3%;
     text-align: start;
     font-family: 'Trebuchet MS',
         'Lucida Sans Unicode',
@@ -1117,8 +1154,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 2px solid #C80D10;
     transition: all 300ms ease;
 }
-
-/* ACESS SERVICE */
+/*--------------------------------------------------------------
+# ACESS SERVICE
+--------------------------------------------------------------*/
 .acess {
     margin-top: 0px;
 }
