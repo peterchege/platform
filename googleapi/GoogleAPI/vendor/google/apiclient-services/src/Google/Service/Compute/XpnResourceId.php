@@ -15,18 +15,25 @@
  * the License.
  */
 
-class Google_Service_Compute_InterconnectListWarning extends Google_Collection
+class Google_Service_Compute_XpnResourceId extends Google_Model
 {
-  protected $collection_key = 'data';
-  public $code;
-  protected $dataType = 'Google_Service_Compute_InterconnectListWarningData';
-  protected $dataDataType = 'array';
-  public $message;
+  public $id;
+  public $type;
 
-  public function setCode($code)
+  public function setId($id)
   {
-    $this->code = $code;
+    $this->id = $id;
   }
-  public function getCode()
+  public function getId()
   {
-    return
+    return $this->id;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}

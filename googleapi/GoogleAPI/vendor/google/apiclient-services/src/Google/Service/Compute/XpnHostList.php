@@ -15,16 +15,16 @@
  * the License.
  */
 
-class Google_Service_Compute_InterconnectLocationList extends Google_Collection
+class Google_Service_Compute_XpnHostList extends Google_Collection
 {
   protected $collection_key = 'items';
   public $id;
-  protected $itemsType = 'Google_Service_Compute_InterconnectLocation';
+  protected $itemsType = 'Google_Service_Compute_Project';
   protected $itemsDataType = 'array';
   public $kind;
   public $nextPageToken;
   public $selfLink;
-  protected $warningType = 'Google_Service_Compute_InterconnectLocationListWarning';
+  protected $warningType = 'Google_Service_Compute_XpnHostListWarning';
   protected $warningDataType = '';
 
   public function setId($id)
@@ -36,14 +36,14 @@ class Google_Service_Compute_InterconnectLocationList extends Google_Collection
     return $this->id;
   }
   /**
-   * @param Google_Service_Compute_InterconnectLocation
+   * @param Google_Service_Compute_Project
    */
   public function setItems($items)
   {
     $this->items = $items;
   }
   /**
-   * @return Google_Service_Compute_InterconnectLocation
+   * @return Google_Service_Compute_Project
    */
   public function getItems()
   {
@@ -74,15 +74,17 @@ class Google_Service_Compute_InterconnectLocationList extends Google_Collection
     return $this->selfLink;
   }
   /**
-   * @param Google_Service_Compute_InterconnectLocationListWarning
+   * @param Google_Service_Compute_XpnHostListWarning
    */
-  public function setWarning(Google_Service_Compute_InterconnectLocationListWarning $warning)
+  public function setWarning(Google_Service_Compute_XpnHostListWarning $warning)
   {
     $this->warning = $warning;
   }
   /**
-   * @return Google_Service_Compute_InterconnectLocationListWarning
+   * @return Google_Service_Compute_XpnHostListWarning
    */
   public function getWarning()
   {
-    return $this->w
+    return $this->warning;
+  }
+}

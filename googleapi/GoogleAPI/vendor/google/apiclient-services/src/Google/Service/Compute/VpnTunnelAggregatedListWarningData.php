@@ -15,23 +15,25 @@
  * the License.
  */
 
-class Google_Service_Compute_LicenseCodeLicenseAlias extends Google_Model
+class Google_Service_Compute_VpnTunnelAggregatedListWarningData extends Google_Model
 {
-  public $description;
-  public $selfLink;
+  public $key;
+  public $value;
 
-  public function setDescription($description)
+  public function setKey($key)
   {
-    $this->description = $description;
+    $this->key = $key;
   }
-  public function getDescription()
+  public function getKey()
   {
-    return $this->description;
+    return $this->key;
   }
-  public function setSelfLink($selfLink)
+  public function setValue($value)
   {
-    $this->selfLink = $selfLink;
+    $this->value = $value;
   }
-  public function getSelfLink()
+  public function getValue()
   {
-    ret
+    return $this->value;
+  }
+}

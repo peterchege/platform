@@ -15,18 +15,25 @@
  * the License.
  */
 
-class Google_Service_Compute_InterconnectOutageNotification extends Google_Collection
+class Google_Service_Compute_VpnTunnelListWarningData extends Google_Model
 {
-  protected $collection_key = 'affectedCircuits';
-  public $affectedCircuits;
-  public $description;
-  public $endTime;
-  public $issueType;
-  public $name;
-  public $source;
-  public $startTime;
-  public $state;
+  public $key;
+  public $value;
 
-  public function setAffectedCircuits($affectedCircuits)
+  public function setKey($key)
   {
-    $this->affectedCircuits = $affectedC
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}

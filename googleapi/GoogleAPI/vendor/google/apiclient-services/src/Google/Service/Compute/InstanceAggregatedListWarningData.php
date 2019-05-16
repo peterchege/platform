@@ -1,3 +1,39 @@
-=b)this.le=Number(c)};IRc.prototype.getName=p(Ec);IRc.prototype.Ub=p(Oj);IRc.prototype.toString=function(){return String(this.le)};var JRc=function(b,c){b.zc().vx();try{for(var d=0;d<c.length;d++){var e=c[d],f=b.Se(zr(e.getName())),g=new IRc(e.getName(),e.Ub());f.set(g)}GRc(b)}finally{b.zc().ux()}},KRc=function(b,c){Xw.call(this);this.Az=b;this.jU=c};w(KRc,Xw);KRc.prototype.Vl=p("Az");KRc.prototype.We=p("jU");
-var LRc=function(b){return null==b?"":b},MRc=function(b){return"1"==b||b==no||1==b||!0===b},NRc=function(b){JQb.forEach(function(c){return b.ha[c]=MRc(b.ha[c])})},ORc=function(b){Xw.call(this);this.Gd=LRc(b.getId());this.Sa=LRc(b.getQuery());this.ha=b.jqc();this.Ka=MRc(b.Abd());this.Db=MRc(b.Eba());this.Pa=LRc(b.getLabel());this.Da=MRc(b.d4());this.$a=MRc(b.jAa());this.Fb=MRc(b.bV());this.Ma=LRc(b.getEmail());this.Ga=MRc(b.wla());this.kb=MRc(b.qba());this.Ca=MRc(b.fza());this.Ba=MRc(b.Yka());this.Za=
-MRc(b.Vla());this.Cb=LRc(b.N4());this.Ha="smartfilter_"==b.getId().substring(0,12);this.Ab
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+class Google_Service_Compute_InstanceAggregatedListWarningData extends Google_Model
+{
+  public $key;
+  public $value;
+
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}

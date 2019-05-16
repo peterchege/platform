@@ -1,3 +1,39 @@
-;cTc=AL("Ij",34);dTc=AL("Jj",35);eTc=AL("Kj",36);fTc=AL("Lj",37);gTc=AL("Mj",38);hTc=AL("Nj",39);iTc=AL("Oj",40);jTc=AL("Pj",41);kTc=AL("Qj",42);uSc=
-sv(ySc,zSc,ASc,BSc,CSc,DSc,G([ESc,FSc,GSc],tSc,lTc,mTc));vSc=sv(HSc,ISc,JSc,KSc,LSc,MSc,G([NSc,OSc,PSc,QSc,RSc,SSc,TSc,USc,VSc],tSc,lTc,mTc));wSc=sv(bTc,cTc,dTc,eTc,fTc,gTc,G([hTc,iTc,jTc,kTc],tSc,lTc,mTc));aPa().ha(WSc).ha(XSc).ha(YSc).ha(ZSc).ha($Sc).ha(aTc).wa(wSc).ra()},nTc=function(){this.Na=0};w(nTc,H);nTc.prototype.Hb=function(b){return H.prototype.ha.call(this,b)};
-var oTc,pTc,qTc,rTc,sTc,tTc,uTc,vTc=function(b,c){var d=new nTc;d.ra=b;d.Na=c;return d},wTc=function(){wTc=m();oTc=vTc("Wj",0);pTc=vTc("Xj",1);qTc=vTc("Yj",2);rTc=vTc("Zj",3);sTc=vTc("$j",4);tTc=vTc(qf,5);uTc=vTc("bk",6)},xTc=function(){this.Na=0};w(xTc,H);xTc.prototype.Hb=function(b){return H.prototype.ha.call(this,b)};var yTc,zTc,ATc,BTc,CTc,DTc,ETc,FTc,GTc,HTc,ITc,JTc,KTc,LTc,MTc,NTc,CL=function(b,c,d,e){var f=new xTc;f.ra=b;f.Na=c;f.wa=d;f.Aa=e;return f},OTc,FL,GL,PTc=function(){t
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+class Google_Service_Compute_InstanceGroupAggregatedListWarningData extends Google_Model
+{
+  public $key;
+  public $value;
+
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}

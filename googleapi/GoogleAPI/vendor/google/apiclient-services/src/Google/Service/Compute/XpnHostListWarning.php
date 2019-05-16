@@ -15,36 +15,42 @@
  * the License.
  */
 
-class Google_Service_Compute_InterconnectLocation extends Google_Collection
+class Google_Service_Compute_XpnHostListWarning extends Google_Collection
 {
-  protected $collection_key = 'regionInfos';
-  public $address;
-  public $availabilityZone;
-  public $city;
-  public $continent;
-  public $creationTimestamp;
-  public $description;
-  public $facilityProvider;
-  public $facilityProviderFacilityId;
-  public $id;
-  public $kind;
-  public $name;
-  public $peeringdbFacilityId;
-  protected $regionInfosType = 'Google_Service_Compute_InterconnectLocationRegionInfo';
-  protected $regionInfosDataType = 'array';
-  public $selfLink;
+  protected $collection_key = 'data';
+  public $code;
+  protected $dataType = 'Google_Service_Compute_XpnHostListWarningData';
+  protected $dataDataType = 'array';
+  public $message;
 
-  public function setAddress($address)
+  public function setCode($code)
   {
-    $this->address = $address;
+    $this->code = $code;
   }
-  public function getAddress()
+  public function getCode()
   {
-    return $this->address;
+    return $this->code;
   }
-  public function setAvailabilityZone($availabilityZone)
+  /**
+   * @param Google_Service_Compute_XpnHostListWarningData
+   */
+  public function setData($data)
   {
-    $this->availabilityZone = $availabilityZone;
+    $this->data = $data;
   }
-  public function getAvailabilityZone()
-  
+  /**
+   * @return Google_Service_Compute_XpnHostListWarningData
+   */
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setMessage($message)
+  {
+    $this->message = $message;
+  }
+  public function getMessage()
+  {
+    return $this->message;
+  }
+}

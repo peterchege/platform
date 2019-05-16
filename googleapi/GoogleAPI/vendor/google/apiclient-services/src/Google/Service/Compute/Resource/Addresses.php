@@ -1,83 +1,206 @@
-er (0x8876086c).
-  error 2019-05-15 11:21:55.094      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.156      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.189      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.405      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.455      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.474      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.670      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.836      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:55.944      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.028      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.065      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.085      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.094      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.094      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.094      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.151      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.170      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.189      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.201      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.226      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.238      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.289      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.324      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.369      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.419      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.435      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.452      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.501      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.534      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.667      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.697      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:56.764      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-   info 2019-05-15 11:21:56.938       ctrl   1612   8828                    app.ctrl_clip_comp - Got a text offer.
-   info 2019-05-15 11:21:56.938       ctrl   1612   8828                    app.ctrl_clip_comp - Text offer accepted.
-  error 2019-05-15 11:21:57.285      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.321      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.340      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.357      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.381      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.388      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.428      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.442      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.470      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.502      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.535      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.558      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.560      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.885      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.902      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.917      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:57.999      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:58.011      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:58.013      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:58.202      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:58.973      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:58.987      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.039      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.062      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.090      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.132      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.158      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.170      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.200      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.201      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.338      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.353      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.620      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.652      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:21:59.986      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.249      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.275      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.320      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.356      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.389      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.706      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.864      front   9072   7440                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.903      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:00.946      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:01.442      front   9072   4308                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:01.490      front   9072   2612                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:01.533      front   9072   9080                 desk_rt.d3d_view.port - Could not render (0x8876086c).
-  error 2019-05-15 11:22:01.567      front   9072   4308                 desk_rt.d3d_view
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+/**
+ * The "addresses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google_Service_Compute(...);
+ *   $addresses = $computeService->addresses;
+ *  </code>
+ */
+class Google_Service_Compute_Resource_Addresses extends Google_Service_Resource
+{
+  /**
+   * Retrieves an aggregated list of addresses. (addresses.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either =,
+   * !=, >, or <.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named example-instance by specifying name != example-instance.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * scheduling.automaticRestart = false to include instances only if they are not
+   * scheduled for automatic restarts. You can use filtering on nested fields to
+   * filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example, (scheduling.automaticRestart = true) (cpuPlatform =
+   * "Intel Skylake"). By default, each expression is an AND expression. However,
+   * you can include AND and OR expressions explicitly. For example, (cpuPlatform
+   * = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell") AND
+   * (scheduling.automaticRestart = true).
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * maxResults, Compute Engine returns a nextPageToken that can be used to get
+   * the next page of results in subsequent list requests. Acceptable values are 0
+   * to 500, inclusive. (Default: 500)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using orderBy="creationTimestamp desc". This sorts results based on the
+   * creationTimestamp field in reverse chronological order (newest result first).
+   * Use this to sort resources like operations so that the newest operation is
+   * returned first.
+   *
+   * Currently, only sorting by name or creationTimestamp desc is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set pageToken to
+   * the nextPageToken returned by a previous list request to get the next page of
+   * results.
+   * @return Google_Service_Compute_AddressAggregatedList
+   */
+  public function aggregatedList($project, $optParams = array())
+  {
+    $params = array('project' => $project);
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', array($params), "Google_Service_Compute_AddressAggregatedList");
+  }
+  /**
+   * Deletes the specified address resource. (addresses.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $address Name of the address resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Google_Service_Compute_Operation
+   */
+  public function delete($project, $region, $address, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'address' => $address);
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', array($params), "Google_Service_Compute_Operation");
+  }
+  /**
+   * Returns the specified address resource. (addresses.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $address Name of the address resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Address
+   */
+  public function get($project, $region, $address, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'address' => $address);
+    $params = array_merge($params, $optParams);
+    return $this->call('get', array($params), "Google_Service_Compute_Address");
+  }
+  /**
+   * Creates an address resource in the specified project using the data included
+   * in the request. (addresses.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param Google_Service_Compute_Address $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Google_Service_Compute_Operation
+   */
+  public function insert($project, $region, Google_Service_Compute_Address $postBody, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'postBody' => $postBody);
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', array($params), "Google_Service_Compute_Operation");
+  }
+  /**
+   * Retrieves a list of addresses contained within the specified region.
+   * (addresses.listAddresses)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either =,
+   * !=, >, or <.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named example-instance by specifying name != example-instance.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * scheduling.automaticRestart = false to include instances only if they are not
+   * scheduled for automatic restarts. You can use filtering on nested fields to
+   * filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example, (scheduling.automaticRestart = true) (cpuPlatform =
+   * "Intel Skylake"). By default, each expression is an AND expression. However,
+   * you can include AND and OR expressions explicitly. For example, (cpuPlatform
+   * = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell") AND
+   * (scheduling.automaticRestart = true).
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * maxResults, Compute Engine returns a nextPageToken that can be used to get
+   * the next page of results in subsequent list requests. Acceptable values are 0
+   * to 500, inclusive. (Default: 500)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using orderBy="creationTimestamp desc". This sorts results based on the
+   * creationTimestamp field in reverse chronological order (newest result first).
+   * Use this to sort resources like operations so that the newest operation is
+   * returned first.
+   *
+   * Currently, only sorting by name or creationTimestamp desc is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set pageToken to
+   * the nextPageToken returned by a previous list request to get the next page of
+   * results.
+   * @return Google_Service_Compute_AddressList
+   */
+  public function listAddresses($project, $region, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region);
+    $params = array_merge($params, $optParams);
+    return $this->call('list', array($params), "Google_Service_Compute_AddressList");
+  }
+}

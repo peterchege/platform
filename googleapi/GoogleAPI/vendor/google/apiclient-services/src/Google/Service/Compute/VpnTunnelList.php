@@ -15,36 +15,18 @@
  * the License.
  */
 
-class Google_Service_Compute_LicenseCode extends Google_Collection
+class Google_Service_Compute_VpnTunnelList extends Google_Collection
 {
-  protected $collection_key = 'licenseAlias';
-  public $creationTimestamp;
-  public $description;
+  protected $collection_key = 'items';
   public $id;
+  protected $itemsType = 'Google_Service_Compute_VpnTunnel';
+  protected $itemsDataType = 'array';
   public $kind;
-  protected $licenseAliasType = 'Google_Service_Compute_LicenseCodeLicenseAlias';
-  protected $licenseAliasDataType = 'array';
-  public $name;
+  public $nextPageToken;
   public $selfLink;
-  public $state;
-  public $transferable;
+  protected $warningType = 'Google_Service_Compute_VpnTunnelListWarning';
+  protected $warningDataType = '';
 
-  public function setCreationTimestamp($creationTimestamp)
-  {
-    $this->creationTimestamp = $creationTimestamp;
-  }
-  public function getCreationTimestamp()
-  {
-    return $this->creationTimestamp;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
   public function setId($id)
   {
     $this->id = $id;
@@ -52,6 +34,20 @@ class Google_Service_Compute_LicenseCode extends Google_Collection
   public function getId()
   {
     return $this->id;
+  }
+  /**
+   * @param Google_Service_Compute_VpnTunnel
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Google_Service_Compute_VpnTunnel
+   */
+  public function getItems()
+  {
+    return $this->items;
   }
   public function setKind($kind)
   {
@@ -61,27 +57,13 @@ class Google_Service_Compute_LicenseCode extends Google_Collection
   {
     return $this->kind;
   }
-  /**
-   * @param Google_Service_Compute_LicenseCodeLicenseAlias
-   */
-  public function setLicenseAlias($licenseAlias)
+  public function setNextPageToken($nextPageToken)
   {
-    $this->licenseAlias = $licenseAlias;
+    $this->nextPageToken = $nextPageToken;
   }
-  /**
-   * @return Google_Service_Compute_LicenseCodeLicenseAlias
-   */
-  public function getLicenseAlias()
+  public function getNextPageToken()
   {
-    return $this->licenseAlias;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
+    return $this->nextPageToken;
   }
   public function setSelfLink($selfLink)
   {
@@ -91,4 +73,18 @@ class Google_Service_Compute_LicenseCode extends Google_Collection
   {
     return $this->selfLink;
   }
-  public function set
+  /**
+   * @param Google_Service_Compute_VpnTunnelListWarning
+   */
+  public function setWarning(Google_Service_Compute_VpnTunnelListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return Google_Service_Compute_VpnTunnelListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}

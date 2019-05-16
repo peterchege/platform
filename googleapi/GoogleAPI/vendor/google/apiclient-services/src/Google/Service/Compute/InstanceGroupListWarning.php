@@ -1,5 +1,56 @@
-tiveElement;b!=this.Ka&&this.Ka.focus()}else Sr||Ur&&$r(14)?this.Aa.Jb().body.focus():(this.Aa.getWindow().frameElement&&this.Aa.getWindow().frameElement.focus(),this.Aa.getWindow().focus(),(b=this.Aa.Jb().activeElement)&&b.blur())}catch(c){}finally{}};
-var ZXc=function(b,c,d){d=b.Aa.Rk(d);for(var e=d.length,f=0;f<e;f++){var g=d[f];if(g&&cz(g)&&!b.Aa.contains(g,c)&&(g=Py(g),1E4>Math.abs(g.x)&&1E4>Math.abs(g.y)))return!0}return!1};UL.prototype.focus=function(b){ZXc(this,b,"Kj")||ZXc(this,b,Lha)||(b.focus(),YXc(this,b).ha=!0)};UL.prototype.Ba=function(){if(!this.Aa)return null;try{var b=this.Aa.Jb().activeElement}catch(c){}return b};
-UL.prototype.scrollIntoView=function(b,c,d,e){this.dispatchEvent("O");var f=YXc(this,b);var g=TXc(f),k=f.Ea().offsetHeight-0,l=g+k;var n=b.offsetHeight;b=Sy(b);f.Ca||(b-=Sy(f.ra),b+=TXc(f));var q=b+n;e=e||0;d||b<g||q>l?(c=Math.max(0,(0==c?q-k+5:1==c?(b+q-k)/2:b-5)-e),5>=Math.abs(c-TXc(f))&&50<n&&(c=-1),n=c):n=-1;0<=n&&UXc(f,n)};var $Xc=function(b,c){return TXc(YXc(b,c))};UL.prototype.wa=function(b,c){UXc(YXc(this,c),b)};
-UL.prototype.$a=function(b){var c=b.target;if(32==b.keyCode&&(!c||this.Pa.contains(c.tagName))){c=YXc(this,c);var d=.9*c.Ea().offsetHeight;b.shiftKey?UXc(c,TXc(c)-d):UXc(c,TXc(c)+d)}};UL.prototype.Fa=function(b){b!=this.Ca&&(this.Ca=b,this.dispatchEvent("N"))};UL.prototype.Ga=function(){var b=this.Ba();return null!=b?this.kb.contains(b.tagName)||b.tagName==Nc&&b.contentEditable==no?!1:!0:!0};
-var aYc=function
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+class Google_Service_Compute_InstanceGroupListWarning extends Google_Collection
+{
+  protected $collection_key = 'data';
+  public $code;
+  protected $dataType = 'Google_Service_Compute_InstanceGroupListWarningData';
+  protected $dataDataType = 'array';
+  public $message;
+
+  public function setCode($code)
+  {
+    $this->code = $code;
+  }
+  public function getCode()
+  {
+    return $this->code;
+  }
+  /**
+   * @param Google_Service_Compute_InstanceGroupListWarningData
+   */
+  public function setData($data)
+  {
+    $this->data = $data;
+  }
+  /**
+   * @return Google_Service_Compute_InstanceGroupListWarningData
+   */
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setMessage($message)
+  {
+    $this->message = $message;
+  }
+  public function getMessage()
+  {
+    return $this->message;
+  }
+}

@@ -1,10 +1,89 @@
-his.ha.lq(),f=e.og();if(!this.ra){var g=this.ha.Ta(),k=e.we().getType(),l=e.Fa,n=e.Aa;var q=null;var u=f.Fj();u&&(u=u.we(),"undefined"!=typeof QMc&&u instanceof QMc&&(q=u.ra));this.ra=new KMc(g,k,l,n,e,q)}"undefined"!=typeof lL&&f instanceof lL?f.cbb(f.iu,c.rowIndex):f.uo(c.rowIndex);this.ra.qL(d,c.rowIndex,b);b.stopPropagation();b.preventDefault();return!0}; PMc.prototype.dispose=function(){gs(this.ra)};
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
 
-v().Ia();
-}catch(e){_DumpException(e)}
-/*_M:a*/
-try{
-var wNc=" account.",xNc=" and added to ",yNc=" are selected.",zNc=' custom="1"',ANc=" features have failed to load.",BNc=' style="display: none"',CNc=' style="display:none"',DNc='" colspan="',ENc='" idlink class="',FNc='" role="button" tabindex="0">',GNc='" role="link" tabindex=0>search options</span> such as sender, date, size and more.',HNc='" selector="',INc='" style="display:none;"></div><div id="',JNc='" tabindex="0" class="',KNc='" tabindex="0" role="link">',LNc='" target="_blank" href="',MNc=
-'" target="_top" class="',NNc='"></div></td>',ONc='"></td></tr>',PNc='"><a class="',QNc='"><colgroup><col class="',RNc='"><form id="',SNc='"><h2 id="',TNc='"><input type="text" id="',UNc='"><span>',VNc='">Clear selection</span>',WNc="&nbsp;&nbsp;",XNc="//ssl.gstatic.com/s2/contacts/images/NoPicture.gif",YNc="</b> conversations in ",ZNc="</b> messages in ",$Nc="</div></td>",aOc='</h2><div class="',bOc='</span> <span id="',cOc="</span>&ndash;",dOc="</span></span> of ",eOc="</td><td>",fOc='<a target="_blank" class="',
-pL='<a target="_blank" href="',gOc='<div><div id="',hOc='<tr id="',iOc="> wrote:",jOc="Action undone.",kOc="Add Bcc recipients",lOc="Add Cc recipients",mOc="All <b>",nOc="Connecting in ",oOc="Create a new label",pOc="DOMContentLoaded",qL="LOADING",qOc="Next",rOc="No messages matched your search. Try using ",sOc="No thanks",tOc="Previous",uOc="Report phishing",vOc="Select all <b>",wOc="Sign out",xOc="Subject",yOc="T-I-J3 CB",zOc="There are requests to the server pending. You may lose recent changes by navigating away.",
-AOc="Try now",BOc="Unsubscribe",COc="WAITING_FOR_READY",DOc="WAITING_FOR_RETRY",EOc="_GM_getAndRemoveTearoffData",FOc="_GM_getComponent",GOc="active_section_changed",HOc="aec",IOc="answer_archive",JOc="background/laststarttime",KOc="basicwh
+class Google_Service_Compute_InstanceAggregatedList extends Google_Model
+{
+  public $id;
+  protected $itemsType = 'Google_Service_Compute_InstancesScopedList';
+  protected $itemsDataType = 'map';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = 'Google_Service_Compute_InstanceAggregatedListWarning';
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param Google_Service_Compute_InstancesScopedList
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Google_Service_Compute_InstancesScopedList
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param Google_Service_Compute_InstanceAggregatedListWarning
+   */
+  public function setWarning(Google_Service_Compute_InstanceAggregatedListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return Google_Service_Compute_InstanceAggregatedListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}

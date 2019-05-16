@@ -1,5 +1,90 @@
-l,null,c);return d},VUc=function(){VUc=m();WUc((xL(),wL),(lC(),kC))},XUc=function(b,c,d){VUc();var e=new TUc;UUc(e,b,c.ra(),c,d);return e},YUc=function(b,c,d,e){b.ha.set(c,d);if(e||!b.ra)b.ra=c},ZUc=function(b,c){b.Xe=c},PL=function(b,c,d,e,f){this.tf=b;this.ha=c;(!Kp(c)||0>=c)&&Mw(Error("Ny`"+c+"`"+(b&&b.getPath())));this.Aa=1==d;this.ra=e;this.wa=f};
-PL.prototype.Lt=p(Un);PL.prototype.toString=function(){return String(this.ha)};var $Uc=function(b){if(b.Aa)b=!1;else{var c;if(c=!!b.tf)a:switch(c=b.tf,c.Daa){case "RETRY":c=!0;break a;case Vc:c=!1;break a;case nfa:c=b.ra||b.tf.oZ;c=500<=b.ha&&3>c?!0:!1;break a;default:throw Error("Oy`"+c.Daa);}b=c}return b},aVc=function(b,c){var d=b.getContext().wd(Zx);d&&d.Fa();(c=b.Yt(b.iba(),c))&&b.Bb.u1a(c.Ca);b.dD()},bVc=function(b){kB(this,b,0,-1,null,null)};z(bVc,jB);
-var cVc=function(b,c){if(b.ra){var d=b.Ba.call(null);if(Kp(d)){var e=c.Aa;e?(c=e.elements[b.ra],c||(c=e.ownerDocument.createElement(jj),c.setAttribute(Uk,b.ra),c.setAttribute(Fi,!0),e.appendChild(c)),c.value=d):oG(c,b.ra,d)}}},dVc=function(b){tJb(b);return bq(b.ha)},eVc=function(b,c){return(b=b.ra.get(c))?b.value:void 0},fVc=function(b,c){return!!(!b&&!c||b&&c&&b.equals(c))},gVc=function(b){return!!b.getParam(Hna)},hVc=function(b,c){var d=qKb;c=Xq(c);return!c.match(/[\s\xa0]/)&&null==c.match(ZJb)&&
-(Tq(c,Psa)||Tq(c,"l:")||Tq(c,"is:")||Tq(c,"in:"))&&(c=c.substr(c.indexOf(":")+1))&&c!=gj?(d=(b=b.ln(c))?b.we():Tq(c,"^")?d.wa[c]:(d=d.Aa[c])?d:$Jb.contains(c)?null:oKb(c),d):null},iVc=function(b){var c="";b.getData(Sla)&&(b=new lw(xw),b.ha==Hoc&&(b.ra.clear(),mw(b,Ui),qw(b,""),c=b.toString()));return c+"?logout&hl=en&hlor"},jVc=function(b){hMb(b);return b.OC},kVc=function(b,c){RG(b,c);b.setVisible(!0)},lVc=function(b,c,d){if(b.ha[d])throw Error("EA`"+d);b.Ar.push(d);b.ha[d]=c},mVc=function(b){b=b.getParam(Ko);
-return!!b&&b!=wo},nVc=function(b){return b.getParam(Ko)==wo},oVc=function(b,c){if(!b.Ba||b.kb||!c.Ba||c.kb||0<c.ra.length||!mVc(b)&&!nVc(b)||!mVc(c)&&!nVc(c)||!fVc(b.we(),c.we())||c.Aa)return!1;if(mVc(c)){a:if(mVc(b))c=b;else{for(c=0;c<b.ra.length;c++)if(mVc(b.ra[c])){c=b.ra[c];break a}c=null}return!c}if(nVc(c)){a:if(!nVc(b)){b=b.ra;for(var d=0;d<b.length;d++)if(nVc(b[d])){b=b[d];break a}b=null}return b?1==b.getHandl
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+class Google_Service_Compute_InstanceGroupList extends Google_Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = 'Google_Service_Compute_InstanceGroup';
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = 'Google_Service_Compute_InstanceGroupListWarning';
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param Google_Service_Compute_InstanceGroup
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Google_Service_Compute_InstanceGroup
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param Google_Service_Compute_InstanceGroupListWarning
+   */
+  public function setWarning(Google_Service_Compute_InstanceGroupListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return Google_Service_Compute_InstanceGroupListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}

@@ -179,9 +179,13 @@ font-size: 14px;
 }
 
 @media (max-width: 768px) {
- 
+    #intro h2 {
+    }
 }
 
+#intro p {
+  
+}
 
 @media (min-width: 1024px) {
     #intro p {
@@ -263,7 +267,7 @@ font-size: 14px;
 /* ABOUT US */
 
 .apollo{
-margin: 50px auto;
+margin: 7% auto;
 text-align: center;
 }
 
@@ -273,14 +277,6 @@ text-align: center;
     height: 4px;
     background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158));
     border-radius:50%;
-}
-
-.header-line1 {
-    width: 250px;
-    margin: 0 auto;
-    height: 4px;
-    background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158));
-    border-radius: 50%;
 }
 
 /* PRODUCTS */
@@ -304,7 +300,7 @@ text-align: center;
 }
 
 .content-offer{
-    padding-top: 20px;
+    padding-top: 50px;
 
 }
 
@@ -331,15 +327,13 @@ text-align: center;
    -webkit-box-shadow: 2px 6px 34px -2px rgba(0, 0, 0, 0.33);
    -moz-box-shadow: 2px 6px 34px -2px rgba(0, 0, 0, 0.33);
    box-shadow: 2px 6px 34px -2px rgba(0, 0, 0, 0.33);
+
+
+    
     
 }
 
-@media (max-width: 767.98px) {
-    .product-box{
-        width: 100%;
-        margin-bottom: 5%;
-    }
-}
+
 
 .prd-1{
     background-image: url(../images/baby.jpg);

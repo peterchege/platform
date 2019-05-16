@@ -1,4 +1,39 @@
- "+M(Tha):"")+(g.tca?" "+M("iy"):"")+hb+M(kj)+h+L(g.caption)+Qb+(g.Qe?dc+M(kd)+" "+M("T5")+" "+M(g.Qe)+Vba:"")+(b?dc+M("akf")+Pa:"")+Kb}return K(d)},sYc=function(){Pw.call(this,"U")};z(sYc,Pw);
-var tYc=function(b,c){hp.call(this,b);this.wa=!!c;this.ra=b.get(qy);this.ha=Aeb(b);this.Ba=HE(b);this.getHandler().listen(this.ra,"P",this.lUc).listen(this.ra,"Q",this.Ca).listen(this.ha,"R",this.kUc)};z(tYc,hp);t=tYc.prototype;t.dU=function(){tYc.La.dU.call(this);CE(this.Nb,"CX");uYc(this)};t.wb=function(){tYc.La.wb.call(this);rz(this.getHandler().listen(this.Ea(),Lk,this.Swb).listen(this.Ea(),Hk,this.Rwb),this.Ea(),this.onAction);vYc(this)};
-t.Bc=function(){yZa(this.getHandler().Wc(this.Ea(),Lk,this.Swb).Wc(this.Ea(),Hk,this.Rwb),this.Ea(),this.onAction);tYc.La.Bc.call(this)};t.Swb=function(b){for(var c=oWc(this.ra),d,e=0;d=c[e];e++){var f=this.Ea(d.id);if(Cx(f,b.target)){CE(f,"T2");this.wa&&(c=this.ha.getData(d).ha,b.target==c&&CE(c,"akg"));break}}};
-t.Rwb=function(b){for(var c=oWc(this.ra),d,e=0;
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+class Google_Service_Compute_InstanceGroupListWarningData extends Google_Model
+{
+  public $key;
+  public $value;
+
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}

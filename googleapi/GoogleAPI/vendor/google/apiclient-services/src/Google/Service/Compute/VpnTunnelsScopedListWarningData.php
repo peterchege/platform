@@ -15,19 +15,25 @@
  * the License.
  */
 
-class Google_Service_Compute_InterconnectLocationListWarning extends Google_Collection
+class Google_Service_Compute_VpnTunnelsScopedListWarningData extends Google_Model
 {
-  protected $collection_key = 'data';
-  public $code;
-  protected $dataType = 'Google_Service_Compute_InterconnectLocationListWarningData';
-  protected $dataDataType = 'array';
-  public $message;
+  public $key;
+  public $value;
 
-  public function setCode($code)
+  public function setKey($key)
   {
-    $this->code = $code;
+    $this->key = $key;
   }
-  public function getCode()
+  public function getKey()
   {
-    return $this->code;
-  
+    return $this->key;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}

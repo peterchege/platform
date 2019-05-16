@@ -15,36 +15,42 @@
  * the License.
  */
 
-class Google_Service_Compute_License extends Google_Model
+class Google_Service_Compute_VpnTunnelListWarning extends Google_Collection
 {
-  public $chargesUseFee;
-  public $creationTimestamp;
-  public $description;
-  public $id;
-  public $kind;
-  public $licenseCode;
-  public $name;
-  protected $resourceRequirementsType = 'Google_Service_Compute_LicenseResourceRequirements';
-  protected $resourceRequirementsDataType = '';
-  public $selfLink;
-  public $transferable;
+  protected $collection_key = 'data';
+  public $code;
+  protected $dataType = 'Google_Service_Compute_VpnTunnelListWarningData';
+  protected $dataDataType = 'array';
+  public $message;
 
-  public function setChargesUseFee($chargesUseFee)
+  public function setCode($code)
   {
-    $this->chargesUseFee = $chargesUseFee;
+    $this->code = $code;
   }
-  public function getChargesUseFee()
+  public function getCode()
   {
-    return $this->chargesUseFee;
+    return $this->code;
   }
-  public function setCreationTimestamp($creationTimestamp)
+  /**
+   * @param Google_Service_Compute_VpnTunnelListWarningData
+   */
+  public function setData($data)
   {
-    $this->creationTimestamp = $creationTimestamp;
+    $this->data = $data;
   }
-  public function getCreationTimestamp()
+  /**
+   * @return Google_Service_Compute_VpnTunnelListWarningData
+   */
+  public function getData()
   {
-    return $this->creationTimestamp;
+    return $this->data;
   }
-  public function setDescription($description)
+  public function setMessage($message)
   {
-    $this->description = $descripti
+    $this->message = $message;
+  }
+  public function getMessage()
+  {
+    return $this->message;
+  }
+}
