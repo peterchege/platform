@@ -1,108 +1,3 @@
-<?php
-
-require_once 'inc/db.php';
-require_once 'inc/functions.php';
-require_once 'inc/sessions.php';
-
-//linkedin signup/login
-require_once 'linkedin2/init.php';
-
-//google login
-require_once 'googleapi/config.php';
-$loginURL = $gClient->createAuthUrl();
-//echo $loginURL;
-
-//twitter login
-require 'twitter_oauth/api/twitteroauth/autoload.php';
-use Abraham\TwitterOAuth\TwitterOAuth;
-
-define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
-define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
-define('OAUTH_CALLBACK', 'http://localhost/apa/projects/website/twitter_oauth/api/callback.php');
-
-if (!isset($_SESSION['access_token'])) {
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
-    $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
-
-    $_SESSION['oauth_token'] = $request_token['oauth_token'];
-    $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
-    $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
-    //echo $url;
-} else {
-    $access_token = $_SESSION['access_token'];
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
-    $user = $connection->get('account/verify_credentials');
-
-
-    $_SESSION['id'] = $user->id;
-    $twitter_id = $_SESSION['id'];
-    $_SESSION['name'] = $user->name;
-    $twitter_name = $_SESSION['name'];
-    $_SESSION['profile_image_url'] = $user->profile_image_url;
-    $twitter_profile_image = $_SESSION['profile_image_url'];
-
-    //    Insert into Database
-    $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
-    if (mysqli_num_rows($check) > 0) {
-        //        user already registered so redirect to job portal
-        //header('location:homepage.html');
-
-    } else {
-        //        user doesn't exist so enter details to database
-        $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
-        $_SESSION['successMessage'] = 'Welcome to your job portal.';
-        echo "<script>
-    window.open('','_SELF')
-    </script>";
-        exit;
-    }
-
-
-    //	echo '<pre>';
-    //	print_r($user);
-    //    echo '</pre>';
-}
-
-
-//normal registration
-if (isset($_POST['submit_registration'])) {
-    $applicant_id = randomstring(20);
-    $first_name = mysqli_real_escape_string($db, $_POST['first_name']);
-    $second_name = mysqli_real_escape_string($db, $_POST['second_name']);
-    $email = mysqli_real_escape_string($db, $_POST['email']);
-    $password = mysqli_real_escape_string($db, $_POST['password']);
-    $confirm_password = mysqli_real_escape_string($db, $_POST['confirm_password']);
-
-    if (empty($first_name) || empty($second_name) || empty($email) || empty($password) || empty($confirm_password)) {
-        $errors[] = 'All fields required.';
-    }
-
-    if (strlen($password) < 6 || strlen($confirm_password) < 6) {
-        $errors[] = 'Password should consist of at least six characters.';
-    }
-
-    if ($password !== $confirm_password) {
-        $errors[] = 'Passwords do not match.';
-    }
-
-    $emailCheck = $db->query("SELECT email FROM apa_job_applicants WHERE email = '$email'");
-    if (mysqli_num_rows($emailCheck) > 0) {
-        $errors[] = 'Email already exists. Please choose another.';
-    }
-
-    if (empty($errors)) {
-
-        $confirm_password = password_hash($confirm_password, PASSWORD_DEFAULT);
-        $db->query("INSERT INTO apa_job_applicants ( applicant_id, first_name, second_name, email, confirm_password, social_media_platform) 
-                                            VALUES('$applicant_id', '$first_name', '$second_name', '$email', '$confirm_password', 'normal' ) ");
-        $_SESSION['successMessage'] = 'Registered successfully. Please login.';
-        echo '<script type="text/javascript">
-        window.open("career_login.php", "_SELF");
-    </script>';
-        exit();
-    }
-}
-?>
 <!doctype html>
 <html lang="en">
 
@@ -113,26 +8,40 @@ if (isset($_POST['submit_registration'])) {
 
     <title>APA INSURANCE</title>
 
-    <?php include 'views/head_links.php'; ?>
+    <!-- Google Font API  -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+    <!-- My css copy -->
+    <link rel="stylesheet" href="css/test.css" />
+    <link rel="stylesheet" href="css/career.css" />
+
+     <!-- My js copy -->
+    <script type="text/javascript" src="js/workexperience.js"></script>
+
+    <!-- Font Awsome 5.7.2 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Asset CSS Files -->
+    <link href="asset/fontawesome-free-5.7.2-web/css/fontawesome.css" rel="stylesheet">
+    <link href="asset/fontawesome-free-5.7.2-web/css/brands.css" rel="stylesheet">
+    <link href="asset/fontawesome-free-5.7.2-web/css/solid.css" rel="stylesheet">
+    <link href="asset/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/bootstrap-4.3.1/css/bootstrap.min.css">
+
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
 
 
 </head>
-
-<!--Start of Tawk.to Script-->
-<!-- <script type="text/javascript">
-var Tawk_API = Tawk_API || {},
-    Tawk_LoadStart = new Date();
-(function() {
-    var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/5cc6aace4aa6620df2cfa5f1/default';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
-</script> -->
-<!--End of Tawk.to Script-->
 
 <body>
 
@@ -444,84 +353,186 @@ var Tawk_API = Tawk_API || {},
 
 
     <div class="container">
+    <br> 
 
+    <!-- SUMMARY FORM  -->
         <div class="row">
-            <div class="col-8 job-box">
+            <div class="col-10 job-box">
                 <div class="job-description text-center">
-                    <!-- <img class="img-fluid login-logo" src="images/logon.jpg" alt=""> -->
+                        <h2>SUMMARY</h2>
+                
+                        <!-- PERSONAL INFORMATION   -->
 
-                    <h2>CREATE ACCOUNT</h2>
-                    <?php
-                    echo errorMessage();
-                    echo successMessage();
-                    if (!empty($errors)) {
-                        echo display_errors($errors);
-                    }
-                    ?>
-                    <form class="text-left" action="career_register.php" method="POST">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">First Name</label>
-                            <input type="text" name="first_name" class="form-control my-input"
-                                aria-describedby="emailHelp" placeholder="Enter Name"
-                                value="<?= ((isset($first_name)) ? $first_name : ''); ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Second Name</label>
-                            <input type="text" name="second_name" class="form-control my-input"
-                                aria-describedby="emailHelp" placeholder="Doe"
-                                value="<?= ((isset($second_name)) ? $second_name : ''); ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" name="email" class="form-control my-input" aria-describedby="emailHelp"
-                                placeholder="Enter email" value="<?= ((isset($email)) ? $email : ''); ?>">
-                            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
-                                    anyone else.</small> -->
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" name="password" class="form-control my-input"
-                                id="exampleInputPassword1" placeholder="Password"
-                                value="<?= ((isset($password)) ? $password : ''); ?>">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Confirm Password</label>
-                            <input type="password" name="confirm_password" class="form-control my-input"
-                                id="exampleInputPassword2" placeholder="Password"
-                                value="<?= ((isset($confirm_password)) ? $confirm_password : ''); ?>">
-                        </div>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <p1>PERSONAL INFORMATION</p1>
+                                    </li>
+                                    <li class="breadcrumb-item active" aria-current="page"><a href="#">EDIT</a></li>
+                                </ol>
+                            </nav>
+                            <br>
+                            <div class="personal text-left">
+                                <hr>
+                                <p><b>FULL NAME :</b> &nbsp; peter chege kinuthia</p>
+                                <hr>
+                                <p><b>COUNTRY :</b> &nbsp; </p>
+                                <hr>
+                                <p><b>STATE/COUNTY/PROVINCE :</b> &nbsp; </p>
+                                <hr>
+                                <p><b>REGION/CITY :</b> &nbsp; </p>
+                                <hr>
+                                <p><b>PHONE NUMBER :</b> &nbsp; </p>
+                                <hr>
+                                <p><b>EMAIL :</b> &nbsp; </p>
+                                <hr>
+                                <p><b>SALARY EXPECTATION :</b> &nbsp; </p>
+                                <hr>
+                                 
+                                <br>
+                            </div>
 
-                        <div class=" text-center new-bt">
-                            <button class="btn btn-primary" type="submit" name="submit_registration">Register</button>
+                          <!-- EMPLOYMENT HISTORY  -->
+                             <nav aria-label="breadcrumb">
+                                 <ol class="breadcrumb">
+                                     <li class="breadcrumb-item">
+                                         <p1>EMPLOYMENT HISTORY</p1>
+                                     </li>
+                                     <li class="breadcrumb-item active" aria-current="page"><a href="#">EDIT</a></li>
+                                 </ol>
+                             </nav>
+                             <br>
+                             <div class="personal text-left">
+                                 <p><b>COMPANY :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>TITLE :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>START DATE :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>END DATE :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>ACHIEVEMENT :</b> &nbsp; </p>
+                                 <hr>
+                                 
+                             </div>
+                             <br>
+
+                             <!-- EDUCATION AMD PROFESSIONAL QUALIFICATION -->
+
+                             <nav aria-label="breadcrumb">
+                                 <ol class="breadcrumb">
+                                     <li class="breadcrumb-item">
+                                         <p1>EDUCATION AMD PROFESSIONAL QUALIFICATION</p1>
+                                     </li>
+                                     <li class="breadcrumb-item active" aria-current="page"><a href="#">EDIT</a></li>
+                                 </ol>
+                             </nav>
+                             <br>
+                             <div class="personal text-left">
+                                 <h4>Education 1</h4>
+                                 <p><b>INSTUTION :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>PROGRAM :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>EDUCATION LEVEL :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>START DATE :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>GRADUATION DATE :</b> &nbsp; </p>
+                                 <hr>
+                             </div><br>
+                             <br>
+                             <div class="personal text-left">
+                                 <h4>Certificate 1</h4>
+                                 <p><b>INSTUTION :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>PROGRAM :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>EDUCATION LEVEL :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>START DATE :</b> &nbsp; </p>
+                                 <hr>
+                                 <p><b>GRADUATION DATE :</b> &nbsp; </p>
+                                 <hr>
+                                 
+                             </div>
+                             <br>
+                    
+                             <!-- FILE ATTACHMENT -->
+                             
+                             <nav aria-label="breadcrumb">
+                                 <ol class="breadcrumb">
+                                     <li class="breadcrumb-item">
+                                         <p1>FILE ATTACHMENT</p1>
+                                     </li>
+                                     <li class="breadcrumb-item active" aria-current="page"><a href="#">EDIT</a></li>
+                                 </ol>
+                             </nav>
+                             <br>
+
+                             <div class="row text-left">
+                                 <div class="uk-overflow-auto">
+                                     <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+                                         <thead>
+                                             <tr>
+                                                 <th class="uk-table-expand">FILE NAME</th>
+                                                 <th class="uk-width-small">DATE</th>
+                                                 <th class="uk-table-shrink uk-text-nowrap">COMMENTS</th>
+                                                 <th class="uk-table-shrink uk-text-nowrap">ACTIONS</th>
+                                             </tr>
+                                         </thead>
+                                         <tbody>
+                                             <tr>
+                                                 <td class="uk-table-link">
+                                                     <a class="uk-link-reset" href="">Degree doc</a>
+                                                 </td>
+                                                 <td class="uk-text-truncate">2/20/19</td>
+                                                 <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                                                 <td><button class="uk-button uk-button-default"
+                                                         type="button">DELETE</button>
+                                                 </td>
+                                             </tr>
+                                             <tr>
+                                                 <td class="uk-table-link">
+                                                     <a class="uk-link-reset" href="">CV</a>
+                                                 </td>
+                                                 <td class="uk-text-truncate">2/20/19</td>
+                                                 <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                                                 <td><button class="uk-button uk-button-default"
+                                                         type="button">DELETE</button>
+                                                 </td>
+                                             </tr>
+                                             <tr>
+                                                 <td class="uk-table-link">
+                                                     <a class="uk-link-reset" href="">Resume</a>
+                                                 </td>
+                                                 <td class="uk-text-truncate">2/20/19</td>
+                                                 <td class="uk-text-nowrap">Lorem ipsum dolor</td>
+                                                 <td><button class="uk-button uk-button-default"
+                                                         type="button">DELETE</button>
+                                                 </td>
+                                             </tr>
+                                         </tbody>
+                                     </table>
+                                  <br>
+
+                                 </div>
+                             </div>
                         </div>
-                        <p><a href="career_login.php">Already have an account? Login</a> </p>
-                        <hr>
-                        <p class="text-center">Register with :</p>
-                        <div class=" text-center new-bt">
-                            <a href="<?= ((isset($loginURL)) ? $loginURL : ''); ?>" class="btn btn-danger g-log"><i
-                                    class="fab fa-google-plus-g"></i> Sign up with gmail</a>
-                        </div>
-                        <div class=" text-center new-bt">
-                            <a href="<?php echo $linkedin->getAuthUrl(); ?>" class="btn btn-primary t-log"><i
-                                    class="fab fa-linkedin-in"></i> Sign up with Linkedin</a>
-                        </div>
-                        <div class=" text-center new-bt">
-                            <a href="<?= ((isset($url)) ? $url : '#'); ?>" class="btn btn-primary t-log"><i
-                                    class="fab fa-twitter"></i> Sign in with Twitter</a>
-                        </div>
-                        <div class=" text-center new-bt">
-                            <a href="facebook/loginFB.php" class="btn btn-primary f-log"><i
-                                    class="fab fa-facebook-f"></i>Sign up with facebook</a>
-                        </div>
-                    </form>
-                    <hr>
-                </div>
             </div>
         </div>
+         <br>
 
-    </div>
+         <div class="col-md-6">
+             <div class="text-center  new-bt">
+                 <a href="#" class="btn btn-primary"><b>SUBMIT</b></a>
+             </div>
+         </div>
+         <!-- end of container -->
+     </div>
+<br><br>
 
-
+  
 
     <!-- =====================================FOOTER===================================== -->
     <footer id="footer">
@@ -582,7 +593,7 @@ var Tawk_API = Tawk_API || {},
                             off Lunga lunga,<br> Westlands Area
                             Nairobi – Kenya <br>
                             Phone: (+254) 0711 045000<br>
-                            Email: info@apainsurance.org<br>
+                            Email:</strong> info@apainsurance.org<br>
                         </p>
                         <br>
                         <div class="social-links">
@@ -610,6 +621,7 @@ var Tawk_API = Tawk_API || {},
     </footer><!-- #footer -->
 
 
+ 
 
     <!-- Optional JavaScript -->
 
