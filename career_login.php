@@ -49,7 +49,7 @@ if (!isset($_SESSION['access_token'])) {
         $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
         $_SESSION['successMessage'] = 'Welcome to your job portal.';
         echo "<script>
-    window.open('','_SELF')
+    window.open('combined_form.php','_SELF')
     </script>";
         exit;
     }

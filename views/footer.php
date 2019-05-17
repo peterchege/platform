@@ -26,7 +26,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-1 col-md-6 footer-links">
+                <div class="col-lg-2 col-md-6 footer-links">
                     <h4>LIFE</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Elimu</a></li>
@@ -68,21 +68,21 @@
 
                 </div>
 
-                <div class="col-lg-3 col-md-4 footer-links">
+                <!-- <div class="col-lg-3 col-md-4 footer-links">
                     <h4></h4>
                     <ul>
                         <iframe allow="microphone;" width="300" height="400"
                             src="https://console.dialogflow.com/api-client/demo/embedded/457c62ee-69de-4cd0-8f92-4a290628c104">
                         </iframe>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     <div class="footer-line">
     </div>
     <div class="container">
-        <div class="copyright"> &copy; Copyright <strong>APA INSURANCE</strong>. All Rights Reserved
+        <div class="copyright"> Copyright &copy; <?= date('Y'); ?> <strong>APA INSURANCE</strong>. All Rights Reserved.
         </div>
     </div>
 </footer><!-- #footer -->

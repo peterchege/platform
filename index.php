@@ -7,16 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
+
     <?php include 'views/head_links.php'; ?>
+
+
 </head>
 
 <body>
 
-    <?php require_once 'views/nav.php'; ?>
+    <!--==========================
+    Header
+  <?php include 'views/nav.php'; ?>
 
     <!--==========================
     Intro Section
-    ============================-->
+  ============================-->
     <section id="intro">
         <div class="intro-container">
             <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel"
@@ -341,13 +346,11 @@
                             We provide room for conferences and private meeting spaces within our spacious and
                             comfortable boardrooms.
                             We also have an ultra-modern auditorium, an entertainment area for office functions and a
-                            training room
-                            for
+                            training room for
                             corporate training.
 
                             We provide all the space you need for all your functions. Each room opens up into a large
-                            balcony
-                            providing
+                            balcony providing
                             a delightful view of Nairobi. There is also ample parking space that is convenient and
                             secure.
                         </p><br>
@@ -386,8 +389,7 @@
                             <h3>REQUEST ASSISTANCE</h3>
                             <P>
                                 We will acknowledge/respond to your queries received from various platforms within the
-                                timelines.
-                                promise
+                                timelines. promise
                                 to respond to all your requests in a professional and timely manner.
                             </P>
                             <div class="load-more">
@@ -428,9 +430,77 @@
 
         </div>
     </div>
+
+    <!-- =====================================MEDIA CENTER===================================== -->
+    <!-- <div class="container-fluid12">
+   <div class="product acess text-center">
+
+     <h1>MEDIA CENTRE</h1>
+     <hr class="line what">
+     <p class="container content-offer">
+       APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group
+       (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility
+       programmes focuses on supporting the needy in our society to improve their lives.
+     </p>
+
+     <div class="container-fluid cont">
+       <div class="row media-content"> -->
+    <!-- <div class="col-md-4 media-image">
+          <img class="img-fluid" src="images/social3.jpg" alt="">
+            <div class="content-media">
+                <h3>APA WINS AT AKI 2019 AWARDS</h3>
+                <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents 
+                  the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
+            </div>
+            <div class="load-more">
+                      <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+        </div> -->
+    <!-- <div class="col-md-4 tx">
+           <img class="img-fluid" src="images/social5.jpg" alt="">
+           <h3>APA WINS AT AKI 2019 AWARDS</h3>
+           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
+             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
+           <div class="load-more">
+             <a href="#" class="btn btn-primary">READ MORE</a>
+           </div>
+         </div>
+
+         <div class="col-md-4 tx">
+           <img class="img-fluid" src="images/social3.jpg" alt="">
+           <h3>APA WINS AT AKI 2019 AWARDS</h3>
+           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
+             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
+           <div class="load-more">
+             <a href="#" class="btn btn-primary">READ MORE</a>
+           </div>
+
+         </div>
+
+         <div class="col-md-4 tx">
+           <img class="img-fluid" src="images/social1.jpg" alt="">
+           <h3>APA WINS AT AKI 2019 AWARDS</h3>
+           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
+             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
+           <div class="load-more">
+             <a href="#" class="btn btn-primary">READ MORE</a>
+           </div>
+         </div>
+
+       </div>
+       <br> <br>
+       <div class="load-more">
+         <a href="#" class="btn btn-danger">LOAD MORE</a>
+       </div>
+
+     </div>
+
+   </div> -->
     </div>
 
+    <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
 
     <!-- Modal -->
