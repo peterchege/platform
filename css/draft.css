@@ -778,6 +778,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
+    background-position: center;
 }
 
 .prd-2:hover {
@@ -791,7 +792,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-3:hover {
@@ -805,7 +806,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-4:hover {
@@ -813,7 +814,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-5 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-01.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -827,12 +828,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-6 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-02.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
+    background-position: center;
 
 }
 
@@ -840,48 +842,34 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(1.12);
 }
 .prd-7 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-03.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-7:hover {
     transform: scale(1.12);
 }
 
-.prd-8 {
-    background-image: url(../images/fruit-big.jpg);
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    transition: transform 1.5s;
-    cursor: pointer;
-
-}
-
-.prd-8:hover {
-    transform: scale(1.12);
-}
-
 .prd-9 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-04.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-9:hover {
     transform: scale(1.12);
 }
 .prd-10 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-05.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -895,12 +883,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-11 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-06.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
+    background-position: center;
 
 }
 
@@ -909,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-12 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-07.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -923,12 +912,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-13 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-08.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
+    background-position: center;
 
 }
 
@@ -937,7 +927,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-14 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-09.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -951,13 +941,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-15 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-10.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-15:hover {
@@ -965,13 +955,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-16 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-11.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-16:hover {
@@ -979,26 +969,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-17 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-12.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-17:hover {
     transform: scale(1.12);
 }
 .prd-18 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-13.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-18:hover {
@@ -1006,13 +996,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-19 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-14.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-19:hover {
@@ -1020,16 +1010,58 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .prd-20 {
-    background-image: url(../images/fruit-big.jpg);
+    background-image: url(../images/products-15.jpg);
     background-size: cover;
     position: relative;
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
+    background-position: center;
 }
 
 .prd-20:hover {
+    transform: scale(1.12);
+}
+
+.prd-21 {
+    background-image: url(../images/funds-01.jpeg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+    background-position: center;
+}
+
+.prd-21:hover {
+    transform: scale(1.12);
+}
+
+.prd-22 {
+    background-image: url(../images/funds-02.jpeg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+    background-position: center;
+}
+
+.prd-22:hover {
+    transform: scale(1.12);
+}
+
+.prd-23 {
+    background-image: url(../images/funds-03.jpeg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+    background-position: center;
+}
+
+.prd-23:hover {
     transform: scale(1.12);
 }
 
