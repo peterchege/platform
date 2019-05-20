@@ -2,39 +2,37 @@
 require_once 'inc/dependants.php';
 
 confirm_login();
-if(isset($_POST['register'])){
+if (isset($_POST['register'])) {
     $fname = sanitize($_POST['fname']);
     $lname = sanitize($_POST['lname']);
     $email = sanitize($_POST['email']);
     $password = sanitize($_POST['password']);
     $confirm_password = sanitize($_POST['confirm_password']);
-    
-    if( strlen($password)<6 || strlen($confirm_password)<6 ){
-        $errors[] = 'Password can\'t be less than 6 characters';        
+
+    if (strlen($password) < 6 || strlen($confirm_password) < 6) {
+        $errors[] = 'Password can\'t be less than 6 characters';
     }
-    
-    if($password !== $confirm_password){
+
+    if ($password !== $confirm_password) {
         $errors[] = 'Passwords don\'t match';
     }
-    
-    $exist=$db->query("SELECT * FROM hr_jobs_users WHERE email='$email'");
-    if(mysqli_num_rows($exist)>0){
+
+    $exist = $db->query("SELECT * FROM hr_jobs_users WHERE email='$email'");
+    if (mysqli_num_rows($exist) > 0) {
         $errors[] = 'Email already exists.';
     }
-    
-    if(empty($errors)){
+
+    if (empty($errors)) {
         $password = md5($password);
-        $confirm_password = md5($confirm_password);
+        $confirm_password =  password_hash($confirm_password, PASSWORD_DEFAULT);
         $db->query("INSERT INTO hr_jobs_users (fname, lname, email, confirm_password) 
             VALUES('$fname','$lname','$email','$confirm_password' ) ");
-        
+
         $_SESSION['successMessage'] = 'Registration successful. Please login';
         echo "<script>
                 window.open('login.php', '_SELF');
             </script>";
-     
     }
-    
 }
 ?>
 <!DOCTYPE html>
@@ -76,7 +74,7 @@ if(isset($_POST['register'])){
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                                 <?php
-                                if(!empty($errors)){
+                                if (!empty($errors)) {
                                     echo display_errors($errors);
                                 }
                                 ?>
@@ -84,21 +82,21 @@ if(isset($_POST['register'])){
                             <form class="user" action="register.php" method="POST" enctype="multipart/form-data">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input name="fname" value="<?= ((isset($fname))?$fname:'' ) ?>" type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name">
+                                        <input name="fname" value="<?= ((isset($fname)) ? $fname : '') ?>" type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input name="lname" value="<?= ((isset($lname))?$lname:'' ) ?>" type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name">
+                                        <input name="lname" value="<?= ((isset($lname)) ? $lname : '') ?>" type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input name="email" value="<?= ((isset($email))?$email:'' ) ?>" type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                                    <input name="email" value="<?= ((isset($email)) ? $email : '') ?>" type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input name="password" value="<?= ((isset($password))?$password:'' ) ?>" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                        <input name="password" value="<?= ((isset($password)) ? $password : '') ?>" type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input name="confirm_password" value="<?= ((isset($confirm_password))?$confirm_password:'' ) ?>" type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
+                                        <input name="confirm_password" value="<?= ((isset($confirm_password)) ? $confirm_password : '') ?>" type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
                                     </div>
                                 </div>
                                 <button class="btn btn-primary btn-user btn-block" type="submit" name="register">

@@ -1,33 +1,38 @@
 <?php
 require_once 'inc/dependants.php';
 
-if(isset($_POST['login'])){
-    $email=$_POST['email'];
-    $value_password= $_POST['password'];
-    $password = md5($_POST['password']);
-    $login_details = $db->query("SELECT * FROM hr_jobs_users WHERE email= '$email' AND confirm_password='$password' ");
+if (isset($_POST['login'])) {
+    $email = $_POST['email'];
+    $value_password = $_POST['password'];
+    $password = $_POST['password'];
+    $login_details = $db->query("SELECT * FROM hr_jobs_users WHERE email= '$email' ");
     $check = mysqli_fetch_assoc($login_details);
-    
-    
-//    if($check['email'] !== $email){
-// $errors[] = 'Email doesn\'t exist in our database';
-// }elseif($check['confirm_password'] !== $password){
-// $errors[] = 'Password is incorrect';
-// }    
 
-    if(mysqli_num_rows($login_details)!==1){
-    $errors[] = 'Invalid credentials';
-    }
-    
-    if(empty($errors)){
-        $_SESSION['fname'] = $check['fname'];
-        $_SESSION['lname'] = $check['lname'];
-        
-        $_SESSION['successMessage'] = 'Welcome '. $_SESSION['fname']. '.';
-        echo "<script>
-    window.open('index.php','_SELF');
-    </script>";
-        exit();
+
+    if (empty($email) || empty($password)) {
+        $errors[] = 'All fields are required.';
+    } else {
+        if (mysqli_num_rows($login_details) !== 1) {
+            $errors[] = 'Invalid email.';
+        } else {
+            $hashPwdCheck = password_verify($password, $check['confirm_password']);
+            if ($hashPwdCheck == false) {
+                $errors[] = 'Invalid password.';
+            } else {
+                if ($hashPwdCheck == true) {
+                    if (empty($errors)) {
+                        $_SESSION['fname'] = $check['fname'];
+                        $_SESSION['lname'] = $check['lname'];
+
+                        $_SESSION['successMessage'] = 'Welcome ' . $_SESSION['fname'] . '.';
+                        echo "<script>
+                window.open('index.php','_SELF');
+                </script>";
+                        exit();
+                    }
+                }
+            }
+        }
     }
 }
 ?>
@@ -46,7 +51,9 @@ if(isset($_POST['login'])){
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -66,27 +73,35 @@ if(isset($_POST['login'])){
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-imag" style="background-image: url(img/apa_insurance_image.jpg); background-repeat: no-repeat; background-attachment: inherit; background-position: center; background-size: cover; margin:  "></div>
+                            <div class="col-lg-6 d-none d-lg-block bg-login-imag"
+                                style="background-image: url(img/apa_insurance_image.jpg); background-repeat: no-repeat; background-attachment: inherit; background-position: center; background-size: cover; margin:  ">
+                            </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <?php
-                                        echo errorMessage();
-                                        echo successMessage();
-                                       
-                                        
-                                        if(!empty($errors)){
-                                            echo display_errors($errors);
-                                        }
+                                    echo errorMessage();
+                                    echo successMessage();
+
+
+                                    if (!empty($errors)) {
+                                        echo display_errors($errors);
+                                    }
                                     ?>
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Login to manage job listings</h1>
                                     </div>
                                     <form class="user" action="login.php" method="POST">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" name="email" value="<?=((isset($email))? $email :'');?>" placeholder="Enter Email Address...">
+                                            <input type="email" class="form-control form-control-user"
+                                                id="exampleInputEmail" aria-describedby="emailHelp" name="email"
+                                                value="<?= ((isset($email)) ? $email : ''); ?>"
+                                                placeholder="Enter Email Address...">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" name="password" value="<?=((isset($value_password))? $value_password :'');?>" placeholder="Password">
+                                            <input type="password" class="form-control form-control-user"
+                                                id="exampleInputPassword" name="password"
+                                                value="<?= ((isset($value_password)) ? $value_password : ''); ?>"
+                                                placeholder="Password">
                                         </div>
                                         <div class="form-group">
                                             <!--
@@ -96,7 +111,8 @@ if(isset($_POST['login'])){
                                             </div>
 -->
                                         </div>
-                                        <button type="submit" name="login" class="btn btn-primary btn-user btn-block">Login
+                                        <button type="submit" name="login"
+                                            class="btn btn-primary btn-user btn-block">Login
                                         </button>
                                         <hr>
                                         <!--
