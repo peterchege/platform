@@ -192,6 +192,15 @@ a:focus {
     background-repeat: no-repeat;
 }
 
+.banner-career {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .cover-line{
     margin-top: -15px;
 }
@@ -659,7 +668,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
-/* PRODUCTS */
+/*--------------------------------------------------------------
+#PRODUCTS
+--------------------------------------------------------------*/
+
 .product {
     width: 100%;
     margin: 10% auto 6% auto;
@@ -745,8 +757,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     overflow: hidden;
     transition: transform 1.5s;
     cursor: pointer;
-
-
 }
 
 .prd-1:hover {
@@ -801,6 +811,228 @@ body.mobile-nav-active #mobile-nav-toggle {
 .prd-4:hover {
     transform: scale(1.12);
 }
+
+.prd-5 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-5:hover {
+    transform: scale(1.12);
+}
+
+.prd-6 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-6:hover {
+    transform: scale(1.12);
+}
+.prd-7 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-7:hover {
+    transform: scale(1.12);
+}
+
+.prd-8 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-8:hover {
+    transform: scale(1.12);
+}
+
+.prd-9 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-9:hover {
+    transform: scale(1.12);
+}
+.prd-10 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-10:hover {
+    transform: scale(1.12);
+}
+
+.prd-11 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-11:hover {
+    transform: scale(1.12);
+}
+
+.prd-12 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-12:hover {
+    transform: scale(1.12);
+}
+
+.prd-13 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-13:hover {
+    transform: scale(1.12);
+}
+
+.prd-14 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-14:hover {
+    transform: scale(1.12);
+}
+
+.prd-15 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-15:hover {
+    transform: scale(1.12);
+}
+
+.prd-16 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-16:hover {
+    transform: scale(1.12);
+}
+
+.prd-17 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-17:hover {
+    transform: scale(1.12);
+}
+.prd-18 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-18:hover {
+    transform: scale(1.12);
+}
+
+.prd-19 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-19:hover {
+    transform: scale(1.12);
+}
+
+.prd-20 {
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+
+}
+
+.prd-20:hover {
+    transform: scale(1.12);
+}
+
 
 .wrapper {
     width: 90%;
