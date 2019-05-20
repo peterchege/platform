@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
     <!-- My css copy -->
-    <link rel="stylesheet" href="css/draft.css" />
+    <link rel="stylesheet" href="css/combined.css" />
     <link rel="stylesheet" href="css/career.css" />
 
     <!-- My js copy -->
@@ -61,12 +61,12 @@
 
 
             <nav id="nav-menu-container">
-                <ul class="nav-menu ">
-                    <li class="menu-active"><a href="index.html">HOME</a></li>
-                    <li><a href="#">CAREER HOMEPAGE</a></li>
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="index.html">HOMEPAGE</a></li>
+                    <li><a href="#">CAREER PAGE</a></li>
                     <li><a href="#">MY JOBPAGES</a></li>
-                    <li><a href="career.html">MY ACCOUNT</a></li>
-                    <li><a href="#">NOTIFICATION</a></li>
+                    <li><a href="#">APPLIED JOBS</a></li>
+                    <li><a href="#">NOTIFICATIONS</a></li>
                     
                 </ul>
 
@@ -119,15 +119,17 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Other Name</label>
-                                            <input type="text" name="lastname" class="form-control my-input" placeholder="">
-                                        </div>
+                                         <div class="form-group">
+                                             <label for="exampleInputEmail1"><span
+                                                     class="icon_star">&#10040;</span>Surname</label>
+                                             <input type="text" name="surname" class="form-control my-input"
+                                                 placeholder="">
+                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Surname</label>
-                                            <input type="text"  name="surname" class="form-control my-input" placeholder="">
+                                            <label for="exampleInputEmail1"><span class="icon_star">&#10040;</span>Other Name</label>
+                                            <input type="text" name="lastname" class="form-control my-input" placeholder="">
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +137,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label id="label-1" for="exampleInputEmail1"><span
-                                                    class="icon_star">&#10040;</span>Identification number</label>
+                                                    class="icon_star">&#10040;</span>National ID</label>
                                             <input type="text" class="form-control my-input" name="id_no"
                                                 placeholder="">
                                         </div>
@@ -147,7 +149,6 @@
                                                 <option selected="selected" disabled>--Please choose --</option>
                                                 <option value="MALE">MALE</option>
                                                 <option value="FEMALE">FEMALE</option>
-                                                <option value="OTHERS">OTHERS</option>
                                             </select>
                                         </div>
                                     </div>
@@ -211,7 +212,7 @@
                                         <div class="text-center  new-bt">
                                             <!-- <a href="career_employment.html" class="btn btn-primary">save & continue</a> -->
                                             <!-- <input name="next"  class="btn btn-primary next" type="button" value="save & continue"> -->
-                                            <input id="next_btn1" onclick="next_step1()" class="btn btn-primary next" type="button" value="save & continue">
+                                            <input id="next_btn1" onclick="next_step1()" class="btn btn-primary next" type="button" value="SAVE & CONTINUE">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
@@ -241,7 +242,7 @@
                         <h2>EMPLOYMENT HISTORY</h2>
                         <div class="desc-cont text-left">
                             <h3>WORK EXPERIENCE</h3>
-                            <p>Please list your work experience below, starting with the most recient one</p>
+                            <p>Please list your work experience below, starting with the most recent one.</p>
                         </div>
 
                         <form class="text-left">
@@ -291,12 +292,27 @@
                                         </div>
                                     </div>
 
+                                </div><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="label-1">SALARY</label>
+                                            <input type="text" class="form-control my-input" name="SALARY"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label id="label-1">NOTICE PERIOD (DAYS)</label>
+                                            <input type="text" class="form-control my-input" name="SALARY"
+                                                placeholder="">
+                                        </div>
+                                    </div>
                                 </div>
-
                                 <div class="row empl">
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label>ACHIEVEMENT</label>
+                                            <label>ROLES PERFORMED</label>
                                             <textarea type="text" name="comment" class="form-control my-input">
                                             </textarea>
                                         </div>
@@ -325,7 +341,8 @@
                                         <!-- <a href="#" class="btn btn-primary">save & continue</a> -->
                                         <!-- <input name="next" class="btn btn-primary next" type="button"
                                             value="save & continue"> -->
-                                        <input id="next_btn2" onclick="next_step2()" class="btn btn-primary next" type="button" value="save & continue">
+                                        <input id="next_btn2" onclick="next_step2()" class="btn btn-primary next"
+                                            type="button" value="SAVE & CONTINUE">
 
                                     </div>
                                 </div>
@@ -355,10 +372,10 @@
               <div class="row">
                   <div class="col-10 job-box">
                       <div class="job-description text-center">
-                          <h2>EDUCATION AND PROFESSIONAL<BR> QUALIFICATION</h2>
+                          <h2>EDUCATION AND PROFESSIONAL<BR> QUALIFICATIONS</h2>
                           <div class="desc-cont text-left">
                               <h3>EDUCATION</h3>
-                              <p>Please list your educational experiences below, starting with the most recent one.</p>
+                              <p>Please list your educational background below, starting with the highest certification first.</p>
                           </div>
 
                           <form class="text-left">
@@ -457,20 +474,20 @@
                                       </div>
                                   </div>
                                   <div class="row empl">
-                                      <div class="col-md-8">
+                                      <div class="col-md-12">
                                           <div class="form-group">
                                               <label for="exampleInputEmail1">ISSUING ORGANIZATION</label>
                                               <input type="text" name="issue_org[]" class="form-control my-input"
                                                   placeholder="">
                                           </div>
                                       </div>
-                                      <div class="col-md-4">
+                                      <!-- <div class="col-md-4">
                                           <div class="form-group">
                                               <label for="exampleInputEmail1">NUMBER/ID</label>
                                               <input type="text" name="nmber_id[]" class="form-control my-input"
                                                   placeholder="">
                                           </div>
-                                      </div>
+                                      </div> -->
                                   </div>
 
                                   <div class="row empl">
@@ -512,7 +529,8 @@
                                           <!-- <a href="#" class="btn btn-primary">save & continue</a> -->
                                           <!-- <input name="next" class="btn btn-primary next" type="button"
                                               value="save & continue"> -->
-                                           <input id="next_btn3" onclick="next_step3()" class="btn btn-primary next" type="button" value="save & continue">
+                                           <input id="next_btn3" onclick="next_step3()" class="btn btn-primary next"
+                                               type="button" value="SAVE & CONTINUE">
 
                                       </div>
                                   </div>
@@ -577,9 +595,9 @@
                                                 <select class="form-control my-input" name="education_level[]">
                                                     <option selected="true" disabled="disabled">NOT SPECIFIED</option>
                                                     <option>RESUME/CV</option>
-                                                    <option>DEGREE</option>
-                                                    <option>CERTIFICATE</option>
-                                                    <option>PDF</option>
+                                                    <option>FORMAL EDUCATION CERTIFICATE</option>
+                                                    <option>PROFESSIONAL EDUCATION CERTIFICATE</option>
+                                                    <option>MISCELLANEOUS/OTHERS</option>
 
                                                 </select>
                                             </div>
@@ -672,7 +690,8 @@
                                                <!-- <a href="#" class="btn btn-primary">save & continue</a> -->
                                                <!-- <input name="next" class="btn btn-primary" type="button"
                                                    value="save & continue"> -->
-                                                 <input id="next_btn4" onclick="next_step4()" class="btn btn-primary next" type="button" value="save & continue">
+                                                 <input id="next_btn4" onclick="next_step4()"
+                                                     class="btn btn-primary next" type="button" value="SAVE & CONTINUE">
                                            </div>
                                        </div>
                                        <div class="col-md-3">
@@ -715,17 +734,21 @@
                          <hr>
                          <p><b>FULL NAME :</b> &nbsp; peter chege kinuthia</p>
                          <hr>
-                         <p><b>COUNTRY :</b> &nbsp; </p>
+                         <p><b>NATIONAL ID :</b> &nbsp; 31521363</p>
                          <hr>
-                         <p><b>STATE/COUNTY/PROVINCE :</b> &nbsp; </p>
+                         <p><b>GENDER :</b> &nbsp; MALE</p>
                          <hr>
-                         <p><b>REGION/CITY :</b> &nbsp; </p>
+                         <p><b>DATE OF BIRTH :</b> &nbsp; 14/06/1994</p>
                          <hr>
-                         <p><b>PHONE NUMBER :</b> &nbsp; </p>
+                         <p><b>COUNTRY :</b> &nbsp; Kenya </p>
                          <hr>
-                         <p><b>EMAIL :</b> &nbsp; </p>
+                         <p><b>STATE/COUNTY/PROVINCE :</b> &nbsp; Nairobi </p>
                          <hr>
-                         <p><b>SALARY EXPECTATION :</b> &nbsp; </p>
+                         <p><b>REGION/CITY :</b> &nbsp; Nairobi </p>
+                         <hr>
+                         <p><b>PHONE NUMBER :</b> &nbsp; 0701075090 </p>
+                         <hr>
+                         <p><b>EMAIL :</b> &nbsp; peterchege442@gmail.com </p>
                          <hr>
 
                          <br>
@@ -742,13 +765,13 @@
                      </nav>
                      <br>
                      <div class="personal text-left">
-                         <p><b>COMPANY :</b> &nbsp; </p>
+                         <p><b>COMPANY :</b> &nbsp;APA INSURANCE </p>
                          <hr>
-                         <p><b>TITLE :</b> &nbsp; </p>
+                         <p><b>TITLE :</b> &nbsp; DEVELOPER</p>
                          <hr>
-                         <p><b>START DATE :</b> &nbsp; </p>
+                         <p><b>START DATE :</b> &nbsp; 14/02/2019 </p>
                          <hr>
-                         <p><b>END DATE :</b> &nbsp; </p>
+                         <p><b>END DATE :</b> &nbsp; -</p>
                          <hr>
                          <p><b>ACHIEVEMENT :</b> &nbsp; </p>
                          <hr>
@@ -769,30 +792,29 @@
                      <br>
                      <div class="personal text-left">
                          <h4>Education 1</h4>
-                         <p><b>INSTUTION :</b> &nbsp; </p>
+                         <p><b>INSTUTION :</b> &nbsp; jomo kenyatta university of agriculture and technology</p>
                          <hr>
-                         <p><b>PROGRAM :</b> &nbsp; </p>
+                         <p><b>PROGRAM :</b> &nbsp; information technology </p>
                          <hr>
-                         <p><b>EDUCATION LEVEL :</b> &nbsp; </p>
+                         <p><b>EDUCATION LEVEL :</b> &nbsp; Bachelor degree</p>
                          <hr>
-                         <p><b>START DATE :</b> &nbsp; </p>
+                         <p><b>START DATE :</b> &nbsp; 3/08/2013 </p>
                          <hr>
-                         <p><b>GRADUATION DATE :</b> &nbsp; </p>
+                         <p><b>GRADUATION DATE :</b> &nbsp; 20/11/2018</p>
                          <hr>
                      </div><br>
                      <br>
                      <div class="personal text-left">
                          <h4>Certificate 1</h4>
-                         <p><b>INSTUTION :</b> &nbsp; </p>
+                         <p><b>CERTIFICATE :</b> &nbsp; DATA SCIENCE</p>
                          <hr>
-                         <p><b>PROGRAM :</b> &nbsp; </p>
+                         <p><b>ORGANISATION :</b> &nbsp; IBM </p>
                          <hr>
-                         <p><b>EDUCATION LEVEL :</b> &nbsp; </p>
+                         <p><b>ISSUE DATE :</b> &nbsp; 12/04/2017</p>
                          <hr>
-                         <p><b>START DATE :</b> &nbsp; </p>
+                         <p><b>EXPIRATION DATE  :</b> &nbsp; - </p>
                          <hr>
-                         <p><b>GRADUATION DATE :</b> &nbsp; </p>
-                         <hr>
+                         
 
                      </div>
                      <br>
@@ -861,7 +883,7 @@
 =
          <div class="col-md-4">
              <div class="text-center  new-bt">
-                 <a href="#" class="btn btn-primary"><b>SUBMIT</b></a>
+                 <a href="jobpage.html" class="btn btn-primary">SUBMIT APPLICATION</a>
              </div>
          </div>
       </fieldset>

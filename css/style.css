@@ -746,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 10px;
 }
 
-.wrapper .selection-btn {
+.wrapper .selection-btn p {
   padding-left: 20px; 
 }
 
