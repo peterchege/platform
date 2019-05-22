@@ -368,3 +368,15 @@ p1{
    box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
 
 }
+
+/* PROFILE */
+
+.pr-card{
+    margin-top: 15%;
+}
+.profile img{
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -15%; 
+}
