@@ -2,9 +2,9 @@
 require_once 'inc/dependants.php';
 
 if (isset($_POST['login'])) {
-    $email = $_POST['email'];
-    $value_password = $_POST['password'];
-    $password = $_POST['password'];
+    $email = sanitize($_POST['email']);
+    $value_password = sanitize($_POST['password']);
+    $password = sanitize($_POST['password']);
     $login_details = $db->query("SELECT * FROM hr_jobs_users WHERE email= '$email' ");
     $check = mysqli_fetch_assoc($login_details);
 

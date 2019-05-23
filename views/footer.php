@@ -67,15 +67,6 @@
                     </div>
 
                 </div>
-
-                <!-- <div class="col-lg-3 col-md-4 footer-links">
-                    <h4></h4>
-                    <ul>
-                        <iframe allow="microphone;" width="300" height="400"
-                            src="https://console.dialogflow.com/api-client/demo/embedded/457c62ee-69de-4cd0-8f92-4a290628c104">
-                        </iframe>
-                    </ul>
-                </div> -->
             </div>
         </div>
     </div>
