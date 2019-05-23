@@ -21,24 +21,23 @@ body p {
         sans-serif;
 }
 
-.career-desk {
+.career-desk{
     margin: 10% auto;
 }
-
-.career-desk img {
+.career-desk img{
     border-radius: 20px;
-    -webkit-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 15px 40px -18px rgba(177, 162, 162, 0.75);
+     -webkit-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
+     box-shadow: 10px 15px 40px -18px rgba(177, 162, 162, 0.75);
 }
 
-.career-desk h2 {
-    font-family: 'Oswald', sans-serif;
+.career-desk h2{
+    font-family: 'Oswald',sans-serif;
     color: #0C4DA2;
 }
 
 /* JOB PAGE */
-.job-box {
+.job-box{
     margin: 1.5% auto;
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
@@ -46,14 +45,14 @@ body p {
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
-.job-description {
-    padding: 10px 10px 0 10px;
+.job-description{
+    padding: 10px 10px 0 10px ;
     font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
     color: #0D345F;
     width: 90%;
 }
@@ -61,41 +60,41 @@ body p {
 .job-description h2 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
-    font-size: 26px;
+    font-size: 28px;
     padding: 10px 0 0px 0;
 }
 
 .job-description h3 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
-    font-size: 26px;
+    font-size: 22px;
     padding: 0px 0 15px 0;
 }
 
-.job-description ul li span {
+.job-description ul li span{
     color: darkgray;
     padding-left: 10px;
 }
 
-.job-content p {
+.job-content p{
     font-size: 18px;
     font-weight: 700;
 }
 
-.btn-career {
+.btn-career{
     margin-top: 20%;
 }
 
 
 /* LOGIN */
 
-.login-logo {
+.login-logo{
     width: 170px;
     margin-top: 20px;
 }
 
-form {
-    margin: 20% auto 5% auto;
+form{
+    margin: 1% auto 5% auto;
     width: 85%;
 }
 
@@ -103,11 +102,9 @@ form .my-input {
     height: 50px;
     margin-bottom: 20px;
 }
-
-.new-bt {
-    padding-top: 5%;
+.new-bt{
+    padding-top: 5% ;
 }
-
 .new-bt .btn {
     padding: 10px 40px;
     width: 60%;
@@ -117,12 +114,11 @@ form .my-input {
     box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
 }
 
-.new-bt .g-log {
+.new-bt .g-log{
     background-color: #c71610;
-    margin-top: -50px;
-
+    margin-top: -50px; 
+    
 }
-
 .new-bt .g-log:hover {
     background-color: #9b0b06;
     -webkit-box-shadow: 8px 16px 27px -7px rgba(199, 22, 16, 0.49);
@@ -131,7 +127,7 @@ form .my-input {
 }
 
 .new-bt .f-log {
-    background-color: #3b5998;
+    background-color: #3b5998; 
 }
 
 .new-bt .f-log:hover {
@@ -143,7 +139,7 @@ form .my-input {
 
 .new-bt .t-log {
     background-color: #0077B5;
-
+    
 }
 
 .new-bt .t-log:hover {
@@ -155,13 +151,13 @@ form .my-input {
 
 }
 
-.new-bt i {
+.new-bt i{
     padding-right: 20px;
 }
 
 
 /* MULTIFORM */
-.icon_star {
+.icon_star{
     color: #d41912;
 }
 
@@ -178,10 +174,10 @@ form .my-input {
 }
 
 .btn-form .g-log1 {
-    background-color: #c71610;
+     background-color: #c71610;
 }
 
-.job-description .desc-cont {
+.job-description .desc-cont{
     padding-left: 7%;
     padding-top: 20px;
 }
@@ -203,14 +199,14 @@ form .my-input {
 }
 
 #progressbar li {
-    margin: 0 30px auto;
-    display: inline-block;
-    color: #0D345F;
-    font-weight: 500;
-    position: relative;
+  margin: 0 30px auto;
+  display:inline-block;
+  color: #0D345F;
+  font-weight: 500;
+  position: relative;
 }
 
-#progressbar li::before {
+#progressbar li::before{
     content: counter(step);
     counter-increment: step;
     width: 70px;
@@ -225,8 +221,8 @@ form .my-input {
     border-radius: 100%;
     margin: 0 auto 25% auto;
     cursor: pointer;
-
-
+    
+    
 }
 
 /* progressbar connectors */
@@ -243,36 +239,36 @@ form .my-input {
 
 }
 
-#progressbar li:first-child::after {
+#progressbar li:first-child::after{
     /* connector not needed before the first step */
     content: none;
 }
 
-/* marking active /completed steps green */
-/* the number of the step and the connector before it =green */
+ /* marking active /completed steps green */
+ /* the number of the step and the connector before it =green */
 
-#progressbar li.active::before,
-#progressbar li.active::after {
-    background: #00ac00;
-    color: #fff;
-
-}
+ #progressbar li.active::before,
+ #progressbar li.active::after{
+     background: #00ac00;
+     color: #fff;
+     
+ }
 
 /* FORMS */
-.empl {
+.empl{
     margin-top: 20px;
 }
 
-.Check-box1 {
+.Check-box1{
     padding-top: 25%;
     padding-left: 20px;
 }
 
-.dup-text {
+.dup-text{
     cursor: pointer;
 }
 
-.dup-text:hover {
+.dup-text:hover{
     text-decoration: underline;
     color: #00ac00;
 }
@@ -290,7 +286,6 @@ form .my-input {
     text-decoration: underline;
     color: #c71610;
 }
-
 .dup-text2:hover {
     text-decoration: underline;
     color: #c71610;
@@ -301,28 +296,28 @@ form .my-input {
 } */
 
 /* HIDE ALL EXCEPT FIRST FIELDSET */
-#msform fieldset:not(:first-of-type) {
+#msform fieldset:not(:first-of-type){
     display: none;
 }
 
 /* SUMMARY */
-p1 {
-    font-family: 'Oswald',
-        sans-serif;
-    color: #0C4DA2;
-    font-size: 18px;
-    font-weight: 800;
+p1{
+     font-family: 'Oswald',
+     sans-serif;
+     color: #0C4DA2;
+     font-size: 18px;
+     font-weight: 800;
 }
 
-.personal h4 {
+.personal h4{
     font-family: 'Oswald',
-        sans-serif;
+    sans-serif;
     color: #0C4DA2;
 }
 
 /* PRIVACY AND AGREEMENT */
 
-.privacy {
+.privacy{
     width: 100%;
 }
 
@@ -330,7 +325,7 @@ p1 {
     width: 100%;
 }
 
-.privacy h2 {
+.privacy h2{
     padding: 15px;
     font-size: 20px;
 
@@ -342,14 +337,14 @@ p1 {
     text-transform: capitalize;
     color: #0D345F;
     font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
+     'Lucida Sans Unicode',
+     'Lucida Grande',
+     'Lucida Sans',
+     Arial,
+     sans-serif;
 }
 
-.privacy .card-text {
+.privacy .card-text{
     padding-left: 15px;
 }
 
@@ -359,17 +354,29 @@ p1 {
     height: 50vh;
     overflow: auto;
     margin-bottom: 29px;
-    border-radius: 10px;
+    border-radius: 10px; 
 
 }
 
-.accept_decline .btn {
-    padding: 7px 20px;
-    width: 120px;
-    margin: 10px;
-    border-radius: 20px;
-    -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
-    box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+.accept_decline .btn{
+   padding: 7px 20px;
+   width: 120px;
+   margin: 10px;
+   border-radius: 20px;
+   -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
 
+}
+
+/* PROFILE */
+
+.pr-card{
+    margin-top: 15%;
+}
+.profile img{
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -15%; 
 }

@@ -5,26 +5,26 @@ confirm_login();
 
 //achiving posts
 //hiding
-if(isset($_GET['hide'])){
+if (isset($_GET['hide'])) {
     $hide_id = $_GET['hide'];
     $update_query = $db->query("UPDATE apa_job_posts SET archive = 0 WHERE job_id = '$hide_id' ");
 }
 
 //showing
-if(isset($_GET['show'])){
+if (isset($_GET['show'])) {
     $hide_id = $_GET['show'];
     $update_query = $db->query("UPDATE apa_job_posts SET archive = 1 WHERE job_id = '$hide_id' ");
 }
 
 //pulling data from db
- $pull_jobs=$db->query("SELECT * FROM apa_job_posts ORDER BY id DESC");
+$pull_jobs = $db->query("SELECT * FROM apa_job_posts ORDER BY id DESC");
 //deleting job post
-if(isset($_GET['delete'])){
-  $delete_id = desanitize($_GET['delete']);
-  $deletequery = $db->query("DELETE FROM `apa_job_posts` WHERE `apa_job_posts`.`job_id` = '$delete_id'");
-    
+if (isset($_GET['delete'])) {
+    $delete_id = desanitize($_GET['delete']);
+    $deletequery = $db->query("DELETE FROM `apa_job_posts` WHERE `apa_job_posts`.`job_id` = '$delete_id'");
+
     $_SESSION['successMessage'] = "Job post deleted successfully";
-    
+
     echo "<script>
         window.open('index.php', '_SELF');
 
@@ -51,7 +51,9 @@ if(isset($_GET['delete'])){
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -154,14 +156,18 @@ if(isset($_GET['delete'])){
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
                         <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
                             <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
                                 <form class="form-inline mr-auto w-100 navbar-search">
                                     <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="button">
                                                 <i class="fas fa-search fa-sm"></i>
@@ -176,18 +182,22 @@ if(isset($_GET['delete'])){
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['fname']. ' ' . $_SESSION['lname'] ; ?></span>
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span
+                                    class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['fname'] . ' ' . $_SESSION['lname']; ?></span>
                                 <img class="img-profile rounded-circle" src="img/apa_insurance_image.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
-                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="logout.php" data-toggle="modal"
+                                    data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -206,13 +216,14 @@ if(isset($_GET['delete'])){
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
                         <?php
-                        
+
                         echo successMessage();
-                        echo errorMessage(); 
-                        
-                          
-                         ?>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                        echo errorMessage();
+
+
+                        ?>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
 
                     <!-- Content Row -->
@@ -224,7 +235,8 @@ if(isset($_GET['delete'])){
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Earnings (Monthly)</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
                                         </div>
                                         <div class="col-auto">
@@ -241,7 +253,8 @@ if(isset($_GET['delete'])){
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings (Annual)</div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Earnings (Annual)</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
                                         </div>
                                         <div class="col-auto">
@@ -258,14 +271,17 @@ if(isset($_GET['delete'])){
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                            </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
                                                 </div>
                                                 <div class="col">
                                                     <div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        <div class="progress-bar bg-info" role="progressbar"
+                                                            style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                                            aria-valuemax="100"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -284,7 +300,8 @@ if(isset($_GET['delete'])){
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Requests</div>
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Pending Requests</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
                                         </div>
                                         <div class="col-auto">
@@ -347,11 +364,12 @@ if(isset($_GET['delete'])){
                                     </tr>
                                 </tfoot>
                                 <tbody>
-                                    <?php while($p=mysqli_fetch_assoc($pull_jobs)): ?>
+                                    <?php while ($p = mysqli_fetch_assoc($pull_jobs)) : ?>
                                     <tr>
                                         <td><?= desanitize($p['job_title']); ?></td>
                                         <td><?= html_entity_decode($p['employment_type']); ?></td>
-                                        <td><?= reduce_string(html_entity_decode($p['key_primary_responsibilities'])); ?></td>
+                                        <td><?= reduce_string(html_entity_decode($p['key_primary_responsibilities'])); ?>
+                                        </td>
                                         <td><?= reduce_string(desanitize($p['academic_qualifications'])); ?></td>
                                         <td><?= reduce_string(desanitize($p['job_skills_and_requirements'])); ?></td>
                                         <td><?= reduce_string(desanitize($p['experience'])); ?></td>
@@ -362,16 +380,17 @@ if(isset($_GET['delete'])){
                                             <a href="edit_job.php?edit=<?= sanitize($p['job_id']); ?>">
                                                 <span class="btn btn-primary btn-sm">Edit</span>
                                             </a>
-                                            <a target="_blank" href="../job_description.php?job_token=<?= desanitize($p['job_id'])?>">
+                                            <a target="_blank"
+                                                href="../job_description.php?job_token=<?= desanitize($p['job_id']) ?>">
                                                 <span class="btn btn-warning btn-sm">Preview</span>
                                             </a>
                                         </td>
                                         <td class="text-center">
-                                            <?php if($p['archive']==1): ?>
+                                            <?php if ($p['archive'] == 1) : ?>
                                             <a href="index.php?hide=<?= desanitize($p['job_id']); ?>">
                                                 <span class="btn btn-info btn-sm">Hide</span>
                                             </a>
-                                            <?php elseif($p['archive']==0): ?>
+                                            <?php elseif ($p['archive'] == 0) : ?>
                                             <a href="index.php?show=<?= desanitize($p['job_id']); ?>">
                                                 <span class="btn btn-success btn-sm">Show</span>
                                             </a>
@@ -413,7 +432,8 @@ if(isset($_GET['delete'])){
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -422,7 +442,8 @@ if(isset($_GET['delete'])){
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session and be redirected to the login page.</div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session and be
+                    redirected to the login page.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <a class="btn btn-primary" href="logout.php">Logout</a>

@@ -15,7 +15,7 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-1 col-md-6 footer-links">
+                <div class="col-lg-2 col-md-6 footer-links">
                     <h4>HEALTH</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Health Corporate</a></li>

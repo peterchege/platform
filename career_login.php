@@ -153,9 +153,18 @@ if (isset($_POST['login'])) {
                         <div class=" text-center new-bt">
                             <button type="submit" name="login" class="btn btn-primary">LOGIN</button>
                         </div>
-                        <p>
-                            <a href="career_register.php">Don't have an Account? Create account</a>
-                        </p>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-7 col-sm-7">
+                                <div class="form-group">
+                                    <a href="career_register.php">Don't have an Account? Create account</a> </div>
+                            </div>
+                            <div class="col-md-5 col-sm-5 text-right">
+                                <div class="form-group">
+                                    <a class="" href="forgot_password.php">Forgot password?</a>
+                                </div>
+                            </div>
+                        </div>
                         <hr>
                         <p class="text-center">login with :</p>
                         <div class=" text-center new-bt">
@@ -180,8 +189,6 @@ if (isset($_POST['login'])) {
             </div>
         </div>
     </div>
-
-
 
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
