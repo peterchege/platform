@@ -57,7 +57,7 @@
                     similique tempore laudantium tempora qui?
                 </p><br>
                 <div class="load-more text-center">
-                    <a href="jobpage.html" class="btn btn-primary">APPLY NOW</a>
+                    <a href="jobpage.php" class="btn btn-primary">APPLY NOW</a>
                 </div>
             </div>
 

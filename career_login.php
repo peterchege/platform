@@ -56,39 +56,48 @@ if (!isset($_SESSION['access_token'])) {
 }
 
 
-//normal registration
+//normal login
 if (isset($_POST['login'])) {
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $password = mysqli_real_escape_string($db, $_POST['password']);
     $applicantlogin = $db->query("SELECT * FROM apa_job_applicants WHERE email = '$email' ");
-    if (mysqli_num_rows($applicantlogin) !== 1) {
-        $errors[] = 'Invalid email. Please try again.';
-    }
 
-    if ($row = mysqli_fetch_assoc($applicantlogin)) {
-        $hashPwdCheck = password_verify($password, $row['confirm_password']);
-        if ($hashPwdCheck == false) {
-            $errors[] = 'Wrong password.';
-        } elseif ($hashPwdCheck == true) {
-            //check to see if cookies are allowed
-            if (!empty($_POST['rem'])) {
-                //                set cookies
-                setcookie("email", $email, time() + (10 * 365 * 24 * 60 * 60));
-                setcookie("password", $password, time() + (10 * 365 * 24 * 60 * 60));
-                setcookie("first_name", $row['first_name'], time() + (10 * 365 * 24 * 60 * 60));
-                setcookie("second_name", $row['second_name'], time() + (10 * 365 * 24 * 60 * 60));
-                echo $email . '<br>';
-                echo $password . '<br>';
-                echo $password . '<br>';
-                echo $password . '<br>';
-            } else {
-                //set the session information
-                $_SESSION['email'] = $email;
-                $_SESSION['password'] = $password;
+    // validate email and password
+    if (empty($email) || empty($password)) {
+        $errors[] = 'All fields are required.';
+    } else {
+        if (mysqli_num_rows($applicantlogin) !== 1) {
+            $errors[] = 'Invalid email. Please try again.';
+        } else {
+            if ($row = mysqli_fetch_assoc($applicantlogin)) {
+                $hashPwdCheck = password_verify($password, $row['confirm_password']);
+                if ($hashPwdCheck == false) {
+                    $errors[] = 'Wrong password.';
+                } elseif ($hashPwdCheck == true) {
+                    //check to see if cookies are allowed
+                    if (!empty($_POST['rem'])) {
+                        //                set cookies
+                        setcookie("email", $email, time() + (10 * 365 * 24 * 60 * 60));
+                        setcookie("password", $password, time() + (10 * 365 * 24 * 60 * 60));
+                        setcookie("first_name", $row['first_name'], time() + (10 * 365 * 24 * 60 * 60));
+                        setcookie("second_name", $row['second_name'], time() + (10 * 365 * 24 * 60 * 60));
+                        echo $email . '<br>';
+                        echo $password . '<br>';
+                        echo $password . '<br>';
+                        echo $password . '<br>';
+                    } else {
+                        //set the session information
+                        $_SESSION['email'] = $email;
+                        $_SESSION['password'] = $password;
+                    }
+                    //log in user
+
+                }
             }
-            //log in user
         }
     }
+
+
 
     if (empty($errors)) { }
 }
@@ -123,6 +132,7 @@ if (isset($_POST['login'])) {
             <div class="col-8 job-box">
                 <div class="job-description text-center">
                     <!-- <img class="img-fluid login-logo" src="images/logon.jpg" alt=""> -->
+                    <h2>SIGN IN TO YOUR ACCOUNT</h2>
                     <?php
                     echo errorMessage();
                     echo successMessage();
@@ -130,7 +140,6 @@ if (isset($_POST['login'])) {
                         echo display_errors($errors);
                     }
                     ?>
-                    <h2>SIGN IN TO YOUR ACCOUNT</h2>
                     <form class="text-left" action="career_login.php" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>

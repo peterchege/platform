@@ -4,18 +4,18 @@
         <div id="logo" class="pull-left">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" id="im-left"><img src="img/logon.jpg" width="85" height="auto" alt="" title="" /></a>
+            <a href="index.php" id="im-left"><img src="img/logon.jpg" width="85" height="auto" alt="" title="" /></a>
         </div>
 
 
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li class="menu-active"><a href="index.html">HOMEPAGE</a></li>
+                <li class="menu-active"><a href="index.php">HOMEPAGE</a></li>
                 <li><a href="#">CAREER PAGE</a></li>
-                <li><a href="jobpage.html">MY JOBPAGES</a></li>
-                <li><a href="applicant_dashboard_applied.html">APPLIED JOBS</a></li>
-                <li><a href="applicant_dashboard_account.html">My ACCOUNT</a></li>
+                <li><a href="jobpage.php">Available Jobs</a></li>
+                <li><a href="applicant_dashboard_applied.php">APPLIED JOBS</a></li>
+                <li><a href="applicant_dashboard_account.php">My ACCOUNT</a></li>
 
             </ul>
 
