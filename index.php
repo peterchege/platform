@@ -9,7 +9,7 @@
     <title>APA INSURANCE</title>
 
     <?php include 'views/head_links.php'; ?>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
     (function(d, m) {
         var kommunicateSettings = {
@@ -26,7 +26,7 @@
         window.kommunicate = m;
         m._globals = kommunicateSettings;
     })(document, window.kommunicate || {});
-    </script>
+    </script> -->
 
 
 </head>
@@ -37,9 +37,9 @@
     Header
   <?php include 'views/nav.php'; ?>
 
-    <!--==========================
+    <!-- ==========================
     Intro Section
-  ============================-->
+    ============================-->
     <section id="intro">
         <div class="intro-container">
             <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel"
@@ -450,8 +450,7 @@
     </div>
 
     <!-- =====================================MEDIA CENTER===================================== -->
-    <!-- <div class="container-fluid12">
-   <div class="product acess text-center">
+    <!-- <div class="container-fluid12"><div class="product acess text-center">
 
      <h1>MEDIA CENTRE</h1>
      <hr class="line what">
@@ -592,7 +591,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
+<link href="https://snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
+<script src="https://snatchbot.me/sdk/webchat.min.js"></script>
+<script>
+Init('?botID=58202&appID=webchat', 600, 600,
+    'https://dvgpba5hywmpo.cloudfront.net/media/image/GxVZUnMb98bpx7dSKGER7UsBT', 'bubble', '#00AFF0', 90, 90,
+    62.99999999999999, '', '1', '#FFFFFF', '#FFFFFF', 0
+); /* for authentication of its users, you can define your userID (add &userID={login}) */
+</script>
