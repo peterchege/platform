@@ -1,3 +1,26 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+body p {
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+}
+
 .career-desk{
     margin: 10% auto;
 }
@@ -5,7 +28,7 @@
     border-radius: 20px;
      -webkit-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
      -moz-box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
-     box-shadow: 10px 15px 40px -18px rgba(0, 0, 0, 0.75);
+     box-shadow: 10px 15px 40px -18px rgba(177, 162, 162, 0.75);
 }
 
 .career-desk h2{
@@ -15,15 +38,15 @@
 
 /* JOB PAGE */
 .job-box{
-    margin: 5% auto;
+    margin: 1.5% auto;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
 .job-description{
-    padding: 20px 10px;
+    padding: 10px 10px 0 10px ;
     font-family: 'Trebuchet MS',
     'Lucida Sans Unicode',
     'Lucida Grande',
@@ -37,14 +60,14 @@
 .job-description h2 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
-    font-size: 34px;
-    padding: 10px 0 15px 0;
+    font-size: 28px;
+    padding: 10px 0 0px 0;
 }
 
 .job-description h3 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
-    font-size: 26px;
+    font-size: 22px;
     padding: 0px 0 15px 0;
 }
 
@@ -56,6 +79,10 @@
 .job-content p{
     font-size: 18px;
     font-weight: 700;
+}
+
+.btn-career{
+    margin-top: 20%;
 }
 
 
@@ -126,4 +153,230 @@ form .my-input {
 
 .new-bt i{
     padding-right: 20px;
+}
+
+
+/* MULTIFORM */
+.icon_star{
+    color: #d41912;
+}
+
+.job-description h3 {
+    font-size: 18px;
+}
+
+.btn-form .btn {
+    padding: 10px 20px;
+}
+
+.btn-form .bt-back {
+    margin-top: 8px;
+}
+
+.btn-form .g-log1 {
+     background-color: #c71610;
+}
+
+.job-description .desc-cont{
+    padding-left: 7%;
+    padding-top: 20px;
+}
+
+.job-description .desc-cont p {
+    padding-left: 20px;
+}
+
+/* multiform employment */
+
+/* PROGRESSBAR */
+
+#progressbar {
+    text-align: center;
+    list-style: none;
+    margin-top: 5%;
+    /* CSS counter to number the steps */
+    counter-reset: step;
+}
+
+#progressbar li {
+  margin: 0 30px auto;
+  display:inline-block;
+  color: #0D345F;
+  font-weight: 500;
+  position: relative;
+}
+
+#progressbar li::before{
+    content: counter(step);
+    counter-increment: step;
+    width: 70px;
+    line-height: 60px;
+    display: block;
+    font-size: 16px;
+    color: #0077B5;
+    background: rgb(241, 241, 241);
+    -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+    border-radius: 100%;
+    margin: 0 auto 25% auto;
+    cursor: pointer;
+    
+    
+}
+
+/* progressbar connectors */
+
+#progressbar li::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: rgb(241, 241, 241);
+    position: absolute;
+    left: -82.5%;
+    top: 30px;
+    /* z-index: -1; */
+
+}
+
+#progressbar li:first-child::after{
+    /* connector not needed before the first step */
+    content: none;
+}
+
+ /* marking active /completed steps green */
+ /* the number of the step and the connector before it =green */
+
+ #progressbar li.active::before,
+ #progressbar li.active::after{
+     background: #00ac00;
+     color: #fff;
+     
+ }
+
+/* FORMS */
+.empl{
+    margin-top: 20px;
+}
+
+.Check-box1{
+    padding-top: 25%;
+    padding-left: 20px;
+}
+
+.dup-text{
+    cursor: pointer;
+}
+
+.dup-text:hover{
+    text-decoration: underline;
+    color: #00ac00;
+}
+
+.dup-text1 {
+    cursor: pointer;
+}
+
+.dup-text2 {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.dup-text1:hover {
+    text-decoration: underline;
+    color: #c71610;
+}
+.dup-text2:hover {
+    text-decoration: underline;
+    color: #c71610;
+}
+
+/* fieldset {
+    display: none;
+} */
+
+/* HIDE ALL EXCEPT FIRST FIELDSET */
+#msform fieldset:not(:first-of-type){
+    display: none;
+}
+
+/* SUMMARY */
+p1{
+     font-family: 'Oswald',
+     sans-serif;
+     color: #0C4DA2;
+     font-size: 18px;
+     font-weight: 800;
+}
+
+.personal h4{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+}
+
+/* PRIVACY AND AGREEMENT */
+
+.privacy{
+    width: 100%;
+}
+
+.privacy .card-body {
+    width: 100%;
+}
+
+.privacy h2{
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.privacy h5 {
+    padding: 15px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode',
+     'Lucida Grande',
+     'Lucida Sans',
+     Arial,
+     sans-serif;
+}
+
+.privacy .card-text{
+    padding-left: 15px;
+}
+
+.privacy .frame-card {
+    border: 1px solid #d4d9dd;
+    padding: 25px 30px;
+    height: 50vh;
+    overflow: auto;
+    margin-bottom: 29px;
+    border-radius: 10px; 
+
+}
+
+.accept_decline .btn{
+   padding: 7px 20px;
+   width: 120px;
+   margin: 10px;
+   border-radius: 20px;
+   -webkit-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   -moz-box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+   box-shadow: 8px 16px 13px -3px rgba(0, 0, 0, 0.22);
+
+}
+
+/* PROFILE */
+
+.pr-card{
+    margin-top: 15%;
+}
+.profile img{
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -15%; 
 }

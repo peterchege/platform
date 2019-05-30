@@ -161,7 +161,7 @@ ul li a {
 
 #intro .content-word {
     /* float: right;
-   margin: 13% -23% 0 0%; 
+    margin: 13% -23% 0 0%; 
    z-index: 1; */
     text-align: end;
     width: 95%;
@@ -670,13 +670,13 @@ ul li a {
     margin-left: 15%;
 }
 
-.line2 {
+/* .line2 {
     margin: 0 auto;
     width: 80%;
     height: 4px;
     border-radius: 50%;
     background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158));
-}
+} */
 
 .apollo-facility p {
     padding-top: 7%;
