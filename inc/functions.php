@@ -30,7 +30,7 @@ function display_errors($errors)
 //security.
 function sanitize($dirty)
 {
-    // 	$dirty = trim($dirty);
+    $dirty = trim($dirty);
     // $dirty = stripslashes($dirty);
     // $dirty = htmlspecialchars($dirty);
     return htmlentities($dirty, ENT_QUOTES, "UTF-8");
@@ -67,7 +67,7 @@ function dateMY($date)
     $date = date('d-M-Y', $date);
 }
 
-//generating job id
+//generating ids
 function randomstring($len)
 {
     $string = "";
@@ -77,6 +77,11 @@ function randomstring($len)
     return $string;
 }
 
+//function to format dates
+function pretty_date($date)
+{
+    return date("M d, Y h:i A", strtotime($date));
+}
 
 //reduce string size
 function reduce_string($strin)
@@ -92,10 +97,4 @@ function reduce_string($strin)
 function money($number)
 {
     return 'Ksh. ' . number_format($number, 0);
-}
-
-//function to format dates
-function pretty_date($date)
-{
-    return date("M d, Y h:i A", strtotime($date));
 }
