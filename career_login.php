@@ -114,7 +114,7 @@ if (isset($_POST['login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
-
+    <link rel="stylesheet" href="css/career.css" />
     <?php include 'views/head_links.php'; ?>
 </head>
 
@@ -126,7 +126,7 @@ if (isset($_POST['login'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
 
-
+    <br><br><br><br><br>
     <div class="container">
         <div class="row">
             <div class="col-8 job-box">
