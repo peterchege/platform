@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
+    <link rel="stylesheet" href="css/career.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -19,14 +20,28 @@
 
     <?php include 'views/nav.php'; ?>
 
+    <!-- =====================================image slider===================================== -->
+    <!--==========================
+    Intro Section
+    ============================-->
+
+    <div class="banner-career">
+
+    </div>
+    <div class="cover-line">
+        <img src="images/line.png" alt="">
+    </div>
+
 
     <!-- ===================================== ABOUT US ===================================== -->
 
 
     <div class="container">
         <div class="apollo">
-            <h1>WELCOME TO CAREER PORTAL</h1>
-            <div class="header-line"></div>
+            <h1>START YOUR JOURNEY TODAY</h1>
+            <div class="under-line img5">
+                <img src="images/line.png" alt="">
+            </div>
             <p class="container content-offer text-left"> Apollo Group, our most valuable assets are our employees. We
                 pride
                 ourselves in creating experience, delivering results and adding value to all stakeholders.
@@ -51,26 +66,22 @@
             <div class="col-md-6">
                 <img class="img-fluid" src="images/intern.jpg">
                 <h2 class="text-center">EXPERIENCED PROFESSIONALS</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis itaque exercitationem modi minima
-                    maiores
-                    sunt ea quod corporis perferendis asperiores unde ad quia, vel architecto,
-                    similique tempore laudantium tempora qui?
+                <p> You are an experienced professional and looking to broaden your capability and learning take a look
+                    at our open jobs and apply.
                 </p><br>
                 <div class="load-more text-center">
-                    <a href="jobpage.php" class="btn btn-primary">APPLY NOW</a>
+                    <a href="jobpage.php" class="btn btn-primary">EXPLORE NOW</a>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <img class="img-fluid" src="images/moha.jpg">
                 <h2 class="text-center">INTERNSHIP </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis itaque exercitationem modi minima
-                    maiores
-                    sunt ea quod corporis perferendis asperiores unde ad quia, vel architecto,
-                    similique tempore laudantium tempora qui?
+                <p>If you are a student or a recent graduate, take a look at our university recruiting programs and
+                    browse open jobs.
                 </p><br>
                 <div class="load-more text-center">
-                    <a href="#" class="btn btn-primary">APPLY NOW</a>
+                    <a href="jobpage.php" class="btn btn-primary">EXPLORE NOW</a>
                 </div>
             </div>
         </div>

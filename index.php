@@ -9,25 +9,6 @@
     <title>APA INSURANCE</title>
 
     <?php include 'views/head_links.php'; ?>
-    <!-- <script type="text/javascript">
-    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-    (function(d, m) {
-        var kommunicateSettings = {
-            "appId": "17b8522a406b28850f9de067f40d2f6dd",
-            "conversationTitle": "ANTHONY BARU",
-            "automaticChatOpenOnNavigation": true
-        };
-        var s = document.createElement("script");
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-        var h = document.getElementsByTagName("head")[0];
-        h.appendChild(s);
-        window.kommunicate = m;
-        m._globals = kommunicateSettings;
-    })(document, window.kommunicate || {});
-    </script> -->
-
 
 </head>
 
@@ -35,11 +16,13 @@
 
     <!--==========================
     Header
-  <?php include 'views/nav.php'; ?>
+  ============================-->
+    <?php include 'views/nav.php'; ?>
+    <!-- #header -->
 
-    <!-- ==========================
+    <!--==========================
     Intro Section
-    ============================-->
+  ============================-->
     <section id="intro">
         <div class="intro-container">
             <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel"
@@ -283,6 +266,7 @@
                                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                             </ol>
 
                             <div class="carousel-inner" role="listbox">
@@ -290,7 +274,7 @@
                                 <div class="carousel-item active">
                                     <div
                                         class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left ">
-                                        <img src="images/shimba.jpg" alt=""></div>
+                                        <img src="images/shimba/img4.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Shimba Hills</h3>
@@ -305,7 +289,7 @@
                                 <div class="carousel-item">
                                     <div
                                         class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                                        <img src="images/cherangani.jpg" alt=""></div>
+                                        <img src="images/chyullu/img6.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Chyullu Hills</h3>
@@ -320,10 +304,24 @@
                                 <div class="carousel-item">
                                     <div
                                         class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                                        <img src="images/chyullu.jpg" alt=""></div>
+                                        <img src="images/cherengani/img4.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Cherangani</h3>
+                                            <p> Our world class executive boardroom provides the perfect meeting place
+                                            </p>
+                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div
+                                        class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                        <img src="images/Entertainment/img3.jpg" alt=""></div>
+                                    <div class="carousel-container">
+                                        <div class="carousel-content">
+                                            <h3>Entertainment</h3>
                                             <p> Our world class executive boardroom provides the perfect meeting place
                                             </p>
                                             <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
@@ -364,11 +362,13 @@
                             We provide room for conferences and private meeting spaces within our spacious and
                             comfortable boardrooms.
                             We also have an ultra-modern auditorium, an entertainment area for office functions and a
-                            training room for
+                            training room
+                            for
                             corporate training.
 
                             We provide all the space you need for all your functions. Each room opens up into a large
-                            balcony providing
+                            balcony
+                            providing
                             a delightful view of Nairobi. There is also ample parking space that is convenient and
                             secure.
                         </p><br>
@@ -407,7 +407,8 @@
                             <h3>REQUEST ASSISTANCE</h3>
                             <P>
                                 We will acknowledge/respond to your queries received from various platforms within the
-                                timelines. promise
+                                timelines.
+                                promise
                                 to respond to all your requests in a professional and timely manner.
                             </P>
                             <div class="load-more">
@@ -448,72 +449,27 @@
 
         </div>
     </div>
-
-    <!-- =====================================MEDIA CENTER===================================== -->
-    <!-- <div class="container-fluid12"><div class="product acess text-center">
-
-     <h1>MEDIA CENTRE</h1>
-     <hr class="line what">
-     <p class="container content-offer">
-       APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group
-       (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility
-       programmes focuses on supporting the needy in our society to improve their lives.
-     </p>
-
-     <div class="container-fluid cont">
-       <div class="row media-content"> -->
-    <!-- <div class="col-md-4 media-image">
-          <img class="img-fluid" src="images/social3.jpg" alt="">
-            <div class="content-media">
-                <h3>APA WINS AT AKI 2019 AWARDS</h3>
-                <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents 
-                  the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
-            </div>
-            <div class="load-more">
-                      <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-        </div> -->
-    <!-- <div class="col-md-4 tx">
-           <img class="img-fluid" src="images/social5.jpg" alt="">
-           <h3>APA WINS AT AKI 2019 AWARDS</h3>
-           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
-             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
-           <div class="load-more">
-             <a href="#" class="btn btn-primary">READ MORE</a>
-           </div>
-         </div>
-
-         <div class="col-md-4 tx">
-           <img class="img-fluid" src="images/social3.jpg" alt="">
-           <h3>APA WINS AT AKI 2019 AWARDS</h3>
-           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
-             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
-           <div class="load-more">
-             <a href="#" class="btn btn-primary">READ MORE</a>
-           </div>
-
-         </div>
-
-         <div class="col-md-4 tx">
-           <img class="img-fluid" src="images/social1.jpg" alt="">
-           <h3>APA WINS AT AKI 2019 AWARDS</h3>
-           <p>Nairobi, Kenya, 11 March 2019 – Dr. Jennifer Riria, Group CEO, Echo Network Africa, (left) presents
-             the award to Catherine Karimi, Chief Executive Officer, APA Life (second left) and her… </p>
-           <div class="load-more">
-             <a href="#" class="btn btn-primary">READ MORE</a>
-           </div>
-         </div>
-
-       </div>
-       <br> <br>
-       <div class="load-more">
-         <a href="#" class="btn btn-danger">LOAD MORE</a>
-       </div>
-
-     </div>
-
-   </div> -->
     </div>
+
+    <script type="text/javascript">
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    (function(d, m) {
+        var kommunicateSettings = {
+            "appId": "17b8522a406b28850f9de067f40d2f6dd",
+            "conversationTitle": "ANTHONY BARU",
+            "automaticChatOpenOnNavigation": true
+        };
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0];
+        h.appendChild(s);
+        window.kommunicate = m;
+        m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+    </script>
+
 
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
@@ -591,14 +547,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>
-<link href="https://snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
-<script src="https://snatchbot.me/sdk/webchat.min.js"></script>
-<script>
-Init('?botID=58202&appID=webchat', 600, 600,
-    'https://dvgpba5hywmpo.cloudfront.net/media/image/GxVZUnMb98bpx7dSKGER7UsBT', 'bubble', '#00AFF0', 90, 90,
-    62.99999999999999, '', '1', '#FFFFFF', '#FFFFFF', 0
-); /* for authentication of its users, you can define your userID (add &userID={login}) */
-</script>

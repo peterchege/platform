@@ -22,6 +22,8 @@ while ($check = mysqli_fetch_assoc($datequery)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
+    <link rel="stylesheet" href="css/career.css" media="screen">
+
 
     <?php include 'views/head_links.php'; ?>
 
@@ -34,14 +36,17 @@ while ($check = mysqli_fetch_assoc($datequery)) {
 
 
     <!-- ===================================== ABOUT US ===================================== -->
+    <br><br><br>
     <div class="container">
         <div class="apollo">
             <?php
             echo errorMessage();
             echo successMessage();
             ?>
-            <h1>OPEN POSITIONS</h1>
-            <div class="header-line"></div>
+            <h1>RECOMMENDED JOBS</h1>
+            <div class="under-line img6">
+                <img src="images/line.png" alt="">
+            </div>
             <p class="container content-offer text-left"> Apollo Group, our most valuable assets are our employees. We
                 pride
                 ourselves in creating experience, delivering results and adding value to all stakeholders.
@@ -110,8 +115,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
     </script>
 
     <script>
-    DecoupledEditor
-        .create(document.querySelector('#editor'))
+    DecoupledEditor.create(document.querySelector('#editor'))
         .then(editor => {
             const toolbarContainer = document.querySelector('#toolbar-container');
 

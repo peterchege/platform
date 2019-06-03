@@ -44,11 +44,10 @@
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Balance Funds</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Equity Funds</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Money Market Funds </a></li>
-
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-3 footer-contact">
+                <div class="col-lg-4 col-md-6 footer-contact">
                     <h4>Contact Us</h4>
                     <p>
                         Apollo Centre, Ring Rd Parklands<br> Westlands
@@ -65,7 +64,6 @@
                         <a href="#" class="google-plus"><i class="fab fa-google-plus-g"></i></a>
                         <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -75,5 +73,6 @@
     <div class="container">
         <div class="copyright"> Copyright &copy; <?= date('Y'); ?> <strong>APA INSURANCE</strong>. All Rights Reserved.
         </div>
+
     </div>
 </footer><!-- #footer -->

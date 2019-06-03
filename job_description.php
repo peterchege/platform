@@ -40,6 +40,7 @@ if ($job_desc['job_id'] !== $job_token) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
+    <link rel="stylesheet" href="css/career.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -54,6 +55,7 @@ if ($job_desc['job_id'] !== $job_token) {
 
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
+    <br><br><br>
 
 
     <div class="container">
@@ -63,8 +65,6 @@ if ($job_desc['job_id'] !== $job_token) {
             <p class="container content-offer text-left">
                 <?= html_entity_decode($job_desc['job_short_description']); ?>
             </p>
-
-
         </div>
         <div class="row ">
             <div class="col-10 job-box">
