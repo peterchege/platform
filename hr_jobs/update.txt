@@ -1,0 +1,5 @@
+ $updatequery = "UPDATE apa_job_posts SET  job_id = '$job_id', job_title = '$job_title', job_short_description = '$job_short_description', country = '$country', 
+                                county = '$county', company = '$company', employment_type = '$employment_type', salary = '$salary', key_primary_responsibilities = '$primary_responsibilities', 
+                                academic_qualifications = '$academic_qualification', professional_qualifications = '$professional_qualifications', job_skills_and_requirements = '$job_skills', experience = '$experience', 
+                                deadline = '$deadline', added_by = '$admin'";
+        $db->query($updatequery);
