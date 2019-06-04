@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/socila2.jpg" alt="">
                                 <div class="box-info text-left">
@@ -94,7 +94,101 @@
                         </div>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>     
+
+                 <div class="row">
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>     
+
+                 <div class="row">
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="post">
+                            <img src="images/socila2.jpg" alt="">
+                                <div class="box-info text-left">
+                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <p>
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
+                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
+                                        Million The Group grew…
+                                    </p>
+                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/socila2.jpg" alt="">
                                 <div class="box-info text-left">
