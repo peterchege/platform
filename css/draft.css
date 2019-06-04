@@ -130,7 +130,6 @@ a:focus {
     /* position: absolute;
     top: 1%;
     right: 10%; */
-
 }
 
 #header #logo2 .img-crl{
@@ -1546,13 +1545,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* mine */
 @media (max-width: 767.98px) {
     .media-content img {
-       
     }
 }
 
 @media (max-width: 575.98px) {
     .media-content img {
-      
     }
 
 }
