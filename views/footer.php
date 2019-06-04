@@ -78,7 +78,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Regulated by IRA  </div>
+                <div class="copyright"> Regulated by <strong> IRA </strong>  </div>
             </div>
             
             <div class="col-md-4">
