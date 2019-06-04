@@ -1137,19 +1137,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 10px 15px;
     font-size: 14px;
     margin-bottom: 2%;
-    -webkit-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
-    -moz-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
-    box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
 
 .load-more .btn-primary{
     background-color: #0C4DA2;
 }
 
+.load-more .btn-dark{
+    background-color: slategray;
+    border: 1px solid slategray;
+}
+
 .load-more .btn:hover {
-    -webkit-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
     background-color: #C80D10;
     border: 1px solid #C80D10;
     transition: all 300ms ease;
@@ -1438,13 +1443,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+.button .btn-primary{
+    background-color: #0C4DA2;
+}
+
+.button .btn-dark {
+    background-color: slategray;
+    border: 1px solid slategray;
+}
+
 .button .btn1 {
     margin-right: 20px;
     padding: 10px 20px;
     border-radius: 20px;
-    -webkit-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
-    -moz-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
-    box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
     text-decoration: none;
 }
 
@@ -1453,7 +1467,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.5);
     background-color: #C80D10;
-    border: 2px solid #C80D10;
+    /* border: 2px solid #C80D10; */
     transition: all 300ms ease;
 }
 /*--------------------------------------------------------------

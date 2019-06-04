@@ -375,7 +375,7 @@
                             secure.
                         </p><br>
 
-                        <div class="button">
+                        <div class="button apollo-centre">
                             <a href="#" class="btn-primary  btn1">BOOK NOW</a>
                             <a href="#" class="btn-dark  btn1">LEARN MORE</a>
                         </div>

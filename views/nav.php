@@ -20,7 +20,7 @@
                 <li><a href="career.php">CAREERS</a></li>
                 <li><a href="#">CSR</a></li>
                 <li><a href="#">CONTACT US</a></li>
-                <li><a href="portals.php">LOGIN</a></li>
+                <li><a href="portals.php">ONLINE SEERVICE</a></li>
             </ul>
 
             <div id="flags">
