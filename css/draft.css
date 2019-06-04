@@ -1111,6 +1111,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.selection-btn .btn-primary {
+    background-color: #0C4DA2;
+}
+
+
 .btn-mine {
     border-radius: 20px;
     width: 60%;
@@ -1135,6 +1140,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
     box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
+}
+
+.load-more .btn-primary{
+    background-color: #0C4DA2;
 }
 
 .load-more .btn:hover {
