@@ -1,0 +1,63 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+body p {
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+}
+
+.post  {
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(95, 99, 104, 0.1);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(95, 99, 104, 0.1);
+    box-shadow: 0px 0px 7px 2px rgba(95, 99, 104, 0.1);
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10% auto;
+}
+
+.post .box-info {
+    width: 85%;
+    position: relative;
+    top: -45px; 
+    z-index: 1;
+    padding: 20px 10px;
+    background-color: white;  
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(168, 168, 168, 0.6);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(168, 168, 168, 0.6);  
+    box-shadow: 0px 0px 7px 2px rgba(168, 168, 168, 0.6);
+    border-radius: 20px;
+}
+
+.post .box-info h2{
+    font-size: 20px;
+    padding: 0 20px;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+}
+
+.post .box-info p{
+    font-size: 15px;
+}
+
+.post .box-info .btn {
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
