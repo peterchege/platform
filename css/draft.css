@@ -208,6 +208,27 @@ a:focus {
     background-position: center;
 }
 
+.banner-media {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/media.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-media::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 12vh;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 .cover-line{
     margin-top: -15px;
 }
