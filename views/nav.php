@@ -7,7 +7,7 @@
         <div id="logo" class="pull-left">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.php" id="im-left"><img src="img/logon.jpg" width="85" height="auto" alt="" title="" /></a>
+            <a href="index.php" id="im-left"><img src="img/logon.png" width="80" height="auto" alt="" title="" /></a>
         </div>
 
 
@@ -33,8 +33,9 @@
     </div>
 
     <!-- APOLLO GROUP LOGO -->
-    <div id="logo1" class="pull-right">
-        <a href="#"><img src="images/Apollo.jpg" width="100" height="auto" alt="" title="" /></a>
-    </div>
+    <!-- <div id="logo1" class="pull-right1"> -->
+        
+    <!-- </div> -->
 </header>
+<a class="logo1" href="#"><img src="images/Apollo.jpg" width="120" height="auto" alt="" title="" /></a>
 <!-- #header -->

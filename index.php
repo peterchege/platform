@@ -131,9 +131,7 @@
                 1977,
                 our mission
                 has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa.
+                present and future peace of mind to the East African market 
             </p>
             <div class="container-fluid">
                 <div class="row row-product">
@@ -151,13 +149,15 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <a href="#">
+                                            <p>Get Cover</p>
+                                        </a>
 
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_jamii.html">
+                                        <a href="product_detail_jamii.php">
                                             <p>Read more</p>
                                         </a>
                                     </div>
@@ -178,7 +178,9 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
+                                            <p>Get Cover</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-6">
