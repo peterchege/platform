@@ -70,9 +70,22 @@
     </div>
     <div class="footer-line">
     </div>
-    <div class="container">
-        <div class="copyright"> Copyright &copy; <?= date('Y'); ?> <strong>APA INSURANCE</strong>. All Rights Reserved.
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="copyright"> Copyright &copy; <?= date('Y'); ?> <strong>APA INSURANCE</strong>. All Rights Reserved.
+                    </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="copyright"> Regulated by IRA  </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="copyright"> Terms & Condtions</div>
+            </div>
         </div>
+       
 
     </div>
 </footer><!-- #footer -->
