@@ -69,3 +69,12 @@ body p {
     font-size: 14px;
     margin-left: 20px;
 }
+
+.post .box-info .btn-primary{
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+}
+
