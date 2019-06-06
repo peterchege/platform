@@ -277,7 +277,6 @@ a:focus {
 }
 
 #intro .carousel-content {
-    /* margin: 20% 0 0 0;	 */
     position: absolute;
     top: 81.1%;
     text-align: center;
@@ -641,10 +640,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #flags {
-    /* padding-top: 5px;
-  position: relative;
-  right: 15%;
-  width: 100%; */
     margin-right: 12%;
 }
 
@@ -686,7 +681,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     
     .header-line {
         width: 75%;
-      
     }
 }
 
@@ -742,9 +736,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 22%;
     margin: 3% auto;
     margin-bottom: 5%;
-    /* -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
-    -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
-    box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1); */
     border-radius: 20px;
     -webkit-box-shadow: 11px 8px 48px 3px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 11px 8px 48px 3px rgba(0, 0, 0, 0.33);
@@ -757,8 +748,6 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin: 0 auto;
         width: 250px;
         height: 4px;
-        /* border-radius: 50%;
-        background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158)); */
     }
 
     .product-box {

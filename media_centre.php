@@ -64,7 +64,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/socila2.jpg" alt="">
                             <div class="box-info text-left">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social1.jpg" alt="">
                             <div class="box-info text-left">
@@ -94,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social3.jpg" alt="">
                             <div class="box-info text-left">
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social4.jpg" alt="">
                             <div class="box-info text-left">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social5.jpg" alt="">
                             <div class="box-info text-left">
@@ -141,7 +141,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social6.jpg" alt="">
                             <div class="box-info text-left">
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social7.jpg" alt="">
                             <div class="box-info text-left">
@@ -173,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social8.jpg" alt="">
                             <div class="box-info text-left">
@@ -188,7 +188,7 @@
                         </div>
                     </div>
 
-                    <div class="col-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
                             <img src="images/social9.jpg" alt="">
                             <div class="box-info text-left">
