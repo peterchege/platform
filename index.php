@@ -16,13 +16,13 @@
 
     <!--==========================
     Header
-  ============================-->
+    ============================-->
     <?php include 'views/nav.php'; ?>
     <!-- #header -->
 
     <!--==========================
     Intro Section
-  ============================-->
+    ============================-->
     <section id="intro">
         <div class="intro-container">
             <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel"
@@ -55,7 +55,7 @@
                             <div class="carousel-content">
                                 <!-- <h2>Animal health</h2>
                 <p>Osho chemicals manufactures and supplies the best Livestock and Poultry products and equipment in the industry.
-                </p> 
+                </p>
                 <a href="#about" class="btn-get-started scrollto">Get Started</a>-->
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                 1977,
                 our mission
                 has been to provide
-                present and future peace of mind to the East African market 
+                present and future peace of mind to the East African market
             </p>
             <div class="container-fluid">
                 <div class="row row-product">
@@ -178,7 +178,8 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
+                                        <a
+                                            href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
                                             <p>Get Cover</p>
                                         </a>
                                     </div>
