@@ -78,3 +78,21 @@ body p {
     box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
 
+/* CSR */
+
+.objective {
+    text-align: left;
+    margin: 5% auto; 
+}
+
+.objective h2{
+    font-size: 25px;
+    padding: 0 20px;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+}
+
+.objective ul{
+    padding-left: 5%;
+}

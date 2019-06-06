@@ -24,7 +24,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-media">
+    <div class="banner-csr">
 
     </div>
     <div class="cover-line">
@@ -50,6 +50,18 @@
                 (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility 
                 programmes focuses on supporting the needy in our society to improve their lives.
             </p>
+            <div class="objective">
+                <h2>
+                    Objectives of the Foundation
+                </h2>
+                <ul>
+                    <li>Support sustainable projects that uplift the standards of communities, that we partner with for support</li>
+                    <li>Our vision is the initiative is that this initiative will increase accessibility to clean water</li>
+                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their own lives; and 
+                        emphasises the need, for people, to have access to the opportunities they need to succeed in.
+                    </li>
+                <ul>        
+            </div>
         </div>
     </div>
 
