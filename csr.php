@@ -38,13 +38,14 @@
                         At The Apollo Group, we believe that the world is beautiful when people smile. 
                         We seek to harness this through our corporate social responsibility.
                         It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
-                    </p>
+                    </p> 
+                    <a href="#" class="btn btn-primary"> Watch Video</a>
                 </div>
             </div>
         </div>
         
     </div>
-    
+
     <div class="cover-line">
         <img src="images/line.png" alt="">
     </div>

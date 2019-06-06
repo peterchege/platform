@@ -105,9 +105,8 @@ body p {
 
 .csr-cont h2 {
     font-size: 28px;
-    padding: 0 20px;
     font-family: 'Oswald',
-     sans-serif;
+    sans-serif;
     color: #fff;
 }
 
@@ -115,4 +114,13 @@ body p {
     color: #fff;
     font-size: 14px;
     padding-top: 20px;
+}
+
+.csr-cont .btn-primary{
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
