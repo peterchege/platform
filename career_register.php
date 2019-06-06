@@ -5,11 +5,11 @@ require_once 'inc/functions.php';
 require_once 'inc/sessions.php';
 
 //linkedin signup/login
-require_once 'linkedin2/init.php';
+//require_once 'linkedin2/init.php';
 
 //google login
 require_once 'googleapi/config.php';
-$loginURL = $gClient->createAuthUrl();
+//$loginURL = $gClient->createAuthUrl();
 //echo $loginURL;
 
 
@@ -139,8 +139,10 @@ if (isset($_POST['submit_registration'])) {
                                     class="fab fa-google-plus-g"></i> Sign up with gmail</a>
                         </div>
                         <div class=" text-center new-bt">
-                            <a href="<?php echo $linkedin->getAuthUrl(); ?>" class="btn btn-primary t-log"><i
-                                    class="fab fa-linkedin-in"></i> Sign up with Linkedin</a>
+                            <a href="<?php
+                                        //echo $linkedin->getAuthUrl(); 
+                                        ?>" class="btn btn-primary t-log"><i class="fab fa-linkedin-in"></i> Sign up
+                                with Linkedin</a>
                         </div>
                     </form>
                     <hr>
