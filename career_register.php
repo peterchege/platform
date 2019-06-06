@@ -5,57 +5,57 @@ require_once 'inc/functions.php';
 require_once 'inc/sessions.php';
 
 //linkedin signup/login
-require_once 'linkedin2/init.php';
+//require_once 'linkedin2/init.php';
 
 //google login
 require_once 'googleapi/config.php';
 $loginURL = $gClient->createAuthUrl();
-//echo $loginURL;
+    //echo $loginURL;
 
-//twitter login
-require 'twitter_oauth/api/twitteroauth/autoload.php';
-use Abraham\TwitterOAuth\TwitterOAuth;
+    //twitter login
+    // require 'twitter_oauth/api/twitteroauth/autoload.php';
+    // use Abraham\TwitterOAuth\TwitterOAuth;
 
-define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
-define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
-define('OAUTH_CALLBACK', 'http://localhost/apa/projects/website/twitter_oauth/api/callback.php');
+    // define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
+    // define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
+    // define('OAUTH_CALLBACK', 'http://localhost/apa/projects/website/twitter_oauth/api/callback.php');
 
-if (!isset($_SESSION['access_token'])) {
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
-    $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
+    // if (!isset($_SESSION['access_token'])) {
+    //     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
+    //     $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
 
-    $_SESSION['oauth_token'] = $request_token['oauth_token'];
-    $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
-    $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
-    //echo $url;
-} else {
-    $access_token = $_SESSION['access_token'];
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
-    $user = $connection->get('account/verify_credentials');
+    //     $_SESSION['oauth_token'] = $request_token['oauth_token'];
+    //     $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
+    //     $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
+    //     //echo $url;
+    // } else {
+    //     $access_token = $_SESSION['access_token'];
+    //     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
+    //     $user = $connection->get('account/verify_credentials');
 
 
-    $_SESSION['id'] = $user->id;
-    $twitter_id = $_SESSION['id'];
-    $_SESSION['name'] = $user->name;
-    $twitter_name = $_SESSION['name'];
-    $_SESSION['profile_image_url'] = $user->profile_image_url;
-    $twitter_profile_image = $_SESSION['profile_image_url'];
+    //     $_SESSION['id'] = $user->id;
+    //     $twitter_id = $_SESSION['id'];
+    //     $_SESSION['name'] = $user->name;
+    //     $twitter_name = $_SESSION['name'];
+    //     $_SESSION['profile_image_url'] = $user->profile_image_url;
+    //     $twitter_profile_image = $_SESSION['profile_image_url'];
 
-    //    Insert into Database
-    $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
-    if (mysqli_num_rows($check) > 0) {
-        //        user already registered so redirect to job portal
-        //header('location:homepage.html');
+    //     //    Insert into Database
+    //     $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
+    //     if (mysqli_num_rows($check) > 0) {
+    //         //        user already registered so redirect to job portal
+    //         //header('location:homepage.html');
 
-    } else {
-        //        user doesn't exist so enter details to database
-        $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
-        $_SESSION['successMessage'] = 'Welcome to your job portal.';
-        echo "<script>
-    window.open('','_SELF')
-    </script>";
-        exit;
-    }
+    //     } else {
+    //         //        user doesn't exist so enter details to database
+    //         $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
+    //         $_SESSION['successMessage'] = 'Welcome to your job portal.';
+    //         echo "<script>
+    //     window.open('','_SELF')
+    //     </script>";
+    //         exit;
+    //     }
 
 
     //	echo '<pre>';

@@ -14,46 +14,46 @@ $loginURL = $gClient->createAuthUrl();
 
 
 //twitter login
-require 'twitter_oauth/api/twitteroauth/autoload.php';
-use Abraham\TwitterOAuth\TwitterOAuth;
+// require 'twitter_oauth/api/twitteroauth/autoload.php';
+// use Abraham\TwitterOAuth\TwitterOAuth;
 
-define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
-define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
-define('OAUTH_CALLBACK', 'http://localhost/apainsurance/twitter_oauth/api/callback.php');
+// define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
+// define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
+// define('OAUTH_CALLBACK', 'http://localhost/apainsurance/twitter_oauth/api/callback.php');
 
-if (!isset($_SESSION['access_token'])) {
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
-    $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
+// if (!isset($_SESSION['access_token'])) {
+//     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
+//     $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
 
-    $_SESSION['oauth_token'] = $request_token['oauth_token'];
-    $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
-    $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
-} else {
-    $access_token = $_SESSION['access_token'];
-    $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
-    $user = $connection->get('account/verify_credentials');
-    $_SESSION['id'] = $user->id;
-    $twitter_id = $_SESSION['id'];
-    $_SESSION['name'] = $user->name;
-    $twitter_name = $_SESSION['name'];
-    $_SESSION['profile_image_url'] = $user->profile_image_url;
-    $twitter_profile_image = $_SESSION['profile_image_url'];
+//     $_SESSION['oauth_token'] = $request_token['oauth_token'];
+//     $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
+//     $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
+// } else {
+//     $access_token = $_SESSION['access_token'];
+//     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
+//     $user = $connection->get('account/verify_credentials');
+//     $_SESSION['id'] = $user->id;
+//     $twitter_id = $_SESSION['id'];
+//     $_SESSION['name'] = $user->name;
+//     $twitter_name = $_SESSION['name'];
+//     $_SESSION['profile_image_url'] = $user->profile_image_url;
+//     $twitter_profile_image = $_SESSION['profile_image_url'];
 
-    //    Insert into Database
-    $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
-    if (mysqli_num_rows($check) > 0) {
-        //        user already registered so redirect to job portal
-        header('location:combined_form.php');
-    } else {
-        //        user doesn't exist so enter details to database
-        $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
-        $_SESSION['successMessage'] = 'Welcome to your job portal.';
-        echo "<script>
-    window.open('combined_form.php','_SELF')
-    </script>";
-        exit;
-    }
-}
+//     //    Insert into Database
+//     $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
+//     if (mysqli_num_rows($check) > 0) {
+//         //        user already registered so redirect to job portal
+//         header('location:combined_form.php');
+//     } else {
+//         //        user doesn't exist so enter details to database
+//         $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
+//         $_SESSION['successMessage'] = 'Welcome to your job portal.';
+//         echo "<script>
+//     window.open('combined_form.php','_SELF')
+//     </script>";
+//         exit;
+//     }
+// }
 
 
 //normal login
@@ -184,14 +184,14 @@ if (isset($_POST['login'])) {
                             <a href="<?php echo $linkedin->getAuthUrl(); ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
                         </div>
-                        <div class=" text-center new-bt">
+                        <!-- <div class=" text-center new-bt">
                             <a href="<?= ((isset($url)) ? $url : '#'); ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-twitter"></i> Sign in with Twitter</a>
                         </div>
                         <div class=" text-center new-bt">
                             <a href="facebook/loginFB.php" class="btn btn-primary f-log">
                                 <i class="fab fa-facebook-f"></i>Sign in with Facebook</a>
-                        </div>
+                        </div> -->
                     </form>
                     <hr>
                 </div>
