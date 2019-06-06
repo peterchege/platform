@@ -73,7 +73,7 @@
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
                                     
                                     </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                    <a href="media_centre_detail.php" class="btn btn-primary"> Read more</a>
                                 </div>
                         </div>
                     </div>
