@@ -30,7 +30,7 @@
                 <div class="col-md-offset-6 ">  
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h2>
                         APA Apollo Foundation
                     </h2>
@@ -69,7 +69,7 @@
                 (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility 
                 programmes focuses on supporting the needy in our society to improve their lives.
             </p>
-            <div class="objective">
+            <div class="objective wow fadeInUp" data-wow-delay="0.1s">
                 <h2>
                     Objectives of the Foundation
                 </h2>
