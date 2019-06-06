@@ -71,8 +71,7 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                    
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -86,8 +85,7 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                        
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -101,8 +99,7 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                        
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -118,8 +115,7 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                        
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -133,8 +129,7 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                        
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -148,8 +143,6 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -165,8 +158,6 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -180,8 +171,6 @@
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -194,9 +183,7 @@
                                 <div class="box-info text-left">
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        Financial Highlights The Apollo Group, profit before tax, increased by 9% to Ksh 947 
-                                        Million The Group grew…
+                                        The APA Apollo Group results reflect a significant improvement in overall earnings.
                                     </p>
                                     <a href="#" class="btn btn-primary"> Read more</a>
                                 </div>
