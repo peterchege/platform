@@ -4,7 +4,7 @@ require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
 //linkedin signup/login
-require_once 'linkedin2/init.php';
+//require_once 'linkedin2/init.php';
 
 
 //google login
