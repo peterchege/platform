@@ -86,7 +86,5 @@
                 <div class="copyright"> Terms & Condtions</div>
             </div>
         </div>
-
-
     </div>
 </footer><!-- #footer -->
