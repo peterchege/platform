@@ -4,7 +4,7 @@ require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
 //linkedin signup/login
-//require_once 'linkedin2/init.php';
+require_once 'linkedin2/init.php';
 
 
 //google login
@@ -181,17 +181,11 @@ if (isset($_POST['login'])) {
                                 <i class="fab fa-google-plus-g"></i> Sign in with Google</a>
                         </div>
                         <div class=" text-center new-bt">
-                            <a href="<?php echo $linkedin->getAuthUrl(); ?>" class="btn btn-primary t-log">
+                            <a href="<?php
+                                        echo $linkedin->getAuthUrl();
+                                        ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
                         </div>
-                        <!-- <div class=" text-center new-bt">
-                            <a href="<?= ((isset($url)) ? $url : '#'); ?>" class="btn btn-primary t-log">
-                                <i class="fab fa-twitter"></i> Sign in with Twitter</a>
-                        </div>
-                        <div class=" text-center new-bt">
-                            <a href="facebook/loginFB.php" class="btn btn-primary f-log">
-                                <i class="fab fa-facebook-f"></i>Sign in with Facebook</a>
-                        </div> -->
                     </form>
                     <hr>
                 </div>
