@@ -25,6 +25,10 @@
     <div class="container-fluid212">
         <div class="header-image header-image1">
         </div>
+        <div class="line-media">
+            <img src="images/line.png" alt="">
+        </div>
+        
     </div>
 
     <div class="container product-container">
