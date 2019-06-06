@@ -107,6 +107,7 @@ if (isset($_POST['book'])) {
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="inputAddress">Name</label>
+                            <?= $_SERVER['DOCUMENT_ROOT']; ?>
                             <input name="company_name" type="text" class="form-control" id="inputAddress"
                                 placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                         </div>
