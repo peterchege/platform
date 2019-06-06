@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
-    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/media_detail.css" />
     <link rel="stylesheet" href="css/career.css" />
     <?php include 'views/head_links.php'; ?>
 

@@ -66,7 +66,7 @@
                 <div class="row">
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
-                            <img src="images/socila2.jpg" alt="">
+                            <img src="images/soc.jpg" alt="">
                                 <div class="box-info text-left">
                                     <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
                                     <p>
