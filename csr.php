@@ -25,8 +25,26 @@
     Intro Section
     ============================-->
     <div class="banner-csr">
+        <div class="container-fluid">
+            <div class="row csr-cont">
+                <div class="col-md-offset-6 ">  
+                </div>
 
+                <div class="col-md-6">
+                    <h2>
+                        APA Apollo Foundation
+                    </h2>
+                    <p>
+                        At The Apollo Group, we believe that the world is beautiful when people smile. 
+                        We seek to harness this through our corporate social responsibility.
+                        It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
+                    </p>
+                </div>
+            </div>
+        </div>
+        
     </div>
+    
     <div class="cover-line">
         <img src="images/line.png" alt="">
     </div>
