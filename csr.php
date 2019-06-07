@@ -64,7 +64,8 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
+                Welcome to Apollo Investments Limited.
                 APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group 
                 (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility 
                 programmes focuses on supporting the needy in our society to improve their lives.
@@ -96,12 +97,11 @@
                 <div class="row">
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
-                            <img src="images/soc.jpg" alt="">
+                            <img src="images/social8.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <h2>EDUCATION </h2>
                                     <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                    
+                                    APA CONTUNIES TO INVEST IN EDUCATION FOR CHELETA PRIMARY SCHOOL STUDENTS
                                     </p>
                                     <a href="media_centre_detail.php" class="btn btn-primary"> Read more</a>
                                 </div>
@@ -110,9 +110,9 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
-                            <img src="images/social1.jpg" alt="">
+                            <img src="images/social9.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <h2>WATER </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
                                         
@@ -124,9 +124,9 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
-                            <img src="images/social3.jpg" alt="">
+                            <img src="images/social6.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <h2>ENVIRONMENT </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
                                         
@@ -140,9 +140,9 @@
                 <div class="row">
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="post">
-                            <img src="images/social4.jpg" alt="">
+                            <img src="images/social7.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <h2>YOUTH EMPOWERMENT </h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
                                         
@@ -156,7 +156,7 @@
                         <div class="post">
                             <img src="images/social5.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
+                                    <h2>ENVIRONMENT</h2>
                                     <p>
                                         The APA Apollo Group results reflect a significant improvement in overall earnings. 
                                         
