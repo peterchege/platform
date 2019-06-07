@@ -36,7 +36,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
 
 
     <!-- ===================================== ABOUT US ===================================== -->
-    <br><br><br>
+
     <div class="container">
         <div class="apollo">
             <?php

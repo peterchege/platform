@@ -123,7 +123,7 @@ if (isset($_POST['login'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
 
-    <br><br><br><br><br>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-8 job-box">
@@ -189,7 +189,7 @@ if (isset($_POST['login'])) {
             </div>
         </div>
     </div>
-
+<br><br>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->

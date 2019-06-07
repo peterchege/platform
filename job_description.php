@@ -55,8 +55,6 @@ if ($job_desc['job_id'] !== $job_token) {
 
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
-    <br><br><br>
-
 
     <div class="container">
         <div class="apollo">
@@ -72,6 +70,7 @@ if ($job_desc['job_id'] !== $job_token) {
             <div class="col-10 job-box">
                 <div class="job-description text-center">
                     <h2><?= desanitize($job_desc['job_title']); ?></h2>
+                    <hr>
                     <ul class="text-left">
                         <li><b>Company:</b> <span><?= sanitize($job_desc['company']); ?></span> </li>
                         <li><b>Location:</b> <span>
@@ -127,7 +126,7 @@ if ($job_desc['job_id'] !== $job_token) {
         </div>
     </div>
 
-
+<br><br>
 
 
     <!-- =====================================FOOTER===================================== -->

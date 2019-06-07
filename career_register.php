@@ -79,7 +79,7 @@ if (isset($_POST['submit_registration'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
 
-    <br><br><br><br><br><br>
+    <br><br>
     <div class="container">
 
         <div class="row">
@@ -150,7 +150,7 @@ if (isset($_POST['submit_registration'])) {
             </div>
         </div>
     </div>
-
+<br><br>
 
 
     <!-- =====================================FOOTER===================================== -->
