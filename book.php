@@ -56,7 +56,7 @@ if (isset($_POST['book'])) {
 <body>
 
     <?php include 'views/nav.php'; ?>
-    <br><br><br><br><br><br><br><br>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
