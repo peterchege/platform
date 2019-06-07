@@ -19,7 +19,7 @@
                 <li><a href="">ABOUT US</a></li>
                 <li><a href="career.php">CAREERS</a></li>
                 <li><a href="csr.php">CSR</a></li>
-                <li><a href="media_centre.php">MEDIA CENTRE</a></li>
+                <li><a href="media_centre_video.php">MEDIA CENTRE</a></li>
                 <li><a href="#">CONTACT US</a></li>
                 <li><a href="portals.php">ONLINE SERVICE</a></li>
             </ul>
