@@ -24,9 +24,28 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-media">
+    <div class="banner-csr">
+        <div class="container-fluid">
+            <div class="row csr-cont">
+                <div class="col-md-offset-6 ">  
+                </div>
 
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h2>
+                        APA Apollo Foundation
+                    </h2>
+                    <p>
+                        At The Apollo Group, we believe that the world is beautiful when people smile. 
+                        We seek to harness this through our corporate social responsibility.
+                        It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
+                    </p> 
+                    <a href="#" class="btn btn-primary"> Watch Video</a>
+                </div>
+            </div>
+        </div>
+        
     </div>
+
     <div class="cover-line">
         <img src="images/line.png" alt="">
     </div>
@@ -40,17 +59,28 @@
 
     <div class="container">
         <div class="apollo">
-            <h1>MEDIA CENTRE</h1>
-            <div class="under-line img8">
+            <h1>CSR</h1>
+            <div class="under-line img4">
                 <img src="images/line.png" alt="">
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
-                Since our founding in 1977, our mission has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa.
+                APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group 
+                (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility 
+                programmes focuses on supporting the needy in our society to improve their lives.
             </p>
+            <div class="objective wow fadeInUp" data-wow-delay="0.1s">
+                <h2>
+                    Objectives of the Foundation
+                </h2>
+                <ul>
+                    <li>Support sustainable projects that uplift the standards of communities, that we partner with for support</li>
+                    <li>Our vision is the initiative is that this initiative will increase accessibility to clean water</li>
+                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their own lives; and 
+                        emphasises the need, for people, to have access to the opportunities they need to succeed in.
+                    </li>
+                <ul>        
+            </div>
         </div>
     </div>
 
