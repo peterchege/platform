@@ -30,7 +30,6 @@
     <!-- #header -->
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
-    <br><br><br><br><br>
     <div id="msform">
 
         <ul id="progressbar" class="nav-list">
