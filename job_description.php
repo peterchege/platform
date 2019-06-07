@@ -61,7 +61,9 @@ if ($job_desc['job_id'] !== $job_token) {
     <div class="container">
         <div class="apollo">
             <h1>JOB DESCRIPTION</h1>
-            <div class="header-line"></div>
+            <div class="under-line img7">
+                <img src="images/line.png">
+            </div>
             <p class="container content-offer text-left">
                 <?= html_entity_decode($job_desc['job_short_description']); ?>
             </p>
