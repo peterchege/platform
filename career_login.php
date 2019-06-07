@@ -76,15 +76,12 @@ if (isset($_POST['login'])) {
                 } elseif ($hashPwdCheck == true) {
                     //check to see if cookies are allowed
                     if (!empty($_POST['rem'])) {
-                        //                set cookies
+                        //set cookies
                         setcookie("email", $email, time() + (10 * 365 * 24 * 60 * 60));
-                        setcookie("password", $password, time() + (10 * 365 * 24 * 60 * 60));
+                        //setcookie("password", $password, time() + (10 * 365 * 24 * 60 * 60));
                         setcookie("first_name", $row['first_name'], time() + (10 * 365 * 24 * 60 * 60));
                         setcookie("second_name", $row['second_name'], time() + (10 * 365 * 24 * 60 * 60));
                         echo $email . '<br>';
-                        echo $password . '<br>';
-                        echo $password . '<br>';
-                        echo $password . '<br>';
                     } else {
                         //set the session information
                         $_SESSION['email'] = $email;

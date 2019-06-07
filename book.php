@@ -107,7 +107,6 @@ if (isset($_POST['book'])) {
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="inputAddress">Name</label>
-                            <?= $_SERVER['DOCUMENT_ROOT']; ?>
                             <input name="company_name" type="text" class="form-control" id="inputAddress"
                                 placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                         </div>
@@ -121,7 +120,6 @@ if (isset($_POST['book'])) {
                             <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email"
                                 value="<?= ((isset($email)) ? $email : '') ?>">
                         </div>
-
                         <div class=" form-group col-md-6">
                             <label for="inputAddress2">Capacity</label>
                             <input name="capacity" type="number" class="form-control" id="inputAddress2"
