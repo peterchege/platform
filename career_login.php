@@ -88,7 +88,7 @@ if (isset($_POST['login'])) {
                         $_SESSION['password'] = $password;
                     }
                     //log in user
-
+                    header('location:combined_form.php');
                 }
             }
         }
