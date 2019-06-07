@@ -33,6 +33,9 @@
     <div class="vida">
             <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
     </div>
+    <div class="cover-line1">
+        <img src="images/line.png" alt="">
+    </div> 
 
 
     <!-- #intro -->
