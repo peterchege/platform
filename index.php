@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.html">
+                                        <a href="product_detail_travel.php">
                                             <p>Read more</p>
                                         </a>
                                     </div>
@@ -211,7 +211,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_marine.html">
+                                        <a href="product_detail_marine.php">
                                             <p>Read more</p>
                                         </a>
                                     </div>
@@ -237,7 +237,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.html">
+                                        <a href="product_detail_agriculture.php">
                                             <p>Read more</p>
                                         </a>
                                     </div>
