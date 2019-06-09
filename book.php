@@ -36,7 +36,7 @@ if (isset($_POST['book'])) {
         } else {
             $_SESSION['errorMessage'] = 'An error occurred. Please try again.';
         }
-    }
+     }
 }
 ?>
 <!doctype html>
@@ -88,9 +88,7 @@ if (isset($_POST['book'])) {
                                 placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputPassword4">End Date</label>
-                            <input name="end_date" type="date" class="form-control" id="inputPassword4"
-                                placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                            <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputEmail4">Start Time (minimum 6 am)</label>
