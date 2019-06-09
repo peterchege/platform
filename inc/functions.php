@@ -1,5 +1,5 @@
 <?php
-//confirm login
+//confirm login in hr management system
 function confirm_login()
 {
     if (!isset($_SESSION['fname'])) {
@@ -97,4 +97,30 @@ function reduce_string($strin)
 function money($number)
 {
     return 'Ksh. ' . number_format($number, 0);
+}
+
+
+// jazeeb redirect to
+function redirect_to($newLocation)
+{
+    header('location:' . $newLocation);
+    exit();
+}
+
+// confirm login
+function login()
+{
+    if (isset($_SESSION['user_id']) || isset($_COOKIE['user_id'])) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function confirm_login_careers()
+{
+    if (!login()) {
+        $_SESSION['errorMessage'] = 'Please login to access this page.';
+        redirect_to('career_login.php');
+    }
 }

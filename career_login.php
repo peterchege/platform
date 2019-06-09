@@ -4,63 +4,26 @@ require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
 //linkedin signup/login
-//require_once 'linkedin2/init.php';
+require_once 'linkedin2/init.php';
 
 
 //google login
 require_once 'googleapi/config.php';
 $loginURL = $gClient->createAuthUrl();
-//echo $loginURL;
 
-
-//twitter login
-// require 'twitter_oauth/api/twitteroauth/autoload.php';
-// use Abraham\TwitterOAuth\TwitterOAuth;
-
-// define('CONSUMER_KEY', "4fUTSkXFz4CkmOZ4mIyTMlKiJ");
-// define('CONSUMER_SECRET', "MJW5rIjRoecpVDd1Tavv5LEhJBVpnKdSxaOIc5kvI9po4f1BQv");
-// define('OAUTH_CALLBACK', 'http://localhost/apainsurance/twitter_oauth/api/callback.php');
-
-// if (!isset($_SESSION['access_token'])) {
-//     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
-//     $request_token = $connection->oauth('oauth/request_token', array('oauth_callback' => OAUTH_CALLBACK));
-
-//     $_SESSION['oauth_token'] = $request_token['oauth_token'];
-//     $_SESSION['oauth_token_secret'] = $request_token['oauth_token_secret'];
-//     $url = $connection->url('oauth/authorize', array('oauth_token' => $request_token['oauth_token']));
-// } else {
-//     $access_token = $_SESSION['access_token'];
-//     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
-//     $user = $connection->get('account/verify_credentials');
-//     $_SESSION['id'] = $user->id;
-//     $twitter_id = $_SESSION['id'];
-//     $_SESSION['name'] = $user->name;
-//     $twitter_name = $_SESSION['name'];
-//     $_SESSION['profile_image_url'] = $user->profile_image_url;
-//     $twitter_profile_image = $_SESSION['profile_image_url'];
-
-//     //    Insert into Database
-//     $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$twitter_id'");
-//     if (mysqli_num_rows($check) > 0) {
-//         //        user already registered so redirect to job portal
-//         header('location:combined_form.php');
-//     } else {
-//         //        user doesn't exist so enter details to database
-//         $insert_twitter_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) VALUES ('$twitter_id', '$twitter_name', '$twitter_profile_image', 'twitter') ");
-//         $_SESSION['successMessage'] = 'Welcome to your job portal.';
-//         echo "<script>
-//     window.open('combined_form.php','_SELF')
-//     </script>";
-//         exit;
-//     }
-// }
-
+// where user is coming from
+if (isset($_GET['apply'])) {
+    $apply = sanitize($_GET['apply']);
+    $_SESSION['apply'] = $apply;
+    $job_token = sanitize($_GET['job_token']);
+    $_SESSION['job_token'] = $job_token;
+}
 
 //normal login
 if (isset($_POST['login'])) {
     $email = mysqli_real_escape_string($db, $_POST['email']);
     $password = mysqli_real_escape_string($db, $_POST['password']);
-    $applicantlogin = $db->query("SELECT * FROM apa_job_applicants WHERE email = '$email' ");
+    $applicantlogin = $db->query("SELECT * FROM apa_job_applicants WHERE email = '$email' AND social_media_platform = 'normal'");
 
     // validate email and password
     if (empty($email) || empty($password)) {
@@ -77,28 +40,37 @@ if (isset($_POST['login'])) {
                     //check to see if cookies are allowed
                     if (!empty($_POST['rem'])) {
                         //set cookies
-                        setcookie("email", $email, time() + (10 * 365 * 24 * 60 * 60));
-                        //setcookie("password", $password, time() + (10 * 365 * 24 * 60 * 60));
-                        setcookie("first_name", $row['first_name'], time() + (10 * 365 * 24 * 60 * 60));
-                        setcookie("second_name", $row['second_name'], time() + (10 * 365 * 24 * 60 * 60));
-                        echo $email . '<br>';
+                        $time = time() + 604800;
+                        setcookie("user_id", $row['applicant_id'], $time);
+                        setcookie("email", $row['email'], $time);
+                        setcookie("first_name", $row['first_name'], $time);
+                        setcookie("second_name", $row['second_name'], $time);
                     } else {
                         //set the session information
-                        $_SESSION['email'] = $email;
-                        $_SESSION['password'] = $password;
+                        $_SESSION['user_id'] = $row['applicant_id'];
+                        $_SESSION['email'] = $row['email'];
+                        $_SESSION['first_name'] = $row['first_name'];
+                        $_SESSION['second_name'] = $row['second_name'];
                     }
+
                     //log in user
-                    header('location:combined_form.php');
+                    if (isset($_SESSION['apply'])) {
+                        unset($_SESSION['apply']);
+                        header('location: combined_form.php');
+                    } else {
+                        header('location: applicant_dashboard_account.php');
+                    }
+
+                    echo $_SESSION['user_id'];
+                    echo '<br>';
+                    echo $_COOKIE['user_id'];
                 }
             }
         }
     }
-
-
-
-    if (empty($errors)) { }
 }
 
+//echo $_COOKIE['user_id'] . ' session active';
 
 ?>
 
@@ -137,20 +109,16 @@ if (isset($_POST['login'])) {
                         echo display_errors($errors);
                     }
                     ?>
-                    <form class="text-left" action="career_login.php" method="POST">
+                    <form class="text-left" action="<?= htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input name="email" type="email" class="form-control my-input" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email"
-                                value="<?= ((isset($email)) ? $email : ''); ?>">
+                            <input name="email" type="email" class="form-control my-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="<?= ((isset($email)) ? $email : ''); ?>">
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone else.</small> -->
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input name="password" type="password" class="form-control my-input"
-                                id="exampleInputPassword1" placeholder="Password"
-                                value="<?= ((isset($password)) ? $password : ''); ?>">
+                            <input name="password" type="password" class="form-control my-input" id="exampleInputPassword1" placeholder="Password" value="<?= ((isset($password)) ? $password : ''); ?>">
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" name="rem" class="form-check-input" id="exampleCheck1" value="off">
@@ -172,14 +140,14 @@ if (isset($_POST['login'])) {
                             </div>
                         </div>
                         <hr>
-                        <p class="text-center">login with :</p>
+                        <p class="text-center">Sign in with :</p>
                         <div class=" text-center new-bt">
                             <a href="<?= ((isset($loginURL)) ? $loginURL : ''); ?>" class="btn btn-danger g-log">
                                 <i class="fab fa-google-plus-g"></i> Sign in with Google</a>
                         </div>
                         <div class=" text-center new-bt">
                             <a href="<?php
-                                        //echo $linkedin->getAuthUrl();
+                                        echo $linkedin->getAuthUrl();
                                         ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
                         </div>
@@ -189,7 +157,7 @@ if (isset($_POST['login'])) {
             </div>
         </div>
     </div>
-<br><br>
+    <br><br>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
@@ -207,14 +175,11 @@ if (isset($_POST['login'])) {
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 </body>
 
