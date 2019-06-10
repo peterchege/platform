@@ -1,0 +1,64 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+* {
+    margin: 0 auto;
+}
+
+
+.portal-cover{
+    -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding: 0 0 20px 0px;
+}
+
+.portal-cover .img-port {
+    width: 100%;
+    /* height: 200px; */
+}
+
+.image-line {
+    margin-top: -12px;
+}
+
+.image-line img{
+    height: 5px;
+}
+
+.content-portal h3{
+    padding-top: 5%;
+    font-size: 26px;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+}
+
+.content-portal p {
+   width: 95%;
+   margin: 0 auto;
+}
+
+.content-portal .btn {
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 10% auto 5% auto;
+    background-color: #0C4DA2;
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.28);
+    box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.28);
+  
+}

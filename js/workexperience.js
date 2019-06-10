@@ -13,7 +13,6 @@ function add_fields() {
     objTo.appendChild(divtest)
 }
 
-//REMOVE FUNCTION
 function remove_field() {
     // Removes an element from the document
     var objTo = document.getElementById('remove_field');

@@ -15,7 +15,7 @@ function validation(event) {
         if (input_field[i - 1].value == '' || text_area.value == '') {
             count = count + 1;
         } else {
-            count = 0;
+
         }
     }
     if (count != 0 || y == 0) {
@@ -30,7 +30,6 @@ function validation(event) {
 function next_step1() {
     document.getElementById("first").style.display = "none";
     document.getElementById("second").style.display = "block";
-    document.getElementById("active2").style.color = "#00ac00";
 }
 // Function that executes on click of first previous button.
 function prev_step1() {
@@ -43,7 +42,7 @@ function prev_step1() {
 function next_step2() {
     document.getElementById("second").style.display = "none";
     document.getElementById("third").style.display = "block";
-    document.getElementById("active3").style.color = "#00ac00";
+
 }
 // Function that executes on click of second previous button.
 function prev_step2() {
@@ -77,4 +76,4 @@ function prev_step4() {
     document.getElementById("fourth").style.display = "block";
     document.getElementById("active2").style.color = "#00ac00";
     document.getElementById("active3").style.color = "gray";
-}
+

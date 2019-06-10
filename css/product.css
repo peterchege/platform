@@ -1,18 +1,47 @@
 
-.header-image{
+.header-image11 {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-image: url(../images/travell.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.header-image1 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/baby.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-image2 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/marine.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-image3 {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/fruit-big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-image::before{
     content: '';
     position: absolute;
     height: 80vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
-    top: 11%;
+    top: 12%;
     right: 0;
     left: 0;
     bottom: 0;
