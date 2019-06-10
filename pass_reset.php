@@ -1,25 +1,5 @@
 <html>
 
-<head>
-    <?php
-   require('mailer/PHPMailerAutoload.php');
-   require_once('mailer/class.smtp.php');
-
-   //Variables Declaration
-
-   require_once 'inc/db.php';
-   if (isset($_POST['submit'])) {
-      $email = $_POST['email'];
-      $forgot_pass_ran = rand(1000, 100000);
-      $email = stripslashes($email);
-      // $email = mysql_real_escape_string($email);
-
-
-      $db->query("UPDATE apa_job_applicants set password_reset = 'p@gmail.com' where email = 'tony@gmail.com");
-
-      //mysql_query("'") or die(mysql_error()); 
-      /*
-
 
 $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -44,26 +24,4 @@ $mail->AltBody = 'http://localhost/apainsurance/new_password.php?$<?php echo $fo
 
 
 
-    $mail->send(); */
-    }
-    ?>
 
-<body>
-
-    <script type="text/javascript">
-    <!--
-    function Redirect() {
-        window.location = "noback.php";
-    }
-
-    document.write("Password resert successfuly...");
-    setTimeout('Redirect()', 10);
-    //
-    </script>
-
-
-
-    <body>
-    </body>
-
-</html>
