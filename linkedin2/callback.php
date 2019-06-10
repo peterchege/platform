@@ -23,7 +23,7 @@ $full_name = $profile->firstName->localized->en_US . ' ' . $profile->lastName->l
 $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$linkedin_id'");
 if (mysqli_num_rows($check) > 0) {
     //       user already registered so redirect to job portal
-
+    header('location:../combined_form.php');
 } else {
     // user doesn't exist so enter details to database
     $insert_linkedin_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) 
@@ -36,3 +36,4 @@ if (mysqli_num_rows($check) > 0) {
     exit;
 }
 
+//header("Location: ../homepage.html");
