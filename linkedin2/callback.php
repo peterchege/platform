@@ -2,6 +2,7 @@
 session_start();
 require 'init.php';
 require '../inc/db.php';
+require '../inc/functions.php';
 if ($_GET['state'] != $_SESSION['linkedincsrf']) {
     die('Invalid request');
 }
@@ -35,5 +36,3 @@ if (mysqli_num_rows($check) > 0) {
         </script>";
     exit;
 }
-
-//header("Location: ../homepage.html");
