@@ -4,7 +4,7 @@ require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
 //linkedin signup/login
-//require_once 'linkedin2/init.php';
+require_once 'linkedin2/init.php';
 
 
 //google login
@@ -144,7 +144,7 @@ if (isset($_POST['login'])) {
                         </div>
                         <div class=" text-center new-bt">
                             <a href="<?php
-                                        //echo $linkedin->getAuthUrl();
+                                        echo $linkedin->getAuthUrl();
                                         ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
                         </div>
