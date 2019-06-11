@@ -124,3 +124,49 @@ function confirm_login_careers()
         redirect_to('career_login.php');
     }
 }
+
+// where user is coming from
+function user_direction()
+{
+    if (isset($_GET['apply'])) {
+        $apply = sanitize($_GET['apply']);
+        $_SESSION['apply'] = $apply;
+        $job_token = sanitize($_GET['job_token']);
+        $_SESSION['job_token'] = $job_token;
+        return $_SESSION['job_token'];
+    } else {
+        return false;
+    }
+}
+
+function user_destination()
+{
+    if (isset($_SESSION['apply'])) {
+        unset($_SESSION['apply']);
+        return header('location: combined_form.php');
+    } else {
+        return header('location: applicant_dashboard_account.php');
+    }
+}
+
+// social media where user is coming from
+// function user_direction_social_media()
+// {
+//     if (isset($_SESSION['social_apply'])) {
+//         return $_SESSION['social_apply'];
+//     }
+// }
+
+// social media where user is coming from
+function user_destination_social_media()
+{
+    if (isset($_SESSION['social_apply'])) {
+        unset($_SESSION['social_apply']);
+
+
+
+        return header('location: ../combined_form.php');
+    } else {
+        return header('location: ../applicant_dashboard_account.php');
+    }
+}

@@ -4,20 +4,23 @@ require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
 //linkedin signup/login
-//require_once 'linkedin2/init.php';
+require_once 'linkedin2/init.php';
 
 
 //google login
 require_once 'googleapi/config.php';
 $loginURL = $gClient->createAuthUrl();
 
-// where user is coming from
+// social media apply check
 if (isset($_GET['apply'])) {
     $apply = sanitize($_GET['apply']);
-    $_SESSION['apply'] = $apply;
+    $_SESSION['social_apply'] = $apply;
     $job_token = sanitize($_GET['job_token']);
     $_SESSION['job_token'] = $job_token;
 }
+
+// where user is coming from
+user_direction();
 
 //normal login
 if (isset($_POST['login'])) {
@@ -54,12 +57,7 @@ if (isset($_POST['login'])) {
                     }
 
                     //log in user
-                    if (isset($_SESSION['apply'])) {
-                        unset($_SESSION['apply']);
-                        header('location: combined_form.php');
-                    } else {
-                        header('location: applicant_dashboard_account.php');
-                    }
+                    user_destination();
 
                     echo $_SESSION['user_id'];
                     echo '<br>';
@@ -70,7 +68,6 @@ if (isset($_POST['login'])) {
     }
 }
 
-//echo $_COOKIE['user_id'] . ' session active';
 
 ?>
 
@@ -147,7 +144,7 @@ if (isset($_POST['login'])) {
                         </div>
                         <div class=" text-center new-bt">
                             <a href="<?php
-                                        //echo $linkedin->getAuthUrl();
+                                        echo $linkedin->getAuthUrl();
                                         ?>" class="btn btn-primary t-log">
                                 <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
                         </div>

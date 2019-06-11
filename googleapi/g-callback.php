@@ -1,7 +1,7 @@
 <?php
 require_once "../inc/db.php";
-//require_once "../inc/functions.php";
-//require_once "../inc/sessions.php";
+require_once "../inc/functions.php";
+require_once "../inc/sessions.php";
 require_once "config.php";
 
 if (isset($_SESSION['access_token'])) {
@@ -19,10 +19,6 @@ if (isset($_SESSION['access_token'])) {
 $oAuth = new Google_Service_Oauth2($gClient);
 $userData = $oAuth->userinfo_v2_me->get();
 
-echo "<pre>";
-var_dump($userData);
-echo "</pre>";
-
 $google_id = $_SESSION['id'] = $userData['id'];
 $name = $_SESSION['name'] = $userData['name'];
 $email = $_SESSION['email'] = $userData['email'];
@@ -33,8 +29,8 @@ $picture = $_SESSION['picture'] = $userData['picture'];
 //    Insert into database 
 $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$google_id'");
 if (mysqli_num_rows($check) > 0) {
-    //        user already registered so redirect to job portal
-    header('location:../combined_form.php');
+    //        user already registered so redirect acordingly
+    user_destination_social_media();
 } else {
     //        user doesn't exist so enter details to database
     $insert_google_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, email, profile_image_url, social_media_platform, gender) 
@@ -45,5 +41,4 @@ if (mysqli_num_rows($check) > 0) {
     </script>";
     exit;
 }
-//header('location:../career_login.php');
 exit();

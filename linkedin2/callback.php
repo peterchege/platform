@@ -2,6 +2,7 @@
 session_start();
 require 'init.php';
 require '../inc/db.php';
+require '../inc/functions.php';
 if ($_GET['state'] != $_SESSION['linkedincsrf']) {
     die('Invalid request');
 }
@@ -22,8 +23,8 @@ $full_name = $profile->firstName->localized->en_US . ' ' . $profile->lastName->l
 //    Insert into Database
 $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$linkedin_id'");
 if (mysqli_num_rows($check) > 0) {
-    //       user already registered so redirect to job portal
-    header('location:../combined_form.php');
+    //       user already registered so redirect accordingly
+    user_destination_social_media();
 } else {
     // user doesn't exist so enter details to database
     $insert_linkedin_applicant = $db->query("INSERT INTO apa_job_applicants (applicant_id, first_name, profile_image_url, social_media_platform) 
@@ -35,5 +36,3 @@ if (mysqli_num_rows($check) > 0) {
         </script>";
     exit;
 }
-
-//header("Location: ../homepage.html");
