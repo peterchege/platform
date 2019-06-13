@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
+    <link rel="stylesheet" href="css/about.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -57,8 +58,9 @@
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid12">
-        <div class = "product product-new">
+        <div class = "product product-new ">
 
+        <div class="container-fluid about">
             <div class="row">
                 <div class="col-md-3 ">
                     <img src="images/login.png" alt="mission">
@@ -96,8 +98,10 @@
                 </div>
                 <br>
             </div>
-        
         </div>
+        <br>
+        </div>
+
     </div>
 
     <!-- =====================================CORPORATE PRODUCTS ===================================== -->
@@ -106,10 +110,98 @@
         <div class="product product-new text-left">
 
             <h1>OUR HISTORY</h1>
+            <div class="container-fluid ">
+            <div class="uk-position-relative uk-visible-toggle uk-light slide-history" tabindex="-1" uk-slider>
 
-            <div class="container-fluid">
-            
+        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
+            <li>
+                <div class="uk-panel">
+                    <img src="images/socila2.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>1981</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/soc.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>1982</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/social1.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>1983</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/social4.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>1984</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/social3.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>1985</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/social1.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>2003</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/soc.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>2009</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="uk-panel">
+                    <img src="images/social1.jpg" alt="">
+                    <div class="uk-position-center uk-panel"><h1>2013</h1></div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
+                            sapiente atque, accusamus, error earum vitae 
+                    </p>
+                </div>
+            </li>
+        </ul>
 
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+
+<br><br>
             </div>
 
 

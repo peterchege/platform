@@ -286,7 +286,7 @@ text-align: center;
 /* PRODUCTS */
 .product{
     width: 100%;
-    margin: 10% auto 6% auto;
+    margin: 30% auto 6% auto;
     padding-top: 2%;
     text-align: center;
     -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
@@ -300,7 +300,7 @@ text-align: center;
     width: 250px;
     height: 4px;
     border-radius:50%; 
-     background-image: linear-gradient(to right, #C80D10,rgb(23, 88, 158));
+    background-image: linear-gradient(to right, #C80D10,rgb(23, 88, 158));
 }
 
 .content-offer{

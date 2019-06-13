@@ -1,0 +1,28 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+
+.about h2{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+    font-size: 25px;
+} 
+
+.about img {
+    width: 300px;
+}
+
+.slide-history{
+    margin: 5% auto;
+}
