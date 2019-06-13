@@ -42,6 +42,11 @@ function desanitize($clean)
     return html_entity_decode($clean);
 }
 
+function test_output($data)
+{
+    $data = htmlspecialchars_decode($data);
+}
+
 
 //date formatter
 //d-m-Y

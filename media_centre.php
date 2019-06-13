@@ -1,3 +1,8 @@
+<?php
+require_once 'inc/db.php';
+require_once 'inc/sessions.php';
+require_once 'inc/functions.php';
+?>
 <!doctype html>
 <html lang="en">
 
@@ -26,7 +31,7 @@
     ============================-->
     <?php
     // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts");
+    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' ORDER BY datetime desc ");
     ?>
     <div class="banner-media">
 
@@ -69,133 +74,19 @@
                             <div class="post">
                                 <img src="images/soc.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2><?= $post[''] ?></h2>
+                                    <h2><?= $post['title'] ?></h2>
                                     <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings.
+                                        <?= ((strlen($post['post']) > 150) ? substr($post['post'], 0, 150) . '...' : ''); ?>
                                     </p>
-                                    <a href="media_centre_detail.php?<?php echo 'h'; ?>" class="btn btn-primary"> Read more</a>
+                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
                                 </div>
                             </div>
                         </div>
                     <?php endwhile; ?>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social1.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social3.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social4.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social5.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social6.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social7.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social8.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social9.jpg" alt="">
-                            <div class="box-info text-left">
-                                <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                <p>
-                                    The APA Apollo Group results reflect a significant improvement in overall earnings.
-                                </p>
-                                <a href="#" class="btn btn-primary"> Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-
-
         </div>
+    </div>
     </div>
 
 
