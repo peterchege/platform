@@ -16,7 +16,7 @@
             <ul class="nav-menu">
                 <li class="menu-active"><a href="index.php">HOME</a></li>
                 <li><a href="products.php">WHAT WE OFFER</a></li>
-                <li><a href="">ABOUT US</a></li>
+                <li><a href="about_us.php">ABOUT US</a></li>
                 <li><a href="career.php">CAREERS</a></li>
                 <li><a href="csr.php">CSR</a></li>
                 <li><a href="media_centre_video.php">MEDIA CENTRE</a></li>
