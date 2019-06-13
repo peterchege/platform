@@ -36,7 +36,7 @@ if (isset($_POST['book'])) {
         } else {
             $_SESSION['errorMessage'] = 'An error occurred. Please try again.';
         }
-     }
+    }
 }
 ?>
 <!doctype html>
@@ -60,6 +60,7 @@ if (isset($_POST['book'])) {
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <h2>Booking Form</h2>
                 <?php
                 echo errorMessage();
                 echo successMessage();
@@ -70,9 +71,8 @@ if (isset($_POST['book'])) {
                 <form action="<?= htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
                     <div class="form-row">
                         <div class="form-group col-md-12">
-                            <label for="inputAddress">Room Name</label>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3"
-                                value="<?= ((isset($room_name)) ? $room_name : '') ?>">
+                            <h3 for="inputAddress">Room Name</h3>
+                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
                                 <option disabled>Select preferred room</option>
                                 <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
@@ -84,49 +84,41 @@ if (isset($_POST['book'])) {
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputEmail4">Start Date</label>
-                            <input name="start_date" type="date" class="form-control" id="inputEmail4"
-                                placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                            <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">Start Time (minimum 6 am)</label>
-                            <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4"
-                                placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                            <label for="inputEmail4">Start Time</label>
+                            <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputPassword4">End Time (maximum 6 pm)</label>
-                            <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4"
-                                placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                            <label for="inputPassword4">End Time</label>
+                            <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
                         </div>
                     </div>
                     <h3>Company Details</h3>
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="inputAddress">Name</label>
-                            <input name="company_name" type="text" class="form-control" id="inputAddress"
-                                placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                            <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputAddress2">Phone Number</label>
-                            <input name="phone" type="tel" class="form-control" id="inputAddress2"
-                                placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                            <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputAddress">Email Address</label>
-                            <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email"
-                                value="<?= ((isset($email)) ? $email : '') ?>">
+                            <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
                         </div>
                         <div class=" form-group col-md-6">
                             <label for="inputAddress2">Capacity</label>
-                            <input name="capacity" type="number" class="form-control" id="inputAddress2"
-                                placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                            <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                         </div>
                         <div class="form-group col-md-12">
                             <label for="inputAddress">More Information</label>
-                            <textarea name="more_information"
-                                class="form-control"><?= ((isset($more_information)) ? $more_information : '') ?></textarea>
+                            <textarea name="more_information" class="form-control"><?= ((isset($more_information)) ? $more_information : '') ?></textarea>
                         </div>
                     </div>
                     <button name="book" type="submit" class="btn btn-success">Book</button>

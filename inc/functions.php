@@ -162,9 +162,6 @@ function user_destination_social_media()
 {
     if (isset($_SESSION['social_apply'])) {
         unset($_SESSION['social_apply']);
-
-
-
         return header('location: ../combined_form.php');
     } else {
         return header('location: ../applicant_dashboard_account.php');
