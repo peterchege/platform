@@ -26,3 +26,35 @@
 .slide-history{
     margin: 5% auto;
 }
+
+/* WE DO MORE */
+
+.we {
+
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    transition: transform 1.5s;
+    cursor: pointer;
+    background-position: center;
+}
+
+.we:hover {
+    transform: scale(1.12);
+}
+
+.company-image{
+    background-image: url(../img/apollo.jpg);
+}
+
+.company-csr {
+    background-image: url(../images/hand.jpeg);
+}
+
+.company-media {
+    background-image: url(../img/adult.jpg);
+}
+
+.company-product {
+    background-image: url(../images/auto.jpg);
+}
