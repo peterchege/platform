@@ -1,3 +1,8 @@
+<?php
+require_once 'inc/db.php';
+require_once 'inc/sessions.php';
+require_once 'inc/functions.php';
+?>
 <!doctype html>
 <html lang="en">
 
@@ -24,10 +29,14 @@
     <!--==========================
     Intro Section
     ============================-->
+    <?php
+    // selecting media centre posts
+    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' ORDER BY datetime desc ");
+    ?>
     <div class="banner-csr">
         <div class="container-fluid">
             <div class="row csr-cont">
-                <div class="col-md-offset-6 ">  
+                <div class="col-md-offset-6 ">
                 </div>
 
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -35,15 +44,15 @@
                         APA Apollo Foundation
                     </h2>
                     <p>
-                        At The Apollo Group, we believe that the world is beautiful when people smile. 
+                        At The Apollo Group, we believe that the world is beautiful when people smile.
                         We seek to harness this through our corporate social responsibility.
                         It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
-                    </p> 
+                    </p>
                     <a href="#" class="btn btn-primary"> Watch Video</a>
                 </div>
             </div>
         </div>
-        
+
     </div>
 
     <div class="cover-line">
@@ -66,8 +75,8 @@
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 Welcome to Apollo Investments Limited.
-                APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group 
-                (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility 
+                APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group
+                (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility
                 programmes focuses on supporting the needy in our society to improve their lives.
             </p>
             <div class="objective wow fadeInUp" data-wow-delay="0.1s">
@@ -77,10 +86,10 @@
                 <ul>
                     <li>Support sustainable projects that uplift the standards of communities, that we partner with for support</li>
                     <li>Our vision is the initiative is that this initiative will increase accessibility to clean water</li>
-                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their own lives; and 
+                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their own lives; and
                         emphasises the need, for people, to have access to the opportunities they need to succeed in.
                     </li>
-                <ul>        
+                    <ul>
             </div>
         </div>
     </div>
@@ -95,136 +104,29 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social8.jpg" alt="">
+                    <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="post">
+                                <img src="images/social8.jpg" alt="">
                                 <div class="box-info text-left">
-                                    <h2>EDUCATION </h2>
+                                    <h2><?= $post['title']; ?> </h2>
                                     <p>
-                                    APA CONTUNIES TO INVEST IN EDUCATION FOR CHELETA PRIMARY SCHOOL STUDENTS
-                                    </p>
-                                    <a href="media_centre_detail.php" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
+                                        <?php
+                                        $postfixed = desanitize($post['post']);
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social9.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>WATER </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
+                                        if (strlen($postfixed)) {
+                                            echo substr($postfixed, 0, 150) . '... ';
+                                        } else {
+                                            echo $postfixed;
+                                        }
+                                        ?> </p>
+                                    <a href="csr_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
                                 </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social6.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>ENVIRONMENT </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
+                    <?php endwhile; ?>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social7.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>YOUTH EMPOWERMENT </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social5.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>ENVIRONMENT</h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                        
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social6.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social7.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social8.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings. 
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="post">
-                            <img src="images/social9.jpg" alt="">
-                                <div class="box-info text-left">
-                                    <h2>APA INSURANCE DELIVERS ANOTHER YEAR OF SOLID OPERATIONAL </h2>
-                                    <p>
-                                        The APA Apollo Group results reflect a significant improvement in overall earnings.
-                                    </p>
-                                    <a href="#" class="btn btn-primary"> Read more</a>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-
-
         </div>
     </div>
 
@@ -235,8 +137,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -267,14 +168,11 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -296,14 +194,11 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>

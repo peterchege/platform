@@ -80,7 +80,6 @@ require_once 'inc/functions.php';
                                     <p>
                                         <?php
                                         $postfixed = desanitize($post['post']);
-
                                         if (strlen($postfixed)) {
                                             echo substr($postfixed, 0, 150) . '... ';
                                         } else {
