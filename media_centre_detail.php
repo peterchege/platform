@@ -49,7 +49,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     <div class="container product-container">
         <div class="row">
             <div class="col-10 job-box1">
-                <div class="job-description text-center">
+                <div class="job-description text-justify ">
                     <h2><?= $full_post['title'];  ?> </h2>
                     <?= desanitize($full_post['post']);  ?>
                 </div><br>
