@@ -63,7 +63,7 @@
         <div class="container-fluid about">
             <div class="row">
                 <div class="col-md-3 ">
-                    <img src="images/login.png" alt="mission">
+                    <img src="images/icon/icon6.png" alt="mission">
                         <h2> MISSION</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
                             sapiente atque, accusamus, error earum vitae 
@@ -72,7 +72,7 @@
                 <br>
 
                 <div class="col-md-3 ">
-                    <img src="images/login.png" alt="mission">
+                    <img src="images/icon/icon7.png" alt="mission">
                         <h2> VISION</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
                             sapiente atque, accusamus, error earum vitae 
@@ -81,7 +81,7 @@
                 <br>
 
                 <div class="col-md-3 ">
-                    <img src="images/login.png" alt="mission">
+                    <img src="images/icon/icon8.png" alt="mission">
                         <h2> CORE VALUE</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
                             sapiente atque, accusamus, error earum vitae 
@@ -90,7 +90,7 @@
                 <br>
 
                 <div class="col-md-3 ">
-                    <img src="images/login.png" alt="mission">
+                    <img src="images/icon/icon9.png" alt="mission">
                         <h2> BRAND PROMISE</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
                             sapiente atque, accusamus, error earum vitae 
