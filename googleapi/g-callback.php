@@ -11,7 +11,6 @@ if (isset($_SESSION['access_token'])) {
     $token = $gClient->fetchAccessTokenWithAuthCode($_GET['code']);
     $_SESSION['access_token'] = $token;
 } else {
-    //header(string: 'Location: login.php');
     header('Location: ../career_login.php');
     exit();
 }
@@ -29,7 +28,7 @@ $picture = $_SESSION['picture'] = $userData['picture'];
 //    Insert into database 
 $check = $db->query("SELECT * FROM apa_job_applicants WHERE applicant_id = '$google_id'");
 if (mysqli_num_rows($check) > 0) {
-    //        user already registered so redirect acordingly
+    //        user already registered so redirect accordingly
     user_destination_social_media();
 } else {
     //        user doesn't exist so enter details to database
