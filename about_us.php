@@ -61,8 +61,8 @@
         <div class="product product-new">
 
             <div class="container-fluid about">
-                <div class="row">
-                    <div class="col-md-3">
+                <div class="row  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class=" col-md-3">
                         <img src="images/icon/icon6.png" alt="mission">
                         <h2> MISSION</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
@@ -107,10 +107,10 @@
     <!-- ===================================== OUR HISTORY ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new text-left">
+        <div class="product product-new text-left wow fadeInUp" data-wow-delay="0.1s">
 
             <h1>OUR HISTORY</h1>
-            <div class="container-fluid ">
+            <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
                 <div class="uk-position-relative uk-visible-toggle uk-light slide-history" tabindex="-1" uk-slider>
 
                     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
@@ -235,43 +235,63 @@
             <h1 class="text-left">WE DO MORE</h1>
             <br>
 
-            <div class="container-fluid about">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/icon/icon6.png" alt="mission">
-                        <h2> MISSION</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
-                        </p>
-                    </div>
-                    <br>
+            <div class="container-fluid">
+                <div class="row row-product">
 
-                    <div class="col-md-3 ">
-                        <img src="images/icon/icon7.png" alt="mission">
-                        <h2> VISION</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
-                        </p>
-                    </div>
-                    <br>
+                    <div class="col-03  product-box we company-image wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
 
-                    <div class="col-md-3 ">
-                        <img src="images/icon/icon8.png" alt="mission">
-                        <h2> CORE VALUE</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
-                        </p>
+                            <div class="content">
+                                <h3>COMPANIES</h3>
+                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                    family.</p>
+                            </div>
+                        </div>
                     </div>
-                    <br>
 
-                    <div class="col-md-3 ">
-                        <img src="images/icon/icon9.png" alt="mission">
-                        <h2> BRAND PROMISE</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
-                        </p>
+
+                    <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="#">
+                            <div class="color-overlay"></div>
+                            <div class="wrapper">
+                                <div class="content">
+                                    <h3>PRODUCTS</h3>
+                                    <p>Explore wild possibilities and adventures unbothered!
+                                        Whether you are headed for a business trip or a trip of a lifetime.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <br>
+
+
+                    <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
+                        <a href="#">
+                            <div class="color-overlay"></div>
+                            <div class="wrapper">
+                                <div class="content">
+                                    <h3>MEDIA CENTRE</h3>
+                                    <p>Sail your goods across different regions with no worry.
+                                        This cover is crafted for both individuals and corporates
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-03  product-box we company-csr wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#">
+                            <div class="color-overlay"></div>
+                            <div class="wrapper">
+                                <div class="content">
+                                    <h3>CSR</h3>
+                                    <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                        should
+                                        bring you ultimate happiness.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </div>
             <br>
