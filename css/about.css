@@ -103,7 +103,7 @@
 
 .request{
     width: 100%;
-    height: 70vh;
+    height: 85vh;
     background-image: url(../img/customer.jpg);
     background-size: cover;
 
@@ -116,4 +116,8 @@
 
 .request ul li {
     padding-top: 20px;
+}
+
+.customer-request {
+    margin-top: -15%;
 }
