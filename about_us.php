@@ -301,20 +301,19 @@
 
     <!-- =================================== OUR CUSTOMER SERVICE CHARTER ===================================== -->
 
-    <div class="container-fluid text-center">
+    <div class="container text-center">
         <h1>
             OUR CUSTOMER SERVICE CHARTER
         </h1>
-        <div class="under-line img5">
+        <div class="under-line img3">
             <img src="images/line.png" alt="">
         </div>
         <br>
         <div class="row">
             <div class="col-10">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quidem recusandae libero ratione
-                    beatae veniam, voluptate perferendis quas, consequuntur natus voluptas est eaque debitis nesciunt
-                    impedit nihil culpa? Aliquid, qui.
+                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are
+                    always ready to listen, help and advise you.
                 </p>
             </div>
         </div>
@@ -325,10 +324,79 @@
         <div class="row">
             <div class="col-10">
                 <p>
-                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are 
-                    always ready to listen, help and advise you.
+                    We will acknowledge/respond to your queries received from various platforms within the timelines listed below:
                 </p>
             </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="charter">
+                        <img src="images/icon/icon5.png" alt="">
+                        <h2>Email queries</h2>
+                        <hr>
+                        <p>
+                            Response Time<br> is Within 24 hours
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="charter">
+                        <img src="images/icon/icon4.png" alt="">
+                        <h2>Letters </h2>
+                        <hr>
+                        <p>
+                            Response Time<br> is Within 3 working days
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="charter">
+                        <img src="images/icon/icon1.png" alt="">
+                        <h2>Phone Calls </h2>
+                        <hr>
+                        <p>
+                            Immediately where possible, <br>within 24 hours in case of need<br> for further engagement
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="charter">
+                        <img src="images/icon/icon3.png" alt="">
+                        <h2>Website & Social<br> media</h2>
+                        <hr>
+                        <p>
+                            Response Time<br> Within 1 hour
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="charter">
+                        <img src="images/icon/icon2.png" alt="">
+                        <h2>Walk in clients</h2>
+                        <hr>
+                        <p>
+                            Response Time<br> Within 15 minutesrs
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
         </div>
 
     </div>
