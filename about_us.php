@@ -401,7 +401,68 @@
 
     </div>
 
+    <!-- =================================== OUR REQUEST TO YOU ===================================== -->
 
+    <div class="container-fluid request">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will provide a quotation within 1 day of receipt of all information for straightforward policies
+                            and within communicated timelines for tenders.
+
+                        </li>
+                        <li>
+                            We will have a dedicated staff member to assist you through the underwriting/claims management/ asset
+                            management process and any other stage of your interaction with us.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <ul>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                    </ul>
+                    <p>
+                        Our Request to you:
+                    </p>
+                    <ul class="customer-request">
+                        <li>
+                            Treat our staff professionally in all engagements with them
+                        </li>
+                        <li>
+                            Provide us with all relevant information and documents to lodge a complete application
+                        </li>
+                        <li>
+                            Keep us updated of any changes that might affect your policy
+                        </li>
+                        <li>
+                            We appreciate that you will always give us true facts
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
 
 
     <!-- =====================================FOOTER===================================== -->
