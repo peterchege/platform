@@ -39,6 +39,10 @@
     background-position: center;
 }
 
+.we a{
+    text-decoration: none;
+}
+
 .we:hover {
     transform: scale(1.12);
 }

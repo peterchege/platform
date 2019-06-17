@@ -227,7 +227,7 @@
         </div>
     </div>
 
-    <!-- ===================================== OUR SERVICE ===================================== -->
+    <!-- =================================== WE DO MORE ===================================== -->
 
     <div class="container-fluid12">
         <div class="product product-new">
@@ -252,7 +252,7 @@
 
 
                     <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#">
+                        <a href="products.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -266,7 +266,7 @@
 
 
                     <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="#">
+                        <a href="media_centre_video.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -279,7 +279,7 @@
                     </div>
 
                     <div class="col-03  product-box we company-csr wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="#">
+                        <a href="csr.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -298,6 +298,42 @@
         </div>
 
     </div>
+
+    <!-- =================================== OUR CUSTOMER SERVICE CHARTER ===================================== -->
+
+    <div class="container-fluid text-center">
+        <h1>
+            OUR CUSTOMER SERVICE CHARTER
+        </h1>
+        <div class="under-line img5">
+            <img src="images/line.png" alt="">
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-10">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus quidem recusandae libero ratione
+                    beatae veniam, voluptate perferendis quas, consequuntur natus voluptas est eaque debitis nesciunt
+                    impedit nihil culpa? Aliquid, qui.
+                </p>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <br>
+        <div class="row">
+            <div class="col-10">
+                <p>
+                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are 
+                    always ready to listen, help and advise you.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
 
 
     <!-- =====================================FOOTER===================================== -->
