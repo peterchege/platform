@@ -77,17 +77,19 @@ require_once 'inc/functions.php';
                                 <img src="<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>" alt="">
                                 <div class="box-info text-left">
                                     <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) : $post['title']); ?></h2>
-                                    <p>
-                                        <?php
-                                        $postfixed = desanitize($post['post']);
-                                        if (strlen($postfixed) > 150) {
-                                            echo substr($postfixed, 0, 150) . '... ';
-                                        } else {
-                                            echo $postfixed;
-                                        }
-                                        ?>
-                                    </p>
-                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+
+                                    <?php
+                                    $postfixed = desanitize($post['post']);
+                                    if (strlen($postfixed) > 150) {
+                                        echo substr($postfixed, 0, 150) . '... ';
+                                    } else {
+                                        echo $postfixed;
+                                    }
+                                    ?>
+                                    <div class="container">
+                                        <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
