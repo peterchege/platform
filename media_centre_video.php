@@ -31,7 +31,7 @@ require_once 'inc/functions.php';
     ============================-->
     <?php
     // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' ORDER BY datetime desc ");
+    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' ORDER BY date_added desc ");
     ?>
     <div class="vida">
         <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
@@ -74,9 +74,9 @@ require_once 'inc/functions.php';
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
                         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="post">
-                                <img src="images/soc.jpg" alt="">
+                                <img src="<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>" alt="">
                                 <div class="box-info text-left">
-                                    <h2><?= $post['title'] ?></h2>
+                                    <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) : $post['title']); ?></h2>
                                     <p>
                                         <?php
                                         $postfixed = desanitize($post['post']);
