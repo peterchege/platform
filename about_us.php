@@ -401,7 +401,49 @@
 
     </div>
 
+    <!-- =================================== OUR REQUEST TO YOU ===================================== -->
 
+    <div class="container-fluid request">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <ul>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                        <li>
+                            We will ensure our staff are trained to provide you with all the information you need to select
+                            the insurance cover that best meets your requirements.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
 
 
     <!-- =====================================FOOTER===================================== -->
