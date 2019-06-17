@@ -9,7 +9,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     $full_post = mysqli_fetch_assoc($fullPostQuery);
 } else {
     if (mysqli_num_rows($fullPostQuery) !== 1) {
-        redirect_to('media_centre.php');
+        redirect_to('media_centre_video.php');
     }
 }
 ?>
