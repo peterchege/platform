@@ -252,7 +252,7 @@
 
 
                     <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#">
+                        <a href="products.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -266,7 +266,7 @@
 
 
                     <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="#">
+                        <a href="media_centre_video.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -279,7 +279,7 @@
                     </div>
 
                     <div class="col-03  product-box we company-csr wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="#">
+                        <a href="csr.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
