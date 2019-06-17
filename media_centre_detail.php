@@ -61,7 +61,6 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
-
     <!-- Optional JavaScript -->
 
     <!-- UIkit JS -->
