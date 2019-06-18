@@ -73,17 +73,122 @@
         </div>
 
         <!-- APA INSURANCE -->
-
         <div class="company-box apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE (UGANDA) LIMITED </h1>
-            <div class="under-line img9">
-                <img src="images/line.png" alt="">
-            </div>
+            <div class="container">
 
-            <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                Our wholly owned subsidiary underwrites General and Health Insurance .The firms market share and ranking
-                has improved and has been recognised for Best Claims Service by the insurance industry in Uganda.
-            </p>
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/ashokshah.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/daniel.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/james.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/richard.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/Pratul.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src=" img/sshah.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/pjshah.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/piyush.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ashok Shah<br>
+                            <small>Group CEO</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
 
 

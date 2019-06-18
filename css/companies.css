@@ -66,3 +66,47 @@
     padding: 10px 40px;
     text-align: left;
 }
+
+
+/* LEADERSHIP */
+
+.lead-img{
+
+    margin: 5% auto 8% auto;
+}
+.leader-img .img{
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);
+}
+
+
+.leader-img P{
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+.title-name{
+    margin-top: -50px;
+    color: #fff;
+    font-family: 'Oswald',sans-serif;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.leader-img .btn-primary { 
+    border-radius: 20px;
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    -webkit-box-shadow: 7px 12px 10px -5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 7px 12px 10px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 7px 12px 10px -5px rgba(0, 0, 0, 0.6);
+    
+}
+
+.leader-img .btn-primary:hover{
+    -webkit-box-shadow: 7px 12px 24px -5px rgb(2, 35, 78);
+    -moz-box-shadow: 7px 12px 24px -5px rgba(12, 77, 162, 1);
+    box-shadow: 7px 12px 24px -5px rgba(12, 77, 162, 1);
+}
