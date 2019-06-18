@@ -6,8 +6,8 @@ require 'LinkedIn.php';
 
 use myPHPNotes\LinkedIn;
 
-$app_id = '77n0mxulrhsbf0';
-$app_secret = '7HDIeM7FUpGCy5i1';
+$app_id = '77tpnxhar356uy';
+$app_secret = 'ViOaJis9SrZ7P6hs';
 $app_callback = 'http://localhost/apainsurance/linkedin2/callback.php';
 $app_scopes = 'r_basicprofile r_emailaddress w_member_social rw_company_admin w_share r_liteprofile';
 

@@ -84,7 +84,7 @@ require_once 'inc/functions.php';
                                         echo substr($postfixed, 0, 150) . '... ';
                                     } else {
                                         echo $postfixed;
-                                    }
+                                     }
                                     ?>
                                     <div class="container">
                                         <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
