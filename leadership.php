@@ -68,7 +68,7 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 Welcome to Apollo Investments Limited. The flagship company, APA Insurance, was formed
                 after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
-                With a combined experience of over 100 years other unfortunate event.
+                With a combined experience of over 100 years.
             </p>
         </div>
 
