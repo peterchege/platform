@@ -1,0 +1,16 @@
+.company-nav .nav {
+    background-color: #dbdbdb;
+    margin: 0 auto;
+    height: 70px;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.company-nav .nav-item{
+    padding-top: 15px;
+    
+}
+
+.company-nav li:hover {
+    background-color: #fff;
+}

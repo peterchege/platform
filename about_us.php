@@ -106,8 +106,8 @@
 
     <!-- ===================================== OUR HISTORY ===================================== -->
 
-    <div class="container-fluid23">
-        <div class="product product-new text-left wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid">
+        <div class="text-left wow fadeInUp" data-wow-delay="0.1s">
 
             <h1>OUR HISTORY</h1>
             <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
@@ -217,7 +217,6 @@
 
                 </div>
 
-                <br><br>
 
 
 
