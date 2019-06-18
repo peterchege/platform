@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">MANAGMENT</a>
+                <a class="nav-link" href="#">MANAGEMENT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
