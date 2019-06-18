@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/daniel.jpg" class="img" alt="">
+                        <img src="img/Daniel.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
@@ -105,7 +105,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/james.jpg" class="img" alt="">
+                        <img src="img/James.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/sshah.jpg" class="img" alt="">
+                        <img src=" img/SShah.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
@@ -161,7 +161,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/pjshah.jpg" class="img" alt="">
+                        <img src="img/Pjshah.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
@@ -174,7 +174,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/piyush.jpg" class="img" alt="">
+                        <img src="img/Piyush.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
