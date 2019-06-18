@@ -4,10 +4,16 @@
     height: 70px;
     margin-top: -6px;
     cursor: pointer;
+    -webkit-box-shadow: 0px 7px 14px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 14px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 14px -7px rgba(0, 0, 0, 0.75);
+    
 }
 
-.company-nav .nav-item{
+.company-nav .nav-item {
     padding-top: 15px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     
 }
 
@@ -22,4 +28,41 @@
         -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
         box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
 
+}
+
+/*  OUR BUILDING BLOCKS */
+
+.charter-block {
+    width: 100%;
+    height: 400px;
+    margin: 10% auto 6% auto;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+}
+
+.charter-block img {
+    width: 80px;
+    /* height: 75px; */
+    margin: 10% auto 0% auto;
+}
+
+.charter-block h2 {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #0C4DA2;
+    font-size: 25px;
+}
+
+.charter-block hr {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid slategray;
+}
+
+.charter-block p {
+    padding: 10px 40px;
+    text-align: left;
 }

@@ -238,15 +238,17 @@
                 <div class="row row-product">
 
                     <div class="col-03  product-box we company-image wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
+                        <a href="companies.php">
+                            <div class="color-overlay"></div>
+                            <div class="wrapper">
 
-                            <div class="content">
-                                <h3>COMPANIES</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
+                                <div class="content">
+                                    <h3>COMPANIES</h3>
+                                    <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                        family.</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
 

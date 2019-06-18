@@ -76,6 +76,8 @@
             </p>
         </div>
 
+        <!-- APA INSURANCE -->
+
         <div class="company-box apollo">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE (UGANDA) LIMITED </h1>
             <div class="under-line img9">
@@ -88,6 +90,7 @@
             </p>
         </div>
 
+        <!-- APA LIFE ASSURANCE -->
 
         <div class="apollo">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA LIFE ASSURANCE LIMITTED </h1>
@@ -103,6 +106,8 @@
             </p>
         </div>
 
+        <!-- APOLLO ASSET MANAGMENT -->
+
         <div class="company-box  apollo">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s">APOLLO ASSET MANAGMENT </h1>
             <div class="under-line img1">
@@ -117,6 +122,8 @@
             </p>
         </div>
 
+        <!-- APOLLO CENTRE -->
+
         <div class="apollo">
             <h1 class="wow fadeInUp" data-wow-delay="0.1s">APOLLO CENTRE</h1>
             <div class="under-line img2">
@@ -124,18 +131,143 @@
             </div>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                Is wholly owned by Gordon Court Limited, a subsidiary of AIL. It is a commercial building situated in 
+                Is wholly owned by Gordon Court Limited, a subsidiary of AIL. It is a commercial building situated in
                 the Westlands area of Nairobi. Besides being the group headquarters, Apollo Centre offers modern conference
-                facilities including: private meeting rooms and custom designed training rooms fitted with state-of-the-art equipment. 
+                facilities including: private meeting rooms and custom designed training rooms fitted with state-of-the-art equipment.
                 The facility is popular with a number of corporate and individual clients due to its exclusivity and convenience.
             </p>
         </div>
 
+        <!-- AWARDS & ACCOLADES -->
+
+        <div class="company-box  apollo">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">AWARDS & ACCOLADES</h1>
+            <div class="under-line img7">
+                <img src="images/line.png" alt="">
+            </div>
+
+            <ol class="container text-left">
+                <li>Paid KSHs 1.97 B to Kenya Airports Authority in record time of 6 months </li>
+                <li>Best in Claim Settlement (Life and General) </li>
+                <li>Best in Fraud Detection & Prevention </li>
+                <li>Best in Customer Satisfaction </li>
+                <li>Best in Corporate Social Responsibility </li>
+                <li>Lead insurer for the Agriculture Consortium of Insurance Companies for Government Sponsored Agri-Livestock Insurance </li>
+                <li>Environmental champions through tree planting and dam building .We are friends of Karura, Sponsors of Mau Run To Create
+                    Environmental Awareness, raising funds for rehabilitation of Njoro River and Mau ecosystem and winners of Total Eco-Challenge -Tree Planting Champion </li>
+            </ol>
+        </div>
+
     </div>
 
-    <!-- =================================== WE DO MORE ===================================== -->
+    <!-- =================================== OUR BUILDING BLOCKS ===================================== -->
 
+    <div class="container text-center">
+        <h1 class="wow fadeInUp" data-wow-delay="0.1s">
+            OUR BUILDING BLOCKS
+        </h1>
+        <div class="under-line img6">
+            <img src="images/line.png" alt="">
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-10">
+                <p class="wow fadeInUp" data-wow-delay="0.1s">
+                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are
+                    always ready to listen, help and advise you.
+                </p>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon5.png" alt="">
+                        <h2>STRONG FINANCIAL BASE </h2>
+                        <hr>
+                        <p>
+                            The firm is backed by a strong financial base. Getting into partnership with Swiss Re provides
+                            for a strong financial backing that enables us deliver on our brand promise.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class=" charter-block">
+                        <img src="images/icon/icon4.png" alt="">
+                        <h2>REPUTABLE SERVICES </h2>
+                        <hr>
+                        <p>
+                            Our products and services are well known and respected in the market. We have built our reputation
+                            through hardwork and good service.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon4.png" alt="">
+                        <h2>PROFESSIONAL AND <br>PERSONALISED SERVICE </h2>
+                        <hr>
+                        <p>
+                            The customer is the focus of our attention. Each account is assigned to a Relationship Officer
+                            who ensures that personal and professional service is given.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon1.png" alt="">
+                        <h2>FLEXIBILITY </h2>
+                        <hr>
+                        <p>
+                            We tailor make our products and services to provide capacity and protection to retail and
+                            corporate customers to enable them manage their risks.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon3.png" alt="">
+                        <h2>ECONOMICAL PREMIUMS </h2>
+                        <hr>
+                        <p>
+                            Our premiums are economical and affordable.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon2.png" alt="">
+                        <h2>TRANSPARENT PROCEDURE<br> AND RAPID CLAIMS SETTLEMENT </h2>
+                        <hr>
+                        <p>
+                            Our procedures are clear and transparent.We pride ourselves on a fast claim turnaround.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+        </div>
+
+    </div>
+
+    <br>
 
 
 
