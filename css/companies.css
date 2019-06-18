@@ -17,7 +17,7 @@
     
 }
 
-.company-nav li:hover {
+.company-nav ul .active {
     background-color: #fff;
 }
 
@@ -71,11 +71,11 @@
 /* LEADERSHIP */
 
 .lead-img{
-
     margin: 5% auto 8% auto;
 }
 .leader-img .img{
     border-radius: 10px;
+    max-height: 330px;
     -webkit-box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 1px 21px -3px rgba(0, 0, 0, 0.75);

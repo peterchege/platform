@@ -38,14 +38,14 @@
 
     <div class="company-nav">
         <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="companies.php">COMPANIES</a>
+            <li class="nav-item active">
+                <a class="nav-link " href="companies.php">COMPANIES</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">MANAGEMENT</a>
+                <a class="nav-link" href="managment.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>

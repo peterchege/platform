@@ -41,10 +41,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="companies.php">COMPANIES</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="managment.php">MANAGMENT</a>
             </li>
             <li class="nav-item">
@@ -60,8 +60,8 @@
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">LEADERSHIP</h1>
-            <div class="under-line img2">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE MANAGMENT </h1>
+            <div class="under-line img5">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -79,10 +79,10 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/ashokshah.jpg" class="img" alt="">
+                        <img src="img/managment/vinod.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Vinod Bharatan<br>
+                            <small>CEO</small>
                         </h5>
 
                         <p>
@@ -92,10 +92,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Daniel.jpg" class="img" alt="">
+                        <img src="img/managment/john.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            John Kigochi<br>
+                            <small>Chief Finance Officer</small>
                         </h5>
 
                         <p>
@@ -105,10 +105,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/James.jpg" class="img" alt="">
+                        <img src="img/managment/apa_1.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Parul Khimasia<br>
+                            <small>Chief Business Development Officer</small>
                         </h5>
 
                         <p>
@@ -118,10 +118,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/richard.jpg" class="img" alt="">
+                        <img src="img/managment/manju.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Manju Naul<br>
+                            <small>Director of Operations</small>
                         </h5>
 
                         <p>
@@ -135,10 +135,10 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Pratul.jpg" class="img" alt="">
+                        <img src="img/managment/sheila.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Sheila Gichuhi<br>
+                            <small>Head of Health</small>
                         </h5>
 
                         <p>
@@ -148,10 +148,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/SShah.jpg" class="img" alt="">
+                        <img src=" img/managment/apa_2.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Caroline Kamau<br>
+                            <small>Director of Business Development</small>
                         </h5>
 
                         <p>
@@ -161,10 +161,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Pjshah.jpg" class="img" alt="">
+                        <img src="img/managment/amos.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Amos Mabuka<br>
+                            <small>Director of business development</small>
                         </h5>
 
                         <p>
@@ -174,10 +174,10 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Piyush.jpg" class="img" alt="">
+                        <img src="img/managment/lucy.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Lucy kuria<br>
+                            <small>Head of Care Team</small>
                         </h5>
 
                         <p>
@@ -187,6 +187,164 @@
                     </div>
 
                 </div>
+
+
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/vinod.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Shalini Goswami<br>
+                            <small>Head of Health Claims</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/charlse.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Charles Wambua<br>
+                            <small>Head of Microinsurance & Agribusiness</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/apa_1.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Chris Ngala<br>
+                            <small>Group Head of Internal Audit</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/james.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            James Nyakomitta<br>
+                            <small>Group Chief Information Officer</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/juliana.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Juliana Nguli<br>
+                            <small>Head of Health</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src=" img/managment/jackie.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Jackie Tonui<br>
+                            <small>Head of Corporate Communications</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/amos.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Judith Bogonko Juma<br>
+                            <small>Head of Customer Service</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/lucy.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Benjamin Otieno<br>
+                            <small>Group Risk manager</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/juliana.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ann Njoki<br>
+                            <small>Reinsurance Manager</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src=" img/managment/janette.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Janette Awidhi<br>
+                            <small>Head of Legal and Claims</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/amos.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Nelson Bachia<br>
+                            <small>Head of Branches</small>
+                        </h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+
+                </div>
+
 
             </div>
         </div>
