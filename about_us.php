@@ -317,8 +317,8 @@
                 </p>
             </div>
         </div>
-        <br>
-        <hr>
+        <!-- <br>
+        <hr> -->
 
         <br>
         <div class="row">
