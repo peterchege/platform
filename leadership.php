@@ -383,8 +383,34 @@
                         Director
                     </h2>
                     <p>PJ Shah is a director of Apollo investments, having sat on the board since the inception of APA insurance
-                    in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is an active
-                    philanthropist who is dedicated to serve the disadvantaged in the society.
+                        in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is an active
+                        philanthropist who is dedicated to serve the disadvantaged in the society.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  S M Shah  ===================================== -->
+
+    <div id="modal-full7" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/piyush.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Piyush Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Director
+                    </h2>
+                    <p>Piyush Shah is a Chartered Accountant with a background in IT enterprises with over 30 years’ experience 
+                        in both these fields. He is an active angel investor and is a non-executive director of different companies.
+                        Piyush draws his experience from firms both in Kenya and in the United Kingdom
+
+
                     </p>
 
                 </div>
