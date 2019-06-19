@@ -392,24 +392,25 @@
         </div>
     </div>
 
-    <!-- =====================================  S M Shah  ===================================== -->
+    <!-- =====================================  Reto Schnarwiler ===================================== -->
 
-    <div id="modal-full7" class="uk-modal-full" uk-modal>
+    <div id="modal-full8" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/piyush.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/reto.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Piyush Shah
+                        Reto Schnarwiler
                     </h1>
                     <h2 class="small-head">
                         Director
                     </h2>
-                    <p>Piyush Shah is a Chartered Accountant with a background in IT enterprises with over 30 years’ experience 
-                        in both these fields. He is an active angel investor and is a non-executive director of different companies.
-                        Piyush draws his experience from firms both in Kenya and in the United Kingdom
-
+                    <p>Reto Schnarwiler leads Swiss Re’s public sector business in EMEA; Americas; and the company’s microinsurance activities.
+                        He’s a member of the board of directors at responsibility Investments AG, Switzerland and APA Insurance, APA Life and
+                        Apollo Investments, Kenya. With Swiss Re since 1996, he holds a degree in business administration from University of
+                        St. Gallen (lic.oec. HSG), an MBA in Financial Services & Insurance from Leuven-Vlerick Business School in Belgium,
+                        University of Nyenrode and University of St. Gallen in Switzerland.
 
                     </p>
 
