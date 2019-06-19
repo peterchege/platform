@@ -79,53 +79,53 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/ashokshah.jpg" class="img" alt="">
+                        <img src="img/board/ashok.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
                             <small>Group CEO</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Ashok Shah is the current Group CEO of Apollo Investments Limited...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Daniel.jpg" class="img" alt="">
+                        <img src="img/board/daniel.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Daniel Ndonye<br>
+                            <small>Chairman, Apollo Investments Ltd</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Daniel Ndonye brings to the Board vast experience. He is alumnus of the Alliance...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/James.jpg" class="img" alt="">
+                        <img src="img/board/mary.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Mary Kimotho<br>
+                            <small>Chairman, APA Insurance</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            M’Mukindia has had a varied and dynamic career over 35 years of working experien...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/richard.jpg" class="img" alt="">
+                        <img src="img/board/richard.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Richard Ashley<br>
+                            <small>Chairman, APA Life</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Rick Ashley is a qualified accountant and brings with him over 30 years of...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -135,55 +135,72 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Pratul.jpg" class="img" alt="">
+                        <img src="img/board/pratul.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Pratul Shah<br>
+                            <small>Company Secretary</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Pratul Shah is a Chartered Certified Accountant and a Certified Public...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/SShah.jpg" class="img" alt="">
+                        <img src=" img/board/smshah.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            S M Shah<br>
+                            <small>Director</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Mr Shashi M Shah was marketing insurance long before the formation...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Pjshah.jpg" class="img" alt="">
+                        <img src="img/board/pjshah.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            PJ Shah<br>
+                            <small>Director</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            PJ Shah is a director of Apollo investments, having sat on the board...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/Piyush.jpg" class="img" alt="">
+                        <img src="img/board/piyush.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ashok Shah<br>
-                            <small>Group CEO</small>
+                            Piyush Shah<br>
+                            <small>Director</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Piyush Shah is a Chartered Accountant with a background in IT enterp...
                         </p>
                         <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+                <div class="row lead-img text-left">
+
+                    <div class="col-md-12 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/board/reto.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Reto Schnarwiler<br>
+                            <small>Director</small>
+                        </h5>
+
+                        <p>
+                            Reto Schnarwiler leads Swiss<br> Re’s public sector business<br> in EMEA Americas; and ...
+                        </p>
+                        <button class="btn btn-primary reto">Read more</button>
                     </div>
 
                 </div>

@@ -83,8 +83,9 @@
 
 
 .leader-img P{
-    text-align: justify;
-    padding: 0px 20px;
+    text-align: left;
+    padding: 7px 20px;
+    height: 85px;
 }
 
 .title-name{
@@ -109,4 +110,8 @@
     -webkit-box-shadow: 7px 12px 24px -5px rgb(2, 35, 78);
     -moz-box-shadow: 7px 12px 24px -5px rgba(12, 77, 162, 1);
     box-shadow: 7px 12px 24px -5px rgba(12, 77, 162, 1);
+}
+
+.reto{
+    margin-left: 6%;
 }

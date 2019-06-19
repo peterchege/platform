@@ -86,20 +86,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Fred is a seasoned investment guru. With 20 years of living, watching ...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/mugo.jpg" class="img" alt="">
+                        <img src="img/managment/kosgei.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Amos Kosgei<br>
                             <small>Portfolio Manager</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -107,12 +107,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Solomon Watiki<br>
+                            Solomon Maoga<br>
                             <small>Head of Operations</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Solomon Maoga is the Portfolio Manager at Apollo Asset Management...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -120,76 +120,17 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/eva.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Everlyne Kinyanjui<br>
+                            Everlyne Lagat<br>
                             <small>Head of Corporate Business</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Solomon Maoga is the Portfolio Manager at Apollo Asset Management...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                 </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/stevo.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Stephen Muiga<br>
-                            <small>Business Development Manager</small>
-                        </h5>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/mark.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Mark Mumo<br>
-                            <small>Business Development Manager</small>
-                        </h5>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/njagi.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            James Njagi<br>
-                            <small>Business Development Manager</small>
-                        </h5>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Bernadicto Makena<br>
-                            <small>National Sales Manager</small>
-                        </h5>
-
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-
-                </div>
-
-
 
             </div>
         </div>
