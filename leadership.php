@@ -170,7 +170,7 @@
                         <p>
                             PJ Shah is a director of Apollo investments, having sat on the board...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -183,7 +183,7 @@
                         <p>
                             Piyush Shah is a Chartered Accountant with a background in IT enterp...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -200,7 +200,7 @@
                         <p>
                             Reto Schnarwiler leads Swiss<br> Re’s public sector business<br> in EMEA Americas; and ...
                         </p>
-                        <button class="btn btn-primary reto">Read more</button>
+                        <button class="btn btn-primary reto" data-target="#modal-full8" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -363,6 +363,30 @@
                         Mr Shah is an executive director at APA Insurance Ltd, and his directorships among others include: Apollo Investments Ltd, Kenmac Ltd, APA Life Assurance Co. Ltd and Gordon Court Ltd.
                         He is involved in a lot of social activities and charities which include medical camps, distribution of artificial limbs and eye clinics among others.
                         He is a past member of the Rotary Club of Mombasa and a charter member of the Rotary Club of Bahari where he is a trustee and past president. At the Pandya Memorial Society, he is a trustee and past chairman.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  S M Shah  ===================================== -->
+
+    <div id="modal-full6" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/pjshah.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        PJ Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Director
+                    </h2>
+                    <p>PJ Shah is a director of Apollo investments, having sat on the board since the inception of APA insurance
+                    in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is an active
+                    philanthropist who is dedicated to serve the disadvantaged in the society.
+                    </p>
+
                 </div>
             </div>
         </div>
