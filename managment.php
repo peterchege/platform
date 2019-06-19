@@ -45,11 +45,34 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="managment.php">MANAGMENT</a>
+                <a class="nav-link dropdown-toggle" href="managment.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                </div>
+
+
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
             </li>
+        </ul>
+    </div>
+
+
+    <!-- SUB NAV -->
+
+    <div class="sub-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="managment.php">APA INSURANCE MANAGEMENT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="managment_life.php">APA LIFE MANAGEMENT</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="managment_asset.php">APOLLO ASSET MANAGEMENT</a>
+            </li>
+
         </ul>
     </div>
 

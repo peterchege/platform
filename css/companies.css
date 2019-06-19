@@ -115,3 +115,23 @@
 .reto{
     margin-left: 6%;
 }
+
+
+/* SUB MENU */
+
+.sub-nav .nav {
+        /* margin: 20px auto; */
+        font-family: 'Oswald',
+        sans-serif;
+        background-color: #0C4DA2;
+        padding: 15px 0px;
+        -webkit-box-shadow: 7px 12px 14px -5px rgb(2, 35, 78);
+        -moz-box-shadow: 7px 12px 14px -5px rgba(12, 77, 162, 1);
+        box-shadow: 7px 12px 14px -5px rgba(12, 77, 162, 1);
+    
+}
+
+.sub-nav .nav li a{
+    color: #fff;
+}
+
