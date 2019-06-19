@@ -24,7 +24,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-cover">
+    <div class="banner-companies">
 
     </div>
     <div class="cover-line">

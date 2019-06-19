@@ -83,8 +83,9 @@
 
 
 .leader-img P{
-    text-align: justify;
-    padding: 0px 20px;
+    text-align: left;
+    padding: 7px 20px;
+    height: 85px;
 }
 
 .title-name{

@@ -226,6 +226,24 @@ a:focus {
     background-position: center;
 }
 
+.banner-companies {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/company.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner-leadership {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/csr-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .banner-media::after {
     content: '';
@@ -238,6 +256,7 @@ a:focus {
     left: 0;
     bottom: 0;
 }
+
 
 .cover-line{
     margin-top: -15px;

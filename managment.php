@@ -86,7 +86,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Vinod has over 35 years’ insurance experience both in India and Kenya...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -99,20 +99,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Kigochi holds a Bachelor of Commerce degree in Accounting Option...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/apa_1.jpg" class="img" alt="">
+                        <img src="img/managment/ann.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Parul Khimasia<br>
                             <small>Chief Business Development Officer</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Parul Khimasia holds a Bachelor’s degree in Management Science from..
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -125,7 +125,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Manju is the Director of Operations. She has 35 years working experience...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -142,20 +142,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sheila Gichuhi is the Head of Health Business, and has over 10 years of...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/apa_2.jpg" class="img" alt="">
+                        <img src=" img/managment/caroline.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Caroline Kamau<br>
                             <small>Director of Business Development</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Caroline Kamau has 15 years of experience in the insurance Industry...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -168,7 +168,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Amos is a seasoned Insurance professional with extensive, hands – on...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -181,7 +181,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Lucy is a medic by profession with over 34 years’ experience in the health...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -192,14 +192,14 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/vinod.jpg" class="img" alt="">
+                        <img src="img/managment/shalini.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Shalini Goswami<br>
                             <small>Head of Health Claims</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Shalini has a PhD in Food Science from the University of Reading to...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -212,20 +212,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Charles holds a Bachelors degree in Education, a Masters degree in...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/apa_1.jpg" class="img" alt="">
+                        <img src="img/managment/chris.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Chris Ngala<br>
                             <small>Group Head of Internal Audit</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Chris is the Group Head of Internal Audit with over 20 combined years in the...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -238,7 +238,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            James is an experienced Information & Communication Tech...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -255,7 +255,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Juliana is the Group Head of Human Resources and has 20 years of...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -268,33 +268,33 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Jackie Tonui is the Head of Corporate Communications and has six years in...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
+                        <img src="img/managment/judy.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Judith Bogonko Juma<br>
                             <small>Head of Customer Service</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Judith Bogonko Juma is the head of customer service, and has 8 years of...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/lucy.jpg" class="img" alt="">
+                        <img src="img/managment/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Benjamin Otieno<br>
                             <small>Group Risk manager</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Benjamin has an experience spanning over 15 years in banking, development...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -304,14 +304,14 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/juliana.jpg" class="img" alt="">
+                        <img src="img/managment/ann.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ann Njoki<br>
                             <small>Reinsurance Manager</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Anne Njoki has over eight years’ experience in Reinsurance. She holds a..
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -324,7 +324,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Janette has over 25 years of proven track record in claims management. She...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -337,7 +337,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Nelson is a graduate in Economics & Government from...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
