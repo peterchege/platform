@@ -88,7 +88,7 @@
                         <p>
                             Ashok Shah is the current Group CEO of Apollo Investments Limited...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -101,7 +101,7 @@
                         <p>
                             Daniel Ndonye brings to the Board vast experience. He is alumnus of the Alliance...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -114,7 +114,7 @@
                         <p>
                             M’Mukindia has had a varied and dynamic career over 35 years of working experien...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -127,7 +127,7 @@
                         <p>
                             Rick Ashley is a qualified accountant and brings with him over 30 years of...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -220,26 +220,98 @@
     <!-- #footer -->
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- ===================================== ASHOK SHAH ===================================== -->
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/ashok.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Ashok Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Group CEO
+                    </h2>
+                    <p>
+                        Ashok Shah is the current Group CEO of Apollo Investments Limited. He has over 40 years experience in Insurance. He has majored in Applied Chemistry from Kingston University (UK) and is a Chartered Insurer by profession.
+                        He is a member of the Chartered Institute of Arbitrators.
+                        Other directorships include: Barclays Bank, Central Depository System Corporation, Reliance Insurance Company (Tanzania), APA Insurance (Uganda) Ltd, Apollo Life Assurance Ltd, and Apollo Asset Management.
+                        He is the first recipient of the Think Business Life Time Achievement Award for his contribution to the Insurance Industry in Kenya.
+                        He is also involved in many social activities, mainly in support of the needy and underprivileged.</p>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <!-- ===================================== Daniel Ndonye ===================================== -->
+
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/daniel.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Daniel Ndonye
+                    </h1>
+                    <h2 class="small-head">
+                        Chairman, Apollo Investments Ltd
+                    </h2>
+                    <p>
+                        Daniel Ndonye brings to the Board vast experience.
+                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the University of Nairobi.
+                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the Institute of Certified
+                        Public Accountants of Kenya and the Institute of Certified Public Secretaries of Kenya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Mary Kimotho ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/mary.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Mary Kimotho
+                    </h1>
+                    <h2 class="small-head">
+                        DIRECTOR
+                    </h2>
+                    <p>
+                        Daniel Ndonye brings to the Board vast experience.
+                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the University of Nairobi.
+                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the Institute of Certified
+                        Public Accountants of Kenya and the Institute of Certified Public Secretaries of Kenya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
 

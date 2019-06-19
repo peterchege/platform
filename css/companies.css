@@ -135,3 +135,12 @@
     color: #fff;
 }
 
+/* MODAL */
+
+.uk-padding-large h2 {
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+    font-size: 25px;
+
+}
