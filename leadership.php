@@ -294,6 +294,30 @@
         </div>
     </div>
 
+    <!-- =====================================  Richard Ashley ===================================== -->
+
+    <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/mary.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Richard Ashley
+                    </h1>
+                    <h2 class="small-head">
+                        Chairman, APA Life
+                    </h2>
+                    <p>
+                        Rick Ashley is a qualified accountant and brings with him over 30 years of experience in the financial sector.
+                        He was the Chief Executive of Old Mutual Asset Managers (Kenya) and Managing Director of Kestrel Capital (EA) Limited,
+                        having previously worked for Peat Marwick, Cayman Islands, Arthur Andersen & Company and Prudential Corporation Plc in London.
+                        He was also the founding Chairman of Fund Managers Association of Kenya and previously served as a member of Market Leaders Forum, Central Bank of Kenya.
+                        Other Directorships include: APA Life Assurance Ltd, Apollo Investments Ltd, ARM Cement Ltd, Maweni Limestone Ltd, Mafikeng Cement Company in South Africa and AFB in Kenya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
