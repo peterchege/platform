@@ -144,7 +144,7 @@
                         <p>
                             Pratul Shah is a Chartered Certified Accountant and a Certified Public...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -319,7 +319,29 @@
         </div>
     </div>
 
+    <!-- =====================================   Pratul Shah ===================================== -->
 
+    <div id="modal-full4" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/richard.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Pratul Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Company Secretary
+                    </h2>
+                    <p>
+                        Pratul Shah is a Chartered Certified Accountant and a Certified Public Accountant (Kenya).
+                        He is currently an advisor to various companies in the banking, insurance, manufacturing and services sectors, on strategic planning and restructuring.
+                        He has vast experience in Corporate Finance, which includes transaction advice on mergers, acquisitions/disposals and raising capital through private placements,
+                        public offers and a debt funding.Pratul is a non-executive board member of Car & General (K) Limited, Coastal Bottlers Limited, Bank One Limited – Mauritius, Reliance Insurance Company (Tanzania) Limited and I&M Bank (Tanzania) Limited.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
