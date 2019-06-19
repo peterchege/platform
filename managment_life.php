@@ -86,7 +86,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Catherine holds a Bachelor of Education – Science, from the Kenyatta University...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -99,7 +99,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            For the past 11 years, Daniel K. Mugo has served as the Chief Finance Officer...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -112,20 +112,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/manju.jpg" class="img" alt="">
+                        <img src="img/managment/benard.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernard Kinyanjui<br>
                             <small>Head of Corporate Business</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Bernard Kinyanjui serves as the Head of Corporate Business and has 17 years...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -142,7 +142,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Stephen Muiga is the current Business Development Manager – Credit Life...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -155,7 +155,7 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Mark Mumo is the Group Life Business Development Manager and has 7 years..
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -168,20 +168,20 @@
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            James Njagi is the Business Development Manager and has 7 years of...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
+                        <img src="img/managment/makena.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernadicto Makena<br>
                             <small>National Sales Manager</small>
                         </h5>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Mr. Makena is the National ales Manager for APA Life. He spent the last 22...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
