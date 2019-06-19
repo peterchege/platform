@@ -157,7 +157,7 @@
                         <p>
                             Mr Shashi M Shah was marketing insurance long before the formation...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full5" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -325,7 +325,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/richard.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/pratul.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Pratul Shah
@@ -338,6 +338,31 @@
                         He is currently an advisor to various companies in the banking, insurance, manufacturing and services sectors, on strategic planning and restructuring.
                         He has vast experience in Corporate Finance, which includes transaction advice on mergers, acquisitions/disposals and raising capital through private placements,
                         public offers and a debt funding.Pratul is a non-executive board member of Car & General (K) Limited, Coastal Bottlers Limited, Bank One Limited – Mauritius, Reliance Insurance Company (Tanzania) Limited and I&M Bank (Tanzania) Limited.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  S M Shah  ===================================== -->
+
+    <div id="modal-full5" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/board/smshah.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        S M Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Director
+                    </h2>
+                    <p>
+                        Mr Shashi M Shah was marketing insurance long before the formation of Apollo Insurance Company which he set up in 1977 as a composite insurance business, dealing with both General and Life Insurance.
+                        He has studied in Kenya, India, Zambia and Swiss Insurance Training College in Switzerland, and has been a charter member of the International Insurance Society.
+                        Mr Shah is an executive director at APA Insurance Ltd, and his directorships among others include: Apollo Investments Ltd, Kenmac Ltd, APA Life Assurance Co. Ltd and Gordon Court Ltd.
+                        He is involved in a lot of social activities and charities which include medical camps, distribution of artificial limbs and eye clinics among others.
+                        He is a past member of the Rotary Club of Mombasa and a charter member of the Rotary Club of Bahari where he is a trustee and past president. At the Pandya Memorial Society, he is a trustee and past chairman.</p>
                 </div>
             </div>
         </div>
