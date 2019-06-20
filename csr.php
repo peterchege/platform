@@ -107,20 +107,21 @@ require_once 'inc/functions.php';
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
                         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="post">
-                                <img src="images/social8.jpg" alt="">
+                                <img src="<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>" alt="">
                                 <div class="box-info text-left">
                                     <h2><?= $post['title']; ?> </h2>
-                                    <p>
-                                        <?php
-                                        $postfixed = desanitize($post['post']);
+                                    <?php
+                                    $postfixed = desanitize($post['post']);
 
-                                        if (strlen($postfixed)) {
-                                            echo substr($postfixed, 0, 150) . '... ';
-                                        } else {
-                                            echo $postfixed;
-                                        }
-                                        ?> </p>
-                                    <a href="csr_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                                    if (strlen($postfixed)) {
+                                        echo substr($postfixed, 0, 150) . '... ';
+                                    } else {
+                                        echo $postfixed;
+                                    }
+                                    ?>
+                                    <div class="container">
+                                        <a href="csr_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
