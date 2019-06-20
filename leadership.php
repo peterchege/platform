@@ -445,20 +445,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
 
     <!-- UIkit JS -->
