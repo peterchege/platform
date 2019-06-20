@@ -65,15 +65,26 @@
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Welcome to Apollo Investments Limited. The flagship company, APA Insurance, was formed
-                after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
-                With a combined experience of over 100 years (Pan Africa – 1946 and Apollo –1977), APA has become
-                the largest insurance firm in Kenya and the most innovative in product offering. APA Insurance
+                Welcome to Apollo Investments Limited.<br><br>
+                Apollo Group (Apollo Investments Limited) was an idea born from the need to harness synergies across the
+                insurance business. Established in 1977 as one of the first locally owned insurance companies, Apollo has
+                achieved impressive growth over the years thanks to unwavering commitment to service, confidence of the policy
+                holders and constant adherence to a sound management policy.
 
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APA INSURANCE:</b> underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro Insurance.
+                The group is a one stop financial services provider offering innovative products and services in Insurance, Pensions
+                and Investments. Built on commitment, integrity and innovation, the group has risen to be one of the leading providers
+                of insurance and financial services in East Africa. Apollo Investments comprises of APA Insurance Ke /Ug, APA Life
+                Assurance, Apollo Asset Management ,Gordon Court.
+            </p>
+
+            <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
+                <b>APA INSURANCE:</b> The flagship company, APA Insurance, was formed
+                after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
+                With a combined experience of over 100 years (Pan Africa – 1946 and Apollo –1977), APA has become
+                the largest insurance firm in Kenya and the most innovative in product offering. APA Insurance underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro Insurance.
                 We also underwrite Individual and Family Health Insurance. Our products provide customers with peace
                 of mind, helping both businesses and individuals to return to the same standing following a loss or
                 other unfortunate event.
@@ -99,10 +110,10 @@
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APOLLO CENTRE : </b>APA Life is one of the leading insurance companies in Kenya, providing Life Insurance and Pension Benefits.
-                It has been recognised as the Best Insurance Company in Claims Settlement (Life Business). Our products
-                include: Employee Benefits such as Group Life Assurance, Last Expense, Disability Covers and Individual
-                Pension Plans. We also provide Unit Linked Investment Plans and Education Plans, among many others.
+                <b>APOLLO CENTRE : </b>Is wholly owned by Gordon Court Limited, a subsidiary of AIL. It is a commercial building situated in the Westlands
+                area of Nairobi. Besides being the group headquarters, Apollo Centre offers modern conference facilities including: private meeting rooms and
+                custom designed training rooms fitted with state-of-the-art equipment. The facility is popular with a number of corporate and individual clients
+                due to its exclusivity and convenience.
             </p>
 
         </div>

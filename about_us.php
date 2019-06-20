@@ -65,8 +65,8 @@
                     <div class=" col-md-3">
                         <img src="images/icon/icon6.png" alt="mission">
                         <h2> MISSION</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
+                        <p>
+                            We put smiles on the faces of our stakeholders
                         </p>
                     </div>
                     <br>
@@ -74,8 +74,7 @@
                     <div class="col-md-3 ">
                         <img src="images/icon/icon7.png" alt="mission">
                         <h2> VISION</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
+                        <p class>We are the regions most respected Group creating and protecting wealth.
                         </p>
                     </div>
                     <br>
@@ -83,8 +82,8 @@
                     <div class="col-md-3 ">
                         <img src="images/icon/icon8.png" alt="mission">
                         <h2> CORE VALUE</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
+                        <p>
+                            Humility, Leadership, Tireless, Trailblazing, Insightful, Integrity, No-Nonsense.
                         </p>
                     </div>
                     <br>
@@ -92,8 +91,7 @@
                     <div class="col-md-3 ">
                         <img src="images/icon/icon9.png" alt="mission">
                         <h2> BRAND PROMISE</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                            sapiente atque, accusamus, error earum vitae
+                        <p> Insuring Happiness
                         </p>
                     </div>
                     <br>
@@ -121,8 +119,7 @@
                                     <h1>1981</h1>
                                 </div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
+                                    Apollo branch established in Nairobi
                                 </p>
                             </div>
                         </li>
@@ -133,44 +130,7 @@
                                     <h1>1982</h1>
                                 </div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="uk-panel">
-                                <img src="images/social1.jpg" alt="">
-                                <div class="uk-position-center uk-panel">
-                                    <h1>1983</h1>
-                                </div>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="uk-panel">
-                                <img src="images/social4.jpg" alt="">
-                                <div class="uk-position-center uk-panel">
-                                    <h1>1984</h1>
-                                </div>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="uk-panel">
-                                <img src="images/social3.jpg" alt="">
-                                <div class="uk-position-center uk-panel">
-                                    <h1>1985</h1>
-                                </div>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
+                                    Gordon Court purchased as a specialist property development company
                                 </p>
                             </div>
                         </li>
@@ -181,20 +141,33 @@
                                     <h1>2003</h1>
                                 </div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
+                                    APA Insurance Kenya formed after the merger of the general business of
+                                    Apollo Company and Pan africa Insurance
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/soc.jpg" alt="">
+                                <img src="images/social4.jpg" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>2009</h1>
                                 </div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
+                                    Gordon Court- Completes the construction of Apollo Centre which becomes
+                                    the group headquaters. Apa Insurance (Uganda)
+                                    <br>
+                                    A specialist General Insurance provider in Uganda commenced operations.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-panel">
+                                <img src="images/social3.jpg" alt="">
+                                <div class="uk-position-center uk-panel">
+                                    <h1>2010</h1>
+                                </div>
+                                <p>
+                                    Apollo Insurance separates its Life Insurance business to from Apollo Life Assurance Limited.
                                 </p>
                             </div>
                         </li>
@@ -205,8 +178,7 @@
                                     <h1>2013</h1>
                                 </div>
                                 <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus recusandae, alias sequi
-                                    sapiente atque, accusamus, error earum vitae
+                                    Apollo life assurance LTD rebrands to APA Life Assurance Limited
                                 </p>
                             </div>
                         </li>
