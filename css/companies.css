@@ -13,8 +13,12 @@
 .company-nav .nav-item {
     padding-top: 15px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
     
+}
+
+.company-nav .nav-item a{
+    color: #0C4DA2;
 }
 
 .company-nav ul .active {

@@ -110,7 +110,7 @@
                         <p>
                             Vinod has over 35 years’ insurance experience both in India and Kenya...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -212,7 +212,6 @@
 
                 </div>
 
-
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -258,7 +257,7 @@
                         <img src="img/managment/juliana.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Juliana Nguli<br>
-                            <small>Head of Health</small>
+                            <small>Group Head of Human Resource</small>
                         </h5>
 
                         <p>
@@ -386,23 +385,27 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+    <!-- =====================================  Vinod Bharatan ===================================== -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/vinod.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Vinod Bharatan
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Executive Officer
+                    </h2>
+                    <p class="text-justify">
+                        Vinod has over 35 years’ insurance experience both in India and Kenya. He has a proven track record of
+                        success in multiple areas including sales, marketing, operations, technology and financial acumen. He
+                        has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
+                        Institute of India.
+
+                    </p>
                 </div>
             </div>
         </div>
