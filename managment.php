@@ -166,7 +166,7 @@
                         <p>
                             Amos is a seasoned Insurance professional with extensive, hands – on...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -179,7 +179,7 @@
                         <p>
                             Shalini has a PhD in Food Science from the University of Reading to...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full5" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -192,7 +192,7 @@
                         <p>
                             Manju is the Director of Operations. She has 35 years working experience...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -205,7 +205,7 @@
                         <p>
                             Lucy is a medic by profession with over 34 years’ experience in the health...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
                     </div>
 
 
@@ -224,7 +224,7 @@
                         <p>
                             Sheila Gichuhi is the Head of Health Business, and has over 10 years of...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full8" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -237,7 +237,7 @@
                         <p>
                             Anne Njoki has over eight years’ experience in Reinsurance. She holds a..
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full9" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -263,7 +263,7 @@
                         <p>
                             Juliana is the Group Head of Human Resources and has 20 years of...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
 
 
@@ -282,7 +282,7 @@
                         <p>
                             James is an experienced Information & Communication Tech...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full11" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -295,7 +295,7 @@
                         <p>
                             Chris is the Group Head of Internal Audit with over 20 combined years in the...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full12" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -308,7 +308,7 @@
                         <p>
                             Benjamin has an experience spanning over 15 years in banking, development...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full13" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -321,7 +321,7 @@
                         <p>
                             Judith Bogonko Juma is the head of customer service, and has 8 years of...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
                     </div>
 
 
@@ -339,7 +339,7 @@
                         <p>
                             Jackie Tonui is the Head of Corporate Communications and has six years in...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -352,7 +352,7 @@
                         <p>
                             Charles holds a Bachelors degree in Education, a Masters degree in...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full16" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -365,7 +365,7 @@
                         <p>
                             Janette has over 25 years of proven track record in claims management. She...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full17" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -477,6 +477,51 @@
                         Caroline Kamau has 15 years of experience in the insurance Industry. She holds a Bachelor’s in Commerce
                         Business Administration-Management & Marketing from Daystar University. She is also an Associate of the
                         Insurance Institute of Kenya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =====================================   Amos Mabuka ===================================== -->
+
+    <div id="modal-full4" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/amos.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Amos Mabuka
+                    </h1>
+                    <h2 class="small-head">
+                        Director of business development
+                    </h2>
+                    <p class="text-justify">
+                        Amos is a seasoned Insurance professional with extensive, hands – on experience in both Business Development and Operations Management. He is a Chartered Insurer as well as Associate of The Chartered Insurance Institute – UK, with over 17 years progressive Insurance Industry experience. Mr. Mabuka also holds a Bachelor of Science in Mathematics and is currently pursuing an MBA in Strategic Management
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Shalini Goswami ===================================== -->
+
+    <div id="modal-full5" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/amos.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Shalini Goswami
+                    </h1>
+                    <h2 class="small-head">
+                        Director of business development
+                    </h2>
+                    <p class="text-justify">
+                        Amos is a seasoned Insurance professional with extensive, hands – on experience in both Business Development and Operations Management. He is a Chartered Insurer as well as Associate of The Chartered Insurance Institute – UK, with over 17 years progressive Insurance Industry experience. Mr. Mabuka also holds a Bachelor of Science in Mathematics and is currently pursuing an MBA in Strategic Management
                     </p>
                 </div>
             </div>
