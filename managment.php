@@ -664,8 +664,8 @@
                         human resources across broad spectrum of HR practice areas. She holds a Bachelor of Commerce Degree and a
                         Master of Business Administration Degree (MBA-HR) from Kenyatta University.
                         <br>
-                        She has a Higher National Diploma in Human Resources Management, a Certified Public Secretary and a Certified 
-                        Professional Trainer from the Institute of Human Resources Management. Before joining Apollo Juliana was the 
+                        She has a Higher National Diploma in Human Resources Management, a Certified Public Secretary and a Certified
+                        Professional Trainer from the Institute of Human Resources Management. Before joining Apollo Juliana was the
                         General Manager HR at Liberty Life. She is a full member of the Institute of Human Resources Management.
 
                     </p>
@@ -673,6 +673,87 @@
             </div>
         </div>
     </div>
+
+    <!-- =====================================  James Nyakomitta ===================================== -->
+
+    <div id="modal-full11" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/james.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        James Nyakomitta
+                    </h1>
+                    <h2 class="small-head">
+                        Group Chief Information Officer
+                    </h2>
+                    <p class="text-justify">
+                        James is an experienced Information & Communication Technology professional with extensive background
+                        in planning, organizing and implementing Information communication and related Technologies that support
+                        business operations. He holds a Masters degree in Business Administration and is a graduate of Computer
+                        Science. James has served in various ICT leadership roles for the past 14 years in both Insurance and
+                        Banking sectors, with continued success in meeting business / operational goals. He is a member of
+                        Information Systems Audit and Control Association (ISACA).
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Chris Ngala ===================================== -->
+
+    <div id="modal-full12" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/chris.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Chris Ngala
+                    </h1>
+                    <h2 class="small-head">
+                        Group Head of Internal Audit
+                    </h2>
+                    <p class="text-justify">
+                        Chris is the Group Head of Internal Audit with over 20 combined years in the Accounting and Audit professions.
+                        He is a member of the Institute of Certified Public Accountants of Kenya and the Information Systems and Control
+                        Association. Prior to joining the Apollo Group, he held similar positions at the Jubilee Holdings and NIC Bank.
+                        He also worked in various capacities at Commercial Bank of Africa Limited. He is a member of the Institute of
+                        Internal Auditors.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Benjamin Otieno ===================================== -->
+
+    <div id="modal-full13" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/benjamin.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Benjamin Otieno
+                    </h1>
+                    <h2 class="small-head">
+                        Group Risk manager
+                    </h2>
+                    <p class="text-justify">
+                        Benjamin has an experience spanning over 15 years in banking, development financing and insurance industries
+                        having worked on various risk management and strategy assignments. He holds a bachelor’s degree in mathematics
+                        and computer science and an MSc in information systems. He is a member of the Global Association of Risk Professionals
+                        (GARP) and Information Systems Audit and Control Association (ISACA).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
