@@ -123,7 +123,7 @@
                         <p>
                             Kigochi holds a Bachelor of Commerce degree in Accounting Option...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -136,7 +136,7 @@
                         <p>
                             Parul Khimasia holds a Bachelor’s degree in Management Science from..
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -149,7 +149,7 @@
                         <p>
                             Caroline Kamau has 15 years of experience in the insurance Industry...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -404,6 +404,30 @@
                         success in multiple areas including sales, marketing, operations, technology and financial acumen. He
                         has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
                         Institute of India.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  John Kigochi ===================================== -->
+
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/john.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        John Kigochi
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Finance Officer
+                    </h2>
+                    <p class="text-justify">
+                        Kigochi holds a Bachelor of Commerce degree – Accounting Option, from the University of Nairobi, an MBA – Finance, and a CPA (K).
+                        He has over 18 years Insurance experience.
 
                     </p>
                 </div>
