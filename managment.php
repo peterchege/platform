@@ -601,7 +601,7 @@
 
     <!-- =====================================  Ann Njoki ===================================== -->
 
-    <div id="modal-full8" class="uk-modal-full" uk-modal>
+    <div id="modal-full9" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
@@ -617,6 +617,58 @@
                         Anne Njoki has over eight years’ experience in Reinsurance. She holds a Bachelor’s of science degree in
                         Applied Business Computing from the University of Sunderland, UK. She is a Cert CII and is currently
                         pursuing a Diploma from the Institute of Risk Management, UK.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Keval Shah ===================================== -->
+
+    <div id="modal-full101" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/ann.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Keval Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Group Chief
+                    </h2>
+                    <p class="text-justify">
+                        Anne Njoki has over eight years’ experience in Reinsurance. She holds a Bachelor’s of science degree in
+                        Applied Business Computing from the University of Sunderland, UK. She is a Cert CII and is currently
+                        pursuing a Diploma from the Institute of Risk Management, UK.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Juliana Nguli ===================================== -->
+
+    <div id="modal-full10" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/juliana.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Juliana Nguli
+                    </h1>
+                    <h2 class="small-head">
+                        Group Head of Human Resource
+                    </h2>
+                    <p class="text-justify">
+                        Juliana is the Group Head of Human Resources and has 20 years of professional experience and skill in
+                        human resources across broad spectrum of HR practice areas. She holds a Bachelor of Commerce Degree and a
+                        Master of Business Administration Degree (MBA-HR) from Kenyatta University.
+                        <br>
+                        She has a Higher National Diploma in Human Resources Management, a Certified Public Secretary and a Certified 
+                        Professional Trainer from the Institute of Human Resources Management. Before joining Apollo Juliana was the 
+                        General Manager HR at Liberty Life. She is a full member of the Institute of Human Resources Management.
+
+                    </p>
                 </div>
             </div>
         </div>
