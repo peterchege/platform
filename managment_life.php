@@ -77,7 +77,7 @@
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA LIFE MANAGMENT </h1>
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA LIFE MANAGEMENT </h1>
             <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>

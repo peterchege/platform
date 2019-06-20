@@ -82,7 +82,7 @@
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE MANAGMENT </h1>
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE MANAGEMENT </h1>
             <div class="under-line img5">
                 <img src="images/line.png" alt="">
             </div>
