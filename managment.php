@@ -521,10 +521,102 @@
                         Head of Health Claims
                     </h2>
                     <p class="text-justify">
-                        Shalini has a PhD in Food Science from the University of Reading to complement her Bsc (Hon) in Food Science & 
-                        Technology from the University of Nairobi. She has 16 years’ experience in the Health insurance business and has 
+                        Shalini has a PhD in Food Science from the University of Reading to complement her Bsc (Hon) in Food Science &
+                        Technology from the University of Nairobi. She has 16 years’ experience in the Health insurance business and has
                         overseen the acquisition and implementation of the APA Health claims system.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Manju Naul ===================================== -->
+
+    <div id="modal-full6" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/manju.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Manju Naul
+                    </h1>
+                    <h2 class="small-head">
+                        Director of Operations
+                    </h2>
+                    <p class="text-justify">
+                        Manju is the Director of Operations. She has 35 years working experience in the Kenyan Insurance Industry
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Lucy kuria ===================================== -->
+
+    <div id="modal-full7" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/lucy.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Lucy kuria
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Care Team
+                    </h2>
+                    <p class="text-justify">
+                        Lucy is a medic by profession with over 34 years’ experience in the health care sector and has over
+                        27 years managerial experience in health care management. She has accreditation from the South African
+                        case management association. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Sheila Gichuhi ===================================== -->
+
+    <div id="modal-full8" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/sheila.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Sheila Gichuhi
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Health
+                    </h2>
+                    <p class="text-justify">
+                        Sheila Gichuhi is the Head of Health Business, and has over 10 years of experience in the Health Industry.
+                        <br>
+                        She holds a Bachelor’s degree in International Business Administration-Management from
+                        the United States International University. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Ann Njoki ===================================== -->
+
+    <div id="modal-full8" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/ann.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Ann Njoki
+                    </h1>
+                    <h2 class="small-head">
+                        Reinsurance Manager
+                    </h2>
+                    <p class="text-justify">
+                        Anne Njoki has over eight years’ experience in Reinsurance. She holds a Bachelor’s of science degree in
+                        Applied Business Computing from the University of Sunderland, UK. She is a Cert CII and is currently
+                        pursuing a Diploma from the Institute of Risk Management, UK.</p>
                 </div>
             </div>
         </div>
