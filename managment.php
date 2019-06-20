@@ -512,16 +512,18 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/amos.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/shalini.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Shalini Goswami
                     </h1>
                     <h2 class="small-head">
-                        Director of business development
+                        Head of Health Claims
                     </h2>
                     <p class="text-justify">
-                        Amos is a seasoned Insurance professional with extensive, hands – on experience in both Business Development and Operations Management. He is a Chartered Insurer as well as Associate of The Chartered Insurance Institute – UK, with over 17 years progressive Insurance Industry experience. Mr. Mabuka also holds a Bachelor of Science in Mathematics and is currently pursuing an MBA in Strategic Management
+                        Shalini has a PhD in Food Science from the University of Reading to complement her Bsc (Hon) in Food Science & 
+                        Technology from the University of Nairobi. She has 16 years’ experience in the Health insurance business and has 
+                        overseen the acquisition and implementation of the APA Health claims system.
                     </p>
                 </div>
             </div>
