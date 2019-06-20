@@ -754,6 +754,31 @@
         </div>
     </div>
 
+    <!-- ===================================== Judith Bogonko Juma ===================================== -->
+
+    <div id="modal-full14" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/judy.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Judith Bogonko Juma
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Customer Service
+                    </h2>
+                    <p class="text-justify">
+                        Benjamin has an experience spanning over 15 years in banking, development financing and insurance industries
+                        having worked on various risk management and strategy assignments. He holds a bachelor’s degree in mathematics
+                        and computer science and an MSc in information systems. He is a member of the Global Association of Risk Professionals
+                        (GARP) and Information Systems Audit and Control Association (ISACA).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
