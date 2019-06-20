@@ -141,36 +141,6 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/manju.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Manju Naul<br>
-                            <small>Director of Operations</small>
-                        </h5>
-
-                        <p>
-                            Manju is the Director of Operations. She has 35 years working experience...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/sheila.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Sheila Gichuhi<br>
-                            <small>Head of Health</small>
-                        </h5>
-
-                        <p>
-                            Sheila Gichuhi is the Head of Health Business, and has over 10 years of...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src=" img/managment/caroline.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Caroline Kamau<br>
@@ -183,6 +153,10 @@
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
+                </div>
+
+                <div class="row lead-img">
+
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/amos.jpg" class="img" alt="">
                         <h5 class="title-name">
@@ -192,6 +166,32 @@
 
                         <p>
                             Amos is a seasoned Insurance professional with extensive, hands – on...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/shalini.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Shalini Goswami<br>
+                            <small>Head of Health Claims</small>
+                        </h5>
+
+                        <p>
+                            Shalini has a PhD in Food Science from the University of Reading to...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/manju.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Manju Naul<br>
+                            <small>Director of Operations</small>
+                        </h5>
+
+                        <p>
+                            Manju is the Director of Operations. She has 35 years working experience...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -209,20 +209,35 @@
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
+
+
                 </div>
 
 
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/shalini.jpg" class="img" alt="">
+                        <img src="img/managment/sheila.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Shalini Goswami<br>
-                            <small>Head of Health Claims</small>
+                            Sheila Gichuhi<br>
+                            <small>Head of Health</small>
                         </h5>
 
                         <p>
-                            Shalini has a PhD in Food Science from the University of Reading to...
+                            Sheila Gichuhi is the Head of Health Business, and has over 10 years of...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/ann.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Ann Njoki<br>
+                            <small>Reinsurance Manager</small>
+                        </h5>
+
+                        <p>
+                            Anne Njoki has over eight years’ experience in Reinsurance. She holds a..
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -230,12 +245,44 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/charlse.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Charles Wambua<br>
-                            <small>Head of Microinsurance & Agribusiness</small>
+                            Keval Shah<br>
+                            <small>Group Chief</small>
                         </h5>
 
                         <p>
-                            Charles holds a Bachelors degree in Education, a Masters degree in...
+                            Keval holds a Bachelors degree in Education, a Masters degree in...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/juliana.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Juliana Nguli<br>
+                            <small>Head of Health</small>
+                        </h5>
+
+                        <p>
+                            Juliana is the Group Head of Human Resources and has 20 years of...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+
+
+                </div>
+
+                <div class="row lead-img">
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/james.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            James Nyakomitta<br>
+                            <small>Group Chief Information Officer</small>
+                        </h5>
+
+                        <p>
+                            James is an experienced Information & Communication Tech...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -254,44 +301,14 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/james.jpg" class="img" alt="">
+                        <img src="img/managment/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            James Nyakomitta<br>
-                            <small>Group Chief Information Officer</small>
+                            Benjamin Otieno<br>
+                            <small>Group Risk manager</small>
                         </h5>
 
                         <p>
-                            James is an experienced Information & Communication Tech...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/juliana.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Juliana Nguli<br>
-                            <small>Head of Health</small>
-                        </h5>
-
-                        <p>
-                            Juliana is the Group Head of Human Resources and has 20 years of...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/jackie.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Jackie Tonui<br>
-                            <small>Head of Corporate Communications</small>
-                        </h5>
-
-                        <p>
-                            Jackie Tonui is the Head of Corporate Communications and has six years in...
+                            Benjamin has an experience spanning over 15 years in banking, development...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -309,32 +326,33 @@
                         <button class="btn btn-primary">Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/benjamin.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Benjamin Otieno<br>
-                            <small>Group Risk manager</small>
-                        </h5>
-
-                        <p>
-                            Benjamin has an experience spanning over 15 years in banking, development...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
 
                 </div>
 
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/ann.jpg" class="img" alt="">
+                        <img src=" img/managment/jackie.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Ann Njoki<br>
-                            <small>Reinsurance Manager</small>
+                            Jackie Tonui<br>
+                            <small>Head of Corporate Communications</small>
                         </h5>
 
                         <p>
-                            Anne Njoki has over eight years’ experience in Reinsurance. She holds a..
+                            Jackie Tonui is the Head of Corporate Communications and has six years in...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/charlse.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Charles Wambua<br>
+                            <small>Head of Microinsurance & Agribusiness</small>
+                        </h5>
+
+                        <p>
+                            Charles holds a Bachelors degree in Education, a Masters degree in...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -351,20 +369,6 @@
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Nelson Bachia<br>
-                            <small>Head of Branches</small>
-                        </h5>
-
-                        <p>
-                            Nelson is a graduate in Economics & Government from...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
 
                 </div>
 
