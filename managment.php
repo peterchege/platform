@@ -459,6 +459,30 @@
         </div>
     </div>
 
+    <!-- =====================================  Caroline Kamau ===================================== -->
+
+    <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/caroline.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Caroline Kamau
+                    </h1>
+                    <h2 class="small-head">
+                        Director of Business Development
+                    </h2>
+                    <p class="text-justify">
+                        Caroline Kamau has 15 years of experience in the insurance Industry. She holds a Bachelor’s in Commerce
+                        Business Administration-Management & Marketing from Daystar University. She is also an Associate of the
+                        Insurance Institute of Kenya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
 
     <!-- UIkit JS -->
