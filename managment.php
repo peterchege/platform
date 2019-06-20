@@ -435,6 +435,30 @@
         </div>
     </div>
 
+    <!-- =====================================  Parul Khimasia ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/parul2.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Parul Khimasia
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Business Development Officer
+                    </h2>
+                    <p class="text-justify">
+                        Parul Khimasia holds a Bachelor’s degree in Management Science from the University of Manchester Institute of Science and Technology (UMIST).
+                        He has over 14 years of experience in the Insurance industry.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
 
     <!-- UIkit JS -->
