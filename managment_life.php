@@ -124,8 +124,8 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/hariet.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Jane Watiki<br>
-                            <small>Head of Operations</small>
+                            Harriet Aleke<br>
+                            <small>Head of Operations Retail Business</small>
                         </h5>
 
                         <p>
@@ -152,27 +152,14 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/stevo.jpg" class="img" alt="">
+                        <img src="img/managment/hariet.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Stephen Muiga<br>
-                            <small>Business Development Manager</small>
+                            Jane Watiki<br>
+                            <small>Head of Operations</small>
                         </h5>
 
                         <p>
-                            Stephen Muiga is the current Business Development Manager – Credit Life...
-                        </p>
-                        <button class="btn btn-primary">Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/mark.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Mark Mumo<br>
-                            <small>Business Development Manager</small>
-                        </h5>
-
-                        <p>
-                            Mark Mumo is the Group Life Business Development Manager and has 7 years..
+                            Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
                         </p>
                         <button class="btn btn-primary">Read more</button>
                     </div>
@@ -191,6 +178,36 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src=" img/managment/mark.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Mark Mumo<br>
+                            <small>Business Development Manager</small>
+                        </h5>
+
+                        <p>
+                            Mark Mumo is the Group Life Business Development Manager and has 7 years..
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/stevo.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Stephen Muiga<br>
+                            <small>Business Development Manager</small>
+                        </h5>
+
+                        <p>
+                            Stephen Muiga is the current Business Development Manager – Credit Life...
+                        </p>
+                        <button class="btn btn-primary">Read more</button>
+                    </div>
+
+                </div>
+
+                <div class="row lead-img text-left">
+
+                    <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/makena.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernadicto Makena<br>
@@ -198,11 +215,23 @@
                         </h5>
 
                         <p>
-                            Mr. Makena is the National ales Manager for APA Life. He spent the last 22...
+                            Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary reto">Read more</button>
                     </div>
 
+                    <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/managment/ruto.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Vitalis Mbae<br>
+                            <small>Actuarial Officer</small>
+                        </h5>
+
+                        <p>
+                            Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
+                        </p>
+                        <button class="btn btn-primary reto">Read more</button>
+                    </div>
 
                 </div>
 
