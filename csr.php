@@ -109,7 +109,7 @@ require_once 'inc/functions.php';
                             <div class="post">
                                 <img src="<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>" alt="">
                                 <div class="box-info text-left">
-                                    <h2><?= $post['title']; ?> </h2>
+                                    <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?> </h2>
                                     <?php
                                     $postfixed = desanitize($post['post']);
 
