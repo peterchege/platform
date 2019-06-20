@@ -117,7 +117,7 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <ol class="container text-left">
+            <ol class="container text-left wow fadeInUp text-left" data-wow-delay="0.1s">
                 <li>Paid KSHs 1.97 B to Kenya Airports Authority in record time of 6 months </li>
                 <li>Best in Claim Settlement (Life and General) </li>
                 <li>Best in Fraud Detection & Prevention </li>
