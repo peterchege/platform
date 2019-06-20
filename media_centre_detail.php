@@ -38,7 +38,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div style="background-image: url('images/soc.jpg');" class="header-image header-image1">
+        <div style="background-image: url('<?= 'http://' . 'localhost/cms/' . $full_post['image']; ?>');" class="header-image header-image1">
         </div>
         <div class="line-media">
             <img src="images/line.png" alt="">
