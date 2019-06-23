@@ -457,6 +457,31 @@
         </div>
     </div>
 
+    <!-- =====================================  Bernadicto Makena ===================================== -->
+
+    <div id="modal-full9" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/makena.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Bernadicto Makena
+                    </h1>
+                    <h2 class="small-head">
+                        National Sales Manager
+                    </h2>
+                    <p class="text-justify">
+                        Mr. Makena is the National ales Manager for APA Life. He spent the last 22 years working in the insurance industry and is a member of CIM.
+                        <br>
+                        His responsibilities at APA Life include growing Individual Life business through recruitment training and development of the agency sales force. He holds a Bachelors (B.Sc Mathematics) from Kenyatta University.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
