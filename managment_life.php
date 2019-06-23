@@ -303,6 +303,57 @@
         </div>
     </div>
 
+    <!-- =====================================  Harriet Aleke ===================================== -->
+
+    <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/hariet.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Harriet Aleke
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Operations Retail Business
+                    </h2>
+                    <p class="text-justify">
+                        For the past 11 years, Daniel K. Mugo has served as the Chief Finance Officer.
+                        He is responsible for the financial management of the company. His key accountabilities range
+                        from looking at areas of cost saving to effective utilisation of company resources.
+                        He is also tasked with ensuring that the company assets are well safeguarded at all times.
+                        Mr. Mugo has a Bachelor of Commerce degree (Hon.) in Finance, a Diploma in Business
+                        Management – Kenya Institute of Management, a Certificate of Proficiency in Insurance (COP), and is a member of the Institute of Certified Public Accountants of Kenya (ICPAK).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Bernard Kinyanjui ===================================== -->
+
+    <div id="modal-full4" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/benard.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Bernard Kinyanjui
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Corporate Business
+                    </h2>
+                    <p class="text-justify">
+                        Bernard Kinyanjui serves as the Head of Corporate Business and has 17 years of experience in the Insurance industry
+                        Mr. Kinyanjui holds an MBA in Strategic Management, Bachelor of Commerce in Finance, CII Diploma and a Certificate of Proficiency in Insurance (COP).
+                        He is also a member of the Chartered Insurance Institute.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
