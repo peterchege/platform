@@ -354,6 +354,32 @@
         </div>
     </div>
 
+    <!-- =====================================  Jane Watiki ===================================== -->
+
+    <div id="modal-full5" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/hariet.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Jane Watiki
+                    </h1>
+                    <h2 class="small-head">
+                        Head of Operations
+                    </h2>
+                    <p class="text-justify">
+                        Jane Wakiti serves as the Head of Operations at APA Life and has been with the company for 15 years.
+                        <br>
+                        Her 25 years of experience in the Insurance industry is well applied within her responsibilities which involve overseeing the administration of Individual Life, Group Life, Pensions and Claims Management.
+                        <br>
+                        She is a member of the Insurance Institute of Kenya (IIK) and the Chartered Insurance Institute.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
