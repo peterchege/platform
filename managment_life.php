@@ -380,6 +380,83 @@
         </div>
     </div>
 
+    <!-- =====================================  James Njagi ===================================== -->
+
+    <div id="modal-full6" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/njagi.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        James Njagi
+                    </h1>
+                    <h2 class="small-head">
+                        Business Development Manager
+                    </h2>
+                    <p class="text-justify">
+                        James Njagi is the Business Development Manager and has 7 years of experience in the
+                        Insurance industry. He holds a Bachelor degree in Actuarial Science from the Jomo Kenyatta
+                        University of Agriculture & Technology (JKUAT).
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =====================================  James Njagi ===================================== -->
+
+    <div id="modal-full7" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/mark.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Mark Mumo
+                    </h1>
+                    <h2 class="small-head">
+                        Business Development Manager
+                    </h2>
+                    <p class="text-justify">
+                        Mark Mumo is the Group Life Business Development Manager and has 7 years of
+                        experience in the Insurance Industry. He holds a Bachelor’s degree in Actuarial
+                        Science from the Jomo Kenyatta University of Agriculture & Technology and a Masters
+                        Degree in International Business Management from the University of Nairobi.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====================================  Stephen Muiga ===================================== -->
+
+    <div id="modal-full8" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/stevo.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Stephen Muiga
+                    </h1>
+                    <h2 class="small-head">
+                        Business Development Manager
+                    </h2>
+                    <p class="text-justify">
+                        Stephen Muiga is the current Business Development Manager – Credit Life and Micro Insurance.He has 11 years’ experience in the industry.
+                        <br>
+                        Mr. Muiga holds a Bachelor of Commerce in Insurance and an MBA in Business Administration, Marketing. He is a member of the Association of Kenya Insurers (AKI) Agents Award task force.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
 
