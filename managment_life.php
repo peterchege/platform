@@ -105,7 +105,7 @@
                         <p>
                             Catherine holds a Bachelor of Education – Science, from the Kenyatta University...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -118,7 +118,7 @@
                         <p>
                             For the past 11 years, Daniel K. Mugo has served as the Chief Finance Officer...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -131,7 +131,7 @@
                         <p>
                             Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -144,7 +144,7 @@
                         <p>
                             Bernard Kinyanjui serves as the Head of Corporate Business and has 17 years...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -161,7 +161,7 @@
                         <p>
                             Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full5" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -174,7 +174,7 @@
                         <p>
                             James Njagi is the Business Development Manager and has 7 years of...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -187,7 +187,7 @@
                         <p>
                             Mark Mumo is the Group Life Business Development Manager and has 7 years..
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -200,7 +200,7 @@
                         <p>
                             Stephen Muiga is the current Business Development Manager – Credit Life...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full8" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -217,7 +217,7 @@
                         <p>
                             Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
                         </p>
-                        <button class="btn btn-primary reto">Read more</button>
+                        <button class="btn btn-primary reto" data-target="#modal-full9" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -230,7 +230,7 @@
                         <p>
                             Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
                         </p>
-                        <button class="btn btn-primary reto">Read more</button>
+                        <button class="btn btn-primary reto" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
 
                 </div>
@@ -252,26 +252,30 @@
     <!-- #footer -->
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- =====================================  Catherine Karimi ===================================== -->
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/catherine.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Catherine Karimi
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Executive Officer
+                    </h2>
+                    <p class="text-justify">
+                        Catherine holds a Bachelor of Education – Science, from the Kenyatta University, and a CII Diploma. 
+                        She also has Actuarial Studies background and currently pursuing Senior Management Leadership 
+                        Programme at Strathmore Business School. She has 18 years’ experience in the Kenyan Insurance industry.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Optional JavaScript -->
 
