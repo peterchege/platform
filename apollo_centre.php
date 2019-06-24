@@ -132,11 +132,11 @@
                             </p>
                         </div>
 
-                        <div class="row apollo-btn">
+                        <div class="row apollo-btn text-right">
                             <div class="col-md-6">
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-left">
                                 <button class="btn btn-primary">VIEW GALLERY</button>
                             </div>
                         </div>
@@ -159,11 +159,11 @@
                             </p>
                         </div>
 
-                        <div class="row apollo-btn">
+                        <div class="row apollo-btn text-right">
                             <div class="col-md-6">
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-left">
                                 <button class="btn btn-primary">VIEW GALLERY</button>
                             </div>
                         </div>
@@ -186,11 +186,11 @@
                             </p>
                         </div>
 
-                        <div class="row apollo-btn">
+                        <div class="row apollo-btn text-right">
                             <div class="col-md-6">
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-left">
                                 <button class="btn btn-primary">VIEW GALLERY</button>
                             </div>
                         </div>
@@ -214,11 +214,11 @@
                             </p>
                         </div>
 
-                        <div class="row apollo-btn">
+                        <div class="row apollo-btn text-right">
                             <div class="col-md-6">
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 text-left">
                                 <button class="btn btn-primary">VIEW GALLERY</button>
                             </div>
                         </div>
