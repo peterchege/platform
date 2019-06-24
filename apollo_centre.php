@@ -8,6 +8,7 @@
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/companies.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -231,6 +232,73 @@
         </div>
 
     </div>
+
+    <!-- =================================== CENTRE AMENITIES ===================================== -->
+
+    <div class="container text-center">
+        <h1 class="wow fadeInUp" data-wow-delay="0.1s">
+            CENTRE AMENITIES
+        </h1>
+        <div class="under-line img6">
+            <img src="images/line.png" alt="">
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-10">
+                <p class="wow fadeInUp" data-wow-delay="0.1s">
+                    With generous space all around, we will give you all the space you need with every room opening up into a large balcony.
+                    Additionally you can access ample parking space that’s convenient and secure.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon5.png" alt="">
+                        <h2>SECURE </h2>
+                        <hr>
+                        <p>
+                            The firm is backed by a strong financial base. Getting into partnership with Swiss Re provides
+                            for a strong financial backing that enables us deliver on our brand promise.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class=" charter-block">
+                        <img src="images/icon/icon4.png" alt="">
+                        <h2>AMPLE PARKING</h2>
+                        <hr>
+                        <p>
+                            Our products and services are well known and respected in the market. We have built our reputation
+                            through hardwork and good service.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="charter-block">
+                        <img src="images/icon/icon4.png" alt="">
+                        <h2>CENTRAL LOCATION</h2>
+                        <hr>
+                        <p>
+                            The customer is the focus of our attention. Each account is assigned to a Relationship Officer
+                            who ensures that personal and professional service is given.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+
+        </div>
+
+    </div>
+
 
 
 
