@@ -82,3 +82,13 @@
     background-image: url(../images/Entertainment/img11.jpg);
     background-size: cover;
 }
+
+
+/* BOOKING MODAL */
+
+.form-container h3 {
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0D345F;
+    font-size: 24px;
+}

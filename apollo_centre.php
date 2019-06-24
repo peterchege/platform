@@ -134,7 +134,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary">BOOK NOW</button>
+                                <button class="btn btn-primary" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
                                 <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
@@ -307,22 +307,82 @@
     <!-- #footer -->
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- ===================================== APOLLO CENTRE BOOKING FORM ===================================== -->
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('images/shimba/img5.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form class="form-container">
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">Room Name</h3>
+                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
+                                <!-- <option disabled>Select preferred room</option> -->
+                                <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
+                                <option value="2">Taita Hills (10-12pax)</option>
+                                <option value="3">Ngong Hills (Boardroom 8pax)</option>
+                                <option value="4">Chyullu Hills (Auditorium 40pax)</option>
+                                <option value="5">Cherengani Hills (Training Room)</option>
+                                <option value="6">Entertainment Area</option>
+                            </select>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Start Date</label>
+                                    <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Start Time</label>
+                                    <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">End Time</label>
+                                    <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 for="inputAddress">COMPANY DETAIL</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Name</label>
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress2">Phone Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="inputAddress2">Capacity</label>
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </form>
+
                 </div>
             </div>
         </div>

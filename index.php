@@ -25,8 +25,7 @@
     ============================-->
     <section id="intro">
         <div class="intro-container">
-            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel"
-                uk-slideshow="animation: push">
+            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel" uk-slideshow="animation: push">
 
                 <!-- <ol class="carousel-indicators">
         </ol> -->
@@ -34,8 +33,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <div class="carousel-item active">
-                        <div
-                            class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                             <img src="img/family.jpg" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
@@ -48,8 +46,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div
-                            class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                             <img src="img/weare.jpg" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
@@ -62,8 +59,7 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div
-                            class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                             <img src="img/adult.jpg" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
@@ -178,8 +174,7 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a
-                                            href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
+                                        <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
                                             <p>Get Cover</p>
                                         </a>
                                     </div>
@@ -275,8 +270,7 @@
                             <div class="carousel-inner" role="listbox">
 
                                 <div class="carousel-item active">
-                                    <div
-                                        class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left ">
+                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left ">
                                         <img src="images/shimba/img4.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
@@ -290,8 +284,7 @@
                                 </div>
 
                                 <div class="carousel-item">
-                                    <div
-                                        class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                                         <img src="images/chyullu/img6.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
@@ -305,8 +298,7 @@
                                 </div>
 
                                 <div class="carousel-item">
-                                    <div
-                                        class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                                         <img src="images/cherengani/img4.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
@@ -319,8 +311,7 @@
                                 </div>
 
                                 <div class="carousel-item">
-                                    <div
-                                        class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                                         <img src="images/Entertainment/img3.jpg" alt=""></div>
                                     <div class="carousel-container">
                                         <div class="carousel-content">
@@ -377,7 +368,8 @@
                         </p><br>
 
                         <div class="button apollo-centre">
-                            <a href="#" class="btn-primary  btn1">BOOK NOW</a>
+                            <a href="#modal-full1" class="btn-primary btn1" uk-toggle>BOOK NOW</a>
+                            <!-- <button class="btn-primary btn1" data-target="#modal-full1" uk-toggle>Read more</button> -->
                             <a href="apollo_centre.php" class="btn-dark  btn1">LEARN MORE</a>
                         </div>
 
@@ -455,22 +447,22 @@
     </div>
 
     <script type="text/javascript">
-    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-    (function(d, m) {
-        var kommunicateSettings = {
-            "appId": "17b8522a406b28850f9de067f40d2f6dd",
-            "conversationTitle": "ANTHONY BARU",
-            "automaticChatOpenOnNavigation": true
-        };
-        var s = document.createElement("script");
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-        var h = document.getElementsByTagName("head")[0];
-        h.appendChild(s);
-        window.kommunicate = m;
-        m._globals = kommunicateSettings;
-    })(document, window.kommunicate || {});
+        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+        (function(d, m) {
+            var kommunicateSettings = {
+                "appId": "17b8522a406b28850f9de067f40d2f6dd",
+                "conversationTitle": "ANTHONY BARU",
+                "automaticChatOpenOnNavigation": true
+            };
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0];
+            h.appendChild(s);
+            window.kommunicate = m;
+            m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
     </script>
 
 
@@ -478,10 +470,34 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+    <!-- ===================================== APOLLO CENTRE BOOKING FORM ===================================== -->
+
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/vinod.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Vinod Bharatan
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Executive Officer
+                    </h2>
+                    <p class="text-justify">
+                        Vinod has over 35 years’ insurance experience both in India and Kenya. He has a proven track record of
+                        success in multiple areas including sales, marketing, operations, technology and financial acumen. He
+                        has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
+                        Institute of India.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -499,7 +515,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Optional JavaScript -->
 
@@ -512,14 +528,11 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -541,14 +554,11 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>
