@@ -1,0 +1,79 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+.room-wrapper{
+    margin: 5% auto;
+}
+
+.room-container{
+    margin: 10% auto;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+    box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+}
+
+
+.color-overlay-apollo {
+    width: 92%;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    border-radius: 20px;
+}
+
+.content-centre h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 45%;
+    color: #fff;
+    position: relative;
+
+}
+
+.content-bottom p{
+    height: 220px;
+}
+
+.apollo-btn .btn-primary{
+    background-color: #0D345F;
+    border: 1px solid #0D345F;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 10px 15px;
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+}
+
+.img-shimba {
+    background-image: url(../images/shimba/img5.jpg);
+    background-size: cover;
+}
+
+.img-Chyullu {
+    background-image: url(../images/chyullu/img2.jpg);
+    background-size: cover;
+}
+
+.img-Cherengani {
+    background-image: url(../images/cherengani/img6.jpg);
+    background-size: cover;
+}
+
+.img-Entertainment {
+    background-image: url(../images/Entertainment/img11.jpg);
+    background-size: cover;
+}

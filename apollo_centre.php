@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
-    <link rel="stylesheet" href="css/about.css" media="screen">
+    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -45,35 +45,32 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
-                Since our founding in 1977, our mission has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
-                APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
-                Insurance, Tanzania.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Enjoy a private meeting place within a
+                commercial building in the heart of Westlands, at the Apollo Centre conference suites.
+                With generous space all around, we will give you all the space you need with every room opening up into a
+                large balcony. Additionally you can access ample parking space that’s convenient and secure.
             </p>
         </div>
     </div>
-    <!-- ===================================== BRAND PROMISE ===================================== -->
+    <!-- ===================================== OUR ROOMS SLIDESHOW ===================================== -->
     <div class="container-fluid12">
         <div class="product product-new">
 
-            <h1 class="text-left">OUR ROOMS</h1>
+            <h1 class="text-left  wow fadeInUp" data-wow-delay="0.1s">OUR ROOMS</h1>
 
-            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi tenetur quisquam placeat odio repudiandae
+            <p class="text-left wow fadeInUp" data-wow-delay="0.1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi tenetur quisquam placeat odio repudiandae
                 excepturi quod nisi at suscipit et, eius magnam nam harum? Quidem nisi veritatis magni ipsam!
             </p>
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-10">
+                    <div class="col-10 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/shimba/img4.jpg" alt="">
+                                        <img src="images/shimba/img6.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Shimba Hills</h1>
                                         </div>
@@ -103,14 +100,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                <!-- <li class="uk-width-3-4">
-                                    <div class="uk-panel">
-                                        <img src="images/photo3.jpg" alt="">
-                                        <div class="uk-position-center uk-panel">
-                                            <h1>5</h1>
-                                        </div>
-                                    </div>
-                                </li> -->
                             </ul>
 
                             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
@@ -121,13 +110,122 @@
                 </div>
             </div>
             <br>
-            
+
             <div class="container-fluid">
+
                 <div class="row">
-                    <div class="col-md-3">
-                        
+                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-container img-shimba">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Shimba Hills<br><small>18px</small><br><small>Boardroom</small></h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Our world class boardrooms provide the perfect meeting place for executive meetings. With a capacity
+                                of upto 18 persons, they are equipped with an LCD screen & teleconferencing facilities. With varying
+                                degrees of space to fit your needs, you are guaranteed both comfort and privacy.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">VIEW GALLERY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="room-container img-Chyullu">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Chyullu Hills<br><small>18px</small><br><small>Auditorium</small></h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
+                                Every room has an LCD screen suitable for presentations. Our training room & the auditorium
+                                have smart boards making them the ideal meeting place.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">VIEW GALLERY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-container img-Cherengani">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Cherengani Hills<br><small>18px</small><br><small>Training Room</small></h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Our training room can hold 30 guests on U-shape set up and 44 guests in a classroom setup,
+                                the room is ideal for corporate training, promotional training and interactive training.
+                                It can also be divided into two rooms for discussion groups.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">VIEW GALLERY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="room-container img-Entertainment ">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Entertainment Area</h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>The cafeteria has a sitting capacity of 80 guests with dining tables, 100 guests in a
+                                classroom set-up & 150 guests in a cocktail set-up.Tea & lunch is served in our balcony
+                                area covered with sailing canopies for a relaxed atmosphere. Clients also have the option
+                                for self-catering.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary">VIEW GALLERY</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
+
             </div>
 
         </div>
