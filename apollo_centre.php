@@ -137,7 +137,7 @@
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
-                                <button class="btn btn-primary">VIEW GALLERY</button>
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
-                                <button class="btn btn-primary">VIEW GALLERY</button>
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
-                                <button class="btn btn-primary">VIEW GALLERY</button>
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 <button class="btn btn-primary">BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
-                                <button class="btn btn-primary">VIEW GALLERY</button>
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                             </div>
                         </div>
                     </div>
