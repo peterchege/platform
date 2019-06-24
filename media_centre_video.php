@@ -31,7 +31,7 @@ require_once 'inc/functions.php';
     ============================-->
     <?php
     // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' ORDER BY date_added desc ");
+    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY date_added desc ");
     ?>
     <div class="vida">
         <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>

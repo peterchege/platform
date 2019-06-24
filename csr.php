@@ -31,7 +31,7 @@ require_once 'inc/functions.php';
     ============================-->
     <?php
     // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' ORDER BY datetime desc ");
+    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY datetime desc ");
     ?>
     <div class="banner-csr">
         <div class="container-fluid">
