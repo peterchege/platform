@@ -489,7 +489,6 @@
                         success in multiple areas including sales, marketing, operations, technology and financial acumen. He
                         has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
                         Institute of India.
-
                     </p>
                 </div>
             </div>
