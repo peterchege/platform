@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/parul-khimasia.jpg" class="img parul-img" alt="">
+                        <img src="img/managment/parul-khimasia1.jpg" class="img parul-img" alt="">
                         <h5 class="title-name">
                             Parul Khimasia<br>
                             <small>Chief Business Development Officer</small>
