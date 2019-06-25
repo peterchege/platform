@@ -169,7 +169,8 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT" class="btn btn-primary">OPEN PORTAL</a>
+                            </p>
                         </div>
                     </div>
                 </div>
