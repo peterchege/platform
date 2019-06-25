@@ -81,9 +81,8 @@
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Welcome to Apollo Investments Limited. The flagship company, APA Insurance, was formed
-                after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
-                With a combined experience of over 100 years.
+                AAMC is licensed by the Capital Markets Authority (CMA) and the Retirement
+                Benefits Authority (RBA) to conduct Fund Management and Investment Advisory Services.
             </p>
         </div>
 
