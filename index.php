@@ -171,7 +171,7 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=2181006311001966&_afrWindowMode=0&_adf.ctrl-state=152m45ac6d_14">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
                                             <p>Get Cover</p>
                                         </a>
                                     </div>
@@ -198,7 +198,9 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/auth">
+                                            <p>Get Cover</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-6">
