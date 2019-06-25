@@ -124,11 +124,7 @@
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp">Welcome to Apollo Investments Limited. Since our founding in
-                1977,
-                our mission
-                has been to provide
-                present and future peace of mind to the East African market
+            <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
             </p>
             <div class="container-fluid">
                 <div class="row row-product">
@@ -276,8 +272,8 @@
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Shimba Hills</h3>
-                                            <h4>18 PAX</h4>
-                                            <p> Our world class executive boardroom provides the perfect meeting place
+                                            <h4>18 PAX<br>BOARDROOM</h4>
+                                            <p>Our world class boardrooms provide the perfect meeting place for executive meetings
                                             </p>
                                             <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
@@ -290,8 +286,8 @@
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Chyullu Hills</h3>
-                                            <h4>40 PAX</h4>
-                                            <p> Our world class executive boardroom provides the perfect meeting place
+                                            <h4>40 PAX<br>AUDITORIUM</h4>
+                                            <p> Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
                                             </p>
                                             <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
@@ -304,7 +300,9 @@
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Cherangani</h3>
-                                            <p> Our world class executive boardroom provides the perfect meeting place
+                                            <h4>TRAINING ROOM</h4>
+                                            <p> Our training room can hold 30 guests on <br>U-shape set up and 44 guests in a classroom setup, the room is
+                                                ideal for corporate training, promotional training and interactive training.
                                             </p>
                                             <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
@@ -317,7 +315,8 @@
                                     <div class="carousel-container">
                                         <div class="carousel-content">
                                             <h3>Entertainment</h3>
-                                            <p> Our world class executive boardroom provides the perfect meeting place
+                                            <p> The cafeteria has a sitting capacity of 80 guests with dining tables, 100 guests in a classroom set-up & 150
+                                                guests in a cocktail set-up.
                                             </p>
                                             <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
