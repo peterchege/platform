@@ -256,7 +256,7 @@
             <div class="row">
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="charter-block">
-                        <img src="images/icon/icon5.png" alt="">
+                        <img src="images/icon/secure.png" alt="">
                         <h2>SECURE </h2>
                         <hr>
                         <p>
@@ -269,7 +269,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class=" charter-block">
-                        <img src="images/icon/icon4.png" alt="">
+                        <img src="images/icon/parking.png" alt="">
                         <h2>AMPLE PARKING</h2>
                         <hr>
                         <p>
@@ -282,7 +282,7 @@
 
                 <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="charter-block">
-                        <img src="images/icon/icon4.png" alt="">
+                        <img src="images/icon/location.png" alt="">
                         <h2>CENTRAL LOCATION</h2>
                         <hr>
                         <p>
