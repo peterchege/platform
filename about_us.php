@@ -114,33 +114,33 @@
                     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
                         <li>
                             <div class="uk-panel">
-                                <img src="images/socila2.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>1981</h1>
                                 </div>
-                                <p>
+                                <p class="text-center">
                                     Apollo branch established in Nairobi
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/soc.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>1982</h1>
                                 </div>
-                                <p>
+                                <p class="text-center">
                                     Gordon Court purchased as a specialist property development company
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/social1.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>2003</h1>
                                 </div>
-                                <p>
+                                <p class="text-center">
                                     APA Insurance Kenya formed after the merger of the general business of
                                     Apollo Company and Pan africa Insurance
                                 </p>
@@ -148,36 +148,35 @@
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/social4.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>2009</h1>
                                 </div>
-                                <p>
+                                <p class="text-justify">
                                     Gordon Court- Completes the construction of Apollo Centre which becomes
                                     the group headquaters. Apa Insurance (Uganda)
-                                    <br>
                                     A specialist General Insurance provider in Uganda commenced operations.
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/social3.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>2010</h1>
                                 </div>
-                                <p>
+                                <p class="text-center">
                                     Apollo Insurance separates its Life Insurance business to from Apollo Life Assurance Limited.
                                 </p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-panel">
-                                <img src="images/social1.jpg" alt="">
+                                <img src="img/back1.png" alt="">
                                 <div class="uk-position-center uk-panel">
                                     <h1>2013</h1>
                                 </div>
-                                <p>
+                                <p class="text-center">
                                     Apollo life assurance LTD rebrands to APA Life Assurance Limited
                                 </p>
                             </div>
