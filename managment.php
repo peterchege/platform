@@ -241,7 +241,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/charlse.jpg" class="img" alt="">
+                        <img src="img/managment/apa_uganda.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
                             <small>Group Chief</small>
@@ -250,7 +250,7 @@
                         <p>
                             Keval holds a Bachelors degree in Education, a Masters degree in...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full18" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -844,6 +844,30 @@
                     <p class="text-justify">
                         Janette has over 25 years of proven track record in claims management. She holds a Bachelor of Science in
                         Insurance from the University of Nairobi and a Diploma ACII from the Insurance Institute, UK.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Keval Shah ===================================== -->
+
+    <div id="modal-full18" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/apa_uganda.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Keval Shah
+                    </h1>
+                    <h2 class="small-head">
+                        Group Chief
+                    </h2>
+                    <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa libero rem asperiores repudiandae 
+                    consequuntur quas aliquid odio aperiam assumenda neque rerum eveniet sequi sint, corrupti facilis. Earum, 
+                    tenetur provident!
                     </p>
                 </div>
             </div>
