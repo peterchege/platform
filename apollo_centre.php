@@ -46,10 +46,10 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Enjoy a private meeting place within a
-                commercial building in the heart of Westlands, at the Apollo Centre conference suites.
-                With generous space all around, we will give you all the space you need with every room opening up into a
-                large balcony. Additionally you can access ample parking space that’s convenient and secure.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting
+                place within a commercial building with generous space, spacious balconies opening to every room and ample parking space.
+                The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals,
+                corporate and groups.
             </p>
         </div>
     </div>
@@ -59,8 +59,12 @@
 
             <h1 class="text-left  wow fadeInUp" data-wow-delay="0.1s">OUR ROOMS</h1>
 
-            <p class="text-left wow fadeInUp" data-wow-delay="0.1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi tenetur quisquam placeat odio repudiandae
-                excepturi quod nisi at suscipit et, eius magnam nam harum? Quidem nisi veritatis magni ipsam!
+            <p class="text-left wow fadeInUp" data-wow-delay="0.1s">Apollo Centre conference suites comprises of meeting rooms of 8 guests,
+                10 guests and an executive boardroom that holds 18 guests. A state of the art auditorium with a modern sitting capacity of 
+                40 guests ideal for training and a more relaxed discussion area with video illustrations. Our training room can hold 30 guests
+                on U- shape set up and 44 guests in a classroom setup, the room is ideal for corporate training, promotional training and 
+                interactive training. It can also be divided into two rooms for discussion groups.
+
             </p>
 
             <div class="container-fluid">
@@ -148,7 +152,7 @@
                             </div>
 
                             <div class="content-centre">
-                                <h1>Chyullu Hills<br><small>18px</small><br><small>Auditorium</small></h1>
+                                <h1>Chyullu Hills<br><small>40px</small><br><small>Auditorium</small></h1>
                             </div>
                         </div>
 
@@ -175,7 +179,7 @@
                             </div>
 
                             <div class="content-centre">
-                                <h1>Cherengani Hills<br><small>18px</small><br><small>Training Room</small></h1>
+                                <h1>Cherengani Hills<br><small>Training Room</small></h1>
                             </div>
                         </div>
 
