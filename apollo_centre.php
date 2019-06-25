@@ -355,7 +355,7 @@
                             </div>
                         </div>
 
-                        <h3 for="inputAddress">COMPANY DETAIL</h3>
+                        <h3 for="inputAddress" class="comp-detail">COMPANY DETAIL</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -367,6 +367,7 @@
                                     <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
@@ -375,6 +376,19 @@
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
                                     <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress">More Information</label>
+                                    <textarea name="more_information" class="form-control"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary">BOOK NOW</button>
                                 </div>
                             </div>
 
@@ -387,6 +401,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- Optional JavaScript -->
 
