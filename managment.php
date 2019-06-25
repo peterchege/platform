@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/ann.jpg" class="img" alt="">
+                        <img src="img/managment/parul-khimasia.jpg" class="img parul-img" alt="">
                         <h5 class="title-name">
                             Parul Khimasia<br>
                             <small>Chief Business Development Officer</small>
@@ -241,7 +241,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/apa_uganda.jpg" class="img" alt="">
+                        <img src="img/managment/keval.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
                             <small>Group Chief</small>
@@ -441,7 +441,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/parul2.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/parul-khimasia.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Parul Khimasia
@@ -856,7 +856,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/apa_uganda.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/keval.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Keval Shah
@@ -865,9 +865,9 @@
                         Group Chief
                     </h2>
                     <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa libero rem asperiores repudiandae 
-                    consequuntur quas aliquid odio aperiam assumenda neque rerum eveniet sequi sint, corrupti facilis. Earum, 
-                    tenetur provident!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa libero rem asperiores repudiandae
+                        consequuntur quas aliquid odio aperiam assumenda neque rerum eveniet sequi sint, corrupti facilis. Earum,
+                        tenetur provident!
                     </p>
                 </div>
             </div>
