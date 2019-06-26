@@ -76,7 +76,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=4075068781031176&_afrWindowMode=0&_adf.ctrl-state=er99dn14v_4" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                                 eius quo
                                 quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
                             </p>
-                            <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -190,8 +190,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -222,14 +221,11 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -251,14 +247,11 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>

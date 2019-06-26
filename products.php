@@ -60,7 +60,7 @@
     <div class="container-fluid23">
         <div class="product product-new text-left">
 
-            <h1>INDIVIDUAL INSURANCE</h1>
+            <h1>PERSONAL COVER</h1>
 
             <div class="container-fluid">
                 <div class="row row-product">
@@ -290,22 +290,22 @@
         </div>
     </div>
 
-    <!-- =====================================CORPORATE PRODUCTS ===================================== -->
+    <!-- ===================================== PERSONAL COVER ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new text-left">
+        <div class=" product-new text-left">
 
-            <h1>CORPORATE INSURANCE</h1>
+            <h1>HEALTH COVER</h1>
 
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box prd-14 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-03  product-box prd-1 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
 
                             <div class="content">
-                                <h3>Group Plus</h3>
+                                <h3>Jamii Plus</h3>
                                 <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
                                     family.</p>
                             </div>
@@ -329,11 +329,11 @@
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-15 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-03  product-box prd-2 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Group life Pension</h3>
+                                <h3>Travel Insurance</h3>
                                 <p>Explore wild possibilities and adventures unbothered!
                                     Whether you are headed for a business trip or a trip of a lifetime.</p>
                             </div>
@@ -354,11 +354,11 @@
                         </div>
                     </div>
 
-                    <div class="col-03 product-box prd-16 wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Credit life</h3>
+                                <h3>Marine Insurance</h3>
                                 <p>Sail your goods across different regions with no worry.
                                     This cover is crafted for both individuals and corporates
                             </div>
@@ -379,11 +379,11 @@
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-17 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-03  product-box prd-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Umbrella Retirement scheme </h3>
+                                <h3>Agriculture Insurance</h3>
                                 <p>Your crops and livestock are your source of income and guaranteeing their safety
                                     should
                                     bring you ultimate happiness.</p>
@@ -406,6 +406,23 @@
                     </div>
 
                 </div>
+            </div>
+
+            <div class="load-more text-center">
+                <a href="#" class="btn btn-primary">LOAD MORE</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- =====================================CORPORATE PRODUCTS ===================================== -->
+
+    <div class="container-fluid23">
+        <div class="product product-new text-left">
+
+            <h1>LIFE COVER</h1>
+
+            <div class="container-fluid">
 
                 <div class="row row-product">
 
@@ -528,7 +545,7 @@
     <!-- =====================================investment PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new text-left">
+        <div class=" product-new text-left">
 
             <h1>INVESTMENT</h1>
 
@@ -632,8 +649,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -664,14 +680,11 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -693,14 +706,11 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>
