@@ -1,3 +1,11 @@
+<?php
+require_once 'inc/db.php';
+require_once 'inc/sessions.php';
+require_once 'inc/functions.php';
+if (isset($_POST['book'])) {
+    book();
+}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -553,10 +561,9 @@
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <button name="book" type="submit" class="btn btn-primary">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
