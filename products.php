@@ -179,7 +179,7 @@
                         <div class="wrapper">
 
                             <div class="content">
-                                <h3>Pumzisha</h3>
+                                <h3>Motor Cover</h3>
                                 <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
                                     family.</p>
                             </div>
@@ -187,14 +187,14 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <p class="text-center">Get Cover</p>
 
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_jamii.php">
-                                            <p>Read more</p>
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>

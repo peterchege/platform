@@ -446,6 +446,10 @@ ul li a {
     width: 60%;
 }
 
+.btn-mine p {
+    text-align: center;
+}
+
 .red-b {
     margin-left: -40px;
     background-color: slategray;
