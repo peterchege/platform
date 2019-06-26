@@ -94,8 +94,19 @@
     font-family: 'Oswald',
     sans-serif;
     color: #0D345F;
-    font-size: 24px;
+    font-size: 20px;
     /* margin-top: -10px; */
+}
+
+.form-container label{
+    font-size: 14px;
+        font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+
 }
 
 .comp-detail{
