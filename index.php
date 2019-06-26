@@ -1,3 +1,11 @@
+<?php
+require_once 'inc/db.php';
+require_once 'inc/sessions.php';
+require_once 'inc/functions.php';
+if (isset($_POST['book'])) {
+    book();
+}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -480,23 +488,16 @@
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover" style="background-image: url('images/shimba/img5.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
-<<<<<<< HEAD
-                    <h1>
-                        Vinod Bharatan
-                    </h1>
-                    <h2 class="small-head">
-                        Chief Executive Officer
-                    </h2>
-                    <p class="text-justify">
-                        Vinod has over 35 years’ insurance experience both in India and Kenya. He has a proven track record of
-                        success in multiple areas including sales, marketing, operations, technology and financial acumen. He
-                        has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
-                        Institute of India.
-                    </p>
-=======
 
 
-                    <form class="form-container">
+                    <form class="form-container" action="<?= 'index.php#modal-full1'; ?> " method="POST">
+                        <?php
+                        echo errorMessage();
+                        echo successMessage();
+                        if (!empty($errors)) {
+                            echo display_errors($errors);
+                        }
+                        ?>
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
                             <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
@@ -567,16 +568,14 @@
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <button name="book" type="submit" class="btn btn-primary">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
                     </form>
 
->>>>>>> 4b39570115421cd1e66c8d333a767463cf621e02
                 </div>
             </div>
         </div>
