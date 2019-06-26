@@ -100,7 +100,7 @@
                                     </div>
 
                                     <div class="col-6 text-left">
-                                        <a href="#" class="btn btn-primary btn-read ">
+                                        <a href="product_motor_commercial.php" class="btn btn-primary btn-read ">
                                             <p>Read more</p>
                                         </a>
                                     </div>

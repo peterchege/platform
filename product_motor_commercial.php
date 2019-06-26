@@ -40,11 +40,11 @@
 
     <div class="company-nav">
         <ul class="nav justify-content-center">
-            <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="product_motor_private.php">PRIVATE MOTOR COVER</a>
-            </li>
             <li class="nav-item">
-                <a class="nav-link" href="product_motor_commmercial.php">COMMERCIAL MOTOR COVER</a>
+                <a class="nav-link" href="product_motor_private.php">PRIVATE MOTOR COVER</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" href="product_motor_commmercial.php">COMMERCIAL MOTOR COVER</a>
             </li>
 
         </ul>
@@ -55,19 +55,22 @@
     <div class="sub-nav">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="product_motor_private.php">COMPREHENSIVE </a>
+                <a class="nav-link" href="product_motor_private.php">GENERAL CARTAGE </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="product_motor_private_partyonly.php">3RD PARTY ONLY </a>
+                <a class="nav-link" href="product_motor_private_partyonly.php">ON GOODS </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">3RD PARTY & THEFT</a>
+                <a class="nav-link" href="#">PSV (PASSAGE SERVICE VEHICLE)</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">NAMED DRIVER</a>
+                <a class="nav-link" href="#">SPECIAL TYPES</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">BIMA BAMBA</a>
+                <a class="nav-link" href="#">AGRICULTURE</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">INSTITUTION</a>
             </li>
 
         </ul>
@@ -79,7 +82,7 @@
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">3RD PARTY ONLY</h1>
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">GENERAL CARTAGE</h1>
             <div class="under-line img7 wow fadeInUp" data-wow-delay="0.1s">
                 <img src=" images/line.png" alt="">
             </div>
