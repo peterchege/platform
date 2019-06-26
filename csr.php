@@ -38,7 +38,6 @@ require_once 'inc/functions.php';
             <div class="row csr-cont">
                 <div class="col-md-offset-6 ">
                 </div>
-
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h2>
                         APA Apollo Foundation
