@@ -1,3 +1,15 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
 
 .header-image11 {
     width: 100%;
@@ -58,3 +70,79 @@
     background-color: white;
 }
 
+/* MOTOR COVER */
+
+.motor{
+    margin: 5% auto;
+}
+
+.motor .product-motor-wrapper {
+    width: 80%;
+    height: 350px;
+    background-size: cover;
+    border-radius: 20px; 
+    -webkit-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+}
+
+.motor .private-motor {
+    background-image: url(../images/motor.jpg);
+}
+
+.motor .private-commercial {
+    background-image: url(../images/auto.jpg);
+}
+
+.color-overlay-motor{
+    width:76% ;
+    height: 350px;;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    position: absolute;
+    border-radius: 20px;
+}
+
+.product-motor-wrapper .word-container{
+    padding: 30% 10% 0 10%;
+    position: relative;
+
+}
+
+.word-container h2{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.word-container p{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    text-align: left;
+}
+
+.btn-motor{
+    padding-top: 10px;
+}
+
+.btn-motor .btn{
+    border-radius: 20px; 
+    height: 30px;
+    font-size: 14px;
+}
+
+.btn-motor p{
+    font-size: 12px;
+}
+
+.btn-motor .btn-read{
+    background-color: slategray;
+    border: 1px solid slategray;
+}
