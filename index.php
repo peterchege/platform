@@ -252,7 +252,7 @@ if (isset($_POST['book'])) {
             </div>
 
             <div class="load-more">
-                <a href="#" class="btn btn-primary">LOAD MORE</a>
+                <a href="products.php" class="btn btn-primary">LOAD MORE</a>
             </div>
 
         </div>
