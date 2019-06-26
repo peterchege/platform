@@ -643,7 +643,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        
                         <h3 for="inputAddress" class="comp-detail">COMPANY DETAIL</h3>
                         <div class="container">
                             <div class="row">
