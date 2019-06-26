@@ -91,6 +91,15 @@
             <p class="text-left">
                 With the Named Driver policy option, you get to choose one trusted partner to be included in your cover and enjoy affordable rates.
             </p>
+            <br>
+
+            <div class="row btn-comprehensive">
+                <div class="col-12  text-center">
+                    <a href="#" class="btn btn-primary">
+                        Get cover
+                    </a>
+                </div>
+            </div>
 
         </div>
 

@@ -146,3 +146,22 @@
     background-color: slategray;
     border: 1px solid slategray;
 }
+
+
+/* COMPREHESIVE */
+.btn-comprehensive{
+    margin-top: 5% ;
+}
+
+.btn-comprehensive .btn-primary{
+    width: 40%;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    border: 1px solid #0C4DA2;
+    background-color: #0C4DA2;
+    -webkit-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
+
+}
