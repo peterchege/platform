@@ -83,9 +83,13 @@
                 <img src="images/line.png" alt="">
             </div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolorem commodi voluptatibus
-                quia ea id sequi! Facilis, harum? Molestiae, distinctio eius officiis earum obcaecati inventore
-                velit beatae tenetur? Similique, eligendi!
+                Ride your worries away with APA’s Motor Insurance cover.
+            </p>
+            <p class="text-left">
+                We have different packages designed for different owners. In the event of an accident and loss through theft or fire, the comprehensive package comes in handy to fix the financial costs incurred.
+            </p>
+            <p class="text-left">
+                With the Named Driver policy option, you get to choose one trusted partner to be included in your cover and enjoy affordable rates.
             </p>
 
         </div>
