@@ -35,14 +35,51 @@
 
     <!-- #intro -->
 
+    <!-- ===================================== CHILD MENU BAR ===================================== -->
+
+    <div class="company-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item active">
+                <a class="nav-link dropdown-toggle" href="#">PRIVATE MOTOR COVER</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="leadership.php">COMMERCIAL MOTOR COVER</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- SUB NAV -->
+
+    <div class="sub-nav">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">COMPREHENSIVE </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">3RD PARTY ONLY </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">3RD PARTY & THEFT</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">NAMED DRIVER</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">BIMA BAMBA</a>
+            </li>
+
+        </ul>
+    </div>
+
 
     <!-- ===================================== ABOUT US ===================================== -->
 
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">MOTOR COVER</h1>
-            <div class="under-line img4">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">COMPREHENSIVE</h1>
+            <div class="under-line img7">
                 <img src="images/line.png" alt="">
             </div>
             <p>
@@ -50,72 +87,6 @@
                 quia ea id sequi! Facilis, harum? Molestiae, distinctio eius officiis earum obcaecati inventore
                 velit beatae tenetur? Similique, eligendi!
             </p>
-
-            <div class="contain-fluid">
-                <div class="row motor">
-
-                    <div class="col-md-6">
-                        <div class="product-motor-wrapper private-motor">
-                            <div class="color-overlay-motor">
-                            </div>
-                            <div class="word-container">
-                                <h2>PRIVATE COVER</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum a excepturi
-                                    error ut animi ea temporibus amet dolorem iusto accusantium, fuga nobis quis sit,
-                                </p>
-
-                                <div class="row btn-motor">
-                                    <div class="col-6  text-center">
-                                        <a href="#" class="btn btn-primary btn-get ">
-                                            <p>Get cover</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-6 text-left">
-                                        <a href="product_motor_private.php" class="btn btn-primary btn-read ">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="product-motor-wrapper private-commercial">
-                            <div class="color-overlay-motor">
-                            </div>
-                            <div class="word-container">
-                                <h2>COMMERCIAL COVER</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorum a excepturi
-                                    error ut animi ea temporibus amet dolorem iusto accusantium, fuga nobis quis sit,
-                                </p>
-
-                                <div class="row btn-motor">
-                                    <div class="col-6  text-center">
-                                        <a href="#" class="btn btn-primary btn-get ">
-                                            <p>Get cover</p>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-6 text-left">
-                                        <a href="#" class="btn btn-primary btn-read ">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-
 
         </div>
 
