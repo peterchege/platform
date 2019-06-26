@@ -88,9 +88,9 @@
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Welcome to Apollo Investments Limited. The flagship company, APA Insurance, was formed
-                after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
-                With a combined experience of over 100 years.
+                APA has become the largest insurance firm in Kenya and the most innovative in product offering.
+                APA Insurance underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro Insurance.
+                We also underwrite Individual and Family Health Insurance.
             </p>
         </div>
 
@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/parul-khimasia.jpg" class="img parul-img" alt="">
+                        <img src="img/managment/parul-khimasia1.jpg" class="img parul-img" alt="">
                         <h5 class="title-name">
                             Parul Khimasia<br>
                             <small>Chief Business Development Officer</small>
