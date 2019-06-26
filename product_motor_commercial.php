@@ -44,7 +44,7 @@
                 <a class="nav-link" href="product_motor_private.php">PRIVATE MOTOR COVER</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="product_motor_commmercial.php">COMMERCIAL MOTOR COVER</a>
+                <a class="nav-link dropdown-toggle" href="product_motor_commercial.php">COMMERCIAL MOTOR COVER</a>
             </li>
 
         </ul>
