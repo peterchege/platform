@@ -480,20 +480,6 @@
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover" style="background-image: url('images/shimba/img5.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
-<<<<<<< HEAD
-                    <h1>
-                        Vinod Bharatan
-                    </h1>
-                    <h2 class="small-head">
-                        Chief Executive Officer
-                    </h2>
-                    <p class="text-justify">
-                        Vinod has over 35 years’ insurance experience both in India and Kenya. He has a proven track record of
-                        success in multiple areas including sales, marketing, operations, technology and financial acumen. He
-                        has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
-                        Institute of India.
-                    </p>
-=======
 
 
                     <form class="form-container">
@@ -576,7 +562,6 @@
 
                     </form>
 
->>>>>>> 4b39570115421cd1e66c8d333a767463cf621e02
                 </div>
             </div>
         </div>
