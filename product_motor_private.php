@@ -221,7 +221,7 @@
                 <button class="uk-modal-close-outside" type="button" uk-close></button>
                 <h2 class="uk-modal-title">DOCUMENTS:</h2>
 
-                <a class="uk-button uk-button-default" href="#">Brochure </a><br><br>
+                <a class="uk-button uk-button-default" href="pdf/Apollo Unit Trust Funds Brochure.pdf">Brochure </a><br><br>
                 <a class="uk-button uk-button-default" href="#"> Application/ proposal form</a><br><br>
                 <a class="uk-button uk-button-default" href="#">Claim form</a><br><br>
                 <a class="uk-button uk-button-default" href="#">Brochure</a><br><br>
