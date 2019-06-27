@@ -579,29 +579,29 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" placeholder="Email" value="">
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
@@ -667,13 +667,23 @@ require_once 'inc/functions.php';
     </script>
     <script>
         $(document).ready(function() {
-            $('form').submit(function(e) {
+            $('#submit').click(function(e) {
                 e.preventDefault();
-                $('#submit').click(function() {
+                var room_name = $('#room_name option:selected').val();
+                var start_date = $('#start_date').val();
+                var end_date = $('#end_date').val();
+                var start_time = $('#start_time').val();
+                var end_time = $('#end_time').val();
+                var company_name = $('#company_name').val();
+                var phone = $('#phone').val();
+                var email = $('#email').val();
+                var capacity = $('#capacity').val();
+                var more_information = $('#more_information').val();
+                console.log(more_information);
 
-                });
-            })
-
+                var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information;
+                console.log(dataString);
+            });
         });
     </script>
 
