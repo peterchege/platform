@@ -690,7 +690,7 @@ require_once 'inc/functions.php';
                 } else if (room_name == '' || start_date == '' || end_date == '') {
                     $('#display').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
                 } else {
-                    $.$.ajax({
+                    $.ajax({
                         type: "POST",
                         url: "inc/processor.php",
                         data: dataString,
