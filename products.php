@@ -187,7 +187,7 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="product_motor.php">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
                                             <p class="text-center">Get Cover</p>
                                         </a>
                                     </div>

@@ -66,7 +66,7 @@
 
                                 <div class="row btn-motor">
                                     <div class="col-6  text-center">
-                                        <a href="#" class="btn btn-primary btn-get ">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary btn-get ">
                                             <p>Get cover</p>
                                         </a>
                                     </div>
@@ -94,7 +94,7 @@
 
                                 <div class="row btn-motor">
                                     <div class="col-6  text-center">
-                                        <a href="#" class="btn btn-primary btn-get ">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary btn-get ">
                                             <p>Get cover</p>
                                         </a>
                                     </div>
