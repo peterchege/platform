@@ -71,48 +71,29 @@ require_once 'inc/functions.php';
 
             <div class="container-fluid">
                 <div class="row">
-                    <!-- <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
-                                                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                                                                        <div class="post">
-                                                                            <img src="<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>" alt="">
-                                                                            <div class="box-info text-left">
-                                                                                <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
-                                                                                <?php
-                                                                                $postfixed = desanitize($post['post']);
-                                                                                if (strlen($postfixed) > 150) {
-                                                                                    echo substr($postfixed, 0, 150) . '... ';
-                                                                                } else {
-                                                                                    echo $postfixed;
-                                                                                }
-                                                                                ?>
-                                                                                <div class="container">
-                                                                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                    <?php endwhile; ?> -->
-
                     <!-- new design for media post -->
-
-                    <div class="col-md-4 post">
-                        <div class="img-container" style=" background-image:url(images/media1.jpg);">
-                        </div>
-
-                        <div class="box-info">
-                            <h2>LOREM IPSUM</h2>
-                            <p class="text-left">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quos
-                                possimus accusamus eos sapiente dolorem porro, hic nobis accusantium voluptates ratione
-                                necessitatibus delectus facere provident dolorum rem, quae odio quasi.
-                            </p>
-                            <div class="btn-read">
-                                <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                    <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
+                        <div class="col-md-4 post">
+                            <div class="img-container" style=" background-image:url(<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
+                            </div>
+                            <div class="box-info">
+                                <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
+                                <p class="text-left">
+                                    <?php
+                                    $postfixed = desanitize($post['post']);
+                                    if (strlen($postfixed) > 200) {
+                                        echo substr($postfixed, 0, 200) . '... ';
+                                    } else {
+                                        echo $postfixed;
+                                    }
+                                    ?>
+                                </p>
+                                <div class="btn-read">
+                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-
+                    <?php endwhile; ?>
                 </div>
 
             </div>

@@ -529,7 +529,6 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
 
 
-<<<<<<< HEAD
                     <form class="form-container" action="<?= 'index.php#modal-full1'; ?> " method="POST">
                         <?php
                         // echo errorMessage();
@@ -538,12 +537,9 @@ require_once 'inc/functions.php';
                         //     echo display_errors($errors);
                         // }
                         ?>
-=======
-                    <form class="form-container">
->>>>>>> 69c2feaabced4b4834c89c58318c718683742a22
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
+                            <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
                                 <option disabled selected>Select preferred room</option>
                                 <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
@@ -558,22 +554,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input required name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                    <input required id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input required name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                    <label for="inputPassword4">End Date</label> <input required name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input required name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                    <input required id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input required name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                    <input required id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -583,22 +579,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input required name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input required name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input required name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input required name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input required name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input required name="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input required name="capacity" type="number" min="1" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input required name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
