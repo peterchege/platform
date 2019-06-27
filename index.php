@@ -529,7 +529,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container" action="<?= 'index.php#modal-full1'; ?> " method="POST">
+                    <form class="form-container" action="" method="POST">
                         <?php
                         // echo errorMessage();
                         // echo successMessage();
@@ -554,22 +554,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input required id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
+                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input required name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input required id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
+                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input required id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
+                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -579,22 +579,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input required name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
+                                    <input name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input required name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
+                                    <input name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input required name="email" type="email" class="form-control" placeholder="Email" value="">
+                                    <input name="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input required name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
+                                    <input name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
@@ -607,7 +607,7 @@ require_once 'inc/functions.php';
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button name="book" type="submit" class="btn btn-primary">BOOK NOW</button>
+                                    <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -620,14 +620,7 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-
-
-
     <!-- Optional JavaScript -->
-
-
-
-
 
     <!-- Optional JavaScript -->
 
@@ -671,6 +664,17 @@ require_once 'inc/functions.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('form').submit(function(e) {
+                e.preventDefault();
+                $('#submit').click(function() {
+
+                });
+            })
+
+        });
     </script>
 
 </body>
