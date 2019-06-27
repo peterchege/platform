@@ -54,7 +54,7 @@
 
     <div class="sub-nav">
         <ul class="nav justify-content-center">
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="product_motor_private.php">COMPREHENSIVE </a>
             </li>
             <li class="nav-item">
@@ -95,9 +95,23 @@
             <br>
 
             <div class="row btn-comprehensive wow fadeInUp" data-wow-delay="0.1s">
-                <div class=" col-12 text-center">
-                    <button class="btn btn-primary" data-target="#modal-full" uk-toggle>
-                        Get cover
+                <div class=" col-4 text-center">
+                    <button class="btn btn-primary">
+                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                            Get cover
+                        </a>
+                    </button>
+                </div>
+
+                <div class=" col-4 text-center">
+                    <button class="btn btn-danger" data-target="#modal-full" uk-toggle>
+                        Downloads
+                    </button>
+                </div>
+
+                <div class=" col-4 text-center">
+                    <button class="btn btn-slate" data-target="#modal-full" uk-toggle>
+                        Request Assistance
                     </button>
                 </div>
             </div>

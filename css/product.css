@@ -153,17 +153,33 @@
     margin-top: 5% ;
 }
 
-.btn-comprehensive .btn-primary{
+.btn-comprehensive .btn{
     width: 40%;
     font-size: 16px;
     border-radius: 20px;
     padding: 10px 0px;
-    border: 1px solid #0C4DA2;
-    background-color: #0C4DA2;
     -webkit-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
     -moz-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
     box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.6);
     font-family: 'Oswald',
     sans-serif;
 
+}
+
+.btn-comprehensive .btn-primary{
+    border: 1px solid #0C4DA2;
+    background-color: #0C4DA2;
+}
+
+.btn-comprehensive .btn-primary a{
+    color: #fff;
+}
+
+.btn-comprehensive .btn-danger{
+    background-color: #C80D10;
+}
+
+.btn-comprehensive .btn-slate{
+    background-color: slategray;
+    color: #fff;
 }
