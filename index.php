@@ -697,7 +697,7 @@ require_once 'inc/functions.php';
                             $('#display').html(result);
                         }
                     });
-                    $('input,textarea').val('');
+                    $('input,textarea,select').val('');
                 }
                 return false;
             });
