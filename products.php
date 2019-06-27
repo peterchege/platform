@@ -78,14 +78,14 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <p class="text-center">Get Cover</p>
 
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_jamii.php">
-                                            <p>Read more</p>
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>
@@ -105,13 +105,13 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <p class="text-center">Get Cover</p>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_travel.php">
-                                            <p>Read more</p>
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
 
-                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s"> 
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
@@ -130,13 +130,13 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <p class="text-center">Get Cover</p>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_marine.php">
-                                            <p>Read more</p>
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>
@@ -156,13 +156,13 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
+                                        <p class="text-center">Get Cover</p>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_agriculture.php">
-                                            <p>Read more</p>
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>
