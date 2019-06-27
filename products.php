@@ -193,7 +193,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_jamii.php">
+                                        <a href="product_motor.php">
                                             <p class="text-center">Read more</p>
                                         </a>
                                     </div>

@@ -291,7 +291,7 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="load-more">
-                <a href="#" class="btn btn-primary">LOAD MORE</a>
+                <a href="products.php" class="btn btn-primary">LOAD MORE</a>
             </div>
 
         </div>
@@ -529,6 +529,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
 
 
+<<<<<<< HEAD
                     <form class="form-container" action="<?= 'index.php#modal-full1'; ?> " method="POST">
                         <?php
                         // echo errorMessage();
@@ -537,11 +538,14 @@ require_once 'inc/functions.php';
                         //     echo display_errors($errors);
                         // }
                         ?>
+=======
+                    <form class="form-container">
+>>>>>>> 69c2feaabced4b4834c89c58318c718683742a22
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
                             <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
-                                <!-- <option disabled>Select preferred room</option> -->
-                                <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
+                                <option disabled selected>Select preferred room</option>
+                                <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
                                 <option value="3">Ngong Hills (Boardroom 8pax)</option>
                                 <option value="4">Chyullu Hills (Auditorium 40pax)</option>
