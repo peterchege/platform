@@ -34,5 +34,5 @@ $more_informationc = filter_var($more_information, FILTER_SANITIZE_STRING, FILTE
 mysqli_query($db, " INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
                             VALUES ('$room_namec', '$start_datec', '$end_datec', '$start_timec', '$end_timec', '$company_namec', '$phonec', '$emailc', '$capacityc', '$more_informationc') ");
 //send message back to ajax
-echo '<div class="alert alert-success">Thanks. Message sent successfully. ' . $emailc . '</div>';
+echo '<div class="alert alert-success">Booking made successfully. Check your email : ' . $emailc . '</div>';
 $db->close();
