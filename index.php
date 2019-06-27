@@ -529,7 +529,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container" action="<?= 'index.php#modal-full1'; ?> " method="POST">
+                    <form class="form-container" action="" method="POST">
                         <?php
                         // echo errorMessage();
                         // echo successMessage();
@@ -554,22 +554,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input required id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
+                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input required name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input required id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
+                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input required id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
+                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -579,35 +579,36 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input required name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input required name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input required name="email" type="email" class="form-control" placeholder="Email" value="">
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input required name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button name="book" type="submit" class="btn btn-primary">BOOK NOW</button>
+                                    <p id="display"></p>
+                                    <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
                         </div>
@@ -620,14 +621,7 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-
-
-
     <!-- Optional JavaScript -->
-
-
-
-
 
     <!-- Optional JavaScript -->
 
@@ -666,11 +660,47 @@ require_once 'inc/functions.php';
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#submit').click(function(e) {
+                e.preventDefault();
+                var room_name = $('#room_name option:selected').val();
+                var start_date = $('#start_date').val();
+                var end_date = $('#end_date').val();
+                var start_time = $('#start_time').val();
+                var end_time = $('#end_time').val();
+                var company_name = $('#company_name').val();
+                var phone = $('#phone').val();
+                var email = $('#email').val();
+                var capacity = $('#capacity').val();
+                var more_information = $('#more_information').val();
+                console.log(more_information);
+
+                var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information + '&capacity=' + capacity;
+                console.log(dataString);
+
+                if (room_name == 'Select preferred room') {
+                    $('#display').append('<div class="alert alert-danger" >Please select a room.</div>');
+                } else if (room_name == '' || start_date == '' || end_date == '') {
+                    $('#display').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+                } else {
+                    $.ajax({
+                        type: "POST",
+                        url: "inc/processor.php",
+                        data: dataString,
+                        success: function(result) {
+                            $('#display').html(result);
+                        }
+                    });
+                }
+                return false;
+            });
+        });
     </script>
 
 </body>
