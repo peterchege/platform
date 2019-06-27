@@ -607,6 +607,7 @@ require_once 'inc/functions.php';
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
+                                    <p id="display"></p>
                                     <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
@@ -683,6 +684,22 @@ require_once 'inc/functions.php';
 
                 var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information;
                 console.log(dataString);
+
+                if (room_name == 'Select preferred room') {
+                    $('#display').append('<div class="alert alert-danger" >Please select a room.</div>');
+                } else if (room_name == '' || start_date == '' || end_date == '') {
+                    $('#display').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+                } else {
+                    $.$.ajax({
+                        type: "POST",
+                        url: "inc/processor.php",
+                        data: dataString,
+                        success: function(result) {
+                            $('#display').html(result);
+                        }
+                    });
+                }
+                return false;
             });
         });
     </script>
