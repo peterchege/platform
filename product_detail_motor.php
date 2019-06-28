@@ -55,93 +55,87 @@
                             <div class="job-description text-center">
 
                                 <h2>MOTOR COMMERCIAL COVER </h2>
-                                <P class="text-justify">Many advantages exist in having insurance cover for your car. For one it is a legal requirement in most jurisdictions
-                                    including Kenya (Chapter 405, Laws of Kenya). Motor Insurance protects you and your loved ones in the event that your vehicle is involved
-                                    in an accident, is stolen or is set on fire. Sometimes someone can drive your vehicle without your authorization and so such insurance
-                                    also protects other people, or third parties. So how do you protect your investment? <br>we have different policies for motor vehicles. 
-                                    All these policies are designed to give you peace of mind while on the road. Our covers depend on two things, the type of motor vehicle 
-                                    you would like to insure, and the number of risks against which you would like to cover.</P>
+                                <P class="text-justify">Motor insurance cover protects the insured against financial loss in the event that the motor vehicle insured is involved
+                                    in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <p> Comprehensive Insurance Cover</p>
+                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle.
+                                            The main cover benefits are as follows;</p>
+                                            <ol>
+                                                <li>Impact damage including overturning and collision </li>
+                                                <li>Fire damage </li>
+                                                <li>Theft/partial theft cover </li>
+                                                <li>Last expense cover </li>
+                                                <li>Personal Accident Benefit Cover</li>
+                                            </ol>
+                                            <hr>
+                                            <h3>The cover also provides for enhanced benefits. This include:</h3>
+                                            <ol>
+                                                <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
+                                                    related
+                                                    conditions
+                                                </li>
+                                                <li>Country wide Provider Network
+                                                </li>
+                                                <li>Overseas inpatient referrals covered on credit under listed hospitals
+                                                </li>
+                                                <li>Cover for inpatient dental and optical treatment
+                                                </li>
+                                                <li>Post hospitalization benefit
+                                                </li>
+                                                <li>Funeral expenses benefit
+                                                </li>
+                                                <li>Free Personal Accident benefit for Principle member
+                                                </li>
+                                            </ol>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
+                                            <hr>
+                                            <h3>Who is eligible for the cover?</h3>
+                                            <ol>
+                                                <li>Adults between the age of 18 years and 75 years.
+                                                </li>
+                                                <li>Children between the age of 1 month and 17 years.
+                                                </li>
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
+                                            </ol><br>
+                                            <hr>
+                                            <h3>Maternity Cover</h3>
+                                            <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
+                                                is
+                                                best that we cater for the mother’s health and conditions pre birth. This is why we have
+                                                a
+                                                Maternity Cover that caters for:</p2>
+                                            <ol>
+                                                <li>Normal delivery including professional fees, labour and recovery wards for all
+                                                    plans.
+                                                </li>
+                                                <li>Costs of delivery, and other related ailments and complications including ectopic
+                                                    pregnancies, miscarriage, etc.
+                                                </li>
+                                                <li>Caesarean section delivery including professional fees, labour and recovery wards.
+                                                </li>
 
-                                        </ol><br>
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary">Get Cover</a>
+                                            </ol><br>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="load-more text-center ">
+                                                        <a href="#" class="btn btn-primary">Get Cover</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="load-more text-center ">
+                                                        <a href="#" class="btn btn-danger"> Download Sample Policy </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="load-more text-center ">
+                                                        <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger"> Download Sample Policy </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
 
                                 </div>
@@ -289,25 +283,29 @@
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
                             <div class="job-description text-center">
-                                <br><br> <br>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-primary">Get Cover</a>
+                                <br>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
+                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
+                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
+                                    <br><br> <br>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="load-more text-center ">
+                                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="load-more text-center ">
+                                                <a href="#" class="btn btn-danger"> Download Sample Policy </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="load-more text-center ">
+                                                <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-danger"> Download Sample Policy </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br><br> <br>
+                                    <br><br> <br>
                             </div>
 
 

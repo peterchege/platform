@@ -159,7 +159,7 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products include:</h2><br>
+                                        <h2 class="text-center">Main Features include:</h2><br>
                                         <p> Inpatient cover is the core cover.</p>
                                         <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
                                             conditions, cancer treatment, organ transplant, lodger fees, accidental
@@ -293,6 +293,10 @@
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
                             <div class="job-description text-center">
+                            <br>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident 
+                                cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas 
+                                velit itaque mollitia libero modi corrupti omnis laborum magnam.
                                 <br><br> <br>
                                 <div class="row">
                                     <div class="col-4">
@@ -302,7 +306,7 @@
                                     </div>
                                     <div class="col-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-danger"> Download Sample Policy </a>
+                                            <a href="#" class="btn btn-danger"> Download Proposal Form </a>
                                         </div>
                                     </div>
                                     <div class="col-4">
