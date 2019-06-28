@@ -1,5 +1,6 @@
 <?php
 require_once 'db.php';
+
 $room_name = mysqli_real_escape_string($db, $_POST['room_name']);
 $room_namec = filter_var($room_name, FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
 
@@ -31,8 +32,13 @@ $more_information = mysqli_real_escape_string($db, $_POST['more_information']);
 $more_informationc = filter_var($more_information, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
 
 //insert into database
-mysqli_query($db, " INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
+$book = mysqli_query($db, " INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
                             VALUES ('$room_namec', '$start_datec', '$end_datec', '$start_timec', '$end_timec', '$company_namec', '$phonec', '$emailc', '$capacityc', '$more_informationc') ");
 //send message back to ajax
-echo '<div class="alert alert-success">Booking made successfully. Check your email : ' . $emailc . '</div>';
+if ($book) {
+    echo '<div class="alert alert-success">Booking made successfully. Check your email : ' . $emailc . '</div>';
+} else {
+    echo '<div class="alert alert-danger">An error occurred. Please try again.</div>';
+}
+
 $db->close();
