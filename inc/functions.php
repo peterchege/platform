@@ -31,8 +31,6 @@ function display_errors($errors)
 function sanitize($dirty)
 {
     $dirty = trim($dirty);
-    // $dirty = stripslashes($dirty);
-    // $dirty = htmlspecialchars($dirty);
     return htmlentities($dirty, ENT_QUOTES, "UTF-8");
 }
 
