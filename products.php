@@ -221,7 +221,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_motor.php">
+                                        <a href="product_motor_private.php">
                                             <p class="text-center">Read more</p>
                                         </a>
                                     </div>
@@ -251,7 +251,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_motor.php">
+                                        <a href="product_motor_commercial.php">
                                             <p class="text-center">Read more</p>
                                         </a>
                                     </div>
