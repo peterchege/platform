@@ -321,11 +321,10 @@
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container">
+                    <form class="form-container" action="" method="POST">
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
-                                <!-- <option disabled>Select preferred room</option> -->
+                            <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
                                 <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
                                 <option value="3">Ngong Hills (Boardroom 8pax)</option>
@@ -339,22 +338,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -364,38 +363,38 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <p id="display"></p>
+                                    <button name="submit" type="submit" class="btn btn-primary submit" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
@@ -416,11 +415,10 @@
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container">
+                    <form class="form-container" action="" method="POST">
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
-                                <!-- <option disabled>Select preferred room</option> -->
+                            <select name="room_name" id="room_name1" class="custom-select custom-select-lg mb-3" value="">
                                 <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
                                 <option value="3">Ngong Hills (Boardroom 8pax)</option>
@@ -433,23 +431,23 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Start Date</label>
-                                    <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                    <label for="start_date1">Start Date</label>
+                                    <input id="start_date1" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                    <label for="inputPassword4">End Date</label> <input id="end_date1" name="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                    <input id="start_time1" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                    <input id="end_time1" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -459,38 +457,38 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input id="company_name1" name="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input id="phone1" name="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input id="email1" name="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input id="capacity1" name="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea id="more_information1" name="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <p id="display1"></p>
+                                    <button id="submit1" name="submit" type="submit" class="btn btn-primary submit">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
@@ -511,11 +509,10 @@
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container">
+                    <form class="form-container" action="" method="POST">
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
-                                <!-- <option disabled>Select preferred room</option> -->
+                            <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
                                 <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
                                 <option value="3">Ngong Hills (Boardroom 8pax)</option>
@@ -529,22 +526,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
@@ -554,38 +551,38 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <p id="display"></p>
+                                    <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
@@ -602,15 +599,13 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/Entertainment/img11.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/Entertainment/img11.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
-
-
-                    <form class="form-container">
+                    <form class="form-container" action="" method="POST">
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" class="custom-select custom-select-lg mb-3" value="<?= ((isset($room_name)) ? $room_name : '') ?>">
-                                <!-- <option disabled>Select preferred room</option> -->
+                            <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
                                 <option value="1">Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
                                 <option value="3">Ngong Hills (Boardroom 8pax)</option>
@@ -624,68 +619,67 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Date</label>
-                                    <input name="start_date" type="date" class="form-control" id="inputEmail4" placeholder="Start date" value="<?= ((isset($start_date)) ? $start_date : '') ?>">
+                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input name="end_date" type="date" class="form-control" id="inputPassword4" placeholder="End date" value="<?= ((isset($end_date)) ? $end_date : '') ?>">
+                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Start Time</label>
-                                    <input name="start_time" type="time" min="06:00:00" class="form-control" id="inputEmail4" placeholder="Start time" value="<?= ((isset($start_time)) ? $start_time : '') ?>">
+                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">End Time</label>
-                                    <input name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="<?= ((isset($end_time)) ? $end_time : '') ?>">
+                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                                 </div>
                             </div>
                         </div>
-                        
+
                         <h3 for="inputAddress" class="comp-detail">COMPANY DETAIL</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Phone Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="pax" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">BOOK NOW</button>
+                                    <p id="display"></p>
+                                    <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
                                 </div>
                             </div>
-
                         </div>
 
 
                     </form>
-
                 </div>
             </div>
         </div>

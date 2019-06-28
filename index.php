@@ -530,13 +530,6 @@ require_once 'inc/functions.php';
 
 
                     <form class="form-container" action="" method="POST">
-                        <?php
-                        // echo errorMessage();
-                        // echo successMessage();
-                        // if (!empty($errors)) {
-                        //     echo display_errors($errors);
-                        // }
-                        ?>
                         <div class="form-group col-md-12">
                             <h3 for="inputAddress">Room Name</h3>
                             <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
@@ -656,54 +649,13 @@ require_once 'inc/functions.php';
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script>
-        $(document).ready(function() {
-            $('#submit').click(function(e) {
-                e.preventDefault();
-                var room_name = $('#room_name option:selected').val();
-                var start_date = $('#start_date').val();
-                var end_date = $('#end_date').val();
-                var start_time = $('#start_time').val();
-                var end_time = $('#end_time').val();
-                var company_name = $('#company_name').val();
-                var phone = $('#phone').val();
-                var email = $('#email').val();
-                var capacity = $('#capacity').val();
-                var more_information = $('#more_information').val();
-                console.log(more_information);
-
-                var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information + '&capacity=' + capacity;
-                console.log(dataString);
-
-                if (room_name == 'Select preferred room') {
-                    $('#display').append('<div class="alert alert-danger" >Please select a room.</div>');
-                } else if (room_name == '' || start_date == '' || end_date == '') {
-                    $('#display').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-                } else {
-                    $.ajax({
-                        type: "POST",
-                        url: "inc/processor.php",
-                        data: dataString,
-                        success: function(result) {
-                            $('#display').html(result);
-                        }
-                    });
-                    $('input,textarea,select').val('');
-                }
-                return false;
-            });
-        });
-    </script>
-
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
