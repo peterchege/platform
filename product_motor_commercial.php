@@ -58,7 +58,7 @@
                 <a class="nav-link" href="product_motor_private.php">GENERAL CARTAGE </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="product_motor_private_partyonly.php">ON GOODS </a>
+                <a class="nav-link" href="product_motor_private_partyonly.php">OWN GOODS </a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#">PSV (PASSAGE SERVICE VEHICLE)</a>
