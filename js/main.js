@@ -71,6 +71,78 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+    // cherengani
+    $('#submit2').click(function(e) {
+        e.preventDefault();
+        var room_name2 = $('#room_name2 option:selected').val();
+        var start_date2 = $('#start_date2').val();
+        var end_date2 = $('#end_date2').val();
+        var start_time2 = $('#start_time2').val();
+        var end_time2 = $('#end_time2').val();
+        var company_name2 = $('#company_name2').val();
+        var phone2 = $('#phone2').val();
+        var email2 = $('#email2').val();
+        var capacity2 = $('#capacity2').val();
+        var more_information2 = $('#more_information2').val();
+        console.log(more_information2);
+
+        var dataString = 'room_name=' + room_name2 + '&start_date=' + start_date2 + '&end_date=' + end_date2 + '&start_time=' + start_time2 + '&end_time=' + end_time2 + '&company_name=' + company_name2 + '&phone=' + phone2 + '&email=' + email2 + '&more_information=' + more_information2 + '&capacity=' + capacity2;
+        console.log(dataString);
+
+        if (room_name2 == 'Select preferred room') {
+            $('#display2').html('<div class="alert alert-danger" >Please select a room.</div>');
+        } else if (room_name2 == '' || start_date2 == '' || end_date2 == '' || start_time2 == '' || end_time2 == '' || company_name2 == '' || phone2 == '' || email2 == '' || capacity2 == '' || more_information2 == '') {
+            $('#display2').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "inc/processor.php",
+                data: dataString,
+                success: function(result) {
+                    $('#display2').html(result);
+                }
+            });
+            $('input,textarea,select').val('');
+        }
+        return false;
+    });
+
+    // entertainment area
+    $('#submit3').click(function(e) {
+        e.preventDefault();
+        var room_name3 = $('#room_name3 option:selected').val();
+        var start_date3 = $('#start_date3').val();
+        var end_date3 = $('#end_date3').val();
+        var start_time3 = $('#start_time3').val();
+        var end_time3 = $('#end_time3').val();
+        var company_name3 = $('#company_name3').val();
+        var phone3 = $('#phone3').val();
+        var email3 = $('#email3').val();
+        var capacity3 = $('#capacity3').val();
+        var more_information3 = $('#more_information3').val();
+        console.log(more_information3);
+
+        var dataString = 'room_name=' + room_name3 + '&start_date=' + start_date3 + '&end_date=' + end_date3 + '&start_time=' + start_time3 + '&end_time=' + end_time3 + '&company_name=' + company_name3 + '&phone=' + phone3 + '&email=' + email3 + '&more_information=' + more_information3 + '&capacity=' + capacity3;
+        console.log(dataString);
+
+        if (room_name3 == 'Select preferred room') {
+            $('#display3').html('<div class="alert alert-danger" >Please select a room.</div>');
+        } else if (room_name3 == '' || start_date3 == '' || end_date3 == '' || start_time3 == '' || end_time3 == '' || company_name3 == '' || phone3 == '' || email3 == '' || capacity3 == '' || more_information3 == '') {
+            $('#display3').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "inc/processor.php",
+                data: dataString,
+                success: function(result) {
+                    $('#display3').html(result);
+                }
+            });
+            $('input,textarea,select').val('');
+        }
+        return false;
+    });
+
     // Back to top button
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
