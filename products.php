@@ -414,7 +414,7 @@
                         <div class="wrapper">
 
                             <div class="content">
-                                <h3>Corporate insurance</h3>
+                                <h3>Fixed Savings Plan (Imarika)</h3>
                                 <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
                                     family.</p>
                             </div>
@@ -442,7 +442,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Corporate insurance</h3>
+                                <h3>Anticipated Savings Plan (Akiba Halisi)</h3>
                                 <p>Explore wild possibilities and adventures unbothered!
                                     Whether you are headed for a business trip or a trip of a lifetime.</p>
                             </div>
@@ -467,7 +467,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Corporate insurance</h3>
+                                <h3>Education Plan (APA Elimu)</h3>
                                 <p>Sail your goods across different regions with no worry.
                                     This cover is crafted for both individuals and corporates
                             </div>
@@ -492,7 +492,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Corporate insurance</h3>
+                                <h3>Hospitalization Expence Loss-Income (HosiCare)</h3>
                                 <p>Your crops and livestock are your source of income and guaranteeing their safety
                                     should
                                     bring you ultimate happiness.</p>
