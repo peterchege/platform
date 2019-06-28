@@ -95,7 +95,7 @@ require_once 'inc/functions.php';
 
                     <div class="carousel-item">
                         <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                            <img src="img/weare.jpg" alt=""></div>
+                            <img src="img/kids.jpg" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <!-- <h2>Animal health</h2>
