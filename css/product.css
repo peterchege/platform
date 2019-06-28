@@ -29,6 +29,15 @@
     background-position: center;
 }
 
+.header-image1a {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/auto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header-image2 {
     width: 100%;
     height: 80vh;
