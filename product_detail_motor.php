@@ -54,7 +54,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2>MOTOR COMMERCIAL COVER </h2>
+                                <h2>MOTOR PRIVATE COVER </h2>
                                 <P class="text-justify">Motor insurance cover protects the insured against financial loss in the event that the motor vehicle insured is involved
                                     in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle.</P>
                                 <hr>
@@ -62,80 +62,61 @@
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle.
-                                            The main cover benefits are as follows;</p>
-                                            <ol>
-                                                <li>Impact damage including overturning and collision </li>
-                                                <li>Fire damage </li>
-                                                <li>Theft/partial theft cover </li>
-                                                <li>Last expense cover </li>
-                                                <li>Personal Accident Benefit Cover</li>
-                                            </ol>
-                                            <hr>
-                                            <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                            <ol>
-                                                <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                    related
-                                                    conditions
-                                                </li>
-                                                <li>Country wide Provider Network
-                                                </li>
-                                                <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                                </li>
-                                                <li>Cover for inpatient dental and optical treatment
-                                                </li>
-                                                <li>Post hospitalization benefit
-                                                </li>
-                                                <li>Funeral expenses benefit
-                                                </li>
-                                                <li>Free Personal Accident benefit for Principle member
-                                                </li>
-                                            </ol>
+                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle while carrying his
+                                            own goods. The main cover features are as follows;</p2>
+                                        <ol>
+                                            <li>Accidental Impact damage including overturning and collision </li>
+                                            <li>Accidental Fire damage</li>
+                                            <li>Theft/partial theft cover </li>
+                                            <li>Third party liability cover for bodily injury & property damage</li>
+                                            <li>Windscreen cover</li>
+                                            <li>Entertainment system cover </li>
+                                            <li>Emergency Medical expense cover</li>
+                                            <li>Courtesy car/ loss of use cover</li>
+                                            <li>Excess protector</li>
+                                            <li>Political Violence & Terrorism cover</li>
+                                        </ol>
+                                        <hr>
+                                        <p>Third Party, Fire, and Theft</p>
+                                        <p2>This policy covers the insured against three main risks;</p2>
+                                        <ol>
+                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                                of your vehicle being involved in an accident</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Theft cover as a result of your vehicle being stolen</li>
 
-                                            <hr>
-                                            <h3>Who is eligible for the cover?</h3>
-                                            <ol>
-                                                <li>Adults between the age of 18 years and 75 years.
-                                                </li>
-                                                <li>Children between the age of 1 month and 17 years.
-                                                </li>
+                                        </ol>
 
-                                            </ol><br>
-                                            <hr>
-                                            <h3>Maternity Cover</h3>
-                                            <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                                is
-                                                best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                                a
-                                                Maternity Cover that caters for:</p2>
-                                            <ol>
-                                                <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                    plans.
-                                                </li>
-                                                <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                    pregnancies, miscarriage, etc.
-                                                </li>
-                                                <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                                </li>
+                                        <hr>
+                                        <p>Third Party Insurance Cover</p>
+                                        <p2>It is the minimum legal cover that every car owner must have in order to be legally on the road.
+                                            The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident.
+                                            Third party liability relates to;</p2>
+                                        <ol>
+                                            <li>Bodily injury</li>
+                                            <li>Property damage</li>
+                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                        </ol>
+                                        <p2>This cover does not protect the car owner from personal liabilities and any repair costs are met by the insured himself.</p2>
+                                        <br><br><br><br>
 
-                                            </ol><br>
-                                            <div class="row">
-                                                <div class="col-4">
-                                                    <div class="load-more text-center ">
-                                                        <a href="#" class="btn btn-primary">Get Cover</a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="load-more text-center ">
-                                                        <a href="#" class="btn btn-danger"> Download Sample Policy </a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="load-more text-center ">
-                                                        <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                                    </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="load-more text-center ">
+                                                    <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
+                                            <div class="col-4">
+                                                <div class="load-more text-center ">
+                                                    <a href="#" class="btn btn-danger"> Download Sample Policy </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="load-more text-center ">
+                                                    <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
                                 </div>
