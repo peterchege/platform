@@ -223,3 +223,22 @@
     background-color: slategray;
     color: #fff;
 }
+
+
+
+
+/* TABLES ON BENEFITS */
+
+.head-text tr th {
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+    font-size: 18px;
+    text-align: center;
+}
+
+.uk-table tr td {
+    text-align: left;
+    padding-left: 10px;
+    
+}

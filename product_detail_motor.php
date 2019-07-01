@@ -29,7 +29,7 @@
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-10 job-box1">
+            <div class="col-11 job-box1">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -175,59 +175,76 @@
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
                             <div class="job-description text-center">
-                                <div class="job-content">
-                                    <div class="text-justify">
 
-                                        <h2 class="text-center">The cover also provides for enhanced benefits. This include:</h2>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                <!-- TABLE -->
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
+                                <table class="uk-table uk-table-hover uk-table-divider">
+                                    <thead class="head-text">
+                                        <tr>
+                                            <th>Extra Benefits</th>
+                                            <th>Third party only (TPO)</th>
+                                            <th>Third party Fire & Theft (TPF & T)</th>
+                                            <th>Comprehensive </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Windscreen</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Free limit up to Kshs. 50,000.00
+                                                Additional cover<br> over and above free limit cover
+                                                is charged at 10% of the insured value</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Car Entertainment System</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Free limit up to Kshs. 30,000.00
+                                                Additional cover<br> over and above free limit cover
+                                                is charged at 10% of the insured value</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Accidental Damage
+                                                Excess Protector</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 2,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Accidental & Theft Excess Protector</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Charged at 0.5% of insured value with a minimum of Kshs. 5,000.00
+                                                Subject to the vehicle being fitted with Antitheft device</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Loss of Use/ Courtesy Car</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>10 Days cover at Kshs. 3,000.00<br>
+                                                20 Days Cover at Kshs. 5,000.00<br>
+                                                Subject to time excess of three (3) </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Political Violence & Terrorism cover</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 1,500.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Towing/Recovery Expenses</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Free cover up to Kshs. 30,000.00
+                                                On reimbursement basis</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
 
-                                        </ol><br>
-                                    </div>
 
-                                </div>
+
                             </div>
                         </div>
 
