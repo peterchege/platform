@@ -131,66 +131,38 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2 class="text-center">Our main products include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
+
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>COMPREHENSIVE </li>
+                                            <li>3RD PARTY ONLY</li>
+                                            <li>3RD PARTY & THEFT </li>
+                                            <li>NAMED DRIVER </li>
+                                            <li>BIM BAMBA</li>
                                         </ol>
                                         <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
+                                        <h3>The coverprovides the following benefits. This include:</h3>
                                         <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
+                                            <li>Accidental Impact damage including overturning and collision </li>
+                                            <li>Accidental Fire damage</li>
+                                            <li>Theft/partial theft cover </li>
+                                            <li>Third party liability cover for bodily injury & property damage</li>
+                                            <li>Windscreen cover</li>
+                                            <li>Entertainment system cover </li>
+                                            <li>Emergency Medical expense cover</li>
+                                            <li>Courtesy car/ loss of use cover</li>
+                                            <li>Excess protector</li>
+                                            <li>Political Violence & Terrorism cover</li>
+                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                                of your vehicle being involved in an accident</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>Bodily injury</li>
+                                            <li>Property damage</li>
+                                            <li>Theft cover as a result of your vehicle being stolen</li>
                                         </ol>
-
+                                        <br>
                                         <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
-
-                                        </ol><br>
+                                        <br>
                                     </div>
 
                                 </div>
