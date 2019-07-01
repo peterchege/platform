@@ -131,17 +131,13 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2 class="text-center">Our main products include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
+
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>COMPREHENSIVE </li>
+                                            <li>3RD PARTY ONLY</li>
+                                            <li>3RD PARTY & THEFT </li>
+                                            <li>NAMED DRIVER </li>
+                                            <li>BIM BAMBA</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
