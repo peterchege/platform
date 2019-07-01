@@ -306,7 +306,7 @@
                                     </div>
                                     <div class="col-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-danger"> Download Proposal Form </a>
+                                            <a href="#" class="btn btn-danger"> Download  Form </a>
                                         </div>
                                     </div>
                                     <div class="col-4">

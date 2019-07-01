@@ -495,7 +495,7 @@ require_once 'inc/functions.php';
     </div>
     </div>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
         (function(d, m) {
             var kommunicateSettings = {
@@ -512,7 +512,7 @@ require_once 'inc/functions.php';
             window.kommunicate = m;
             m._globals = kommunicateSettings;
         })(document, window.kommunicate || {});
-    </script>
+    </script> -->
 
 
     <!-- =====================================FOOTER===================================== -->
