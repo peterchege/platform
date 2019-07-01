@@ -105,13 +105,15 @@
                             <div class="row selection-btn">
                                 <div class="col-6">
                                     <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                                            <p>Get Cover</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_travel.php">
-                                            <p class="text-center">Read more</p>
+                                            <p>Read more</p>
                                         </a>
                                     </div>
                                 </div>
