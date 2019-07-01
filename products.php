@@ -365,7 +365,7 @@
                 </div>
             </div>
 
-            
+
         </div>
     </div>
 
@@ -463,7 +463,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Hospitalization Expence Loss-Income (HosiCare)</h3>
+                                <h3>Hospitalization Loss of Income (HosiCare)</h3>
                                 <p>Your crops and livestock are your source of income and guaranteeing their safety
                                     should
                                     bring you ultimate happiness.</p>
@@ -493,7 +493,7 @@
                         <div class="wrapper">
 
                             <div class="content">
-                                <h3>Fixed Savings Plan (Imarika)</h3>
+                                <h3>Funeral Expense Cover (Pumzisha)</h3>
                                 <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
                                     family.</p>
                             </div>
@@ -521,7 +521,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Anticipated Savings Plan (Akiba Halisi)</h3>
+                                <h3>Life Cover (Term Assurance)</h3>
                                 <p>Explore wild possibilities and adventures unbothered!
                                     Whether you are headed for a business trip or a trip of a lifetime.</p>
                             </div>
@@ -546,7 +546,7 @@
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Education Plan (APA Elimu)</h3>
+                                <h3>Individual Pension Plan (IPP)</h3>
                                 <p>Sail your goods across different regions with no worry.
                                     This cover is crafted for both individuals and corporates
                             </div>
@@ -567,31 +567,7 @@
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-13 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Hospitalisation Loss of Income (HosiCare)</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
 
@@ -711,7 +687,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -742,11 +719,14 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -768,11 +748,14 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>
