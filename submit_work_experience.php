@@ -63,7 +63,7 @@
 // $sql = "INSERT INTO apa_job_applicants_employment_history (employer_company,position,start_date,end_date,current_job,salary,notice_period,roles_performed)
 // VALUES ('$employer','$position','$start_date','$end_date','$current_job','$salary','$notice_period','$roles_performed')";
 // if ($conn->query($sql) === TRUE) {
-    
+
 // } else {
 //     echo "Error: " . $sql . "<br>" . $conn->error;
 // }
@@ -103,20 +103,20 @@
 // $conn->close();
 $education_level = implode(",", $_POST['employer']);
 
- $servername = "localhost";
- $username = "root";
- $password = "";
- $dbname = "apa";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "apa";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} 
+}
 
- $sql = "INSERT INTO apa_job_applicants_file_attachments (file_name)
- VALUES ('$education_level')";
+$sql = "INSERT INTO apa_job_applicants_file_attachments (file_name)
+VALUES ('$education_level')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
@@ -125,4 +125,3 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-?>
