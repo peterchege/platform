@@ -123,8 +123,9 @@ a:focus {
 
 .logo1 {
     position: absolute;
-    top: 0%;
-    right: 3%;
+    top:10px;
+    right: 1%;
+    z-index: 1;
 }
 
 #header #logo2 {
@@ -568,7 +569,7 @@ a:focus {
     margin-left: -10%;
 }
 .nav-menu a {
-    padding: 10PX 10px 0px 10px;
+    padding: 10PX 7px 0px 7px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -742,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #flags {
-    margin-right: 12%;
+    margin-right: 8%;
 }
 
 #flags img {
