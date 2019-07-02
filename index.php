@@ -71,95 +71,11 @@ require_once 'inc/functions.php';
     <!--==========================
     Intro Section
     ============================-->
-    <section id="intro">
-        <div class="intro-container">
-            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel" uk-slideshow="animation: push">
-
-                <!-- <ol class="carousel-indicators">
-        </ol> -->
-
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="carousel-item active">
-                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                            <img src="img/family.jpg" alt=""></div>
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-                                <!-- <h2>Agricultural chemicals</h2>
-                <p>We are the regional market leaders in supply and manufacturing of Insecticides, Fungicides, Herbicides, Foliar Fertilizers, Biological Products, Growth Media, Green House sheeting and Spray Equipments
-				</p>
-                <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                            <img src="img/kids.jpg" alt=""></div>
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-                                <!-- <h2>Animal health</h2>
-                <p>Osho chemicals manufactures and supplies the best Livestock and Poultry products and equipment in the industry.
-                </p>
-                <a href="#about" class="btn-get-started scrollto">Get Started</a>-->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                            <img src="img/adult.jpg" alt=""></div>
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-                                <!-- <h2>INDUSTRIAL PRODUCTS</h2>
-                <p>Contact us today to enquire about our wide range of agricultural equipment.
-                </p>
-                <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-                <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-
-                <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-            </div>
-        </div>
-    </section>
+    
     <!-- #intro -->
 
 
-    <!-- ===================================== ABOUT US ===================================== -->
 
-
-    <div class="container">
-        <div class="apollo">
-            <h1>WELCOME TO APOLLO GROUP</h1>
-            <!-- <div class="header-line "></div> -->
-            <div class="under-line img1">
-                <img src="images/line.png" alt="">
-            </div>
-
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
-                Since our founding in 1977, our mission has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
-                APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
-                Insurance, Tanzania.
-            </p>
-        </div>
-    </div>
 
     <!-- ===================================== PRODUCTS ===================================== -->
 
@@ -265,7 +181,7 @@ require_once 'inc/functions.php';
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Agriculture Insurance</h3>
+                                <h3>Crop Insurance</h3>
                                 <p>Your crops and livestock are your source of income and guaranteeing their safety
                                     should
                                     bring you ultimate happiness.</p>
