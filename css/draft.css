@@ -191,6 +191,9 @@ a:focus {
     background-repeat: no-repeat;
 }
 
+
+/* HOMEPAGE CONTAINER */
+
 .banner-home {
     margin-top: 5%;
     width: 100%;
@@ -199,6 +202,28 @@ a:focus {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.banner-home::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    height: 59.4%;
+    width: 100%;
+    margin-top: 5%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.banner-home .content-camp h2 {
+    font-family: 'Oswald',
+    sans-serif;
+    color: #fff;
+    position: absolute;
+    font-weight: 500;
+    padding: 10% 5%;
 }
 
 .banner-about {
