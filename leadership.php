@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="managment.php">MANAGMENT</a>
+                <a class="nav-link" href="management.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
@@ -235,11 +235,17 @@
                         Group CEO
                     </h2>
                     <p>
-                        Ashok Shah is the current Group CEO of Apollo Investments Limited. He has over 40 years experience in Insurance. He has majored in Applied Chemistry from Kingston University (UK) and is a Chartered Insurer by profession.
+                        Ashok Shah is the current Group CEO of Apollo Investments Limited. He has over 40 years
+                        experience in Insurance. He has majored in Applied Chemistry from Kingston University (UK) and
+                        is a Chartered Insurer by profession.
                         He is a member of the Chartered Institute of Arbitrators.
-                        Other directorships include: Barclays Bank, Central Depository System Corporation, Reliance Insurance Company (Tanzania), APA Insurance (Uganda) Ltd, Apollo Life Assurance Ltd, and Apollo Asset Management.
-                        He is the first recipient of the Think Business Life Time Achievement Award for his contribution to the Insurance Industry in Kenya.
-                        He is also involved in many social activities, mainly in support of the needy and underprivileged.</p>
+                        Other directorships include: Barclays Bank, Central Depository System Corporation, Reliance
+                        Insurance Company (Tanzania), APA Insurance (Uganda) Ltd, Apollo Life Assurance Ltd, and Apollo
+                        Asset Management.
+                        He is the first recipient of the Think Business Life Time Achievement Award for his contribution
+                        to the Insurance Industry in Kenya.
+                        He is also involved in many social activities, mainly in support of the needy and
+                        underprivileged.</p>
                 </div>
             </div>
         </div>
@@ -262,8 +268,10 @@
                     </h2>
                     <p>
                         Daniel Ndonye brings to the Board vast experience.
-                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the University of Nairobi.
-                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the Institute of Certified
+                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the
+                        University of Nairobi.
+                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the
+                        Institute of Certified
                         Public Accountants of Kenya and the Institute of Certified Public Secretaries of Kenya.</p>
                 </div>
             </div>
@@ -286,8 +294,10 @@
                     </h2>
                     <p>
                         Daniel Ndonye brings to the Board vast experience.
-                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the University of Nairobi.
-                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the Institute of Certified
+                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the
+                        University of Nairobi.
+                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the
+                        Institute of Certified
                         Public Accountants of Kenya and the Institute of Certified Public Secretaries of Kenya.</p>
                 </div>
             </div>
@@ -309,11 +319,16 @@
                         Chairman, APA Life
                     </h2>
                     <p>
-                        Rick Ashley is a qualified accountant and brings with him over 30 years of experience in the financial sector.
-                        He was the Chief Executive of Old Mutual Asset Managers (Kenya) and Managing Director of Kestrel Capital (EA) Limited,
-                        having previously worked for Peat Marwick, Cayman Islands, Arthur Andersen & Company and Prudential Corporation Plc in London.
-                        He was also the founding Chairman of Fund Managers Association of Kenya and previously served as a member of Market Leaders Forum, Central Bank of Kenya.
-                        Other Directorships include: APA Life Assurance Ltd, Apollo Investments Ltd, ARM Cement Ltd, Maweni Limestone Ltd, Mafikeng Cement Company in South Africa and AFB in Kenya.</p>
+                        Rick Ashley is a qualified accountant and brings with him over 30 years of experience in the
+                        financial sector.
+                        He was the Chief Executive of Old Mutual Asset Managers (Kenya) and Managing Director of Kestrel
+                        Capital (EA) Limited,
+                        having previously worked for Peat Marwick, Cayman Islands, Arthur Andersen & Company and
+                        Prudential Corporation Plc in London.
+                        He was also the founding Chairman of Fund Managers Association of Kenya and previously served as
+                        a member of Market Leaders Forum, Central Bank of Kenya.
+                        Other Directorships include: APA Life Assurance Ltd, Apollo Investments Ltd, ARM Cement Ltd,
+                        Maweni Limestone Ltd, Mafikeng Cement Company in South Africa and AFB in Kenya.</p>
                 </div>
             </div>
         </div>
@@ -335,9 +350,13 @@
                     </h2>
                     <p>
                         Pratul Shah is a Chartered Certified Accountant and a Certified Public Accountant (Kenya).
-                        He is currently an advisor to various companies in the banking, insurance, manufacturing and services sectors, on strategic planning and restructuring.
-                        He has vast experience in Corporate Finance, which includes transaction advice on mergers, acquisitions/disposals and raising capital through private placements,
-                        public offers and a debt funding.Pratul is a non-executive board member of Car & General (K) Limited, Coastal Bottlers Limited, Bank One Limited – Mauritius, Reliance Insurance Company (Tanzania) Limited and I&M Bank (Tanzania) Limited.</p>
+                        He is currently an advisor to various companies in the banking, insurance, manufacturing and
+                        services sectors, on strategic planning and restructuring.
+                        He has vast experience in Corporate Finance, which includes transaction advice on mergers,
+                        acquisitions/disposals and raising capital through private placements,
+                        public offers and a debt funding.Pratul is a non-executive board member of Car & General (K)
+                        Limited, Coastal Bottlers Limited, Bank One Limited – Mauritius, Reliance Insurance Company
+                        (Tanzania) Limited and I&M Bank (Tanzania) Limited.</p>
                 </div>
             </div>
         </div>
@@ -358,11 +377,18 @@
                         Director
                     </h2>
                     <p>
-                        Mr Shashi M Shah was marketing insurance long before the formation of Apollo Insurance Company which he set up in 1977 as a composite insurance business, dealing with both General and Life Insurance.
-                        He has studied in Kenya, India, Zambia and Swiss Insurance Training College in Switzerland, and has been a charter member of the International Insurance Society.
-                        Mr Shah is an executive director at APA Insurance Ltd, and his directorships among others include: Apollo Investments Ltd, Kenmac Ltd, APA Life Assurance Co. Ltd and Gordon Court Ltd.
-                        He is involved in a lot of social activities and charities which include medical camps, distribution of artificial limbs and eye clinics among others.
-                        He is a past member of the Rotary Club of Mombasa and a charter member of the Rotary Club of Bahari where he is a trustee and past president. At the Pandya Memorial Society, he is a trustee and past chairman.</p>
+                        Mr Shashi M Shah was marketing insurance long before the formation of Apollo Insurance Company
+                        which he set up in 1977 as a composite insurance business, dealing with both General and Life
+                        Insurance.
+                        He has studied in Kenya, India, Zambia and Swiss Insurance Training College in Switzerland, and
+                        has been a charter member of the International Insurance Society.
+                        Mr Shah is an executive director at APA Insurance Ltd, and his directorships among others
+                        include: Apollo Investments Ltd, Kenmac Ltd, APA Life Assurance Co. Ltd and Gordon Court Ltd.
+                        He is involved in a lot of social activities and charities which include medical camps,
+                        distribution of artificial limbs and eye clinics among others.
+                        He is a past member of the Rotary Club of Mombasa and a charter member of the Rotary Club of
+                        Bahari where he is a trustee and past president. At the Pandya Memorial Society, he is a trustee
+                        and past chairman.</p>
                 </div>
             </div>
         </div>
@@ -382,8 +408,10 @@
                     <h2 class="small-head">
                         Director
                     </h2>
-                    <p>PJ Shah is a director of Apollo investments, having sat on the board since the inception of APA insurance
-                        in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is an active
+                    <p>PJ Shah is a director of Apollo investments, having sat on the board since the inception of APA
+                        insurance
+                        in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is
+                        an active
                         philanthropist who is dedicated to serve the disadvantaged in the society.
                     </p>
 
@@ -406,8 +434,10 @@
                     <h2 class="small-head">
                         Director
                     </h2>
-                    <p>Piyush Shah is a Chartered Accountant with a background in IT enterprises with over 30 years’ experience in
-                        both these fields. He is an active angel investor and is a non-executive director of different companies.
+                    <p>Piyush Shah is a Chartered Accountant with a background in IT enterprises with over 30 years’
+                        experience in
+                        both these fields. He is an active angel investor and is a non-executive director of different
+                        companies.
                         Piyush draws his experience from firms both in Kenya and in the United Kingdom
                     </p>
 
@@ -430,14 +460,16 @@
                     <h2 class="small-head">
                         Director
                     </h2>
-                    <p>Reto Schnarwiler leads Swiss Re’s public sector business in EMEA; Americas; and the company’s microinsurance activities.
-                        He’s a member of the board of directors at responsibility Investments AG, Switzerland and APA Insurance, APA Life and
-                        Apollo Investments, Kenya. With Swiss Re since 1996, he holds a degree in business administration from University of
-                        St. Gallen (lic.oec. HSG), an MBA in Financial Services & Insurance from Leuven-Vlerick Business School in Belgium,
+                    <p>Reto Schnarwiler leads Swiss Re’s public sector business in EMEA; Americas; and the company’s
+                        microinsurance activities.
+                        He’s a member of the board of directors at responsibility Investments AG, Switzerland and APA
+                        Insurance, APA Life and
+                        Apollo Investments, Kenya. With Swiss Re since 1996, he holds a degree in business
+                        administration from University of
+                        St. Gallen (lic.oec. HSG), an MBA in Financial Services & Insurance from Leuven-Vlerick Business
+                        School in Belgium,
                         University of Nyenrode and University of St. Gallen in Switzerland.
-
                     </p>
-
                 </div>
             </div>
         </div>
@@ -445,49 +477,9 @@
 
 
 
-    <!-- Optional JavaScript -->
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
 
 </body>
 
