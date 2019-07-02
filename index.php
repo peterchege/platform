@@ -80,6 +80,42 @@ require_once 'inc/functions.php';
             </h2>
         </div>
 
+        <div class="box-quote">
+            <div class="row">
+                <h3 class="text-center">Select a product to get a Free Quote</h3>
+            </div>
+
+            <div class="container">
+                <div class="row ">
+                    <div class="c0l-4 font-awsome text-center">
+                        <i class="fas fa-user-shield"></i>
+                        <p>Personal</p>
+                    </div>
+
+                    <div class="c0l-4 font-awsome text-center">
+                        <i class="fas fa-heartbeat"></i>
+                        <p>Health</p>
+                    </div>
+
+                    <div class="c0l-4 font-awsome text-center">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <p>Life</p>
+                    </div>
+
+                    <div class="c0l-4 font-awsome text-center">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <p>Investment</p>
+                    </div>
+                    <div class="c0l-4 font-awsome text-center">
+                        <i class="fas fa-store"></i>
+                        <p>Commercial</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
     <div class="cover-line">
         <img src="images/line.png" alt="">

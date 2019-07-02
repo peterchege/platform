@@ -227,6 +227,42 @@ a:focus {
     padding: 10% 5%;
 }
 
+.banner-home .box-quote{
+    width: 60%;
+    /* height: 300px; */
+    background-color: #0D345F;
+    position: relative;
+    top: 70%;
+    border-radius:10px; 
+    
+}
+
+.banner-home .box-quote h3{
+    color: #fff;
+    font-family: 'Oswald',
+    sans-serif;
+    width: 100%;
+    padding-top:25px; 
+}
+
+.font-awsome{
+    cursor: pointer;
+    padding-bottom: 20px;
+} 
+
+.font-awsome .fas{
+    color: #fff;
+    font-size:35px;
+    padding-top: 30px;
+}
+
+.font-awsome p{
+    font-size: 15px;
+    color: #fff;
+}
+
+/* END HOMEPAGE CONTAINER */
+
 .banner-about {
     width: 100%;
     height: 55vh;
