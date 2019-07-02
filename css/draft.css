@@ -207,7 +207,7 @@ a:focus {
 
 .banner-home::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
     height: 59.4%;
     width: 100%;
@@ -229,7 +229,6 @@ a:focus {
 
 .banner-home .box-quote{
     width: 60%;
-    /* height: 300px; */
     background-color: #0D345F;
     position: relative;
     top: 70%;
@@ -282,6 +281,28 @@ a:focus {
     box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.55);
     border-radius: 10%;
 }
+
+.banner-home .quick-link{
+    margin-top: -6%;
+}
+
+.quick-link .btn{
+    margin: 5px auto;
+    font-family: 'Oswald',
+    sans-serif;
+    width: 150px;
+    font-size: 14px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #0D345F;
+    border: 1px solid #0D345F;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.2);
+    
+
+}
+
 
 /* END HOMEPAGE CONTAINER */
 
