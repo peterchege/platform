@@ -563,8 +563,12 @@ a:focus {
 }
 
 /* Nav Meu Styling */
+
+.nav-menu  {
+    margin-left: -10%;
+}
 .nav-menu a {
-    padding: 10PX 8px 10px 8px;
+    padding: 10PX 10px 0px 10px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -586,8 +590,7 @@ a:focus {
 }
 
 .nav-menu ul {
-    margin: 4px 0 0 0;
-    padding: 10px;
+    margin: 4px 0 0 0px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     background: #fff;
 }

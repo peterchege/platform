@@ -12,16 +12,31 @@
 
 
 
-        <nav id="nav-menu-container">
+        <!-- <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li class="menu-active"><a href="index.php">HOME</a></li>
                 <li><a href="products.php">WHAT WE OFFER</a></li>
                 <li><a href="about_us.php">ABOUT US</a></li>
                 <li><a href="career.php">CAREERS</a></li>
                 <li><a href="csr.php">CSR</a></li>
-                <!-- <li><a href="media_centre_video.php">MEDIA CENTRE</a></li> -->
                 <li><a href="#">CONTACT US</a></li>
                 <li><a href="portals.php">ONLINE SERVICE</a></li>
+            </ul>
+
+            <div id="flags">
+                <a href="#"><img src="img/kenya.png" alt="APA KENYA"></a>
+                <a href="#"><img src="img/uganda.png" alt="APA UGANDA"></a>
+            </div>
+        </nav> -->
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a href="index.php">PERSONAL INSURANCE</a></li>
+                <li><a href="products.php">HEALTH INSURANCE</a></li>
+                <li><a href="about_us.php">LIFE ASSURANCE</a></li>
+                <li><a href="career.php">INVESTMENT</a></li>
+                <li><a href="csr.php">COMMERCIAL INSURANCE</a></li>
+                <li><a href="#">ABOUT US</a></li>
             </ul>
 
             <div id="flags">
@@ -35,7 +50,7 @@
 
     <!-- APOLLO GROUP LOGO -->
     <!-- <div id="logo1" class="pull-right1"> -->
-        
+
     <!-- </div> -->
 </header>
 <a class="logo1" href="#"><img src="images/Apollo.jpg" width="120" height="auto" alt="" title="" /></a>
