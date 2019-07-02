@@ -248,17 +248,39 @@ a:focus {
 .font-awsome{
     cursor: pointer;
     padding-bottom: 20px;
+    padding: 20px 40px 0px 40px;
+
 } 
+
 
 .font-awsome .fas{
     color: #fff;
     font-size:35px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .font-awsome p{
     font-size: 15px;
     color: #fff;
+    
+}
+
+.font-awsome:hover .fas {
+    color: #C80D10;
+    
+}
+
+.font-awsome:hover p {
+    color: #C80D10;
+
+}
+
+.font-awsome:hover  {
+    color: #C80D10;
+    -webkit-box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.55);
+    box-shadow: 2px 3px 14px 0px rgba(0, 0, 0, 0.55);
+    border-radius: 10%;
 }
 
 /* END HOMEPAGE CONTAINER */

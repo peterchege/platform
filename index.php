@@ -111,6 +111,7 @@ require_once 'inc/functions.php';
                         <p>Commercial</p>
                     </div>
                 </div>
+                <br>
             </div>
 
 
