@@ -145,6 +145,12 @@ require_once 'inc/functions.php';
                 </button>
             </div>
 
+            <div class="col-12">
+                <!-- <p class="text-no">0709 912 777</p> -->
+                <button class="btn btn-primary">
+                    0709 912 777
+                </button>
+            </div>
         </div>
 
     </div>
@@ -170,8 +176,8 @@ require_once 'inc/functions.php';
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
-            </p>
+            <!-- <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
+            </p> -->
             <div class="container-fluid">
                 <div class="row row-product">
 
@@ -279,6 +285,122 @@ require_once 'inc/functions.php';
                                     <div class="btn-mine red-b">
                                         <a href="product_detail_agriculture.php">
                                             <p>Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row row-product">
+
+                    <div class="col-03  product-box prd-4a wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+                            <div class="content">
+                                <h3> Livestock Insurance</h3>
+                                <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                    should
+                                    bring you ultimate happiness.</p>
+                            </div>
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <p class="text-center">Get Cover</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_agriculture.php">
+                                            <p class="text-center">Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-03  product-box prd-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+
+                            <div class="content">
+                                <h3>Motor private Cover</h3>
+                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                    family.</p>
+                            </div>
+
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                                            <p class="text-center">Get Cover</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_motor_private.php">
+                                            <p class="text-center">Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-03  product-box prd-5a wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+
+                            <div class="content">
+                                <h3>Motor Commercial Cover</h3>
+                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                    family.</p>
+                            </div>
+
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                                            <p class="text-center">Get Cover</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_motor.php">
+                                            <p class="text-center">Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-03  product-box prd-6a wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+                            <div class="content">
+                                <h3>Personal Accident</h3>
+                                <p>Explore wild possibilities and adventures unbothered!
+                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
+                            </div>
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <p class="text-center">Get Cover</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_travel.php">
+                                            <p class="text-center">Read more</p>
                                         </a>
                                     </div>
                                 </div>
