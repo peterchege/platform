@@ -71,11 +71,95 @@ require_once 'inc/functions.php';
     <!--==========================
     Intro Section
     ============================-->
-    
+    <section id="intro">
+        <div class="intro-container">
+            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel" uk-slideshow="animation: push">
+
+                <!-- <ol class="carousel-indicators">
+        </ol> -->
+
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                            <img src="img/family.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <!-- <h2>Agricultural chemicals</h2>
+                <p>We are the regional market leaders in supply and manufacturing of Insecticides, Fungicides, Herbicides, Foliar Fertilizers, Biological Products, Growth Media, Green House sheeting and Spray Equipments
+				</p>
+                <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                            <img src="img/kids.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <!-- <h2>Animal health</h2>
+                <p>Osho chemicals manufactures and supplies the best Livestock and Poultry products and equipment in the industry.
+                </p>
+                <a href="#about" class="btn-get-started scrollto">Get Started</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                            <img src="img/adult.jpg" alt=""></div>
+                        <div class="carousel-container">
+                            <div class="carousel-content">
+                                <!-- <h2>INDUSTRIAL PRODUCTS</h2>
+                <p>Contact us today to enquire about our wide range of agricultural equipment.
+                </p>
+                <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
     <!-- #intro -->
 
 
+    <!-- ===================================== ABOUT US ===================================== -->
 
+
+    <div class="container">
+        <div class="apollo">
+            <h1>WELCOME TO APOLLO GROUP</h1>
+            <!-- <div class="header-line "></div> -->
+            <div class="under-line img1">
+                <img src="images/line.png" alt="">
+            </div>
+
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
+                Since our founding in 1977, our mission has been to provide
+                present and future peace of mind to the East African market and, in turn, enhance the quality of life
+                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
+                to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
+                APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
+                Insurance, Tanzania.
+            </p>
+        </div>
+    </div>
 
     <!-- ===================================== PRODUCTS ===================================== -->
 
@@ -181,7 +265,7 @@ require_once 'inc/functions.php';
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Crop Insurance</h3>
+                                <h3>Agriculture Insurance</h3>
                                 <p>Your crops and livestock are your source of income and guaranteeing their safety
                                     should
                                     bring you ultimate happiness.</p>
@@ -410,6 +494,27 @@ require_once 'inc/functions.php';
         </div>
     </div>
     </div>
+
+    <!-- <script type="text/javascript">
+        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+        (function(d, m) {
+            var kommunicateSettings = {
+                "appId": "17b8522a406b28850f9de067f40d2f6dd",
+                "conversationTitle": "ANTHONY BARU",
+                "automaticChatOpenOnNavigation": true
+            };
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0];
+            h.appendChild(s);
+            window.kommunicate = m;
+            m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script> -->
+
+
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
@@ -508,10 +613,49 @@ require_once 'inc/functions.php';
             </div>
         </div>
     </div>
-    <!-- loading scripts -->
-    <?php
-    require_once 'inc/scripts.php';
-    ?>
+
+    <!-- Optional JavaScript -->
+
+    <!-- Optional JavaScript -->
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <!-- <script src="lib/superfish/superfish.min.js"></script> -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
