@@ -29,7 +29,7 @@
 <script src="lib/isotope/isotope.pkgd.min.js"></script>
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-<script src="lib/superfish/superfish.min.js"></script>
+<!-- <script src="lib/superfish/superfish.min.js"></script> -->
 
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>

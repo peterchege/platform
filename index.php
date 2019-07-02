@@ -68,10 +68,21 @@ require_once 'inc/functions.php';
     <?php include 'views/nav.php'; ?>
     <!-- #header -->
 
+
     <!--==========================
     Intro Section
     ============================-->
-    
+
+    <div class="banner-home">
+
+    </div>
+    <div class="cover-line">
+        <img src="images/line.png" alt="">
+    </div>
+
+
+
+
     <!-- #intro -->
 
 
