@@ -494,27 +494,6 @@ require_once 'inc/functions.php';
         </div>
     </div>
     </div>
-
-    <!-- <script type="text/javascript">
-        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
-        (function(d, m) {
-            var kommunicateSettings = {
-                "appId": "17b8522a406b28850f9de067f40d2f6dd",
-                "conversationTitle": "ANTHONY BARU",
-                "automaticChatOpenOnNavigation": true
-            };
-            var s = document.createElement("script");
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-            var h = document.getElementsByTagName("head")[0];
-            h.appendChild(s);
-            window.kommunicate = m;
-            m._globals = kommunicateSettings;
-        })(document, window.kommunicate || {});
-    </script> -->
-
-
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
@@ -613,7 +592,7 @@ require_once 'inc/functions.php';
             </div>
         </div>
     </div>
-            <!-- loading scripts -->
+    <!-- loading scripts -->
     <?php
     require_once 'inc/scripts.php';
     ?>
