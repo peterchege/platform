@@ -181,37 +181,6 @@ require_once 'inc/functions.php';
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box prd-1 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Jamii Plus</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
-                            </div>
-
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="#">
-                                            <p>Get Cover</p>
-                                        </a>
-
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_jamii.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
                     <div class="col-03  product-box prd-2 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
@@ -238,90 +207,6 @@ require_once 'inc/functions.php';
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Marine Insurance</h3>
-                                <p>Sail your goods across different regions with no worry.
-                                    This cover is crafted for both individuals and corporates
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/auth">
-                                            <p>Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_marine.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Crop Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row row-product">
-
-                    <div class="col-03  product-box prd-4a wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3> Livestock Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
                     <div class="col-03  product-box prd-5 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="color-overlay"></div>
@@ -350,6 +235,93 @@ require_once 'inc/functions.php';
                                 </div>
                             </div>
 
+                        </div>
+                    </div>
+
+                    <div class="col-03  product-box prd-1 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+
+                            <div class="content">
+                                <h3>Family Health Care</h3>
+                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                    family.</p>
+                            </div>
+
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <a href="#">
+                                            <p>Get Cover</p>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_jamii.php">
+                                            <p>Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-03  product-box prd-6a wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+                            <div class="content">
+                                <h3>Personal Accident</h3>
+                                <p>Explore wild possibilities and adventures unbothered!
+                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
+                            </div>
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <p class="text-center">Get Cover</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_travel.php">
+                                            <p class="text-center">Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row row-product">
+
+                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+                            <div class="content">
+                                <h3>Marine Insurance</h3>
+                                <p>Sail your goods across different regions with no worry.
+                                    This cover is crafted for both individuals and corporates
+                            </div>
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <a href="https://portal.apainsurance.org/GISPORTAL/auth">
+                                            <p>Get Cover</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_marine.php">
+                                            <p>Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -383,13 +355,40 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-6a wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-03  product-box prd-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="color-overlay"></div>
                         <div class="wrapper">
                             <div class="content">
-                                <h3>Personal Accident</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
+                                <h3>Crop Insurance</h3>
+                                <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                    should
+                                    bring you ultimate happiness.</p>
+                            </div>
+                            <div class="row selection-btn">
+                                <div class="col-6">
+                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                        <p>Get Cover</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="btn-mine red-b">
+                                        <a href="product_detail_agriculture.php">
+                                            <p>Read more</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-03  product-box prd-4a wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="color-overlay"></div>
+                        <div class="wrapper">
+                            <div class="content">
+                                <h3> Livestock Insurance</h3>
+                                <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                    should
+                                    bring you ultimate happiness.</p>
                             </div>
                             <div class="row selection-btn">
                                 <div class="col-6">
@@ -399,7 +398,7 @@ require_once 'inc/functions.php';
                                 </div>
                                 <div class="col-6">
                                     <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
+                                        <a href="product_detail_agriculture.php">
                                             <p class="text-center">Read more</p>
                                         </a>
                                     </div>
