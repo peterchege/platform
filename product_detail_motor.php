@@ -418,7 +418,7 @@
 
 
                     <form class="form-container">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAIL</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">

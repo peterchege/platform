@@ -1,0 +1,30 @@
+.box-contain .head-layer{
+    width: 50%;
+    height: 40vh;
+    background-image: url(../images/login.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0% auto;
+
+}
+
+.box-contain .personal {
+    padding: 20px 40px;
+
+}
+
+.box-contain .personal h2{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0D345F;
+}
+
+.box-contain .personal label{
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    font-size: 15px;
+}

@@ -55,6 +55,7 @@ require_once 'inc/functions.php';
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/modal.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -89,7 +90,7 @@ require_once 'inc/functions.php';
 
             <div class="container">
                 <div class="row ">
-                    <div class="c0l-md-4 font-awsome text-center">
+                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-full" uk-toggle>
                         <i class="fas fa-user-shield"></i>
                         <p>Personal</p>
                     </div>
@@ -618,6 +619,115 @@ require_once 'inc/functions.php';
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+
+    <!-- ===================================== PERSONAL MODAL ===================================== -->
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/'); 
+                background-size: cover; " uk-height-viewport>
+
+                    <div class="box-contain">
+
+
+                        <div class="uk-margin personal">
+                            <h2>PERSONAL INSURANCE</h2>
+                            <div class="uk-form-controls">
+                                <label><input class="uk-radio" type="radio" name="radio1" checked> Motor Private</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio2"> Personal Accident</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio2"> Student Personal Accident</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio3"> Domestic Package</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio4"> Pet </label><br>
+                                <label><input class="uk-radio" type="radio" name="radio4"> Golfers </label>
+                            </div>
+                        </div>
+
+                        <div class="head-layer">
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="uk-padding-large">
+
+
+                    <form class="form-container" action="" method="POST">
+
+                        <br>
+                        <h3 for="inputAddress" class="comp-detail">PERSONALS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Name</label>
+                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" selected>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress2">Phone Number</label>
+                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Email Address</label>
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="inputAddress2">Location</label>
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Nairobi" value="">
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">PREMIUM DETAILS</h3>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Vehicle Make</label>
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress2">Vehicle Model</label>
+                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="inputAddress2">Year of Manufacture</label>
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                </div>
+                            </div>
+
+                            <div class="row book-btn">
+                                <div class="col-md-12"><br>
+                                    <button class="btn btn-primary">REQUEST QUOTATION</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- ===================================== APOLLO CENTRE BOOKING FORM ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
@@ -712,6 +822,8 @@ require_once 'inc/functions.php';
             </div>
         </div>
     </div>
+
+
     <!-- loading scripts -->
     <?php
     require_once 'inc/scripts.php';
