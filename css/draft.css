@@ -198,18 +198,18 @@ a:focus {
 .banner-home {
     margin-top: 5%;
     width: 100%;
-    height: 60vh;
-    background-image: url(../img/kids.jpg);
+    height: 55vh;
+    background-image: url(../img/jamii.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .banner-home::before {
     content: '';
     background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
-    height: 59.4%;
+    height: 55.4%;
     width: 100%;
     margin-top: 5%;
     top: 0;
