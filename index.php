@@ -643,21 +643,12 @@ require_once 'inc/functions.php';
                                 <label><input class="uk-radio" type="radio" name="radio4"> Golfers </label>
                             </div>
                         </div>
-
                         <div class="head-layer">
-
                         </div>
-
                     </div>
-
-
-
                 </div>
                 <div class="uk-padding-large">
-
-
                     <form class="form-container" action="" method="POST">
-
                         <br>
                         <h3 for="inputAddress" class="comp-detail">PERSONALS</h3>
                         <div class="container">
@@ -671,7 +662,6 @@ require_once 'inc/functions.php';
                                     <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="">
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
@@ -682,7 +672,6 @@ require_once 'inc/functions.php';
                                     <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Nairobi" value="">
                                 </div>
                             </div>
-
 
                         </div>
 
@@ -695,7 +684,7 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Vehicle Model</label>
