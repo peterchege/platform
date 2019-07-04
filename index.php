@@ -84,7 +84,7 @@ require_once 'inc/functions.php';
 
         <!-- select a quote banner -->
 
-        <div class="box-quote">
+        <!-- <div class="box-quote">
             <div class="row">
                 <h3 class="text-center">Select a product to request a Free Quote</h3>
             </div>
@@ -118,7 +118,7 @@ require_once 'inc/functions.php';
                 <br>
             </div>
 
-        </div>
+        </div> -->
 
         <!-- quick services -->
 
