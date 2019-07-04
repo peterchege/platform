@@ -56,6 +56,7 @@ require_once 'inc/functions.php';
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -177,9 +178,127 @@ require_once 'inc/functions.php';
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
+
+            <!-- New design for what we offer -->
+
+            <div class="container">
+
+                <div class="row row-product1">
+                    <div class="col-md-4 prod prod-1">
+                        <div class="box-container-img">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Family Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <!-- <div class="row selection-btn">
+                            <div class="col-6">
+                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                                        <p>Get Cover</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="btn-mine red-b">
+                                    <a href="product_detail_travel.php">
+                                        <p>Read more</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="col-md-4 prod prod-2">
+                        <div class="box-container-img">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Family Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <!-- <div class="row selection-btn">
+                            <div class="col-6">
+                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                                        <p>Get Cover</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="btn-mine red-b">
+                                    <a href="product_detail_travel.php">
+                                        <p>Read more</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="col-md-4 prod prod-3">
+                        <div class="box-container-img">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Family Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <!-- <div class="row selection-btn">
+                            <div class="col-6">
+                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
+                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                                        <p>Get Cover</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="btn-mine red-b">
+                                    <a href="product_detail_travel.php">
+                                        <p>Read more</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!-- <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
             </p> -->
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
                 <div class="row row-product">
 
                     <div class="col-03  product-box prd-2 wow fadeInUp" data-wow-delay="0.3s">
@@ -409,7 +528,7 @@ require_once 'inc/functions.php';
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
             <div class="load-more">
                 <a href="products.php" class="btn btn-primary">LOAD MORE</a>
