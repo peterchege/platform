@@ -14,7 +14,7 @@
 /* WHAT WE OFFER NEW DESIGN */
 
 .row-product1{
-    margin: 5% auto;
+    margin: 7% auto;
 }
 
 .row-product1 .prod{
@@ -24,15 +24,41 @@
 
 .box-container-img{
     width: 90%;
-    height: 200px;
-    background-image: url(../img/kids.jpg);
+    height: 200px;  
     background-size: cover;
     border-radius: 20px;
     -webkit-box-shadow: 0px -1px 22px 2px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 0px -1px 22px 2px rgba(0, 0, 0, 0.33);
     box-shadow: 0px -1px 22px 2px rgba(0, 0, 0, 0.33);
-
 }
+
+
+/* images of product */
+
+.prod-1 {
+    background-image: url(../images/travell.jpg);
+}
+
+.prod-2 {
+    background-image: url(../images/motor.jpg);
+}
+
+.prod-3 {
+    background-image: url(../images/life.jpeg);
+}
+
+.prod-4 {
+    background-image: url(../images/marine.jpeg);
+}
+
+.prod-5 {
+    background-image: url(../images/auto.jpg);
+}
+
+.prod-6 {
+    background-image: url(../img/sheep.jpg);
+}
+
 
 .prod:hover {
     transform: scale(1.05);
@@ -48,7 +74,7 @@
 }
 
 .head-container {
-    width: 50%;
+    width: 55%;
     background-color: #fff;
     position: relative;
     margin-top: -22px;
@@ -62,8 +88,8 @@
     font-family: 'Oswald',
         sans-serif;
     color: #0C4DA2;
-    font-size: 18px;
-    padding: 8px 0;
+    font-size: 16px;
+    padding: 9px 0;
 }
 
 .row-product1 p{

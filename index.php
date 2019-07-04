@@ -184,8 +184,8 @@ require_once 'inc/functions.php';
             <div class="container">
 
                 <div class="row row-product1">
-                    <div class="col-md-4 prod prod-1">
-                        <div class="box-container-img">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-1">
                             <div class="overlay">
                             </div>
                         </div>
@@ -209,66 +209,132 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod prod-2">
-                        <div class="box-container-img">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-2">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Family Cover</h2>
+                            <h2>Motor Private insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
                             sapiente sit mollitia quaerat suscipit vitae.
                         </p>
                         <!-- button click -->
-                        <!-- <div class="row selection-btn">
+                        <div class="row prod-btn">
                             <div class="col-6">
-                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                                        <p>Get Cover</p>
-                                    </a>
-                                </div>
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="col-6">
-                                <div class="btn-mine red-b">
-                                    <a href="product_detail_travel.php">
-                                        <p>Read more</p>
-                                    </a>
-                                </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
                             </div>
-                        </div> -->
+
+                        </div>
                     </div>
 
-                    <div class="col-md-4 prod prod-3">
-                        <div class="box-container-img">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-3">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Family Cover</h2>
+                            <h2> Family Health Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
                             sapiente sit mollitia quaerat suscipit vitae.
                         </p>
                         <!-- button click -->
-                        <!-- <div class="row selection-btn">
+                        <div class="row prod-btn">
                             <div class="col-6">
-                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                                        <p>Get Cover</p>
-                                    </a>
-                                </div>
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-4">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Marine Insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
                             <div class="col-6">
-                                <div class="btn-mine red-b">
-                                    <a href="product_detail_travel.php">
-                                        <p>Read more</p>
-                                    </a>
-                                </div>
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
-                        </div> -->
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-5">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Motor Commercial Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-6">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Livestock Insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
