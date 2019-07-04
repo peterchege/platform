@@ -147,12 +147,11 @@ require_once 'inc/functions.php';
                 </button>
             </div>
 
-            <div class="col-12">
-                <!-- <p class="text-no">0709 912 777</p> -->
+            <!-- <div class="col-12">
                 <button class="btn btn-primary">
                     0709 912 777
                 </button>
-            </div>
+            </div> -->
         </div>
 
     </div>

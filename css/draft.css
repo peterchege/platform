@@ -283,7 +283,7 @@ a:focus {
 }
 
 .banner-home .quick-link{
-    padding-top: 6%;
+    padding-top: 9%;
 }
 
 .quick-link .btn{
@@ -903,8 +903,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-image: linear-gradient(to right, #C80D10, rgb(23, 88, 158));
 }
 
-.content-offer {
-    padding-top: 10px;
+.acess .content-offer {
+    padding: 15px 0px;
+    width: 60%;
 }
 
 .product p {
@@ -1767,6 +1768,10 @@ body.mobile-nav-active #mobile-nav-toggle {
         'Lucida Sans',
         Arial,
         sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-bottom: 30px;
 }
 
 /*--------------------------------------------------------------
