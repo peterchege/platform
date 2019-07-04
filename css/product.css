@@ -23,8 +23,8 @@
 }
 
 .box-container-img{
-    width: 100%;
-    height: 250px;
+    width: 90%;
+    height: 200px;
     background-image: url(../img/kids.jpg);
     background-size: cover;
     border-radius: 20px;
@@ -40,7 +40,7 @@
 
 .overlay{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: #000;
     border-radius: 20px;
     position: relative;
@@ -48,10 +48,10 @@
 }
 
 .head-container {
-    width: 70%;
+    width: 50%;
     background-color: #fff;
     position: relative;
-    margin-top: -35px;
+    margin-top: -22px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.4);
@@ -62,13 +62,52 @@
     font-family: 'Oswald',
         sans-serif;
     color: #0C4DA2;
-    font-size: 22px;
-    padding: 15px 0;
+    font-size: 18px;
+    padding: 8px 0;
 }
 
 .row-product1 p{
-    margin-top: -10px;
+    margin-top: -30px;
 }
+
+/* button on what we offer */
+
+.prod-btn .btn {
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 5px 15px;
+    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+}
+
+.prod-btn .btn:hover{
+    background-color: #C80D10;
+    border: 1px solid #C80D10;
+}
+
+.prod-btn .prod-lf .btn {
+    margin-left: -30px;
+    background-color: slategray;
+    border: 1px solid slategray;
+}
+
+.prod-btn .prod-lf .btn:hover {
+    background-color: #C80D10;
+    border: 1px solid #C80D10;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* COMPANY NAV */
 

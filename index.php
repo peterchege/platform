@@ -190,29 +190,23 @@ require_once 'inc/functions.php';
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Family Cover</h2>
+                            <h2>Travel Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
                             sapiente sit mollitia quaerat suscipit vitae.
                         </p>
                         <!-- button click -->
-                        <!-- <div class="row selection-btn">
+                        <div class="row prod-btn">
                             <div class="col-6">
-                                <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                                        <p>Get Cover</p>
-                                    </a>
-                                </div>
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="col-6">
-                                <div class="btn-mine red-b">
-                                    <a href="product_detail_travel.php">
-                                        <p>Read more</p>
-                                    </a>
-                                </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
                             </div>
-                        </div> -->
+
+                        </div>
                     </div>
 
                     <div class="col-md-4 prod prod-2">
@@ -277,6 +271,7 @@ require_once 'inc/functions.php';
                         </div> -->
                     </div>
                 </div>
+
 
             </div>
 
