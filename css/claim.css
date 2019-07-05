@@ -18,10 +18,10 @@
     margin-top: 5%;
     width: 100%;
     height: 55vh;
-    background-image: url(../img/jamii.jpg);
+    background-image: url(../img/claim2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
 }
 
 .banner-home1::before {

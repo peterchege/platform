@@ -123,15 +123,16 @@ require_once 'inc/functions.php';
 
 
     <!-- ===================================== PRODUCTS ===================================== -->
-
+<br><br>
     <div class="container-fluid23">
-        <div class="product text-center">
+        <div class=" text-center">
 
             <h1>MAKE A CLAIM</h1>
             <!-- <hr class="line what"> -->
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
+            <br>
             <div class="col-10">
                 <p>At APA Apollo, your happiness is our utmost concern.
                     That’s why, in the unfortunate event that you have to make a claim, we will make you our
@@ -146,7 +147,7 @@ require_once 'inc/functions.php';
 
             <div class="box-quote">
                 <div class="row">
-                    <h3 class="text-center">Select a product to request a Free Quote</h3>
+                    <h3 class="text-center">Select your product that you want to make a claim on</h3>
                 </div>
 
                 <div class="container">
@@ -179,7 +180,7 @@ require_once 'inc/functions.php';
                 </div>
 
             </div>
-            <br><br><br>
+            <br><br><br><br>
         </div>
     </div>
     </div>

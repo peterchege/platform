@@ -130,9 +130,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    MAKE A CLAIM
-                </button>
+                <a href= "claim.php">
+                    <button class="btn btn-primary">
+                        MAKE A CLAIM
+                    </button>
+                </a>    
             </div>
 
             <div class="col-12">
