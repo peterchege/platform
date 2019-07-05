@@ -345,20 +345,6 @@ require_once 'inc/functions.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
             </p> -->
             <!-- <div class="container-fluid">
