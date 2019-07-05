@@ -219,7 +219,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
                     <form class="form-container" action="" method="POST">
                         <br>
-                        <h3 for="inputAddress" class="comp-detail">PERSONALS</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONALS DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -252,28 +252,29 @@ require_once 'inc/functions.php';
                         <div class="container">
                             <div class="row">
                                 <div class=" form-group col-md-12">
-                                    <label for="inputAddress2">Policy Number(optional)</label>
+                                    <label for="inputAddress2">Policy Number (optional)</label>
                                     <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="APN/743234" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
+                                    <label for="inputAddress">Registration Number</label>
+                                    <input name="text" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="KBQ XXX" value="<?= ((isset($email)) ? $email : '') ?>">
+                                </div>
+
+                                <div class="form-group col-md-12">
                                     <label for="inputAddress">Type of Claim</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
                                         <option>Accident</option>
                                         <option>WindScreen</option>
-                                        <option>Theft(Partial)</option>
-                                        <option>Theft(Total loss)</option>
-                                        <option>Theft</option>
+                                        <option>Theft (Partial)</option>
+                                        <option>Theft (Total loss)</option>
                                         <option>Floods</option>
                                         
                                     </select>                                
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress">Registration Number</label>
-                                    <input name="text" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="KBQ XXX" value="<?= ((isset($email)) ? $email : '') ?>">
-                                </div>
+                                
                             </div>
 
                             <div class="row book-btn">
@@ -300,15 +301,15 @@ require_once 'inc/functions.php';
                     Sucessfull submited
                 </div>
 </p>
-            <p>Thank you for providing us with detail of your claim. One of our agents will contact you 
+            <p>Thank you for providing us with details of your claim. One of our agents will contact you 
                 shortly to guide you through the process. To help us process your claim faster,
                 please download and complete the claim form and prepare the following documentation:
                     <ol>
                         <li>Claim form (<a href="#">Click here to download</a>)</li>
                         <li>Police Abstract</li>
-                        <li>PSV DL</li>
-                        <li>Copy of the Log Book (Insured name)</li>
-                        <li>ID/Passport</li>
+                        <li>Copy of Driving License</li>
+                        <li>Copy of the Log Book </li>
+                        <li>Copy of ID/Passport</li>
                     </ol>
             </p>
         </div>

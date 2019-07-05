@@ -167,9 +167,6 @@ require_once 'inc/functions.php';
 
     <!-- #intro -->
 
-
-
-
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
@@ -818,7 +815,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
                     <form class="form-container" action="" method="POST">
                         <br>
-                        <h3 for="inputAddress" class="comp-detail">PERSONALS</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONALS DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
