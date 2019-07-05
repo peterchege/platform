@@ -204,12 +204,12 @@ require_once 'inc/functions.php';
                         <div class="uk-margin personal">
                             <h2>PERSONAL INSURANCE</h2>
                             <div class="uk-form-controls">
-                                <label><input class="uk-radio" type="radio" name="radio1" checked> Motor Private</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio2"> Personal Accident</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio0" checked> Motor Private</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio1"> Personal Accident</label><br>
                                 <label><input class="uk-radio" type="radio" name="radio2"> Student Personal Accident</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio3"> Domestic Package</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio4"> Pet </label><br>
-                                <label><input class="uk-radio" type="radio" name="radio4"> Golfers </label>
+                                <label><input class="uk-radio" type="radio" name="radio4"> Domestic Package</label><br>
+                                <label><input class="uk-radio" type="radio" name="radio5"> Pet </label><br>
+                                <label><input class="uk-radio" type="radio" name="radio6"> Golfers </label>
                             </div>
                         </div>
                         <div class="head-layer">
@@ -238,7 +238,7 @@ require_once 'inc/functions.php';
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Location</label>
-                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Nairobi" value="">
+                                    <input name="capacity" id="capacity" type="text"  class="form-control" placeholder="Nairobi" value="">
                                 </div>
                             </div>
 
@@ -246,35 +246,39 @@ require_once 'inc/functions.php';
 
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">PREMIUM DETAILS</h3>
+                            <h3 for="inputAddress">CLAIM DETAILS</h3>
                         </div>
 
                         <div class="container">
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                <div class=" form-group col-md-12">
+                                    <label for="inputAddress2">Policy Number(optional)</label>
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="APN/743234" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress">Type of Claim</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Accident</option>
+                                        <option>WindScreen</option>
+                                        <option>Theft(Partial)</option>
+                                        <option>Theft(Total loss)</option>
+                                        <option>Theft</option>
+                                        <option>Floods</option>
+                                        
+                                    </select>                                
                                 </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress">Registration Number</label>
+                                    <input name="text" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="KBQ XXX" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12"><br>
-                                    <button class="btn btn-primary">REQUEST QUOTATION</button>
+                                    <button class="btn btn-primary">SUBMIT CLAIM</button>
                                 </div>
                             </div>
                         </div>
