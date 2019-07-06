@@ -731,7 +731,7 @@ require_once 'inc/functions.php';
             </p>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
+                    <div `class`="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
                         <img class="img-fluid img-log" src="images/login.png" alt="login-vector">
                         <div class="content-acess">
                             <h3>REQUEST ASSISTANCE</h3>
