@@ -130,9 +130,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    MAKE A CLAIM
-                </button>
+                <a href= "claim.php">
+                    <button class="btn btn-primary">
+                        MAKE A CLAIM
+                    </button>
+                </a>    
             </div>
 
             <div class="col-12">
@@ -163,9 +165,6 @@ require_once 'inc/functions.php';
 
 
     <!-- #intro -->
-
-
-
 
     <!-- ===================================== PRODUCTS ===================================== -->
 
@@ -341,6 +340,7 @@ require_once 'inc/functions.php';
             </div>
 
 
+
             <div class="load-more">
                 <a href="products.php" class="btn btn-primary">LOAD MORE</a>
             </div>
@@ -365,7 +365,7 @@ require_once 'inc/functions.php';
             </p>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
+                    <div `class`="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
                         <img class="img-fluid img-log" src="images/login.png" alt="login-vector">
                         <div class="content-acess">
                             <h3>REQUEST ASSISTANCE</h3>
@@ -449,7 +449,7 @@ require_once 'inc/functions.php';
                 <div class="uk-padding-large">
                     <form class="form-container" action="" method="POST">
                         <br>
-                        <h3 for="inputAddress" class="comp-detail">PERSONALS</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONALS DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
