@@ -515,14 +515,60 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL PRIDUCT MODAL ===================================== -->
+    <!-- ===================================== PERSONAL PRODUCT MODAL ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
-            <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <h2 class="uk-modal-title">Outside</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="uk-modal-close-outside " type="button" uk-close></button>
+            <h2 class="uk-modal-title modal-head">Select the cover you wish to generate a quote for:</h2>
+
+            <div class="row select-prod">
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-car"></i>
+                        <p>Motor Private</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-user-injured"></i>
+                        <p>Personal Accident</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-home"></i>
+                        <p>Domestic Package</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row select-prod">
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-dog"></i>
+                        <p>Pet Cover</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-golf-ball"></i>
+                        <p>Golfers</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-car"></i>
+                        <p>Motor Commercial</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
