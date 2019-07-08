@@ -37,6 +37,10 @@
     text-transform: uppercase;
 }
 
+.select-prod a{
+    text-decoration-line: none;
+}
+
 .select-prod .product-quote {
     width: 150px;
     background-color: #0D345F;

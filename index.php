@@ -525,10 +525,12 @@ require_once 'inc/functions.php';
 
             <div class="row select-prod">
                 <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-car"></i>
-                        <p>Motor Private</p>
-                    </div>
+                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                        <div class="product-quote">
+                            <i class="fas fa-car"></i>
+                            <p>Motor Private</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-4">
@@ -539,19 +541,23 @@ require_once 'inc/functions.php';
                 </div>
 
                 <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-home"></i>
-                        <p>Domestic Package</p>
-                    </div>
+                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                        <div class="product-quote">
+                            <i class="fas fa-home"></i>
+                            <p>Domestic Package</p>
+                        </div>
+                    </a>    
                 </div>
             </div>
 
             <div class="row select-prod">
                 <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-dog"></i>
-                        <p>Pet Cover</p>
-                    </div>
+                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                        <div class="product-quote">
+                            <i class="fas fa-dog"></i>
+                            <p>Pet Cover</p>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-4">
