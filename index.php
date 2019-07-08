@@ -130,11 +130,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <a href= "claim.php">
+                <a href="claim.php">
                     <button class="btn btn-primary">
                         MAKE A CLAIM
                     </button>
-                </a>    
+                </a>
             </div>
 
             <div class="col-12">
@@ -151,9 +151,9 @@ require_once 'inc/functions.php';
 
             <div class="col-12">
                 <!-- <p class="text-no">0709 912 777</p> -->
-                <button class="btn btn-primary">
+                <!-- <button class="btn btn-primary">
                     0709 912 777
-                </button>
+                </button> -->
             </div>
         </div>
 
@@ -258,7 +258,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
@@ -585,7 +585,7 @@ require_once 'inc/functions.php';
 
     <!-- =====================================OTHER PRODUCTS ===================================== -->
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 wow fadeInUp " data-wow-delay="0.1s">
                 <section id="intro1">
@@ -610,7 +610,6 @@ require_once 'inc/functions.php';
                                             <h4>18 PAX<br>BOARDROOM</h4>
                                             <p>Our world class boardrooms provide the perfect meeting place for executive meetings
                                             </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -624,7 +623,6 @@ require_once 'inc/functions.php';
                                             <h4>40 PAX<br>AUDITORIUM</h4>
                                             <p> Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
                                             </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -639,7 +637,6 @@ require_once 'inc/functions.php';
                                             <p> Our training room can hold 30 guests on <br>U-shape set up and 44 guests in a classroom setup, the room is
                                                 ideal for corporate training, promotional training and interactive training.
                                             </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -653,7 +650,6 @@ require_once 'inc/functions.php';
                                             <p> The cafeteria has a sitting capacity of 80 guests with dining tables, 100 guests in a classroom set-up & 150
                                                 guests in a cocktail set-up.
                                             </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -704,7 +700,6 @@ require_once 'inc/functions.php';
 
                         <div class="button apollo-centre">
                             <a href="#modal-full1" class="btn-primary btn1" uk-toggle>BOOK NOW</a>
-                            <!-- <button class="btn-primary btn1" data-target="#modal-full1" uk-toggle>Read more</button> -->
                             <a href="apollo_centre.php" class="btn-dark  btn1">LEARN MORE</a>
                         </div>
 
@@ -713,12 +708,12 @@ require_once 'inc/functions.php';
             </div>
 
         </div>
-    </div>
+    </div> -->
 
 
     <!-- =====================================ACESS SERVICE===================================== -->
     <div class="container-fluid12">
-        <div class="product acess text-center">
+        <div class=" acess text-center">
 
             <h1>ACCESS SERVICES</h1>
             <div class="under-line img4">
@@ -731,7 +726,7 @@ require_once 'inc/functions.php';
             </p>
             <div class="container-fluid">
                 <div class="row">
-                    <div `class`="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
                         <img class="img-fluid img-log" src="images/login.png" alt="login-vector">
                         <div class="content-acess">
                             <h3>REQUEST ASSISTANCE</h3>
