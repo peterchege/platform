@@ -91,7 +91,7 @@ require_once 'inc/functions.php';
 
             <div class="container">
                 <div class="row ">
-                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-full" uk-toggle>
+                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">
                         <i class="fas fa-user-shield"></i>
                         <p>Personal</p>
                     </div>
@@ -515,6 +515,16 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
+    <!-- ===================================== PERSONAL PRIDUCT MODAL ===================================== -->
+
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <h2 class="uk-modal-title">Outside</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
 
 
     <!-- loading scripts -->

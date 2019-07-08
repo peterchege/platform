@@ -300,7 +300,7 @@ require_once 'inc/functions.php';
                 <div class="alert alert-success" role="alert">
                     Sucessfull submited
                 </div>
-</p>
+            </p>
             <p>Thank you for providing us with details of your claim. One of our agents will contact you 
                 shortly to guide you through the process. To help us process your claim faster,
                 please download and complete the claim form and prepare the following documentation:
