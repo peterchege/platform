@@ -84,7 +84,7 @@ require_once 'inc/functions.php';
 
         <!-- select a quote banner -->
 
-        <div class="box-quote">
+        <!-- <div class="box-quote">
             <div class="row">
                 <h3 class="text-center">Select a product to request a Free Quote</h3>
             </div>
@@ -118,7 +118,7 @@ require_once 'inc/functions.php';
                 <br>
             </div>
 
-        </div>
+        </div> -->
 
         <!-- quick services -->
 
@@ -149,12 +149,11 @@ require_once 'inc/functions.php';
                 </button>
             </div>
 
-            <div class="col-12">
-                <!-- <p class="text-no">0709 912 777</p> -->
+            <!-- <div class="col-12">
                 <button class="btn btn-primary">
                     0709 912 777
                 </button>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -342,240 +341,6 @@ require_once 'inc/functions.php';
 
 
 
-            <!-- <p class="container content-offer wow fadeInUp">The following are some of the products we offer:
-            </p> -->
-            <!-- <div class="container-fluid">
-                <div class="row row-product">
-
-                    <div class="col-03  product-box prd-2 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Travel Insurance</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                                            <p>Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Motor private Cover</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
-                            </div>
-
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                                            <p class="text-center">Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_motor_private.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-1 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Family Health Care</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
-                            </div>
-
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="#">
-                                            <p>Get Cover</p>
-                                        </a>
-
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_jamii.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-6a wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Personal Accident</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row row-product">
-
-                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Marine Insurance</h3>
-                                <p>Sail your goods across different regions with no worry.
-                                    This cover is crafted for both individuals and corporates
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/auth">
-                                            <p>Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_marine.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-5a wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Motor Commercial Cover</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
-                            </div>
-
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                                            <p class="text-center">Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_motor.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Crop Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p>Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-03  product-box prd-4a wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3> Livestock Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
-
             <div class="load-more">
                 <a href="products.php" class="btn btn-primary">LOAD MORE</a>
             </div>
@@ -583,142 +348,11 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-    <!-- =====================================OTHER PRODUCTS ===================================== -->
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 wow fadeInUp " data-wow-delay="0.1s">
-                <section id="intro1">
-                    <div class="intro-container1">
-                        <div id="introCarousel1" class="carousel  slide carousel-fade" data-ride="carousel">
-
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                            </ol>
-
-                            <div class="carousel-inner" role="listbox">
-
-                                <div class="carousel-item active">
-                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left ">
-                                        <img src="images/shimba/img4.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h3>Shimba Hills</h3>
-                                            <h4>18 PAX<br>BOARDROOM</h4>
-                                            <p>Our world class boardrooms provide the perfect meeting place for executive meetings
-                                            </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                                        <img src="images/chyullu/img6.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h3>Chyullu Hills</h3>
-                                            <h4>40 PAX<br>AUDITORIUM</h4>
-                                            <p> Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
-                                            </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                                        <img src="images/cherengani/img4.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h3>Cherangani</h3>
-                                            <h4>TRAINING ROOM</h4>
-                                            <p> Our training room can hold 30 guests on <br>U-shape set up and 44 guests in a classroom setup, the room is
-                                                ideal for corporate training, promotional training and interactive training.
-                                            </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-background uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
-                                        <img src="images/Entertainment/img3.jpg" alt=""></div>
-                                    <div class="carousel-container">
-                                        <div class="carousel-content">
-                                            <h3>Entertainment</h3>
-                                            <p> The cafeteria has a sitting capacity of 80 guests with dining tables, 100 guests in a classroom set-up & 150
-                                                guests in a cocktail set-up.
-                                            </p>
-                                            <!-- <a href="#about" class="btn-get-started scrollto">BOOK NOW</a> -->
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-
-                            <a class="carousel-control-prev" href="#introCarousel1" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-
-                            <a class="carousel-control-next" href="#introCarousel1" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-            <div class="col-md-6 wow fadeInUp " data-wow-delay="0.2s">
-                <div class="apollo-facility">
-                    <div class="text-center">
-                        <h1>APOLLO CONFERENCE FACILITIES</h1>
-                        <div class="under-line img3">
-                            <img src="images/line.png" alt="">
-                        </div>
-                        <p class="">On top of Insurance and Investment services, we also have rental spaces at our state
-                            of the art
-                            facility, The Apollo Centre.
-
-                            We provide room for conferences and private meeting spaces within our spacious and
-                            comfortable boardrooms.
-                            We also have an ultra-modern auditorium, an entertainment area for office functions and a
-                            training room
-                            for
-                            corporate training.
-
-                            We provide all the space you need for all your functions. Each room opens up into a large
-                            balcony
-                            providing
-                            a delightful view of Nairobi. There is also ample parking space that is convenient and
-                            secure.
-                        </p><br>
-
-                        <div class="button apollo-centre">
-                            <a href="#modal-full1" class="btn-primary btn1" uk-toggle>BOOK NOW</a>
-                            <!-- <button class="btn-primary btn1" data-target="#modal-full1" uk-toggle>Read more</button> -->
-                            <a href="apollo_centre.php" class="btn-dark  btn1">LEARN MORE</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 
     <!-- =====================================ACESS SERVICE===================================== -->
     <div class="container-fluid12">
-        <div class="product acess text-center">
+        <div class=" acess text-center">
 
             <h1>ACCESS SERVICES</h1>
             <div class="under-line img4">
