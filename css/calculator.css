@@ -102,3 +102,106 @@
     -moz-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
     box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
 }
+
+.left-side{
+    background-color: #0D345F;
+    /* -webkit-box-shadow: 0px 0px 10px 5px rgba(13, 52, 95, 0.5);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(13, 52, 95, 0.5);
+    box-shadow: 0px 0px 10px 5px rgba(13, 52, 95, 0.5); */
+
+}
+
+.left-side h2{
+    padding: 15% 0px 5px 0px;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.left-side .box-amount{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.box-amount p{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 28px;
+    font-family: 'Oswald',
+    sans-serif;
+}
+
+.left-side h3 {
+    text-align: center;
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.left-side ul{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    padding-top: 10px;
+}
+
+.rate p{
+    color: #C80D10;
+    display: inline-block;
+    padding-left: 20px;
+    font-family: 'Oswald',
+    sans-serif;
+
+}
+
+.btn-check .btn {
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px 20px;
+    -webkit-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.btn-check .btn:hover {
+    background-color: #C80D10;
+    border: 1px solid #C80D10;
+    -webkit-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+    box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+
+}
+
+.btn-left {
+    margin-left: -40px;
+}
+
+.btn-red{
+    width: 100%;
+    margin: 10% auto;
+    padding-left: 40px;
+}
+
+.btn-red .btn{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-color: #C80D10;
+    border: 1px solid #C80D10;
+    -webkit-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+    box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+
+}

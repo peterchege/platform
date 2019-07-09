@@ -115,7 +115,47 @@
                 </form>
             </div>
 
-            <div class="col-md-3 box-container">
+            <!-- Value Being displayed -->
+            <div class="col-md-3 box-container left-side">
+
+                <h2>TOTAL AMOUNT <br>(Kshs)</h2>
+
+                <div class="box-amount">
+                    <p>45,000 /=</p>
+                </div>
+                <br>
+                <hr>
+                <h3>CHARGES</h3>
+                <ul class="rate">
+                    <li>Rates : <p>0.15%</p>
+                    </li>
+                    <li>Liability : <p>0.15%</p>
+                    </li>
+                    <li>Levy Tax : <p>0.45%</p>
+                    </li>
+                </ul>
+    <br>
+                <div class="row  btn-check">
+                    <div class="col-6">
+                        <button class="btn btn-primary">
+                            Save Quote
+                        </button>
+                    </div>
+                    <div class="col-6 btn-left">
+                        <button class="btn btn-primary">
+                            Request Assistance
+                        </button>
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="row btn-red text-center">
+                    <div class="col-12">
+                        <button class="btn btn-danger">BUY NOW</button>
+                    </div>
+
+                </div>
 
             </div>
         </div>
