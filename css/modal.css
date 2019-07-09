@@ -28,3 +28,57 @@
     sans-serif;
     font-size: 15px;
 }
+
+/* OUTSIDE MODAL ON HOMEPAGE*/
+.modal-head{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0D345F;
+    text-transform: uppercase;
+}
+
+.select-prod a{
+    text-decoration-line: none;
+}
+
+.select-prod .product-quote {
+    width: 150px;
+    background-color: #0D345F;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10% auto;
+    cursor: pointer;
+    transition: transform 1.0s;
+    transition: 500ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.select-prod .product-quote:hover{
+    background-color: #C80D10;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(13, 52, 95, 1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(13, 52, 95, 1);
+    box-shadow: 0px 0px 20px 0px rgba(13, 52, 95, 1);
+    transform: scale(1.12);
+    
+}
+
+.select-prod .product-quote .fas{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.select-prod .product-quote p {
+    color: #fff;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    font-size: 14px;
+}

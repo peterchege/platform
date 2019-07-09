@@ -84,14 +84,14 @@ require_once 'inc/functions.php';
 
         <!-- select a quote banner -->
 
-        <!-- <div class="box-quote">
+        <div class="box-quote">
             <div class="row">
                 <h3 class="text-center">Select a product to request a Free Quote</h3>
             </div>
 
             <div class="container">
                 <div class="row ">
-                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-full" uk-toggle>
+                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">
                         <i class="fas fa-user-shield"></i>
                         <p>Personal</p>
                     </div>
@@ -118,7 +118,7 @@ require_once 'inc/functions.php';
                 <br>
             </div>
 
-        </div> -->
+        </div>
 
         <!-- quick services -->
 
@@ -130,11 +130,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <a href= "claim.php">
+                <a href="claim.php">
                     <button class="btn btn-primary">
                         MAKE A CLAIM
                     </button>
-                </a>    
+                </a>
             </div>
 
             <div class="col-12">
@@ -257,7 +257,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
@@ -365,7 +365,7 @@ require_once 'inc/functions.php';
             </p>
             <div class="container-fluid">
                 <div class="row">
-                    <div `class`="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.1s">
                         <img class="img-fluid img-log" src="images/login.png" alt="login-vector">
                         <div class="content-acess">
                             <h3>REQUEST ASSISTANCE</h3>
@@ -515,99 +515,66 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
+    <!-- ===================================== PERSONAL PRODUCT MODAL ===================================== -->
 
-    <!-- ===================================== APOLLO CENTRE BOOKING FORM ===================================== -->
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside " type="button" uk-close></button>
+            <h2 class="uk-modal-title modal-head">Select the cover you wish to generate a quote for:</h2>
 
-    <div id="modal-full1" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/shimba/img5.jpg'); background-size: cover;" uk-height-viewport></div>
-                <div class="uk-padding-large">
-
-
-                    <form class="form-container" action="" method="POST">
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">Room Name</h3>
-                            <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
-                                <option disabled selected>Select preferred room</option>
-                                <option value="1">Shimba Hills (Boardroom 18pax)</option>
-                                <option value="2">Taita Hills (10-12pax)</option>
-                                <option value="3">Ngong Hills (Boardroom 8pax)</option>
-                                <option value="4">Chyullu Hills (Auditorium 40pax)</option>
-                                <option value="5">Cherengani Hills (Training Room)</option>
-                                <option value="6">Entertainment Area</option>
-                            </select>
+            <div class="row select-prod">
+                <div class="col-4">
+                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                        <div class="product-quote">
+                            <i class="fas fa-car"></i>
+                            <p>Motor Private</p>
                         </div>
+                    </a>
+                </div>
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Start Date</label>
-                                    <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
-                                </div>
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-user-injured"></i>
+                        <p>Personal Accident</p>
+                    </div>
+                </div>
 
-                                <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Start Time</label>
-                                    <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputPassword4">End Time</label>
-                                    <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
-                                </div>
-                            </div>
+                <div class="col-4">
+                    <a href="calc_domestic_package.php">
+                        <div class="product-quote">
+                            <i class="fas fa-home"></i>
+                            <p>Domestic Package</p>
                         </div>
-
-                        <h3 for="inputAddress" class="comp-detail">COMPANY DETAIL</h3>
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Name</label>
-                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" id="more_information" class="form-control"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="row book-btn">
-                                <div class="col-md-12">
-                                    <p id="display"></p>
-                                    <button name="submit" type="submit" class="btn btn-primary" id="submit">BOOK NOW</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </form>
-
+                    </a>    
                 </div>
             </div>
+
+            <div class="row select-prod">
+                <div class="col-4">
+                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                        <div class="product-quote">
+                            <i class="fas fa-dog"></i>
+                            <p>Pet Cover</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-golf-ball"></i>
+                        <p>Golfers</p>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product-quote">
+                        <i class="fas fa-car"></i>
+                        <p>Motor Commercial</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
