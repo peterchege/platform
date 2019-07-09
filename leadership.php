@@ -48,7 +48,7 @@
                 <a class="nav-link" href="management.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">DOWNLOADS</a>
+                <a class="nav-link" href="#" >DOWNLOADS</a>
             </li>
         </ul>
     </div>
