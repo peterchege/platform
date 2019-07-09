@@ -541,7 +541,7 @@ require_once 'inc/functions.php';
                 </div>
 
                 <div class="col-4">
-                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                    <a href="calc_domestic_package.php">
                         <div class="product-quote">
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
