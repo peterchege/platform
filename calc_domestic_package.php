@@ -24,7 +24,95 @@
 
         <div class="row ">
             <div class="col-md-6 box-container">
+                <form>
 
+                    <div class="container forn-container">
+                        <h2 class="text-center">Premium Information</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Name</label>
+                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" selected>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress2">Phone Number</label>
+                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Email Address</label>
+                                <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="">
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="inputAddress2">Location</label>
+                                <input name="capacity" id="capacity" type="text" min="1" class="form-control" placeholder="Nairobi" value="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="inputAddress">Property</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected disabled>Choose...</option>
+                                    <option>Owner</option>
+                                    <option>Tenant</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Section</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected disabled>Choose...</option>
+                                    <option>Building</option>
+                                    <option>Content</option>
+                                    <option>All Risk</option>
+                                    <option>Domestic Employee</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Value</label>
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="2,000,000" value="">
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6 ">
+                                <div class="row check-cn">
+                                    <div class="col-2 check-bx">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    </div>
+                                    <div class="col-10">
+                                        <label class="form-check-label" for="gridCheck1">
+                                            Liability Cover ( You will get a free cover for upto 500,000.
+                                            Above that we charge a rate of 0.05%)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Declare Amount</label>
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="form-group col-md-6 btn-cal">
+                                <button class="btn btn-primary">CALCULATE</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </form>
             </div>
 
             <div class="col-md-3 box-container">
