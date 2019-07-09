@@ -18,51 +18,50 @@ confirm_login();
 
 
 
-if(isset($_POST['submit_job_post'])){
+if (isset($_POST['submit_job_post'])) {
     $job_id = randomstring(10);
-    $job_title=sanitize($_POST['job_title']);
+    $job_title = sanitize($_POST['job_title']);
     $job_short_description = sanitize($_POST['job_short_description']);
-    $country =sanitize($_POST['country']);
+    $country = sanitize($_POST['country']);
     $county = sanitize($_POST['county']);
     $company = sanitize($_POST['company']);
-    $employment_type=sanitize($_POST['employment_type']);
-    $deadline=sanitize($_POST['deadline']);
-    $salary=sanitize($_POST['salary']);
-    $company=sanitize($_POST['company']);
-    $primary_responsibilities=sanitize($_POST['primary_responsibilities']);
-    $academic_qualification=sanitize($_POST['academic_qualification']);
-    $professional_qualifications=sanitize($_POST['professional_qualifications']);
-    $job_skills=sanitize($_POST['job_skills']);
-    $experience=sanitize($_POST['experience']);
-    
+    $employment_type = sanitize($_POST['employment_type']);
+    $deadline = sanitize($_POST['deadline']);
+    $salary = sanitize($_POST['salary']);
+    $company = sanitize($_POST['company']);
+    $primary_responsibilities = sanitize($_POST['primary_responsibilities']);
+    $academic_qualification = sanitize($_POST['academic_qualification']);
+    $professional_qualifications = sanitize($_POST['professional_qualifications']);
+    $job_skills = sanitize($_POST['job_skills']);
+    $experience = sanitize($_POST['experience']);
+
     $admin = sanitize($_SESSION['fname']);
-    
-    if(empty($primary_responsibilities)){
-        $errors[]='Primary responsibilities can\'t be empty.';
+
+    if (empty($primary_responsibilities)) {
+        $errors[] = 'Primary responsibilities can\'t be empty.';
     }
-    if(empty($academic_qualification)){
-        $errors[]='Academic qualifications can\'t be empty.';
+    if (empty($academic_qualification)) {
+        $errors[] = 'Academic qualifications can\'t be empty.';
     }
-    if(empty($professional_qualifications)){
-        $errors[]='Professional qualifications can\'t be empty.';
+    if (empty($professional_qualifications)) {
+        $errors[] = 'Professional qualifications can\'t be empty.';
     }
-    if(empty($job_skills)){
-        $errors[]='Job skills can\'t be empty.';
+    if (empty($job_skills)) {
+        $errors[] = 'Job skills can\'t be empty.';
     }
-    if(empty($experience)){
-        $errors[]='Experience can\'t be empty.';
+    if (empty($experience)) {
+        $errors[] = 'Experience can\'t be empty.';
     }
-    
-    if(empty($errors)){
+
+    if (empty($errors)) {
         $insertquery = "INSERT INTO apa_job_posts ( job_id, job_title, job_short_description, country, county, company, employment_type, salary, key_primary_responsibilities, academic_qualifications, professional_qualifications, job_skills_and_requirements, experience, deadline, added_by)
                         VALUES('$job_id', '$job_title', '$job_short_description', '$country', '$county', '$company', '$employment_type', '$salary', '$primary_responsibilities', '$academic_qualification', '$professional_qualifications','$job_skills', '$experience', '$deadline', '$admin')";
         $db->query($insertquery);
-        
-        $_SESSION['successMessage']=$job_title.' added successfully';
+
+        $_SESSION['successMessage'] = $job_title . ' added successfully';
         echo '<script>window.open("index.php", "_SELF");</script>';
         exit();
-        
-    }    
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -237,7 +236,7 @@ if(isset($_POST['submit_job_post'])){
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['fname']. ' ' . $_SESSION['lname'] ; ?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $_SESSION['fname'] . ' ' . $_SESSION['lname']; ?></span>
                                 <img class="img-profile rounded-circle" src="img/apa_insurance_image.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
@@ -272,11 +271,11 @@ if(isset($_POST['submit_job_post'])){
                         <div class="wrap-contact100">
                             <form class="contact100-form validate-form" action="add_job.php" method="POST">
                                 <?php
-                                if(!empty($errors)){
+                                if (!empty($errors)) {
                                     echo display_errors($errors);
                                 }
-//                                echo errorMessage();
-//                                echo successMessage();
+                                //                                echo errorMessage();
+                                //                                echo successMessage();
                                 ?>
                                 <span class="contact100-form-title">
                                 </span>
@@ -286,32 +285,32 @@ if(isset($_POST['submit_job_post'])){
 
                                 <div class="wrap-input100 validate-input bg1" data-validate="Please Enter Job Name">
                                     <span class="label-input100">JOB TITLE *</span>
-                                    <input class="input100" type="text" name="job_title" placeholder="Enter job name" value="<?= ((isset($job_title))?$job_title:''); ?>">
+                                    <input class="input100" type="text" name="job_title" placeholder="Enter job name" value="<?= ((isset($job_title)) ? $job_title : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter employment type">
                                     <span class="label-input100">Employment type *</span>
-                                    <input class="input100" type="text" name="employment_type" placeholder="Enter type of employment " value="<?= ((isset($employment_type))? $employment_type:''); ?>">
+                                    <input class="input100" type="text" name="employment_type" placeholder="Enter type of employment " value="<?= ((isset($employment_type)) ? $employment_type : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Country required">
                                     <span class="label-input100">Country*</span>
-                                    <input class="input100" type="text" name="country" placeholder="Enter country" value="<?= ((isset($country))? $country :''); ?>">
+                                    <input class="input100" type="text" name="country" placeholder="Enter country" value="<?= ((isset($country)) ? $country : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="County required">
                                     <span class="label-input100">County*</span>
-                                    <input class="input100" type="text" name="county" placeholder="Enter county" value="<?= ((isset($county))? $county :''); ?>">
+                                    <input class="input100" type="text" name="county" placeholder="Enter county" value="<?= ((isset($county)) ? $county : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter company">
                                     <span class="label-input100">Company* <sup style="margin-left: 8px; font-size: 0.5rem; text-transform: none; !important">eg</sup> APA Life Insurance</span>
-                                    <input class="input100" type="text" name="company" placeholder="Enter company" value="<?= ((isset($company))? $company:''); ?>">
+                                    <input class="input100" type="text" name="company" placeholder="Enter company" value="<?= ((isset($company)) ? $company : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 rs1-wrap-input100">
                                     <span class="label-input100">Salary</span>
-                                    <input class="input100" type="number" name="salary" placeholder="Enter salary" value="<?= ((isset($salary))? $salary:''); ?>">
+                                    <input class="input100" type="number" name="salary" placeholder="Enter salary" value="<?= ((isset($salary)) ? $salary : ''); ?>">
                                 </div>
 
                                 <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter deadline">
@@ -321,32 +320,32 @@ if(isset($_POST['submit_job_post'])){
 
                                 <div class="wrap-input100 input100" data-validate="Short description required">
                                     <span class="label-input100">JOB SHORT DESCRIPTION</span>
-                                    <textarea id="editor0" class="input100" name="job_short_description" placeholder="Enter a short description of the job"><?=((isset($job_short_description))?$job_short_description:'');?></textarea>
+                                    <textarea id="editor0" class="input100" name="job_short_description" placeholder="Enter a short description of the job"><?= ((isset($job_short_description)) ? $job_short_description : ''); ?></textarea>
                                 </div>
 
                                 <div class="wrap-input100 input100" data-validate="Responsibilities required">
                                     <span class="label-input100">KEY PRIMARY RESPONSIBILITIES</span>
-                                    <textarea id="editor1" class="input100" name="primary_responsibilities" placeholder="Enter key primary responsibilites of the applicant"><?=((isset($primary_responsibilities))?$primary_responsibilities:'');?></textarea>
+                                    <textarea id="editor1" class="input100" name="primary_responsibilities" placeholder="Enter key primary responsibilites of the applicant"><?= ((isset($primary_responsibilities)) ? $primary_responsibilities : ''); ?></textarea>
                                 </div>
 
                                 <div class="wrap-input100" data-validate="Academic qualifications required">
                                     <span class="label-input100">ACADEMIC QUALIFICATIONS</span>
-                                    <textarea id="editor2" class="input100" name="academic_qualification" placeholder="Academic qualifications"><?=((isset($academic_qualification))?$academic_qualification:'');?></textarea>
+                                    <textarea id="editor2" class="input100" name="academic_qualification" placeholder="Academic qualifications"><?= ((isset($academic_qualification)) ? $academic_qualification : ''); ?></textarea>
                                 </div>
 
                                 <div class="wrap-input100" data-validate="Professional qualifications required">
                                     <span class="label-input100">PROFESSIONAL QUALIFICATIONS</span>
-                                    <textarea id="editor3" class="input100" name="professional_qualifications" placeholder="Professional qualifications"><?=((isset($professional_qualifications))?$professional_qualifications:'');?></textarea>
+                                    <textarea id="editor3" class="input100" name="professional_qualifications" placeholder="Professional qualifications"><?= ((isset($professional_qualifications)) ? $professional_qualifications : ''); ?></textarea>
                                 </div>
 
                                 <div class="wrap-input100">
                                     <span class="label-input100">JOB SKILLS AND REQUIREMENTS</span>
-                                    <textarea id="editor4" class="input100" name="job_skills" placeholder="Enter skills and requirements of the job"><?= ((isset($job_skills))? $job_skills:''); ?></textarea>
+                                    <textarea id="editor4" class="input100" name="job_skills" placeholder="Enter skills and requirements of the job"><?= ((isset($job_skills)) ? $job_skills : ''); ?></textarea>
                                 </div>
 
                                 <div class="wrap-input100">
                                     <span class="label-input100">EXPERIENCE</span>
-                                    <textarea id="editor5" class="input100" name="experience" placeholder="Enter experience of the applicant"><?= ((isset($experience))?$experience:''); ?></textarea>
+                                    <textarea id="editor5" class="input100" name="experience" placeholder="Enter experience of the applicant"><?= ((isset($experience)) ? $experience : ''); ?></textarea>
                                 </div>
                                 <div class="container-contact100-form-btn">
                                     <button class="contact100-form-btn" type="submit" name="submit_job_post">
@@ -480,7 +479,6 @@ if(isset($_POST['submit_job_post'])){
                 });
             });
         })
-
     </script>
     <!--===============================================================================================-->
     <script src="add/vendor/daterangepicker/moment.min.js"></script>
@@ -511,7 +509,6 @@ if(isset($_POST['submit_job_post'])){
             $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
             $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
         });
-
     </script>
     <!--===============================================================================================-->
     <script src="add/js/main.js"></script>
@@ -527,7 +524,6 @@ if(isset($_POST['submit_job_post'])){
         gtag('js', new Date());
 
         gtag('config', 'UA-23581568-13');
-
     </script>
 
     <script>
@@ -539,7 +535,6 @@ if(isset($_POST['submit_job_post'])){
         CKEDITOR.replace('editor3');
         CKEDITOR.replace('editor4');
         CKEDITOR.replace('editor5');
-
     </script>
 
     <!--    ckeditor scripts-->
@@ -596,7 +591,6 @@ if(isset($_POST['submit_job_post'])){
         // .catch(error => {
         // console.error(error);
         // });
-
     </script>
 </body>
 
