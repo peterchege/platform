@@ -125,16 +125,12 @@
                 </div>
                 <br>
                 <hr>
-                <h3>CHARGES</h3>
-                <ul class="rate">
-                    <li>Rates : <p>0.15%</p>
-                    </li>
-                    <li>Liability : <p>0.15%</p>
-                    </li>
-                    <li>Levy Tax : <p>0.45%</p>
-                    </li>
-                </ul>
-    <br>
+                    <h3>TOOL TIP</h3>
+                    <div class="rate">
+                        <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
+                    </div>
+                    
+                <br>
                 <div class="row  btn-check">
                     <div class="col-6">
                         <button class="btn btn-primary">

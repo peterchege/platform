@@ -177,10 +177,10 @@
 
 .btn-check .btn:hover {
     background-color: #C80D10;
-   border: 1px solid #C80D10;
-   -webkit-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
-   -moz-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
-   box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
+    border: 1px solid #C80D10;
+    -webkit-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
+    -moz-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
+    box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
 
 
 }
