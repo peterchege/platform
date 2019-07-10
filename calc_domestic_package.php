@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/calculator.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
+    <?php include 'inc/scripts.php'; ?>
 
 </head>
 
@@ -17,6 +18,7 @@
     <!-- ==============HEADER=============== -->
 
     <?php include 'views/nav.php'; ?>
+    
 
 
     <!-- =====================================DOMESTIC PACKAGE CALCULATOR ===================================== -->
@@ -53,10 +55,10 @@
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inputAddress">Property</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected disabled>Choose...</option>
-                                    <option>Owner</option>
-                                    <option>Tenant</option>
+                                <select id="inputState select1" name="select1" class="form-control">
+                                    <option value="0" selected disabled>Choose...</option>
+                                    <option value="1">Owner</option>
+                                    <option value="2">Tenant</option>
                                 </select>
                             </div>
                         </div>
@@ -64,12 +66,19 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Section</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected disabled>Choose...</option>
-                                    <option>Building</option>
-                                    <option>Content</option>
-                                    <option>All Risk</option>
-                                    <option>Domestic Employee</option>
+                                <select id="inputState select2" name="select2" class="form-control">
+
+                                    <!-- Owner -->
+                                    <option value="0" selected disabled>Choose...</option>
+                                    <option value="1">Building</option>
+                                    <option value="1">Content</option>
+                                    <option value="1">All Risk</option>
+                                    <option value="1">Domestic Employee</option>
+
+                                    <!-- tenant -->
+                                    <option value="2">Content</option>
+                                    <option value="2">All Risk</option>
+                                    <option value="2">Domestic Employee</option>
                                 </select>
                             </div>
 
@@ -116,7 +125,7 @@
             </div>
 
             <!-- Value Being displayed -->
-            <div class="col-md-3 box-container left-side">
+            <div class="col-md-3 box-container1 left-side">
 
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
 
@@ -125,33 +134,14 @@
                 </div>
                 <br>
                 <hr>
+
+                <div class="row">
+                    
+                </div>
                     <h3>TOOL TIP</h3>
                     <div class="rate">
                         <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                     </div>
-                    
-                <br>
-                <div class="row  btn-check">
-                    <div class="col-6">
-                        <button class="btn btn-primary">
-                            Save Quote
-                        </button>
-                    </div>
-                    <div class="col-6 btn-left">
-                        <button class="btn btn-primary">
-                            Request Assistance
-                        </button>
-                    </div>
-
-                </div>
-                <br>
-
-                <div class="row btn-red text-center">
-                    <div class="col-12">
-                        <button class="btn btn-danger">BUY NOW</button>
-                    </div>
-
-                </div>
 
             </div>
         </div>
@@ -164,46 +154,19 @@
 
     <!-- Optional JavaScript -->
 
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
+    
+    
     <script>
-        DecoupledEditor.create(document.querySelector('#editor'))
-            .then(editor => {
-                const toolbarContainer = document.querySelector('#toolbar-container');
 
-                toolbarContainer.appendChild(editor.ui.view.toolbar.element);
-            })
-            .catch(error => {
-                console.error(error);
-            });
+        //Reference: https://jsfiddle.net/fwv18zo1/
+        var $select1 = $( '#select1' ),
+            $select2 = $( '#select2' ),
+            $options = $select2.find( 'option' );
+            
+        $select1.on( 'change', function() {
+            $select2.html( $options.filter( '[value="' + this.value + '"]' ) );
+        } ).trigger( 'change' );
 
-
-
-
-        ClassicEditor
-            .create(document.querySelector('#editor1'), {
-                ckfinder: {
-                    uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
-                },
-                toolbar: ['ckfinder', 'imageUpload', '|', 'heading', '|', 'bold', 'italic', '|', 'undo', 'redo']
-            })
-            .catch(error => {
-                console.error(error);
-            });
     </script>
 
 </body>
