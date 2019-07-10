@@ -67,7 +67,6 @@
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Section</label>
                                 <select id="inputState select2" name="select2" class="form-control section selectFilter ">
-
                                     <!-- Owner -->
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="building" data-belong="owner" value="1">Building</option>
@@ -128,7 +127,6 @@
             <div class="col-md-3 box-container1 left-side">
 
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
-
                 <div class="box-amount">
                     <p>45,000 /=</p>
                 </div>
