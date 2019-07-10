@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/calculator.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
-    <?php include 'inc/scripts.php'; ?>
+    
 
 </head>
 
@@ -55,10 +55,10 @@
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inputAddress">Property</label>
-                                <select id="inputState select1" name="select1" class="form-control">
-                                    <option value="0" selected disabled>Choose...</option>
-                                    <option value="1">Owner</option>
-                                    <option value="2">Tenant</option>
+                                <select id="inputState category" name="category" class="form-control">
+                                    <option value="choose" selected disabled>Choose...</option>
+                                    <option value="owner">Owner</option>
+                                    <option value="tenant">Tenant</option>
                                 </select>
                             </div>
                         </div>
@@ -66,19 +66,19 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Section</label>
-                                <select id="inputState select2" name="select2" class="form-control">
+                                <select id="inputState choices" name="choices" class="form-control">
 
                                     <!-- Owner -->
-                                    <option value="0" selected disabled>Choose...</option>
+                                    <!-- <option value="0" selected disabled>Choose...</option>
                                     <option value="1">Building</option>
                                     <option value="1">Content</option>
                                     <option value="1">All Risk</option>
-                                    <option value="1">Domestic Employee</option>
+                                    <option value="1">Domestic Employee</option> -->
 
                                     <!-- tenant -->
-                                    <option value="2">Content</option>
+                                    <!-- <option value="2">Content</option>
                                     <option value="2">All Risk</option>
-                                    <option value="2">Domestic Employee</option>
+                                    <option value="2">Domestic Employee</option> -->
                                 </select>
                             </div>
 
@@ -153,21 +153,7 @@
 
 
     <!-- Optional JavaScript -->
-
-    
-    
-    <script>
-
-        //Reference: https://jsfiddle.net/fwv18zo1/
-        var $select1 = $( '#select1' ),
-            $select2 = $( '#select2' ),
-            $options = $select2.find( 'option' );
-            
-        $select1.on( 'change', function() {
-            $select2.html( $options.filter( '[value="' + this.value + '"]' ) );
-        } ).trigger( 'change' );
-
-    </script>
+    <?php include 'inc/scripts.php'; ?>           
 
 </body>
 
