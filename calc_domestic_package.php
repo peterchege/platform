@@ -134,24 +134,18 @@
                 </div>
                 <br>
                 <hr>
-
                 <div class="row">
-
                 </div>
                 <h3>TOOL TIP</h3>
                 <div class="rate">
                     <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                 </div>
-
             </div>
         </div>
 
     </div>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
-
-
-
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
