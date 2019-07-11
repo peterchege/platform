@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/calculator.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
+    
 
 
 </head>
