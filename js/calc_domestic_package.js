@@ -7,6 +7,8 @@ $(document).ready(function () {
         e.preventDefault();
         var building_value = +$('input[name="building_value"]', '#form').val();
         var content_value = +$('input[name="building_value"]', '#form').val();
+        var all_risk = +$('input[name="building_value"]', '#form').val();
+        var domesti_employee = +$('input[name="building_value"]', '#form').val();
 
         var selected = $('#property').children('option:selected').val();
 
@@ -22,10 +24,12 @@ $(document).ready(function () {
                 total = 0.01 * content_value;
             }
             if (section == "All Risk") {
-
+                if (isNaN(all_risk)) all_risk = 0;
+                total = 0.015 * all_risk;
             }
             if (section == "Domestic Employee") {
-
+                if (isNaN(domestic_employee)) domestic_employee = 0;
+                total = 0.02253 * domestic_employee;
             }
 
         } else if (selected == 'tenant') {
