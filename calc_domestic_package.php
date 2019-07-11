@@ -27,7 +27,7 @@
 
         <div class="row ">
             <div class="col-md-6 box-container">
-                <form>
+                <form id="form">
 
                     <div class="container forn-container" id="form-container">
                         <h2 class="text-center">Premium Information</h2>
@@ -56,10 +56,10 @@
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inputAddress">Property</label>
-                                <select id="inputState" name="select1" class="form-control selectFilter" data-target="section">
+                                <select id="inputState" name="property" class="form-control selectFilter" data-target="section">
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="owner" value="1">Owner</option>
-                                    <option data-ref="tenant" value="2">Tenant</option>
+                                    <option data-ref="owner" name="owner" value="owner">Owner</option>
+                                    <option data-ref="tenant" name="tenant" value="tenant">Tenant</option>
                                 </select>
                             </div>
                         </div>
@@ -70,11 +70,10 @@
                                 <select id="inputState select2" name="select2" class="form-control section selectFilter ">
                                     <!-- Owner -->
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="building" data-belong="owner" value="1">Building</option>
+                                    <option data-ref="building" data-belong="owner" value="0.15">Building</option>
                                     <option data-ref="content" data-belong="owner" value="1">Content</option>
                                     <option data-ref="all_risks" data-belong="owner" value="1">All Risk</option>
                                     <option data-ref="domestic_employee" data-belong="owner" value="1">Domestic Employee</option>
-
                                     <!-- tenant -->
                                     <option data-ref="content" data-belong="tenant" value="2">Content</option>
                                     <option data-ref="all_risk" data-belong="tenant" value="2">All Risk</option>
@@ -83,9 +82,8 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Value</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="2,000,000" value="">
-
+                                <label for="buiding_value">Value</label>
+                                <input name="building_value" id="buiding_value" type="number" class="form-control" placeholder="2,000,000">
                             </div>
                         </div>
 
@@ -114,7 +112,7 @@
 
                         <div class="row">
                             <div class="form-group col-md-6 btn-cal">
-                                <button class="btn btn-primary">CALCULATE</button>
+                                <button class="btn btn-primary" id="calculate">CALCULATE</button>
                             </div>
                         </div>
 
@@ -128,7 +126,7 @@
             <div class="col-md-3 box-container1 left-side">
 
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
-                <div class="box-amount">
+                <div class="box-amount total">
                     <p>45,000 /=</p>
                 </div>
                 <br>
@@ -176,6 +174,7 @@
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
+    <script src="js/calc_domestic_package.js"></script>
 
 </body>
 
