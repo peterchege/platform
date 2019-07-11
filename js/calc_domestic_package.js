@@ -3,8 +3,8 @@ $(document).ready(function () {
 
     $('#calculate').on('click', refreshTotal);
 
-    function refreshTotal() {
-
+    function refreshTotal(e) {
+        e.preventDefault();
         alert('lets do this');
     }
 });
