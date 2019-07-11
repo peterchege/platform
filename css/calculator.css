@@ -163,7 +163,7 @@
 }
 
 .rate p{
-    color: #C80D10;
+    color: #fff;
     display: inline-block;
     padding-left: 20px;
     font-family: 'Oswald',
@@ -171,54 +171,57 @@
 
 }
 
-.btn-check .btn {
-    background-color: #0C4DA2;
-    border: 1px solid #0C4DA2;
-    border-radius: 20px;
-    font-size: 14px;
-    padding: 8px 20px;
-    -webkit-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.4);
-
+.btn-assist{
+    margin: 20% auto 0% auto;
 }
 
-.btn-check .btn:hover {
+.btn-assist .btn{
+    width: 150px;
+    height: 40px;
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    color: #fff;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.btn-assist .btn:hover{
     background-color: #C80D10;
     border: 1px solid #C80D10;
     -webkit-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
     -moz-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
     box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
-
-
-}
-
-.btn-left {
-    margin-left: -40px;
+    font-weight: 500;
 }
 
 .btn-red{
     width: 100%;
-    margin: 10% auto;
+    margin: 12% auto 0 auto;
     padding-left: 40px;
+    
 }
 
 .btn-red .btn{
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
     padding: 10px 0;
     background-color: #C80D10;
     border: 1px solid #C80D10;
-    -webkit-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
-    -moz-box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
-    box-shadow: 0px 10px 21px 2px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+    color: #fff;
 
 }
 
 .btn-red .btn:hover {
     border: 1px solid #C80D10;
-    -webkit-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
-    -moz-box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
-    box-shadow: 0px 5px 9px -1px rgba(200, 13, 16, 1);
+    -webkit-box-shadow: 0px 5px 9px 4px rgba(200, 13, 16, 0.8);
+    -moz-box-shadow: 0px 5px 9px 4px rgba(200, 13, 16, 0.8);
+    box-shadow: 0px 5px 9px 4px rgba(200, 13, 16, 0.8);
+    font-weight: 500;
 
 }
