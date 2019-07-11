@@ -33,6 +33,9 @@
             <div class="col-md-6">
                 <div class="customer-login">
                     <h2> WELCOME TO OUR CUSTOMER PORTAL</h2>
+                    <div class="under-line img12">
+                        <img src="images/line.png" alt="">
+                    </div>
                     <form class="customer-form">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -61,18 +64,15 @@
                                 </div>
                             </div>
                             <hr>
-                            <!-- <p class="text-center">Sign in with :</p>
-                            <div class=" text-center new-bt">
-                                <a href="<?= ((isset($loginURL)) ? $loginURL : ''); ?>" class="btn btn-danger g-log">
-                                    <i class="fab fa-google-plus-g"></i> Sign in with Google</a>
+                            <p>Sign in with :</p>
+                            <div class="row btn-cust">
+                                <div class="col-md-6 ">
+                                    <a href="#" class="btn btn-gmail"><i class="fab fa-google-plus-g"></i> Gmail</a>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <a href="#" class="btn btn-fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                </div>
                             </div>
-                            <div class=" text-center new-bt">
-                                <a href="<?php
-                                            //echo $linkedin->getAuthUrl();
-                                            ?>" class="btn btn-primary t-log">
-                                    <i class="fab fa-linkedin-in"></i> Sign in with Linkedin</a>
-                            </div> -->
-
                         </div>
                     </form>
                 </div>
