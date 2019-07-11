@@ -144,9 +144,11 @@
 
                 <div class="row text-center">
                     <div class="col-6 btn-assist">
+                        <a href="customer_login.php">
                         <button class="btn btn-quote">
                             Save Quote
                         </button>
+                        </a>
                     </div>
                     <div class="col-6 btn-assist">
                         <button class="btn btn-quote">
@@ -158,7 +160,7 @@
 
                 <div class="row text-center">
                     <div class="col-12 btn-red">
-                        <button class="btn ">
+                        <button class="btn">
                             BUY NOW
                         </button>
                     </div>
