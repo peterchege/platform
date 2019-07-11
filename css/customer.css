@@ -1,0 +1,90 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+/* Domestic package DESIGN */
+
+.back-img{
+    width: 100%;
+    background-image: url(../img/man.jpg);
+    background-size: cover;
+    background-position: left center;
+}
+
+.customer-login{
+    margin: 10% auto;
+}
+
+.customer-login h2{
+    padding-top: 10%;
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.customer-form{
+    width: 60%;
+    margin: 3% auto 5% auto;
+    
+}
+
+.customer-form label{
+    color: #0D345F;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.customer-form input{
+    padding: 25px 10px;
+
+}
+
+.customer-btn .btn{
+    margin: 5% auto; 
+    width: 70%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    background-color: #0C4DA2;
+    border: 1px solid #0C4DA2;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 5px 8px -2px rgba(12, 77, 162, 1);
+    -moz-box-shadow: 0px 5px 8px -2px rgba(12, 77, 162, 1);
+    box-shadow: 0px 5px 8px -2px rgba(12, 77, 162, 1);
+
+}
+
+.btn-cust .btn-gmail {
+    background-color: #C80D10;
+    border: 1px solid #C80D10;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn-cust .btn-fb {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn-cust .fab {
+    padding-right: 10px;
+}
