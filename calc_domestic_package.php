@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/calculator.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
-    
+
 
 
 </head>
@@ -139,6 +139,30 @@
                 <div class="rate">
                     <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                 </div>
+
+                <div class="row text-center">
+                    <div class="col-6 btn-assist">
+                        <button class="btn btn-quote">
+                            Save Quote
+                        </button>
+                    </div>
+                    <div class="col-6 btn-assist">
+                        <button class="btn btn-quote">
+                            Request Assistance
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-12 btn-red">
+                        <button class="btn ">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+
+
             </div>
         </div>
 
