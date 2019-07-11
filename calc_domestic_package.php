@@ -113,7 +113,7 @@
 
                         <div class="row">
                             <div class="form-group col-md-6 btn-cal">
-                                <button class="btn btn-primary">CALCULATE</button>
+                                <button class="btn btn-primary" id="calculate">CALCULATE</button>
                             </div>
                         </div>
 
@@ -127,7 +127,7 @@
             <div class="col-md-3 box-container1 left-side">
 
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
-                <div class="box-amount">
+                <div class="box-amount total">
                     <p>45,000 /=</p>
                 </div>
                 <br>
@@ -147,6 +147,7 @@
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
+    <script src="js/calc_domestic_package.js"></script>
 
 </body>
 
