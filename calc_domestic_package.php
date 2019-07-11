@@ -139,6 +139,8 @@
                 <div class="rate">
                     <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                 </div>
+                <br>
+                <hr>
 
                 <div class="row text-center">
                     <div class="col-6 btn-assist">
