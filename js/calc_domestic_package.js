@@ -53,5 +53,11 @@ $(document).ready(function () {
         }
 
         $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
+        if (total) {
+            $('html,body').animate({
+                    scrollTop: $('.box-container1').offset().top
+                },
+                1000);
+        }
     }
 });
