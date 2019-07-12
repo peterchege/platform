@@ -208,8 +208,9 @@ require_once 'inc/functions.php';
                             <h2>Domestic Package</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself, 
+                            contents whilst in the house and outside the house...
+                    
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -287,7 +288,7 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing 
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
