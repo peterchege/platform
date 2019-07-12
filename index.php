@@ -102,9 +102,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    SELF SERVICE LOGIN
-                </button>
+                <a href="customer_login.php">
+                    <button class="btn btn-primary">
+                        SELF SERVICE LOGIN
+                    </button>
+                </a>
             </div>
 
             <div class="col-12">
@@ -147,6 +149,31 @@ require_once 'inc/functions.php';
 
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
+                        <div class="box-container-img prod-2">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Motor Private insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
+                            sapiente sit mollitia quaerat suscipit vitae.
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
                         <div class="box-container-img prod-1">
                             <div class="overlay">
                             </div>
@@ -165,19 +192,19 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-2">
+                        <div class="box-container-img prod-4">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2>Domestic Package</h2>
                         </div>
                         <br>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
@@ -186,7 +213,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -196,6 +223,10 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
+                </div>
+
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -215,35 +246,7 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2>Marine Insurance</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -300,7 +303,6 @@ require_once 'inc/functions.php';
                     </div>
                 </div>
 
-
             </div>
 
 
@@ -354,7 +356,7 @@ require_once 'inc/functions.php';
                                 your hand and walk with you through the claims process
                             </P>
                             <div class="load-more">
-                                <a href="#" class="btn btn-primary">MAKE CLAIM</a>
+                                <a href="claim.php" class="btn btn-primary">MAKE CLAIM</a>
                             </div>
                         </div>
                     </div>
@@ -367,7 +369,7 @@ require_once 'inc/functions.php';
                                 all these at the comfort of your device
                             </P><BR>
                             <div class="load-more">
-                                <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                                <a href="Customer_login.php" class="btn btn-primary">OPEN PORTAL</a>
                             </div>
                         </div>
                     </div>
