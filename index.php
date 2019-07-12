@@ -2,48 +2,7 @@
 require_once 'inc/db.php';
 require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
-// if (isset($_POST['book'])) {
-//     $room_name = sanitize($_POST['room_name']);
-//     $start_date = sanitize($_POST['start_date']);
-//     $end_date = sanitize($_POST['end_date']);
-//     $start_time = sanitize($_POST['start_time']);
-//     $end_time = sanitize($_POST['end_time']);
-//     $company_name = sanitize($_POST['company_name']);
-//     $phone = sanitize($_POST['phone']);
-//     $email = sanitize($_POST['email']);
-//     $capacity = sanitize($_POST['capacity']);
-//     $more_information = sanitize($_POST['more_information']);
 
-//     // if (empty($room_name) || empty($start_date) || empty($end_date) || empty($start_time) || empty($end_time) || empty($company_name) || empty($phone) || empty($email) || empty($capacity)) {
-//     //     $errors[] = 'Every field is required.';
-//     // }
-//     // if (strtotime($start_date) > strtotime($end_date)) {
-//     //     $errors[] = 'Invalid date selection.';
-//     // }
-//     // if (strtotime($start_time) > strtotime($end_time)) {
-//     //     $errors[] = 'Invalid time selection.';
-//     // }
-//     // if ($room_name < 1 || $room_name > 6) {
-//     //     $errors[] = 'Invalid room selection.';
-//     // }
-
-//     if (empty($errors)) {
-//         // run insert
-//         $booking = $db->query("INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
-//                                 VALUES ('$room_name', '$start_date', '$end_date', '$start_time', '$end_time', '$company_name', '$phone', '$email', '$capacity', '$more_information')  ");
-//         if ($booking) {
-//             //$_SESSION['successMessage'] = 'Booking successful.';
-//             echo "<script>
-//         alert('Booking was successful.');
-//     </script>";
-//         } else {
-//             //$_SESSION['errorMessage'] = 'An error occurred. Please try again.';
-//             echo "<script>
-//         alert('An error occurred. Please try again.');
-//     </script>";
-//         }
-//     }
-// }
 ?>
 <!doctype html>
 <html lang="en">
@@ -170,7 +129,7 @@ require_once 'inc/functions.php';
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product text-center">
+        <div class="product text-center move-up">
 
             <h1>WHAT WE OFFER</h1>
             <!-- <hr class="line what"> -->
