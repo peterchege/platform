@@ -8,9 +8,11 @@ $(document).ready(function () {
         var building_value = +$('input[name="building_value"]', '#form').val();
         var content_value = +$('input[name="building_value"]', '#form').val();
         var all_risk = +$('input[name="building_value"]', '#form').val();
-        var domesti_employee = +$('input[name="building_value"]', '#form').val();
+        var domestic_employee = +$('input[name="building_value"]', '#form').val();
+        var tenant_value = +$('input[name="building_value"]', '#form').val();
 
         var selected = $('#property').children('option:selected').val();
+        var total = '';
 
         if (selected == 'owner') {
             var section = $('#section').children('option:selected').val();
@@ -30,13 +32,26 @@ $(document).ready(function () {
             } else {
                 alert("Please choose section!");
             }
+
         } else if (selected == 'tenant') {
-            console.log(selected);
+            var section = $('#section').children('option:selected').val();
+            if (section == "Content") {
+                if (isNaN(tenant_value)) tenant_value = 0;
+                total = 0.01 * tenant_value;
+            } else if (section == "All Risk") {
+                if (isNaN(tenant_value)) tenant_value = 0;
+                total = 0.0015 * tenant_value;
+            } else if (section == "Domestic Employee") {
+                if (isNaN(tenant_value)) tenant_value = 0;
+                total = 0.02253 * tenant_value;
+            } else {
+                alert("Please choose section!");
+            }
+
         } else {
             alert("Please choose property type!");
         }
 
-        console.log(building_value);
         $('.total').html('<p>' + total + '</p>');
     }
 });
