@@ -151,17 +151,19 @@ require_once 'inc/functions.php';
                             <h2>Travel Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Explore wild possibilities and adventures unbothered!
+
+                            Whether you are headed for a business trip or a trip of a lifetime, our
+                            Globetrotter policy ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="http://192.168.100.20/APA-STS/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -176,17 +178,17 @@ require_once 'inc/functions.php';
                             <h2>Motor Private insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the
+                            event that the motor vehicle insured is involved in an accident, burnt, stolen ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="http://192.168.100.20/APA-STS/motor/quote/4" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -201,8 +203,8 @@ require_once 'inc/functions.php';
                             <h2> Family Health Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A healthy
+                            family is a happy family. This is why we have medical insurance products...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -211,13 +213,13 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
@@ -229,8 +231,8 @@ require_once 'inc/functions.php';
                             <h2>Marine Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Sail your goods across different regions with no worry.
+                            This cover is crafted for both individuals and corporates transporting goods..
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -239,7 +241,7 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_marine.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -254,8 +256,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the
+                            event that the motor vehicle insured is involved in an accident, burnt, stolen ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -279,8 +281,8 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">This is a multi-peril micro-insurance product rolled
+                            out together with the Government of Kenya and other insurers.It covers small holder ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -289,7 +291,7 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

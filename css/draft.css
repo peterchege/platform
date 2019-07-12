@@ -198,7 +198,7 @@ a:focus {
 .banner-home {
     margin-top: 6%;
     width: 100%;
-    height: 55vh;
+    height: 45vh;
     background-image: url(../img/pip.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ a:focus {
     content: '';
     background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
-    height: 57.4%;
+    height: 47.4%;
     width: 100%;
     margin-top: 5%;
     top: 0;
@@ -283,7 +283,7 @@ a:focus {
 }
 
 .banner-home .quick-link{
-    padding-top: 9%;
+    padding-top: 4%;
 }
 
 .quick-link .btn{
