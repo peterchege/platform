@@ -52,6 +52,6 @@ $(document).ready(function () {
             alert("Please choose property type!");
         }
 
-        $('.total').html('<p>' + total + '</p>');
+        $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
     }
 });

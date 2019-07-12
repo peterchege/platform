@@ -35,7 +35,8 @@
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
 <!-- money formatter -->
-<script src="js/simple.money.format.js"></script>
+<script src="js/numeral.js"></script>
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {},

@@ -83,7 +83,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="buiding_value">Value</label>
-                                <input name="building_value" id="buiding_value" type="number" class="form-control" placeholder="2,000,000">
+                                <input name="building_value" id="buiding_value" type="text" class="form-control" placeholder="2,000,000">
                             </div>
                         </div>
 
@@ -143,9 +143,9 @@
                 <div class="row text-center">
                     <div class="col-6 btn-assist">
                         <a href="customer_login.php">
-                        <button class="btn btn-quote">
-                            Save Quote
-                        </button>
+                            <button class="btn btn-quote">
+                                Save Quote
+                            </button>
                         </a>
                     </div>
                     <div class="col-6 btn-assist">
