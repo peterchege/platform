@@ -18,20 +18,18 @@ $(document).ready(function () {
             if (section == "Building") {
                 if (isNaN(building_value)) building_value = 0;
                 total = 0.0015 * building_value;
-            }
-            if (section == "Content") {
+            } else if (section == "Content") {
                 if (isNaN(content_value)) content_value = 0;
                 total = 0.01 * content_value;
-            }
-            if (section == "All Risk") {
+            } else if (section == "All Risk") {
                 if (isNaN(all_risk)) all_risk = 0;
                 total = 0.015 * all_risk;
-            }
-            if (section == "Domestic Employee") {
+            } else if (section == "Domestic Employee") {
                 if (isNaN(domestic_employee)) domestic_employee = 0;
                 total = 0.02253 * domestic_employee;
+            } else {
+                alert("Please select section");
             }
-
         } else if (selected == 'tenant') {
             console.log(selected);
         } else {
