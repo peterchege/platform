@@ -28,15 +28,13 @@ $(document).ready(function () {
                 if (isNaN(domestic_employee)) domestic_employee = 0;
                 total = 0.02253 * domestic_employee;
             } else {
-                alert("Please select section");
+                alert("Please choose section!");
             }
         } else if (selected == 'tenant') {
             console.log(selected);
         } else {
             alert("Please choose property type!");
         }
-
-
 
         console.log(building_value);
         $('.total').html('<p>' + total + '</p>');
