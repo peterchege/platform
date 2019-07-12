@@ -2,48 +2,6 @@
 require_once 'inc/db.php';
 require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
-// if (isset($_POST['book'])) {
-//     $room_name = sanitize($_POST['room_name']);
-//     $start_date = sanitize($_POST['start_date']);
-//     $end_date = sanitize($_POST['end_date']);
-//     $start_time = sanitize($_POST['start_time']);
-//     $end_time = sanitize($_POST['end_time']);
-//     $company_name = sanitize($_POST['company_name']);
-//     $phone = sanitize($_POST['phone']);
-//     $email = sanitize($_POST['email']);
-//     $capacity = sanitize($_POST['capacity']);
-//     $more_information = sanitize($_POST['more_information']);
-
-//     // if (empty($room_name) || empty($start_date) || empty($end_date) || empty($start_time) || empty($end_time) || empty($company_name) || empty($phone) || empty($email) || empty($capacity)) {
-//     //     $errors[] = 'Every field is required.';
-//     // }
-//     // if (strtotime($start_date) > strtotime($end_date)) {
-//     //     $errors[] = 'Invalid date selection.';
-//     // }
-//     // if (strtotime($start_time) > strtotime($end_time)) {
-//     //     $errors[] = 'Invalid time selection.';
-//     // }
-//     // if ($room_name < 1 || $room_name > 6) {
-//     //     $errors[] = 'Invalid room selection.';
-//     // }
-
-//     if (empty($errors)) {
-//         // run insert
-//         $booking = $db->query("INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
-//                                 VALUES ('$room_name', '$start_date', '$end_date', '$start_time', '$end_time', '$company_name', '$phone', '$email', '$capacity', '$more_information')  ");
-//         if ($booking) {
-//             //$_SESSION['successMessage'] = 'Booking successful.';
-//             echo "<script>
-//         alert('Booking was successful.');
-//     </script>";
-//         } else {
-//             //$_SESSION['errorMessage'] = 'An error occurred. Please try again.';
-//             echo "<script>
-//         alert('An error occurred. Please try again.');
-//     </script>";
-//         }
-//     }
-// }
 ?>
 <!doctype html>
 <html lang="en">
@@ -91,28 +49,34 @@ require_once 'inc/functions.php';
 
             <div class="container">
                 <div class="row ">
-                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">
-                        <i class="fas fa-user-shield"></i>
-                        <p>Personal</p>
+
+                    <div class="c0l-md-4 font-awsome text-center">
+                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                            <i class="fas fa-car"></i>
+                            <p>Motor Private</p>
+                        </a>
+                    </div>
+
+
+                    <div class="c0l-md-4 font-awsome text-center">
+                        <a href="#">
+                            <i class="fas fa-plane-departure"></i>
+                            <p>Travel Insurance</p>
+                        </a>
                     </div>
 
                     <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-heartbeat"></i>
-                        <p>Health</p>
+                        <a href="calc_domestic_package.php">
+                            <i class="fas fa-home"></i>
+                            <p>Domestic Package</p>
+                        </a>
                     </div>
 
                     <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-hand-holding-heart"></i>
-                        <p>Life</p>
-                    </div>
-
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <p>Investment</p>
-                    </div>
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-store"></i>
-                        <p>Commercial</p>
+                        <a href="#">
+                            <i class="fas fa-user-injured"></i>
+                            <p>Personal Accident</p>
+                        </a>
                     </div>
                 </div>
                 <br>
@@ -546,7 +510,7 @@ require_once 'inc/functions.php';
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
                         </div>
-                    </a>    
+                    </a>
                 </div>
             </div>
 
