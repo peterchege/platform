@@ -83,7 +83,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="buiding_value">Value</label>
-                                <input name="building_value" id="buiding_value" type="text" class="form-control" placeholder="2,000,000">
+                                <input name="building_value" id="buiding_value" type="text" class="form-control" placeholder="Enter Value">
                             </div>
                         </div>
 
@@ -127,7 +127,7 @@
 
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
                 <div class="box-amount total">
-                    <p>45,000 /=</p>
+                    <p></p>
                 </div>
                 <br>
                 <hr>

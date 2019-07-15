@@ -34,7 +34,7 @@
 
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
-<!-- money formatter -->
+<!-- numeral formatter -->
 <script src="js/numeral.js"></script>
 
 <!--Start of Tawk.to Script-->

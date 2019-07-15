@@ -5,7 +5,9 @@ $(document).ready(function () {
 
     function refreshTotal(e) {
         e.preventDefault();
-        var building_value = +$('input[name="building_value"]', '#form').val();
+        var building_value = $('input[name="building_value"]', '#form').val();
+        var building_value = +numeral(building_value).value();
+        console.log(building_value);
         var content_value = +$('input[name="building_value"]', '#form').val();
         var all_risk = +$('input[name="building_value"]', '#form').val();
         var domestic_employee = +$('input[name="building_value"]', '#form').val();
