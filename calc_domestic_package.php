@@ -68,14 +68,14 @@
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Section</label>
                                 <select id="section" name="section" class="form-control section selectFilter "> -->
-                                    <!-- Owner -->
-                                    <!-- <option value="-1" selected disabled>Choose...</option>
+                        <!-- Owner -->
+                        <!-- <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="building" data-belong="owner" value="Building">Building</option>
                                     <option data-ref="content" data-belong="owner" value="Content">Content</option>
                                     <option data-ref="all_risks" data-belong="owner" value="All Risk">All Risk</option>
                                     <option data-ref="domestic_employee" data-belong="owner" value="Domestic Employee">Domestic Employee</option> -->
-                                    <!-- tenant -->
-                                    <!-- <option data-ref="content" data-belong="tenant" value="Content">Content</option>
+                        <!-- tenant -->
+                        <!-- <option data-ref="content" data-belong="tenant" value="Content">Content</option>
                                     <option data-ref="all_risk" data-belong="tenant" value="All Risk">All Risk</option>
                                     <option data-ref="domestic_employee" data-belong="tenant" value="Domestic Employee">Domestic Employee</option>
                                 </select>
@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
-                                            Building Cover ( NOTE: We only ensure First class construction)
+                                            Building Cover ( NOTE: We only insure brick material construction)
                                         </label>
                                     </div>
                                 </div>
@@ -140,8 +140,30 @@
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
-                                            All Risk Cover ( NOTE: You cannot take this package alone, you will need to 
-                                                            add one more cover.)
+                                            All Risk Cover ( NOTE: You cannot take this package alone, you will need to
+                                            add one more cover.)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Declare Amount</label>
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+
+                            </div>
+                        </div>
+
+                        <!-- SECTION DOMESTIC EMPLOYEE -->
+                        <div class="row">
+                            <div class="form-group col-md-6 ">
+                                <div class="row check-cn">
+                                    <div class="col-2 check-bx">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    </div>
+                                    <div class="col-10">
+                                        <label class="form-check-label" for="gridCheck1">
+                                            Domestic Employee
                                         </label>
                                     </div>
                                 </div>
