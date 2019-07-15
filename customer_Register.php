@@ -77,7 +77,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <a href="customer_Login.php">Already Have an account? Login</a> </div>
+                                        <a href="customer_login.php">Already Have an account? Login</a> </div>
                                 </div>
 
                             </div>

@@ -55,7 +55,7 @@
                             <div class="row">
                                 <div class="col-md-7 col-sm-7">
                                     <div class="form-group">
-                                        <a href="customer_Register.php">Don't have an Account? Create account</a> </div>
+                                        <a href="customer_register.php">Don't have an Account? Create account</a> </div>
                                 </div>
                                 <div class="col-md-5 col-sm-5 text-right">
                                     <div class="form-group">

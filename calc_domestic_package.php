@@ -253,7 +253,7 @@
                 <br>
                 <hr>
 
-                <div class="row text-center">
+                <div class="row text-center pos-btn">
                     <div class="col-6 btn-assist">
                         <a href="customer_login.php">
                             <button class="btn btn-quote">
