@@ -217,7 +217,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <input class="form-check-input" type="checkbox" id="liability" onclick="myFunction_liability()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -230,10 +230,20 @@
 
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" disabled>
-
+                                <input name="liability_amount" id="liability_amount" type="number" class="form-control" placeholder="500,000" disabled>
                             </div>
                         </div>
+
+                        <script>
+                            function myFunction_liability() {
+                                if (domestic_check.checked == true) {
+                                    document.getElementById("liability_amount").disabled = false;
+                                } else {
+                                    document.getElementById("liability_amount").disabled = true;
+                                }
+                            }
+                        </script>
+
                         <br>
 
                         <div class="row">
