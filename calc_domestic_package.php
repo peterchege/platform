@@ -102,21 +102,18 @@
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-6" id="text" style="display:none">
-                                <!-- <label for="inputAddress"> Building value</label> -->
-                                <input name="amount" type="number" class="form-control" placeholder="Building value" value="">
+                            <div class="form-group col-md-6" id="text" disabled>
+                                <input name="building" id="building" type="number" class="form-control" placeholder="Building value" value="" disabled>
 
                             </div>
                         </div>
 
                         <script>
                             function myFunction() {
-                                var checkBox = document.getElementById("myCheck");
-                                var text = document.getElementById("text");
-                                if (checkBox.checked == true) {
-                                    text.style.display = "block";
+                                if (myCheck.checked == true) {
+                                    document.getElementById("building").disabled = false;
                                 } else {
-                                    text.style.display = "none";
+                                    document.getElementById("building").disabled = true;
                                 }
                             }
                         </script>
@@ -137,7 +134,6 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <!-- <label for="inputAddress">Contents Total Value</label> -->
                                 <input name="amount" id="content" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
 
                             </div>
@@ -160,7 +156,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -171,11 +167,20 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <!-- <label for="inputAddress">All Risk Total value</label> -->
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="All Risk Total value" value="">
+                                <input name="risk_amount" id="risk_amount" type="number" class="form-control" placeholder="All Risk Total value" disabled>
 
                             </div>
                         </div>
+
+                        <script>
+                            function myFunction() {
+                                if (risk_check.checked == true) {
+                                    document.getElementById("risk_amount").disabled = false;
+                                } else {
+                                    document.getElementById("risk_amount").disabled = true;
+                                }
+                            }
+                        </script>
 
                         <!-- SECTION DOMESTIC EMPLOYEE -->
                         <div class="row">
@@ -194,7 +199,7 @@
 
                             <div class="form-group col-md-6">
                                 <!-- <label for="inputAddress">Total Annual Salary</label> -->
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Total Annual Salary" value="">
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Total Annual Salary" disabled>
 
                             </div>
                         </div>
@@ -217,7 +222,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" disabled>
 
                             </div>
                         </div>
