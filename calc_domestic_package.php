@@ -126,9 +126,9 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck11" onclick="myFunction1()">
                                     </div>
-                                    <div class="col-10">
+                                    <div class=" col-10">
                                         <label class="form-check-label" for="gridCheck1">
                                             Contents Cover
                                         </label>
@@ -138,10 +138,22 @@
 
                             <div class="form-group col-md-6">
                                 <!-- <label for="inputAddress">Contents Total Value</label> -->
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Contents Total Value" value="">
+                                <input name="amount" id="content" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
 
                             </div>
                         </div>
+
+                        <script>
+                            function myFunction1() {
+                                if (gridCheck11.checked == true) {
+                                    document.getElementById("content").disabled = false;
+                                } else {
+                                    document.getElementById("content").disabled = true;
+                                }
+                            }
+                        </script>
+
+
 
                         <!-- SECTION ALLRISK -->
                         <div class="row">
