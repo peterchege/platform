@@ -2,48 +2,6 @@
 require_once 'inc/db.php';
 require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
-// if (isset($_POST['book'])) {
-//     $room_name = sanitize($_POST['room_name']);
-//     $start_date = sanitize($_POST['start_date']);
-//     $end_date = sanitize($_POST['end_date']);
-//     $start_time = sanitize($_POST['start_time']);
-//     $end_time = sanitize($_POST['end_time']);
-//     $company_name = sanitize($_POST['company_name']);
-//     $phone = sanitize($_POST['phone']);
-//     $email = sanitize($_POST['email']);
-//     $capacity = sanitize($_POST['capacity']);
-//     $more_information = sanitize($_POST['more_information']);
-
-//     // if (empty($room_name) || empty($start_date) || empty($end_date) || empty($start_time) || empty($end_time) || empty($company_name) || empty($phone) || empty($email) || empty($capacity)) {
-//     //     $errors[] = 'Every field is required.';
-//     // }
-//     // if (strtotime($start_date) > strtotime($end_date)) {
-//     //     $errors[] = 'Invalid date selection.';
-//     // }
-//     // if (strtotime($start_time) > strtotime($end_time)) {
-//     //     $errors[] = 'Invalid time selection.';
-//     // }
-//     // if ($room_name < 1 || $room_name > 6) {
-//     //     $errors[] = 'Invalid room selection.';
-//     // }
-
-//     if (empty($errors)) {
-//         // run insert
-//         $booking = $db->query("INSERT INTO apollo_confrence_facilities_bookings (`apollo_confrence_facilities_fk`, `start_date`, `end_date`, `start_time`, `end_time`, `company_name`, `phone_number`, `email`, `capacity`, `more_information` )
-//                                 VALUES ('$room_name', '$start_date', '$end_date', '$start_time', '$end_time', '$company_name', '$phone', '$email', '$capacity', '$more_information')  ");
-//         if ($booking) {
-//             //$_SESSION['successMessage'] = 'Booking successful.';
-//             echo "<script>
-//         alert('Booking was successful.');
-//     </script>";
-//         } else {
-//             //$_SESSION['errorMessage'] = 'An error occurred. Please try again.';
-//             echo "<script>
-//         alert('An error occurred. Please try again.');
-//     </script>";
-//         }
-//     }
-// }
 ?>
 <!doctype html>
 <html lang="en">
@@ -86,33 +44,39 @@ require_once 'inc/functions.php';
 
         <div class="box-quote">
             <div class="row">
-                <h3 class="text-center">Select a product to request a Free Quote</h3>
+                <h3 class="text-center">Select a product to buy now</h3>
             </div>
 
             <div class="container">
                 <div class="row ">
-                    <div class="c0l-md-4 font-awsome text-center" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">
-                        <i class="fas fa-user-shield"></i>
-                        <p>Personal</p>
+
+                    <div class="c0l-md-4 font-awsome text-center">
+                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
+                            <i class="fas fa-car"></i>
+                            <p>Motor Private</p>
+                        </a>
+                    </div>
+
+
+                    <div class="c0l-md-4 font-awsome text-center">
+                        <a href="http://192.168.100.20/APA-STS/travel/sts/about-trip/1">
+                            <i class="fas fa-plane-departure"></i>
+                            <p>Travel Insurance</p>
+                        </a>
                     </div>
 
                     <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-heartbeat"></i>
-                        <p>Health</p>
+                        <a href="calc_domestic_package.php">
+                            <i class="fas fa-home"></i>
+                            <p>Domestic Package</p>
+                        </a>
                     </div>
 
                     <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-hand-holding-heart"></i>
-                        <p>Life</p>
-                    </div>
-
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <p>Investment</p>
-                    </div>
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <i class="fas fa-store"></i>
-                        <p>Commercial</p>
+                        <a href="#">
+                            <i class="fas fa-user-injured"></i>
+                            <p>Personal Accident</p>
+                        </a>
                     </div>
                 </div>
                 <br>
@@ -138,9 +102,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    SELF SERVICE LOGIN
-                </button>
+                <a href="customer_login.php">
+                    <button class="btn btn-primary">
+                        SELF SERVICE LOGIN
+                    </button>
+                </a>
             </div>
 
             <div class="col-12">
@@ -183,31 +149,6 @@ require_once 'inc/functions.php';
 
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-1">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2>Travel Insurance</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
                         <div class="box-container-img prod-2">
                             <div class="overlay">
                             </div>
@@ -216,13 +157,65 @@ require_once 'inc/functions.php';
                             <h2>Motor Private insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved
+                            in an accident, burnt, stolen ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-1">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Travel Insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
+                            policy will ensure you will have nothing to worry about...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
                                 <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-4">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Domestic Package</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself, 
+                            contents whilst in the house and outside the house...
+                    
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -232,6 +225,10 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
+                </div>
+
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -241,8 +238,8 @@ require_once 'inc/functions.php';
                             <h2> Family Health Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -251,35 +248,7 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2>Marine Insurance</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -294,8 +263,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -304,7 +273,7 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -319,8 +288,8 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam,
-                            sapiente sit mollitia quaerat suscipit vitae.
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -329,13 +298,12 @@ require_once 'inc/functions.php';
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
                 </div>
-
 
             </div>
 
@@ -390,7 +358,7 @@ require_once 'inc/functions.php';
                                 your hand and walk with you through the claims process
                             </P>
                             <div class="load-more">
-                                <a href="#" class="btn btn-primary">MAKE CLAIM</a>
+                                <a href="claim.php" class="btn btn-primary">MAKE CLAIM</a>
                             </div>
                         </div>
                     </div>
@@ -403,7 +371,7 @@ require_once 'inc/functions.php';
                                 all these at the comfort of your device
                             </P><BR>
                             <div class="load-more">
-                                <a href="#" class="btn btn-primary">OPEN PORTAL</a>
+                                <a href="Customer_login.php" class="btn btn-primary">OPEN PORTAL</a>
                             </div>
                         </div>
                     </div>
@@ -546,7 +514,7 @@ require_once 'inc/functions.php';
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
                         </div>
-                    </a>    
+                    </a>
                 </div>
             </div>
 

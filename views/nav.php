@@ -20,7 +20,7 @@
                 <li><a href="career.php">INVESTMENT</a></li>
                 <li><a href="csr.php">COMMERCIAL INSURANCE</a></li>
                 <!-- <li><a href="about_us.php">ABOUT US</a></li> -->
-                <li><a href="career.php">Customer Centre</a></li>
+                <li><a href="about_us.php">About Us</a></li>
             </ul>
 
             <div id="flags">
