@@ -88,7 +88,7 @@
                         </div> -->
 
                         <!-- SECTION BUILDING -->
-                        <div class="row">
+                        <div class="row row-section owner">
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
@@ -119,7 +119,7 @@
                         </script>
 
                         <!-- SECTION CONTENT -->
-                        <div class="row">
+                        <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
@@ -152,7 +152,7 @@
 
 
                         <!-- SECTION ALLRISK -->
-                        <div class="row">
+                        <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
@@ -183,7 +183,7 @@
                         </script>
 
                         <!-- SECTION DOMESTIC EMPLOYEE -->
-                        <div class="row">
+                        <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
@@ -213,7 +213,7 @@
                         </script>
 
                         <hr>
-                        <div class="row">
+                        <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
@@ -246,7 +246,7 @@
 
                         <br>
 
-                        <div class="row">
+                        <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 btn-cal">
                                 <button class="btn btn-primary" id="calculate">CALCULATE</button>
                             </div>

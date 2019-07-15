@@ -63,3 +63,10 @@ $(document).ready(function () {
         }
     }
 });
+$('.row-section').hide();
+$(function () {
+    $('#property').change(function () {
+        $('.row-section').hide();
+        $('.' + $(this).val()).show();
+    });
+});
