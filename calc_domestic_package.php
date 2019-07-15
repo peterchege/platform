@@ -64,29 +64,6 @@
                             </div>
                         </div>
 
-                        <!-- <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="inputAddress">Section</label>
-                                <select id="section" name="section" class="form-control section selectFilter "> -->
-                        <!-- Owner -->
-                        <!-- <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="building" data-belong="owner" value="Building">Building</option>
-                                    <option data-ref="content" data-belong="owner" value="Content">Content</option>
-                                    <option data-ref="all_risks" data-belong="owner" value="All Risk">All Risk</option>
-                                    <option data-ref="domestic_employee" data-belong="owner" value="Domestic Employee">Domestic Employee</option> -->
-                        <!-- tenant -->
-                        <!-- <option data-ref="content" data-belong="tenant" value="Content">Content</option>
-                                    <option data-ref="all_risk" data-belong="tenant" value="All Risk">All Risk</option>
-                                    <option data-ref="domestic_employee" data-belong="tenant" value="Domestic Employee">Domestic Employee</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <label for="buiding_value">Value</label>
-                                <input name="building_value" id="buiding_value" type="text" class="form-control" placeholder="Enter Value">
-                            </div>
-                        </div> -->
-
                         <!-- SECTION BUILDING -->
                         <div class="row">
                             <div class="form-group col-md-6 ">
