@@ -68,5 +68,10 @@ $(function () {
     $('#property').change(function () {
         $('.row-section').hide();
         $('.' + $(this).val()).show();
+        $.each($('.row-section'), function () {
+            if ($(this).is(':hidden')) {
+                $('input').val('');
+            }
+        });
     });
 });
