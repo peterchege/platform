@@ -236,7 +236,7 @@
 
                         <script>
                             function myFunction_liability() {
-                                if (domestic_check.checked == true) {
+                                if (liability.checked == true) {
                                     document.getElementById("liability_amount").disabled = false;
                                 } else {
                                     document.getElementById("liability_amount").disabled = true;
