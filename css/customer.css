@@ -20,6 +20,13 @@
     background-position: left center;
 }
 
+.back-register {
+    width: 100%;
+    background-image: url(../img/assurance.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+
 .customer-login{
     margin: 10% auto;
 }
