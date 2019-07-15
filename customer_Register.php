@@ -26,7 +26,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 back-img">
+            <div class="col-md-6 back-register">
 
             </div>
 
@@ -37,31 +37,49 @@
                         <img src="images/line.png" alt="">
                     </div>
                     <form class="customer-form">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Fist Name</label>
+                                    <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Last Name</label>
+                                    <input type="email" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
+
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
 
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+
                         <div class="customer-btn">
                             <div class="row">
-                                <button type="submit" class="btn btn-primary">LOGIN</button>
+                                <button type="submit" class="btn btn-primary">CREATE ACCOUNT</button>
                             </div>
 
                             <div class="row">
-                                <div class="col-md-7 col-sm-7">
+                                <div class="col-md-12">
                                     <div class="form-group">
-                                        <a href="customer_register.php">Don't have an Account? Create account</a> </div>
+                                        <a href="customer_login.php">Already Have an account? Login</a> </div>
                                 </div>
-                                <div class="col-md-5 col-sm-5 text-right">
-                                    <div class="form-group">
-                                        <a class="" href="forgot_password.php">Forgot password?</a>
-                                    </div>
-                                </div>
+
                             </div>
                             <hr>
                             <p>Sign in with :</p>
