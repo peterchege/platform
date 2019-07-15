@@ -92,7 +92,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="myCheck" onclick="myFunction()">
+                                        <input class="form-check-input" type="checkbox" id="build_check" onclick="myFunction_build()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -102,18 +102,18 @@
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-6" id="text" disabled>
-                                <input name="building" id="building" type="number" class="form-control" placeholder="Building value" value="" disabled>
+                            <div class="form-group col-md-6" id="text">
+                                <input name="building_amount" id="building_amount" type="number" class="form-control" placeholder="Building value" value="" disabled>
 
                             </div>
                         </div>
 
                         <script>
-                            function myFunction() {
-                                if (myCheck.checked == true) {
-                                    document.getElementById("building").disabled = false;
+                            function myFunction_build() {
+                                if (build_check.checked == true) {
+                                    document.getElementById("building_amount").disabled = false;
                                 } else {
-                                    document.getElementById("building").disabled = true;
+                                    document.getElementById("building_amount").disabled = true;
                                 }
                             }
                         </script>
@@ -123,7 +123,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck11" onclick="myFunction1()">
+                                        <input class="form-check-input" type="checkbox" id="content_check" onclick="myFunction_content()">
                                     </div>
                                     <div class=" col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -134,17 +134,17 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="amount" id="content" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
+                                <input name="content_amount" id="content_amount" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
 
                             </div>
                         </div>
 
                         <script>
-                            function myFunction1() {
-                                if (gridCheck11.checked == true) {
-                                    document.getElementById("content").disabled = false;
+                            function myFunction_content() {
+                                if (content_check.checked == true) {
+                                    document.getElementById("content_amount").disabled = false;
                                 } else {
-                                    document.getElementById("content").disabled = true;
+                                    document.getElementById("content_amount").disabled = true;
                                 }
                             }
                         </script>
@@ -156,7 +156,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction()">
+                                        <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction_risk()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -173,7 +173,7 @@
                         </div>
 
                         <script>
-                            function myFunction() {
+                            function myFunction_risk() {
                                 if (risk_check.checked == true) {
                                     document.getElementById("risk_amount").disabled = false;
                                 } else {
