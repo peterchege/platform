@@ -187,7 +187,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <input class="form-check-input" type="checkbox" id="domestic_check" onclick="myFunction_domestic()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -198,11 +198,19 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <!-- <label for="inputAddress">Total Annual Salary</label> -->
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Total Annual Salary" disabled>
-
+                                <input name="domestic_amount" id="domestic_amount" type="number" class="form-control" placeholder="Total Annual Salary" disabled>
                             </div>
                         </div>
+
+                        <script>
+                            function myFunction_domestic() {
+                                if (domestic_check.checked == true) {
+                                    document.getElementById("domestic_amount").disabled = false;
+                                } else {
+                                    document.getElementById("domestic_amount").disabled = true;
+                                }
+                            }
+                        </script>
 
                         <hr>
                         <div class="row">
