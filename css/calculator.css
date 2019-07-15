@@ -55,10 +55,16 @@
     padding-left: 20px;
 }
 
+.forn-container .form-check-input{
+    margin-top: 0px;
+}
+
 .forn-container input{
     width: 90%;
     margin: 0 auto;
     color: #0C4DA2;
+    margin-top: 25px;
+    padding: 25px 10px;
 }
 
 .forn-container input::placeholder {
@@ -66,7 +72,6 @@
     font-family: 'Oswald',
     sans-serif;
     font-size: 14px;
-    padding: 10px 0px;
 }
 
 .forn-container select {
@@ -84,6 +89,7 @@
 
 .check-cn{
     padding-top: 20px;
+    text-align: left;
 }
 
 .check-bx{

@@ -92,7 +92,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <input class="form-check-input" type="checkbox" id="myCheck" onclick="myFunction()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
@@ -102,12 +102,24 @@
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-6">
-                                <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+                            <div class="form-group col-md-6" id="text" style="display:none">
+                                <!-- <label for="inputAddress"> Building value</label> -->
+                                <input name="amount" type="number" class="form-control" placeholder="Building value" value="">
 
                             </div>
                         </div>
+
+                        <script>
+                            function myFunction() {
+                                var checkBox = document.getElementById("myCheck");
+                                var text = document.getElementById("text");
+                                if (checkBox.checked == true) {
+                                    text.style.display = "block";
+                                } else {
+                                    text.style.display = "none";
+                                }
+                            }
+                        </script>
 
                         <!-- SECTION CONTENT -->
                         <div class="row">
@@ -118,15 +130,15 @@
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
-                                            Content Cover
+                                            Contents Cover
                                         </label>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+                                <!-- <label for="inputAddress">Contents Total Value</label> -->
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Contents Total Value" value="">
 
                             </div>
                         </div>
@@ -140,16 +152,15 @@
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
-                                            All Risk Cover ( NOTE: You cannot take this package alone, you will need to
-                                            add one more cover.)
+                                            All Risk Cover ( NOTE: You cannot take this package alone.)
                                         </label>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+                                <!-- <label for="inputAddress">All Risk Total value</label> -->
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="All Risk Total value" value="">
 
                             </div>
                         </div>
@@ -170,8 +181,8 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Declare Amount</label>
-                                <input name="amount" id="amount" type="number" class="form-control" placeholder="500,000" value="">
+                                <!-- <label for="inputAddress">Total Annual Salary</label> -->
+                                <input name="amount" id="amount" type="number" class="form-control" placeholder="Total Annual Salary" value="">
 
                             </div>
                         </div>
