@@ -26,7 +26,14 @@ $(document).ready(function () {
         } else {
             liability_value = 0;
         }
+
         var total = '';
+        if (all_risk > 0) {
+            if (building_value == 0 && content_value == 0 && domestic_value == 0 && liability_value == 0) {
+                alert("All risk can't be alone");
+            }
+        }
+
         total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
         console.log(total);
 

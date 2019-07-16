@@ -183,7 +183,6 @@
                                     document.getElementById("domestic_amount").disabled = false;
                                 } else {
                                     document.getElementById("domestic_amount").disabled = true;
-                                    document.getElementById("domestic_amount").value = 0;
                                 }
                             }
                         </script>
