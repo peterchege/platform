@@ -30,13 +30,14 @@ $(document).ready(function () {
         var total = '';
         if (all_risk > 0) {
             if (building_value == 0 && content_value == 0 && domestic_value == 0 && liability_value == 0) {
-                alert("All risk can't be alone");
+                swal.fire('Error', 'All risk can\'t be the only cover.', 'error');
             }
+        } else if (building_value == 0 && content_value == 0 && domestic_value == 0 && all_risk == 0 && liability_value == 0) {
+            swal.fire('Error', 'Please choose a cover', 'error');
+        } else {
+            total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
+            console.log(total);
         }
-
-        total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
-        console.log(total);
-
 
         $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
         if (total) {
