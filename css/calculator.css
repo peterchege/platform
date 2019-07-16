@@ -63,8 +63,12 @@
     width: 90%;
     margin: 0 auto;
     color: #0C4DA2;
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 25px 10px;
+}
+
+.row-section input {
+    margin-top: 25px;
 }
 
 .forn-container input::placeholder {
@@ -235,3 +239,4 @@
 /* .pos-btn{
     margin-top: 120%;
 } */
+
