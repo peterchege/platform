@@ -8,6 +8,7 @@
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/calculator.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -28,14 +29,13 @@
         <div class="row ">
             <div class="col-md-6 box-container">
                 <form id="form">
-
                     <div class="container forn-container" id="form-container">
                         <h2 class="text-center">Premium Information</h2>
                         <hr>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Name</label>
-                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" selected>
+                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputAddress2">Phone Number</label>
@@ -307,6 +307,7 @@
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
+    <script src="js/parsley.min.js"></script>
     <script src="js/calc_domestic_package.js"></script>
 
 </body>

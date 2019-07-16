@@ -1,7 +1,8 @@
 $(document).ready(function () {
     $('.total').html('<p> 0 /year</p>');
-
-    $('#calculate').on('click', refreshTotal);
+    $('#form').parsley();
+    $('#form').on('submit', refreshTotal);
+    // personal info validation
 
     function refreshTotal(e) {
         e.preventDefault();
@@ -33,7 +34,7 @@ $(document).ready(function () {
                 swal.fire('Error', 'All risk can\'t be the only cover.', 'error');
             }
         } else if (building_value == 0 && content_value == 0 && domestic_value == 0 && all_risk == 0 && liability_value == 0) {
-            swal.fire('Error', 'Please choose a cover', 'error');
+            swal.fire('Error', 'Please choose a cover.', 'error');
         } else {
             total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
             console.log(total);
@@ -48,6 +49,8 @@ $(document).ready(function () {
         }
     }
 });
+
+
 $('.row-section').hide();
 $(function () {
     $('#property').change(function () {
