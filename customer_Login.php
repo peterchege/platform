@@ -18,7 +18,6 @@
 <body>
     <!-- ==============HEADER=============== -->
 
-    <?php include 'views/nav.php'; ?>
 
 
 
