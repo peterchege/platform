@@ -34,7 +34,7 @@
                         <hr>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Name</label>
+                                <label for="company_name">Name</label>
                                 <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
