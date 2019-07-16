@@ -27,49 +27,9 @@ $(document).ready(function () {
             liability_value = 0;
         }
         var total = '';
-
         total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
         console.log(total);
 
-
-
-        // if (selected == 'owner') {
-        //     var section = $('#section').children('option:selected').val();
-        //     console.log(section);
-        //     if (section == "Building") {
-        //         if (isNaN(building_value)) building_value = 0;
-        //         total = 0.0015 * building_value;
-        //     } else if (section == "Content") {
-        //         if (isNaN(content_value)) content_value = 0;
-        //         total = 0.01 * content_value;
-        //     } else if (section == "All Risk") {
-        //         if (isNaN(all_risk)) all_risk = 0;
-        //         total = 0.015 * all_risk;
-        //     } else if (section == "Domestic Employee") {
-        //         if (isNaN(domestic_employee)) domestic_employee = 0;
-        //         total = 0.02253 * domestic_employee;
-        //     } else {
-        //         alert("Please choose section!");
-        //     }
-
-        // } else if (selected == 'tenant') {
-        //     var section = $('#section').children('option:selected').val();
-        //     if (section == "Content") {
-        //         if (isNaN(tenant_value)) tenant_value = 0;
-        //         total = 0.01 * tenant_value;
-        //     } else if (section == "All Risk") {
-        //         if (isNaN(tenant_value)) tenant_value = 0;
-        //         total = 0.0015 * tenant_value;
-        //     } else if (section == "Domestic Employee") {
-        //         if (isNaN(tenant_value)) tenant_value = 0;
-        //         total = 0.02253 * tenant_value;
-        //     } else {
-        //         alert("Please choose section!");
-        //     }
-
-        // } else {
-        //     alert("Please choose property type!");
-        // }
 
         $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
         if (total) {
