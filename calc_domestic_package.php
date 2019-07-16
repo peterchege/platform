@@ -81,7 +81,6 @@
 
                             <div class="form-group col-md-6" id="text">
                                 <input name="building_amount" id="building_amount" type="number" class="form-control" placeholder="Building value" value="" disabled>
-
                             </div>
                         </div>
 
@@ -112,7 +111,6 @@
 
                             <div class="form-group col-md-6">
                                 <input name="content_amount" id="content_amount" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
-
                             </div>
                         </div>
 
