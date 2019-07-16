@@ -18,8 +18,6 @@
 <body>
     <!-- ==============HEADER=============== -->
 
-    <?php include 'views/nav.php'; ?>
-
 
 
     <!-- =====================================DOMESTIC PACKAGE CALCULATOR ===================================== -->
@@ -75,14 +73,14 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <a href="customer_login.php">Already Have an account? Login</a> </div>
                                 </div>
 
                             </div>
-                            <hr>
-                            <p>Sign in with :</p>
+                            <!-- <hr> -->
+                            <!-- <p>Sign in with :</p>
                             <div class="row btn-cust">
                                 <div class="col-md-6 ">
                                     <a href="#" class="btn btn-gmail"><i class="fab fa-google-plus-g"></i> Gmail</a>
@@ -90,7 +88,7 @@
                                 <div class="col-md-6 ">
                                     <a href="#" class="btn btn-fb"><i class="fab fa-facebook-f"></i> Facebook</a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </form>
                 </div>

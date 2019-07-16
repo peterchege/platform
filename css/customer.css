@@ -17,7 +17,7 @@
     width: 100%;
     background-image: url(../img/man.jpg);
     background-size: cover;
-    background-position: left center;
+    background-position:left center;
 }
 
 .back-register {
@@ -32,7 +32,6 @@
 }
 
 .customer-login h2{
-    padding-top: 10%;
     font-family: 'Oswald',
     sans-serif;
     color: #0C4DA2;
