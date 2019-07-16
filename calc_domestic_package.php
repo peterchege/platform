@@ -84,12 +84,19 @@
                             </div>
                         </div>
 
+                        <!-- SECTION BUILDING SCRIPT-->
+
                         <script>
                             function myFunction_build() {
                                 if (build_check.checked == true) {
                                     document.getElementById("building_amount").disabled = false;
+                                    document.getElementById("building_amount").value = '';
+
                                 } else {
                                     document.getElementById("building_amount").disabled = true;
+                                    document.getElementById("building_amount").value = '';
+
+
                                 }
                             }
                         </script>
@@ -114,12 +121,15 @@
                             </div>
                         </div>
 
+                        <!-- SECTION CONTENT SCRIPT-->
                         <script>
                             function myFunction_content() {
                                 if (content_check.checked == true) {
                                     document.getElementById("content_amount").disabled = false;
+                                    document.getElementById("content_amount").value = '';
                                 } else {
                                     document.getElementById("content_amount").disabled = true;
+                                    document.getElementById("content_amount").value = '';
                                 }
                             }
                         </script>
@@ -147,12 +157,16 @@
                             </div>
                         </div>
 
+                        <!-- SECTION ALLRISK SCRIPT-->
+
                         <script>
                             function myFunction_risk() {
                                 if (risk_check.checked == true) {
                                     document.getElementById("risk_amount").disabled = false;
+                                    document.getElementById("risk_amount").value = '';
                                 } else {
                                     document.getElementById("risk_amount").disabled = true;
+                                    document.getElementById("risk_amount").value = '';
                                 }
                             }
                         </script>
@@ -177,16 +191,21 @@
                             </div>
                         </div>
 
+                        <!-- SECTION DOMESTIC EMPLOYEE SCRIPT-->
+
                         <script>
                             function myFunction_domestic() {
                                 if (domestic_check.checked == true) {
                                     document.getElementById("domestic_amount").disabled = false;
+                                    document.getElementById("domestic_amount").value = '';
                                 } else {
                                     document.getElementById("domestic_amount").disabled = true;
-                                    document.getElementById("domestic_amount").value = 0;
+                                    document.getElementById("domestic_amount").value = '';
                                 }
                             }
                         </script>
+
+                        <!-- LIABILITY SECTION-->
 
                         <hr>
                         <div class="row row-section owner tenant">
@@ -214,8 +233,10 @@
                             function myFunction_liability() {
                                 if (liability.checked == true) {
                                     document.getElementById("liability_amount").disabled = false;
+                                    document.getElementById("liability_amount").value = '';
                                 } else {
                                     document.getElementById("liability_amount").disabled = true;
+                                    document.getElementById("liability_amount").value = '';
                                 }
                             }
                         </script>
