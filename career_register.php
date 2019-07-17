@@ -74,7 +74,6 @@ if (isset($_POST['submit_registration'])) {
 
     <!-- ==============HEADER=============== -->
 
-    <?php include 'views/nav.php'; ?>
 
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
