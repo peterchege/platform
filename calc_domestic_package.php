@@ -72,8 +72,8 @@
                                         <input class="form-check-input" type="checkbox" id="build_check" onclick="myFunction_build()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Building Cover ( NOTE: We only insure brick material construction)
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                            Building Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -85,7 +85,6 @@
                         </div>
 
                         <!-- SECTION BUILDING SCRIPT-->
-
                         <script>
                             function myFunction_build() {
                                 if (build_check.checked == true) {
@@ -109,8 +108,8 @@
                                         <input class="form-check-input" type="checkbox" id="content_check" onclick="myFunction_content()">
                                     </div>
                                     <div class=" col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Contents Cover
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center1" uk-toggle>
+                                            Contents Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -134,8 +133,6 @@
                             }
                         </script>
 
-
-
                         <!-- SECTION ALLRISK -->
                         <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
@@ -144,8 +141,8 @@
                                         <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction_risk()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            All Risk Cover ( NOTE: You cannot take this package alone.)
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center2" uk-toggle>
+                                            All Risk Cover ( NOTE: You cannot take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -179,8 +176,8 @@
                                         <input class="form-check-input" type="checkbox" id="domestic_check" onclick="myFunction_domestic()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Domestic Employee
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center3" uk-toggle>
+                                            Domestic Employee ( NOTE: You can't take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -192,7 +189,6 @@
                         </div>
 
                         <!-- SECTION DOMESTIC EMPLOYEE SCRIPT-->
-
                         <script>
                             function myFunction_domestic() {
                                 if (domestic_check.checked == true) {
@@ -206,7 +202,6 @@
                         </script>
 
                         <!-- LIABILITY SECTION-->
-
                         <hr>
                         <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
@@ -215,9 +210,9 @@
                                         <input class="form-check-input" type="checkbox" id="liability" onclick="myFunction_liability()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center4" uk-toggle>
                                             Liability Cover ( You will get a free cover for upto 500,000.
-                                            Above that we charge a rate of 0.05%)
+                                            Above that we charge a rate of 0.05%) <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -268,7 +263,8 @@
                 </div>
                 <h3>DISCLAIMER</h3>
                 <div class="rate">
-                    <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
+                    <p>BUILDING : We only ensure First class construction. For more information you can contact
+                        us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                 </div>
                 <br>
                 <hr>
@@ -304,6 +300,111 @@
     </div>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
+
+
+
+    <!-- ===================================== BUILDING COVER INFORMATION ===================================== -->
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>BUILDING COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================================== CONTENTS COVER INFORMATION ===================================== -->
+    <div id="modal-center1" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>CONTENTS COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================================== ALL RISK COVER INFORMATION ===================================== -->
+    <div id="modal-center2" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>ALL RISK COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================================== DOMESTIC EMPLOYEE COVER INFORMATION ===================================== -->
+    <div id="modal-center3" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>DOMESTIC EMPLOYEE COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- =====================================LIABILITY COVER INFORMATION ===================================== -->
+    <div id="modal-center4" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>LIABILITY COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
