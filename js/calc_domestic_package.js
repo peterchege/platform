@@ -23,9 +23,9 @@ $(document).ready(function () {
         if (isNaN(liability_value)) liability_value = 0;
         if (liability_value > 500000) {
             liability_value = liability_value - 500000
-            liability_value = 0.0005 * liability_value
+            final_liability_value = 0.0005 * liability_value
         } else {
-            liability_value = 0;
+            final_liability_value = 0;
         }
         console.log(all_risk);
         console.log(domestic_value);
@@ -47,9 +47,19 @@ $(document).ready(function () {
             }
         } else if (building_value == 0 && content_value == 0 && domestic_value == 0 && all_risk == 0 && liability_value == 0) {
             swal.fire('Error', 'Please choose a cover.', 'info');
+        } else if (final_liability_value > 0) {
+            if (building_value == 0 && content_value == 0) {
+                swal.fire('Error', 'Liability cover can\'t be the only cover you choose. Please choose Building or Content Cover or both.', 'info');
+            }
         } else {
-            total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
-            console.log(total);
+            if (total == 0 || total < 0) {
+                if (building_value == 0 && content_value == 0) {
+                    swal.fire('Error', 'Invalid selection made. Please make a valid selection.', 'error');
+                }
+            } else {
+                total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (final_liability_value);
+                console.log("total= " + total);
+            }
         }
 
         $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
