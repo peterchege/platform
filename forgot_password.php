@@ -69,7 +69,6 @@
     $db->close();
     ?>
 
-    <?php include 'views/nav.php'; ?>
 
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
@@ -89,13 +88,10 @@
                         echo display_errors($errors);
                     }
                     ?>
-                    <form class="text-left" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
-                        method="POST">
+                    <form class="text-left" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input name="email" type="email" class="form-control my-input" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email"
-                                value="<?= (($email) ? $email : ''); ?>" required>
+                            <input name="email" type="email" class="form-control my-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" value="<?= (($email) ? $email : ''); ?>" required>
                             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone else.</small> -->
 
@@ -109,7 +105,7 @@
             </div>
         </div>
     </div>
-
+    <br><br><br><br>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
@@ -117,8 +113,8 @@
 
 
     <?php
-require_once 'inc/scripts.php';
-?>
+    require_once 'inc/scripts.php';
+    ?>
 </body>
 
 </html>
