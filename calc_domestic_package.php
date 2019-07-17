@@ -80,7 +80,7 @@
                             </div>
 
                             <div class="form-group col-md-6" id="text">
-                                <input name="building_amount" id="building_amount" type="number" class="form-control" placeholder="Building value" value="" disabled>
+                                <input name="building_amount" id="building_amount" type="number" class="form-control" placeholder="Building value" value="" min="0" disabled>
                             </div>
                         </div>
 
