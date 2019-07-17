@@ -31,7 +31,7 @@
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
 <!-- <script src="lib/superfish/superfish.min.js"></script> -->
-<script src="js/sweetalert2.all.min.js" integrity="sha256-7Cq9SXG7mRmbAjifAtziix5ETZnImE+ltBfRypxwam8=" crossorigin="anonymous"></script>
+<script src="js/sweetalert2.all.min.js" integrity="" crossorigin="anonymous"></script>
 
 <!-- Template Main Javascript File -->
 <script src="js/main.js"></script>
