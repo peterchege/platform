@@ -141,7 +141,7 @@
                                         <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction_risk()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center2" uk-toggle>
                                             All Risk Cover ( NOTE: You cannot take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
@@ -330,6 +330,26 @@
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <div class="modal-cont">
                 <h2>CONTENTS COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================================== ALL RISK COVER INFORMATION ===================================== -->
+    <div id="modal-center2" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>ALL RISK COVER</h2>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
