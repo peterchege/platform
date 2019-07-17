@@ -240,3 +240,17 @@
     margin-top: 120%;
 } */
 
+/* MODAL */
+
+.fas {
+    cursor: pointer;
+    color: #C80D10;
+}
+
+.modal-cont h2{
+    font-family: 'Oswald',
+    sans-serif;
+    color: #0C4DA2;
+    /* font-size: 24px; */
+    text-align: center;
+}

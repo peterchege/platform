@@ -73,7 +73,7 @@
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1">
-                                            Building Cover ( NOTE: We only insure brick material construction)
+                                            Building Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle" data-target="#modal-center" uk-toggle></i>
                                         </label>
                                     </div>
                                 </div>
@@ -85,7 +85,6 @@
                         </div>
 
                         <!-- SECTION BUILDING SCRIPT-->
-
                         <script>
                             function myFunction_build() {
                                 if (build_check.checked == true) {
@@ -133,8 +132,6 @@
                                 }
                             }
                         </script>
-
-
 
                         <!-- SECTION ALLRISK -->
                         <div class="row row-section owner tenant">
@@ -192,7 +189,6 @@
                         </div>
 
                         <!-- SECTION DOMESTIC EMPLOYEE SCRIPT-->
-
                         <script>
                             function myFunction_domestic() {
                                 if (domestic_check.checked == true) {
@@ -206,7 +202,6 @@
                         </script>
 
                         <!-- LIABILITY SECTION-->
-
                         <hr>
                         <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 ">
@@ -268,7 +263,8 @@
                 </div>
                 <h3>DISCLAIMER</h3>
                 <div class="rate">
-                    <p>BUILDING : We only ensure First class construction. For more information you can contact us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
+                    <p>BUILDING : We only ensure First class construction. For more information you can contact
+                        us<br> Tel - O20 286 2000 , Email -info@apainsurance.org</p>
                 </div>
                 <br>
                 <hr>
@@ -296,7 +292,7 @@
                         </button>
                     </div>
                 </div>
-            <br>
+                <br>
 
             </div>
         </div>
@@ -304,6 +300,31 @@
     </div>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
+
+
+
+    <!-- ===================================== BUILDING COVER INFORMATION ===================================== -->
+    <div id="modal-center" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>BUILDING COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
     <!-- Optional JavaScript -->
     <?php include 'inc/scripts.php'; ?>
     <script src="js/selectFilter.min.js"></script>
