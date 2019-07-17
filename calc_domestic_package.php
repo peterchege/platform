@@ -72,8 +72,8 @@
                                         <input class="form-check-input" type="checkbox" id="build_check" onclick="myFunction_build()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Building Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle" data-target="#modal-center" uk-toggle></i>
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                            Building Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -108,8 +108,8 @@
                                         <input class="form-check-input" type="checkbox" id="content_check" onclick="myFunction_content()">
                                     </div>
                                     <div class=" col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Contents Cover
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                            Contents Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -141,8 +141,8 @@
                                         <input class="form-check-input" type="checkbox" id="risk_check" onclick="myFunction_risk()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            All Risk Cover ( NOTE: You cannot take this package alone.)
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                            All Risk Cover ( NOTE: You cannot take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -176,8 +176,8 @@
                                         <input class="form-check-input" type="checkbox" id="domestic_check" onclick="myFunction_domestic()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
-                                            Domestic Employee
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                            Domestic Employee ( NOTE: You can't take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
@@ -210,9 +210,9 @@
                                         <input class="form-check-input" type="checkbox" id="liability" onclick="myFunction_liability()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1">
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
                                             Liability Cover ( You will get a free cover for upto 500,000.
-                                            Above that we charge a rate of 0.05%)
+                                            Above that we charge a rate of 0.05%) <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
                                 </div>
