@@ -35,21 +35,21 @@ $(document).ready(function () {
         if (all_risk > 0) {
             if (building_value == 0 && content_value == 0 && domestic_value == 0) {
                 errors.push('all_risk');
-                swal.fire('Error', 'All risk cover can\'t be the only cover you choose. Please add one of the other covers.', 'info');
+                swal.fire('Error', 'All risk cover can\'t be the only cover you choose. Please add Building or Content Cover or both..', 'info');
             }
         }
         if (domestic_value > 0) {
             if (building_value == 0 && content_value == 0) {
                 errors.push('dom');
-                swal.fire('Error', 'Domestic Employee cover can\'t be the only cover you choose. Please add one of the other covers.', 'info');
+                swal.fire('Error', 'Domestic Employee cover can\'t be the only cover you choose. Please add Building or Content Cover or both..', 'info');
             }
         }
-        if (all_risk > 0 && domestic_value > 0) {
-            if (building_value == 0 && content_value == 0) {
-                errors.push('content')
-                swal.fire('Error', 'You can\'t choose these two covers alone. Please add Building or Content Cover or both.', 'info');
-            }
-        }
+        // if (all_risk > 0 && domestic_value > 0) {
+        //     if (building_value == 0 && content_value == 0) {
+        //         errors.push('content')
+        //         swal.fire('Error', 'You can\'t choose these two covers alone. Please add Building or Content Cover or both.', 'info');
+        //     }
+        // }
         if (building_value == 0 && content_value == 0 && domestic_value == 0 && all_risk == 0 && liability_value == 0) {
             errors.push('cover')
             swal.fire('Error', 'Please choose a cover.', 'info');
