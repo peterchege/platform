@@ -176,7 +176,7 @@
                                         <input class="form-check-input" type="checkbox" id="domestic_check" onclick="myFunction_domestic()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center3" uk-toggle>
                                             Domestic Employee ( NOTE: You can't take this package alone... <i class="fas fa-info-circle"></i>
                                         </label>
                                     </div>
@@ -210,7 +210,7 @@
                                         <input class="form-check-input" type="checkbox" id="liability" onclick="myFunction_liability()">
                                     </div>
                                     <div class="col-10">
-                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center" uk-toggle>
+                                        <label class="form-check-label" for="gridCheck1" data-target="#modal-center4" uk-toggle>
                                             Liability Cover ( You will get a free cover for upto 500,000.
                                             Above that we charge a rate of 0.05%) <i class="fas fa-info-circle"></i>
                                         </label>
@@ -350,6 +350,46 @@
             <button class="uk-modal-close-default" type="button" uk-close></button>
             <div class="modal-cont">
                 <h2>ALL RISK COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ===================================== DOMESTIC EMPLOYEE COVER INFORMATION ===================================== -->
+    <div id="modal-center3" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>DOMESTIC EMPLOYEE COVER</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- =====================================LIABILITY COVER INFORMATION ===================================== -->
+    <div id="modal-center4" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="modal-cont">
+                <h2>LIABILITY COVER</h2>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
