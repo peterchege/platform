@@ -35,7 +35,7 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="company_name">Name</label>
-                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" required>
+                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputAddress2">Phone Number</label>
@@ -49,7 +49,7 @@
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="inputAddress2">Location</label>
-                                <input name="capacity" id="capacity" type="text" min="1" class="form-control" placeholder="Nairobi" value="">
+                                <input name="capacity" id="capacity" type="text" class="form-control" placeholder="Nairobi" value="">
                             </div>
                         </div>
 
@@ -296,7 +296,7 @@
                         </button>
                     </div>
                 </div>
-            <br>
+                <br>
 
             </div>
         </div>

@@ -27,14 +27,26 @@ $(document).ready(function () {
         } else {
             liability_value = 0;
         }
+        console.log(all_risk);
+        console.log(domestic_value);
 
         var total = '';
+        if (all_risk !== 0 && domestic_value !== 0) {
+            console.log("ran");
+            if (building_value == 0 && content_value == 0) {
+                swal.fire('Error', 'You can\'t choose these two covers alone. Please add Building or Content Cover or both.', 'info');
+            }
+        }
         if (all_risk > 0) {
-            if (building_value == 0 && content_value == 0 && domestic_value == 0 && liability_value == 0) {
-                swal.fire('Error', 'All risk can\'t be the only cover.', 'error');
+            if (building_value == 0 && content_value == 0 && domestic_value == 0) {
+                swal.fire('Error', 'All risk cover can\'t be the only cover you choose. Please add one of the other covers.', 'info');
+            }
+        } else if (domestic_value > 0) {
+            if (building_value == 0 && content_value == 0) {
+                swal.fire('Error', 'Domestic Employee cover can\'t be the only cover you choose. Please add one of the other covers.', 'info');
             }
         } else if (building_value == 0 && content_value == 0 && domestic_value == 0 && all_risk == 0 && liability_value == 0) {
-            swal.fire('Error', 'Please choose a cover.', 'error');
+            swal.fire('Error', 'Please choose a cover.', 'info');
         } else {
             total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
             console.log(total);
