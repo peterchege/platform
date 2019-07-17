@@ -21,6 +21,7 @@ $(document).ready(function () {
         var liability_value = $('input[name="liability_amount"]', '#form').val();
         var liability_value = +numeral(liability_value).value();
         if (isNaN(liability_value)) liability_value = 0;
+        liability_value_unchanged = liability_value;
         if (liability_value > 500000) {
             liability_value = liability_value - 500000
             liability_value = 0.0005 * liability_value
@@ -44,7 +45,6 @@ $(document).ready(function () {
             }
         }
         if (all_risk > 0 && domestic_value > 0) {
-            console.log("ran");
             if (building_value == 0 && content_value == 0) {
                 errors.push('content')
                 swal.fire('Error', 'You can\'t choose these two covers alone. Please add Building or Content Cover or both.', 'info');
@@ -54,7 +54,13 @@ $(document).ready(function () {
             errors.push('cover')
             swal.fire('Error', 'Please choose a cover.', 'info');
         }
-
+        if (liability_value > 0 || liability_value_unchanged > 0) {
+            if (building_value == 0 && content_value == 0) {
+                errors.push('liability')
+                swal.fire('Error', 'You can\'t choose liability cover alone. Please add Building or Content Cover or both.', 'info');
+            }
+        }
+        console.log(errors)
         if (errors.length == 0) {
             total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
             console.log(total);
