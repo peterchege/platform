@@ -35,28 +35,28 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="company_name">Name</label>
-                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
+                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputAddress2">Phone Number</label>
-                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="">
+                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Email Address</label>
-                                <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="">
+                                <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="" required>
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="inputAddress2">Location</label>
-                                <input name="capacity" id="capacity" type="text" class="form-control" placeholder="Nairobi" value="">
+                                <input name="capacity" id="capacity" type="text" class="form-control" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inputAddress">Property</label>
-                                <select id="property" name="property" class="form-control selectFilter" data-target="section">
+                                <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="owner" name="owner" value="owner">Owner</option>
                                     <option data-ref="tenant" name="tenant" value="tenant">Tenant</option>
