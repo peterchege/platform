@@ -80,7 +80,7 @@
                             </div>
 
                             <div class="form-group col-md-6" id="text">
-                                <input name="building_amount" id="building_amount" type="number" class="form-control" placeholder="Building value" value="" min="0" disabled>
+                                <input name="building_amount" id="building_amount" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="content_amount" id="content_amount" type="number" class="form-control" placeholder="Contents Total Value" value="" disabled>
+                                <input name="content_amount" id="content_amount" type="text" class="form-control number-amount" placeholder="Contents Total Value" value="" disabled>
                             </div>
                         </div>
 
@@ -149,7 +149,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="risk_amount" id="risk_amount" type="number" class="form-control" placeholder="All Risk Total value" disabled>
+                                <input name="risk_amount" id="risk_amount" type="text" class="form-control number-amount" placeholder="All Risk Total value" disabled>
 
                             </div>
                         </div>
@@ -184,7 +184,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="domestic_amount" id="domestic_amount" type="number" class="form-control" placeholder="Total Annual Salary" disabled>
+                                <input name="domestic_amount" id="domestic_amount" type="text" class="form-control number-amount" placeholder="Total Annual Salary" disabled>
                             </div>
                         </div>
 
@@ -220,7 +220,7 @@
 
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Declare Amount</label>
-                                <input name="liability_amount" id="liability_amount" type="number" class="form-control" placeholder="500,000" disabled>
+                                <input name="liability_amount" id="liability_amount" type="text" class="form-control number-amount" placeholder="500,000" disabled>
                             </div>
                         </div>
 

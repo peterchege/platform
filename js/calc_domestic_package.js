@@ -3,7 +3,6 @@ $(document).ready(function () {
     $('#form').parsley();
     $('#form').on('submit', refreshTotal);
     // personal info validation
-
     function refreshTotal(e) {
         e.preventDefault();
         var building_value = $('input[name="building_amount"]', '#form').val();
@@ -75,6 +74,33 @@ $(document).ready(function () {
         $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
 
     }
+
+    var $form = $("#form");
+    var $input = $form.find(".number-amount");
+    $input.on("keyup", function (event) {
+        // 1.
+        var selection = window.getSelection().toString();
+        console.log(selection);
+        if (selection !== '') {
+            return;
+        }
+        // 2.
+        if ($.inArray(event.keyCode, [38, 40, 37, 39]) !== -1) {
+            return;
+        }
+        // 1
+        var $this = $(this);
+        var input = $this.val();
+        // 2
+        var input = input.replace(/[\D\s\._\-]+/g, "");
+        // 3
+        input = input ? parseInt(input, 10) : 0;
+        // 4
+        $this.val(function () {
+            return (input === 0) ? "" : input.toLocaleString("en-US");
+        });
+    });
+
 });
 
 
