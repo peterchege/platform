@@ -82,7 +82,7 @@ $(document).ready(function () {
             $('.' + $(this).val()).show();
             $.each($('.row-section'), function () {
                 if ($(this).is(':hidden')) {
-                    $('.row-section input[type="number"]').val('');
+                    $('.row-section input[type="text"]').val('');
                     $('.row-section input[type="checkbox"]').prop("checked", false);
                     $('.row-section input[type="text"],input[type="number"]').prop("disabled", true);
                 }
