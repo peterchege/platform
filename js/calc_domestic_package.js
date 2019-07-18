@@ -27,7 +27,6 @@ $(document).ready(function () {
         } else {
             liability_value = 0;
         }
-        console.log(all_risk);
         var errors = [];
 
         var total = '';
@@ -59,10 +58,8 @@ $(document).ready(function () {
                 swal.fire('Error', 'You can\'t choose liability cover alone. Please add Building or Content Cover or both.', 'info');
             }
         }
-        console.log(errors)
         if (errors.length == 0) {
             total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
-            console.log(total);
             if (total) {
                 $('html,body').animate({
                         scrollTop: $('.box-container1').offset().top
@@ -71,7 +68,7 @@ $(document).ready(function () {
             }
         }
 
-        $('.total').html('<p>' + numeral(total).format('0,0') + '</p>');
+        $('.total').html('<p>' + numeral(total).format('0,0') + '/year</p>');
 
     }
 
@@ -95,7 +92,6 @@ $(document).ready(function () {
     $input.on("keyup", function (event) {
         // 1.
         var selection = window.getSelection().toString();
-        console.log(selection);
         if (selection !== '') {
             return;
         }
