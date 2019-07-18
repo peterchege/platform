@@ -75,6 +75,21 @@ $(document).ready(function () {
 
     }
 
+    $('.row-section').hide();
+    $(function () {
+        $('#property').change(function () {
+            $('.row-section').hide();
+            $('.' + $(this).val()).show();
+            $.each($('.row-section'), function () {
+                if ($(this).is(':hidden')) {
+                    $('.row-section input[type="number"]').val('');
+                    $('.row-section input[type="checkbox"]').prop("checked", false);
+                    $('.row-section input[type="text"],input[type="number"]').prop("disabled", true);
+                }
+            });
+        });
+    });
+
     var $form = $("#form");
     var $input = $form.find(".number-amount");
     $input.on("keyup", function (event) {
@@ -101,20 +116,4 @@ $(document).ready(function () {
         });
     });
 
-});
-
-
-$('.row-section').hide();
-$(function () {
-    $('#property').change(function () {
-        $('.row-section').hide();
-        $('.' + $(this).val()).show();
-        $.each($('.row-section'), function () {
-            if ($(this).is(':hidden')) {
-                $('.row-section input[type="number"]').val('');
-                $('.row-section input[type="checkbox"]').prop("checked", false);
-                $('.row-section input[type="text"],input[type="number"]').prop("disabled", true);
-            }
-        });
-    });
 });
