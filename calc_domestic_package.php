@@ -29,7 +29,7 @@
         <div class="row ">
             <div class="col-md-6 box-container">
                 <form id="form">
-                    <div class="container forn-container" id="form-container">
+                    <div class="container forn-container error-margin" id="form-container">
                         <h2 class="text-center">Premium Information</h2>
                         <hr>
                         <div class="row">
@@ -245,8 +245,6 @@
                         </div>
 
                     </div>
-
-
                 </form>
             </div>
 

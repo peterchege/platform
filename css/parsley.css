@@ -24,6 +24,21 @@
         border: 1px solid #EED3D7;
     }
 
+    .error-margin .parsley-errors-list {
+        margin: 5px 0px 0px 12px;
+        /* padding-left: 20px; */
+        padding: 0;
+        list-style-type: none;
+        font-size: 0.9em;
+        line-height: 0.9em;
+        opacity: 0;
+
+        transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+    }
+
     .parsley-errors-list {
         margin: 2px 0 3px;
         padding: 0;
