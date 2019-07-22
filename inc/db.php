@@ -1,6 +1,6 @@
 <?php
-
-if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
+echo $_SERVER['DOCUMENT_ROOT'];
+if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs/') {
 	$db = mysqli_connect('localhost', 'root', '', 'apa');
 } else {
 	$db = mysqli_connect('localhost', 'vinehubc_apa_admin', 'apa_admin', 'vinehubc_apa');
