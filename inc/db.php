@@ -1,5 +1,4 @@
 <?php
-echo $_SERVER['DOCUMENT_ROOT'];
 if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs/') {
 	$db = mysqli_connect('localhost', 'root', '', 'apa');
 } else {
