@@ -279,7 +279,6 @@
                             Request Assistance
                         </button>
                     </div>
-
                 </div>
 
                 <div class="row text-center">
