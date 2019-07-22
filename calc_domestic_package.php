@@ -250,7 +250,6 @@
 
             <!-- Value Being displayed -->
             <div class="col-md-3 box-container1 left-side">
-
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
                 <div class="box-amount total">
                     <p></p>
