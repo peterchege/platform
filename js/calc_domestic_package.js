@@ -69,7 +69,6 @@ $(document).ready(function () {
 
                     }
                 });
-                console.log($('#form').serialize());
                 $('html,body').animate({
                         scrollTop: $('.box-container1').offset().top - 200
                     },
