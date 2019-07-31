@@ -59,7 +59,8 @@ $(document).ready(function () {
             }
         }
         if (errors.length == 0) {
-            total = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
+            premium = (0.0015 * building_value) + (0.01 * content_value) + (0.015 * all_risk) + (0.02253 * domestic_value) + (liability_value);
+            total = premium + (0.002 * premium) + (0.0025 * premium) + 40;
             if (total) {
                 $.ajax({
                     type: "POST",
