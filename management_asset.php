@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="management.php">MANAGEMENT</a>
+                <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
@@ -57,6 +57,9 @@
 
     <div class="sub-nav">
         <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="management_group.php">GROUP HEADS </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="management.php">APA INSURANCE </a>
             </li>

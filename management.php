@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="management" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
+                <a class="nav-link dropdown-toggle" href="management_group.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                 </div>
@@ -243,7 +243,7 @@
                         <button class="btn btn-primary" data-target="#modal-full9" uk-toggle>Read more</button>
                     </div>
 
-                    
+
 
                 </div>
 

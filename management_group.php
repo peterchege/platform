@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="management" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
+                <a class="nav-link dropdown-toggle" href="management_group.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                 </div>
@@ -85,8 +85,8 @@
 
     <div class="container-fluid12">
         <div class="container apollo">
-            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APA INSURANCE MANAGEMENT </h1>
-            <div class="under-line img5">
+            <h1 class="wow fadeInUp" data-wow-delay="0.1s">APOLLO GROUP HEADS </h1>
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
 
