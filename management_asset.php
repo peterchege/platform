@@ -118,7 +118,7 @@
                         <p>
                             Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -180,9 +180,35 @@
                     <p class="text-justify">
                         Fred is a seasoned investment guru. With 20 years of living, watching and dreaming investments he is equipped
                         with requisite experience & knowledge of managing Pension Funds, Mutual Funds and High Net Worth individuals.
-                        <br>
                         With Fred Mburu, Apollo Asset Management is uniquely positioned to deliver client’s return objectives and
                         extract value out of existing Asset Management Strategies, and create assets and realise investment opportunities
+                        existing in-country and emerging markets.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Amos Kosgei ===================================== -->
+
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/kosgei.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Amos Kosgei
+                    </h1>
+                    <h2 class="small-head">
+                        Portfolio Manager
+                    </h2>
+                    <p class="text-justify">
+                        Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
+                        services industry. Amos has a Master of Science degree in Economics from Eastern College in Philadelphia, USA and
+                        is also a graduate of Daystar University. He also has had trainings in Fundamentals of Investing, Anti-Money Laundering,
+                        and Bond Trading.egies, and create assets and realise investment opportunities
                         existing in-country and emerging markets.
 
                     </p>
