@@ -104,146 +104,6 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/vinod.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Vinod Bharatan<br>
-                            <small>CEO</small>
-                        </h5>
-
-                        <p>
-                            Vinod has over 35 years’ insurance experience both in India and Kenya...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/john.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            John Kigochi<br>
-                            <small>Chief Finance Officer</small>
-                        </h5>
-
-                        <p>
-                            Kigochi holds a Bachelor of Commerce degree in Accounting Option...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/parul-khimasia1.jpg" class="img parul-img" alt="">
-                        <h5 class="title-name">
-                            Parul Khimasia<br>
-                            <small>Chief Business Development Officer</small>
-                        </h5>
-
-                        <p>
-                            Parul Khimasia holds a Bachelor’s degree in Management Science from..
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/caroline.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Caroline Kamau<br>
-                            <small>Director of Business Development</small>
-                        </h5>
-
-                        <p>
-                            Caroline Kamau has 15 years of experience in the insurance Industry...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
-                    </div>
-
-                </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Amos Mabuka<br>
-                            <small>Director of business development</small>
-                        </h5>
-
-                        <p>
-                            Amos is a seasoned Insurance professional with extensive, hands – on...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/shalini.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Shalini Goswami<br>
-                            <small>Head of Health Claims</small>
-                        </h5>
-
-                        <p>
-                            Shalini has a PhD in Food Science from the University of Reading to...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full5" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/manju.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Manju Naul<br>
-                            <small>Director of Operations</small>
-                        </h5>
-
-                        <p>
-                            Manju is the Director of Operations. She has 35 years working experience...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/lucy.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Lucy kuria<br>
-                            <small>Head of Care Team</small>
-                        </h5>
-
-                        <p>
-                            Lucy is a medic by profession with over 34 years’ experience in the health...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
-                    </div>
-
-
-
-                </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/sheila.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Sheila Gichuhi<br>
-                            <small>Head of Health</small>
-                        </h5>
-
-                        <p>
-                            Sheila Gichuhi is the Head of Health Business, and has over 10 years of...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full8" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/ann.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Ann Njoki<br>
-                            <small>Reinsurance Manager</small>
-                        </h5>
-
-                        <p>
-                            Anne Njoki has over eight years’ experience in Reinsurance. She holds a..
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full9" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/keval.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
@@ -268,12 +128,6 @@
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
-
-
-
-                </div>
-
-                <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/james.jpg" class="img" alt="">
@@ -301,6 +155,12 @@
                         <button class="btn btn-primary" data-target="#modal-full12" uk-toggle>Read more</button>
                     </div>
 
+
+
+                </div>
+
+                <div class="row lead-img">
+
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
@@ -326,11 +186,6 @@
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
                     </div>
-
-
-                </div>
-
-                <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src=" img/managment/jackie.jpg" class="img" alt="">
@@ -358,21 +213,8 @@
                         <button class="btn btn-primary" data-target="#modal-full16" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/janette.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Janette Awidhi<br>
-                            <small>Head of Legal and Claims</small>
-                        </h5>
-
-                        <p>
-                            Janette has over 25 years of proven track record in claims management. She...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full17" uk-toggle>Read more</button>
-                    </div>
 
                 </div>
-
 
             </div>
         </div>
