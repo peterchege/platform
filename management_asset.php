@@ -131,7 +131,7 @@
                         <p>
                             Solomon Maoga is the Portfolio Manager at Apollo Asset Management...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -210,6 +210,54 @@
                         is also a graduate of Daystar University. He also has had trainings in Fundamentals of Investing, Anti-Money Laundering,
                         and Bond Trading.egies, and create assets and realise investment opportunities
                         existing in-country and emerging markets.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Solomon Maoga ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/solo.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Solomon Maoga
+                    </h1>
+                    <h2 class="small-head">
+                        Portfolio Manager
+                    </h2>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt quas ipsum veritatis ea earum magni
+                        molestiae, sunt accusamus facilis cumque quia quo eaque unde numquam quisquam dolor fuga autem?
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Solomon Maoga ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/solo.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Solomon Maoga
+                    </h1>
+                    <h2 class="small-head">
+                        Portfolio Manager
+                    </h2>
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt quas ipsum veritatis ea earum magni
+                        molestiae, sunt accusamus facilis cumque quia quo eaque unde numquam quisquam dolor fuga autem?
 
                     </p>
                 </div>
