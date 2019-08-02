@@ -98,7 +98,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/catherine.jpg" class="img" alt="">
+                        <img src="img/passport1/catherine.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Catherine Karimi<br>
                             <small>CEO, APA Life</small>
@@ -111,7 +111,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/mugo.jpg" class="img" alt="">
+                        <img src="img/passport1/mugo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Daniel Mugo<br>
                             <small>Chief Finance Officer</small>
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/hariet.jpg" class="img" alt="">
+                        <img src="img/passport1/hariet.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Harriet Aleke<br>
                             <small>Head of Operations Retail Business</small>
@@ -137,7 +137,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/benard.jpg" class="img" alt="">
+                        <img src="img/passport1/benard.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernard Kinyanjui<br>
                             <small>Head of Corporate Business</small>
@@ -154,7 +154,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/hariet.jpg" class="img" alt="">
+                        <img src="img/passport1/jane.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Jane Watiki<br>
                             <small>Head of Operations</small>
@@ -167,7 +167,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/njagi.jpg" class="img" alt="">
+                        <img src="img/passport1/njagi.jpg" class="img" alt="">
                         <h5 class="title-name">
                             James Njagi<br>
                             <small>Business Development Manager</small>
@@ -180,7 +180,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/mark.jpg" class="img" alt="">
+                        <img src=" img/passport1/mark.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Mark Mumo<br>
                             <small>Business Development Manager</small>
@@ -193,7 +193,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/stevo.jpg" class="img" alt="">
+                        <img src="img/passport1/stevo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Stephen Muiga<br>
                             <small>Business Development Manager</small>
@@ -210,7 +210,7 @@
                 <div class="row lead-img text-left">
 
                     <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/makena.jpg" class="img" alt="">
+                        <img src="img/passport1/makena.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernadicto Makena<br>
                             <small>National Sales Manager</small>
@@ -223,7 +223,7 @@
                     </div>
 
                     <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/ruto.jpg" class="img" alt="">
+                        <img src="img/passport1/ruto.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Vitalis Mbae<br>
                             <small>Actuarial Officer</small>
@@ -362,7 +362,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/hariet.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/passport1/jane.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Jane Watiki
