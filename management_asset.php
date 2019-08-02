@@ -96,7 +96,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/fred.jpg" class="img" alt="">
+                        <img src="img/passport2/fred.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Fred Mburu<br>
                             <small>Chief Executive Officer</small>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/kosgei.jpg" class="img" alt="">
+                        <img src="img/passport2/kosgei.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Amos Kosgei<br>
                             <small>Portfolio Manager</small>
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/solo.jpg" class="img" alt="">
+                        <img src="img/passport2/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Solomon Maoga<br>
                             <small>Head of Operations</small>
@@ -135,7 +135,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/eva.jpg" class="img" alt="">
+                        <img src="img/passport2/eva.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Everlyne Lagat<br>
                             <small>Head of Corporate Business</small>
