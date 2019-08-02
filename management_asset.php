@@ -105,7 +105,7 @@
                         <p>
                             Fred is a seasoned investment guru. With 20 years of living, watching ...
                         </p>
-                        <button class="btn btn-primary">Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -163,23 +163,29 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+    <!-- =====================================  Fred Mburu ===================================== -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/managment/fred.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        Fred Mburu
+                    </h1>
+                    <h2 class="small-head">
+                        Chief Executive Officer
+                    </h2>
+                    <p class="text-justify">
+                        Fred is a seasoned investment guru. With 20 years of living, watching and dreaming investments he is equipped
+                        with requisite experience & knowledge of managing Pension Funds, Mutual Funds and High Net Worth individuals.
+                        <br>
+                        With Fred Mburu, Apollo Asset Management is uniquely positioned to deliver client’s return objectives and
+                        extract value out of existing Asset Management Strategies, and create assets and realise investment opportunities
+                        existing in-country and emerging markets.
+
+                    </p>
                 </div>
             </div>
         </div>
