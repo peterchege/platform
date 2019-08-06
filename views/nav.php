@@ -7,19 +7,21 @@
         <div id="logo" class="pull-left">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.php" id="im-left"><img src="img/logon.png" width="80" height="auto" alt="" title="" /></a>
+            <a href="index.php" id="im-left"><img src="img/logon.png" width="75" height="auto" alt="" title="" /></a>
         </div>
 
 
-
-        <!-- <nav id="nav-menu-container" >
+        <!-- <nav id="nav-menu-container">
             <ul class="nav-menu ">
-                <li class="menu-active"><a href="#">PERSONAL INSURANCE</a></li>
-                <li><a href="products.php">HEALTH INSURANCE</a></li>
-                <li><a href="#">LIFE ASSURANCE</a></li>
+                <li class="menu-active"><a href="#">PERSONAL & HEALTH</a>
+                    
+                </li>
+                <li><a href="#">LIFE </a></li>
                 <li><a href="career.php">INVESTMENT</a></li>
-                <li><a href="csr.php">COMMERCIAL INSURANCE</a></li>
-                <li><a href="about_us.php">About Us</a></li>
+                <li><a href="csr.php">COMMERCIAL</a></li>
+                <li><a href="about_us.php">CONFERENCE FACILITIES</a></li>
+                <li><a href="about_us.php">ABOUT US</a></li>
+                <li><a href="about_us.php">CUSTOMER CENTRE</a></li>
             </ul>
 
             <div id="flags">
@@ -30,175 +32,55 @@
         </nav> -->
 
 
-        <!-- <nav class="uk-navbar-container" uk-navbar>
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="uk-navbar-left collapse" id="">
-
-                <ul class="uk-navbar-nav">
-                    <li>
-                        <a href="#">PERSONAL INSURANCE</a>
-                        <div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#">Item</a>
-                        <div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-            </div>
-        </nav> -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar1 navbar-expand-lg navbar-light" id="nav-menu-container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="uk-navbar-nav">
+            <div class="collapse1 navbar-collapse" id="navbarSupportedContent">
+                <ul class="uk-navbar-nav1 ">
                     <li>
-                        <a href="#">PERSONAL INSURANCE</a>
+                        <a href="#">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-nav-header">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-active"><a href="#">PERSONAL COVER :</a></li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-active"><a href="#">PERSONAL COVER :</a></li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Active</a></li>
-                                        <li><a href="#">Item</a></li>
-                                        <li class="uk-nav-header">Header</li>
-                                        <li><a href="#">Item</a></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li class="uk-active"><a href="#">PERSONAL COVER :</a></li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -208,7 +90,6 @@
 
             </div>
         </nav>
-
 
 
 

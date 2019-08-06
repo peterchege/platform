@@ -80,8 +80,8 @@ a:focus {
 # Header
 --------------------------------------------------------------*/
 #header {
-    padding: 20px 0 0 0;
-    height: 90px;
+    padding: 12px 0 0 0;
+    height: 70px;
     background-color: #fff;
     left: 0;
     top: 0;
@@ -89,9 +89,9 @@ a:focus {
     z-index: 1;
     position: fixed;
     transition: all 0.5s;
-    -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 10px 23px -11px rgba(0, 0, 0, 0.55);
 }
 
 #header .nav-menu li a {

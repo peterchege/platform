@@ -1,0 +1,32 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
+
+.uk-navbar-nav1{
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #0D345F;
+    list-style-type: none;
+}
+
+.uk-navbar-nav1 li a{
+    text-decoration: none;
+    color: #0D345F;
+}
+
+.uk-navbar-nav1 li a:hover {
+    color: #EE2328;
+    padding-bottom: 15px;
+    border-bottom: 3.5px solid #0C4DA2;
+}
+
