@@ -235,6 +235,55 @@
                             </div>
                         </div>
                     </li>
+
+                    <!-- CONFRENCE FACILITIES -->
+                    <li class="list-down">
+                        <a href="#">CONFRENCE FACILITIES</a>
+                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
 
             </div>
