@@ -287,7 +287,7 @@
 
                     <!-- ABOUT US -->
                     <li class="list-down">
-                        <a href="#">ABOUT US</a>
+                        <a href="about_us.php">ABOUT US</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
@@ -336,7 +336,7 @@
 
                     <!-- CUSTOMER CENTRE -->
                     <li class="list-down">
-                        <a href="#">CUSTOMER CENTRE</a>
+                        <a href="">CUSTOMER CENTRE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
