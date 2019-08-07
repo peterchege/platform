@@ -236,9 +236,9 @@
                         </div>
                     </li>
 
-                    <!-- CONFRENCE FACILITIES -->
+                    <!-- CONFERENCE FACILITIES -->
                     <li class="list-down">
-                        <a href="#">CONFRENCE FACILITIES</a>
+                        <a href="#">CONFERENCE FACILITIES</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
