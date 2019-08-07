@@ -39,7 +39,7 @@
 
             <div class="collapse1 navbar-collapse" id="navbarSupportedContent">
                 <ul class="uk-navbar-nav1 ">
-                    
+
                     <!-- PERSONAL AND HEALTH -->
                     <li class="list-down">
                         <a href="#">PERSONAL & HEALTH</a>
@@ -91,12 +91,61 @@
 
                     <!-- LIFE COVER -->
                     <li class="list-down">
-                        <a href="#">PERSONAL & HEALTH</a>
+                        <a href="#">LIFE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Domestic Package</a></li>
+                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- LIFE COVER -->
+                    <li class="list-down">
+                        <a href="#">Commercial</a>
+                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">Domestic Package</a></li>
                                         <li><a href="#">Travel Insurance</a></li>
