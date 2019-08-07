@@ -19,6 +19,12 @@
     list-style-type: none;
 }
 
+.uk-navbar-nav1 .list-down {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
 .uk-navbar-nav1 li a{
     text-decoration: none;
     color: #0D345F;
@@ -28,5 +34,35 @@
     color: #EE2328;
     padding-bottom: 15px;
     border-bottom: 3.5px solid #0C4DA2;
+    
 }
 
+.uk-navbar-nav1 .back-color {
+    background-color: #0D345F;
+    opacity: 0.95;
+    padding-left: 20px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.back-color .head-navi li {
+    color: #fff;
+}
+
+.back-color ul li a{
+    color: #fff;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.back-color ul li a:hover{
+    color: #EE2328;
+    border-bottom: 0;
+    padding-bottom: 12px;
+}
