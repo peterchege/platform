@@ -123,4 +123,41 @@ $(document).ready(function () {
         });
     });
 
+    //adding to cache
+    $('#save_quote, #buy_now').click(function () {
+        // get values
+        var name = $('#name').val();
+        var phone = $('#phone').val();
+        var email = $('#email').val();
+        var location = $('#location').val();
+
+
+        var property = $('#property').find(':selected').val();
+
+        var building_amount = numeral($('#building_amount').val()).value();
+        var content_amount = numeral($('#content_amount').val()).value();
+        var risk_amount = numeral($('#risk_amount').val()).value();
+        var domestic_amount = numeral($('#domestic_amount').val()).value();
+        var liability_amount = numeral($('#liability_amount').val()).value();
+
+
+
+
+        //store to cache
+        sessionStorage.setItem('name', name);
+        sessionStorage.setItem('phone', phone);
+        window.localStorage.setItem('email', email);
+        sessionStorage.setItem('location', location);
+        sessionStorage.setItem('property', property);
+        sessionStorage.setItem('building_amount', building_amount);
+        sessionStorage.setItem('content_amount', content_amount);
+        sessionStorage.setItem('risk_amount', risk_amount);
+        sessionStorage.setItem('domestic_amount', domestic_amount);
+        sessionStorage.setItem('liability_amount', liability_amount);
+        sessionStorage.setItem('property', property);
+
+        alert(localStorage.getItem('email'));
+        console.log(localStorage);
+    });
+
 });

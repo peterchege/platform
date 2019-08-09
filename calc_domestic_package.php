@@ -268,8 +268,8 @@
 
                 <div class="row text-center pos-btn">
                     <div class="col-6 btn-assist">
-                        <a href="customer_login.php">
-                            <button class="btn btn-quote">
+                        <a href="http://apatest.dev">
+                            <button id="save_quote" class="btn btn-quote">
                                 Save Quote
                             </button>
                         </a>
@@ -283,7 +283,7 @@
 
                 <div class="row text-center">
                     <div class="col-12 btn-red">
-                        <button class="btn">
+                        <button id="buy_now" class="btn">
                             BUY NOW
                         </button>
                     </div>
