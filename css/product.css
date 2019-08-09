@@ -209,10 +209,10 @@
 .header-image::before{
     content: '';
     position: absolute;
-    height: 68vh;
+    height: 80vh;
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
-    top: 12%;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
