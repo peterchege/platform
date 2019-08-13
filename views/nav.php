@@ -80,7 +80,7 @@
                                         <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">Family Health Cover</a></li>
-                                        <li><a href="#">CAncer Care</a></li>
+                                        <li><a href="#">Cancer Care</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,47 +91,27 @@
                     <li class="list-down">
                         <a href="#">LIFE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Fixed Savings Plan (Imarika)</a></li>
+                                        <li><a href="#">Anticipated savings (Akiba Halisi)</a></li>
+                                        <li><a href="#">Education plan (APA Elimu)</a></li>
+                                        <li><a href="#">Hospitalization loss of income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Funeral Expense cover(Pumzisha)</a></li>
+                                        <li><a href="#">Life Cover (Term Assurance)</a></li>
+                                        <li><a href="#">"Individual Pension Plan (IPP)</a></li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </li>
