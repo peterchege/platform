@@ -223,45 +223,24 @@
                     <li class="list-down">
                         <a href="#">CONFERENCE FACILITIES</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-header ">BOARDROOMS:</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Shimba Hills</a></li>
+                                        <li><a href="#">Ngong Hills</a></li>
+                                        <li><a href="#">Taita Hills</a></li>
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-header ">ROOMS:</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Chyullu Hills</a></li>
+                                        <li><a href="#">Cherengani Hills</a></li>
+                                        <li><a href="#">Entertainment Room</a></li>
                                     </ul>
                                 </div>
                             </div>
