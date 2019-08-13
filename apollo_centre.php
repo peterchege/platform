@@ -119,13 +119,13 @@
             <div class="container-fluid">
 
                 <div class="row">
-                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-container img-shimba">
                             <div class="color-overlay-apollo">
                             </div>
 
                             <div class="content-centre">
-                                <h1>Shimba Hills<br><small>18px</small><br><small>Boardroom</small></h1>
+                                <h1>Shimba Hills<br><small>Boardroom (18px)</small></h1>
                             </div>
                         </div>
 
@@ -146,13 +146,13 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
                         <div class="room-container img-Chyullu">
                             <div class="color-overlay-apollo">
                             </div>
 
                             <div class="content-centre">
-                                <h1>Chyullu Hills<br><small>40px</small><br><small>Auditorium</small></h1>
+                                <h1>Chyullu Hills<br><small>Auditorium (40px)</small></h1>
                             </div>
                         </div>
 
@@ -173,7 +173,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-container img-Cherengani">
                             <div class="color-overlay-apollo">
                             </div>
@@ -200,7 +200,65 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 room-wrapper wow fadeInUp" data-wow-delay="0.4s">
+                </div>
+
+                <div class="row space-up">
+
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="room-container img-Chyullu">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Chyullu Hills<br><small>Auditorium (40px)</small></h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
+                                Every room has an LCD screen suitable for presentations. Our training room & the auditorium
+                                have smart boards making them the ideal meeting place.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn text-right">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6 text-left">
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-container img-Cherengani">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Cherengani Hills<br><small>Training Room</small></h1>
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Our training room can hold 30 guests on U-shape set up and 44 guests in a classroom setup,
+                                the room is ideal for corporate training, promotional training and interactive training.
+                                It can also be divided into two rooms for discussion groups.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn text-right">
+                            <div class="col-md-6">
+                                <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>BOOK NOW</button>
+                            </div>
+                            <div class="col-md-6 text-left">
+                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.4s">
                         <div class="room-container img-Entertainment ">
                             <div class="color-overlay-apollo">
                             </div>
@@ -228,8 +286,6 @@
                         </div>
                     </div>
                 </div>
-
-
 
             </div>
 
@@ -684,9 +740,9 @@
         </div>
     </div>
 
-<?php 
+    <?php
     require_once 'inc/scripts.php';
-?>
+    ?>
 
 </body>
 
