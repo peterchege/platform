@@ -210,7 +210,7 @@
                             </div>
 
                             <div class="content-centre">
-                                <h1>Chyullu Hills<br><small>Auditorium (40px)</small></h1>
+                                <h1>Ngong Hills<br><small>Boardroom (8px)</small></h1>
                             </div>
                         </div>
 
@@ -237,7 +237,7 @@
                             </div>
 
                             <div class="content-centre">
-                                <h1>Cherengani Hills<br><small>Training Room</small></h1>
+                                <h1>Taita Hills<br><small>Boardroom (10-12px)</small></h1>
                             </div>
                         </div>
 
@@ -259,7 +259,7 @@
                     </div>
 
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="room-container img-Entertainment ">
+                        <div class="room-container img-Entertainment">
                             <div class="color-overlay-apollo">
                             </div>
 
