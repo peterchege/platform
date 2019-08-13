@@ -108,7 +108,7 @@
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">Funeral Expense cover(Pumzisha)</a></li>
                                         <li><a href="#">Life Cover (Term Assurance)</a></li>
-                                        <li><a href="#">"Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="#">Individual Pension Plan (IPP)</a></li>
                                     </ul>
                                 </div>
 
@@ -209,7 +209,7 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">INVESTMENT :</li>
-                                        <li class="uk-nav-divider"></li><br>
+                                        <li class="uk-nav-divider"></li>
                                         <li><a href="#">Apollo Balanced Fund</a></li>
                                         <li><a href="#">Apollo Equity Fund</a></li>
                                         <li><a href="#">Apollo Money Market Fund</a></li><br>
@@ -240,7 +240,7 @@
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">Chyullu Hills</a></li>
                                         <li><a href="#">Cherengani Hills</a></li>
-                                        <li><a href="#">Entertainment Room</a></li>
+                                        <li><a href="#">Entertainment Area</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -251,45 +251,49 @@
                     <li class="list-down">
                         <a href="about_us.php">ABOUT US</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-5 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-header ">APOLLO GROUP :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Our Company</a></li>
+                                        <li><a href="#">Leadership</a></li>
+                                        <li><a href="#">Group Heads</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-header ">Managment :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">APA INSURANCE</a></li>
+                                        <li><a href="#">APA LIFE</a></li>
+                                        <li><a href="#">APOLLO ASSET</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">MEDIA CENTRE :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">News & Updates</a></li>
+                                        <li><a href="#">CSR</a></li>
+                                        <li><a href="#">Financials Reports & Trail Blazers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">CAREER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Start your Journey</a></li>
+                                        <li><a href="#">Job Post</a></li>
+                                        <li><a href="#">Internship</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">APPLICANT :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#">Create Account</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -303,42 +307,38 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-header ">CONTACT :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Branch Locations</a></li>
+                                        <li><a href="#">Request Assistance</a></li>
+                                        <li><a href="#">Request A CallBack</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-header ">Forms :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Broshures</a></li>
+                                        <li><a href="#">Claim Forms</a></li>
+                                        <li><a href="#">Proposal Forms</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">Portals :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Intermediary Portal</a></li>
+                                        <li><a href="#">Marine Open Cover</a></li>
+                                        <li><a href="#">Marine Single Transit</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">CLIENT PORTAL :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">My policies</a></li>
+                                        <li><a href="#">saved quotes</a></li>
+                                        <li><a href="#">Login / Create Account</a></li>
                                     </ul>
                                 </div>
                             </div>
