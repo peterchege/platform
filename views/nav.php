@@ -104,7 +104,7 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">Funeral Expense cover(Pumzisha)</a></li>
                                         <li><a href="#">Life Cover (Term Assurance)</a></li>
@@ -120,45 +120,81 @@
                     <li class="list-down">
                         <a href="#">COMMERCIAL</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-6" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Motor Commercial</a></li>
+                                        <li><a href="#">Burglary</a></li>
+                                        <li><a href="#">Employer's Liability</a></li>
+                                        <li><a href="#">Fidelity guarantee</a></li>
+                                        <li><a href="#">Public Liability</a></li>
+                                        <li><a href="#">Aviation </a></li>
+                                        <li><a href="#">Health Coprate </a></li>
+                                        <li><a href="#">Money</a></li>
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Wiba</a></li>
+                                        <li><a href="#">Fire & peril</a></li>
+                                        <li><a href="#">Professinal Indemnity</a></li>
+                                        <li><a href="#">All risk</a></li>
+                                        <li><a href="#">Assset all risk</a></li>
+                                        <li><a href="#">CAR</a></li>
+                                        <li><a href="#">Directors & Officers Liability</a></li>
+
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Public Liability</a></li>
+                                        <li><a href="#">GIT(goods in transit)</a></li>
+                                        <li><a href="#">Medical Mul-practise</a></li>
+                                        <li><a href="#">Property Terrorism & Subotarge </a></li>
+                                        <li><a href="#">Group Life </a></li>
+                                        <li><a href="#">Group personal Accident</a></li>
+                                        <li><a href="#">Group Pension </a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-header ">MARINE COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">open Cover</a></li>
+                                        <li><a href="#">Cargo</a></li>
+                                        <li><a href="#">Single Transit</a></li>
+                                        <li><a href="#">Hull</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">CROP COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">weather index</a></li>
+                                        <li><a href="#">Area yeild index</a></li>
+                                        <li><a href="#">Multi-peril </a></li>
+                                        <li><a href="#">Single-peril</a></li>
+                                        <li><a href="#">Named-peril</a></li>
+                                        <li><a href="#">Greenhousex</a></li>
+                                        <li><a href="#">Forest</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">Livestock COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Index Based</a></li>
+                                        <li><a href="#">Bloodstock</a></li>
+                                        <li><a href="#">Single Animal</a></li>
+                                        <li><a href="#">Poultry</a></li>
                                     </ul>
                                 </div>
                             </div>
