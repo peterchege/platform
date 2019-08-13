@@ -49,40 +49,38 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Private Motor</a></li>
+                                        <li><a href="#">Comprehensive</a></li>
+                                        <li><a href="#">Third Party fire & theft (TP & FT)</a></li>
+                                        <li><a href="#">Third party only (TPO)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Named driver</a></li>
+                                        <li><a href="#">Bimabamba</a></li>
                                         <li><a href="#">Domestic Package</a></li>
                                         <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#">Personal Accident</a></li>
+                                        <li><a href="#">All Risk</a></li>
+                                        <li><a href="#">Flexpac</a></li>
+                                        <li><a href="#">Golphers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
-                                        <li><a href="#">Motor Private</a></li>
-                                        <li><a href="#">Motor Private</a></li>
+                                        <li><a href="#">Family Health Cover</a></li>
+                                        <li><a href="#">CAncer Care</a></li>
                                     </ul>
                                 </div>
                             </div>
