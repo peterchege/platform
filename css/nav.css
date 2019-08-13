@@ -69,5 +69,9 @@
 
 .head-navi .uk-nav-divider {
     padding-bottom: 10px;
+}
 
+.head-navi .fas {
+    padding-right: 10px;
+    font-size: 15px;
 }

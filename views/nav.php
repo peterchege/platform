@@ -33,9 +33,9 @@
 
 
         <nav class="navbar1 navbar-expand-lg navbar-light" id="nav-menu-container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
 
             <div class="collapse1 navbar-collapse" id="navbarSupportedContent">
                 <ul class="uk-navbar-nav1 ">
@@ -49,38 +49,38 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Private Motor</a></li>
-                                        <li><a href="#">Comprehensive</a></li>
-                                        <li><a href="#">Third Party fire & theft (TP & FT)</a></li>
-                                        <li><a href="#">Third party only (TPO)</a></li>
+                                        <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
+                                        <li><a href="#"><i class="fas fa-car-side"></i> Comprehensive</a></li>
+                                        <li><a href="#"><i class="fas fa-car-crash"></i> Third Party fire & theft (TP & FT)</a></li>
+                                        <li><a href="#"><i class="fas fa-car-crash"></i> Third party only (TPO)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Named driver</a></li>
-                                        <li><a href="#">Bimabamba</a></li>
-                                        <li><a href="#">Domestic Package</a></li>
-                                        <li><a href="#">Travel Insurance</a></li>
+                                        <li><a href="#"><i class="fas fa-user-tie"></i> Named driver</a></li>
+                                        <li><a href="#"><i class="fas fa-tags"></i> Bimabamba</a></li>
+                                        <li><a href="#"><i class="fas fa-home"></i> Domestic Package</a></li>
+                                        <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Personal Accident</a></li>
-                                        <li><a href="#">All Risk</a></li>
-                                        <li><a href="#">Flexpac</a></li>
-                                        <li><a href="#">Golphers</a></li>
+                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
+                                        <li><a href="#"><i class="fas fa-umbrella"></i> All Risk</a></li>
+                                        <li><a href="#"><i class="fas fa-user-injured"></i> Flexpac</a></li>
+                                        <li><a href="#"><i class="fas fa-golf-ball"></i> Golphers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Family Health Cover</a></li>
-                                        <li><a href="#">Cancer Care</a></li>
+                                        <li><a href="#"><i class="fas fa-users"></i> Family Health Cover</a></li>
+                                        <li><a href="#"><i class="fas fa-user-md"></i> Cancer Care</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -276,7 +276,7 @@
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#">News & Updates</a></li>
                                         <li><a href="#">CSR</a></li>
-                                        <li><a href="#">Financials Reports & Trail Blazers</a></li>
+                                        <li><a href="#">Financial Reports & Trail Blazers</a></li>
                                     </ul>
                                 </div>
                                 <div>
