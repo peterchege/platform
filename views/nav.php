@@ -299,36 +299,36 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CONTACT :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Branch Locations</a></li>
-                                        <li><a href="#">Request Assistance</a></li>
-                                        <li><a href="#">Request A CallBack</a></li>
+                                        <li><a href="#"><i class="fas fa-code-branch"></i> Branch Locations</a></li>
+                                        <li><a href="#"><i class="fas fa-question-circle"></i> Request Assistance</a></li>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request A CallBack</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">Forms :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Broshures</a></li>
-                                        <li><a href="#">Claim Forms</a></li>
-                                        <li><a href="#">Proposal Forms</a></li>
+                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Broshures</a></li>
+                                        <li><a href="#"><i class="fas fa-file-alt"></i> Claim Forms</a></li>
+                                        <li><a href="#"><i class="fas fa-file-alt"></i> Proposal Forms</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">Portals :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Intermediary Portal</a></li>
-                                        <li><a href="#">Marine Open Cover</a></li>
-                                        <li><a href="#">Marine Single Transit</a></li>
+                                        <li><a href="#"><i class="fas fa-user"></i> Intermediary Portal</a></li>
+                                        <li><a href="#"><i class="fas fa-ship"></i> Marine Open Cover</a></li>
+                                        <li><a href="#"><i class="fas fa-ship"></i> Marine Single Transit</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CLIENT PORTAL :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">My policies</a></li>
-                                        <li><a href="#">saved quotes</a></li>
-                                        <li><a href="#">Login / Create Account</a></li>
+                                        <li><a href="#"><i class="fas fa-user-circle"></i> My policies</a></li>
+                                        <li><a href="#"><i class="fas fa-file-invoice"></i> saved quotes</a></li>
+                                        <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login / Create Account</a></li>
                                     </ul>
                                 </div>
                             </div>
