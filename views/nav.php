@@ -200,9 +200,9 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">INVESTMENT :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Apollo Balanced Fund</a></li>
-                                        <li><a href="#">Apollo Equity Fund</a></li>
-                                        <li><a href="#">Apollo Money Market Fund</a></li><br>
+                                        <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-pie"></i> Apollo Equity Fund</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-line"></i> Apollo Money Market Fund</a></li><br>
                                     </ul>
                                 </div>
                             </div>
