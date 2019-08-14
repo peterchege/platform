@@ -8,6 +8,10 @@
 
     <title>APA INSURANCE</title>
 
+    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/modal.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
+
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -23,7 +27,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-cover">
+    <div class="banner-product">
 
     </div>
     <div class="cover-line">
@@ -62,232 +66,164 @@
 
             <h1>PERSONAL COVER</h1>
 
-            <div class="container-fluid">
-                <div class="row row-product">
+            <div class="container">
 
-                    <div class="col-03  product-box prd-1a wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Domestic Package</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-2">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Motor Private insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved
+                            in an accident, burnt, stolen ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
                             </div>
 
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_jamii.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-2 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Travel Insurance</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-1">
+                            <div class="overlay">
                             </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                                            <p>Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
-                                            <p>Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Travel Insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
+                            policy will ensure you will have nothing to worry about...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="col-03 product-box prd-3 wow fadeInUp " data-wow-delay="0.4s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Marine Insurance</h3>
-                                <p>Sail your goods across different regions with no worry.
-                                    This cover is crafted for both individuals and corporates
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_marine.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-4">
+                            <div class="overlay">
                             </div>
                         </div>
-                    </div>
+                        <div class="head-container">
+                            <h2>Domestic Package</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
+                            contents whilst in the house and outside the house...
 
-                    <div class="col-03  product-box prd-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Crop Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
                             </div>
+
                         </div>
                     </div>
 
                 </div>
 
-                <div class="row row-product">
-
-                    <div class="col-03  product-box prd-4a wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3> Livestock Insurance</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-3">
+                            <div class="overlay">
                             </div>
                         </div>
-                    </div>
-
-
-                    <div class="col-03  product-box prd-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Motor private Cover</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
+                        <div class="head-container">
+                            <h2> Family Health Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                                            <p class="text-center">Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_motor_private.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-5a wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-
-                            <div class="content">
-                                <h3>Motor Commercial Cover</h3>
-                                <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                    family.</p>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-5">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Motor Commercial Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                                            <p class="text-center">Get Cover</p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_motor.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
-                    <div class="col-03  product-box prd-6a wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Personal Accident</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-6">
+                            <div class="overlay">
                             </div>
                         </div>
-                    </div>
+                        <div class="head-container">
+                            <h2> Livestock Insurance</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
 
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -298,6 +234,7 @@
 
         </div>
     </div>
+
 
     <!-- ===================================== HEALTH COVER ===================================== -->
 

@@ -192,13 +192,22 @@ a:focus {
     background-repeat: no-repeat;
 }
 
+.banner-product {
+    width: 100%;
+    height: 55vh;
+    background-image: url(../img/family.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .banner-life {
     width: 100%;
     height: 60vh;
     background-image: url(../img/group1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     margin-top: 3%;
 }
 
