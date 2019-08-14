@@ -109,33 +109,29 @@
                     <li class="list-down">
                         <a href="#">COMMERCIAL</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-6" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Motor Commercial</a></li>
-                                        <li><a href="#">Burglary</a></li>
-                                        <li><a href="#">Employer's Liability</a></li>
-                                        <li><a href="#">Fidelity guarantee</a></li>
-                                        <li><a href="#">Public Liability</a></li>
-                                        <li><a href="#">Aviation </a></li>
-                                        <li><a href="#">Health Coprate </a></li>
-                                        <li><a href="#">Money</a></li>
-
+                                        <li><a href="#"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
+                                        <li><a href="#"><i class="fas fa-first-aid"></i> Health Coprate </a></li>
+                                        <li><a href="#"><i class="fas fa-briefcase"></i> Employer's Liability</a></li>
+                                        <li><a href="#"><i class="fas fa-user-secret"></i> Fidelity guarantee</a></li>
+                                        <li><a href="#"><i class="fas fa-users"></i> Public Liability</a></li>
+                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation </a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Wiba</a></li>
-                                        <li><a href="#">Fire & peril</a></li>
-                                        <li><a href="#">Professinal Indemnity</a></li>
-                                        <li><a href="#">All risk</a></li>
-                                        <li><a href="#">Assset all risk</a></li>
-                                        <li><a href="#">CAR</a></li>
-                                        <li><a href="#">Directors & Officers Liability</a></li>
+                                        <li><a href="#"><i class="fas fa-people-carry"></i> Wiba</a></li>
+                                        <li><a href="#"><i class="fas fa-fire"></i> Fire & peril</a></li>
+                                        <li><a href="#"><i class="fas fa-user-tie"></i> Professinal Indemnity</a></li>
+                                        <li><a href="#"><i class="fas fa-exclamation-triangle"></i> All risk</a></li>
+                                        <li><a href="#"><i class="fas fa-exclamation-circle"></i> Assset all risk</a></li>
+                                        <li><a href="#"><i class="fas fa-user-tie"></i> Directors & Officers Liability</a></li>
 
 
                                     </ul>
@@ -144,26 +140,31 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Public Liability</a></li>
-                                        <li><a href="#">GIT(goods in transit)</a></li>
-                                        <li><a href="#">Medical Mul-practise</a></li>
-                                        <li><a href="#">Property Terrorism & Subotarge </a></li>
-                                        <li><a href="#">Group Life </a></li>
-                                        <li><a href="#">Group personal Accident</a></li>
-                                        <li><a href="#">Group Pension </a></li>
+                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> GIT(goods in transit)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-nurse"></i> Medical Mul-practise</a></li>
+                                        <li><a href="#"><i class="fas fa-building"></i> Property Terrorism & Subotarge </a></li>
+                                        <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Group Life </a></li>
+                                        <li><a href="#"><i class="fas fa-car-crash"></i> Group personal Accident</a></li>
+                                        <li><a href="#"><i class="fab fa-slideshare"></i> Group Pension </a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">MARINE COVER :</li>
+                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">open Cover</a></li>
+                                        <li><a href="#"><i class="fas fa-ship"></i> Marine Cover</a>
+                                        <li><a href="#"><i class="fas fa-cookie"></i> Crop Cover</a>
+                                        <li><a href="#"><i class="fas fa-hippo"></i> Livestock Cover</a>
+                                        <li><a href="#"><i class="fas fa-user-secret"></i> Burglary</a></li>
+                                        <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Money</a></li>
+                                        <li><a href="#"><i class="fas fa-car"></i> Car</a></li>
+                                        <!-- <li><a href="#">open Cover</a></li>
                                         <li><a href="#">Cargo</a></li>
                                         <li><a href="#">Single Transit</a></li>
-                                        <li><a href="#">Hull</a></li>
+                                        <li><a href="#">Hull</a></li> -->
                                     </ul>
                                 </div>
-                                <div>
+                                <!-- <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CROP COVER :</li>
                                         <li class="uk-nav-divider"></li>
@@ -185,7 +186,7 @@
                                         <li><a href="#">Single Animal</a></li>
                                         <li><a href="#">Poultry</a></li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </li>
