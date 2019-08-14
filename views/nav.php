@@ -218,9 +218,9 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">BOARDROOMS:</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Shimba Hills</a></li>
-                                        <li><a href="#">Ngong Hills</a></li>
-                                        <li><a href="#">Taita Hills</a></li>
+                                        <li><a href="#"><i class="fas fa-handshake"></i> Shimba Hills</a></li>
+                                        <li><a href="#"><i class="fas fa-handshake"></i> Ngong Hills</a></li>
+                                        <li><a href="#"><i class="fas fa-handshake"></i> Taita Hills</a></li>
 
                                     </ul>
                                 </div>
@@ -228,9 +228,9 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">ROOMS:</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Chyullu Hills</a></li>
-                                        <li><a href="#">Cherengani Hills</a></li>
-                                        <li><a href="#">Entertainment Area</a></li>
+                                        <li><a href="#"><i class="fas fa-hotel"></i> Chyullu Hills</a></li>
+                                        <li><a href="#"><i class="fas fa-hotel"></i> Cherengani Hills</a></li>
+                                        <li><a href="#"><i class="fas fa-hotel"></i> Entertainment Area</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -246,44 +246,44 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">APOLLO GROUP :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Our Company</a></li>
-                                        <li><a href="#">Leadership</a></li>
-                                        <li><a href="#">Group Heads</a></li>
+                                        <li><a href="#"><i class="fas fa-building"></i> Our Company</a></li>
+                                        <li><a href="#"><i class="fas fa-user-tie"></i> Leadership</a></li>
+                                        <li><a href="#"><i class="fas fa-tasks"></i> Group Heads</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">Managment :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">APA INSURANCE</a></li>
-                                        <li><a href="#">APA LIFE</a></li>
-                                        <li><a href="#">APOLLO ASSET</a></li>
+                                        <li><a href="#"><i class="fas fa-user-friends"></i> APA INSURANCE</a></li>
+                                        <li><a href="#"><i class="fas fa-user-friends"></i> APA LIFE</a></li>
+                                        <li><a href="#"><i class="fas fa-user-friends"></i> APOLLO ASSET</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">MEDIA CENTRE :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">News & Updates</a></li>
-                                        <li><a href="#">CSR</a></li>
-                                        <li><a href="#">Financial Reports & Trail Blazers</a></li>
+                                        <li><a href="#"><i class="fas fa-newspaper"></i> News & Updates</a></li>
+                                        <li><a href="#"><i class="fas fa-hands-helping"></i> CSR</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-bar"></i> Financial Reports & Trail Blazers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CAREER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Start your Journey</a></li>
-                                        <li><a href="#">Job Post</a></li>
-                                        <li><a href="#">Internship</a></li>
+                                        <li><a href="#"><i class="fas fa-walking"></i> Start your Journey</a></li>
+                                        <li><a href="#"><i class="fas fa-poll-h"></i> Job Post</a></li>
+                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Internship</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">APPLICANT :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="#">Create Account</a></li>
+                                        <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                                        <li><a href="#"><i class="fas fa-user-circle"></i> Create Account</a></li>
                                     </ul>
                                 </div>
                             </div>
