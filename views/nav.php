@@ -44,25 +44,15 @@
                     <li class="list-down">
                         <a href="#">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
-                                        <li><a href="#"><i class="fas fa-car-side"></i> Comprehensive</a></li>
-                                        <li><a href="#"><i class="fas fa-car-crash"></i> Third Party fire & theft (TP & FT)</a></li>
-                                        <li><a href="#"><i class="fas fa-car-crash"></i> Third party only (TPO)</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-user-tie"></i> Named driver</a></li>
-                                        <li><a href="#"><i class="fas fa-tags"></i> Bimabamba</a></li>
                                         <li><a href="#"><i class="fas fa-home"></i> Domestic Package</a></li>
                                         <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
+
                                     </ul>
                                 </div>
                                 <div>
@@ -70,7 +60,6 @@
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
-                                        <li><a href="#"><i class="fas fa-umbrella"></i> All Risk</a></li>
                                         <li><a href="#"><i class="fas fa-user-injured"></i> Flexpac</a></li>
                                         <li><a href="#"><i class="fas fa-golf-ball"></i> Golphers</a></li>
                                     </ul>
@@ -89,26 +78,26 @@
 
                     <!-- LIFE COVER -->
                     <li class="list-down">
-                        <a href="#">LIFE</a>
+                        <a href="#">LIFE ASSURANCE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Fixed Savings Plan (Imarika)</a></li>
-                                        <li><a href="#">Anticipated savings (Akiba Halisi)</a></li>
-                                        <li><a href="#">Education plan (APA Elimu)</a></li>
-                                        <li><a href="#">Hospitalization loss of income (HosiCare)</a></li>
+                                        <li><a href="#"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
+                                        <li><a href="#"><i class="fas fa-money-check"></i> Anticipated savings (Akiba Halisi)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Education plan (APA Elimu)</a></li>
+                                        <li><a href="#"><i class="fas fa-procedures"></i> Hospitalization loss of income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Funeral Expense cover(Pumzisha)</a></li>
-                                        <li><a href="#">Life Cover (Term Assurance)</a></li>
-                                        <li><a href="#">Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense cover(Pumzisha)</a></li>
+                                        <li><a href="#"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
                                     </ul>
                                 </div>
 
