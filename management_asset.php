@@ -125,11 +125,11 @@
                         <img src="img/passport2/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Solomon Maoga<br>
-                            <small>Head of Operations</small>
+                            <small>Investment Executive</small>
                         </h5>
 
                         <p>
-                            Solomon Maoga is the Portfolio Manager at Apollo Asset Management...
+                            Solomon Maonga is the Investment Executive at Apollo Asset Management...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
@@ -229,11 +229,16 @@
                         Solomon Maoga
                     </h1>
                     <h2 class="small-head">
-                        Portfolio Manager
+                        Investment Executive
                     </h2>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt quas ipsum veritatis ea earum magni
-                        molestiae, sunt accusamus facilis cumque quia quo eaque unde numquam quisquam dolor fuga autem?
+                        Solomon Maonga is the Investment Executive at Apollo Asset Management Company.
+                        He has 4 years’ experience in the financial services industry.  Solomon has a Bachelor
+                        of Business Science degree (BBS) in Financial Economics from Strathmore University and
+                        is currently pursuing a Master of Science (MSc) in Development Finance at the Strathmore
+                        Business School. He is also an Associate member of the Chartered Institute for Securities
+                        and Investment (CISI, UK) and is enrolled as a student for the Chartered Institute of
+                        Financial Analysts (CIFA)programme.
 
                     </p>
                 </div>
