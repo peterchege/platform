@@ -140,7 +140,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> GIT(goods in transit)</a></li>
+                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> GIT(Goods in Transit)</a></li>
                                         <li><a href="#"><i class="fas fa-user-nurse"></i> Medical Mul-practise</a></li>
                                         <li><a href="#"><i class="fas fa-building"></i> Property Terrorism & Subotarge </a></li>
                                         <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Group Life </a></li>
@@ -164,30 +164,8 @@
                                         <li><a href="#">Hull</a></li> -->
                                     </ul>
                                 </div>
-                                <!-- <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">CROP COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">weather index</a></li>
-                                        <li><a href="#">Area yeild index</a></li>
-                                        <li><a href="#">Multi-peril </a></li>
-                                        <li><a href="#">Single-peril</a></li>
-                                        <li><a href="#">Named-peril</a></li>
-                                        <li><a href="#">Greenhousex</a></li>
-                                        <li><a href="#">Forest</a></li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">Livestock COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Index Based</a></li>
-                                        <li><a href="#">Bloodstock</a></li>
-                                        <li><a href="#">Single Animal</a></li>
-                                        <li><a href="#">Poultry</a></li>
-                                    </ul>
-                                </div> -->
                             </div>
+                            
                         </div>
                     </li>
 
