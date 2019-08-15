@@ -84,11 +84,11 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
                             </div>
 
-                            <div class="col-6 text-left prod-lf">
+                            <div class="col-6  prod-lf">
                                 <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
@@ -109,7 +109,7 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
@@ -135,7 +135,7 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
                             </div>
 
@@ -164,7 +164,7 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
@@ -189,7 +189,7 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
@@ -214,7 +214,7 @@
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
-                            <div class="col-6">
+                            <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
                             </div>
 
