@@ -244,7 +244,7 @@
 
             <h1>HEALTH COVER</h1>
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row row-product1">
                     <div class="col-md-5 prod">
                         <div class="box-container-img prod-3">
@@ -489,93 +489,87 @@
 
             <h1>INVESTMENT</h1>
 
-
-            <div class="container-fluid">
-
-                <div class="row row-product">
-
-                    <div class="col-04  product-box prd-22 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Apollo Balanced Fund</h3>
-                                <p>Explore wild possibilities and adventures unbothered!
-                                    Whether you are headed for a business trip or a trip of a lifetime.</p>
+            <div class="container">
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img asset-1">
+                            <div class="overlay">
                             </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_travel.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Apollo Balanced Fund</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="col-04 product-box prd-23 wow fadeInUp " data-wow-delay="0.4s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Apollo Equity Fund</h3>
-                                <p>Sail your goods across different regions with no worry.
-                                    This cover is crafted for both individuals and corporates
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img asset-2">
+                            <div class="overlay">
                             </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_marine.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Equity Fund</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Explore wild possibilities and adventures unbothered!
+                            Whether you are headed for a business trip or a trip of a lifetime...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
                         </div>
                     </div>
 
-                    <div class="col-04  product-box prd-21 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="color-overlay"></div>
-                        <div class="wrapper">
-                            <div class="content">
-                                <h3>Apollo Money Market Fund</h3>
-                                <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                    should
-                                    bring you ultimate happiness.</p>
-                            </div>
-                            <div class="row selection-btn">
-                                <div class="col-6">
-                                    <div class="btn-primary  btn-mine" data-toggle="modal" data-target="#exampleModal">
-                                        <p class="text-center">Get Cover</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="btn-mine red-b">
-                                        <a href="product_detail_agriculture.php">
-                                            <p class="text-center">Read more</p>
-                                        </a>
-                                    </div>
-                                </div>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img asset-3">
+                            <div class="overlay">
                             </div>
                         </div>
-                    </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Money Market Fund </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
 
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-
-            <div class="load-more text-center">
-                <a href="#" class="btn btn-primary">LOAD MORE</a>
             </div>
 
         </div>

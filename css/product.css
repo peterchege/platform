@@ -64,6 +64,21 @@
     background-image: url(../img/sheep.jpg);
 }
 
+/* APOLLO ASSET IMAGE */
+
+.asset-1 {
+    background-image: url(../images/funds-01.jpeg);
+    background-position: center;
+}
+
+.asset-2 {
+    background-image: url(../images/funds-02.jpeg);
+}
+
+.asset-3 {
+    background-image: url(../images/funds-03.jpeg);
+}
+
 
 /* .prod:hover {
     transform: scale(1.05);
