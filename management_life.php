@@ -127,11 +127,11 @@
                         <img src="img/passport1/hariet.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Harriet Aleke<br>
-                            <small>Head of Operations Retail Business</small>
+                            <small>Team Leader – Individual Life Operations</small>
                         </h5>
 
                         <p>
-                            Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
+                            Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
@@ -317,15 +317,14 @@
                         Harriet Aleke
                     </h1>
                     <h2 class="small-head">
-                        Head of Operations Retail Business
+                        Team Leader – Individual Life Operations
                     </h2>
                     <p class="text-justify">
-                        For the past 11 years, Daniel K. Mugo has served as the Chief Finance Officer.
-                        He is responsible for the financial management of the company. His key accountabilities range
-                        from looking at areas of cost saving to effective utilisation of company resources.
-                        He is also tasked with ensuring that the company assets are well safeguarded at all times.
-                        Mr. Mugo has a Bachelor of Commerce degree (Hon.) in Finance, a Diploma in Business
-                        Management – Kenya Institute of Management, a Certificate of Proficiency in Insurance (COP), and is a member of the Institute of Certified Public Accountants of Kenya (ICPAK).
+                        Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance Company.  
+                        She has 7 years’ experience in the Life Assurance industry both in Operations and Actuarial. 
+                        Harriet has a Bachelor’s of Science degree in Actuarial Science from the University of Nairobi and 
+                        is also a former member of the Institute and Faculty of Actuaries. She also has had trainings in Underwriting, 
+                        Reinsurance and Leadership.
                     </p>
                 </div>
             </div>

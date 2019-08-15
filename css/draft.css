@@ -207,7 +207,7 @@ a:focus {
     background-image: url(../img/group1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     margin-top: 3%;
 }
 
