@@ -246,18 +246,19 @@
 
             <div class="container-fluid">
                 <div class="row row-product1">
-                    <div class="col-md-4 prod">
+                    <div class="col-md-5 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2 class="text-center"> Family Health Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
                             healthy family is a happy family. This is why we have medical insurance..
                         </p>
+                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -272,13 +273,13 @@
                     </div>
 
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-5 prod">
                         <div class="box-container-img prod-6">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2 class="text-center"> Cancer Care</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
