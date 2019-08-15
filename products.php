@@ -51,10 +51,7 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
-                APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
-                Insurance, Tanzania.
+                for both our clients and their loved ones.
             </p>
         </div>
     </div>

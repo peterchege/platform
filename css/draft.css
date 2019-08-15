@@ -194,8 +194,17 @@ a:focus {
 
 .banner-product {
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     background-image: url(../img/family.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-commercial {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/commercial.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

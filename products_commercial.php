@@ -27,7 +27,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-product">
+    <div class="banner-commercial">
 
     </div>
     <div class="cover-line">
@@ -52,9 +52,7 @@
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
                 for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
-                APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
-                Insurance, Tanzania.
+                to become one of the leading Financial Service Groups in East Africa.
             </p>
         </div>
     </div>
@@ -75,7 +73,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -101,7 +99,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center">Employer's Liability</h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -126,7 +124,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Fidelity guarantee</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -156,7 +154,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2 class="text-center"> Public Liability</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -181,7 +179,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2 class="text-center">Aviation</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -206,7 +204,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2 class="text-center"> Wiba</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -252,7 +250,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Family Health Cover</h2>
+                            <h2 class="text-center"> Health Coprate</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -279,7 +277,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Cancer Care</h2>
+                            <h2 class="text-center"> Group Life</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -321,7 +319,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Motor Private insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -347,7 +345,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center">Travel Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -372,7 +370,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Domestic Package</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -402,7 +400,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2 class="text-center"> Family Health Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -427,7 +425,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2 class="text-center">Motor Commercial Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -452,7 +450,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2 class="text-center"> Livestock Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -482,98 +480,6 @@
         </div>
     </div>
 
-    <!-- =====================================investment PRODUCTS ===================================== -->
-
-    <div class="container-fluid23">
-        <div class=" product-new text-left">
-
-            <h1>INVESTMENT</h1>
-
-            <div class="container">
-                <div class="row row-product1">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img asset-1">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Apollo Balanced Fund</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img asset-2">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Apollo Equity Fund</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Explore wild possibilities and adventures unbothered!
-                            Whether you are headed for a business trip or a trip of a lifetime...
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img asset-3">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Apollo Money Market Fund </h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 
 
