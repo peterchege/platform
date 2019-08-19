@@ -42,7 +42,7 @@
 
                     <!-- PERSONAL AND HEALTH -->
                     <li class="list-down">
-                        <a href="#">PERSONAL & HEALTH</a>
+                        <a href="products.php">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
                                 <div>
@@ -78,7 +78,7 @@
 
                     <!-- LIFE COVER -->
                     <li class="list-down">
-                        <a href="#">LIFE ASSURANCE</a>
+                        <a href="products.php">LIFE ASSURANCE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
@@ -107,7 +107,7 @@
 
                     <!-- COMMERCIAL COVER -->
                     <li class="list-down">
-                        <a href="#">COMMERCIAL</a>
+                        <a href="products_commercial.php">COMMERCIAL</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>
@@ -171,7 +171,7 @@
 
                     <!-- INVESTMENT -->
                     <li class="list-down">
-                        <a href="#">INVESTMENT</a>
+                        <a href="products.php">INVESTMENT</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
@@ -189,7 +189,7 @@
 
                     <!-- CONFERENCE FACILITIES -->
                     <li class="list-down">
-                        <a href="#">CONFERENCE FACILITIES</a>
+                        <a href="apollo_centre.php">CONFERENCE FACILITIES</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2" uk-grid>
                                 <div>
@@ -269,7 +269,7 @@
 
                     <!-- CUSTOMER CENTRE -->
                     <li class="list-down">
-                        <a href="">CUSTOMER CENTRE</a>
+                        <a href="#">CUSTOMER CENTRE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
