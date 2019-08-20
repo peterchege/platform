@@ -230,7 +230,7 @@
                         </h5>
 
                         <p>
-                            Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
+                            Vitalis Mbae is the current<br> Actuarial Officer for APA Life.<br> He has over...
                         </p>
                         <button class="btn btn-primary reto" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
@@ -498,7 +498,9 @@
                         Actuarial Officer
                     </h2>
                     <p class="text-justify">
-
+                        Vitalis Mbae is the current Actuarial Officer for APA Life. He has over 6 years’ experience in various actuarial roles in the insurance industry. 
+                        His responsibilities include product development, pricing and valuations for the Company.
+                        He has a Bachelors in Actuarial Science from JKUAT and a Diploma in Actuarial Techniques from the Institute and Faculty of Actuaries (IFOA)”
                     </p>
                 </div>
             </div>
