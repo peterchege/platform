@@ -107,13 +107,13 @@
                         <img src="img/managment/keval.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
-                            <small>Group Chief</small>
+                            <small>Group Chief Finance Officer </small>
                         </h5>
 
                         <p>
-                            Keval holds a Bachelors degree in Education, a Masters degree in...
+                            Keval has over 25 year’s experience across accounting, tax, advisory...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full18" uk-toggle>Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full101" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -225,266 +225,26 @@
 
 
 
-
-    <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
-    <!-- #footer -->
-
-    <!-- =====================================  Vinod Bharatan ===================================== -->
-
-    <div id="modal-full" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/vinod.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Vinod Bharatan
-                    </h1>
-                    <h2 class="small-head">
-                        Chief Executive Officer
-                    </h2>
-                    <p class="text-justify">
-                        Vinod has over 35 years’ insurance experience both in India and Kenya. He has a proven track record of
-                        success in multiple areas including sales, marketing, operations, technology and financial acumen. He
-                        has a Master of Art Degree (MA English) from Rajasthan University and is an Associate of the Insurance
-                        Institute of India.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  John Kigochi ===================================== -->
-
-    <div id="modal-full1" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/john.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        John Kigochi
-                    </h1>
-                    <h2 class="small-head">
-                        Chief Finance Officer
-                    </h2>
-                    <p class="text-justify">
-                        Kigochi holds a Bachelor of Commerce degree – Accounting Option, from the University of Nairobi, an MBA – Finance, and a CPA (K).
-                        He has over 18 years Insurance experience.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Parul Khimasia ===================================== -->
-
-    <div id="modal-full2" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/parul-khimasia.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Parul Khimasia
-                    </h1>
-                    <h2 class="small-head">
-                        Chief Business Development Officer
-                    </h2>
-                    <p class="text-justify">
-                        Parul Khimasia holds a Bachelor’s degree in Management Science from the University of Manchester Institute of Science and Technology (UMIST).
-                        He has over 14 years of experience in the Insurance industry.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Caroline Kamau ===================================== -->
-
-    <div id="modal-full3" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/caroline.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Caroline Kamau
-                    </h1>
-                    <h2 class="small-head">
-                        Director of Business Development
-                    </h2>
-                    <p class="text-justify">
-                        Caroline Kamau has 15 years of experience in the insurance Industry. She holds a Bachelor’s in Commerce
-                        Business Administration-Management & Marketing from Daystar University. She is also an Associate of the
-                        Insurance Institute of Kenya.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- =====================================   Amos Mabuka ===================================== -->
-
-    <div id="modal-full4" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/amos.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Amos Mabuka
-                    </h1>
-                    <h2 class="small-head">
-                        Director of business development
-                    </h2>
-                    <p class="text-justify">
-                        Amos is a seasoned Insurance professional with extensive, hands – on experience in both Business Development and Operations Management. He is a Chartered Insurer as well as Associate of The Chartered Insurance Institute – UK, with over 17 years progressive Insurance Industry experience. Mr. Mabuka also holds a Bachelor of Science in Mathematics and is currently pursuing an MBA in Strategic Management
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Shalini Goswami ===================================== -->
-
-    <div id="modal-full5" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/shalini.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Shalini Goswami
-                    </h1>
-                    <h2 class="small-head">
-                        Head of Health Claims
-                    </h2>
-                    <p class="text-justify">
-                        Shalini has a PhD in Food Science from the University of Reading to complement her Bsc (Hon) in Food Science &
-                        Technology from the University of Nairobi. She has 16 years’ experience in the Health insurance business and has
-                        overseen the acquisition and implementation of the APA Health claims system.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Manju Naul ===================================== -->
-
-    <div id="modal-full6" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/manju.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Manju Naul
-                    </h1>
-                    <h2 class="small-head">
-                        Director of Operations
-                    </h2>
-                    <p class="text-justify">
-                        Manju is the Director of Operations. She has 35 years working experience in the Kenyan Insurance Industry
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Lucy kuria ===================================== -->
-
-    <div id="modal-full7" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/lucy.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Lucy kuria
-                    </h1>
-                    <h2 class="small-head">
-                        Head of Care Team
-                    </h2>
-                    <p class="text-justify">
-                        Lucy is a medic by profession with over 34 years’ experience in the health care sector and has over
-                        27 years managerial experience in health care management. She has accreditation from the South African
-                        case management association. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Sheila Gichuhi ===================================== -->
-
-    <div id="modal-full8" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/sheila.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Sheila Gichuhi
-                    </h1>
-                    <h2 class="small-head">
-                        Head of Health
-                    </h2>
-                    <p class="text-justify">
-                        Sheila Gichuhi is the Head of Health Business, and has over 10 years of experience in the Health Industry.
-                        <br>
-                        She holds a Bachelor’s degree in International Business Administration-Management from
-                        the United States International University. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====================================  Ann Njoki ===================================== -->
-
-    <div id="modal-full9" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/ann.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Ann Njoki
-                    </h1>
-                    <h2 class="small-head">
-                        Reinsurance Manager
-                    </h2>
-                    <p class="text-justify">
-                        Anne Njoki has over eight years’ experience in Reinsurance. She holds a Bachelor’s of science degree in
-                        Applied Business Computing from the University of Sunderland, UK. She is a Cert CII and is currently
-                        pursuing a Diploma from the Institute of Risk Management, UK.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- =====================================  Keval Shah ===================================== -->
 
     <div id="modal-full101" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/ann.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/keval.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Keval Shah
                     </h1>
                     <h2 class="small-head">
-                        Group Chief
+                        Group Chief Finance Officer
                     </h2>
                     <p class="text-justify">
-                        Anne Njoki has over eight years’ experience in Reinsurance. She holds a Bachelor’s of science degree in
-                        Applied Business Computing from the University of Sunderland, UK. She is a Cert CII and is currently
-                        pursuing a Diploma from the Institute of Risk Management, UK.</p>
+                        Keval has over 25 year’s experience across accounting, tax, advisory and financial management disciplines in 
+                        both manufacturing and financial services industries. He is a graduate of Loughborough University, United Kingdom, 
+                        Fellow of the Association of Chartered Certified Accountants (FCCA) and a Member of the Chartered Institute of 
+                        Management Accountants (ACMA).
+                    </p>
                 </div>
             </div>
         </div>
@@ -689,30 +449,6 @@
                     <p class="text-justify">
                         Janette has over 25 years of proven track record in claims management. She holds a Bachelor of Science in
                         Insurance from the University of Nairobi and a Diploma ACII from the Insurance Institute, UK.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ===================================== Keval Shah ===================================== -->
-
-    <div id="modal-full18" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/keval.jpg');" uk-height-viewport></div>
-                <div class="uk-padding-large">
-                    <h1>
-                        Keval Shah
-                    </h1>
-                    <h2 class="small-head">
-                        Group Chief
-                    </h2>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita culpa libero rem asperiores repudiandae
-                        consequuntur quas aliquid odio aperiam assumenda neque rerum eveniet sequi sint, corrupti facilis. Earum,
-                        tenetur provident!
                     </p>
                 </div>
             </div>
