@@ -137,12 +137,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/passport2/eva.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Everlyne Lagat<br>
-                            <small>Head of Corporate Business</small>
+                            Eva Labatt<br>
+                            <small>Unit Trust Officer</small>
                         </h5>
 
                         <p>
-                            Solomon Maoga is the Portfolio Manager at Apollo Asset Management...
+                            Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
@@ -255,14 +255,15 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/eva.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Everlyne Lagat
+                        Eva Labatt
                     </h1>
                     <h2 class="small-head">
-                        Portfolio Manager
+                        Unit Trust Officer
                     </h2>
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt quas ipsum veritatis ea earum magni
-                        molestiae, sunt accusamus facilis cumque quia quo eaque unde numquam quisquam dolor fuga autem?
+                        Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company.  She has 7 years’ experience in the
+                        financial services industry.  Eva has a Bachelor of Commerce, Finance option from Catholic University of 
+                        Eastern Africa. She is also an Associate member of the Chartered Institute for Securities and Investment (CISI, UK).
 
                     </p>
                 </div>
