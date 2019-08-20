@@ -119,12 +119,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/juliana.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Juliana Nguli<br>
+                            Maria Simiyu <br>
                             <small>Group Head of Human Resource</small>
                         </h5>
 
                         <p>
-                            Juliana is the Group Head of Human Resources and has 20 years of...
+                            Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist ...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
@@ -250,7 +250,7 @@
         </div>
     </div>
 
-    <!-- =====================================  Juliana Nguli ===================================== -->
+    <!-- =====================================  Maria Simiyu  ===================================== -->
 
     <div id="modal-full10" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -259,19 +259,20 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/juliana.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Juliana Nguli
+                        Maria Simiyu 
                     </h1>
                     <h2 class="small-head">
                         Group Head of Human Resource
                     </h2>
                     <p class="text-justify">
-                        Juliana is the Group Head of Human Resources and has 20 years of professional experience and skill in
-                        human resources across broad spectrum of HR practice areas. She holds a Bachelor of Commerce Degree and a
-                        Master of Business Administration Degree (MBA-HR) from Kenyatta University.
-                        <br>
-                        She has a Higher National Diploma in Human Resources Management, a Certified Public Secretary and a Certified
-                        Professional Trainer from the Institute of Human Resources Management. Before joining Apollo Juliana was the
-                        General Manager HR at Liberty Life. She is a full member of the Institute of Human Resources Management.
+                            Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist in the 
+                            financial and professional services, telecommunications and aviation sectors.  She is passionate 
+                            about people and strongly believes that each employee has value to offer the organisation and as 
+                            such should be developed to their highest capabilities and potential.  She holds a Masters in 
+                            Counselling Psychology from USIU-A and a Bachelor of Education degree from Kenyatta University.  
+                            She is also a member of the Institute of Human Resource Management (IHRM) as well as Toastmasters 
+                            International.  She regularly gives of her time towards mentoring young people and actively participates 
+                            in this through two organisations – Precious Sisters & Global Give Back Circle.
 
                     </p>
                 </div>
