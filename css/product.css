@@ -357,7 +357,38 @@
     color: #fff;
 }
 
+/* JAMII PLUS */
 
+.cover-jamii{
+    margin: 5% auto;
+}
+
+.jamii-cater .card{
+    height: 330px;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+}
+
+.jamii-cater .card-header{
+    width: 100%;
+    color: #fff;
+    font-size: 35px;
+    background-color: #0D345F;
+}
+
+.jamii-cater .card-body h3 {
+    font-size: 20px;
+    color: #C80D10;
+}
+
+.jamii-cater .card-body p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 300;
+    margin: 0 auto;
+}
 
 
 /* TABLES ON BENEFITS */

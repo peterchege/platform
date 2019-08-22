@@ -70,6 +70,67 @@
                                     more others.</P>
                                 <hr>
                                 <div class="job-content">
+                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
+                                    
+                                    <div class="row cover-jamii">
+                                        <div class="col-md-3 jamii-cater"> 
+                                            
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <i class="fas fa-procedures"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Bed Charges</h3>
+                                                    <p>Including all accommodation expenses net of NHIF during your stay in the
+                                                        hospital. Whether in the Wards, HDU or ICU.</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+
+                                        <div class="col-md-3 jamii-cater"> 
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <i class="fas fa-pills"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Medication</h3>
+                                                    <p>All prescribed drugs and dressings through our designated partners.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-3 jamii-cater"> 
+                                            
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <i class="fas fa-user-md"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Doctor’s Fees</h3>
+                                                    <p>Any doctorrelated charges including those of physicians, surgeons, anesthetists
+                                                        and specialists for visits and consultations.</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+
+                                        <div class="col-md-3 jamii-cater"> 
+                                            
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <i class="fas fa-stethoscope"></i>
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Diagnostics</h3>
+                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT Scans</p>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                    <br>
+                                    
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Inpatient cover is the core cover.</p>
