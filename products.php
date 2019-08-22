@@ -236,26 +236,27 @@
 
     <!-- ===================================== HEALTH COVER ===================================== -->
 
-    <div class="container">
-        <div class=" product-new text-left">
+    <div class="container-fluid23">
+        <div class="product-new text-left">
 
             <h1>HEALTH COVER</h1>
 
             <div class="container">
+
+                <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
-                    <div class="col-md-5 prod">
+                    <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
                             </div>
                         </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Family Health Cover</h2>
+                        <div class="head-container text-center">
+                            <h2> Family Health Cover (Jamii Plus)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
                             healthy family is a happy family. This is why we have medical insurance..
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -269,20 +270,43 @@
                         </div>
                     </div>
 
-
-                    <div class="col-md-5 prod">
-                        <div class="box-container-img prod-6">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-7">
                             <div class="overlay">
                             </div>
                         </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Cancer Care</h2>
+                        <div class="head-container text-center">
+                            <h2> Family Health Cover <br>(Afya Nafuu) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container  text-center">
+                            <h2> Cancer Care <br>(Femina) </h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -296,8 +320,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
 
         </div>
     </div>
