@@ -29,7 +29,7 @@
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-10 job-box1">
+            <div class="col-11 job-box1">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -233,56 +233,246 @@
 
                             <div class="job-description text-center">
                                 <div class="job-content">
-                                    <div class="text-justify">
 
-                                        <h2 class="text-center">The cover also provides for enhanced benefits. This include:</h2>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                <!-- TABLE OF BENEFITS -->
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
+                                <h2>INPATIENT CORE PLANS</h2>
+                                <hr>
+                                <table class="uk-table uk-table-hover uk-table-divider">
+                                    <thead class="head-text">
+                                        <tr>
+                                            <th>Overall maximum benefit per year</th>
+                                            <th>10,000,000</th>
+                                            <th>5,000,000</th>
+                                            <th>2,000,000 </th>
+                                            <th>1,000,000 </th>
+                                            <th>500,000 </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bed limits net of NHIF</td>
+                                            <td>Private room upto Kshs 25,000</td>
+                                            <td>Ensuite up to Kshs. 18,000</td>
+                                            <td>SPR upto Kshs 12,500</td>
+                                            <td>General Ward Bed</td>
+                                            <td>General Ward Bed</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>In-patient Benefits</td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Prescription drugs and dressings - discharge drugs allowed up to a maximum of 30 days supply</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
+                                        <tr>
+                                            <td>Physicians, Specialist & Surgical fees, including anaesthetist fees subject to APA panel rates</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
 
-                                        </ol><br>
-                                    </div>
+                                        <tr>
+                                            <td>Theatre charges, HDU & ICU</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Diagnostic tests</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Physiotherapy as part of treatment</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Pre-existing / chronic conditions/HIV/AIDS/ Congenital 
+                                            conditions after 12 months of cover and on full disclosureat 
+                                            the time of joining</td>
+                                            <td> 1,000,000 </td>
+                                            <td> 500,000 </td>
+                                            <td> 400,000 </td>
+                                            <td> 300,000 </td>
+                                            <td> 200,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Organ transplantation (3rd year) excluding cost of 
+                                            obtaining the donor organ. Covers operation costs for Kidney,
+                                            Heart, Liver, Lung and Bone Marrow transplants</td>
+                                            <td> 500,000 </td>
+                                            <td> 500,000 </td>
+                                            <td> 300,000 </td>
+                                            <td> 200,000 </td>
+                                            <td> 100,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Psychiatry and psychotherapy conditions after 12 months 
+                                            of cover and on full disclosure at the time of joining</td>
+                                            <td> 500,000 </td>
+                                            <td> 250,000 </td>
+                                            <td> 200,000 </td>
+                                            <td> 150,000 </td>
+                                            <td> 100,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Post Hospitalization Treatment- reimbursement only 
+                                            limited to the first 3 weeks after discharge</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Accommodation costs for 1 parent staying in hospital 
+                                            with insured child under 10 years</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Day Care Surgery under General anaesthesia</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Nursing at home (on doctor’s recommendation)</td>
+                                            <td> 30 Days </td>
+                                            <td> 30 Days </td>
+                                            <td> 30 Days </td>
+                                            <td> 30 Days </td>
+                                            <td> 30 Days </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Local ambulance to hospital for emergency cases</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Treatment outside East Africa RESTRICTED TO INDIA 
+                                                where treatment is not locally available (Pre-authorisation
+                                                required) On reimbursement basis. Air fare Costs for patient 
+                                                only on a scheduled flight in Economy Class</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>CT, MRI and PET scans subject to pre authorisation</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>1st ever emergency C-section &/or maternity related complications 
+                                            after being on cover for 12 months.</td>
+                                            <td> 100,000 </td>
+                                            <td> 100,000 </td>
+                                            <td> 75,000  </td>
+                                            <td> 50,000 </td>
+                                            <td> 50,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>In Patient non-accidental Ophthalmology : includes cost of cataract removal (1 year waiting period)</td>
+                                            <td> 100,000 </td>
+                                            <td> 75,000 </td>
+                                            <td> 75,000  </td>
+                                            <td> 50,000 </td>
+                                            <td> 50,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>In Patient non-accidental Dental (1 year waiting period)</td>
+                                            <td> 100,000 </td>
+                                            <td> 75,000 </td>
+                                            <td> 75,000  </td>
+                                            <td> 50,000 </td>
+                                            <td> 50,000 </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Reconstructive surgery following an accident</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Emergency dental / optical treatment following accident</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Funeral expenses</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+                                </table>
 
                                 </div>
                             </div>
@@ -323,104 +513,7 @@
                     </div>
                 </div>
 
-                <!-- <div class="job-description text-center">
 
-                    <h2>JAMII PLUS </h2>
-                    <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
-                        is a
-                        happy family.
-                        This is why we have medical insurance products designed to cover individuals and families.
-                        Our main products include:
-                        Inpatient cover is the core cover.
-                        With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
-                        cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
-                        many
-                        more others.</P>
-                    <hr>
-                    <div class="job-content">
-                        <div class="text-justify">
-                            <h2>Our main products include:</h2>
-                            <p> Inpatient cover is the core cover.</p>
-                            <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                dental/reconstructive surgery among many more others.</p2>
-                            <p>Optional Benefits:</p>
-                            <ul>
-                                <li>Outpatient cover </li>
-                                <li>Maternity cover </li>
-                                <li>Dental & Optical Cover </li>
-                                <li>Last expense cover </li>
-                                <li>Personal Accident Benefit Cover</li>
-                            </ul>
-                            <hr>
-                            <h3>The cover also provides for enhanced benefits. This include:</h3>
-                            <ul>
-                                <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                    related
-                                    conditions
-                                </li>
-                                <li>Country wide Provider Network
-                                </li>
-                                <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                </li>
-                                <li>Cover for inpatient dental and optical treatment
-                                </li>
-                                <li>Post hospitalization benefit
-                                </li>
-                                <li>Funeral expenses benefit
-                                </li>
-                                <li>Free Personal Accident benefit for Principle member
-                                </li>
-                            </ul>
-
-                            <hr>
-                            <h3>Who is eligible for the cover?</h3>
-                            <ul>
-                                <li>Adults between the age of 18 years and 75 years.
-                                </li>
-                                <li>Children between the age of 1 month and 17 years.
-                                </li>
-
-                            </ul><br>
-                            <hr>
-                            <h3>Maternity Cover</h3>
-                            <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                is
-                                best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                a
-                                Maternity Cover that caters for:</p2>
-                            <ul>
-                                <li>Normal delivery including professional fees, labour and recovery wards for all
-                                    plans.
-                                </li>
-                                <li>Costs of delivery, and other related ailments and complications including ectopic
-                                    pregnancies, miscarriage, etc.
-                                </li>
-                                <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                </li>
-
-                            </ul><br>
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-primary">Get Cover</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-danger"> Download Sample Policy </a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><BR> -->
                 <BR>
             </div>
         </div>
