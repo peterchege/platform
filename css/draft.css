@@ -247,7 +247,8 @@ a:focus {
     content: '';
     background-color: rgba(0, 0, 0, 0.45);
     position: absolute;
-    height: 69vh;
+    margin-top: 65px;
+    height: 60.5vh;
     width: 100%;
     top: 0;
     right: 0;
