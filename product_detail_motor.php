@@ -243,6 +243,45 @@
                                     </tbody>
                                 </table>
 
+                            <!-- <table class="table table-hover">
+                                <thead class="head-text">
+                                    <tr>
+                                        <th>Extra Benefits</th>
+                                        <th>Third party only (TPO)</th>
+                                        <th>Third party Fire & Theft (TPF & T)</th>
+                                        <th>Comprehensive </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+                                </tbody>
+                            </table> -->
+
 
 
 
