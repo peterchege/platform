@@ -40,7 +40,10 @@
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
@@ -227,7 +230,7 @@
 
                         </div>
 
-                        <!-- BENEFITS -->
+                        <!-- BENEFITS INPATIENT-->
 
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
@@ -470,6 +473,122 @@
 
 
 
+
+                                    </tbody>
+                                </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BENEFITS INPATIENT-->
+
+                        <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
+
+                            <div class="job-description text-center">
+                                <div class="job-content">
+
+                                <!-- TABLE OF BENEFITS OUTPATIENT -->
+
+                                <h2>OUTPATIENT CORE PLANS</h2>
+                                <hr>
+                                <table class="uk-table uk-table-hover uk-table-divider">
+                                    <thead class="head-text">
+                                        <tr>
+                                            <th>Annual Limits Per Person</th>
+                                            <th>50,000</th>
+                                            <th>75,000</th>
+                                            <th>100,000 </th>
+                                            <th>150,000 </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Maximum Consultation Limit per visit</td>
+                                            <td>2,000</td>
+                                            <td>2,500</td>
+                                            <td>3,000 </td>
+                                            <td>3,000 </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Physicians consultation fees</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Prescription drugs up to a maximum of 30 days</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Specialists fees (strictly on referral by a GP)</td>
+                                            <td> Covered up to 3,000 </td>
+                                            <td> Covered up to 3,000 </td>
+                                            <td> Covered up to 3,500 </td>
+                                            <td> Covered up to 4,000 </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>Physiotherapy prescribed by a GP</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>Treatment by chiropractors and osteopaths if on referral by a GP</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions after 
+                                            12 months of cover & full disclosure at the time of joining</td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>KEPI recommended vaccines covered for children upto 18 months</td>
+                                            <td> 7,500 </td>
+                                            <td> 7,500 </td>
+                                            <td> 7,500 </td>
+                                            <td> 7,500 </td>
+
+                                        </tr>
+
+                                        <tr>
+                                            <td>General Health Check-up for members from Age 21 and above</td>
+                                            <td> 5,000 </td>
+                                            <td> 7,500 </td>
+                                            <td> 10,000 </td>
+                                            <td> 10,000 </td>
+                                        </tr>
 
                                     </tbody>
                                 </table>
