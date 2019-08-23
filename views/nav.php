@@ -269,7 +269,7 @@
 
                     <!-- CUSTOMER CENTRE -->
                     <li class="list-down">
-                        <a href="#">CUSTOMER CENTRE</a>
+                        <a href="customer_login.php">CUSTOMER CENTRE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
                                 <div>
