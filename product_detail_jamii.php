@@ -194,17 +194,17 @@
 
                                         </ol><br>
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center ">
                                                     <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center ">
                                                     <a href="#" class="btn btn-danger"> Download Sample Policy </a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center ">
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
@@ -668,18 +668,18 @@
                                     cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
                                     velit itaque mollitia libero modi corrupti omnis laborum magnam.
                                     <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-4">
+                                    <div class="row">md-
+                                        <div class="col-md-4">
                                             <div class="load-more text-center ">
                                                 <a href="#" class="btn btn-primary">Get Cover</a>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4">
                                             <div class="load-more text-center ">
                                                 <a href="#" class="btn btn-danger"> Download Form </a>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4">
                                             <div class="load-more text-center ">
                                                 <a href="#" class="btn btn-dark">I Need Assistance</a>
                                             </div>
