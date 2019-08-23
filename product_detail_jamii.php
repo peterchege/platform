@@ -668,15 +668,15 @@
                                     cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
                                     velit itaque mollitia libero modi corrupti omnis laborum magnam.
                                     <br><br> <br>
-                                    <div class="row">md-
+                                    <div class="row">
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
                                                 <a href="#" class="btn btn-primary">Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-danger"> Download Form </a>
+                                            <div class="load-more text-center">
+                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -703,6 +703,90 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+
+    <!-- MODALS FOR DOWNLOADS -->
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            
+            <div class="row forms-download">
+
+                <!-- Browsure form -->
+                <div class="col-md-3 box-download">
+                    <a href="pdf/Jamii_Plus _Brochure.pdf">
+                        <h2>Browsure</h2>
+                        <hr>
+                        <p>Product features & benefits</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+                <!-- Claim Form -->
+                <div class="col-md-3 box-download">
+                    <a href="#">
+                        <h2>Claim Form</h2>
+                        <hr>
+                        <p>Outpatient Claim Form</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+                <!-- Claim Form -->
+                <div class="col-md-3 box-download">
+                    <a href="#">
+                        <h2>Calim Form</h2>
+                        <hr>
+                        <p>Inpatient Claim form</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+            </div>
+            <br>
+            <div class="row forms-download">
+
+                <!-- Browsure form -->
+                <div class="col-md-3 box-download">
+                    <a href="#">
+                        <h2>Claim Form</h2>
+                        <hr>
+                        <p>Dental authorization</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+                <!-- Claim Form -->
+                <div class="col-md-3 box-download">
+                    <a href="#">
+                        <h2>Claim Form</h2>
+                        <hr>
+                        <p>Optical Claim Form</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+                <!-- Claim Form -->
+                <div class="col-md-3 box-download">
+                    <a href="pdf/jamii">
+                        <h2>Calim Form</h2>
+                        <hr>
+                        <p>Inpatient Claim form</p> 
+                        <hr>
+                        <p>Dowload</p>
+                    </a>
+                </div>
+
+            </div>
+            
+            
+        </div>
+    </div>
 
     <?php
     require_once 'inc/scripts.php';
