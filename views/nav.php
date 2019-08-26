@@ -223,26 +223,26 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">APOLLO GROUP :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-building"></i> Our Company</a></li>
-                                        <li><a href="#"><i class="fas fa-user-tie"></i> Leadership</a></li>
-                                        <li><a href="#"><i class="fas fa-tasks"></i> Group Heads</a></li>
+                                        <li><a href="companies.php"><i class="fas fa-building"></i> Our Company</a></li>
+                                        <li><a href="leadership.php"><i class="fas fa-user-tie"></i> Leadership</a></li>
+                                        <li><a href="management_group.php"><i class="fas fa-tasks"></i> Group Heads</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">Managment :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-user-friends"></i> APA INSURANCE</a></li>
-                                        <li><a href="#"><i class="fas fa-user-friends"></i> APA LIFE</a></li>
-                                        <li><a href="#"><i class="fas fa-user-friends"></i> APOLLO ASSET</a></li>
+                                        <li><a href="management.php"><i class="fas fa-user-friends"></i> APA INSURANCE</a></li>
+                                        <li><a href="management_life.php"><i class="fas fa-user-friends"></i> APA LIFE</a></li>
+                                        <li><a href="management_asset.php"><i class="fas fa-user-friends"></i> APOLLO ASSET</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">MEDIA CENTRE :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-newspaper"></i> News & Updates</a></li>
-                                        <li><a href="#"><i class="fas fa-hands-helping"></i> CSR</a></li>
+                                        <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News & Updates</a></li>
+                                        <li><a href="csr.php"><i class="fas fa-hands-helping"></i> CSR</a></li>
                                         <li><a href="#"><i class="fas fa-chart-bar"></i> Financial Reports & Trail Blazers</a></li>
                                     </ul>
                                 </div>
@@ -250,8 +250,8 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CAREER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-walking"></i> Start your Journey</a></li>
-                                        <li><a href="#"><i class="fas fa-poll-h"></i> Job Post</a></li>
+                                        <li><a href="career.php"><i class="fas fa-walking"></i> Start your Journey</a></li>
+                                        <li><a href="jobpage.php"><i class="fas fa-poll-h"></i> Job Post</a></li>
                                         <li><a href="#"><i class="fas fa-user-graduate"></i> Internship</a></li>
                                     </ul>
                                 </div>
@@ -259,8 +259,8 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">APPLICANT :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-                                        <li><a href="#"><i class="fas fa-user-circle"></i> Create Account</a></li>
+                                        <li><a href="career_login.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                                        <li><a href="career_register.php"><i class="fas fa-user-circle"></i> Create Account</a></li>
                                     </ul>
                                 </div>
                             </div>
