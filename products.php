@@ -61,7 +61,7 @@
     <div class="container-fluid23">
         <div class="product product-new text-left">
 
-            <h1>PERSONAL COVER</h1>
+            <h1 id="personal">PERSONAL COVER</h1>
 
             <div class="container">
 
@@ -331,7 +331,7 @@
     <div class="container-fluid23">
         <div class="product product-new text-left">
 
-            <h1>LIFE COVER</h1>
+            <h1 id="life">LIFE COVER</h1>
 
             <div class="container">
 
@@ -506,7 +506,7 @@
     <!-- =====================================investment PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class=" product-new text-left">
+        <div id="investment" class=" product-new text-left">
 
             <h1>INVESTMENT</h1>
 

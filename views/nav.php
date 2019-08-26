@@ -42,7 +42,7 @@
 
                     <!-- PERSONAL AND HEALTH -->
                     <li class="list-down">
-                        <a href="products.php">PERSONAL & HEALTH</a>
+                        <a href="products.php#personal">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
                                 <div>
@@ -78,7 +78,7 @@
 
                     <!-- LIFE COVER -->
                     <li class="list-down">
-                        <a href="products.php">LIFE ASSURANCE</a>
+                        <a href="products.php#life">LIFE ASSURANCE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
@@ -165,13 +165,13 @@
                                     </ul>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </li>
 
                     <!-- INVESTMENT -->
                     <li class="list-down">
-                        <a href="products.php">INVESTMENT</a>
+                        <a href="products.php#investment">INVESTMENT</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
