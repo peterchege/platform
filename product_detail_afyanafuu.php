@@ -59,16 +59,16 @@
                             <div class="job-description text-center">
 
                                 <h2>AFYA NAFUU </h2>
-                                <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
-                                    is a
-                                    happy family.
-                                    This is why we have medical insurance products designed to cover individuals and families.
-                                    Our main products include:
-                                    Inpatient cover is the core cover.
-                                    With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
-                                    cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
-                                    many
-                                    more others.</P>
+                                <P class="text-justify">At APA, we believe that a healthy
+                                    family is a happy family. Good health
+                                    equates to good living, that means having
+                                    every one in the family covered for all
+                                    medical needs.
+                                    <br>
+                                    Our Afya Nafuu health cover, caters to
+                                    everyone in your family, from a term
+                                    baby born at 38 weeks to an adult 80
+                                    years of age.</P>
                                 <hr>
                                 <div class="job-content">
                                     <h2>WHAT AFYA NAFUU CATERS FOR:</h2>
@@ -307,34 +307,29 @@
                                         <thead class="head-text">
                                             <tr>
                                                 <th>Overall maximum benefit per year</th>
-                                                <th>10,000,000</th>
-                                                <th>5,000,000</th>
                                                 <th>2,000,000 </th>
                                                 <th>1,000,000 </th>
+                                                <th>750,000 </th>
                                                 <th>500,000 </th>
+                                                <th>300,000 </th>
+                                                <th>100,000 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Bed limits net of NHIF</td>
-                                                <td>Private room upto Kshs 25,000</td>
-                                                <td>Ensuite up to Kshs. 18,000</td>
-                                                <td>SPR upto Kshs 12,500</td>
+                                                <td>General Ward Bed</td>
+                                                <td>General Ward Bed</td>
+                                                <td>General Ward Bed</td>
+                                                <td>General Ward Bed</td>
                                                 <td>General Ward Bed</td>
                                                 <td>General Ward Bed</td>
                                             </tr>
 
                                             <tr>
-                                                <td>In-patient Benefits</td>
-                                                <td> - </td>
-                                                <td> - </td>
-                                                <td> - </td>
-                                                <td> - </td>
-                                                <td> - </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Prescription drugs and dressings - discharge drugs allowed up to a maximum of 30 days supply</td>
+                                                <td>Prescription drugs and dressings-discharge drugs allowed up to a maximum of 30
+                                                    days supply</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -349,10 +344,12 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Theatre charges, HDU & ICU</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -367,10 +364,12 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Physiotherapy as part of treatment</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -382,37 +381,28 @@
                                                 <td>Pre-existing / chronic conditions/HIV/AIDS/ Congenital
                                                     conditions after 12 months of cover and on full disclosureat
                                                     the time of joining</td>
-                                                <td> 1,000,000 </td>
-                                                <td> 500,000 </td>
-                                                <td> 400,000 </td>
                                                 <td> 300,000 </td>
-                                                <td> 200,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Organ transplantation (3rd year) excluding cost of
-                                                    obtaining the donor organ. Covers operation costs for Kidney,
-                                                    Heart, Liver, Lung and Bone Marrow transplants</td>
-                                                <td> 500,000 </td>
-                                                <td> 500,000 </td>
-                                                <td> 300,000 </td>
-                                                <td> 200,000 </td>
-                                                <td> 100,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Psychiatry and psychotherapy conditions after 12 months
-                                                    of cover and on full disclosure at the time of joining</td>
-                                                <td> 500,000 </td>
                                                 <td> 250,000 </td>
                                                 <td> 200,000 </td>
                                                 <td> 150,000 </td>
                                                 <td> 100,000 </td>
+                                                <td> 50,000 </td>
                                             </tr>
 
                                             <tr>
-                                                <td>Post Hospitalization Treatment- reimbursement only
-                                                    limited to the first 3 weeks after discharge</td>
+                                                <td>In Patient Dental</td>
+                                                <td> 75,000 </td>
+                                                <td> 40,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 20,000 </td>
+                                                <td> 10,000 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Reconstructive surgery
+                                                    following an accident</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -421,8 +411,40 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Accommodation costs for 1 parent staying in hospital
-                                                    with insured child under 10 years</td>
+                                                <td>Emergency dental/optical treatment following accident</td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Funeral expensesl</td>
+                                                <td> 50,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 25,000 </td>
+                                                <td> 25,000 </td>
+                                                <td> 20,000 </td>
+                                                <td> 20,000 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Post Hospitalization Treatment reimbursement only limited to the first 2 weeks
+                                                    after discharge</td>
+                                                <td> 25,000 </td>
+                                                <td> 20,000 </td>
+                                                <td> 15,000 </td>
+                                                <td> 10,000 </td>
+                                                <td> 10,000 </td>
+                                                <td> 7,500 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Accommodation costs for 1 parent staying in hospital with insured child under
+                                                    8 years.</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -437,31 +459,22 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
-                                                <td>Nursing at home (on doctor’s recommendation)</td>
-                                                <td> 30 Days </td>
-                                                <td> 30 Days </td>
-                                                <td> 30 Days </td>
-                                                <td> 30 Days </td>
-                                                <td> 30 Days </td>
+                                                <td>Home Nursing (on doctor’s recommendation)</td>
+                                                <td> Up to a maximum of 30 days </td>
+                                                <td> Up to a maximum of 30 days </td>
+                                                <td> Up to a maximum of 30 days </td>
+                                                <td> Up to a maximum of 30 days </td>
+                                                <td> Up to a maximum of 30 days </td>
+                                                <td> Up to a maximum of 30 days </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Local ambulance to hospital for emergency cases</td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Treatment outside East Africa RESTRICTED TO INDIA
-                                                    where treatment is not locally available (Pre-authorisation
-                                                    required) On reimbursement basis. Air fare Costs for patient
-                                                    only on a scheduled flight in Economy Class</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -476,66 +489,31 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>1st ever emergency C-section &/or maternity related complications
                                                     after being on cover for 12 months.</td>
-                                                <td> 100,000 </td>
-                                                <td> 100,000 </td>
                                                 <td> 75,000 </td>
                                                 <td> 50,000 </td>
-                                                <td> 50,000 </td>
+                                                <td> 40,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 30,000 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>In Patient non-accidental Ophthalmology : includes cost of cataract removal (1 year waiting period)</td>
-                                                <td> 100,000 </td>
-                                                <td> 75,000 </td>
                                                 <td> 75,000 </td>
                                                 <td> 50,000 </td>
-                                                <td> 50,000 </td>
+                                                <td> 40,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 30,000 </td>
+                                                <td> 30,000 </td>
                                             </tr>
 
-                                            <tr>
-                                                <td>In Patient non-accidental Dental (1 year waiting period)</td>
-                                                <td> 100,000 </td>
-                                                <td> 75,000 </td>
-                                                <td> 75,000 </td>
-                                                <td> 50,000 </td>
-                                                <td> 50,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Reconstructive surgery following an accident</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Emergency dental / optical treatment following accident</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Funeral expenses</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-
-
-
+                                            
                                         </tbody>
                                     </table>
 
@@ -543,7 +521,7 @@
                             </div>
                         </div>
 
-                        <!-- BENEFITS INPATIENT-->
+                        <!-- BENEFITS OUTPATIENT-->
 
                         <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
 
