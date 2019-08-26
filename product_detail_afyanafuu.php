@@ -513,7 +513,7 @@
                                                 <td> 30,000 </td>
                                             </tr>
 
-                                            
+
                                         </tbody>
                                     </table>
 
@@ -536,23 +536,27 @@
                                         <thead class="head-text">
                                             <tr>
                                                 <th>Annual Limits Per Person</th>
-                                                <th>50,000</th>
-                                                <th>75,000</th>
+                                                <th>30,000</th>
+                                                <th>40,000</th>
+                                                <th>50,000 </th>
+                                                <th>75,000 </th>
                                                 <th>100,000 </th>
-                                                <th>150,000 </th>
+
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Maximum Consultation Limit per visit</td>
-                                                <td>2,000</td>
-                                                <td>2,500</td>
-                                                <td>3,000 </td>
-                                                <td>3,000 </td>
+                                                <td>1,000</td>
+                                                <td>1,000</td>
+                                                <td>1,500</td>
+                                                <td>1,500 </td>
+                                                <td>1,500 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Physicians consultation fees</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -565,19 +569,22 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Specialists fees (strictly on referral by a GP)</td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,500 </td>
-                                                <td> Covered up to 4,000 </td>
+                                                <td> 2,000 </td>
+                                                <td> 2,000 </td>
+                                                <td> 2,000 </td>
+                                                <td> 2,000 </td>
+                                                <td> 2,000 </td>
 
                                             </tr>
 
                                             <tr>
                                                 <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
+                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -588,14 +595,6 @@
                                             <tr>
                                                 <td>Physiotherapy prescribed by a GP</td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -610,26 +609,9 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
 
                                             </tr>
-
-                                            <tr>
-                                                <td>KEPI recommended vaccines covered for children upto 18 months</td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>General Health Check-up for members from Age 21 and above</td>
-                                                <td> 5,000 </td>
-                                                <td> 7,500 </td>
-                                                <td> 10,000 </td>
-                                                <td> 10,000 </td>
-                                            </tr>
-
                                         </tbody>
                                     </table>
 
