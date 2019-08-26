@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1a">
+        <div class="header-image header-image1 motor-background">
         </div>
     </div>
 
@@ -243,7 +243,7 @@
                                     </tbody>
                                 </table>
 
-                            <!-- <table class="table table-hover">
+                                <!-- <table class="table table-hover">
                                 <thead class="head-text">
                                     <tr>
                                         <th>Extra Benefits</th>
@@ -321,7 +321,7 @@
 
                         </div>
                     </div>
-                </div>               
+                </div>
                 <BR>
             </div>
         </div>

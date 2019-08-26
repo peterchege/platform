@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 jamii-background">
+        <div class="header-image header-image1 afya-background">
         </div>
     </div>
 
@@ -58,7 +58,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2>JAMII PLUS </h2>
+                                <h2>AFYA NAFUU </h2>
                                 <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
                                     is a
                                     happy family.
@@ -71,7 +71,7 @@
                                     more others.</P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
+                                    <h2>WHAT AFYA NAFUU CATERS FOR:</h2>
 
                                     <div class="row cover-jamii">
                                         <div class="col-md-3 jamii-cater">
@@ -796,7 +796,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/baby.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 

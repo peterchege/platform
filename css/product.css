@@ -181,8 +181,6 @@
     padding: 20px 20px;
 }
 
-
-
 .header-image11 {
     width: 100%;
     height: 80vh;
@@ -192,23 +190,28 @@
     background-position: top;
 }
 
+/* PRODUCTS DETAILS BACKGROUND IMAGES */
+
 .header-image1 {
     width: 100%;
     height: 80vh;
-    background-image: url(../images/baby.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.header-image1a {
-    width: 100%;
-    height: 80vh;
-    background-image: url(../img/motor-cover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.jamii-background {
+    background-image: url(../images/baby.jpg);
 }
+
+.afya-background {
+    background-image: url(../images/weare.jpg);
+}
+
+.motor-background {
+    background-image: url(../img/motor-cover.jpg);
+}
+
 
 .header-image2 {
     width: 100%;
