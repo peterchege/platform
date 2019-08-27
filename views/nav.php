@@ -50,7 +50,8 @@
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
-                                        <li><a href="#"><i class="fas fa-home"></i> Domestic Package</a></li>
+                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor cycle</a></li>
+                                        <li><a href="#"><i class="fas fa-bicycle"></i> Pedal cycle</a></li>
                                         <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
 
                                     </ul>
@@ -59,17 +60,20 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> Flexpac</a></li>
-                                        <li><a href="#"><i class="fas fa-golf-ball"></i> Golphers</a></li>
+                                        <li><a href="#"><i class="fas fa-home"></i> Home cover (Domestic package)</a></li>
+                                        <li><a href="#"><i class="fas fa-cat"></i> Pet</a></li>
+                                        <li><a href="#"><i class="fas fa-suitcase-rolling"></i> Flexpac</a></li>
+                                        <li><a href="#"><i class="fas fa-golf-ball"></i> Golfers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-users"></i> Family Health Cover</a></li>
-                                        <li><a href="#"><i class="fas fa-user-md"></i> Cancer Care</a></li>
+                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover(Jamii Plus)</a></li>
+                                        <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover(Afya Nafuu)</a></li>
+                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care(Femina)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
                                     </ul>
                                 </div>
                             </div>
