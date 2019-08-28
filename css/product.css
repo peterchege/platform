@@ -42,36 +42,43 @@
 .prod-1 {
     background-image: url(../images/travell.jpg);
 }
-
 .prod-2 {
     background-image: url(../images/motor.jpg);
 }
-
 .prod-3 {
     background-image: url(../images/life.jpeg);
     background-position: center;
 }
-
 .prod-4 {
     background-image: url(../img/domestic.jpg);
 }
-
 .prod-5 {
     background-image: url(../images/auto.jpg);
 }
-
 .prod-6 {
     background-image: url(../img/sheep.jpg);
 }
-
 .prod-7 {
     background-image: url(../images/weare.jpg);
 }
-
 .prod-8 {
     background-image: url(../img/assurance.jpg);
 }
-
+.prod-9 {
+    background-image: url(../img/golf1.jpg);
+}
+.prod-10 {
+    background-image: url(../img/motorcycle.jpg);
+}
+.prod-11 {
+    background-image: url(../img/bicycle.jpg);
+}
+.prod-12 {
+    background-image: url(../img/flexpac1.jpg);
+}
+.prod-13 {
+    background-image: url(../img/pet1.jpg);
+}
 /* APOLLO ASSET IMAGE */
 
 .asset-1 {

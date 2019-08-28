@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Motor Private Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center">Travel Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Home Insurance <br> (Domestic Package)</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -146,14 +146,14 @@
                 </div>
 
                 <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 text-center">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img prod-12">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2> Flexpack Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -173,12 +173,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img prod-9">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2>Golfers Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -198,12 +198,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img prod-10">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2> Motor Cycle Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -222,6 +222,60 @@
 
                         </div>
                     </div>
+                </div>
+
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1 text-center">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-11">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Pedal Cycle Cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4  prod">
+                        <div class="box-container-img prod-13">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Pet Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
