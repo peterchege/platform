@@ -7,7 +7,10 @@
         <div id="logo" class="pull-left">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.php" id="im-left"><img src="img/logon.png" width="75" height="auto" alt="" title="" /></a>
+            <a href="index.php" id="im-left">
+                <img src="img/logon.png" width="75" height="auto" alt="" title="" />
+                <img src="images/Apollo.jpg" width="75" height="auto" alt="" title="" />
+            </a>
         </div>
 
 
@@ -70,9 +73,9 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover(Jamii Plus)</a></li>
-                                        <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover(Afya Nafuu)</a></li>
-                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care(Femina)</a></li>
+                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover (Jamii Plus)</a></li>
+                                        <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover (Afya Nafuu)</a></li>
+                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
                                         <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
                                     </ul>
                                 </div>
@@ -99,9 +102,10 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense cover(Pumzisha)</a></li>
+                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense cover (Pumzisha)</a></li>
                                         <li><a href="#"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
                                         <li><a href="#"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="#"><i class="fas fa-home"></i> Mortgage Protection</a></li>
                                     </ul>
                                 </div>
 
@@ -162,10 +166,7 @@
                                         <li><a href="#"><i class="fas fa-user-secret"></i> Burglary</a></li>
                                         <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Money</a></li>
                                         <li><a href="#"><i class="fas fa-car"></i> Car</a></li>
-                                        <!-- <li><a href="#">open Cover</a></li>
-                                        <li><a href="#">Cargo</a></li>
-                                        <li><a href="#">Single Transit</a></li>
-                                        <li><a href="#">Hull</a></li> -->
+
                                     </ul>
                                 </div>
                             </div>
