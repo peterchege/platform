@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Flexpack Cover</h2>
+                            <h2> Personal Accident <br> (Flexpac cover)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -389,14 +389,14 @@
 
             <div class="container">
 
-                <div class="row row-product1">
+                <div class="row row-product1 ">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-2">
+                        <div class="box-container-img life-2">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -417,12 +417,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-1">
+                        <div class="box-container-img life-1">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -442,12 +442,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img life-3">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -472,12 +472,12 @@
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img life-4">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2 class="text-center"> Hospitalization Loss of income  (HosiCare)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -497,12 +497,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img life-5">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -522,12 +522,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img life-6">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing

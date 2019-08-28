@@ -37,7 +37,7 @@
     transition: transform 1.2s;
 }
 
-/* images of product */
+/* images of personal products */
 
 .prod-1 {
     background-image: url(../images/travell.jpg);
@@ -79,6 +79,27 @@
 .prod-13 {
     background-image: url(../img/pet1.jpg);
 }
+
+/* images of personal products */
+.life-1{
+    background-image: url(../img/saving1.jpg);
+}
+.life-2 {
+    background-image: url(../img/saving3.jpg);
+}
+.life-3 {
+    background-image: url(../img/educate.jpg);
+}
+.life-4 {
+    background-image: url(../img/admited.jpg);
+}
+.life-5 {
+    background-image: url(../img/funeral.jpg);
+}
+.life-6 {
+    background-image: url(../img/life.jpg);
+}
+
 /* APOLLO ASSET IMAGE */
 
 .asset-1 {
