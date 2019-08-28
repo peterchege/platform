@@ -24,7 +24,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-cover">
+    <div class="banner-life">
 
     </div>
     <div class="cover-line">
@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="management.php">MANAGEMENT</a>
+                <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
@@ -58,13 +58,16 @@
     <div class="sub-nav">
         <ul class="nav justify-content-center">
             <li class="nav-item">
+                <a class="nav-link" href="management_group.php">GROUP HEADS </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="management.php">APA INSURANCE </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="management.php">APA LIFE </a>
+                <a class="nav-link" href="management_life.php">APA LIFE </a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="management.php">APOLLO ASSET MANAGEMENT</a>
+                <a class="nav-link" href="management_asset.php">APOLLO ASSET MANAGEMENT</a>
             </li>
 
         </ul>
@@ -95,7 +98,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/catherine.jpg" class="img" alt="">
+                        <img src="img/passport1/catherine.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Catherine Karimi<br>
                             <small>CEO, APA Life</small>
@@ -108,7 +111,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/mugo.jpg" class="img" alt="">
+                        <img src="img/passport1/mugo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Daniel Mugo<br>
                             <small>Chief Finance Officer</small>
@@ -121,20 +124,20 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/hariet.jpg" class="img" alt="">
+                        <img src="img/passport1/hariet.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Harriet Aleke<br>
-                            <small>Head of Operations Retail Business</small>
+                            <small>Team Leader – Individual Life Operations</small>
                         </h5>
 
                         <p>
-                            Jane Wakiti serves as the Head of Operations at APA Life and has been with the...
+                            Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/benard.jpg" class="img" alt="">
+                        <img src="img/passport1/benard.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernard Kinyanjui<br>
                             <small>Head of Corporate Business</small>
@@ -151,7 +154,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/hariet.jpg" class="img" alt="">
+                        <img src="img/passport1/jane.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Jane Watiki<br>
                             <small>Head of Operations</small>
@@ -164,7 +167,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/njagi.jpg" class="img" alt="">
+                        <img src="img/passport1/njagi.jpg" class="img" alt="">
                         <h5 class="title-name">
                             James Njagi<br>
                             <small>Business Development Manager</small>
@@ -177,7 +180,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/mark.jpg" class="img" alt="">
+                        <img src=" img/passport1/mark.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Mark Mumo<br>
                             <small>Business Development Manager</small>
@@ -190,7 +193,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/stevo.jpg" class="img" alt="">
+                        <img src="img/passport1/stevo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Stephen Muiga<br>
                             <small>Business Development Manager</small>
@@ -207,7 +210,7 @@
                 <div class="row lead-img text-left">
 
                     <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/makena.jpg" class="img" alt="">
+                        <img src="img/passport1/makena.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Bernadicto Makena<br>
                             <small>National Sales Manager</small>
@@ -220,14 +223,14 @@
                     </div>
 
                     <div class="col-md-6 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/ruto.jpg" class="img" alt="">
+                        <img src="img/passport1/ruto.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Vitalis Mbae<br>
                             <small>Actuarial Officer</small>
                         </h5>
 
                         <p>
-                            Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
+                            Vitalis Mbae is the current<br> Actuarial Officer for APA Life.<br> He has over...
                         </p>
                         <button class="btn btn-primary reto" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>
@@ -314,15 +317,14 @@
                         Harriet Aleke
                     </h1>
                     <h2 class="small-head">
-                        Head of Operations Retail Business
+                        Team Leader – Individual Life Operations
                     </h2>
                     <p class="text-justify">
-                        For the past 11 years, Daniel K. Mugo has served as the Chief Finance Officer.
-                        He is responsible for the financial management of the company. His key accountabilities range
-                        from looking at areas of cost saving to effective utilisation of company resources.
-                        He is also tasked with ensuring that the company assets are well safeguarded at all times.
-                        Mr. Mugo has a Bachelor of Commerce degree (Hon.) in Finance, a Diploma in Business
-                        Management – Kenya Institute of Management, a Certificate of Proficiency in Insurance (COP), and is a member of the Institute of Certified Public Accountants of Kenya (ICPAK).
+                        Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance Company.  
+                        She has 7 years’ experience in the Life Assurance industry both in Operations and Actuarial. 
+                        Harriet has a Bachelor’s of Science degree in Actuarial Science from the University of Nairobi and 
+                        is also a former member of the Institute and Faculty of Actuaries. She also has had trainings in Underwriting, 
+                        Reinsurance and Leadership.
                     </p>
                 </div>
             </div>
@@ -359,7 +361,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/hariet.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/passport1/jane.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Jane Watiki
@@ -496,7 +498,9 @@
                         Actuarial Officer
                     </h2>
                     <p class="text-justify">
-
+                        Vitalis Mbae is the current Actuarial Officer for APA Life. He has over 6 years’ experience in various actuarial roles in the insurance industry. 
+                        His responsibilities include product development, pricing and valuations for the Company.
+                        He has a Bachelors in Actuarial Science from JKUAT and a Diploma in Actuarial Techniques from the Institute and Faculty of Actuaries (IFOA)”
                     </p>
                 </div>
             </div>

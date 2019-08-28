@@ -307,8 +307,6 @@ require_once 'inc/functions.php';
 
             </div>
 
-
-
             <div class="load-more">
                 <a href="products.php" class="btn btn-primary">LOAD MORE</a>
             </div>

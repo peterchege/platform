@@ -12,8 +12,6 @@
 
     <?php include 'views/head_links.php'; ?>
 
-
-
 </head>
 
 <body>

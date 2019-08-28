@@ -45,7 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="management" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
+                <a class="nav-link dropdown-toggle" href="management_group.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                 </div>
@@ -64,7 +64,10 @@
     <div class="sub-nav">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="management">APA INSURANCE </a>
+                <a class="nav-link" href="management_group.php">GROUP HEADS </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="management.php">APA INSURANCE </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="management_life.php">APA LIFE </a>
@@ -227,7 +230,7 @@
                         <button class="btn btn-primary" data-target="#modal-full8" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-3   leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/managment/ann.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ann Njoki<br>
@@ -240,136 +243,9 @@
                         <button class="btn btn-primary" data-target="#modal-full9" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/keval.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Keval Shah<br>
-                            <small>Group Chief</small>
-                        </h5>
-
-                        <p>
-                            Keval holds a Bachelors degree in Education, a Masters degree in...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full18" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/juliana.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Juliana Nguli<br>
-                            <small>Group Head of Human Resource</small>
-                        </h5>
-
-                        <p>
-                            Juliana is the Group Head of Human Resources and has 20 years of...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full10" uk-toggle>Read more</button>
-                    </div>
-
 
 
                 </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/james.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            James Nyakomitta<br>
-                            <small>Group Chief Information Officer</small>
-                        </h5>
-
-                        <p>
-                            James is an experienced Information & Communication Tech...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full11" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/chris.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Chris Ngala<br>
-                            <small>Group Head of Internal Audit</small>
-                        </h5>
-
-                        <p>
-                            Chris is the Group Head of Internal Audit with over 20 combined years in the...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full12" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/benjamin.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Benjamin Otieno<br>
-                            <small>Group Risk manager</small>
-                        </h5>
-
-                        <p>
-                            Benjamin has an experience spanning over 15 years in banking, development...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full13" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/judy.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Judith Bogonko Juma<br>
-                            <small>Head of Customer Service</small>
-                        </h5>
-
-                        <p>
-                            Judith Bogonko Juma is the head of customer service, and has 8 years of...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
-                    </div>
-
-
-                </div>
-
-                <div class="row lead-img">
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/jackie.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Jackie Tonui<br>
-                            <small>Head of Corporate Communications</small>
-                        </h5>
-
-                        <p>
-                            Jackie Tonui is the Head of Corporate Communications and has six years in...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/charlse.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Charles Wambua<br>
-                            <small>Head of Microinsurance & Agribusiness</small>
-                        </h5>
-
-                        <p>
-                            Charles holds a Bachelors degree in Education, a Masters degree in...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full16" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/janette.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Janette Awidhi<br>
-                            <small>Head of Legal and Claims</small>
-                        </h5>
-
-                        <p>
-                            Janette has over 25 years of proven track record in claims management. She...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full17" uk-toggle>Read more</button>
-                    </div>
-
-                </div>
-
 
             </div>
         </div>

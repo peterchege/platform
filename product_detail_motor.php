@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1a">
+        <div class="header-image header-image1 motor-background">
         </div>
     </div>
 
@@ -243,6 +243,45 @@
                                     </tbody>
                                 </table>
 
+                                <!-- <table class="table table-hover">
+                                <thead class="head-text">
+                                    <tr>
+                                        <th>Extra Benefits</th>
+                                        <th>Third party only (TPO)</th>
+                                        <th>Third party Fire & Theft (TPF & T)</th>
+                                        <th>Comprehensive </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Windscreen</td>
+                                        <td>N/A</td>
+                                        <td>N/A</td>
+                                        <td>Free limit up to Kshs. 50,000.00
+                                            Additional cover<br> over and above free limit cover
+                                            is charged at 10% of the insured value</td>
+                                    </tr>
+                                </tbody>
+                            </table> -->
+
 
 
 
@@ -283,105 +322,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="job-description text-center">
-
-                    <h2>JAMII PLUS </h2>
-                    <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
-                        is a
-                        happy family.
-                        This is why we have medical insurance products designed to cover individuals and families.
-                        Our main products include:
-                        Inpatient cover is the core cover.
-                        With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
-                        cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
-                        many
-                        more others.</P>
-                    <hr>
-                    <div class="job-content">
-                        <div class="text-justify">
-                            <h2>Our main products include:</h2>
-                            <p> Inpatient cover is the core cover.</p>
-                            <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                dental/reconstructive surgery among many more others.</p2>
-                            <p>Optional Benefits:</p>
-                            <ul>
-                                <li>Outpatient cover </li>
-                                <li>Maternity cover </li>
-                                <li>Dental & Optical Cover </li>
-                                <li>Last expense cover </li>
-                                <li>Personal Accident Benefit Cover</li>
-                            </ul>
-                            <hr>
-                            <h3>The cover also provides for enhanced benefits. This include:</h3>
-                            <ul>
-                                <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                    related
-                                    conditions
-                                </li>
-                                <li>Country wide Provider Network
-                                </li>
-                                <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                </li>
-                                <li>Cover for inpatient dental and optical treatment
-                                </li>
-                                <li>Post hospitalization benefit
-                                </li>
-                                <li>Funeral expenses benefit
-                                </li>
-                                <li>Free Personal Accident benefit for Principle member
-                                </li>
-                            </ul>
-
-                            <hr>
-                            <h3>Who is eligible for the cover?</h3>
-                            <ul>
-                                <li>Adults between the age of 18 years and 75 years.
-                                </li>
-                                <li>Children between the age of 1 month and 17 years.
-                                </li>
-
-                            </ul><br>
-                            <hr>
-                            <h3>Maternity Cover</h3>
-                            <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                is
-                                best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                a
-                                Maternity Cover that caters for:</p2>
-                            <ul>
-                                <li>Normal delivery including professional fees, labour and recovery wards for all
-                                    plans.
-                                </li>
-                                <li>Costs of delivery, and other related ailments and complications including ectopic
-                                    pregnancies, miscarriage, etc.
-                                </li>
-                                <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                </li>
-
-                            </ul><br>
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-primary">Get Cover</a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-danger"> Download Sample Policy </a>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="load-more text-center ">
-                                        <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div><BR> -->
                 <BR>
             </div>
         </div>
