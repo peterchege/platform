@@ -496,7 +496,7 @@
 
                 </div>
 
-                <!-- NEW ROW OF PRODUCTS -->
+                <!-- NEW ROW2 OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
                         <div class="box-container-img life-4">
@@ -573,6 +573,60 @@
 
                         </div>
                     </div>
+                </div>
+
+                <!-- NEW ROW3 OF PRODUCTS -->
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img life-7">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img life-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Morgage Protection</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
