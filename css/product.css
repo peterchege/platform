@@ -74,10 +74,13 @@
     background-image: url(../img/bicycle.jpg);
 }
 .prod-12 {
-    background-image: url(../img/flexpac1.jpg);
+    background-image: url(../img/accident2.jpg);
 }
 .prod-13 {
     background-image: url(../img/pet1.jpg);
+}
+.prod-14 {
+    background-image: url(../img/flexpac1.jpg);
 }
 
 /* images of personal products */
@@ -229,11 +232,11 @@
 }
 
 .jamii-background {
-    background-image: url(../images/baby.jpg);
+    background-image: url(../images/weare.jpg);
 }
 
 .afya-background {
-    background-image: url(../images/weare.jpg);
+    background-image: url(../images/baby.jpg);
 }
 
 .motor-background {

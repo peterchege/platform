@@ -153,7 +153,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Personal Accident <br> (Flexpac cover)</h2>
+                            <h2> Personal Accident</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -226,6 +226,32 @@
 
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1 text-center">
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-14">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Flexpac cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-11">
                             <div class="overlay">
@@ -279,10 +305,11 @@
                 </div>
 
             </div>
+            <br>
 
-            <div class="load-more text-center">
+            <!-- <div class="load-more text-center">
                 <a href="#" class="btn btn-primary">LOAD MORE</a>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -300,7 +327,7 @@
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img prod-7">
                             <div class="overlay">
                             </div>
                         </div>
@@ -325,7 +352,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-7">
+                        <div class="box-container-img prod-3">
                             <div class="overlay">
                             </div>
                         </div>
@@ -477,7 +504,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Hospitalization Loss of income  (HosiCare)</h2>
+                            <h2 class="text-center"> Hospitalization Loss of income (HosiCare)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
