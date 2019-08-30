@@ -9,7 +9,7 @@
             <!-- Uncomment below if you prefer to use an image logo -->
             <a href="index.php" id="im-left">
                 <img src="img/logon.png" width="75" height="auto" alt="" title="" />
-                <img src="images/Apollo.png" width="140" height="auto" alt="" title="" />
+                <!-- <img src="images/Apollo.png" width="140" height="auto" alt="" title="" /> -->
             </a>
         </div>
 
@@ -316,6 +316,11 @@
                             </div>
                         </div>
                     </li>
+
+                    <li>
+                        <a class="logo1" href="#"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                    </li>
+
                 </ul>
 
             </div>

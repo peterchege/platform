@@ -58,7 +58,7 @@
 
     <!-- ===================================== PERSONAL PRODUCTS ===================================== -->
 
-    <div class="container-fluid23">
+    <div class="container-fluid23 commercial-up">
         <div class="product product-new text-left">
 
             <h1 id="personal">PERSONAL COVER</h1>
