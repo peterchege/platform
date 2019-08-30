@@ -48,11 +48,11 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
+            <!-- <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
                 for both our clients and their loved ones.
-            </p>
+            </p> -->
         </div>
     </div>
 
