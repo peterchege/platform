@@ -255,7 +255,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">CAREER :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="career.php"><i class="fas fa-walking"></i> Start your Journey</a></li>
+                                        <li><a href="career.php"><i class="fas fa-walking"></i> Career: Start your Journey</a></li>
                                         <li><a href="jobpage.php"><i class="fas fa-poll-h"></i> Job Post</a></li>
                                         <li><a href="#"><i class="fas fa-user-graduate"></i> Internship</a></li>
                                     </ul>
