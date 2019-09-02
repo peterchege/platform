@@ -110,12 +110,12 @@ a:focus {
     border-bottom: 3.5px solid #0C4DA2;
 }
 
-#header.header-scrolled {
+/* #header.header-scrolled {
     background: rgba(255, 255, 255, 0.9);
     padding: 20px 0;
     height: 94px;
     transition: all 0.5s;
-}
+} */
 
 #header #logo {
     float: left;
