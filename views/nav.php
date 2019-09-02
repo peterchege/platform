@@ -317,6 +317,24 @@
                         </div>
                     </li>
 
+                    <!-- BRANCHES -->
+                    <li class="list-down">
+                        <a href="index.php"><img src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
+                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li class="uk-nav-header ">INVESTMENT :</li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-pie"></i> Apollo Equity Fund</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-line"></i> Apollo Money Market Fund</a></li><br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
                     <li>
                         <a class="logo1" href="#"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
                     </li>
