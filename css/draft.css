@@ -863,7 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # FLAGS
 --------------------------------------------------------------*/
 
-#flags {
+/* #flags {
     margin-right: 8%;
 }
 
@@ -882,7 +882,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
     -moz-box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
     box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
-}
+} */
 
 
 

@@ -319,16 +319,16 @@
 
                     <!-- BRANCHES -->
                     <li class="list-down">
-                        <a href="index.php"><img src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
+                        <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi text-left">
                                         <!-- <li class="uk-nav-header ">BRANCHES :</li>
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"> <img src="img/kenya.png" class="rounded" width="30" height="auto" alt="APA KENYA"> &nbsp; KENYA</a></li>
                                         <li><a href="#"> <img src="img/uganda.png" class="rounded" width="30" height="auto" alt="APA UGANDA"> &nbsp; UGANDA</a></li>
-                                        <li><a href="#"> <img src="img/tanzania.png" class="rounded" width="30" height="auto" alt="APA TANZANIA"> &nbsp; TANZANIA</a></li><br>
+                                        <!-- <li><a href="#"> <img src="img/tanzania.png" class="rounded" width="30" height="auto" alt="APA TANZANIA"> &nbsp; TANZANIA</a></li><br> -->
                                     </ul>
                                 </div>
                             </div>
