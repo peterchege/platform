@@ -7,7 +7,10 @@
         <div id="logo" class="pull-left">
 
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.php" id="im-left"><img src="img/logon.png" width="75" height="auto" alt="" title="" /></a>
+            <a href="index.php" id="im-left">
+                <img src="img/logon.png" width="75" height="auto" alt="" title="" />
+                <!-- <img src="images/Apollo.png" width="140" height="auto" alt="" title="" /> -->
+            </a>
         </div>
 
 
@@ -47,33 +50,33 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
-                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor cycle</a></li>
-                                        <li><a href="#"><i class="fas fa-bicycle"></i> Pedal cycle</a></li>
+                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle</a></li>
+                                        <li><a href="#"><i class="fas fa-bicycle"></i> Pedal Cycle</a></li>
                                         <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
 
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">PERSONAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-home"></i> Home cover (Domestic package)</a></li>
+                                        <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="#"><i class="fas fa-home"></i> Home Cover (Domestic package)</a></li>
                                         <li><a href="#"><i class="fas fa-cat"></i> Pet</a></li>
-                                        <li><a href="#"><i class="fas fa-suitcase-rolling"></i> Flexpac</a></li>
+                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
                                         <li><a href="#"><i class="fas fa-golf-ball"></i> Golfers</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover(Jamii Plus)</a></li>
-                                        <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover(Afya Nafuu)</a></li>
-                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care(Femina)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
+                                        <!-- <li class="uk-nav-header ">HEALTH COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover (Jamii Plus)</a></li>
+                                        <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover (Afya Nafuu)</a></li>
+                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -87,21 +90,22 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
-                                        <li><a href="#"><i class="fas fa-money-check"></i> Anticipated savings (Akiba Halisi)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Education plan (APA Elimu)</a></li>
-                                        <li><a href="#"><i class="fas fa-procedures"></i> Hospitalization loss of income (HosiCare)</a></li>
+                                        <li><a href="#"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba Halisi)</a></li>
+                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Education Plan (Elimu)</a></li>
+                                        <li><a href="#"><i class="fas fa-procedures"></i> Hospitalisation Loss of Income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">LIFE COVER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense cover(Pumzisha)</a></li>
+                                        <!-- <li class="uk-nav-header ">LIFE COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover (Pumzisha)</a></li>
                                         <li><a href="#"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
                                         <li><a href="#"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="#"><i class="fas fa-home"></i> Mortgage Protection</a></li>
                                     </ul>
                                 </div>
 
@@ -116,8 +120,8 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
                                         <li><a href="#"><i class="fas fa-first-aid"></i> Health Coprate </a></li>
                                         <li><a href="#"><i class="fas fa-briefcase"></i> Employer's Liability</a></li>
@@ -128,8 +132,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-people-carry"></i> Wiba</a></li>
                                         <li><a href="#"><i class="fas fa-fire"></i> Fire & peril</a></li>
                                         <li><a href="#"><i class="fas fa-user-tie"></i> Professinal Indemnity</a></li>
@@ -142,8 +146,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> GIT(Goods in Transit)</a></li>
                                         <li><a href="#"><i class="fas fa-user-nurse"></i> Medical Mul-practise</a></li>
                                         <li><a href="#"><i class="fas fa-building"></i> Property Terrorism & Subotarge </a></li>
@@ -154,18 +158,15 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine Cover</a>
                                         <li><a href="#"><i class="fas fa-cookie"></i> Crop Cover</a>
                                         <li><a href="#"><i class="fas fa-hippo"></i> Livestock Cover</a>
                                         <li><a href="#"><i class="fas fa-user-secret"></i> Burglary</a></li>
                                         <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Money</a></li>
                                         <li><a href="#"><i class="fas fa-car"></i> Car</a></li>
-                                        <!-- <li><a href="#">open Cover</a></li>
-                                        <li><a href="#">Cargo</a></li>
-                                        <li><a href="#">Single Transit</a></li>
-                                        <li><a href="#">Hull</a></li> -->
+
                                     </ul>
                                 </div>
                             </div>
@@ -180,8 +181,8 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">INVESTMENT :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">INVESTMENT :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund</a></li>
                                         <li><a href="#"><i class="fas fa-chart-pie"></i> Apollo Equity Fund</a></li>
                                         <li><a href="#"><i class="fas fa-chart-line"></i> Apollo Money Market Fund</a></li><br>
@@ -198,8 +199,8 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">BOARDROOMS:</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">BOARDROOMS:</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-handshake"></i> Shimba Hills (18px)</a></li>
                                         <li><a href="#"><i class="fas fa-handshake"></i> Taita Hills (10-12px)</a></li>
                                         <li><a href="#"><i class="fas fa-handshake"></i> Ngong Hills (8px)</a></li>
@@ -207,8 +208,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">ROOMS:</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">ROOMS:</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-hotel"></i> Chyullu Hills - Auditorium (40px)</a></li>
                                         <li><a href="#"><i class="fas fa-hotel"></i> Cherengani Hills - Training Room</a></li>
                                         <li><a href="#"><i class="fas fa-hotel"></i> Entertainment Area</a></li>
@@ -225,8 +226,8 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-5 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">APOLLO GROUP :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">APOLLO GROUP :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="companies.php"><i class="fas fa-building"></i> Our Company</a></li>
                                         <li><a href="leadership.php"><i class="fas fa-user-tie"></i> Leadership</a></li>
                                         <li><a href="management_group.php"><i class="fas fa-tasks"></i> Group Heads</a></li>
@@ -234,8 +235,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">Managment :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">Managment :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="management.php"><i class="fas fa-user-friends"></i> APA INSURANCE</a></li>
                                         <li><a href="management_life.php"><i class="fas fa-user-friends"></i> APA LIFE</a></li>
                                         <li><a href="management_asset.php"><i class="fas fa-user-friends"></i> APOLLO ASSET</a></li>
@@ -243,8 +244,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">MEDIA CENTRE :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">MEDIA CENTRE :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News & Updates</a></li>
                                         <li><a href="csr.php"><i class="fas fa-hands-helping"></i> CSR</a></li>
                                         <li><a href="#"><i class="fas fa-chart-bar"></i> Financial Reports & Trail Blazers</a></li>
@@ -252,17 +253,17 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">CAREER :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="career.php"><i class="fas fa-walking"></i> Start your Journey</a></li>
+                                        <!-- <li class="uk-nav-header ">CAREER :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="career.php"><i class="fas fa-walking"></i> Career: Start your Journey</a></li>
                                         <li><a href="jobpage.php"><i class="fas fa-poll-h"></i> Job Post</a></li>
                                         <li><a href="#"><i class="fas fa-user-graduate"></i> Internship</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">APPLICANT :</li>
-                                        <li class="uk-nav-divider"></li>
+                                        <!-- <li class="uk-nav-header ">APPLICANT :</li>
+                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="career_login.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
                                         <li><a href="career_register.php"><i class="fas fa-user-circle"></i> Create Account</a></li>
                                     </ul>
@@ -315,6 +316,29 @@
                             </div>
                         </div>
                     </li>
+
+                    <!-- BRANCHES -->
+                    <li class="list-down">
+                        <a href="index.php"><img src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
+                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <!-- <li class="uk-nav-header ">BRANCHES :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="#"> <img src="img/kenya.png" class="rounded" width="30" height="auto" alt="APA KENYA"> &nbsp; KENYA</a></li>
+                                        <li><a href="#"> <img src="img/uganda.png" class="rounded" width="30" height="auto" alt="APA UGANDA"> &nbsp; UGANDA</a></li>
+                                        <li><a href="#"> <img src="img/tanzania.png" class="rounded" width="30" height="auto" alt="APA TANZANIA"> &nbsp; TANZANIA</a></li><br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="logo1" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                    </li>
+
                 </ul>
 
             </div>

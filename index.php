@@ -175,6 +175,62 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="col-md-4 prod">
+                        <div class="box-container-img prod-3">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Family Health Cover <br> (Jamii Plus)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-4">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Home insurance <br> (Domestic Package) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
+                            contents whilst in the house and outside the house...
+
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6">
+                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
+
+                    <div class="col-md-4 prod">
                         <div class="box-container-img prod-1">
                             <div class="overlay">
                             </div>
@@ -194,61 +250,6 @@ require_once 'inc/functions.php';
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2>Domestic Package</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself, 
-                            contents whilst in the house and outside the house...
-                    
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2> Family Health Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

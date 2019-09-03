@@ -80,7 +80,7 @@ a:focus {
 # Header
 --------------------------------------------------------------*/
 #header {
-    padding: 10px 0 0 0;
+    padding: 12px 0 0 0;
     height: 65px;
     background-color: #fff;
     left: 0;
@@ -110,12 +110,12 @@ a:focus {
     border-bottom: 3.5px solid #0C4DA2;
 }
 
-#header.header-scrolled {
+/* #header.header-scrolled {
     background: rgba(255, 255, 255, 0.9);
     padding: 20px 0;
     height: 94px;
     transition: all 0.5s;
-}
+} */
 
 #header #logo {
     float: left;
@@ -123,8 +123,8 @@ a:focus {
 
 .logo1 {
     position: absolute;
-    top:10px;
-    right: 1%;
+    top:13px;
+    right: 3%;
     z-index: 1;
 }
 
@@ -889,7 +889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ABOUT US */
 
 .apollo {
-    margin: 7% auto;
+    margin: 5% auto;
     text-align: center;
 }
 
@@ -1707,6 +1707,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 60%;
     margin-top: -10px;
 }
+.img13 {
+    width: 100%;
+    margin-top: -10px;
+}
+
 
 
 

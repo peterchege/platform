@@ -200,20 +200,6 @@
                         <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/charlse.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Charles Wambua<br>
-                            <small>Head of Microinsurance & Agribusiness</small>
-                        </h5>
-
-                        <p>
-                            Charles holds a Bachelors degree in Education, a Masters degree in...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full16" uk-toggle>Read more</button>
-                    </div>
-
-
                 </div>
 
             </div>

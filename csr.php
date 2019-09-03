@@ -47,7 +47,7 @@ require_once 'inc/functions.php';
                         We seek to harness this through our corporate social responsibility.
                         It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
                     </p>
-                    <a href="#" class="btn btn-primary"> Watch Video</a>
+                    <a href="#modal-media-youtube" class="btn btn-primary" uk-toggle> Watch Video</a>
                 </div>
             </div>
         </div>
@@ -67,8 +67,8 @@ require_once 'inc/functions.php';
 
     <div class="container">
         <div class="apollo">
-            <h1>CSR</h1>
-            <div class="under-line img4">
+            <h1>CORPORATE SOCIAL RESPONSIBILITY</h1>
+            <div class="under-line img13">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -111,13 +111,13 @@ require_once 'inc/functions.php';
                                 <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
                                 <p class="text-left">
                                     <?php
-                                    $postfixed = desanitize($post['post']);
-                                    if (strlen($postfixed) > 200) {
-                                        echo substr($postfixed, 0, 200) . '... ';
-                                    } else {
-                                        echo $postfixed;
-                                    }
-                                    ?>
+                                        $postfixed = desanitize($post['post']);
+                                        if (strlen($postfixed) > 200) {
+                                            echo substr($postfixed, 0, 200) . '... ';
+                                        } else {
+                                            echo $postfixed;
+                                        }
+                                        ?>
                                 </p>
                                 <div class="btn-read">
                                     <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
@@ -136,30 +136,17 @@ require_once 'inc/functions.php';
     <!-- #footer -->
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
+    <!-- ===================================== YOUTUBE MODAL ===================================== -->
+    <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/xBuYw9HvmcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
-<?php
-require_once 'inc/scripts.php';
-?>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
 </body>
 
 </html>

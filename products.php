@@ -48,17 +48,17 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
+            <!-- <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
                 for both our clients and their loved ones.
-            </p>
+            </p> -->
         </div>
     </div>
 
     <!-- ===================================== PERSONAL PRODUCTS ===================================== -->
 
-    <div class="container-fluid23">
+    <div class="container-fluid23 commercial-up">
         <div class="product product-new text-left">
 
             <h1 id="personal">PERSONAL COVER</h1>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Motor Private Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center">Travel Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Home Insurance <br> (Domestic Package)</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -146,14 +146,14 @@
                 </div>
 
                 <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 text-center">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img prod-12">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2> Personal Accident</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -173,12 +173,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img prod-9">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2>Golfers Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -198,12 +198,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img prod-10">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2> Motor Cycle Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -224,11 +224,92 @@
                     </div>
                 </div>
 
-            </div>
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1 text-center">
 
-            <div class="load-more text-center">
-                <a href="#" class="btn btn-primary">LOAD MORE</a>
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-14">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Flexpac cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-11">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Pedal Cycle Cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4  prod">
+                        <div class="box-container-img prod-13">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Pet Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+            <br>
+
+            <!-- <div class="load-more text-center">
+                <a href="#" class="btn btn-primary">LOAD MORE</a>
+            </div> -->
 
         </div>
     </div>
@@ -246,7 +327,7 @@
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img prod-7">
                             <div class="overlay">
                             </div>
                         </div>
@@ -271,7 +352,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-7">
+                        <div class="box-container-img prod-3">
                             <div class="overlay">
                             </div>
                         </div>
@@ -335,14 +416,14 @@
 
             <div class="container">
 
-                <div class="row row-product1">
+                <div class="row row-product1 ">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-2">
+                        <div class="box-container-img life-2">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -363,12 +444,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-1">
+                        <div class="box-container-img life-1">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Travel Insurance</h2>
+                            <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
                         </div>
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
@@ -388,12 +469,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img life-3">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Domestic Package</h2>
+                            <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -415,15 +496,15 @@
 
                 </div>
 
-                <!-- NEW ROW OF PRODUCTS -->
+                <!-- NEW ROW2 OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img life-4">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Family Health Cover</h2>
+                            <h2 class="text-center"> Hospitalization Loss of income (HosiCare)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -443,12 +524,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img life-5">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Commercial Cover</h2>
+                            <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -468,12 +549,12 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img life-6">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
@@ -494,11 +575,66 @@
                     </div>
                 </div>
 
-            </div>
+                <!-- NEW ROW3 OF PRODUCTS -->
+                <div class="row row-product1">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img life-7">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                            healthy family is a happy family. This is why we have medical insurance..
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
 
-            <div class="load-more text-center">
-                <a href="#" class="btn btn-primary">LOAD MORE</a>
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img life-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Morgage Protection</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+            <br>
+
+            <!-- <div class="load-more text-center">
+                <a href="#" class="btn btn-primary">LOAD MORE</a>
+            </div> -->
 
         </div>
     </div>

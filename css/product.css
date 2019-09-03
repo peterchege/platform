@@ -11,6 +11,10 @@
     font-family: trebuchet;
 }
 
+.commercial-up{
+    margin-top: -100px;
+}
+
 /* WHAT WE OFFER NEW DESIGN */
 
 .row-product1{
@@ -37,39 +41,76 @@
     transition: transform 1.2s;
 }
 
-/* images of product */
+/* images of personal products */
 
 .prod-1 {
     background-image: url(../images/travell.jpg);
 }
-
 .prod-2 {
     background-image: url(../images/motor.jpg);
 }
-
 .prod-3 {
     background-image: url(../images/life.jpeg);
     background-position: center;
 }
-
 .prod-4 {
     background-image: url(../img/domestic.jpg);
 }
-
 .prod-5 {
     background-image: url(../images/auto.jpg);
 }
-
 .prod-6 {
     background-image: url(../img/sheep.jpg);
 }
-
 .prod-7 {
     background-image: url(../images/weare.jpg);
 }
-
 .prod-8 {
     background-image: url(../img/assurance.jpg);
+}
+.prod-9 {
+    background-image: url(../img/golf1.jpg);
+}
+.prod-10 {
+    background-image: url(../img/motorcycle.jpg);
+}
+.prod-11 {
+    background-image: url(../img/bicycle.jpg);
+}
+.prod-12 {
+    background-image: url(../img/accident2.jpg);
+}
+.prod-13 {
+    background-image: url(../img/pet1.jpg);
+}
+.prod-14 {
+    background-image: url(../img/flexpac1.jpg);
+}
+
+/* images of personal products */
+.life-1{
+    background-image: url(../img/saving1.jpg);
+}
+.life-2 {
+    background-image: url(../img/saving3.jpg);
+}
+.life-3 {
+    background-image: url(../img/educate.jpg);
+}
+.life-4 {
+    background-image: url(../img/admited.jpg);
+}
+.life-5 {
+    background-image: url(../img/funeral.jpg);
+}
+.life-6 {
+    background-image: url(../img/life.jpg);
+}
+.life-7 {
+    background-image: url(../img/pension3.jpg);
+}
+.life-8 {
+    background-image: url(../img/house.jpg);
 }
 
 /* APOLLO ASSET IMAGE */
@@ -201,11 +242,11 @@
 }
 
 .jamii-background {
-    background-image: url(../images/baby.jpg);
+    background-image: url(../images/weare.jpg);
 }
 
 .afya-background {
-    background-image: url(../images/weare.jpg);
+    background-image: url(../images/baby.jpg);
 }
 
 .motor-background {
