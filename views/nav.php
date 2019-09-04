@@ -123,24 +123,21 @@
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
-                                        <li><a href="#"><i class="fas fa-first-aid"></i> Motor Cycle (PSV) </a></li>
-                                        <li><a href="#"><i class="fas fa-first-aid"></i> Motor Trade </a></li>
-                                        <li><a href="#"><i class="fas fa-first-aid"></i> Fire & Perils </a></li>
-                                        <li><a href="#"><i class="fas fa-briefcase"></i>WIBA & Personal Accident</a></li>
-                                        <!-- <li><a href="#"><i class="fas fa-user-secret"></i> Fidelity guarantee</a></li>
-                                        <li><a href="#"><i class="fas fa-users"></i> Public Liability</a></li>
-                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation </a></li> -->
+                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle (PSV) </a></li>
+                                        <li><a href="#"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
+                                        <li><a href="#"><i class="fas fa-fire"></i> Fire & Perils </a></li>
+                                        <li><a href="#"><i class="fas fa-people-carry"></i> WIBA & Personal Accident</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-people-carry"></i> Thieft</a></li>
-                                        <li><a href="#"><i class="fas fa-fire"></i> Engineering</a></li>
-                                        <li><a href="#"><i class="fas fa-user-tie"></i> Liability </a></li>
-                                        <li><a href="#"><i class="fas fa-exclamation-triangle"></i> Marine</a></li>
-                                        <li><a href="#"><i class="fas fa-exclamation-circle"></i> Aviation</a></li>
+                                        <li><a href="#"><i class="fas fa-user-secret"></i> Thieft</a></li>
+                                        <li><a href="#"><i class="fas fa-industry"></i> Engineering</a></li>
+                                        <li><a href="#"><i class="fas fa-house-damage"></i> Liability </a></li>
+                                        <li><a href="#"><i class="fas fa-ship"></i> Marine</a></li>
+                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation</a></li>
                                         <!-- <li><a href="#"><i class="fas fa-user-tie"></i> Directors & Officers Liability</a></li> -->
 
 
@@ -151,18 +148,18 @@
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Cover </a></li>
-                                        <li><a href="#"><i class="fas fa-user-nurse"></i> Good in Transit (GIT)</a></li>
-                                        <li><a href="#"><i class="fas fa-building"></i> Bonds </a></li>
-                                        <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Plate Glass </a></li>
-                                       
+                                        <li><a href="#"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-area"></i> Bonds </a></li>
+                                        <li><a href="#"><i class="fas fa-bars"></i> Plate Glass </a></li>
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li><a href="#"><i class="fas fa-ship"></i> Health Coprate</a>
-                                        <li><a href="#"><i class="fas fa-cookie"></i> Commercial Life</a>
-                                        <li><a href="#"><i class="fas fa-hippo"></i> Crop Cover</a>
-                                        <li><a href="#"><i class="fas fa-user-secret"></i> Livestock Cover</a></li>
+                                        <li><a href="#"><i class="fas fa-first-aid"></i> Health Coprate</a>
+                                        <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
+                                        <li><a href="#"><i class="fas fa-cookie"></i> Crop Cover</a>
+                                        <li><a href="#"><i class="fas fa-hippo"></i> Livestock Cover</a></li>
                                         <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
 
                                     </ul>
