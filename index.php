@@ -66,7 +66,7 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="c0l-md-4 font-awsome text-center">
-                        <a href="calc_domestic_package.php">
+                        <a href="http://apatest.dev/calculator">
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
                         </a>
