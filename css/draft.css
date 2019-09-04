@@ -223,12 +223,12 @@ a:focus {
 
 .banner-life {
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     background-image: url(../img/group1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .banner-asset {
