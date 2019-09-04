@@ -24,7 +24,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-cover">
+    <div class="banner-managment">
 
     </div>
     <div class="cover-line">
