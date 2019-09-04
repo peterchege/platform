@@ -53,15 +53,21 @@
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
                 for both our clients and their loved ones.
             </p> -->
+
+            <!-- Anchor to the personal cover from navbar -->
+            <div id="personal" class="anchor"></div>
+            <!-- End of anchor -->
         </div>
+
     </div>
+
 
     <!-- ===================================== PERSONAL PRODUCTS ===================================== -->
 
     <div class="container-fluid23 commercial-up">
         <div class="product product-new text-left">
 
-            <h1 id="personal">PERSONAL COVER</h1>
+            <h1>PERSONAL COVER</h1>
 
             <div class="container">
 
@@ -397,22 +403,25 @@
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
+
+    <!-- Anchor to the Life cover from navbar -->
+    <div id="life" class="anchor"></div>
+    <!-- End of anchor -->
+
 
     <!-- =====================================LIFE ASSURANCE PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
         <div class="product product-new text-left">
 
-            <h1 id="life">LIFE COVER</h1>
+            <h1>LIFE COVER</h1>
 
             <div class="container">
 
@@ -636,13 +645,19 @@
                 <a href="#" class="btn btn-primary">LOAD MORE</a>
             </div> -->
 
+            <!-- Anchor to the Investment cover from navbar -->
+            <div id="investment" class="anchor"></div>
+            <!-- End of anchor -->
+            
         </div>
     </div>
+
+
 
     <!-- =====================================investment PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div id="investment" class=" product-new text-left">
+        <div class=" product-new text-left">
 
             <h1>INVESTMENT</h1>
 
