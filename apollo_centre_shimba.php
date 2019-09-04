@@ -55,12 +55,32 @@
     </div>
     <!-- ===================================== OUR ROOMS SLIDESHOW ===================================== -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row gallery-container">
             <div class="col-md-4">
-                <div class="gallery-view">
-
+                <div class="gallery-view view-1">
                 </div>
-
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-view view-2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-view view-3">
+                </div>
+            </div>
+        </div>
+        <div class="row gallery-container">
+            <div class="col-md-4">
+                <div class="gallery-view view-4">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-view view-5">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-view view-6">
+                </div>
             </div>
         </div>
 
