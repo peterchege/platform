@@ -62,33 +62,42 @@
     <div class="container-fluid">
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="gallery-view view-1">
-                </div>
+
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-1"></div>
+                </a>
+
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="gallery-view view-2">
-                </div>
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-2"></div>
+                </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="gallery-view view-3">
-                </div>
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-3"></div>
+                </a>
             </div>
         </div>
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <div class="gallery-view view-4">
-                </div>
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-4"></div>
+                </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <div class="gallery-view view-5">
-                </div>
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-5"></div>
+                </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <div class="gallery-view view-6">
-                </div>
+                <a href="images/shimba/img5.jpg">
+                    <div class="gallery-view view-6"></div>
+                </a>
             </div>
         </div>
 
+        <br><br><br>
     </div>
 
 

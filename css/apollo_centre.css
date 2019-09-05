@@ -156,22 +156,49 @@
 }
 
 .gallery-view{
-    width: 100%;
+    width: 90%;
     height: 250px;
-    background-image: url(../images/shimba/img7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
+    transition: transform 1.5s;
     cursor: pointer;
-     -webkit-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
-     -moz-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
-     box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
-    
+    -webkit-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+    -moz-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+    box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+}
+
+/* SHIMBA HILLS GALLERY IMAGE */
+.view-1{
+    background-image: url(../images/shimba/img8.jpg);
+}
+.view-2 {
+    background-image: url(../images/shimba/img3.jpg);
+}
+.view-3 {
+    background-image: url(../images/shimba/img4.jpg);
+}
+.view-4 {
+    background-image: url(../images/shimba/img1.jpg);
+}
+.view-5 {
+    background-image: url(../images/shimba/img6.jpg);
+}
+.view-6 {
+    background-image: url(../images/shimba/img9.jpg);
+}
+
+
+.gallery-view:hover {
+   transform: scale(1.12);
+  -webkit-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
+  -moz-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
+  box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
 }
 
 .gallery-container .col-md-4 {
-     margin: 5% auto;
+     margin: 3% auto;
 }
 
 .gallery-book  {
