@@ -104,7 +104,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/keval.jpg" class="img" alt="">
+                        <img src="img/apa3/keval.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
                             <small>Group Chief Finance Officer </small>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/juliana.jpg" class="img" alt="">
+                        <img src="img/apa3/maria.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Maria Simiyu <br>
                             <small>Group Head of Human Resource</small>
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/james.jpg" class="img" alt="">
+                        <img src="img/apa3/james.jpg" class="img" alt="">
                         <h5 class="title-name">
                             James Nyakomitta<br>
                             <small>Group Chief Information Officer</small>
@@ -143,7 +143,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/chris.jpg" class="img" alt="">
+                        <img src="img/apa3/chris.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Chris Ngala<br>
                             <small>Group Head of Internal Audit</small>
@@ -162,7 +162,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/benjamin.jpg" class="img" alt="">
+                        <img src="img/apa3/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Benjamin Otieno<br>
                             <small>Group Risk manager</small>
@@ -175,7 +175,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/judy.jpg" class="img" alt="">
+                        <img src="img/apa3/judy.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Judith Bogonko Juma<br>
                             <small>Head of Customer Service</small>
@@ -188,7 +188,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/managment/jackie.jpg" class="img" alt="">
+                        <img src=" img/apa3/jackie.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Jackie Tonui<br>
                             <small>Head of Corporate Communications</small>
@@ -226,9 +226,9 @@
                         Group Chief Finance Officer
                     </h2>
                     <p class="text-justify">
-                        Keval has over 25 year’s experience across accounting, tax, advisory and financial management disciplines in 
-                        both manufacturing and financial services industries. He is a graduate of Loughborough University, United Kingdom, 
-                        Fellow of the Association of Chartered Certified Accountants (FCCA) and a Member of the Chartered Institute of 
+                        Keval has over 25 year’s experience across accounting, tax, advisory and financial management disciplines in
+                        both manufacturing and financial services industries. He is a graduate of Loughborough University, United Kingdom,
+                        Fellow of the Association of Chartered Certified Accountants (FCCA) and a Member of the Chartered Institute of
                         Management Accountants (ACMA).
                     </p>
                 </div>
@@ -242,23 +242,23 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/juliana.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/apa3/maria.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Maria Simiyu 
+                        Maria Simiyu
                     </h1>
                     <h2 class="small-head">
                         Group Head of Human Resource
                     </h2>
                     <p class="text-justify">
-                            Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist in the 
-                            financial and professional services, telecommunications and aviation sectors.  She is passionate 
-                            about people and strongly believes that each employee has value to offer the organisation and as 
-                            such should be developed to their highest capabilities and potential.  She holds a Masters in 
-                            Counselling Psychology from USIU-A and a Bachelor of Education degree from Kenyatta University.  
-                            She is also a member of the Institute of Human Resource Management (IHRM) as well as Toastmasters 
-                            International.  She regularly gives of her time towards mentoring young people and actively participates 
-                            in this through two organisations – Precious Sisters & Global Give Back Circle.
+                        Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist in the
+                        financial and professional services, telecommunications and aviation sectors.  She is passionate
+                        about people and strongly believes that each employee has value to offer the organisation and as
+                        such should be developed to their highest capabilities and potential.  She holds a Masters in
+                        Counselling Psychology from USIU-A and a Bachelor of Education degree from Kenyatta University. 
+                        She is also a member of the Institute of Human Resource Management (IHRM) as well as Toastmasters
+                        International.  She regularly gives of her time towards mentoring young people and actively participates
+                        in this through two organisations – Precious Sisters & Global Give Back Circle.
 
                     </p>
                 </div>

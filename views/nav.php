@@ -155,7 +155,7 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li><a href="#"><i class="fas fa-first-aid"></i> Health Coprate</a>
+                                        <li><a href="#"><i class="fas fa-first-aid"></i> Health Corporate</a>
                                         <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
                                         <li><a href="#"><i class="fas fa-cookie"></i> Crop Cover</a>
                                         <li><a href="#"><i class="fas fa-hippo"></i> Livestock Cover</a></li>
