@@ -96,7 +96,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/passport2/fred.jpg" class="img" alt="">
+                        <img src="img/apa4/fred.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Fred Mburu<br>
                             <small>Chief Executive Officer</small>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/passport2/kosgei.jpg" class="img" alt="">
+                        <img src="img/apa4/kosgei.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Amos Kosgei<br>
                             <small>Portfolio Manager</small>
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/passport2/solo.jpg" class="img" alt="">
+                        <img src="img/apa4/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Solomon Maoga<br>
                             <small>Investment Executive</small>
@@ -135,7 +135,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/passport2/eva.jpg" class="img" alt="">
+                        <img src="img/apa4/eva.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Eva Labatt<br>
                             <small>Unit Trust Officer</small>
@@ -262,7 +262,7 @@
                     </h2>
                     <p class="text-justify">
                         Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company.  She has 7 years’ experience in the
-                        financial services industry.  Eva has a Bachelor of Commerce, Finance option from Catholic University of 
+                        financial services industry.  Eva has a Bachelor of Commerce, Finance option from Catholic University of
                         Eastern Africa. She is also an Associate member of the Chartered Institute for Securities and Investment (CISI, UK).
 
                     </p>
