@@ -41,7 +41,7 @@
 
     <div class="container">
         <div class="apollo">
-            <h1>SHIMBA HILLS</h1>
+            <h1>CHYULLU HILLS</h1>
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>

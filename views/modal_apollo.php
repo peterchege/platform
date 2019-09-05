@@ -50,7 +50,7 @@
                       <div class="container">
                           <div class="row">
                               <div class="form-group col-md-6">
-                                  <label for="inputAddress">Name</label>
+                                  <label for="inputAddress">Name/ Company</label>
                                   <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
                               </div>
                               <div class="form-group col-md-6">
@@ -72,7 +72,7 @@
 
                           <div class="row">
                               <div class="form-group col-md-12">
-                                  <label for="inputAddress">More Information</label>
+                                  <label for="inputAddress">More Information / Any Special Requests </label>
                                   <textarea name="more_information" id="more_information" class="form-control"></textarea>
                               </div>
                           </div>

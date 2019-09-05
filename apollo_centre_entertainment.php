@@ -41,14 +41,14 @@
 
     <div class="container">
         <div class="apollo">
-            <h1>SHIMBA HILLS</h1>
+            <h1>Entertainment Area</h1>
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting
-                place within a commercial building with generous space, spacious balconies opening to every room and ample parking space.
-                The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals,
-                corporate and groups.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">The cafeteria has a sitting 
+                capacity of 80 guests with dining tables, 100 guests in a classroom set-up & 150 guests in a cocktail 
+                set-up.Tea & lunch is served in our balcony area covered with sailing canopies for a relaxed atmosphere. 
+                Clients also have the option for self-catering.
             </p>
             <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
                 <div class="col-md-12 ">

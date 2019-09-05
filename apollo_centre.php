@@ -48,7 +48,8 @@
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo Centre conference suites, enjoy private meetings
                 within a commercial building in the heart of bustling Westlands. Each suite boasts generous space, opening out to spacious balconies
-                with ample secure parking space. The suites are a hideaway for all business and social meetings with exclusivity and convenience for executives, individuals,
+                with ample secure parking. Tea & lunch are served in the balcony areas covered with sailing canopies for a relaxed atmosphere. 
+                Clients also have the option for self-catering. The suites are a hideaway for all business and social meetings with exclusivity and convenience for executives, individuals,
                 corporates and groups.
             </p>
         </div>
@@ -273,10 +274,8 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>The cafeteria has a sitting capacity of 80 guests with dining tables, 100 guests in a
-                                classroom set-up & 150 guests in a cocktail set-up.Tea & lunch is served in our balcony
-                                area covered with sailing canopies for a relaxed atmosphere. Clients also have the option
-                                for self-catering.
+                            <p>The entertainment area has a sitting capacity of 80 guests with dining tables, 100 guests in a
+                                classroom setup & 150 guests in a cocktail setup.
                             </p>
                         </div>
 
@@ -285,7 +284,9 @@
                                 <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>BOOK NOW</button>
                             </div>
                             <div class="col-md-6 text-left">
-                                <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                <a href="apollo_centre_entertainment.php">
+                                    <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                </a>
                             </div>
                         </div>
                     </div>
