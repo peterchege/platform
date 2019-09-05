@@ -104,7 +104,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/keval.jpg" class="img" alt="">
+                        <img src="img/apa4/keval.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Keval Shah<br>
                             <small>Group Chief Finance Officer </small>
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/james.jpg" class="img" alt="">
+                        <img src="img/apa4/james.jpg" class="img" alt="">
                         <h5 class="title-name">
                             James Nyakomitta<br>
                             <small>Group Chief Information Officer</small>
@@ -143,7 +143,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/chris.jpg" class="img" alt="">
+                        <img src="img/apa4/chris.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Chris Ngala<br>
                             <small>Group Head of Internal Audit</small>
@@ -162,7 +162,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/benjamin.jpg" class="img" alt="">
+                        <img src="img/apa4/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Benjamin Otieno<br>
                             <small>Group Risk manager</small>
@@ -175,7 +175,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/judy.jpg" class="img" alt="">
+                        <img src="img/apa4/judy.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Judith Bogonko Juma<br>
                             <small>Head of Customer Service</small>
@@ -188,7 +188,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/apa3/jackie.jpg" class="img" alt="">
+                        <img src=" img/apa4/jackie.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Jackie Tonui<br>
                             <small>Head of Corporate Communications</small>
