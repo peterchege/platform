@@ -46,10 +46,10 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting
-                place within a commercial building with generous space, spacious balconies opening to every room and ample parking space.
-                The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals,
-                corporate and groups.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo Centre conference suites, enjoy private meetings
+                within a commercial building in the heart of bustling Westlands. Each suite boasts generous space, opening out to spacious balconies
+                with ample secure parking space. The suites are a hideaway for all business and social meetings with exclusivity and convenience for executives, individuals,
+                corporates and groups.
             </p>
         </div>
     </div>

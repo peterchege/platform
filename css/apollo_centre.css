@@ -170,6 +170,12 @@
     
 }
 
-.gallery-container{
+.gallery-container .col-md-4 {
      margin: 5% auto;
 }
+
+.gallery-book  {
+    margin-top: 1%;
+    width: 40%;
+    font-size: 24px;
+} 

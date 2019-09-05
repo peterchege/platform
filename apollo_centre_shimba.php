@@ -50,35 +50,40 @@
                 The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals,
                 corporate and groups.
             </p>
+            <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
+                <div class="col-md-12 ">
+                    <button class="btn btn-primary gallery-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                </div>
+            </div>
         </div>
 
     </div>
     <!-- ===================================== OUR ROOMS SLIDESHOW ===================================== -->
     <div class="container-fluid">
         <div class="row gallery-container">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="gallery-view view-1">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="gallery-view view-2">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="gallery-view view-3">
                 </div>
             </div>
         </div>
         <div class="row gallery-container">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <div class="gallery-view view-4">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <div class="gallery-view view-5">
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <div class="gallery-view view-6">
                 </div>
             </div>
