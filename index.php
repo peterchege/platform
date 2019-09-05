@@ -87,11 +87,11 @@ require_once 'inc/functions.php';
         <!-- quick services -->
 
         <div class="quick-link text-right">
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <button class="btn btn-primary">
                     GET A QUOTE
                 </button>
-            </div>
+            </div> -->
 
             <div class="col-12">
                 <a href="claim.php">
@@ -154,9 +154,9 @@ require_once 'inc/functions.php';
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Motor Private insurance</h2>
+                            <h2>Motor Private Insurance</h2>
                         </div>
-                        <br>
+                        <br><br>
                         <p class="text-justify">Motor insurance cover protects the insured against
                             financial loss in the event that the motor vehicle insured is involved
                             in an accident, burnt, stolen ...
@@ -183,7 +183,7 @@ require_once 'inc/functions.php';
                             <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
+                        <p class="text-justify">Living a healthy stress free life is every person's dream. A
                             healthy family is a happy family. This is why we have medical insurance..
                         </p>
                         <!-- button click -->
@@ -205,7 +205,7 @@ require_once 'inc/functions.php';
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Home insurance <br> (Domestic Package) </h2>
+                            <h2>Home Insurance <br> (Domestic Package) </h2>
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
@@ -289,7 +289,7 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                        <p class="text-justify">Your livestock are your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
@@ -338,9 +338,7 @@ require_once 'inc/functions.php';
                             <h3>REQUEST ASSISTANCE</h3>
                             <P>
                                 We will acknowledge/respond to your queries received from various platforms within the
-                                timelines.
-                                promise
-                                to respond to all your requests in a professional and timely manner.
+                                timelines. We promise to respond to all your requests in a professional and timely manner.
                             </P>
                             <div class="load-more">
                                 <a href="#" class="btn btn-primary">GET HELP</a>
@@ -354,7 +352,7 @@ require_once 'inc/functions.php';
                             <P>
                                 Claims can sometimes be a headache, but not with us. In the case of an unfortunate
                                 event, we will hold
-                                your hand and walk with you through the claims process
+                                your hand and walk with you through the claims process.
                             </P>
                             <div class="load-more">
                                 <a href="claim.php" class="btn btn-primary">MAKE CLAIM</a>
@@ -364,10 +362,9 @@ require_once 'inc/functions.php';
                     <div class="col-md-4 img-acess  wow fadeInUp " data-wow-delay="0.1s">
                         <img class="img-fluid" src="images/portal.png" alt="login-vector">
                         <div class="content-acess">
-                            <h3>LOGIN TO APA</h3>
+                            <h3> ONLINE SERVICES</h3>
                             <P>
-                                view your policy details and statements, renew your policy and have it delivered to you,
-                                all these at the comfort of your device
+                                We have made some of our services available online, so that it is easier and quicker for you.
                             </P><BR>
                             <div class="load-more">
                                 <a href="Customer_login.php" class="btn btn-primary">OPEN PORTAL</a>

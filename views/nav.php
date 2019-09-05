@@ -133,12 +133,11 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-user-secret"></i> Thieft</a></li>
+                                        <li><a href="#"><i class="fas fa-user-secret"></i> Theft</a></li>
                                         <li><a href="#"><i class="fas fa-industry"></i> Engineering</a></li>
                                         <li><a href="#"><i class="fas fa-house-damage"></i> Liability </a></li>
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine</a></li>
                                         <li><a href="#"><i class="fas fa-helicopter"></i> Aviation</a></li>
-                                        <!-- <li><a href="#"><i class="fas fa-user-tie"></i> Directors & Officers Liability</a></li> -->
 
 
                                     </ul>
@@ -147,7 +146,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Cover </a></li>
+                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a></li>
                                         <li><a href="#"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                         <li><a href="#"><i class="fas fa-chart-area"></i> Bonds </a></li>
                                         <li><a href="#"><i class="fas fa-bars"></i> Plate Glass </a></li>
