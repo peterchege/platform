@@ -45,10 +45,10 @@
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting
-                place within a commercial building with generous space, spacious balconies opening to every room and ample parking space.
-                The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals,
-                corporate and groups.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
+                Our world class boardroom provide the perfect
+                meeting place for executive meetings. With a capacity of up to 18 persons, 
+                it is equipped with an extra large LCD screen & teleconferencing facilities, guaranteeing both comfort and privacy.
             </p>
             <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
                 <div class="col-md-12 ">
@@ -120,7 +120,7 @@
 
                     <form class="form-container" action="" method="POST">
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">Room Name</h3>
+                            <h3 for="inputAddress">BOOKING DETAILS</h3>
                             <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
                                 <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
                                 <option value="2">Taita Hills (10-12pax)</option>
@@ -155,7 +155,7 @@
                             </div>
                         </div>
 
-                        <h3 for="inputAddress" class="comp-detail">COMPANY DETAIL</h3>
+                        <h3 for="inputAddress" class="comp-detail">GUEST DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -174,8 +174,8 @@
                                     <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Capacity</label>
-                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="pax" value="">
+                                    <label for="inputAddress2">Number of Guests</label>
+                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Pax" value="">
                                 </div>
                             </div>
 

@@ -130,9 +130,9 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our world class boardrooms provide the perfect meeting place for executive meetings. With a capacity
-                                of upto 18 persons, they are equipped with an LCD screen & teleconferencing facilities. With varying
-                                degrees of space to fit your needs, you are guaranteed both comfort and privacy.
+                            <p>Our world class boardroom provides the perfect
+                                meeting place for executive meetings. With a capacity of up to 18 persons,
+                                it is equipped with an extra large LCD screen & teleconferencing facilities, guaranteeing both comfort and privacy.
                             </p>
                         </div>
 
@@ -160,8 +160,8 @@
 
                         <div class="content-bottom text-justify">
                             <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
-                                Every room has an LCD screen suitable for presentations. Our training room & the auditorium
-                                have smart boards making them the ideal meeting place.
+                                It has a high definition projector with a surround sound system suitable for audio/ visual presentations
+                                or  trainings.
                             </p>
                         </div>
 
@@ -186,9 +186,9 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our training room can hold 30 guests on U-shape set up and 44 guests in a classroom setup,
-                                the room is ideal for corporate training, promotional training and interactive training.
-                                It can also be divided into two rooms for discussion groups.
+                            <p>Our training room can hold 30 guests in a U-shape setup and 44 guests in a classroom setup.
+                                The room is ideal for corporate, promotional or interactive trainings.
+                                It can also be divided into two rooms for break-out sessions.
                             </p>
                         </div>
 
@@ -217,9 +217,9 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
-                                Every room has an LCD screen suitable for presentations. Our training room & the auditorium
-                                have smart boards making them the ideal meeting place.
+                            <p>Perfect for more personal meetings, this room provides smaller groups with an intimate atmosphere.
+                                Equipped with an LCD screen for presenting groundbreaking ideas for discussion.
+                             
                             </p>
                         </div>
 
