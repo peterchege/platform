@@ -112,9 +112,9 @@ require_once 'inc/functions.php';
                                 <p class="text-left">
                                     <?php
                                         $postfixed = desanitize($post['post']);
-                                        $postfixed = strip_tags($postfixed, '<b>');
+                                        $postfixed = strip_tags($postfixed, '<em>');
                                         if (strlen($postfixed) > 200) {
-                                            $newpost = substr($postfixed, 0, 200) . '... ';
+                                            echo $newpost = substr($postfixed, 0, 200) . '... ';
                                         } else {
                                             echo $postfixed;
                                         }
