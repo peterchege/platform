@@ -284,6 +284,8 @@
                                         </tr>
                                     </tbody>
                                 </table>
+
+                                <!-- END TABLE -->
                             </div>
                         </div>
 
