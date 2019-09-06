@@ -80,13 +80,14 @@ require_once 'inc/functions.php';
                                 <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
                                 <p class="text-left">
                                     <?php
-                                    $postfixed = desanitize($post['post']);
-                                    if (strlen($postfixed) > 200) {
-                                        echo substr($postfixed, 0, 200) . '... ';
-                                    } else {
-                                        echo $postfixed;
-                                    }
-                                    ?>
+                                        $postfixed = desanitize($post['post']);
+                                        if (strlen($postfixed) > 200) {
+                                            $newpost = substr($postfixed, 0, 200) . '... ';
+                                            echo str_replace(array('\'', '"', ',', '/n', ';'), ' ', $newpost);
+                                        } else {
+                                            echo $postfixed;
+                                        }
+                                        ?>
                                 </p>
                                 <div class="btn-read">
                                     <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
