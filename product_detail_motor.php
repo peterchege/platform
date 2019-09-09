@@ -240,51 +240,52 @@
                                             <td>Free cover up to Kshs. 30,000.00
                                                 On reimbursement basis</td>
                                         </tr>
+                                        <tr>
+                                            <td>Repair Authority</td>
+                                            <td>N/A</td>
+                                            <td>N/A</td>
+                                            <td>Up to Kshs. 30,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Medical Expenses
+                                                On reimbursement</td>
+                                            <td>Free cover up to Kshs. 20,000.00</td>
+                                            <td>Free cover up to Kshs. 20,000.00</td>
+                                            <td>Free cover up to Kshs. 20,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Third Part Persons</td>
+                                            <td>- Any one person <br>Kshs. 3 Million<br><br>
+                                                -Any One Event Kshs. 20 Million
+                                            </td>
+                                            <td>
+                                                - Any one person<br> Kshs. 3 Million <br><br>
+                                                -Any One Event Kshs. 20 Million
+                                            </td>
+                                            <td>
+                                                - Any one person Kshs. 3 Million<br><br>
+                                                - Any One Event Kshs. 20 Million
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Third Party Property Damage Limit</td>
+                                            <td>Up to Kshs. 20 million</td>
+                                            <td>Up to Kshs. 20 million</td>
+                                            <td>Up to Kshs. 20 million</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Passenger Legal Liability</td>
+                                            <td>Per Passenger KShs. 4 million<br><br>
+                                                Per event Kshs. 20 million </td>
+                                            <td>Per Passenger KShs. 4 million<br><br>
+                                                -Per event Kshs. 20 million </td>
+                                            <td>Per Passenger KShs. 4 million<br><br>
+                                                Per event Kshs. 20 millionn</td>
+                                        </tr>
                                     </tbody>
                                 </table>
 
-                                <!-- <table class="table table-hover">
-                                <thead class="head-text">
-                                    <tr>
-                                        <th>Extra Benefits</th>
-                                        <th>Third party only (TPO)</th>
-                                        <th>Third party Fire & Theft (TPF & T)</th>
-                                        <th>Comprehensive </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Windscreen</td>
-                                        <td>N/A</td>
-                                        <td>N/A</td>
-                                        <td>Free limit up to Kshs. 50,000.00
-                                            Additional cover<br> over and above free limit cover
-                                            is charged at 10% of the insured value</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Windscreen</td>
-                                        <td>N/A</td>
-                                        <td>N/A</td>
-                                        <td>Free limit up to Kshs. 50,000.00
-                                            Additional cover<br> over and above free limit cover
-                                            is charged at 10% of the insured value</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Windscreen</td>
-                                        <td>N/A</td>
-                                        <td>N/A</td>
-                                        <td>Free limit up to Kshs. 50,000.00
-                                            Additional cover<br> over and above free limit cover
-                                            is charged at 10% of the insured value</td>
-                                    </tr>
-                                </tbody>
-                            </table> -->
-
-
-
-
+                                <!-- END TABLE -->
                             </div>
                         </div>
 
