@@ -160,7 +160,7 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/managment/amos.jpg" class="img" alt="">
+                        <img src="img/apa3/amos.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Amos Mabuka<br>
                             <small>Director of business development</small>

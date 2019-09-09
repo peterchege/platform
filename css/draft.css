@@ -248,7 +248,7 @@ a:focus {
     background-image: url(../img/group/asset.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     margin-top: 3%;
 }
 
