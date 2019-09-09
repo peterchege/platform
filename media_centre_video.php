@@ -73,27 +73,30 @@ require_once 'inc/functions.php';
                 <div class="row">
                     <!-- new design for media post -->
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
-                        <div class="col-md-4 post">
-                            <div class="img-container" style=" background-image:url(<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
-                            </div>
-                            <div class="box-info">
-                                <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
-                                <p class="text-left">
-                                    <?php
+                    <div class="col-md-4 post">
+                        <div class="img-container"
+                            style=" background-image:url(<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
+                        </div>
+                        <div class="box-info">
+                            <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?>
+                            </h2>
+                            <p class="text-left">
+                                <?php
                                         $postfixed = desanitize($post['post']);
-                                        $postfixed = strip_tags($postfixed, '<b>');
+                                        $postfixed = strip_tags($postfixed);
                                         if (strlen($postfixed) > 200) {
                                             echo $newpost = substr($postfixed, 0, 200) . '... ';
                                         } else {
                                             echo $postfixed;
                                         }
                                         ?>
-                                </p>
-                                <div class="btn-read">
-                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
-                                </div>
+                            </p>
+                            <div class="btn-read">
+                                <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>"
+                                    class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
+                    </div>
                     <?php endwhile; ?>
                 </div>
 

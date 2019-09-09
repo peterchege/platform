@@ -75,7 +75,8 @@ require_once 'inc/functions.php';
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 Welcome to Apollo Investments Limited.
                 APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group
-                (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social Responsibility
+                (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social
+                Responsibility
                 programmes focuses on supporting the needy in our society to improve their lives.
             </p>
             <div class="objective wow fadeInUp" data-wow-delay="0.1s">
@@ -83,9 +84,12 @@ require_once 'inc/functions.php';
                     Objectives of the Foundation
                 </h2>
                 <ul>
-                    <li>Support sustainable projects that uplift the standards of communities, that we partner with for support</li>
-                    <li>Our vision is the initiative is that this initiative will increase accessibility to clean water</li>
-                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their own lives; and
+                    <li>Support sustainable projects that uplift the standards of communities, that we partner with for
+                        support</li>
+                    <li>Our vision is the initiative is that this initiative will increase accessibility to clean water
+                    </li>
+                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their
+                        own lives; and
                         emphasises the need, for people, to have access to the opportunities they need to succeed in.
                     </li>
                     <ul>
@@ -104,27 +108,30 @@ require_once 'inc/functions.php';
             <div class="container-fluid">
                 <div class="row">
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
-                        <div class="col-md-4 post">
-                            <div class="img-container" style=" background-image:url(<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
-                            </div>
-                            <div class="box-info">
-                                <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?></h2>
-                                <p class="text-left">
-                                    <?php
+                    <div class="col-md-4 post">
+                        <div class="img-container"
+                            style=" background-image:url(<?= 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
+                        </div>
+                        <div class="box-info">
+                            <h2><?= ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?>
+                            </h2>
+                            <p class="text-left">
+                                <?php
                                         $postfixed = desanitize($post['post']);
-                                        $postfixed = strip_tags($postfixed, '<em>');
+                                        $postfixed = strip_tags($postfixed);
                                         if (strlen($postfixed) > 200) {
                                             echo $newpost = substr($postfixed, 0, 200) . '... ';
                                         } else {
                                             echo $postfixed;
                                         }
                                         ?>
-                                </p>
-                                <div class="btn-read">
-                                    <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>" class="btn btn-primary"> Read more</a>
-                                </div>
+                            </p>
+                            <div class="btn-read">
+                                <a href="media_centre_detail.php?<?= randomstring(900); ?>&post=<?= $post['id']; ?>&<?= randomstring(100) ?>"
+                                    class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
+                    </div>
                     <?php endwhile; ?>
                 </div>
             </div>
@@ -141,7 +148,9 @@ require_once 'inc/functions.php';
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <iframe width="949" height="534" src="https://www.youtube.com/embed/xBuYw9HvmcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/xBuYw9HvmcE" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 
