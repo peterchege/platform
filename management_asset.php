@@ -147,6 +147,25 @@
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
+
+                </div>
+
+                <div class="row lead-img ">
+
+                    <div class="col-md-3-offset-8 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/apa4/eva.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Eva Labatt<br>
+                            <small>Unit Trust Officer</small>
+                        </h5>
+
+                        <p>
+                            Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company...
+                        </p>
+                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
+                    </div>
+
+
                 </div>
 
             </div>
