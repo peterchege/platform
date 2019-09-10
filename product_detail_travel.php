@@ -56,58 +56,44 @@
 
                             <div class="job-description text-center">
 
-                                <h2>Travel Insurance </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against financial
-                                    loss in the event that the motor vehicle insured is involved
-                                    in an accident, burnt, stolen and third party liability arising from use of the
-                                    insured motor vehicle.</P>
-                                <hr>
+                                <h2>TRAVEL INSURANCE </h2>
+                                <P class="text-justify">Travelling around the globe and exploring the wonders of the world has become
+                                    easier. Whether on business or pleasure you require some essentials without
+                                    which your trip would not be complete. One of these is the APA Globetrotter
+                                    Travel Cover. It provides security for the unexpected emergencies and peace of
+                                    mind that you will have assistance whenever you travel.</P>
+                                <!-- <hr> -->
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in
-                                            the process of using his vehicle while carrying his
-                                            own goods. The main cover features are as follows;</p2>
+                                        <!-- <h2>Who Can be Covered?</h2> -->
+                                        <p> Who Can be Covered?</p>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
+                                            <li> Any person between the age of six months and 80 years</li>
+                                            <li> A traveller within and outside Kenya</li>
+                                            <li>Tourists - while in Kenya</li>
+                                            <li>Persons on business trips</li>
                                         </ol>
                                         <hr>
-                                        <p>Third Party, Fire, and Theft</p>
-                                        <p2>This policy covers the insured against three main risks;</p2>
+                                        <p> Who Can be Covered?</p>
                                         <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a
-                                                result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
-                                                destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>You have comprehensive coverage against local and international travel risks
+                                                and hazards anywhere in the world
+                                            </li>
+                                            <li> You are covered from the time you leave your usual place of residence or
+                                                business until your return for a period of up to 180 days
+                                            </li>
 
                                         </ol>
-
                                         <hr>
-                                        <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be
-                                            legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from
-                                            third parties in the event of an accident.
-                                            Third party liability relates to;</p2>
+                                        <p>24 Hour Assistance</p>
+                                        <p2>You and/or your beneficiaries will recieve compensation should you be involved
+                                            in an accident that results in:</p2>
                                         <ol>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li> Injuries</li>
+                                            <li>Disability</li>
+                                            <li>Death</li>
                                         </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any
-                                            repair costs are met by the insured himself.</p2>
+                                    
                                         <br><br><br><br>
 
                                         <div class="row">
