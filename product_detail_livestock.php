@@ -118,10 +118,32 @@
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing there is a safety net for unexpected loss and associated costs
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
+                                            there is a safety net for unexpected loss and associated costs
 
                                         </p2>
                                         <!-- END OF Dogs and Pet Insurance -->
+                                        <hr>
+                                        <!-- Bloodstock/Horse Insurance -->
+                                        <p>4.) Bloodstock/Horse Insurance</p>
+                                        <p2>Our bloodstock product covers mortality of the insured racing or polo horse as a result of accidents and medical expenses
+                                            as a result of accidental injuries.
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner
+                                            and health status certified by qualified veterinary doctor/officer.
+
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
+                                             there is a safety net for unexpected loss and associated costs
+
+                                        </p2>
+                                        <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
                                         <br><br><br><br>
 
