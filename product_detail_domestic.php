@@ -80,11 +80,21 @@
                                         <hr>
                                         <p>C.) All Risks Section</p>
                                         <p2>This section provides cover in respect to specified portable and valuable items,
-                                             which are carried outside the house. Items under this section would include 
-                                             jewellery, watches, laptops, mobile phones 
+                                            which are carried outside the house. Items under this section would include
+                                            jewellery, watches, laptops, mobile phones
                                         </p2>
-                                        <ol>
-                                        
+                                        <hr>
+                                        <p>d.) WIBA Section </p>
+                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and drivers in respect of injury, 
+                                            death or disease arising out of and in the course of employment.
+                                            The cover is mandatory for all employers as per the Work Injury Benefit Act (WIBA).
+                                        </p2>
+                                        <hr>
+                                        <p>e.) Owners’/Occupiers’ Liability Section </p>
+                                        <p2>This section covers liabilities as a result of death or injury to third parties and damage to third party
+                                            property whilst at the private dwelling house due to the negligence of the owner or occupier.
+                                        </p2>
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -120,11 +130,11 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li> BUILDING </li>
+                                            <li>CONTENTS</li>
+                                            <li>ALLRISK </li>
+                                            <li>WIBA </li>
+                                            <li>OWNER'S/ OCCUPIER'S LIABILITY</li>
                                         </ol>
                                         <hr>
                                         <h3>The coverprovides the following benefits. This include:</h3>
