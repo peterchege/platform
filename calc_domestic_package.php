@@ -305,12 +305,8 @@
             <div class="modal-cont">
                 <h2>BUILDING COVER</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                <p>This section covers a private dwelling house including domestic outbuildings, walls, gates
+                    and fences, all on the same premise or flat.
                 </p>
             </div>
 
@@ -325,12 +321,9 @@
             <div class="modal-cont">
                 <h2>CONTENTS COVER</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                <p>The section caters for furniture, household goods, and personal effects of every description,
+                    the property of the insured or any member of his family normally residing with him, fixtures &
+                    fittings, the insured’s own or for which he is legally responsible, not being the landlord’s fixtures and fittings
                 </p>
             </div>
 
@@ -345,12 +338,8 @@
             <div class="modal-cont">
                 <h2>ALL RISK COVER</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                <p>This section provides cover in respect to specified portable and valuable items, which are carried
+                    outside the house. Items under this section would include jewellery, watches, laptops, mobile phones
                 </p>
             </div>
 
@@ -365,12 +354,9 @@
             <div class="modal-cont">
                 <h2>DOMESTIC EMPLOYEE COVER</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                <p>This covers domestic servants such as house helps, watchmen, gardeners and drivers in respect of injury,
+                    death or disease arising out of and in the course of employment. The cover is mandatory for all employers
+                    as per the Work Injury Benefit Act (WIBA).
                 </p>
             </div>
 
@@ -385,12 +371,9 @@
             <div class="modal-cont">
                 <h2>LIABILITY COVER</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                <p>This section covers liabilities as a result of death or injury to third parties and damage to third party 
+                    property whilst at the private dwelling house due to the negligence of the owner or occupier.
+
                 </p>
             </div>
 
