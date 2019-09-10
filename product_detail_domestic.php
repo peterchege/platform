@@ -24,13 +24,13 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 commercial-background">
+        <div class="header-image header-image1 domestic-background">
         </div>
     </div>
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.05s">
+            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -38,11 +38,11 @@
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -55,50 +55,46 @@
 
                             <div class="job-description text-center">
 
-                                <h2>MOTOR PRIVATE COVER </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against financial loss in the event that the motor vehicle insured is involved
-                                    in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle.</P>
+                                <h2>Home Insurance (Domestic Package) </h2>
+                                <P class="text-justify">The policy provides cover to homeowners against accidental loss or damage to their property caused by the following perils: Fire & lightning, explosion, earthquake,
+                                    storm & tempest, riot & strike, malicious damage, theft, bursting and overflowing of water tanks, apparatus, pipes and impact by road vehicles and animals, objects falling from aircraft or aerial device.
+                                </P>
+                                <P class="text-justify">This being a package policy, it caters for different insurable interests in private homes;</p>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle while carrying his
-                                            own goods. The main cover features are as follows;</p2>
-                                        <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                        </ol>
-                                        <hr>
-                                        <p>Third Party, Fire, and Theft</p>
-                                        <p2>This policy covers the insured against three main risks;</p2>
-                                        <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-
-                                        </ol>
+                                        <h2>Our main products features include:</h2>
+                                        <p> a.) Building Section</p>
+                                        <p2>
+                                            This section covers a private dwelling house including domestic
+                                            outbuildings, walls, gates and fences, all on the same premise or flat.
+                                        </p2>
 
                                         <hr>
-                                        <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident.
-                                            Third party liability relates to;</p2>
-                                        <ol>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                        </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any repair costs are met by the insured himself.</p2>
+                                        <p>b.) Contents Section </p>
+                                        <p2>The section caters for furniture, household goods, and personal effects of every description,
+                                            the property of the insured or any member of his family normally residing with him, fixtures
+                                            & fittings, the insured’s own or for which he is legally responsible, not being the
+                                            landlord’s fixtures and fittings
+                                        </p2>
+                                        <hr>
+                                        <p>C.) All Risks Section</p>
+                                        <p2>This section provides cover in respect to specified portable and valuable items,
+                                            which are carried outside the house. Items under this section would include
+                                            jewellery, watches, laptops, mobile phones
+                                        </p2>
+                                        <hr>
+                                        <p>d.) WIBA Section </p>
+                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and drivers in respect of injury,
+                                            death or disease arising out of and in the course of employment.
+                                            The cover is mandatory for all employers as per the Work Injury Benefit Act (WIBA).
+                                        </p2>
+                                        <hr>
+                                        <p>e.) Owners’/Occupiers’ Liability Section </p>
+                                        <p2>This section covers liabilities as a result of death or injury to third parties and damage to third party
+                                            property whilst at the private dwelling house due to the negligence of the owner or occupier.
+                                        </p2>
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -131,35 +127,27 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products include:</h2><br>
+                                        <h2 class="text-center">Our main products features include:</h2><br>
 
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li> BUILDING </li>
+                                            <li>CONTENTS</li>
+                                            <li>ALLRISK </li>
+                                            <li>WIBA </li>
+                                            <li>OWNER'S/ OCCUPIER'S LIABILITY</li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>This is a combined policy that can be be taken out either by a tenant or a home owner.<br>
+                                            The cover is a combination of both Material Damage & liabilities Liabilities cover. In this regard the following key perils are included:
+                                            :</h3>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>Fire & Special perils </li>
+                                            <li>Explosion, Riot & Strike </li>
+                                            <li>Impact damage by vehicles or animals </li>
+                                            <li>Burglary & theft </li>
+                                            <li>Accidental breakage of fragile items </li>
+                                            <li>Injury to domestic servants </li>
+                                            <li>Liability to occupiers or owners </li>
                                         </ol>
                                         <br>
                                         <hr>
@@ -179,7 +167,7 @@
 
                                 <!-- TABLE -->
 
-                                <table class="uk-table uk-table-hover uk-table-divider">
+                                <!-- <table class="uk-table uk-table-hover uk-table-divider">
                                     <thead class="head-text">
                                         <tr>
                                             <th>Extra Benefits</th>
@@ -283,7 +271,7 @@
                                                 Per event Kshs. 20 millionn</td>
                                         </tr>
                                     </tbody>
-                                </table>
+                                </table> -->
 
                                 <!-- END TABLE -->
                             </div>
@@ -302,16 +290,16 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="load-more text-center ">
-                                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                <a href="#" class="btn btn-primary">Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                            <div class="load-more text-center ">
                                                 <a href="#" class="btn btn-danger"> Download Forms </a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                            <div class="load-more text-center" data-target="#modal-full" uk-toggle>
                                                 <a href="#" class="btn btn-dark">I Need Assistance</a>
                                             </div>
                                         </div>
@@ -333,86 +321,17 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
-    <!-- This is the modal with the outside close button -->
+    <!-- ===================================== DOWNLOAD FORM FOR COMPREHENSIVE ===================================== -->
+
     <div id="modal-close-outside" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <h2 class="uk-modal-title">DOCUMENTS:</h2>
 
-            <div class="row forms-download">
-
-                <!-- Browsure form -->
-                <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
-                        <h2>Browsure</h2>
-                        <hr>
-                        <p>Product features & benefits</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-                <!-- Claim Form -->
-                <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Claim Form</h2>
-                        <hr>
-                        <p>Outpatient Claim Form</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-                <!-- Claim Form -->
-                <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Calim Form</h2>
-                        <hr>
-                        <p>Inpatient Claim form</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-            </div>
-            <br>
-            <div class="row forms-download">
-
-                <!-- Browsure form -->
-                <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Claim Form</h2>
-                        <hr>
-                        <p>Dental authorization</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-                <!-- Claim Form -->
-                <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Claim Form</h2>
-                        <hr>
-                        <p>Optical Claim Form</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-                <!-- Claim Form -->
-                <div class="col-md-3 box-download">
-                    <a href="pdf/jamii">
-                        <h2>Calim Form</h2>
-                        <hr>
-                        <p>Inpatient Claim form</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
-                </div>
-
-            </div>
-
+            <a class="uk-button uk-button-default" href="pdf/Apollo Unit Trust Funds Brochure.pdf">Brochure </a><br><br>
+            <a class="uk-button uk-button-default" href="#"> Application/ proposal form</a><br><br>
+            <a class="uk-button uk-button-default" href="#">Claim form</a><br><br>
+            <a class="uk-button uk-button-default" href="#">Brochure</a><br><br>
 
         </div>
     </div>

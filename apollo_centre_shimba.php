@@ -67,36 +67,36 @@
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img8.jpg" data-lightbox="photos">
                     <!-- <img src="images/shimba/img5.jpg" alt="shimba" srcset=""> -->
                     <div class="gallery-view view-1"></div>
                 </a>
 
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img3.jpg" data-lightbox="photos">
                     <div class="gallery-view view-2"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img4.jpg" data-lightbox="photos">
                     <div class="gallery-view view-3"></div>
                 </a>
             </div>
         </div>
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img1.jpg" data-lightbox="photos">
                     <div class="gallery-view view-4"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img6.jpg" data-lightbox="photos">
                     <div class="gallery-view view-5"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/shimba/img5.jpg" data-lightbox="photos">
+                <a href="images/shimba/img9.jpg" data-lightbox="photos">
                     <div class="gallery-view view-6"></div>
                 </a>
             </div>

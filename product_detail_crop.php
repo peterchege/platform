@@ -34,20 +34,19 @@
         <div class="row">
             <div class="col-10 job-box1">
                 <div class="job-description text-center">
-                    <h2> AGRICULTURE INSURANCE </h2>
-                    <P class="text-justify">Your crops and livestock are your source of income and guaranteeing their
-                        safety
-                        should bring you ultimate happiness.
+                    <h2> LIVESTOCK INSURANCE </h2>
+                    <P class="text-justify">Your livestock IS your source of income and guaranteeing their
+                        safety should bring you ultimate happiness.
                     </P>
                     <hr>
                     <div class="job-content">
                         <div class="text-justify">
-                            <h2>Under our Agriculture policy we cover:</h2>
-                            <p> Area Yield Index Crop Insurance</p>
-                            <p2>This is a multi-peril micro-insurance product rolled out together with the Government of
-                                Kenya and other insurers. It covers smallholder maize and wheat farmers against poor
-                                yields
-                                due to poor weather and natural catastrophes.</p2>
+                            <h2>Under our livestock policy we cover:</h2>
+                            <p> Single Animal Cover </p>
+                            <p2>This offers a cover for high value animals (dairy or beef) losses/death as a
+                                 result of; accidents, illness and disease, epidemics, emergency slaughter 
+                                 and calving risks. It can be extended to cover; Transit risks, Theft cover 
+                                 as well as Loss of income benefit.</p2>
                             <p>Index-based Weather Insurance.</p>
                             <ul>
                                 <li>This cover compensates farmers for crop damage as a result of deficit or excesses in
