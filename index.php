@@ -244,7 +244,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
