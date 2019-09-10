@@ -140,7 +140,7 @@
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
                                             Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
-                                             there is a safety net for unexpected loss and associated costs
+                                            there is a safety net for unexpected loss and associated costs
 
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
@@ -180,32 +180,31 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li>Single Animal Cover </li>
+                                            <li>Poultry insurance</li>
+                                            <li>Dogs and Pet Insurance </li>
+                                            <li>Bloodstock/Horse Insurance </li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>The cover provides the following features. This include:</h3>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>The basis of cover value is as pre-agreed with the farmer and health status certified by qualified veterinary doctor/officer.
+                                                All covered animals must be tagged or bolus served. Age limits are 90 days to 10 years for cattle and 60 days to 5 years for shoats.
+                                            </li><br>
+                                            <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days to 1½ years. This cover Indemnifies on the insured’s
+                                                bird’s death due to; uncontrollable diseases and Accidents. The cover can be extended to cover Transit Risk as well as Theft.
+                                                Threshold for the cover is a Minimum premium of 5,000 Kenya shillings. The policy covers the maximum capacity of birds that a
+                                                farmer’s structure can hold.
+                                            </li><br>
+                                            <li>The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying expenses.
+                                                Cover age limits is 8weeks to 8 years.
+                                            </li><br>
+                                            <li>The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying expenses.
+                                                Cover age limits is 8weeks to 8 years.
+                                            </li><br>
+                                            <li>The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner and health 
+                                                status certified by qualified veterinary doctor/officer.
+                                            </li>
                                         </ol>
                                         <br>
                                         <hr>
