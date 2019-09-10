@@ -253,6 +253,10 @@
     background-image: url(../img/motor-cover.jpg);
 }
 
+.domestic-background {
+    background-image: url(../img/domestic.jpg);
+}
+
 
 .header-image2 {
     width: 100%;
