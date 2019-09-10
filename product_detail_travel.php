@@ -86,14 +86,12 @@
                                         </ol>
                                         <hr>
                                         <p>24 Hour Assistance</p>
-                                        <p2>You and/or your beneficiaries will recieve compensation should you be involved
-                                            in an accident that results in:</p2>
+                                        <p2>You will have access to 24 hour assistance in any emergency situation including:</p2>
                                         <ol>
-                                            <li> Injuries</li>
-                                            <li>Disability</li>
-                                            <li>Death</li>
+                                            <li> Rescue and Evacuation in the event of an accident or illness</li>
+                                            <li> Emergency Medical Treatment</li>
                                         </ol>
-                                    
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -123,42 +121,59 @@
                         <!-- FEATURES -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description ">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products include:</h2><br>
+                                        <h2 class="text-center">The cover caters for the following:</h2><br>
 
+                                        <!-- Personal Accident -->
+                                        <h2>personal accident</h2>
+                                        <p2> You and/or your beneficiaries will recieve compensation should you be involved
+                                            in an accident that results in:
+                                        </p2>
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li> Injuries </li>
+                                            <li> Disability</li>
+                                            <li>Death</li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <!-- PERSONAL LIABILITY -->
+                                        <h2>medical expenses</h2>
+                                        <p2> You will have your expenses arising directly out of the following covered:
+                                        </p2>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a
-                                                result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
-                                                destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li> Evacuation or repatriation following accidental injury or illness </li>
+                                            <li> Emergency Dental Care</li>
+                                            <li> Follow-up treatment</li>
                                         </ol>
-                                        <br>
+                                        <hr>
+                                        <!-- PERSONAL LIABILITY -->
+                                        <h2>personal liability</h2>
+                                        <p2> You are covered should you be found to be legally liable in the event of:
+                                        </p2>
+                                        <ol>
+                                            <li> Accidental damage to property belonging to a third party </li>
+                                            <li> Accidental loss or damage to property belonging to a third party</li>
+                                        </ol>
+                                        <hr>
+                                        <!-- TRAVEL DELAY/ MISSED DEPARTURE -->
+                                        <h2>travel delay/ missed departure</h2>
+                                        <p2> You will be compensated for eventual delay of booked flights, including accommodation
+                                        </p2>
+                                        <hr>
+                                        <!-- HIJACK -->
+                                        <h2> hijack </h2>
+                                        <p2> In the event that you cannot reach your destination as a result of a hijacking,
+                                            the cover compensates USD 100 for each full 24 hour period up to a maximum of 10 days
+                                            or USD 500
+                                        </p2>
+                                        <hr>
+                                        <!-- LOSS OF BAGGAGE & DOCUMENTS -->
+                                        <h2> loss of baggage & documents </h2>
+                                        <ol>
+                                            <li>You are covered for loss of passport or essential documents while travelling</li>
+                                            <li> Loss or damage to checked baggage or personal effects</li>
+                                        </ol>
                                         <hr>
                                         <br>
                                     </div>
