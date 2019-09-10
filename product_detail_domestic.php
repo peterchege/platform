@@ -85,7 +85,7 @@
                                         </p2>
                                         <hr>
                                         <p>d.) WIBA Section </p>
-                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and drivers in respect of injury, 
+                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and drivers in respect of injury,
                                             death or disease arising out of and in the course of employment.
                                             The cover is mandatory for all employers as per the Work Injury Benefit Act (WIBA).
                                         </p2>
@@ -137,25 +137,17 @@
                                             <li>OWNER'S/ OCCUPIER'S LIABILITY</li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>This is a combined policy that can be be taken out either by a tenant or a home owner.<br>
+                                            The cover is a combination of both Material Damage & liabilities Liabilities cover. In this regard the following key perils are included:
+                                            :</h3>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>Fire & Special perils </li>
+                                            <li>Explosion, Riot & Strike </li>
+                                            <li>Impact damage by vehicles or animals </li>
+                                            <li>Burglary & theft </li>
+                                            <li>Accidental breakage of fragile items </li>
+                                            <li>Injury to domestic servants </li>
+                                            <li>Liability to occupiers or owners </li>
                                         </ol>
                                         <br>
                                         <hr>
