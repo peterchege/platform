@@ -189,111 +189,83 @@
 
                             <div class="job-description text-center">
 
+                                <h2 class="text-center">APA GLOBETROTTER TRAVEL INSURANCE</h2>
+                                <p>SCHEDULE OF COMPENSATION</p>
+                                <p2>The schedule of compensation applicable under each section of this policy for each insured during each period of
+                                    travel </p2>
                                 <!-- TABLE -->
 
                                 <table class="uk-table uk-table-hover uk-table-divider">
                                     <thead class="head-text">
                                         <tr>
-                                            <th>Extra Benefits</th>
-                                            <th>Third party only (TPO)</th>
-                                            <th>Third party Fire & Theft (TPF & T)</th>
-                                            <th>Comprehensive </th>
+                                            <th>BENEFITS</th>
+                                            <th>AFRICA</th>
+                                            <th>ASIA</th>
+                                            <th>EUROPE </th>
+                                            <th>WORLDWIDE BASIC</th>
+                                            <th>WORLDWIDE SUPERIOR</th>
+                                            <th>SILVER</th>
+                                            <th>PLATINUM </th>
+                                            <th>EXCESS </th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Windscreen</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Free limit up to Kshs. 50,000.00
-                                                Additional cover<br> over and above free limit cover
-                                                is charged at 10% of the insured value</td>
+                                            <td>Medical Section </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                            <td> </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>EMERGENCY MEDICAL EXPENSES </td>
+                                            <td> $15,000 </td>
+                                            <td> $15,000 </td>
+                                            <td> $75,000 </td>
+                                            <td> $100,000 </td>
+                                            <td> $150,000 </td>
+                                            <td> $200,000 </td>
+                                            <td> $250,000 </td>
+                                            <td> $100 </td>
                                         </tr>
                                         <tr>
-                                            <td>Car Entertainment System</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Free limit up to Kshs. 30,000.00
-                                                Additional cover<br> over and above free limit cover
-                                                is charged at 10% of the insured value</td>
+                                            <td>Medical Evacuation In Case Of Illnesses Or Accident </td>
+                                            <td> $5,000 </td>
+                                            <td> $5,000 </td>
+                                            <td> $15,000 </td>
+                                            <td> $15,000 </td>
+                                            <td> $25,000 </td>
+                                            <td> $30,000 </td>
+                                            <td> $50,000 </td>
+                                            <td> $100 </td>
                                         </tr>
                                         <tr>
-                                            <td>Accidental Damage
-                                                Excess Protector</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 2,000.00</td>
+                                            <td>Emergency Dental Care </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 600 </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 50 </td>
                                         </tr>
                                         <tr>
-                                            <td>Accidental & Theft Excess Protector</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Charged at 0.5% of insured value with a minimum of Kshs. 5,000.00
-                                                Subject to the vehicle being fitted with Antitheft device</td>
+                                            <td>Daily Hospital Benefits </td>
+                                            <td> 50 per day <br> Max 500</td>
+                                            <td> 50 per day <br> Max 500</td>
+                                            <td> 50 per day <br> Max 500</td>
+                                            <td> 50 per <br> day <br> Max 500</td>
+                                            <td> 75 per <br> day <br> Max 500</td>
+                                            <td> 75 per <br> day <br> Max 500</td>
+                                            <td> 75 per <br> day <br> Max 500</td>
+                                            <td> 24 hours </td>
                                         </tr>
-                                        <tr>
-                                            <td>Loss of Use/ Courtesy Car</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>10 Days cover at Kshs. 3,000.00<br>
-                                                20 Days Cover at Kshs. 5,000.00<br>
-                                                Subject to time excess of three (3) </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Political Violence & Terrorism cover</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 1,500.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Towing/Recovery Expenses</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Free cover up to Kshs. 30,000.00
-                                                On reimbursement basis</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Repair Authority</td>
-                                            <td>N/A</td>
-                                            <td>N/A</td>
-                                            <td>Up to Kshs. 30,000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Medical Expenses
-                                                On reimbursement</td>
-                                            <td>Free cover up to Kshs. 20,000.00</td>
-                                            <td>Free cover up to Kshs. 20,000.00</td>
-                                            <td>Free cover up to Kshs. 20,000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Third Part Persons</td>
-                                            <td>- Any one person <br>Kshs. 3 Million<br><br>
-                                                -Any One Event Kshs. 20 Million
-                                            </td>
-                                            <td>
-                                                - Any one person<br> Kshs. 3 Million <br><br>
-                                                -Any One Event Kshs. 20 Million
-                                            </td>
-                                            <td>
-                                                - Any one person Kshs. 3 Million<br><br>
-                                                - Any One Event Kshs. 20 Million
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Third Party Property Damage Limit</td>
-                                            <td>Up to Kshs. 20 million</td>
-                                            <td>Up to Kshs. 20 million</td>
-                                            <td>Up to Kshs. 20 million</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Passenger Legal Liability</td>
-                                            <td>Per Passenger KShs. 4 million<br><br>
-                                                Per event Kshs. 20 million </td>
-                                            <td>Per Passenger KShs. 4 million<br><br>
-                                                -Per event Kshs. 20 million </td>
-                                            <td>Per Passenger KShs. 4 million<br><br>
-                                                Per event Kshs. 20 millionn</td>
-                                        </tr>
+
                                     </tbody>
                                 </table>
 
