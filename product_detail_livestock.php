@@ -202,7 +202,7 @@
                                             <li>The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying expenses.
                                                 Cover age limits is 8weeks to 8 years.
                                             </li><br>
-                                            <li>The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner and health 
+                                            <li>The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner and health
                                                 status certified by qualified veterinary doctor/officer.
                                             </li>
                                         </ol>
@@ -220,10 +220,18 @@
 
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description">
 
                                 <!-- TABLE -->
 
+                                <h2 class="text-center">The benefit include:</h2><br>
+                                <ol>
+                                    <li>Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing there is a safety net 
+                                        for unexpected loss and associated costs.
+                                    </li><br>                                    
+                                </ol>
+                                <br>
+                                <hr>
 
                                 <!-- END TABLE -->
                             </div>
