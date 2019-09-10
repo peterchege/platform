@@ -127,7 +127,7 @@
                                         <h2 class="text-center">The cover caters for the following:</h2><br>
 
                                         <!-- Personal Accident -->
-                                        <h2>personal accident</h2>
+                                        <h2>Personal accident</h2>
                                         <p2> You and/or your beneficiaries will recieve compensation should you be involved
                                             in an accident that results in:
                                         </p2>
@@ -138,7 +138,7 @@
                                         </ol>
                                         <hr>
                                         <!-- PERSONAL LIABILITY -->
-                                        <h2>medical expenses</h2>
+                                        <h2>Medical expenses</h2>
                                         <p2> You will have your expenses arising directly out of the following covered:
                                         </p2>
                                         <ol>
@@ -148,7 +148,7 @@
                                         </ol>
                                         <hr>
                                         <!-- PERSONAL LIABILITY -->
-                                        <h2>personal liability</h2>
+                                        <h2>Personal liability</h2>
                                         <p2> You are covered should you be found to be legally liable in the event of:
                                         </p2>
                                         <ol>
@@ -157,19 +157,19 @@
                                         </ol>
                                         <hr>
                                         <!-- TRAVEL DELAY/ MISSED DEPARTURE -->
-                                        <h2>travel delay/ missed departure</h2>
+                                        <h2>Travel delay/ missed departure</h2>
                                         <p2> You will be compensated for eventual delay of booked flights, including accommodation
                                         </p2>
                                         <hr>
                                         <!-- HIJACK -->
-                                        <h2> hijack </h2>
+                                        <h2> Hijack </h2>
                                         <p2> In the event that you cannot reach your destination as a result of a hijacking,
                                             the cover compensates USD 100 for each full 24 hour period up to a maximum of 10 days
                                             or USD 500
                                         </p2>
                                         <hr>
                                         <!-- LOSS OF BAGGAGE & DOCUMENTS -->
-                                        <h2> loss of baggage & documents </h2>
+                                        <h2> Loss of baggage & documents </h2>
                                         <ol>
                                             <li>You are covered for loss of passport or essential documents while travelling</li>
                                             <li> Loss or damage to checked baggage or personal effects</li>
