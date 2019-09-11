@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    
+
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -32,7 +32,7 @@
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.05s">
+            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -58,14 +58,17 @@
                             <div class="job-description text-center">
 
                                 <h2>MOTOR PRIVATE COVER </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against financial loss in the event that the motor vehicle insured is involved
-                                    in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle.</P>
+                                <P class="text-justify">Motor insurance cover protects the insured against financial
+                                    loss in the event that the motor vehicle insured is involved
+                                    in an accident, burnt, stolen and third party liability arising from use of the
+                                    insured motor vehicle.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle while carrying his
+                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in
+                                            the process of using his vehicle while carrying his
                                             own goods. The main cover features are as follows;</p2>
                                         <ol>
                                             <li>Accidental Impact damage including overturning and collision </li>
@@ -83,24 +86,29 @@
                                         <p>Third Party, Fire, and Theft</p>
                                         <p2>This policy covers the insured against three main risks;</p2>
                                         <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                            <li>Third party liability cover for bodily injury or property damage as a
+                                                result
                                                 of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
+                                                destroyed</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
 
                                         </ol>
 
                                         <hr>
                                         <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident.
+                                        <p2>It is the minimum legal cover that every car owner must have in order to be
+                                            legally on the road.
+                                            The cover protects a vehicle owner from liabilities that may arise from
+                                            third parties in the event of an accident.
                                             Third party liability relates to;</p2>
                                         <ol>
                                             <li>Bodily injury</li>
                                             <li>Property damage</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
                                         </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any repair costs are met by the insured himself.</p2>
+                                        <p2>This cover does not protect the car owner from personal liabilities and any
+                                            repair costs are met by the insured himself.</p2>
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -155,9 +163,11 @@
                                             <li>Courtesy car/ loss of use cover</li>
                                             <li>Excess protector</li>
                                             <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                            <li>Third party liability cover for bodily injury or property damage as a
+                                                result
                                                 of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
+                                                destroyed</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
                                             <li>Bodily injury</li>
                                             <li>Property damage</li>
@@ -429,7 +439,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form" class="form-container">
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -439,18 +449,18 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="">
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="">
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -464,42 +474,39 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="vehicle_make">Vehicle Make</label>
-                                    <input name="vehicle_make" type="text" class="form-control" id="vehicle_make" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="vehicle_make" type="text" class="form-control" id="vehicle_make" placeholder="Toyota" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="vehicle_model">Vehicle Model</label>
-                                    <input name="vehicle_model" type="text" class="form-control" id="vehicle_model" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="vehicle_model" type="text" class="form-control" id="vehicle_model" placeholder="Crown" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="yom">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="vehicle_value">Vehicle Value (Kshs)</label>
+                                    <input name="vehicle_value" type="text" class="form-control" id="vehicle_value" placeholder="1,400,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="more_info">More Information</label>
-                                    <textarea name="more_info" class="form-control"></textarea>
+                                    <textarea name="more_info" id="more_info" class="form-control"></textarea>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                        ASSISTANCE
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </form>
 
                 </div>
@@ -513,11 +520,48 @@
     ?>
     <script src="js/parsley.min.js"></script>
     <script>
-    $(document).ready(function (e) {
-        e.preventDefault();
-        $('#form').parsley();
-    });
-        
+        $(document).ready(function() {
+            $('#form').parsley();
+
+            $('#form').on('submit', function(e) {
+                e.preventDefault();
+                var full_name = $('#full_name').val();
+                var phone = $('#phone').val();
+                var email = $('#email').val();
+                var location = $('#location').val();
+                var vehicle_make = $('#vehicle_make').val();
+                var vehicle_model = $('#vehicle_model').val();
+                var vehicle_value = $('input[name="vehicle_value"]').val();
+                var vehicle_value = numeral(vehicle_value).value();
+                var yom = $('#yom').val();
+                var more_info = $('#more_info').val();
+                var dataString = 'full_name=' + full_name + 'phone=' + phone + 'email=' + email + 'location=' + location + 'vehicle_make=' + vehicle_make + 'vehicle_model=' + vehicle_model + 'vehicle_value=' + vehicle_value + 'yom=' + yom + 'more_info=' + more_info;
+
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/leads.php",
+                    data: dataString,
+                    dataType: "dataType",
+                    success: function(response) {
+
+                    }
+                });
+
+            });
+
+
+            $('#vehicle_value').keyup(function(event) {
+                // skip for arrow keys
+                if (event.which >= 37 && event.which <= 40) return;
+
+                // format number
+                $(this).val(function(index, value) {
+                    return value
+                        .replace(/\D/g, "")
+                        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                });
+            });
+        });
     </script>
 </body>
 

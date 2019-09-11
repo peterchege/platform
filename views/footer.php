@@ -5,33 +5,34 @@
             <div class="row mover">
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>GENERAL</h4>
+                    <h4>About APA</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Motor Insurance</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Agriculture Insurance</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Domestic Package</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Personal Accident</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">APA Marine</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Apollo Group</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Companies</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Financial Reports</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Leadership</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Managment</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>HEALTH</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Health Corporate</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Femina</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Jamii Plus </a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Afya Nafuu</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Careers</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">CSR</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Media Centre </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Trail Blazers</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#"> Contact Us</a></li>
 
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>LIFE</h4>
+                    <h4>PORTALS</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Elimu</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Imarika</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">HosiCare</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Life Cleint Portal</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Self Service login</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Intermediary Portal</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Pumzisha</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Group Pension</a></li>
 
@@ -39,11 +40,14 @@
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>INVESTMENT</h4>
+                    <h4>BUY NOW</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Balance Funds</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Equity Funds</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Money Market Funds </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Travel cover</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Motor Cover </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Marine Open Cover</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Marine Single Transit </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#"> Home cover ( Domestic Package ) </a></li>
+
                     </ul>
                 </div>
 
@@ -61,7 +65,6 @@
                         <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="fab fa-google-plus-g"></i></a>
                         <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
@@ -79,11 +82,11 @@
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Regulated by IRA </div>
+                <div class="copyright"> Regulated by IRA || Powered by APA ICT </div>
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Terms & Condtions</div>
+                <div class="copyright"> Terms & Condtions </div>
             </div>
         </div>
     </div>

@@ -64,50 +64,93 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle while carrying his
-                                            own goods. The main cover features are as follows;</p2>
-                                        <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                        </ol>
-                                        <hr>
-                                        <p>Third Party, Fire, and Theft</p>
-                                        <p2>This policy covers the insured against three main risks;</p2>
-                                        <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                        <h2>Under our livestock policy we cover:</h2>
+                                        <!-- Single Animal Cover -->
+                                        <p>1.) Single Animal Cover</p>
+                                        <p2>This offers a cover for high value animals (dairy or beef) losses/death as a result of; accidents, illness and disease,
+                                            epidemics, emergency slaughter and calving risks. It can be extended to cover; Transit risks, Theft cover as well as
+                                            Loss of income benefit.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            The basis of cover value is as pre-agreed with the farmer and health status certified by qualified veterinary doctor/officer.
+                                            All covered animals must be tagged or bolus served. Age limits are 90 days to 10 years for cattle and 60 days to 5 years for
+                                            shoats.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing there
+                                            is a safety net for unexpected loss and associated costs
 
-                                        </ol>
-
+                                        </p2>
+                                        <!-- END Single Animal Cover -->
                                         <hr>
-                                        <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident.
-                                            Third party liability relates to;</p2>
-                                        <ol>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                        </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any repair costs are met by the insured himself.</p2>
+                                        <!-- Poultry insurance -->
+                                        <p>2.) Poultry insurance</p>
+                                        <p2>This is a mortality cover for domesticated bird birds kept under a controlled environment.
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days to 1½ years. This cover Indemnifies on the insured’s
+                                            bird’s death due to; uncontrollable diseases and Accidents. The cover can be extended to cover Transit Risk as well as Theft.
+                                            Threshold for the cover is a Minimum premium of 5,000 Kenya shillings. The policy covers the maximum capacity of birds that a
+                                            farmer’s structure can hold.
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
+                                            there is a safety net for unexpected loss and associated costs
+                                        </p2>
+                                        <!-- END OF Poultry insurance -->
+                                        <hr>
+                                        <!-- Dogs and Pet Insurance -->
+                                        <p>3.) Dogs and Pet Insurance</p>
+                                        <p2>This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and disease, Epidemics, Euthanasia
+                                            on advice of a qualified vet doctor.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying
+                                            expenses. Cover age limits is 8weeks to 8 years.
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
+                                            there is a safety net for unexpected loss and associated costs
+
+                                        </p2>
+                                        <!-- END OF Dogs and Pet Insurance -->
+                                        <hr>
+                                        <!-- Bloodstock/Horse Insurance -->
+                                        <p>4.) Bloodstock/Horse Insurance</p>
+                                        <p2>Our bloodstock product covers mortality of the insured racing or polo horse as a result of accidents and medical expenses
+                                            as a result of accidental injuries.
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner
+                                            and health status certified by qualified veterinary doctor/officer.
+
+
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing
+                                            there is a safety net for unexpected loss and associated costs
+
+                                        </p2>
+                                        <!-- END OF Bloodstock/Horse Insurance -->
+                                        <hr>
                                         <br><br><br><br>
 
                                         <div class="row">
                                             <div class="col-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                    <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
@@ -137,32 +180,31 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li>Single Animal Cover </li>
+                                            <li>Poultry insurance</li>
+                                            <li>Dogs and Pet Insurance </li>
+                                            <li>Bloodstock/Horse Insurance </li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>The cover provides the following features. This include:</h3>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                            <li>The basis of cover value is as pre-agreed with the farmer and health status certified by qualified veterinary doctor/officer.
+                                                All covered animals must be tagged or bolus served. Age limits are 90 days to 10 years for cattle and 60 days to 5 years for shoats.
+                                            </li><br>
+                                            <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days to 1½ years. This cover Indemnifies on the insured’s
+                                                bird’s death due to; uncontrollable diseases and Accidents. The cover can be extended to cover Transit Risk as well as Theft.
+                                                Threshold for the cover is a Minimum premium of 5,000 Kenya shillings. The policy covers the maximum capacity of birds that a
+                                                farmer’s structure can hold.
+                                            </li><br>
+                                            <li>The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying expenses.
+                                                Cover age limits is 8weeks to 8 years.
+                                            </li><br>
+                                            <li>The cover can be extended to cover; Treatment and medical expenses, Third party liability, Theft, Recovery and straying expenses.
+                                                Cover age limits is 8weeks to 8 years.
+                                            </li><br>
+                                            <li>The cover can be extended to cover transit risk as well as theft. The basis of cover value is as pre-agreed with the owner and health
+                                                status certified by qualified veterinary doctor/officer.
+                                            </li>
                                         </ol>
                                         <br>
                                         <hr>
@@ -178,10 +220,18 @@
 
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description">
 
                                 <!-- TABLE -->
 
+                                <h2 class="text-center">The benefit include:</h2><br>
+                                <ol>
+                                    <li>Easy claim process, assured stability, loan collateral, affordable, improved financial management and peace in knowing there is a safety net 
+                                        for unexpected loss and associated costs.
+                                    </li><br>                                    
+                                </ol>
+                                <br>
+                                <hr>
 
                                 <!-- END TABLE -->
                             </div>
