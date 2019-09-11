@@ -479,6 +479,7 @@
                                 <br>
                                 <table class="uk-table uk-table-hover uk-table-divider">
                                     <thead class="head-text">
+                                        <hr>
                                         <tr>
                                             <th>PREMIUM PER PERSON</th>
                                             <th>AFRICA</th>
@@ -544,7 +545,7 @@
                                         <tr>
                                             <td> 31 to 60 days </td>
                                             <td> $ 68 </td>
-                                            <td> $ 130 </td>
+                                            <td> $130 </td>
                                             <td> $ 125 </td>
                                             <td> $ 155 </td>
                                             <td> $ 185 </td>
@@ -554,7 +555,7 @@
                                         <tr>
                                             <td> 61 to 90 days </td>
                                             <td> $ 90 </td>
-                                            <td> $ 180 </td>
+                                            <td> $180 </td>
                                             <td> $ 170 </td>
                                             <td> $ 255 </td>
                                             <td> $ 235 </td>
@@ -564,12 +565,72 @@
                                         <tr>
                                             <td> 91 to 180 days </td>
                                             <td> $ 140 </td>
-                                            <td> $ 280 </td>
+                                            <td> $280 </td>
                                             <td> $ 276 </td>
                                             <td> $ 290 </td>
                                             <td> $ 305 </td>
                                             <td> $ 370 </td>
                                             <td> $ 390 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one trip 45 days) </td>
+                                            <td> $ 210 </td>
+                                            <td> $210 </td>
+                                            <td> $ 235 </td>
+                                            <td> $ 300 </td>
+                                            <td> $ 375 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one trip 60 days) </td>
+                                            <td> $ 235 </td>
+                                            <td> $235 </td>
+                                            <td> $ 280 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 450 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one Trip 90 days) </td>
+                                            <td> $ 250 </td>
+                                            <td> $250 </td>
+                                            <td> $ 355 </td>
+                                            <td> $ 465 </td>
+                                            <td> $ 500 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Student Rate (age up to 40 years) </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 180 days </td>
+                                            <td> $ 180 </td>
+                                            <td> $180 </td>
+                                            <td> $ 265 </td>
+                                            <td> $ 285 </td>
+                                            <td> $ 350 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 365 days </td>
+                                            <td> $ 235 </td>
+                                            <td> $235 </td>
+                                            <td> $ 310 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 500 </td>
+                                            <td> - </td>
+                                            <td> - </td>
                                         </tr>
 
 
