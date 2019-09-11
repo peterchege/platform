@@ -55,7 +55,8 @@
                 <div class="row">
                     <div class="col-4">
                         <div class="load-more text-center ">
-                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
+                                class="btn btn-primary">Get Cover</a>
                         </div>
                     </div>
                     <div class="col-4">
