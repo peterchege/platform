@@ -36,19 +36,24 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="charges-tab" data-toggle="tab" href="#charges" role="tab" aria-controls="charges" aria-selected="false">CHARGES</a>
+                            <a class="nav-link" id="charges-tab" data-toggle="tab" href="#charges" role="tab"
+                                aria-controls="charges" aria-selected="false">CHARGES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -60,7 +65,8 @@
                             <div class="job-description text-center">
 
                                 <h2>TRAVEL INSURANCE </h2>
-                                <P class="text-justify">Travelling around the globe and exploring the wonders of the world has become
+                                <P class="text-justify">Travelling around the globe and exploring the wonders of the
+                                    world has become
                                     easier. Whether on business or pleasure you require some essentials without
                                     which your trip would not be complete. One of these is the APA Globetrotter
                                     Travel Cover. It provides security for the unexpected emergencies and peace of
@@ -79,17 +85,20 @@
                                         <hr>
                                         <p> Who Can be Covered?</p>
                                         <ol>
-                                            <li>You have comprehensive coverage against local and international travel risks
+                                            <li>You have comprehensive coverage against local and international travel
+                                                risks
                                                 and hazards anywhere in the world
                                             </li>
-                                            <li> You are covered from the time you leave your usual place of residence or
+                                            <li> You are covered from the time you leave your usual place of residence
+                                                or
                                                 business until your return for a period of up to 180 days
                                             </li>
 
                                         </ol>
                                         <hr>
                                         <p>24 Hour Assistance</p>
-                                        <p2>You will have access to 24 hour assistance in any emergency situation including:</p2>
+                                        <p2>You will have access to 24 hour assistance in any emergency situation
+                                            including:</p2>
                                         <ol>
                                             <li> Rescue and Evacuation in the event of an accident or illness</li>
                                             <li> Emergency Medical Treatment</li>
@@ -100,11 +109,13 @@
                                         <div class="row">
                                             <div class="col-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                                        class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
@@ -131,7 +142,8 @@
 
                                         <!-- Personal Accident -->
                                         <h2>Personal accident</h2>
-                                        <p2> You and/or your beneficiaries will recieve compensation should you be involved
+                                        <p2> You and/or your beneficiaries will recieve compensation should you be
+                                            involved
                                             in an accident that results in:
                                         </p2>
                                         <ol>
@@ -161,20 +173,24 @@
                                         <hr>
                                         <!-- TRAVEL DELAY/ MISSED DEPARTURE -->
                                         <h2>Travel delay/ missed departure</h2>
-                                        <p2> You will be compensated for eventual delay of booked flights, including accommodation
+                                        <p2> You will be compensated for eventual delay of booked flights, including
+                                            accommodation
                                         </p2>
                                         <hr>
                                         <!-- HIJACK -->
                                         <h2> Hijack </h2>
-                                        <p2> In the event that you cannot reach your destination as a result of a hijacking,
-                                            the cover compensates USD 100 for each full 24 hour period up to a maximum of 10 days
+                                        <p2> In the event that you cannot reach your destination as a result of a
+                                            hijacking,
+                                            the cover compensates USD 100 for each full 24 hour period up to a maximum
+                                            of 10 days
                                             or USD 500
                                         </p2>
                                         <hr>
                                         <!-- LOSS OF BAGGAGE & DOCUMENTS -->
                                         <h2> Loss of baggage & documents </h2>
                                         <ol>
-                                            <li>You are covered for loss of passport or essential documents while travelling</li>
+                                            <li>You are covered for loss of passport or essential documents while
+                                                travelling</li>
                                             <li> Loss or damage to checked baggage or personal effects</li>
                                         </ol>
                                         <hr>
@@ -194,7 +210,8 @@
 
                                 <h2 class="text-center">APA GLOBETROTTER TRAVEL INSURANCE</h2>
                                 <p>SCHEDULE OF COMPENSATION</p>
-                                <p2>The schedule of compensation applicable under each section of this policy for each insured during each period of
+                                <p2>The schedule of compensation applicable under each section of this policy for each
+                                    insured during each period of
                                     travel </p2>
                                 <!-- TABLE -->
 
@@ -654,11 +671,13 @@
                                     <div class="row">
                                         <div class="col-4">
                                             <div class="load-more text-center ">
-                                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                                    class="btn btn-primary">Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                            <div class="load-more text-center " data-target="#modal-full1"
+                                                uk-toggle="target: #modal-close-outside">
                                                 <a href="#" class="btn btn-danger"> Download Forms </a>
                                             </div>
                                         </div>
