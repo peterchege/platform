@@ -45,6 +45,9 @@
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" id="charges-tab" data-toggle="tab" href="#charges" role="tab" aria-controls="charges" aria-selected="false">CHARGES</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
@@ -265,6 +268,371 @@
                                             <td> 75 per <br> day <br> Max 500</td>
                                             <td> 24 hours </td>
                                         </tr>
+                                        <tr class="blue-colum">
+                                            <td> REPATRIATION OF FAMILY MEMBER TRAVELLING WITH INSURED </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 2,500 </td>
+                                            <td> $ 3,000 </td>
+                                            <td> $ 3,500 </td>
+                                            <td> $ 4,000 </td>
+                                            <td> $ 5,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Repatriation of Mortal Remains/ Burial Expenses </td>
+                                            <td> $3,000 </td>
+                                            <td> $3,000 </td>
+                                            <td> $5,000 </td>
+                                            <td> $5,000 </td>
+                                            <td> $7,500 </td>
+                                            <td> $7,500 </td>
+                                            <td> $10,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Follow Up Treatment In Kenya </td>
+                                            <td> $250 </td>
+                                            <td> $250 </td>
+                                            <td> $500 </td>
+                                            <td> $500 </td>
+                                            <td> $750 </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,500 </td>
+                                            <td> $50 </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Travel of One Immediate Family Member </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,500 </td>
+                                            <td> $1,750 </td>
+                                            <td> $2,000 </td>
+                                            <td> $2,500 </td>
+                                            <td> $3,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Emergency Return Home Following Death of a Close Family Member </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> Covered </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>PERSONAL ACCIDENT </td>
+                                            <td> $ 5,000 </td>
+                                            <td> $ 5,000 </td>
+                                            <td> $15,000 </td>
+                                            <td> $ 25,000 </td>
+                                            <td> $ 30,500 </td>
+                                            <td> $ 35,000 </td>
+                                            <td> $ 40,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Loss of Checked Baggage</td>
+                                            <td> $250 </td>
+                                            <td> $500 </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,500 </td>
+                                            <td> $2,500 </td>
+                                            <td> $3,500 </td>
+                                            <td> $100 </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Delay of Checked Baggage</td>
+                                            <td> $100 </td>
+                                            <td> $200 </td>
+                                            <td> $500 </td>
+                                            <td> $1,000 </td>
+                                            <td> $1,500 </td>
+                                            <td> $2,500 </td>
+                                            <td> $3,500 </td>
+                                            <td> $100 </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>TRAVEL DELAY </td>
+                                            <td> $ 100 </td>
+                                            <td> $ 200 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 50 per 6 hours </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Missed Departure</td>
+                                            <td> $ 100 </td>
+                                            <td> $ 200 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 650 </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 50.00 </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>LOSS OF PASSPORT </td>
+                                            <td> $ 100 </td>
+                                            <td> $ 200 </td>
+                                            <td> $ 200 </td>
+                                            <td> $ 250 </td>
+                                            <td> $ 250 </td>
+                                            <td> $ 300 </td>
+                                            <td> $ 500 </td>
+                                            <td> $50.00 </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Legal Assistance</td>
+                                            <td> $ 5,000 </td>
+                                            <td> $ 7,500 </td>
+                                            <td> $ 7,500 </td>
+                                            <td> $ 10,000 </td>
+                                            <td> $ 10,000 </td>
+                                            <td> $ 12,500 </td>
+                                            <td> $ 15,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>HIJACK </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 500 </td>
+                                            <td> $ 800 </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 1,300 </td>
+                                            <td> $ 1,500 </td>
+                                            <td> 12 hours </td>
+                                        </tr>
+                                        <tr>
+                                            <td> - </td>
+                                            <td> $ 100 per 24 hrs </td>
+                                            <td> $ 100 per 24 hrs </td>
+                                            <td> $ 100 per 24 hrs </td>
+                                            <td> $ 100 <br> per 24 <br>hrs </td>
+                                            <td> $ 100 <br> per 24 <br>hrs </td>
+                                            <td> $ 100 per 24 hrs </td>
+                                            <td> $ 100 <br> per 24 <br>hrs </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>TRIP CANCELLATION AND CURTAILMENT </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 750 </td>
+                                            <td> $ 1,000 </td>
+                                            <td> $ 1,500 </td>
+                                            <td> $ 2,000 </td>
+                                            <td> $ 2,500 </td>
+                                            <td> $ 3,500 </td>
+                                            <td> $ 150 </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>ADVANCE BAIL BOND </td>
+                                            <td> $ 5,000 </td>
+                                            <td> $ 5,000 </td>
+                                            <td> $10,000 </td>
+                                            <td> $ 10,000 </td>
+                                            <td> $ 12,500 </td>
+                                            <td> $ 15,000 </td>
+                                            <td> $ 20,000 </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr class="blue-colum">
+                                            <td>PERSONAL LIABILITY </td>
+                                            <td> $25,000 </td>
+                                            <td> $25,000 </td>
+                                            <td> $75,000 </td>
+                                            <td> $ 100,000 </td>
+                                            <td> $ 150,000 </td>
+                                            <td> $250,000 </td>
+                                            <td> $ 300,000 </td>
+                                            <td> $ 250 </td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+                                <!-- END TABLE -->
+                            </div>
+                        </div>
+
+                        <!-- CHARGES -->
+
+                        <div class="tab-pane fade" id="charges" role="tabpanel" aria-labelledby="charges-tab">
+
+                            <div class="job-description text-center">
+
+                                <!-- <h2 class="text-center">APA GLOBETROTTER TRAVEL INSURANCE</h2>
+                                <p>SCHEDULE OF COMPENSATION</p> -->
+                                <!-- <p2>The schedule of compensation applicable under each section of this policy for each insured during each period of
+                                    travel </p2> -->
+                                <!-- TABLE -->
+                                <br>
+                                <table class="uk-table uk-table-hover uk-table-divider">
+                                    <thead class="head-text">
+                                        <hr>
+                                        <tr>
+                                            <th>PREMIUM PER PERSON</th>
+                                            <th>AFRICA</th>
+                                            <th>ASIA</th>
+                                            <th>EUROPE </th>
+                                            <th>WORLDWIDE BASIC</th>
+                                            <th>WORLDWIDE SUPERIOR</th>
+                                            <th>SILVER</th>
+                                            <th>PLATINUM </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> 1 to 7 days </td>
+                                            <td> $ 14 </td>
+                                            <td> $ 29 </td>
+                                            <td> $ 26 </td>
+                                            <td> $ 28 </td>
+                                            <td> $ 32</td>
+                                            <td> $ 34</td>
+                                            <td> $ 50 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 8 to 10 days </td>
+                                            <td> $ 19 </td>
+                                            <td> $ 37 </td>
+                                            <td> $ 31 </td>
+                                            <td> $ 41 </td>
+                                            <td> $ 52 </td>
+                                            <td> $ 68 </td>
+                                            <td> $ 90 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 11 to 15 days </td>
+                                            <td> $ 27 </td>
+                                            <td> $ 46 </td>
+                                            <td> $ 41 </td>
+                                            <td> $ 41 </td>
+                                            <td> $ 53 </td>
+                                            <td> $ 97 </td>
+                                            <td> $ 165 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 16 to 21 days </td>
+                                            <td> $ 32 </td>
+                                            <td> $ 61 </td>
+                                            <td> $ 55 </td>
+                                            <td> $ 67 </td>
+                                            <td> $ 79 </td>
+                                            <td> $ 125 </td>
+                                            <td> $ 185 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 22 to 30 days </td>
+                                            <td> $ 40 </td>
+                                            <td> $ 75 </td>
+                                            <td> $ 67 </td>
+                                            <td> $ 98 </td>
+                                            <td> $ 106 </td>
+                                            <td> $ 165 </td>
+                                            <td> $ 215 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 31 to 60 days </td>
+                                            <td> $ 68 </td>
+                                            <td> $130 </td>
+                                            <td> $ 125 </td>
+                                            <td> $ 155 </td>
+                                            <td> $ 185 </td>
+                                            <td> $ 250 </td>
+                                            <td> $ 294 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 61 to 90 days </td>
+                                            <td> $ 90 </td>
+                                            <td> $180 </td>
+                                            <td> $ 170 </td>
+                                            <td> $ 255 </td>
+                                            <td> $ 235 </td>
+                                            <td> $ 310 </td>
+                                            <td> $ 349 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 91 to 180 days </td>
+                                            <td> $ 140 </td>
+                                            <td> $280 </td>
+                                            <td> $ 276 </td>
+                                            <td> $ 290 </td>
+                                            <td> $ 305 </td>
+                                            <td> $ 370 </td>
+                                            <td> $ 390 </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one trip 45 days) </td>
+                                            <td> $ 210 </td>
+                                            <td> $210 </td>
+                                            <td> $ 235 </td>
+                                            <td> $ 300 </td>
+                                            <td> $ 375 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one trip 60 days) </td>
+                                            <td> $ 235 </td>
+                                            <td> $235 </td>
+                                            <td> $ 280 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 450 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Annual Multi Trip (maximum any one Trip 90 days) </td>
+                                            <td> $ 250 </td>
+                                            <td> $250 </td>
+                                            <td> $ 355 </td>
+                                            <td> $ 465 </td>
+                                            <td> $ 500 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> Student Rate (age up to 40 years) </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 180 days </td>
+                                            <td> $ 180 </td>
+                                            <td> $180 </td>
+                                            <td> $ 265 </td>
+                                            <td> $ 285 </td>
+                                            <td> $ 350 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+                                        <tr>
+                                            <td> 365 days </td>
+                                            <td> $ 235 </td>
+                                            <td> $235 </td>
+                                            <td> $ 310 </td>
+                                            <td> $ 350 </td>
+                                            <td> $ 500 </td>
+                                            <td> - </td>
+                                            <td> - </td>
+                                        </tr>
+
 
                                     </tbody>
                                 </table>
