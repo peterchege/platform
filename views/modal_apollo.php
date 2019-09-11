@@ -401,7 +401,7 @@
                 <form class="form-container" action="" method="POST">
                     <div class="form-group col-md-12">
                         <h3 for="inputAddress">BOOKING DETAILS</h3>
-                        <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="">
+                        <select name="room_name5" id="room_name5" class="custom-select custom-select-lg mb-3" value="">
                             <option value="1">Shimba Hills (Boardroom 18pax)</option>
                             <option value="2" selected>Taita Hills (10-12pax)</option>
                             <option value="3">Ngong Hills (Boardroom 8pax)</option>
@@ -414,23 +414,23 @@
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="inputEmail4">Start Date</label>
-                                <input id="start_date" name="start_date" type="date" class="form-control" placeholder="Start date" value="">
+                                <label for="start_date5">Start Date</label>
+                                <input id="start_date5" name="start_date5" type="date" class="form-control" placeholder="Start date" value="">
                             </div>
 
                             <div class="form-group col-md-6">
-                                <label for="inputPassword4">End Date</label> <input name="end_date" id="end_date" type="date" class="form-control" placeholder="End date" value="">
+                                <label for="inputPassword4">End Date</label> <input name="end_date5" id="end_date5" type="date" class="form-control" placeholder="End date" value="">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Start Time</label>
-                                <input id="start_time" name="start_time" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
+                                <input id="start_time5" name="start_time5" type="time" min="06:00:00" class="form-control" placeholder="Start time" value="">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputPassword4">End Time</label>
-                                <input id="end_time" name="end_time" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
+                                <input id="end_time5" name="end_time5" type="time" max="18:00:00" class="form-control" id="inputPassword4" placeholder="End time" value="">
                             </div>
                         </div>
                     </div>
@@ -440,35 +440,35 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Name/ Company</label>
-                                <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="">
+                                <input name="company_name5" id="company_name5" type="text" class="form-control" placeholder="Full Name" value="">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputAddress2">Phone Number</label>
-                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="">
+                                <input name="phone5" id="phone5" type="tel" class="form-control" placeholder="Phone Number" value="">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Email Address</label>
-                                <input name="email" id="email" type="email" class="form-control" placeholder="Email" value="">
+                                <input name="email5" id="email5" type="email" class="form-control" placeholder="Email" value="">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="inputAddress2">Number of Guests</label>
-                                <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Pax" value="">
+                                <input name="capacity5" id="capacity5" type="number" min="1" class="form-control" placeholder="Pax" value="">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inputAddress">More Information / Any Special Requests </label>
-                                <textarea name="more_information" id="more_information" class="form-control"></textarea>
+                                <textarea name="more_information5" id="more_information5" class="form-control"></textarea>
                             </div>
                         </div>
 
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <p id="display"></p>
+                                <p id="display5"></p>
                                 <button name="submit" type="submit" class="btn btn-primary submit" id="submit5">BOOK
                                     NOW
                                 </button>
