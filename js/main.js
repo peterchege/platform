@@ -14,7 +14,6 @@ jQuery(document).ready(function ($) {
         var more_information = $('#more_information').val();
 
         var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information + '&capacity=' + capacity;
-        console.log(dataString);
 
         if (room_name == 'Select preferred room') {
             $('#display').html('<div class="alert alert-danger" >Please select a room.</div>');
@@ -50,7 +49,6 @@ jQuery(document).ready(function ($) {
 
 
         var dataString = 'room_name=' + room_name1 + '&start_date=' + start_date1 + '&end_date=' + end_date1 + '&start_time=' + start_time1 + '&end_time=' + end_time1 + '&company_name=' + company_name1 + '&phone=' + phone1 + '&email=' + email1 + '&more_information=' + more_information1 + '&capacity=' + capacity1;
-        console.log(dataString);
 
         if (room_name1 == 'Select preferred room') {
             $('#display1').html('<div class="alert alert-danger" >Please select a room.</div>');
@@ -86,7 +84,6 @@ jQuery(document).ready(function ($) {
 
 
         var dataString = 'room_name=' + room_name2 + '&start_date=' + start_date2 + '&end_date=' + end_date2 + '&start_time=' + start_time2 + '&end_time=' + end_time2 + '&company_name=' + company_name2 + '&phone=' + phone2 + '&email=' + email2 + '&more_information=' + more_information2 + '&capacity=' + capacity2;
-        console.log(dataString);
 
         if (room_name2 == 'Select preferred room') {
             $('#display2').html('<div class="alert alert-danger" >Please select a room.</div>');
@@ -122,7 +119,6 @@ jQuery(document).ready(function ($) {
 
 
         var dataString = 'room_name=' + room_name4 + '&start_date=' + start_date4 + '&end_date=' + end_date4 + '&start_time=' + start_time4 + '&end_time=' + end_time4 + '&company_name=' + company_name4 + '&phone=' + phone4 + '&email=' + email4 + '&more_information=' + more_information4 + '&capacity=' + capacity4;
-        console.log(dataString);
 
         if (room_name4 == 'Select preferred room') {
             $('#display4').html('<div class="alert alert-danger" >Please select a room.</div>');
@@ -158,7 +154,6 @@ jQuery(document).ready(function ($) {
 
 
         var dataString = 'room_name=' + room_name5 + '&start_date=' + start_date5 + '&end_date=' + end_date5 + '&start_time=' + start_time5 + '&end_time=' + end_time5 + '&company_name=' + company_name5 + '&phone=' + phone5 + '&email=' + email5 + '&more_information=' + more_information5 + '&capacity=' + capacity5;
-        console.log(dataString);
 
         if (room_name5 == 'Select preferred room') {
             $('#display5').html('<div class="alert alert-danger" >Please select a room.</div>');
@@ -194,7 +189,6 @@ jQuery(document).ready(function ($) {
 
 
         var dataString = 'room_name=' + room_name3 + '&start_date=' + start_date3 + '&end_date=' + end_date3 + '&start_time=' + start_time3 + '&end_time=' + end_time3 + '&company_name=' + company_name3 + '&phone=' + phone3 + '&email=' + email3 + '&more_information=' + more_information3 + '&capacity=' + capacity3;
-        console.log(dataString);
 
         if (room_name3 == 'Select preferred room') {
             $('#display3').html('<div class="alert alert-danger" >Please select a room.</div>');
