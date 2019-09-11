@@ -1,6 +1,6 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     //booking info for shimba hills on apollo centre and homepage
-    $('#submit').click(function(e) {
+    $('#submit').click(function (e) {
         e.preventDefault();
         var room_name = $('#room_name option:selected').val();
         var start_date = $('#start_date').val();
@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
                 type: "POST",
                 url: "inc/processor.php",
                 data: dataString,
-                success: function(result) {
+                success: function (result) {
                     $('#display').html(result);
                 }
             });
@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
     });
 
     // chyullu
-    $('#submit1').click(function(e) {
+    $('#submit1').click(function (e) {
         e.preventDefault();
         var room_name1 = $('#room_name1 option:selected').val();
         var start_date1 = $('#start_date1').val();
@@ -62,7 +62,7 @@ jQuery(document).ready(function($) {
                 type: "POST",
                 url: "inc/processor.php",
                 data: dataString,
-                success: function(result) {
+                success: function (result) {
                     $('#display1').html(result);
                 }
             });
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
     });
 
     // cherengani
-    $('#submit2').click(function(e) {
+    $('#submit2').click(function (e) {
         e.preventDefault();
         var room_name2 = $('#room_name2 option:selected').val();
         var start_date2 = $('#start_date2').val();
@@ -98,7 +98,7 @@ jQuery(document).ready(function($) {
                 type: "POST",
                 url: "inc/processor.php",
                 data: dataString,
-                success: function(result) {
+                success: function (result) {
                     $('#display2').html(result);
                 }
             });
@@ -107,8 +107,80 @@ jQuery(document).ready(function($) {
         return false;
     });
 
+    // ngong
+    $('#submit4').click(function (e) {
+        e.preventDefault();
+        var room_name4 = $('#room_name4 option:selected').val();
+        var start_date4 = $('#start_date4').val();
+        var end_date4 = $('#end_date4').val();
+        var start_time4 = $('#start_time4').val();
+        var end_time4 = $('#end_time4').val();
+        var company_name4 = $('#company_name4').val();
+        var phone4 = $('#phone4').val();
+        var email4 = $('#email4').val();
+        var capacity4 = $('#capacity4').val();
+        var more_information4 = $('#more_information4').val();
+        console.log(more_information4);
+
+        var dataString = 'room_name=' + room_name4 + '&start_date=' + start_date4 + '&end_date=' + end_date4 + '&start_time=' + start_time4 + '&end_time=' + end_time4 + '&company_name=' + company_name4 + '&phone=' + phone4 + '&email=' + email4 + '&more_information=' + more_information4 + '&capacity=' + capacity4;
+        console.log(dataString);
+
+        if (room_name4 == 'Select preferred room') {
+            $('#display4').html('<div class="alert alert-danger" >Please select a room.</div>');
+        } else if (room_name4 == '' || start_date4 == '' || end_date4 == '' || start_time4 == '' || end_time4 == '' || company_name4 == '' || phone4 == '' || email4 == '' || capacity4 == '' || more_information4 == '') {
+            $('#display4').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "inc/processor.php",
+                data: dataString,
+                success: function (result) {
+                    $('#display4').html(result);
+                }
+            });
+            $('input,textarea,select').val('');
+        }
+        return false;
+    });
+
+    // taita
+    $('#submit5').click(function (e) {
+        e.preventDefault();
+        var room_name5 = $('#room_name5 option:selected').val();
+        var start_date5 = $('#start_date5').val();
+        var end_date5 = $('#end_date5').val();
+        var start_time5 = $('#start_time5').val();
+        var end_time5 = $('#end_time5').val();
+        var company_name5 = $('#company_name5').val();
+        var phone5 = $('#phone5').val();
+        var email5 = $('#email5').val();
+        var capacity5 = $('#capacity5').val();
+        var more_information5 = $('#more_information5').val();
+        console.log(more_information5);
+
+        var dataString = 'room_name=' + room_name5 + '&start_date=' + start_date5 + '&end_date=' + end_date5 + '&start_time=' + start_time5 + '&end_time=' + end_time5 + '&company_name=' + company_name5 + '&phone=' + phone5 + '&email=' + email5 + '&more_information=' + more_information5 + '&capacity=' + capacity5;
+        console.log(dataString);
+
+        if (room_name5 == 'Select preferred room') {
+            $('#display5').html('<div class="alert alert-danger" >Please select a room.</div>');
+        } else if (room_name5 == '' || start_date5 == '' || end_date5 == '' || start_time5 == '' || end_time5 == '' || company_name5 == '' || phone5 == '' || email5 == '' || capacity5 == '' || more_information5 == '') {
+            $('#display5').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "inc/processor.php",
+                data: dataString,
+                success: function (result) {
+                    $('#display5').html(result);
+                }
+            });
+            $('input,textarea,select').val('');
+        }
+        return false;
+    });
+
     // entertainment area
-    $('#submit3').click(function(e) {
+    $('#submit3').click(function (e) {
         e.preventDefault();
         var room_name3 = $('#room_name3 option:selected').val();
         var start_date3 = $('#start_date3').val();
@@ -134,7 +206,7 @@ jQuery(document).ready(function($) {
                 type: "POST",
                 url: "inc/processor.php",
                 data: dataString,
-                success: function(result) {
+                success: function (result) {
                     $('#display3').html(result);
                 }
             });
@@ -144,14 +216,14 @@ jQuery(document).ready(function($) {
     });
 
     // Back to top button
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
         }
     });
-    $('.back-to-top').click(function() {
+    $('.back-to-top').click(function () {
         $('html, body').animate({
             scrollTop: 0
         }, 1500, 'easeInOutExpo');
@@ -183,19 +255,19 @@ jQuery(document).ready(function($) {
         $('body').append('<div id="mobile-body-overly"></div>');
         $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
-        $(document).on('click', '.menu-has-children i', function(e) {
+        $(document).on('click', '.menu-has-children i', function (e) {
             $(this).next().toggleClass('menu-item-active');
             $(this).nextAll('ul').eq(0).slideToggle();
             $(this).toggleClass("fa-chevron-up fa-chevron-down");
         });
 
-        $(document).on('click', '#mobile-nav-toggle', function(e) {
+        $(document).on('click', '#mobile-nav-toggle', function (e) {
             $('body').toggleClass('mobile-nav-active');
             $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
             $('#mobile-body-overly').toggle();
         });
 
-        $(document).click(function(e) {
+        $(document).click(function (e) {
             var container = $("#mobile-nav, #mobile-nav-toggle");
             if (!container.is(e.target) && container.has(e.target).length === 0) {
                 if ($('body').hasClass('mobile-nav-active')) {
@@ -210,7 +282,7 @@ jQuery(document).ready(function($) {
     }
 
     // Smooth scroll for the menu and links with .scrollto classes
-    $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+    $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             if (target.length) {
@@ -244,7 +316,7 @@ jQuery(document).ready(function($) {
     });
 
     // Header scroll class
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('#header').addClass('header-scrolled');
         } else {
@@ -255,7 +327,7 @@ jQuery(document).ready(function($) {
     // Intro carousel
     var introCarousel = $(".carousel");
     var introCarouselIndicators = $(".carousel-indicators");
-    introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
+    introCarousel.find(".carousel-inner").children(".carousel-item").each(function (index) {
         (index === 0) ?
         introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>"):
             introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "'></li>");
@@ -265,7 +337,7 @@ jQuery(document).ready(function($) {
     });
 
     $(".carousel").swipe({
-        swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             if (direction == 'left') $(this).carousel('next');
             if (direction == 'right') $(this).carousel('prev');
         },
@@ -273,8 +345,8 @@ jQuery(document).ready(function($) {
     });
 
     // Skills section
-    $('#skills').waypoint(function() {
-        $('.progress .progress-bar').each(function() {
+    $('#skills').waypoint(function () {
+        $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {
@@ -293,7 +365,7 @@ jQuery(document).ready(function($) {
         layoutMode: 'fitRows'
     });
 
-    $('#portfolio-flters li').on('click', function() {
+    $('#portfolio-flters li').on('click', function () {
         $("#portfolio-flters li").removeClass('filter-active');
         $(this).addClass('filter-active');
 
