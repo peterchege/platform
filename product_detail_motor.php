@@ -495,7 +495,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="more_info">More Information</label>
-                                    <textarea name="more_info" class="form-control"></textarea>
+                                    <textarea name="more_info" id="more_info" class="form-control"></textarea>
                                 </div>
                             </div>
 
@@ -525,10 +525,27 @@
 
             $('#form').on('submit', function(e) {
                 e.preventDefault();
-
+                var full_name = $('#full_name').val();
+                var phone = $('#phone').val();
+                var email = $('#email').val();
+                var location = $('#location').val();
+                var vehicle_make = $('#vehicle_make').val();
+                var vehicle_model = $('#vehicle_model').val();
                 var vehicle_value = $('input[name="vehicle_value"]').val();
-                var vehicle_value = +numeral(vehicle_value).value();
-                alert(vehicle_value);
+                var vehicle_value = numeral(vehicle_value).value();
+                var yom = $('#yom').val();
+                var more_info = $('#more_info').val();
+                var dataString = 'full_name=' + full_name + 'phone=' + phone + 'email=' + email + 'location=' + location + 'vehicle_make=' + vehicle_make + 'vehicle_model=' + vehicle_model + 'vehicle_value=' + vehicle_value + 'yom=' + yom + 'more_info=' + more_info;
+
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/leads.php",
+                    data: dataString,
+                    dataType: "dataType",
+                    success: function(response) {
+
+                    }
+                });
 
             });
 
