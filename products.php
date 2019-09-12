@@ -435,7 +435,7 @@
                             <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">What is a better start to realizing your dreams for the future than 
+                        <p class="text-justify">What is a better start to realizing your dreams for the future than
                             by having a lump sum payment at a predetermined date? Whether it’s travelling ....
                         </p>
                         <!-- button click -->
@@ -460,8 +460,8 @@
                             <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
-                            policy will ensure you will have nothing to worry about...
+                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a period of time and allows 
+                            you to have access to his fund at specified times to enable you...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

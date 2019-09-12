@@ -56,16 +56,19 @@
                             <div class="job-description text-center">
 
                                 <h2> Anticipated Savings (Akiba Halisi) </h2>
-                                <P class="text-justify">This policy has been designed to enable one to build a fund over a period of time and at the same time make
-                                    provision in case of an early death.
+                                <P class="text-justify">Akiba halisi has been designed to enable you to build a fund over a period of time and allows you to have access to his
+                                    fund at specified times to enable you meet your financial obligations. This plan also offers a life cover.
                                 </P>
-                                <P class="text-justify">It also assures a lump sum at a desired age, which can also be reinvested to provide an annuity during
-                                    the remainder of your life.
+                                <P class="text-justify">The policy term ranges from 6, 9, 12, 15 and 18 Years. Premium will be payable for the policy term selected or until
+                                    death of the life assured if it occurs within the term.
                                 </p>
-                                <P class="text-justify">The premium will be payable for the policy term selected (capped at 20 years) or until the death of
-                                    the life assured if it occurs within the term.
+                                <P class="text-justify">This policy has been designed to enable one to build a fund over a period of time and allow the policy holder to have
+                                    access to his fund at specified times to enable him meet his obligations. It also assures a lump sum at a desired age.
+
+
                                 </p>
                                 <P class="text-justify">The minimum and maximum ages at entry are 18 years and 65 years respectively. The maximum maturity age is 70 years.
+
                                 </p>
                                 <hr>
                                 <div class="job-content">
