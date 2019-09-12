@@ -133,11 +133,11 @@
                                         </ol>
                                         <hr>
                                         <p> Death Benefits</p>
-                                        <p2>100% of the sum assured plus accrued bonus (simple reversionary bonus). <br><br>
-                                            The benefits are payable as a lump sum or in from of an annuity payable in installments
-                                            as specified by the life assured e.g. monthly, quarterly, half yearly or yearly,
-                                            the first payment being payable at the end of the term of the policy.
-                                        </p2>
+                                        <br>100% of the sum assured plus accrued bonus (simple reversionary bonus). <br><br>
+                                        The benefits are payable as a lump sum or in from of an annuity payable in installments
+                                        as specified by the life assured e.g. monthly, quarterly, half yearly or yearly,
+                                        the first payment being payable at the end of the term of the policy.
+                                        </br>
                                         <hr>
                                         <p> Rider Benefits</p>
                                         <p2>On payment of additional premium, the following rider benefits are available; </p2>
@@ -149,24 +149,29 @@
                                                 at any time thereafter any work, occupation or profession that the life assured can do to earn
                                                 or obtain wages, compensation or profit.
                                             </p2>
+                                            <br><br>
                                             <li><b>Accidental Death</b></li>
                                             <p2>On death due to an accident an amount equal to the basic sum assured will become payable.
                                                 This is in addition to the main benefit.
                                             </p2>
+                                            <br><br>
                                             <li><b>Waiver of Premium</b></li>
                                             <p2>All future premiums will be waived following total permanent disability due to accident or illness.
                                             </p2>
+                                            <br><br>
                                             <li><b>Medical Reimbursement Rider </b></li>
                                             <p2>In case of an accident leading to the injury and hospitalization of the life assured, the in-patient
                                                 medical expenses incurred will be reimbursed subject to a maximum of 60% of the policy sum assured
                                                 but not exceeding Kes. 500,000/-.
                                             </p2>
+                                            <br><br>
                                             <li><b>Critical Illness rider </b></li>
                                             <p2>In the event of first diagnosis of a specified critical illness an amount equal to 30% of the sum
                                                 assured is payable to the life assured up to a maximum of Kes. 300,000. Includes: Cancer, Stroke,
                                                 Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary, Artery Disease, Major Organ Transplant, e.g.
                                                 Kidney transplant
                                             </p2>
+                                            <br><br>
                                             <li><b>Retrenchment rider </b></li>
                                             <p2>In the event of loss of employment due to adverse business conditions e.g. introduction of new technology
                                                 or re-organization of the business by the employer, future premiums will be waived off up to a maximum of
