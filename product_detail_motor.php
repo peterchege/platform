@@ -546,10 +546,13 @@
                     dataType: 'text',
                     success: function(response) {
                         if (response == 'success') {
-                            alert('success')
+                            swal.fire('SUCCESS', 'Thank you for your interest in our product. One of our customer care agents will contact you.', response)
                             $('#form')[0].reset();
+                            //$('#modal-full').toggle();
+                            $("#modal-full .uk-close-large").click()
+
                         } else {
-                            alert('An error occurred. ')
+                            swal.fire('ERROR', 'An error occurred. Please try again.', response);
                         }
                     }
                 });
