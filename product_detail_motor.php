@@ -535,15 +535,22 @@
                 var vehicle_value = numeral(vehicle_value).value();
                 var yom = $('#yom').val();
                 var more_info = $('#more_info').val();
-                var dataString = 'full_name=' + full_name + 'phone=' + phone + 'email=' + email + 'location=' + location + 'vehicle_make=' + vehicle_make + 'vehicle_model=' + vehicle_model + 'vehicle_value=' + vehicle_value + 'yom=' + yom + 'more_info=' + more_info;
+                var product_id = 6;
+                var product_category_id = 14;
+                var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&vehicle_make=' + vehicle_make + '&vehicle_model=' + vehicle_model + '&vehicle_value=' + vehicle_value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id;
 
                 $.ajax({
                     type: "POST",
-                    url: "ajax/leads.php",
+                    url: "ajax/leads.php?mode=lead",
                     data: dataString,
-                    dataType: "dataType",
+                    dataType: 'text',
                     success: function(response) {
-
+                        if (response == 'success') {
+                            alert('success')
+                            $('#form')[0].reset();
+                        } else {
+                            alert('An error occurred. ')
+                        }
                     }
                 });
 
