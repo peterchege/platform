@@ -134,7 +134,7 @@ require_once 'inc/functions.php';
 
     <!-- ===================================== PRODUCTS ===================================== -->
 
-    <div class="container-fluid23">
+    <div class="container-fluid">
         <div class="product text-center">
 
             <h1>WHAT WE OFFER</h1>
