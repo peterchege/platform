@@ -446,7 +446,7 @@
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_imarika.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
