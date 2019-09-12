@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 life-2">
+        <div class="header-image header-image1 life-1">
         </div>
     </div>
 
@@ -55,12 +55,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Fixed Saving Plan (Imarika) </h2>
-                                <P class="text-justify">What is a better start to realizing your dreams for the future
-                                    than by having a lump sum payment at a predetermined date? Whether it’s travelling,
-                                    buying a house or paying for your child’s wedding, the Imarika plan is designed just
-                                    for you.
-                                </P>
+                                <h2> Anticipated Savings (Akiba Halisi) </h2>
                                 <P class="text-justify">This policy has been designed to enable one to build a fund over a period of time and at the same time make
                                     provision in case of an early death.
                                 </P>
@@ -75,18 +70,6 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Imarika plan? </h2>
-                                        <p> Financial Security</p>
-                                        <p2>This plan allows a controlled, organized and relaxed way to save for a specific future financial need. The savings
-                                            process helps you to enjoy decent returns while at the same time offering you a life cover. The Imarika plan provides
-                                            an excellent alternative to a loan.
-                                        </p2>
-                                        <p> Flexible term</p>
-                                        <p2>The plan has a (saving period) which ranges from 5 to 20 years, which will be chosen by you, and this will depend on 
-                                            when you require the funds.
-                                        </p2>
-                                        
-                                        <hr>
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
                                         <p2>This is determined by:</p2>

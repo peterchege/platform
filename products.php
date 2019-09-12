@@ -435,9 +435,8 @@
                             <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">What is a better start to realizing your dreams for the future than 
+                            by having a lump sum payment at a predetermined date? Whether it’s travelling ....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -471,7 +470,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_akiba_halisi.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -648,7 +647,7 @@
             <!-- Anchor to the Investment cover from navbar -->
             <div id="investment" class="anchor"></div>
             <!-- End of anchor -->
-            
+
         </div>
     </div>
 
