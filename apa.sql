@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 09/09/2019 12:13:25
+ Date: 12/09/2019 11:32:52
 */
 
 SET NAMES utf8mb4;
@@ -228,62 +228,68 @@ CREATE TABLE `apollo_confrence_facilities_bookings`  (
   `start_time` time(6) NOT NULL,
   `end_time` time(6) NOT NULL,
   `company_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `phone_number` int(15) NOT NULL,
+  `phone_number` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `capacity` int(11) NOT NULL,
-  `more_information` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `more_information` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `date_created` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `booked facility fk`(`apollo_confrence_facilities_fk`) USING BTREE,
   CONSTRAINT `booked facility fk` FOREIGN KEY (`apollo_confrence_facilities_fk`) REFERENCES `apollo_confrence_facilities` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 46 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of apollo_confrence_facilities_bookings
 -- ----------------------------
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (1, 2, '2019-06-03', '2019-06-04', '00:00:00.000000', '00:00:00.000000', '', 0, '', 0, '', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (2, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, '', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (3, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (4, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (5, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (6, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (7, 1, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'Time test.', '0000-00-00 00:00:00.000000');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (8, 1, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 78, 'Time test.', '2019-06-04 10:28:20.344848');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (9, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:33:32.632942');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (10, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:34:20.120771');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (11, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:35:50.706584');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (12, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:37:54.289840');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (13, 4, '2019-06-14', '2019-06-14', '00:00:08.000000', '00:00:12.000000', 'Oliver Towers', 12345678, 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 10:47:08.899204');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (14, 4, '2019-06-14', '2019-06-14', '00:00:08.000000', '00:00:12.000000', 'Oliver Towers', 12345678, 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 10:58:14.101518');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (15, 4, '2019-06-14', '2019-06-14', '00:00:03.000000', '00:00:12.000000', 'Oliver Towers', 12345678, 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 11:00:21.684754');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (16, 1, '2019-06-04', '2019-06-05', '00:00:03.000000', '00:00:09.000000', 'Gotham Corp.', 789302545, 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:02:20.043660');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (17, 1, '2019-06-04', '2019-06-05', '03:00:00.000000', '09:03:00.000000', 'Gotham Corp.', 789302545, 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:08:37.915117');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (18, 4, '2019-06-14', '2019-06-14', '03:00:00.000000', '12:30:00.000000', 'Oliver Towers', 12345678, 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 11:08:37.970083');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (19, 1, '2019-06-04', '2019-06-05', '08:16:00.000000', '09:03:00.000000', 'Gotham Corp.', 789302545, 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:09:23.380059');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (20, 6, '2019-06-04', '2019-06-05', '07:12:00.000000', '17:23:00.000000', 'Justice League Inc.', 719941992, 'info@justiceleague.com', 8, 'More information.', '2019-06-04 14:11:12.733482');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (21, 4, '2019-06-05', '2019-06-05', '08:00:00.000000', '14:00:00.000000', 'Peter', 0, 'peter@gmail.comm', 8, 'For my squad.', '2019-06-04 14:17:23.049482');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (22, 3, '2019-06-05', '2019-06-05', '08:00:00.000000', '14:00:00.000000', 'Peter', 0, 'peter@gmail.comm', 8, 'For my squad.', '2019-06-04 14:40:14.842970');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (23, 1, '2019-06-05', '2019-06-05', '03:00:08.000000', '14:00:00.000000', 'Peter', 0, 'peter@gmail.comm', 8, 'check start time format.', '2019-06-04 14:49:17.369431');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (24, 1, '2019-06-05', '2019-06-05', '03:00:00.000000', '14:00:00.000000', 'Peter', 0, 'peter@gmail.comm', 8, 'check start time format.', '2019-06-04 14:50:36.506817');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (25, 1, '2019-06-26', '2019-06-27', '07:07:00.000000', '06:06:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, '', '2019-06-26 11:54:34.942764');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (26, 1, '2019-06-26', '2019-06-27', '07:07:00.000000', '06:06:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, '', '2019-06-26 11:56:25.249636');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (27, 1, '2019-06-26', '2019-06-27', '08:00:00.000000', '10:00:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 7, '', '2019-06-26 12:03:58.844223');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (28, 5, '2019-06-26', '2019-06-27', '08:00:00.000000', '10:00:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 7, '', '2019-06-26 12:08:20.512825');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (29, 2, '2019-06-27', '2019-06-29', '01:57:00.000000', '02:57:00.000000', 'Gotham Corp.', 2147483647, 'p@gmail.com', 0, 'vola', '2019-06-27 12:36:40.101213');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (30, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 89, 'leo', '2019-06-27 12:39:12.753172');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (31, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.com', 6, 'leo', '2019-06-27 12:41:15.435439');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (32, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', 700658856, 'anthonybaru@gmail.co', 6, 'leo', '2019-06-27 12:41:21.599271');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (33, 4, '2019-06-27', '2019-06-28', '09:09:00.000000', '04:45:00.000000', 'Oliver Towers', 2147483647, 'peterjethro@gmail.com', 78, 'tyki adfja', '2019-06-27 12:53:48.055551');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (34, 2, '2019-06-27', '2019-06-28', '08:06:00.000000', '07:08:00.000000', 'Gotham Corp.', 1869644846, 'p@gmail.com', 12, 'moue', '2019-06-27 12:56:30.758840');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (35, 3, '2019-06-28', '2019-06-28', '09:09:00.000000', '09:09:00.000000', 'Gotham Corp.', 454252, 'p@gmail.com', 7, 'make it possible.', '2019-06-27 14:31:12.361999');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (36, 2, '2019-06-27', '2019-06-28', '08:59:00.000000', '08:08:00.000000', 'nice', 52512, 't@gmail.com', 4, 'this is me.', '2019-06-27 14:46:14.706640');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (37, 1, '2019-06-27', '2019-06-28', '08:09:00.000000', '09:00:00.000000', 'Jubilee', 5282, 'p@gmail.com', 78, 'more infoadfjakf', '2019-06-27 16:18:33.279708');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (38, 1, '2019-06-27', '2019-06-28', '00:00:00.000000', '00:00:00.000000', '', 0, '', 0, '', '2019-06-27 16:46:03.088655');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (39, 1, '0000-00-00', '0000-00-00', '00:00:00.000000', '00:00:00.000000', '', 0, '', 0, '', '2019-06-27 17:13:07.859452');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (42, 4, '2019-06-27', '2019-06-28', '07:07:00.000000', '09:09:00.000000', 'Gotham Corp.', 654654, 'peterjethro@gmail.com', 7, 'more infor', '2019-06-27 17:30:04.668745');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (43, 5, '2019-06-28', '2019-06-29', '05:05:00.000000', '09:09:00.000000', 'Gotham Corp.', 654654561, 'peter@gmail.comm', 5, 'helllo', '2019-06-28 09:30:08.939919');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (44, 6, '2019-06-28', '2019-06-29', '09:09:00.000000', '06:06:00.000000', 'enta', 54125415, 'enta@gmail.com', 7, 'more infor', '2019-06-28 09:37:26.246616');
-INSERT INTO `apollo_confrence_facilities_bookings` VALUES (45, 4, '2019-06-28', '2019-06-24', '07:00:00.000000', '09:00:00.000000', 'Peter Chege', 2147483647, 'peter@gmail.com', 6, 'more information', '2019-06-28 11:01:26.634183');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (1, 2, '2019-06-03', '2019-06-04', '00:00:00.000000', '00:00:00.000000', '', '0', '', 0, '', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (2, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, '', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (3, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (4, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (5, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (6, 2, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'This is a comment.', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (7, 1, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'Time test.', '0000-00-00 00:00:00.000000');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (8, 1, '2019-06-14', '2019-06-22', '00:00:07.000000', '00:00:10.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 78, 'Time test.', '2019-06-04 10:28:20.344848');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (9, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:33:32.632942');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (10, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:34:20.120771');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (11, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:35:50.706584');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (12, 1, '2019-06-14', '2019-06-22', '00:00:11.000000', '00:00:14.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, 'further time test.', '2019-06-04 10:37:54.289840');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (13, 4, '2019-06-14', '2019-06-14', '00:00:08.000000', '00:00:12.000000', 'Oliver Towers', '12345678', 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 10:47:08.899204');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (14, 4, '2019-06-14', '2019-06-14', '00:00:08.000000', '00:00:12.000000', 'Oliver Towers', '12345678', 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 10:58:14.101518');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (15, 4, '2019-06-14', '2019-06-14', '00:00:03.000000', '00:00:12.000000', 'Oliver Towers', '12345678', 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 11:00:21.684754');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (16, 1, '2019-06-04', '2019-06-05', '00:00:03.000000', '00:00:09.000000', 'Gotham Corp.', '789302545', 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:02:20.043660');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (17, 1, '2019-06-04', '2019-06-05', '03:00:00.000000', '09:03:00.000000', 'Gotham Corp.', '789302545', 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:08:37.915117');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (18, 4, '2019-06-14', '2019-06-14', '03:00:00.000000', '12:30:00.000000', 'Oliver Towers', '12345678', 'oliver@oliver.co.ke', 7, 'Reserve extra information.', '2019-06-04 11:08:37.970083');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (19, 1, '2019-06-04', '2019-06-05', '08:16:00.000000', '09:03:00.000000', 'Gotham Corp.', '789302545', 'info@gotham.co.ke', 7, 'extra info', '2019-06-04 11:09:23.380059');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (20, 6, '2019-06-04', '2019-06-05', '07:12:00.000000', '17:23:00.000000', 'Justice League Inc.', '719941992', 'info@justiceleague.com', 8, 'More information.', '2019-06-04 14:11:12.733482');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (21, 4, '2019-06-05', '2019-06-05', '08:00:00.000000', '14:00:00.000000', 'Peter', '0', 'peter@gmail.comm', 8, 'For my squad.', '2019-06-04 14:17:23.049482');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (22, 3, '2019-06-05', '2019-06-05', '08:00:00.000000', '14:00:00.000000', 'Peter', '0', 'peter@gmail.comm', 8, 'For my squad.', '2019-06-04 14:40:14.842970');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (23, 1, '2019-06-05', '2019-06-05', '03:00:08.000000', '14:00:00.000000', 'Peter', '0', 'peter@gmail.comm', 8, 'check start time format.', '2019-06-04 14:49:17.369431');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (24, 1, '2019-06-05', '2019-06-05', '03:00:00.000000', '14:00:00.000000', 'Peter', '0', 'peter@gmail.comm', 8, 'check start time format.', '2019-06-04 14:50:36.506817');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (25, 1, '2019-06-26', '2019-06-27', '07:07:00.000000', '06:06:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, '', '2019-06-26 11:54:34.942764');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (26, 1, '2019-06-26', '2019-06-27', '07:07:00.000000', '06:06:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, '', '2019-06-26 11:56:25.249636');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (27, 1, '2019-06-26', '2019-06-27', '08:00:00.000000', '10:00:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 7, '', '2019-06-26 12:03:58.844223');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (28, 5, '2019-06-26', '2019-06-27', '08:00:00.000000', '10:00:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 7, '', '2019-06-26 12:08:20.512825');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (29, 2, '2019-06-27', '2019-06-29', '01:57:00.000000', '02:57:00.000000', 'Gotham Corp.', '2147483647', 'p@gmail.com', 0, 'vola', '2019-06-27 12:36:40.101213');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (30, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 89, 'leo', '2019-06-27 12:39:12.753172');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (31, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.com', 6, 'leo', '2019-06-27 12:41:15.435439');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (32, 3, '2019-06-27', '2019-06-28', '08:08:00.000000', '09:09:00.000000', 'Gotham Corp.', '700658856', 'anthonybaru@gmail.co', 6, 'leo', '2019-06-27 12:41:21.599271');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (33, 4, '2019-06-27', '2019-06-28', '09:09:00.000000', '04:45:00.000000', 'Oliver Towers', '2147483647', 'peterjethro@gmail.com', 78, 'tyki adfja', '2019-06-27 12:53:48.055551');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (34, 2, '2019-06-27', '2019-06-28', '08:06:00.000000', '07:08:00.000000', 'Gotham Corp.', '1869644846', 'p@gmail.com', 12, 'moue', '2019-06-27 12:56:30.758840');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (35, 3, '2019-06-28', '2019-06-28', '09:09:00.000000', '09:09:00.000000', 'Gotham Corp.', '454252', 'p@gmail.com', 7, 'make it possible.', '2019-06-27 14:31:12.361999');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (36, 2, '2019-06-27', '2019-06-28', '08:59:00.000000', '08:08:00.000000', 'nice', '52512', 't@gmail.com', 4, 'this is me.', '2019-06-27 14:46:14.706640');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (37, 1, '2019-06-27', '2019-06-28', '08:09:00.000000', '09:00:00.000000', 'Jubilee', '5282', 'p@gmail.com', 78, 'more infoadfjakf', '2019-06-27 16:18:33.279708');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (38, 1, '2019-06-27', '2019-06-28', '00:00:00.000000', '00:00:00.000000', '', '0', '', 0, '', '2019-06-27 16:46:03.088655');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (39, 1, '0000-00-00', '0000-00-00', '00:00:00.000000', '00:00:00.000000', '', '0', '', 0, '', '2019-06-27 17:13:07.859452');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (42, 4, '2019-06-27', '2019-06-28', '07:07:00.000000', '09:09:00.000000', 'Gotham Corp.', '654654', 'peterjethro@gmail.com', 7, 'more infor', '2019-06-27 17:30:04.668745');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (43, 5, '2019-06-28', '2019-06-29', '05:05:00.000000', '09:09:00.000000', 'Gotham Corp.', '654654561', 'peter@gmail.comm', 5, 'helllo', '2019-06-28 09:30:08.939919');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (44, 6, '2019-06-28', '2019-06-29', '09:09:00.000000', '06:06:00.000000', 'enta', '54125415', 'enta@gmail.com', 7, 'more infor', '2019-06-28 09:37:26.246616');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (45, 4, '2019-06-28', '2019-06-24', '07:00:00.000000', '09:00:00.000000', 'Peter Chege', '2147483647', 'peter@gmail.com', 6, 'more information', '2019-06-28 11:01:26.634183');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (46, 2, '2019-09-10', '2019-09-11', '08:00:00.000000', '10:00:00.000000', 'name', '711', 'p@gmail.com', 85, 'pliz', '2019-09-10 16:36:06.316943');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (47, 3, '2019-09-10', '2019-09-10', '06:00:00.000000', '06:00:00.000000', 'name', '700658856', 'p@gmail.com', 4, 'more info', '2019-09-10 16:46:12.826105');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (48, 3, '2019-09-11', '2019-09-12', '05:05:00.000000', '08:08:00.000000', 'JaneDoeInc', '712365478', 'janedoe@gmail.com', 5, 'None', '2019-09-11 08:47:36.366224');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (50, 2, '2019-09-11', '2019-09-12', '03:03:00.000000', '05:05:00.000000', '712365478', '712345', 'janedoe@gmail.com', 55, 'po', '2019-09-11 09:03:56.721327');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (51, 2, '2019-09-11', '2019-09-12', '22:22:00.000000', '23:00:00.000000', 'jane doe inc', '123456', 'janedoe@gmail.com', 4, 'm', '2019-09-11 09:06:00.109153');
+INSERT INTO `apollo_confrence_facilities_bookings` VALUES (52, 2, '2019-09-11', '2019-09-12', '08:05:00.000000', '09:09:00.000000', 'name', '070145', 'p@gmail.com', 5, '', '2019-09-11 09:21:22.500217');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -303,48 +309,6 @@ CREATE TABLE `hr_jobs_users`  (
 -- ----------------------------
 INSERT INTO `hr_jobs_users` VALUES (9, 'tony', 'tony', 'anthony@gmail.com', '$2y$10$w4HqB14uTyudaTGUMmU6.OSsh.uEjOhrac7hq07ONubWQMrzieWwu');
 INSERT INTO `hr_jobs_users` VALUES (10, 'chege', 'chege', 'chege@gmail.com', '$2y$10$IDEVyytSrpnUkFa1qXpU0Ou4IjRVVXE/8d8101niiUlMWbFN699nq');
-
--- ----------------------------
--- Table structure for leads
--- ----------------------------
-DROP TABLE IF EXISTS `leads`;
-CREATE TABLE `leads`  (
-  `id` int(15) NOT NULL AUTO_INCREMENT,
-  `leads_product_id` int(15) NULL DEFAULT NULL,
-  `leads_product_category_id` int(15) NULL DEFAULT NULL,
-  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `mobile` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  PRIMARY KEY (`id`) USING BTREE,
-  INDEX `leads_product_id`(`leads_product_id`) USING BTREE,
-  INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
-  CONSTRAINT `leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `leads_products` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  CONSTRAINT `leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `leads_products_categories` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Table structure for leads_products
--- ----------------------------
-DROP TABLE IF EXISTS `leads_products`;
-CREATE TABLE `leads_products`  (
-  `id` int(15) NOT NULL AUTO_INCREMENT,
-  `product_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Table structure for leads_products_categories
--- ----------------------------
-DROP TABLE IF EXISTS `leads_products_categories`;
-CREATE TABLE `leads_products_categories`  (
-  `id` int(15) NOT NULL AUTO_INCREMENT,
-  `product_category_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `leads_product_id_fk` int(15) NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE,
-  INDEX `leads_product_id_fk`(`leads_product_id_fk`) USING BTREE,
-  CONSTRAINT `leads_products_categories_ibfk_1` FOREIGN KEY (`leads_product_id_fk`) REFERENCES `leads_products` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for media_centre_admin_registration
@@ -602,7 +566,7 @@ CREATE TABLE `pr_dp_covers`  (
   INDEX `Cover must have a product`(`product_id`) USING BTREE,
   INDEX `end_date`(`end_date`) USING BTREE,
   INDEX `item_id`(`item_id`) USING BTREE,
-  CONSTRAINT `Cover must have a product` FOREIGN KEY (`product_id`) REFERENCES `product_categories` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `Cover must have a product` FOREIGN KEY (`product_id`) REFERENCES `products_categories` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `pr_dp_covers_ibfk_5` FOREIGN KEY (`user_id`) REFERENCES `pr_dp_premises` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `pr_dp_covers_ibfk_6` FOREIGN KEY (`user_id`) REFERENCES `pr_dp_contents` (`user_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `user id to cover relation` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
@@ -724,31 +688,6 @@ INSERT INTO `pr_dp_premises` VALUES (11, 'Owner', 1665378265, 'PLOT NO. 1870/VI/
 INSERT INTO `pr_dp_premises` VALUES (12, 'Owner', 1665378265, 'PLOT NO. 1870/VI/209 MVULI ROAD WESTLANDS, Marsabit', 1, 2, 1, 2, 2, '0', NULL, 'room-not-self-contained', 1, NULL, 0, NULL, NULL, '0', 0, 0, NULL, NULL, 5100000, NULL, '2019-09-06 09:06:04.000000', '2019-09-06 09:06:04.000000');
 
 -- ----------------------------
--- Table structure for product_categories
--- ----------------------------
-DROP TABLE IF EXISTS `product_categories`;
-CREATE TABLE `product_categories`  (
-  `category_id` int(11) NOT NULL AUTO_INCREMENT,
-  `category` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `product_id` int(11) NOT NULL,
-  `created_at` timestamp(0) NULL DEFAULT NULL,
-  `updated_at` timestamp(0) NULL DEFAULT NULL,
-  PRIMARY KEY (`category_id`) USING BTREE,
-  INDEX `Reference Table`(`product_id`) USING BTREE,
-  INDEX `category_id`(`category_id`) USING BTREE,
-  CONSTRAINT `products to categories relationships` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Records of product_categories
--- ----------------------------
-INSERT INTO `product_categories` VALUES (1, 'Building', 1, NULL, NULL);
-INSERT INTO `product_categories` VALUES (2, 'Contents', 1, NULL, NULL);
-INSERT INTO `product_categories` VALUES (3, 'All Risk', 1, NULL, NULL);
-INSERT INTO `product_categories` VALUES (4, 'Domestic Employee', 1, NULL, NULL);
-INSERT INTO `product_categories` VALUES (5, 'Owner Liability', 1, NULL, NULL);
-
--- ----------------------------
 -- Table structure for products
 -- ----------------------------
 DROP TABLE IF EXISTS `products`;
@@ -759,23 +698,125 @@ CREATE TABLE `products`  (
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`product_id`) USING BTREE,
   UNIQUE INDEX `product_name`(`product_name`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 51 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products
 -- ----------------------------
-INSERT INTO `products` VALUES (1, 'Domestic Package', NULL, NULL);
+INSERT INTO `products` VALUES (6, 'MOTOR PRIVATE', '2019-09-11 11:37:40', '2019-09-11 11:37:44');
+INSERT INTO `products` VALUES (7, 'MOTOR CYCLE', '2019-09-11 11:38:07', '2019-09-11 11:38:11');
+INSERT INTO `products` VALUES (8, 'PEDAL CYCLE', '2019-09-11 11:38:24', '2019-09-11 11:38:28');
+INSERT INTO `products` VALUES (9, 'TRAVEL INSURANCE', '2019-09-11 11:38:55', '2019-09-11 11:38:58');
+INSERT INTO `products` VALUES (10, 'HOME COVER/DOMESTIC PACKAGE', '2019-09-11 11:39:25', '2019-09-11 11:39:29');
+INSERT INTO `products` VALUES (11, 'PET', '2019-09-11 11:39:52', '2019-09-11 11:39:54');
+INSERT INTO `products` VALUES (12, 'PERSONAL ACCIDENT', '2019-09-11 11:40:19', '2019-09-11 11:40:22');
+INSERT INTO `products` VALUES (13, 'GOLFERS', '2019-09-11 11:40:37', '2019-09-11 11:40:40');
+INSERT INTO `products` VALUES (14, 'FAMILY HEALTH COVER(JAMII PLUS', '2019-09-11 11:41:10', '2019-09-11 11:41:13');
+INSERT INTO `products` VALUES (15, 'FAMILY HEALTH COVER(AFYA NAFUU', '2019-09-11 11:41:31', '2019-09-11 11:41:34');
+INSERT INTO `products` VALUES (16, 'CANCER CARE(FEMINA)', '2019-09-11 11:42:13', '2019-09-11 11:42:17');
+INSERT INTO `products` VALUES (17, 'ER CARD', '2019-09-11 11:42:29', '2019-09-11 11:42:33');
+INSERT INTO `products` VALUES (18, 'FIXED SAVINGS PLAN(IMARIKA)', '2019-09-11 11:44:47', '2019-09-11 11:44:50');
+INSERT INTO `products` VALUES (19, 'ANTICIPATED SAVINGS(AKIBA HALI', '2019-09-11 11:45:37', '2019-09-11 11:45:40');
+INSERT INTO `products` VALUES (20, 'EDUCATION PLAN(ELIMU)', '2019-09-11 11:46:14', '2019-09-11 11:46:18');
+INSERT INTO `products` VALUES (21, 'HOSPITALISATION LOSS OF INCOME', '2019-09-11 11:46:51', '2019-09-11 11:46:55');
+INSERT INTO `products` VALUES (22, 'FUNERAL EXPENSE COVER(PUMZISHA', '2019-09-11 11:51:41', '2019-09-11 11:51:46');
+INSERT INTO `products` VALUES (23, 'LIFE COVER(TERM ASSURANCE)', '2019-09-11 11:52:56', '2019-09-11 11:53:00');
+INSERT INTO `products` VALUES (24, 'INDIVUDUAL PENSION PLAN(IPP)', '2019-09-11 11:53:03', '2019-09-11 11:53:15');
+INSERT INTO `products` VALUES (25, 'MORTGAGE PROTECTION', '2019-09-11 11:53:22', '2019-09-11 11:53:24');
+INSERT INTO `products` VALUES (26, 'MOTOR COMMERCIAL', '2019-09-11 11:59:08', '2019-09-11 11:59:10');
+INSERT INTO `products` VALUES (27, 'MOTOR CYCLE(PSV)', '2019-09-11 11:59:14', '2019-09-11 11:59:13');
+INSERT INTO `products` VALUES (28, 'MOTOR TRADE', '2019-09-11 11:59:16', '2019-09-11 11:59:17');
+INSERT INTO `products` VALUES (29, 'FIRE AND PERILS', '2019-09-11 11:59:20', '2019-09-11 11:59:19');
+INSERT INTO `products` VALUES (30, 'WIBA AND PERSONAL ACCIDENT', '2019-09-11 11:59:22', '2019-09-11 11:59:23');
+INSERT INTO `products` VALUES (31, 'THEFT', '2019-09-11 11:59:29', '2019-09-11 11:59:28');
+INSERT INTO `products` VALUES (32, 'ENGINEERING', '2019-09-11 11:59:31', '2019-09-11 11:59:32');
+INSERT INTO `products` VALUES (33, 'LIABILITY', '2019-09-11 11:59:36', '2019-09-11 11:59:36');
+INSERT INTO `products` VALUES (34, 'MARINE', '2019-09-11 11:59:38', '2019-09-11 11:59:39');
+INSERT INTO `products` VALUES (35, 'AVIATION', '2019-09-11 11:59:41', '2019-09-11 11:59:43');
+INSERT INTO `products` VALUES (36, 'SPECIAL PACKAGE COVERS', '2019-09-11 11:59:43', '2019-09-11 11:59:44');
+INSERT INTO `products` VALUES (37, 'GOOD IN TRANSIT(GIT)', '2019-09-11 11:59:48', '2019-09-11 11:59:47');
+INSERT INTO `products` VALUES (38, 'BONDS', '2019-09-11 11:59:49', '2019-09-11 11:59:50');
+INSERT INTO `products` VALUES (39, 'PLATE GLASS', '2019-09-11 11:59:52', '2019-09-11 11:59:51');
+INSERT INTO `products` VALUES (40, 'HEALTH CORPORATE', '2019-09-11 11:59:53', '2019-09-11 11:59:54');
+INSERT INTO `products` VALUES (41, 'COMMERCIAL LIFE', '2019-09-11 11:59:56', '2019-09-11 11:59:55');
+INSERT INTO `products` VALUES (42, 'CROP COVER', '2019-09-11 11:59:57', '2019-09-11 11:59:58');
+INSERT INTO `products` VALUES (43, 'LIVESTOCK COVER', '2019-09-11 12:00:01', '2019-09-11 12:00:41');
+INSERT INTO `products` VALUES (44, 'MICRO PROPERTY', '2019-09-11 12:00:03', '2019-09-11 12:00:42');
+INSERT INTO `products` VALUES (45, 'APOLLO BALANCED FUND', '2019-09-11 12:00:04', '2019-09-11 12:00:43');
+INSERT INTO `products` VALUES (46, 'APOLLO EQUITY FUND', '2019-09-11 12:00:08', '2019-09-11 12:00:44');
+INSERT INTO `products` VALUES (47, 'APOLLO MONEY MARKET FUND', '2019-09-11 12:00:09', '2019-09-11 12:00:45');
+INSERT INTO `products` VALUES (50, 'NULL', '2019-09-11 18:58:14', '2019-09-11 18:58:16');
 
 -- ----------------------------
--- Table structure for ref_content_type
+-- Table structure for products_categories
 -- ----------------------------
-DROP TABLE IF EXISTS `ref_content_type`;
-CREATE TABLE `ref_content_type`  (
-  `content_type_id` int(11) NOT NULL AUTO_INCREMENT,
-  `type` varchar(35) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`content_type_id`) USING BTREE,
-  UNIQUE INDEX `type`(`type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+DROP TABLE IF EXISTS `products_categories`;
+CREATE TABLE `products_categories`  (
+  `category_id` int(11) NOT NULL AUTO_INCREMENT,
+  `category` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `created_at` timestamp(0) NULL DEFAULT NULL,
+  `updated_at` timestamp(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`category_id`) USING BTREE,
+  INDEX `Reference Table`(`product_id`) USING BTREE,
+  INDEX `category_id`(`category_id`) USING BTREE,
+  CONSTRAINT `products to categories relationships` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB AUTO_INCREMENT = 15 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of products_categories
+-- ----------------------------
+INSERT INTO `products_categories` VALUES (6, 'BUILDING', 10, '2019-09-11 17:09:47', '2019-09-11 17:09:50');
+INSERT INTO `products_categories` VALUES (7, 'CONTENTS', 10, '2019-09-11 17:46:27', '2019-09-11 17:46:29');
+INSERT INTO `products_categories` VALUES (10, 'ALL RISK', 10, '2019-09-11 17:47:58', '2019-09-11 17:48:01');
+INSERT INTO `products_categories` VALUES (11, 'DOMESTIC', 10, '2019-09-11 17:48:47', '2019-09-11 17:48:49');
+INSERT INTO `products_categories` VALUES (12, 'LIABILITY', 10, '2019-09-11 17:49:11', '2019-09-11 17:49:12');
+INSERT INTO `products_categories` VALUES (14, 'NULL', 50, '2019-09-11 18:57:40', '2019-09-11 18:57:43');
+
+-- ----------------------------
+-- Table structure for products_leads
+-- ----------------------------
+DROP TABLE IF EXISTS `products_leads`;
+CREATE TABLE `products_leads`  (
+  `id` int(15) NOT NULL AUTO_INCREMENT,
+  `leads_product_id` int(11) NULL DEFAULT NULL,
+  `leads_product_category_id` int(11) NULL DEFAULT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `mobile` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `vehicle_make` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `vehicle_model` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `vehicle_value` float(255, 0) NULL DEFAULT NULL,
+  `yom` int(8) NULL DEFAULT NULL,
+  `more_info` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `leads_product_id`(`leads_product_id`) USING BTREE,
+  INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
+  CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB AUTO_INCREMENT = 43 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of products_leads
+-- ----------------------------
+INSERT INTO `products_leads` VALUES (2, NULL, NULL, 'John Doe', 'johndoe@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `products_leads` VALUES (3, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, '');
+INSERT INTO `products_leads` VALUES (10, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, '');
+INSERT INTO `products_leads` VALUES (11, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (12, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (13, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (20, 6, 6, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (21, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (23, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (24, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (25, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
+INSERT INTO `products_leads` VALUES (26, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2018, '');
+INSERT INTO `products_leads` VALUES (27, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2018, '');
+INSERT INTO `products_leads` VALUES (28, 6, NULL, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Mombasa', 'Toyota', 'Harrier', 80000, 2360, '');
+INSERT INTO `products_leads` VALUES (40, 6, 6, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Harrier', 4550000, 2018, '');
+INSERT INTO `products_leads` VALUES (41, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Mercedez', 'Benz', 800000, 2014, '');
+INSERT INTO `products_leads` VALUES (42, 6, 14, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Vitz', 80000, 2018, '');
 
 -- ----------------------------
 -- Table structure for ref_jobs
