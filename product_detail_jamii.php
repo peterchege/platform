@@ -707,7 +707,7 @@
 
     <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
     <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
+    <div id="modal-close-outside" class="back-brochure" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
 
@@ -715,35 +715,35 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
+                    <!-- <a href="pdf/Jamii_Plus _Brochure.pdf">
                         <h2>Browsure</h2>
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Outpatient Claim Form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Calim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
             </div>
@@ -752,35 +752,35 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Dental authorization</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Optical Claim Form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/jamii">
+                    <!-- <a href="pdf/jamii">
                         <h2>Calim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
             </div>
