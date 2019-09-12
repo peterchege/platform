@@ -548,6 +548,9 @@
                         if (response == 'success') {
                             swal.fire('SUCCESS', 'Thank you for your interest in our product. One of our customer care agents will contact you.', response)
                             $('#form')[0].reset();
+                            //$('#modal-full').toggle();
+                            $("#modal-full .uk-close-large").click()
+
                         } else {
                             swal.fire('ERROR', 'An error occurred. Please try again.', response);
                         }
