@@ -99,7 +99,7 @@
                                         <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually and the modes of payment include
                                             Standing Order, Cheque, and Direct Debit Authority, M-Pesa or Salary Check off.
                                         </p2>
-                                        <hr>
+                                        <br>
                                         <p2>The premium is payable up to the end of the term of the policy or on earlier death.</p2>
                                         <p> b) Terms</p>
                                         <ol>
