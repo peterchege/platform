@@ -130,9 +130,11 @@
                                         <p> Survival Benefits</p>
                                         <p2>On survival of the Policyholder up to :</p2>
                                         <ol>
-                                            <li>100% of the sum assured plus </li>
-                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured (4%) </li>
-                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%) </li>
+                                            <li>1/3 of the policy term- 15% of the Sum Assured </li>
+                                            <li>2/3 of the policy term- 25% of the Sum Assured </li>
+                                            <li>the end of the policy term - 60% of the Sum Assured plus</li>
+                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured</li>
+                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%)</li>
                                         </ol>
                                         <hr>
                                         <p> Death Benefits</p>
