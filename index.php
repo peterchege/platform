@@ -134,7 +134,7 @@ require_once 'inc/functions.php';
 
     <!-- ===================================== PRODUCTS ===================================== -->
 
-    <div class="container-fluid">
+    <div class="container-fluid23">
         <div class="product text-center">
 
             <h1>WHAT WE OFFER</h1>
@@ -145,7 +145,7 @@ require_once 'inc/functions.php';
 
             <!-- New design for what we offer -->
 
-            <div class="container">
+            <div class="container-fluid">
 
                 <div class="row row-product1">
                     <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
