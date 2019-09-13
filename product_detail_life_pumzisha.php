@@ -55,38 +55,44 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Hospitalization Loss of income (HosiCare) </h2>
-                                <P class="text-justify">When facing a medical emergency, the last thing you want to worry about is the financial burden. APA Life understands that
-                                    the only thing you should think about is getting better – which is why we came up with Hosicare.
+                                <h2> Funeral Expense Cover (Pumzisha) </h2>
+                                <P class="text-justify">Death is a traumatic event, however making plans ahead of time
+                                    helps cushion yourself and your loved ones with lump sum payable within 48 hours provided.
                                 </P>
-                                <P class="text-justify">Our Hospital Cash Insurance compensates you for lost income as a result of hospitalization. The cash benefit is payable for
-                                    each day spent in continuous admission in hospital as a result of illness or accident for medical treatment.
+                                <P class="text-justify">Upon the death of a loved one, most people consider a dignified funeral
+                                    a non-negotiable expense. Because they tend to be very costly, and may come at a time when
+                                    they are not expected, it is often difficult to manage the financial burden of a funeral.
+                                    This situation is aggravated if the deceased had been a primary provider of income.
                                 </P>
-                                <P class="text-justify">The benefit is payable if continuous admission exceeds 3 days, and for a maximum of 15 days on any one admission and a
-                                    maximum of 52 days in a year.
-                                </p>
-                                <P class="text-justify">In the unfortunate event of demise, a lump sum payment is made to assist in the funeral expenses.
-                                </p>
+
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Hosi cover? </h2>
-                                        <p2>Hospital Cash Policy guards individuals and families against the trauma that they face because of increased financial burden during
-                                            hospitalization. In the event of the individual or a family member being hospitalized, this Hospital Cash policy provides cash benefit
-                                            of KShs. 1,000 for each day (24 hrs.) of hospitalization (maximum 52 days per year) to meet incidental expenses. The amount can be used
-                                            for expenses like relative's transport & food, medical bills etc. that are not covered by regular policies.
+                                        <h2>Why the Pumzisha cover? </h2>
+                                        <p2>Our funeral expenses include, among other things, mortuary fees, the cost of a casket,
+                                            hearse, flowers, funeral programs and, refreshments. We have designed a funeral plan
+                                            to cover most, if not all, funeral expenses in the event of an unexpected death so as to:<br><br>
+                                            <li>Minimize the financial impact of an unexpected death on the surviving members of your family.</li>
+                                            <li>Ensure the surviving members of your family go through a smooth transition during this difficult period.</li>
+                                            <li>Provide you with peace of mind, knowing that the funeral expenses will be covered in the event of your
+                                                death or that of a family member.</li><br>
+                                        </p2>
+                                        <p2>The cover allows you to include all members of your nuclear family together with your parents and parents-in-law
+                                            and provide peace of mind thanks to APA pumzisha cover.
                                         </p2>
 
                                         <hr>
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
                                         <ol>
-                                            <li>The premiums will be a single premium rate for all ages</li>
-                                            <li>The premiums will be paid annually or monthly</li>
+                                            <li>The premiums will be based on age bands (18-23,24-29,30-34,35-39 and so on)</li>
+                                            <li>The premiums will be paid monthly or annually</li>
+                                            <li>The premium is payable up to the end of the term of the policy or on earlier death.</li>
+                                            <li>Extra premiums will be charged for any additional member.</li>
                                         </ol>
                                         <p> b) Policy Terms</p>
                                         <ol>
-                                            <li>The policy term is for 5 Years</li>
+                                            <li>The policy term ranges from 5 to 10 years.</li>
 
                                         </ol>
                                         <br><br><br><br>
@@ -123,16 +129,19 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Our main products features include:</h2><br>
 
-                                        <p> Hospital cash</p>
-                                        <p2>In the event of hospitalization of the main member or a family member, 
-                                            KShs. 1,000 will be payable per day for every consecutive day up to 15 
-                                            days per event and limited to 52 days in a year. Payments will accrue from 
-                                            the fourth consecutive day and will include the first three days.</p2>
-                                        <hr>
                                         <p> Death Benefits</p>
-                                        <p2>A lump-sum benefit equal to KShs. 20,000 will be paid if the policy owner dies.</p2>
+                                        <p2>A lump-sum benefit equal to 100% of the sum assured stated in the
+                                            policy schedule will be payable as long as the policy is active on
+                                            the occurrence of the insured event</p2><br>
+                                        <p2>Three sum assured options are available: 500,000/-, 300,000/-,
+                                            200,000/- 100,000/-, 70,000/- and 50,000/-</p2>
                                         <hr>
-                                        
+                                        <p>Accidental Death Benefits</p>
+                                        <p2>In the event death of the main life assured as a result of an accident,
+                                            a lump-sum equal to twice the sum assured will be paid to the beneficiaries.
+                                        </p2>
+                                        <hr>
+
                                     </div>
 
                                 </div>
