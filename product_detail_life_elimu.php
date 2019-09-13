@@ -147,11 +147,20 @@
                                         </ol>
                                         <hr>
                                         <p> Death Benefits</p>
-                                        <br>100% of the sum assured plus accrued bonus (simple reversionary bonus). <br><br>
-                                        The benefits are payable as a lump sum or in from of an annuity payable in installments
-                                        as specified by the life assured e.g. monthly, quarterly, half yearly or yearly,
-                                        the first payment being payable at the end of the term of the policy.
-                                        </br>
+                                        <br>Option 1: On death as a result of an accident <br><br>
+                                        <ol>
+                                            <li>100% of the sum assured plus</li>
+                                            <li>Premiums are waived</li>
+                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued bonus
+                                                (simple reversionary bonus) and terminal bonus is paid.</li>
+                                        </ol>
+                                        <br>Option 2: On death as a result of accident or illness <br><br>
+                                        <ol>
+                                            <li>100% of the sum assured is paid immediately</li>
+                                            <li>Premiums are waived</li>
+                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued 
+                                                bonus (simple reversionary bonus) and terminal bonus is paid.</li>
+                                        </ol>
                                         <hr>
                                         <p> Rider Benefits</p>
                                         <p2>On payment of additional premium, the following rider benefits are available; </p2>
