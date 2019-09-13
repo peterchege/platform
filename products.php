@@ -485,8 +485,8 @@
                             <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">We work hard now to ensure the futures of our 
-                            little ones remain bright. A great education is a best foundation 
+                        <p class="text-justify">We work hard now to ensure the futures of our
+                            little ones remain bright. A great education is a best foundation
                             to a good life, ensure that your child gets....
 
                         </p>
@@ -516,8 +516,9 @@
                             <h2 class="text-center"> Hospitalization Loss of income (HosiCare)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">When facing a medical emergency, the last thing you 
+                            want to worry about is the financial burden. APA Life understands that
+                            the only thing ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -526,7 +527,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_hosicare.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
