@@ -516,7 +516,7 @@
                             <h2 class="text-center"> Hospitalization Loss of income (HosiCare)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">When facing a medical emergency, the last thing you 
+                        <p class="text-justify">When facing a medical emergency, the last thing you
                             want to worry about is the financial burden. APA Life understands that
                             the only thing ...
                         </p>
@@ -542,8 +542,8 @@
                             <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps cushion 
+                            yourself and your loved ones with lump sum payable within 48 hours provided....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -552,7 +552,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_pumzisha.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

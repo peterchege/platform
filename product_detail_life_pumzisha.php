@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 life-3">
+        <div class="header-image header-image1 life-5">
         </div>
     </div>
 
@@ -55,53 +55,38 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Education Plan (APA Elimu) </h2>
-                                <P class="text-justify">We work hard now to ensure the futures of our little ones remain bright. A great education is a best foundation
-                                    to a good life, ensure that your child gets this chance through the elimu policy.
+                                <h2> Hospitalization Loss of income (HosiCare) </h2>
+                                <P class="text-justify">When facing a medical emergency, the last thing you want to worry about is the financial burden. APA Life understands that
+                                    the only thing you should think about is getting better – which is why we came up with Hosicare.
                                 </P>
-                                <P class="text-justify">Our policy enables you to build a fund over a period of time, making suitable provision for your child’s school
-                                    fees requirements as when they are required. It also ensures that the child’s fee required is available even in the untimely death
-                                    of the policyholder during the term of the policy.
+                                <P class="text-justify">Our Hospital Cash Insurance compensates you for lost income as a result of hospitalization. The cash benefit is payable for
+                                    each day spent in continuous admission in hospital as a result of illness or accident for medical treatment.
                                 </P>
-                                <P class="text-justify">The premium will be payable for the policy term selected (capped at 20 years) or until the death of the life
-                                    assured if it occurs within the term.
+                                <P class="text-justify">The benefit is payable if continuous admission exceeds 3 days, and for a maximum of 15 days on any one admission and a
+                                    maximum of 52 days in a year.
                                 </p>
-                                <P class="text-justify">The minimum and maximum ages at entry are 18 years and 65 years respectively. The maximum maturity age is 70 years.
+                                <P class="text-justify">In the unfortunate event of demise, a lump sum payment is made to assist in the funeral expenses.
                                 </p>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Elimu cover? </h2>
-                                        <p> Financial Security</p>
-                                        <p2>This plan allows for a disciplined, systematic and easy way to save for your child’s financial education needs.
-                                        </p2>
-                                        <p> Flexible premiums</p>
-                                        <p2>The sum assured and premiums are determined at onset and they remain fixed throughout the term of the policy.
-                                            You can however increase your premiums or sum assured at your policy anniversary.
-                                        </p2>
-                                        <p> Flexible term</p>
-                                        <p2>The plan also has a (saving period) which ranges from 5 to 20 years, which will be chosen by you, and this will depend on when you require the funds.
+                                        <h2>Why the Hosi cover? </h2>
+                                        <p2>Hospital Cash Policy guards individuals and families against the trauma that they face because of increased financial burden during
+                                            hospitalization. In the event of the individual or a family member being hospitalized, this Hospital Cash policy provides cash benefit
+                                            of KShs. 1,000 for each day (24 hrs.) of hospitalization (maximum 52 days per year) to meet incidental expenses. The amount can be used
+                                            for expenses like relative's transport & food, medical bills etc. that are not covered by regular policies.
                                         </p2>
 
                                         <hr>
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
-                                        <p2>This is determined by:</p2>
                                         <ol>
-                                            <li>Life assured’s age</li>
-                                            <li>Frequency of premium payment</li>
-                                            <li>level of cover selected</li>
-                                            <li>Term of the policy</li>
+                                            <li>The premiums will be a single premium rate for all ages</li>
+                                            <li>The premiums will be paid annually or monthly</li>
                                         </ol>
-                                        <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually and the modes of payment include
-                                            Standing Order, Cheque, and Direct Debit Authority, M-Pesa or Salary Check off.
-                                        </p2>
-                                        <br>
-                                        <p2>The premium is payable up to the end of the term of the policy or on earlier death.</p2>
-                                        <p> b) Terms</p>
+                                        <p> b) Policy Terms</p>
                                         <ol>
-                                            <li>The policy term ranges from 5 to 20 Years</li>
-                                            <li>Premium will be payable for the policy term selected or until death of the life assured if it occurs within the</li>
+                                            <li>The policy term is for 5 Years</li>
 
                                         </ol>
                                         <br><br><br><br>
@@ -138,78 +123,16 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Our main products features include:</h2><br>
 
-                                        <p> Survival Benefits</p>
-                                        <p2>On survival of the Policyholder up to :</p2>
-                                        <ol>
-                                            <li>100% of the sum assured plus </li>
-                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured (4%) </li>
-                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%) </li>
-                                        </ol>
+                                        <p> Hospital cash</p>
+                                        <p2>In the event of hospitalization of the main member or a family member, 
+                                            KShs. 1,000 will be payable per day for every consecutive day up to 15 
+                                            days per event and limited to 52 days in a year. Payments will accrue from 
+                                            the fourth consecutive day and will include the first three days.</p2>
                                         <hr>
                                         <p> Death Benefits</p>
-                                        <br>Option 1: On death as a result of an accident <br><br>
-                                        <ol>
-                                            <li>100% of the sum assured plus</li>
-                                            <li>Premiums are waived</li>
-                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued bonus
-                                                (simple reversionary bonus) and terminal bonus is paid.</li>
-                                        </ol>
-                                        <br>Option 2: On death as a result of accident or illness <br><br>
-                                        <ol>
-                                            <li>100% of the sum assured is paid immediately</li>
-                                            <li>Premiums are waived</li>
-                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued 
-                                                bonus (simple reversionary bonus) and terminal bonus is paid.</li>
-                                        </ol>
+                                        <p2>A lump-sum benefit equal to KShs. 20,000 will be paid if the policy owner dies.</p2>
                                         <hr>
-                                        <p> Rider Benefits</p>
-                                        <p2>On payment of additional premium, the following rider benefits are available; </p2>
-                                        <ol>
-                                            <li><b>Total and Permanent Disability</b></li>
-                                            <p2>On total and permanent disability due to an accident an amount equal to the basic sum
-                                                assured will become payable in equal monthly installments over a period of 24 months form the
-                                                date of the accident. The disability referred to must be such that there is neither then or
-                                                at any time thereafter any work, occupation or profession that the life assured can do to earn
-                                                or obtain wages, compensation or profit.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Accidental Death</b></li>
-                                            <p2>On death due to an accident an amount equal to the basic sum assured will become payable.
-                                                This is in addition to the main benefit.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Waiver of Premium</b></li>
-                                            <p2>All future premiums will be waived following total permanent disability due to accident or illness.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Medical Reimbursement Rider </b></li>
-                                            <p2>In case of an accident leading to the injury and hospitalization of the life assured, the in-patient
-                                                medical expenses incurred will be reimbursed subject to a maximum of 60% of the policy sum assured
-                                                but not exceeding Kes. 500,000/-.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Critical Illness rider </b></li>
-                                            <p2>In the event of first diagnosis of a specified critical illness an amount equal to 30% of the sum
-                                                assured is payable to the life assured up to a maximum of Kes. 300,000. Includes: Cancer, Stroke,
-                                                Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary, Artery Disease, Major Organ Transplant, e.g.
-                                                Kidney transplant
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Retrenchment rider </b></li>
-                                            <p2>In the event of loss of employment due to adverse business conditions e.g. introduction of new technology
-                                                or re-organization of the business by the employer, future premiums will be waived off up to a maximum of
-                                                6 monthly installments. This will cease, if the assured secures employment before the end of 6 months
-                                            </p2>
-                                        </ol>
-                                        <hr>
-                                        <h2 class="text-center">Additional benefits </h2>
-                                        <p>Paid Up and Surrender </p>
-                                        <p2>The policy will acquire paid up and surrender values after payment of at least 3 full years’ premium. </p2>
-                                        <p>Loans </p>
-                                        <p2>Loans will also be available within the surrender value of the policy </p2>
-                                        <p>Tax benefit </p>
-                                        <p2>By law, a 15% insurance relief will be granted to the policyholder up to a maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.) </p2>
-                                        <br>
+                                        
                                     </div>
 
                                 </div>
@@ -222,7 +145,6 @@
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
                             <div class="job-description text-center">
-
                             </div>
                         </div>
 
