@@ -460,7 +460,7 @@
                             <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a period of time and allows 
+                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a period of time and allows
                             you to have access to his fund at specified times to enable you...
                         </p>
                         <!-- button click -->
@@ -485,18 +485,19 @@
                             <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
+                        <p class="text-justify">We work hard now to ensure the futures of our 
+                            little ones remain bright. A great education is a best foundation 
+                            to a good life, ensure that your child gets....
 
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_elimu.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
