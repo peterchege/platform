@@ -223,7 +223,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_cycle.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

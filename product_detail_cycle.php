@@ -26,7 +26,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 prod-9">
+        <div class="header-image header-image1 prod-10">
         </div>
     </div>
 
@@ -57,7 +57,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2>MOTOR PRIVATE COVER </h2>
+                                <h2>MOTOR CYCLE COVER </h2>
                                 <P class="text-justify">Motor insurance cover protects the insured against financial
                                     loss in the event that the motor vehicle insured is involved
                                     in an accident, burnt, stolen and third party liability arising from use of the
@@ -435,7 +435,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/motorcycle.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -473,17 +473,16 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress">Equipment Value</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="inputAddress">Motor Cycle Value</label>
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="400,000" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Occupation</label>
-                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="owner" value="owner"> Casual Golfer </option>
-                                        <option data-ref="owner" name="owner" value="owner"> Golfer </option>
-                                        <option data-ref="tenant" name="tenant" value="tenant"> Professional Golfer </option>
-                                    </select>
+                                    <label for="inputAddress2">Make</label>
+                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress2">Model</label>
+                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
