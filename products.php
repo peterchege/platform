@@ -162,8 +162,8 @@
                             <h2> Personal Accident</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">We cover accidental death or disablement to the insured and offers
+                             compensation payable to the insured or to his legal representative ....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -197,7 +197,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_golfers.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -595,7 +595,7 @@
                             <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow 
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow
                             and confident about taking ...
                         </p>
                         <!-- button click -->
