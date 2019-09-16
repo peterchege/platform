@@ -163,7 +163,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We cover accidental death or disablement to the insured and offers
-                             compensation payable to the insured or to his legal representative ....
+                            compensation payable to the insured or to his legal representative ....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -239,11 +239,11 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Flexpac cover </h2>
+                            <h2> Enhanced Personal Accident <br> (Flexpac) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">We also provide a student’s personal accident 
+                            cover to individuals, schools and organized groups on reasonable ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -252,7 +252,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_flexpax.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
