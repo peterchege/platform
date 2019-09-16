@@ -382,7 +382,7 @@ require_once 'inc/functions.php';
     <!-- #footer -->
 
 
-    <!-- ===================================== PERSONAL MODAL ===================================== -->
+    <!-- ===================================== PERSONAL MOTOR MODAL ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -478,7 +478,7 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL PRODUCT MODAL ===================================== -->
+    <!-- ===================================== PERSONAL PRODUCT FORM MODAL ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
