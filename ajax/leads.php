@@ -30,10 +30,6 @@ switch ($_GET['mode']) {
             echo 'error';
         }
 
-        //insert to db
-
-
-        //send message response
         break;
 
     default:
