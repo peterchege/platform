@@ -439,28 +439,28 @@
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container">
+                    <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -473,22 +473,22 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress">Motor Cycle Value</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="value">Motor Cycle Value</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="400,000" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Make</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <label for="make">Make</label>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Model</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <label for="model">Model</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
                                 </div>
                             </div>
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST ASSISTANCE</button>
                                 </div>
                             </div>
                         </div>
