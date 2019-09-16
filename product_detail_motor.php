@@ -502,7 +502,6 @@
                                     <textarea name="more_info" id="more_info" class="form-control"></textarea>
                                 </div>
                             </div>
-
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button type="submit" name="request" class="btn btn-primary">REQUEST
