@@ -23,8 +23,10 @@ $(document).ready(function () {
         var property = $('#property').find(':selected').val();
         var cover = $('#cover').find(':selected').val();
 
+        //golfers
+        var occupation = $('#occupation').find(':selected').val();
 
-        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover;
+        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation;
 
         $.ajax({
             type: "POST",
