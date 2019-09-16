@@ -342,7 +342,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/domestic.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -374,37 +374,38 @@
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="inputAddress">COVER DETAILS</h3>
                         </div>
 
                         <div class="container">
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress">Property status</label>
+                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="owner" value="owner">Owner</option>
+                                        <option data-ref="tenant" name="tenant" value="tenant">Occupatant (Tenant)</option>
+                                    </select>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                <div class="form-group col-md-12">
+                                    <label for="inputAddress2">Covers</label>
+                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="owner" value="owner"> All Covers </option>
+                                        <option data-ref="owner" name="owner" value="owner"> Building </option>
+                                        <option data-ref="tenant" name="tenant" value="tenant"> Contents </option>
+                                        <option data-ref="tenant" name="tenant" value="tenant"> All Risk </option>
+                                        <option data-ref="tenant" name="tenant" value="tenant"> Domestic Employees </option>
+                                    </select>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <label for="inputAddress"> Value (Kshs)</label>
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
+
                             </div>
 
                             <div class="row book-btn">
