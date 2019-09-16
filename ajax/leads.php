@@ -22,6 +22,7 @@ switch ($_GET['mode']) {
 
         $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`)
                                             VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info')");
+
         if (!$insert) {
             echo mysqli_error($db);
         } else if ($insert) {
