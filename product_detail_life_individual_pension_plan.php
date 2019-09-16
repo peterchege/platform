@@ -130,11 +130,120 @@
                                             primarily driven by our value investments that guarantee preservation of member’s benefits.At the 10% return,
                                             a savings of Ksh1,000 during a members active work life of 35 years compounded monthly will grow by more
                                             than eight (8) folds under the APA Individual guaranteed Savings Plan.</p2><br>
-                                        
-                                        <p>The table below illustrates the projected benefits at retirement based on the guaranteed returns and 
+
+                                        <p>The table below illustrates the projected benefits at retirement based on the guaranteed returns and
                                             average investments returns
                                         </p>
-                                       
+
+                                        <!-- TABLE OF BENEFITS -->
+
+                                        <table class="uk-table uk-table-hover uk-table-divider">
+                                            <thead class="head-text">
+                                                <tr>
+                                                    <th>Current Age</th>
+                                                    <th>Years of scheme membership</th>
+                                                    <th>Monthly contribution</th>
+                                                    <th>Accummulated contribution at retirement </th>
+                                                    <th>APA projected average return</th>
+                                                    <th>Retirement benefits at guaranteed returns (4%) </th>
+                                                    <th>Retirement benefits average returns (10%) </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>1,000.00</td>
+                                                    <td>420,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>916,776</td>
+                                                    <td>3,828,276</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>2,000.00</td>
+                                                    <td>840,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>1,833,553</td>
+                                                    <td>7,656,553</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>4,000.00</td>
+                                                    <td>1,680,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>3,667,106</td>
+                                                    <td>15,313,106</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>5,000.00</td>
+                                                    <td>2,100,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>4,583,883</td>
+                                                    <td>19,141,383</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>6,000.00</td>
+                                                    <td>2,520,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>6,417,436</td>
+                                                    <td>22,969,660</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>8,000.00</td>
+                                                    <td>3,360,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>7,334,213</td>
+                                                    <td>30,626,213</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>10,000.00</td>
+                                                    <td>4,200,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>9,167,767</td>
+                                                    <td>38,282,767</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>20,000.00</td>
+                                                    <td>8,400,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>9,167,767</td>
+                                                    <td>38,282,767</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>35</td>
+                                                    <td>20,000.00</td>
+                                                    <td>8,400,000.00</td>
+                                                    <td>10.00 %</td>
+                                                    <td>18,335,534</td>
+                                                    <td>76,565,534</td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                        <!--END OF TABLE OF BENEFITS -->
                                         <hr>
 
                                     </div>
