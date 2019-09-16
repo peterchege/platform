@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 12/09/2019 11:32:52
+ Date: 16/09/2019 14:36:30
 */
 
 SET NAMES utf8mb4;
@@ -479,12 +479,14 @@ CREATE TABLE `pr_dp_allrisks`  (
   INDEX `cover_id`(`cover_id`) USING BTREE,
   INDEX `user_id`(`user_id`) USING BTREE,
   CONSTRAINT `pr_dp_all_risks to users relation` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_allrisks
 -- ----------------------------
 INSERT INTO `pr_dp_allrisks` VALUES (1, 1665378265, NULL, '7899564', 'toshiba', 'laptop', 200000, '2019-09-04 12:01:10.000000', '2019-09-04 12:01:10.000000');
+INSERT INTO `pr_dp_allrisks` VALUES (2, 1665378265, NULL, 'JCS8965', 'JVC', 'RADIO', 80000, '2019-09-13 10:32:45.000000', '2019-09-13 10:32:45.000000');
+INSERT INTO `pr_dp_allrisks` VALUES (3, 1665378265, NULL, '4568', 'SONY', 'ITEM2', 20000, '2019-09-13 15:31:21.562876', '2019-09-13 15:31:21.562876');
 
 -- ----------------------------
 -- Table structure for pr_dp_calculator_customer_quotations
@@ -505,7 +507,7 @@ CREATE TABLE `pr_dp_calculator_customer_quotations`  (
   `created_at` datetime(6) NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime(6) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_calculator_customer_quotations
@@ -519,6 +521,9 @@ INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (6, 'John Doe', '71234
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (7, 'John Doe', '712345678', 'johndoe@gmail.com', 'na', 'owner', 5100000, NULL, NULL, NULL, NULL, '2019-09-06 08:57:11.000000', '2019-09-06 08:57:11.000000');
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (8, 'John Doe', '712345678', 'johndoe@gmail.com', 'Mombasa', 'tenant', NULL, 500000000, NULL, NULL, NULL, '2019-09-06 15:45:11.000000', '2019-09-06 15:45:11.000000');
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (9, 'John Doe', '712345678', 'johndoe@gmail.com', 'Mombasa', 'tenant', NULL, 500000000, NULL, NULL, NULL, '2019-09-06 15:45:53.000000', '2019-09-06 15:45:53.000000');
+INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (10, 'GILBERT NJOROGE', '0700658856', 'P@gmail.cm', 'Nairobi', 'owner', 80000000, 95555, 5222, NULL, NULL, '2019-09-13 10:31:07.000000', '2019-09-13 10:31:07.000000');
+INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (11, 'name', '7006588564', 'anthonybaru@gmail.com', 'Mombasa', 'tenant', NULL, 464651841, 50000, 56666, 65456, '2019-09-13 15:28:43.979475', '2019-09-13 15:28:43.979475');
+INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (12, 'John Doe', '712345678', 'johndoe@gmail.com', 'nairobi', 'owner', 300000, NULL, NULL, 200000, NULL, '2019-09-16 09:29:18.188682', '2019-09-16 09:29:18.188682');
 
 -- ----------------------------
 -- Table structure for pr_dp_contents
@@ -533,7 +538,7 @@ CREATE TABLE `pr_dp_contents`  (
   `updated_at` timestamp(6) NULL DEFAULT NULL,
   PRIMARY KEY (`content_id`) USING BTREE,
   INDEX `user_id`(`user_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_contents
@@ -543,6 +548,9 @@ INSERT INTO `pr_dp_contents` VALUES (2, NULL, 'bed', 60000, '2019-09-04 09:52:50
 INSERT INTO `pr_dp_contents` VALUES (3, 1665378265, 'laptop', 80000, '2019-09-04 11:59:07.000000', '2019-09-04 11:59:07.000000');
 INSERT INTO `pr_dp_contents` VALUES (4, 1665378265, 'furniture', 90000, '2019-09-04 11:59:07.000000', '2019-09-04 11:59:07.000000');
 INSERT INTO `pr_dp_contents` VALUES (5, 1665378265, 'naem', 9555, '2019-09-04 11:59:07.000000', '2019-09-04 11:59:07.000000');
+INSERT INTO `pr_dp_contents` VALUES (6, 1665378265, 'COUCH', 500000, '2019-09-13 10:32:28.000000', '2019-09-13 10:32:28.000000');
+INSERT INTO `pr_dp_contents` VALUES (7, 1665378265, 'NAE', 80000, '2019-09-13 15:30:41.669629', '2019-09-13 15:30:41.669629');
+INSERT INTO `pr_dp_contents` VALUES (8, 1665378265, 'NAME', 96522, '2019-09-13 15:30:41.768916', '2019-09-13 15:30:41.768916');
 
 -- ----------------------------
 -- Table structure for pr_dp_covers
@@ -579,7 +587,7 @@ DROP TABLE IF EXISTS `pr_dp_domestics`;
 CREATE TABLE `pr_dp_domestics`  (
   `domestic_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
-  `employee_type` set('Indoors Staff','Gardener','Stablemen','Chauffeurs','Watchmen') CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `employee_type` enum('Indoors Staff','Gardener','Stablemen','Chauffeurs','Watchmen') CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
   `number_of_employees` int(11) NOT NULL,
   `annual_salary` double NOT NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
@@ -587,13 +595,7 @@ CREATE TABLE `pr_dp_domestics`  (
   PRIMARY KEY (`domestic_id`) USING BTREE,
   INDEX `user_id`(`user_id`) USING BTREE,
   CONSTRAINT `domestics to users relation` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Records of pr_dp_domestics
--- ----------------------------
-INSERT INTO `pr_dp_domestics` VALUES (1, 1665378265, 'Indoors Staff', 65, 80000, '2019-09-04 12:23:57.000000', '2019-09-04 12:23:57.000000');
-INSERT INTO `pr_dp_domestics` VALUES (2, 1665378265, 'Gardener', 2, 800000, '2019-09-04 12:23:57.000000', '2019-09-04 12:23:57.000000');
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for pr_dp_general_informations
@@ -617,7 +619,7 @@ CREATE TABLE `pr_dp_general_informations`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `pr_dp_general_informations_ibfk_1`(`user_id`) USING BTREE,
   CONSTRAINT `user id to general info` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_general_informations
@@ -627,6 +629,9 @@ INSERT INTO `pr_dp_general_informations` VALUES (2, 1665378265, 0, NULL, 0, NULL
 INSERT INTO `pr_dp_general_informations` VALUES (3, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-02 15:09:58.000000', '2019-09-02 15:09:58.000000');
 INSERT INTO `pr_dp_general_informations` VALUES (4, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-04 12:24:09.000000', '2019-09-04 12:24:09.000000');
 INSERT INTO `pr_dp_general_informations` VALUES (5, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-06 10:52:05.000000', '2019-09-06 10:52:05.000000');
+INSERT INTO `pr_dp_general_informations` VALUES (6, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-13 10:33:08.000000', '2019-09-13 10:33:08.000000');
+INSERT INTO `pr_dp_general_informations` VALUES (7, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-13 15:31:41.498289', '2019-09-13 15:31:41.498289');
+INSERT INTO `pr_dp_general_informations` VALUES (8, 1665378265, 0, NULL, 0, NULL, 0, NULL, 0, NULL, 0, NULL, '2019-09-16 09:52:35.334885', '2019-09-16 09:52:35.334885');
 
 -- ----------------------------
 -- Table structure for pr_dp_premises
@@ -673,7 +678,7 @@ CREATE TABLE `pr_dp_premises`  (
   CONSTRAINT `pr_dp_premises_ibfk_3` FOREIGN KEY (`outbuilding_roof`) REFERENCES `ref_outbuilding_roofs` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `pr_dp_premises_ibfk_4` FOREIGN KEY (`outbuilding_wall`) REFERENCES `ref_outbuilding_walls` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `premises to users relationship` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_premises
@@ -686,6 +691,7 @@ INSERT INTO `pr_dp_premises` VALUES (9, 'Owner', 1665378265, 'PLOT NO. 1870/VI/2
 INSERT INTO `pr_dp_premises` VALUES (10, 'Owner', 1665378265, 'PLOT NO. 1870/VI/209 MVULI ROAD WESTLANDS, COAST', 1, 1, 6, 1, 2, '0', NULL, 'self-contained', 0, 0, 0, NULL, NULL, '0', 0, 0, NULL, NULL, 500000, NULL, '2019-09-04 11:58:31.000000', '2019-09-04 11:58:31.000000');
 INSERT INTO `pr_dp_premises` VALUES (11, 'Owner', 1665378265, 'PLOT NO. 1870/VI/209 MVULI ROAD WESTLAN', 1, 2, 1, NULL, NULL, '0', NULL, 'room-not-self-contained', 0, 0, 0, NULL, '0', NULL, 0, 0, NULL, NULL, 300000, NULL, '2019-09-04 19:47:45.000000', '2019-09-04 19:47:45.000000');
 INSERT INTO `pr_dp_premises` VALUES (12, 'Owner', 1665378265, 'PLOT NO. 1870/VI/209 MVULI ROAD WESTLANDS, Marsabit', 1, 2, 1, 2, 2, '0', NULL, 'room-not-self-contained', 1, NULL, 0, NULL, NULL, '0', 0, 0, NULL, NULL, 5100000, NULL, '2019-09-06 09:06:04.000000', '2019-09-06 09:06:04.000000');
+INSERT INTO `pr_dp_premises` VALUES (13, 'Tenant', 1665378265, 'PLOT NO. 1870/VI/209 MVULI ROAD WESTLANDS, THIKA', 2, 1, 2, 1, NULL, '0', NULL, 'room-not-self-contained', 0, 0, 0, NULL, NULL, '0', 0, 0, NULL, NULL, 500000, NULL, '2019-09-13 15:30:20.220806', '2019-09-13 15:30:20.220806');
 
 -- ----------------------------
 -- Table structure for products
@@ -785,9 +791,9 @@ CREATE TABLE `products_leads`  (
   `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `mobile` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `vehicle_make` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `vehicle_model` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `vehicle_value` float(255, 0) NULL DEFAULT NULL,
+  `make` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `model` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `value` float(255, 0) NULL DEFAULT NULL,
   `yom` int(8) NULL DEFAULT NULL,
   `more_info` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   PRIMARY KEY (`id`) USING BTREE,
@@ -795,7 +801,7 @@ CREATE TABLE `products_leads`  (
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 43 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 57 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products_leads
@@ -817,6 +823,20 @@ INSERT INTO `products_leads` VALUES (28, 6, NULL, 'Jane Doe', 'janedoe@gmail.com
 INSERT INTO `products_leads` VALUES (40, 6, 6, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Harrier', 4550000, 2018, '');
 INSERT INTO `products_leads` VALUES (41, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Mercedez', 'Benz', 800000, 2014, '');
 INSERT INTO `products_leads` VALUES (42, 6, 14, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Vitz', 80000, 2018, '');
+INSERT INTO `products_leads` VALUES (43, 6, 14, 'Winnie Koech', 'winniekoech@gmail.com', '0702931773', 'Nairobi', 'Mercedez', 'e class', 2000000, 2016, '');
+INSERT INTO `products_leads` VALUES (44, 6, 14, 'name', 'name@gmail.com', '7006588564', 'nairobi', 'Toyota', 'Harrier', 800000, 2000, '');
+INSERT INTO `products_leads` VALUES (45, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakus', 'Toyota', 'Harrier', 8000000, 2006, '');
+INSERT INTO `products_leads` VALUES (46, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakus', 'Toyota', 'Harrier', 800000, 2013, '');
+INSERT INTO `products_leads` VALUES (47, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'nairobi', 'toyota', 'crown', 8000000, 1223, '');
+INSERT INTO `products_leads` VALUES (48, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Mercedez', 'Harrier', 5822222, 1234, '');
+INSERT INTO `products_leads` VALUES (49, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Mercedez', 'Harrier', 800000, 2019, '');
+INSERT INTO `products_leads` VALUES (50, 6, 14, 'peter chgee', 'p@gmail.com', '07123456', 'Marsabit', 'toyota', 'probox', 800000, 2018, '');
+INSERT INTO `products_leads` VALUES (51, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Toyota', 'Benz', 3000000, 2016, '');
+INSERT INTO `products_leads` VALUES (52, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nairobi', 'Mercedez', 'S-CLASS', 8000000, 2016, '');
+INSERT INTO `products_leads` VALUES (53, 6, 14, 'Winnie Koech', 'winnie@gmail.com', '4265412654', 'nairobi', 'toyota', 'crown', 500000, 1900, '');
+INSERT INTO `products_leads` VALUES (54, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
+INSERT INTO `products_leads` VALUES (55, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
+INSERT INTO `products_leads` VALUES (56, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
 
 -- ----------------------------
 -- Table structure for ref_jobs
@@ -942,7 +962,7 @@ CREATE TABLE `users`  (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (5, 1665378265, 'ANTHONY', 'JOHN', 'DOE', 'anthonbaru@gmail.com', '$2y$10$X41jZU/in8MV3SMMHVR95OBJ7/RcUfu3HhJZQIO1H33iUavSCpEMC', '700658856', '0712345678', '12345678', 'A8528452568541P', 9577, 'Mombasa', 300, 'Mombasa', NULL, NULL, '2019-09-02 09:46:25.000000', '2019-09-02 12:30:42.000000');
+INSERT INTO `users` VALUES (5, 1665378265, 'ANTHONY', 'JOHN', 'DOE', 'anthonbaru@gmail.com', '$2y$10$X41jZU/in8MV3SMMHVR95OBJ7/RcUfu3HhJZQIO1H33iUavSCpEMC', '0700123456', '073654321', '12345678', 'A8528452568541P', 9577, 'Mombasa', 300, 'Mombasa', NULL, NULL, '2019-09-02 09:46:25.000000', '2019-09-13 10:40:51.778244');
 INSERT INTO `users` VALUES (6, 26672089, 'John', NULL, 'Doe', 'anthonybaru@gmail.com', '$2y$10$1oEUMNy1Il27sgIE23tO/u6iz1R66.Dpcq9fnbvAxbr6.jG3/GfXO', '0712345678', NULL, '12345678', 'A8528452568541P', NULL, NULL, NULL, NULL, NULL, 'ZYUm536fgGqnZmLlLUzuX77AHdvslsaorbrjlDZdX4OsEcSk4nMtHLSlJuDT', '2019-09-03 10:33:38.000000', '2019-09-03 11:01:37.000000');
 INSERT INTO `users` VALUES (8, 97772024, 'John', NULL, 'Doe', 'johndoe@gmail.com', '$2y$10$QwzhIVSCEtj/ZR9h5yS6C.KDVufxRRhgCrwWkmOfmx7fbU/tGCdeq', '0712345678', NULL, '12345622', 'A456982158I', NULL, NULL, NULL, NULL, NULL, NULL, '2019-09-04 14:42:41.000000', '2019-09-04 14:42:41.000000');
 
