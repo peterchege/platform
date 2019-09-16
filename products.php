@@ -595,8 +595,8 @@
                             <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow 
+                            and confident about taking ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -605,7 +605,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
