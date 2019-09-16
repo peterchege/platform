@@ -473,19 +473,19 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="vehicle_make">Vehicle Make</label>
-                                    <input name="vehicle_make" type="text" class="form-control" id="vehicle_make" placeholder="Toyota" value="" required>
+                                    <label for="make">Vehicle Make</label>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder="Toyota" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="vehicle_model">Vehicle Model</label>
-                                    <input name="vehicle_model" type="text" class="form-control" id="vehicle_model" placeholder="Crown" value="" required>
+                                    <label for="model">Vehicle Model</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="Crown" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="vehicle_value">Vehicle Value (Kshs)</label>
-                                    <input name="vehicle_value" type="text" class="form-control" id="vehicle_value" placeholder="1,400,000" value="" required>
+                                    <label for="value">Vehicle Value (Kshs)</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
@@ -519,60 +519,7 @@
     require_once 'inc/scripts.php';
     ?>
     <script src="js/parsley.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#form').parsley();
-
-            $('#form').on('submit', function(e) {
-                e.preventDefault();
-                var full_name = $('#full_name').val();
-                var phone = $('#phone').val();
-                var email = $('#email').val();
-                var location = $('#location').val();
-                var vehicle_make = $('#vehicle_make').val();
-                var vehicle_model = $('#vehicle_model').val();
-                var vehicle_value = $('input[name="vehicle_value"]').val();
-                var vehicle_value = numeral(vehicle_value).value();
-                var yom = $('#yom').val();
-                var more_info = $('#more_info').val();
-                var product_id = 6;
-                var product_category_id = 14;
-                var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&vehicle_make=' + vehicle_make + '&vehicle_model=' + vehicle_model + '&vehicle_value=' + vehicle_value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id;
-
-                $.ajax({
-                    type: "POST",
-                    url: "ajax/leads.php?mode=lead",
-                    data: dataString,
-                    dataType: 'text',
-                    success: function(response) {
-                        if (response == 'success') {
-                            swal.fire('SUCCESS', 'Thank you for your interest in our product. One of our customer care agents will contact you.', response)
-                            $('#form')[0].reset();
-                            //$('#modal-full').toggle();
-                            $("#modal-full .uk-close-large").click()
-
-                        } else {
-                            swal.fire('ERROR', 'An error occurred. Please try again.', response);
-                        }
-                    }
-                });
-
-            });
-
-
-            $('#vehicle_value').keyup(function(event) {
-                // skip for arrow keys
-                if (event.which >= 37 && event.which <= 40) return;
-
-                // format number
-                $(this).val(function(index, value) {
-                    return value
-                        .replace(/\D/g, "")
-                        .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                });
-            });
-        });
-    </script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
