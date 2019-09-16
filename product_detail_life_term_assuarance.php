@@ -56,15 +56,14 @@
                             <div class="job-description text-center">
 
                                 <h2> Life Cover (Term Assuarance)</h2>
-                                <P class="text-justify">Death is a traumatic event, however making plans ahead of time
-                                    helps cushion yourself and your loved ones with lump sum payable within 48 hours provided.
+                                <P class="text-justify">This policy has been designed to enable one to enable one have a pure life
+                                    cover that can be used as security on a loan
                                 </P>
-                                <P class="text-justify">This policy can be used by an organization that needs to offer a life
-                                    cover to the key persons in the company, such that in the event of death of the key person,
-                                    the company is compensated.
+                                <P class="text-justify">This policy can be used by an organization that needs to offer a life cover to the key persons in the company, such that in the
+                                    event of death of the key person, the company is compensated.
                                 </P>
-                                <P class="text-justify">This policy provides an inheritance for dependents.
-                                </P>
+                                <P class="text-justify">This policy provides an inheritance for dependents </P>
+
                                 <P class="text-justify">The premium will be payable for the policy term selected (capped at 20 years)
                                     or until the death of the life assured if it occurs within the term.
                                 </P>
@@ -90,7 +89,7 @@
                                         <p> b) Policy Terms</p>
                                         <ol>
                                             <li>The policy term ranges from 5 to 20 Years.</li>
-                                            <li>Premium will be payable for the policy term selected or until death of the life assured if it 
+                                            <li>Premium will be payable for the policy term selected or until death of the life assured if it
                                                 occurs within the term of the policy.
                                             </li>
 
@@ -129,18 +128,63 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Our main products features include:</h2><br>
 
-                                        <p> Death Benefits</p>
-                                        <p2>A lump-sum benefit equal to 100% of the sum assured stated in the
-                                            policy schedule will be payable as long as the policy is active on
-                                            the occurrence of the insured event</p2><br>
-                                        <p2>Three sum assured options are available: 500,000/-, 300,000/-,
-                                            200,000/- 100,000/-, 70,000/- and 50,000/-</p2>
+                                        <p> Survival Benefits</p>
+                                        <p2><b>Option 1:</b>On survival to the life assured to the end of the selected
+                                            term, 15% of the premiums paid will be paid.</p2><br>
+                                        <p2><b>Option 2:</b>On survival to the life assured to the end of the selected
+                                            term, no benefit will be payable.</p2>
                                         <hr>
-                                        <p>Accidental Death Benefits</p>
-                                        <p2>In the event death of the main life assured as a result of an accident,
-                                            a lump-sum equal to twice the sum assured will be paid to the beneficiaries.
+                                        <p> Death Benefits</p>
+                                        <p2>100% of the sum assured. </p2>
+                                        <hr>
+                                        <p> Rider Benefits</p>
+                                        <p2>On payment of additional premium, the following rider benefits are available; </p2><br>
+
+                                        <p> 1. Total and Permanent Disability </p>
+                                        <p2>On total and permanent disability due to an accident an amount equal to the
+                                            basic sum assured will become payable in equal monthly installments over a
+                                            period of 24 months form the date of the accident. The disability referred
+                                            to must be such that there is neither then or at any time thereafter any work,
+                                            occupation or profession that the life assured can do to earn or obtain wages,
+                                            compensation or profit.
+                                        </p2><br>
+
+                                        <p> 2. Accidental Death </p>
+                                        <p2>On death due to an accident an amount equal to the basic sum assured will become payable.
+                                            This is in addition to the main benefit.
+                                        </p2>
+
+                                        <p> 3. Waiver of Premium </p>
+                                        <p2>All future premiums will be waived following total permanent disability due to accident
+                                            or illness.
+                                        </p2>
+
+                                        <p> 4. Medical Reimbursement Rider </p>
+                                        <p2>In case of an accident leading to the injury and hospitalization of the life assured,
+                                            the in-patient medical expenses incurred will be reimbursed subject to a maximum of 60%
+                                            of the policy sum assured but not exceeding Kes. 500,000/-.
+                                        </p2>
+
+                                        <p> 5. Critical Illness rider </p>
+                                        <p2>In the event of first diagnosis of a specified critical illness an amount equal to 30% of
+                                            the sum assured is payable to the life assured up to a maximum of Kes. 300,000.
+                                            Includes: Cancer, Stroke, Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary,
+                                            Artery Disease, Major Organ Transplant, e.g. Kidney transplant
+                                        </p2>
+
+                                        <p> 6. Retrenchment rider </>
+                                        </p>
+                                        <p2> In the event of loss of employment due to adverse business conditions e.g. introduction of
+                                            new technology or re-organization of the business by the employer, future premiums will be
+                                            waived off up to a maximum of 6 monthly installments. This will cease, if the assured secures
+                                            employment before the end of 6 months
                                         </p2>
                                         <hr>
+                                        <h2 class="text-center">Additional benefits :</h2>
+                                        <p> Paid Up and Surrender </p>
+                                        <p2> The policy does not acquire a surrender or paid up value.</p2>
+                                        
+
 
                                     </div>
 
