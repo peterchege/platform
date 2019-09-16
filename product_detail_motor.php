@@ -502,6 +502,10 @@
                                     <textarea name="more_info" id="more_info" class="form-control"></textarea>
                                 </div>
                             </div>
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="7">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button type="submit" name="request" class="btn btn-primary">REQUEST

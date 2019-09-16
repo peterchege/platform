@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -831,19 +832,17 @@
                                     <textarea name="more_information" class="form-control"></textarea>
                                 </div>
                             </div> -->
-
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="0">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button class="btn btn-primary">REQUEST ASSISTANCE</button>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </form>
-
                 </div>
             </div>
         </div>
@@ -851,6 +850,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
