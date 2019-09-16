@@ -733,32 +733,32 @@
                                 </div>
                             </div> -->
 
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">TRAVELLING DETAILS</h3>
-                        </div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="make">Departure Date</label>
-                                    <input name="#" type="date" class="form-control" id="#" value="" required>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="model">Return Date</label>
-                                    <input name="#" type="date" class="form-control" id="#" placeholder="Crown" value="" required>
-                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group col-md-12">
+                                <h3 for="inputAddress">TRAVELLING DETAILS</h3>
                             </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="value">Destination</label>
-                                    <input name="value" type="text" class="form-control" id="value"  value="" required>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="depature_date">Departure Date</label>
+                                        <input name="depature_date" type="date" class="form-control" id="depature_date" value="" required>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="return_date">Return Date</label>
+                                        <input name="return_date" type="date" class="form-control" id="return_date" placeholder="Crown" value="" required>
+                                    </div>
                                 </div>
-                               
-                            </div>
-                            
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="destination">Destination</label>
+                                        <input name="destination" type="text" class="form-control" id="destination" value="" required>
+                                    </div>
+
+                                </div>
+
                             </div>
 
                             <div class="row book-btn">
@@ -779,6 +779,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
