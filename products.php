@@ -542,7 +542,7 @@
                             <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps cushion 
+                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps cushion
                             yourself and your loved ones with lump sum payable within 48 hours provided....
                         </p>
                         <!-- button click -->
@@ -567,10 +567,9 @@
                             <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">This policy has been designed to enable one to enable one have a pure life cover
+                            that can be used as security on a loan. This policy can be used ...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -578,7 +577,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_term_assuarance.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -596,8 +595,8 @@
                             <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow 
+                            and confident about taking ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -606,7 +605,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

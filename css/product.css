@@ -240,6 +240,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.header-image22 {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+}
 
 .jamii-background {
     background-image: url(../images/weare.jpg);
