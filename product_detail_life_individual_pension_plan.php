@@ -70,32 +70,28 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Why the Individual Pension Plan cover? </h2>
-                                        <p2>Our funeral expenses include, among other things, mortuary fees, the cost of a casket,
-                                            hearse, flowers, funeral programs and, refreshments. We have designed a funeral plan
-                                            to cover most, if not all, funeral expenses in the event of an unexpected death so as to:<br><br>
-                                            <li>Minimize the financial impact of an unexpected death on the surviving members of your family.</li>
-                                            <li>Ensure the surviving members of your family go through a smooth transition during this difficult period.</li>
-                                            <li>Provide you with peace of mind, knowing that the funeral expenses will be covered in the event of your
-                                                death or that of a family member.</li><br>
-                                        </p2>
-                                        <p2>The cover allows you to include all members of your nuclear family together with your parents and parents-in-law
-                                            and provide peace of mind thanks to APA pumzisha cover.
-                                        </p2>
+                                        <li>
+                                            <p2>Member’s contributions and accumulated earnings are guaranteed against impairment by investment loss
+                                                at a Minimum guaranteed interest of 4%
+                                            </p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>Offers Bonus returns in addition to guaranteed interest </p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>Investments risk borne by APA thus no risk to member </p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>Flexibility of contribution and withdrawal</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>Collateral for mortgage on up to 60% of member’s fund</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>Offers no costs of joining or administering the fund</p2>
+                                        </li>
 
-                                        <hr>
-                                        <h2>Product Specification </h2>
-                                        <p> a) Premiums</p>
-                                        <ol>
-                                            <li>The premiums will be based on age bands (18-23,24-29,30-34,35-39 and so on)</li>
-                                            <li>The premiums will be paid monthly or annually</li>
-                                            <li>The premium is payable up to the end of the term of the policy or on earlier death.</li>
-                                            <li>Extra premiums will be charged for any additional member.</li>
-                                        </ol>
-                                        <p> b) Policy Terms</p>
-                                        <ol>
-                                            <li>The policy term ranges from 5 to 10 years.</li>
 
-                                        </ol>
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -128,19 +124,17 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products features include:</h2><br>
+                                        <h2 class="text-center">The power of Compounding with APA</h2><br>
 
-                                        <p> Death Benefits</p>
-                                        <p2>A lump-sum benefit equal to 100% of the sum assured stated in the
-                                            policy schedule will be payable as long as the policy is active on
-                                            the occurrence of the insured event</p2><br>
-                                        <p2>Three sum assured options are available: 500,000/-, 300,000/-,
-                                            200,000/- 100,000/-, 70,000/- and 50,000/-</p2>
-                                        <hr>
-                                        <p>Accidental Death Benefits</p>
-                                        <p2>In the event death of the main life assured as a result of an accident,
-                                            a lump-sum equal to twice the sum assured will be paid to the beneficiaries.
-                                        </p2>
+                                        <p2>APA has averaged 10% net investment returns over the last 10 years. The competitive historical returns are
+                                            primarily driven by our value investments that guarantee preservation of member’s benefits.At the 10% return,
+                                            a savings of Ksh1,000 during a members active work life of 35 years compounded monthly will grow by more
+                                            than eight (8) folds under the APA Individual guaranteed Savings Plan.</p2><br>
+                                        
+                                        <p>The table below illustrates the projected benefits at retirement based on the guaranteed returns and 
+                                            average investments returns
+                                        </p>
+                                       
                                         <hr>
 
                                     </div>

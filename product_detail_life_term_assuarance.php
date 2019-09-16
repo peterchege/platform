@@ -74,6 +74,26 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
+                                        <h2>What are riders and why should I take them? </h2>
+                                        <p2>Riders are benefits that come as compliments to your plan and
+                                            offer additional benefits to you at a relatively low cost. The riders
+                                            include:<br><br>
+                                            <li><b>Accidental Death Benefit -</b> Where an additional amount equal to the sum assured will be paid in
+                                                the event that you die as a result of an accident </li>
+                                            <li><b>Total & Permanent Disability -</b> Where an amount equal to the sum assured will be paid to you over a period of 24 months in
+                                                the event that you become disabled as a result of an accident or illness </li>
+                                            <li><b>Waiver of Premiums -</b> In the event that you become totally and permanently disabled, all future premiums will be
+                                                waived and the policy will remain in force </li>
+                                            <li><b>Accident Hospitalisation Benefit -</b>In the event that you or the beneficiary child are hospitalised as a result of an accident,
+                                                APA would reimburse the inpatient medical costs incurred, subject to 60% of the policy sum assured to a maximum of KShs. 500,000 </li>
+                                            <li><b>Retrenchement Rider -</b> This rider enables the life assured keep the policy inforce in the event that he/she is retrenched
+                                                during the period of the policy </li>
+                                        </p2>
+                                        <p2>The cover allows you to include all members of your nuclear family together with your parents and parents-in-law
+                                            and provide peace of mind thanks to APA pumzisha cover.
+                                        </p2>
+
+                                        <hr>
 
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
@@ -183,7 +203,7 @@
                                         <h2 class="text-center">Additional benefits :</h2>
                                         <p> Paid Up and Surrender </p>
                                         <p2> The policy does not acquire a surrender or paid up value.</p2>
-                                        
+
 
 
                                     </div>
