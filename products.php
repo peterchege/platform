@@ -162,8 +162,8 @@
                             <h2> Personal Accident</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">We cover accidental death or disablement to the insured and offers
+                             compensation payable to the insured or to his legal representative ....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -172,7 +172,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_personal_accident.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -197,7 +197,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_golfers.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -223,7 +223,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_cycle.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -595,7 +595,7 @@
                             <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow 
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow
                             and confident about taking ...
                         </p>
                         <!-- button click -->
@@ -753,27 +753,6 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <?php
     require_once 'inc/scripts.php';
