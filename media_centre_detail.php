@@ -38,7 +38,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div style="background-image: url('<?= 'http://' . 'localhost/cms/' . $full_post['image']; ?>');" class="header-image header-image1">
+        <div style="background-image: url('<?php echo  'http://' . 'localhost/cms/' . $full_post['image']; ?>');" class="header-image header-image1">
         </div>
         <div class="line-media">
             <img src="images/line.png" alt="">
@@ -50,8 +50,8 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
         <div class="row">
             <div class="col-10 job-box1">
                 <div class="job-description text-justify ">
-                    <h2><?= $full_post['title'];  ?> </h2>
-                    <?= desanitize($full_post['post']);  ?>
+                    <h2><?php echo  $full_post['title'];  ?> </h2>
+                    <?php echo  desanitize($full_post['post']);  ?>
                 </div><br>
             </div>
         </div>
