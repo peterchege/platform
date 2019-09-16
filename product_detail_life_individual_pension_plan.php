@@ -245,6 +245,39 @@
 
                                         <!--END OF TABLE OF BENEFITS -->
                                         <hr>
+                                        <p>Reporting</p>
+
+                                        <p2>All members will receive an annual benefit
+                                            statement that updates on the accumulated value
+                                            of their retirement savings
+                                            The statement will include the members opening
+                                            balance, contributions for the year, investment
+                                            returns, and Closing balance of the fund
+                                        </p2>
+                                        <br>
+                                        <p>Withdrawals</p>
+                                        <p2>All withdrawals are processed as provided for in the
+                                            Retirement Benefits Act.<br>
+                                            On exit from the scheme, current legislation allows
+                                            a member to;
+                                            <li>Transfer accumulated benefits to another individual
+                                                pension plan</li>
+                                            <li>Transfer accumulated benefits to new employer’s
+                                                retirement benefits plan scheme</li>
+                                            <li>Access his/her entire accumulated benefits and fifty
+                                                percent of the employer’s accumulated benefits
+                                                (if any) with the remaining 50% employer benefits
+                                                deferred until retirement</li>
+                                        </p2>
+                                        <br>
+                                        <p>Governance</p>
+                                        <p2>A professional independent corporate board of
+                                            trustees ensures good governance in management
+                                            of the Scheme<br>
+                                            Members’ interest are protected through compliance
+                                            with all existing legislations with regards to the
+                                            schemes
+                                        </p2>
 
                                     </div>
 
