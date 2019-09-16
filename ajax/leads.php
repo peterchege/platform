@@ -20,7 +20,7 @@ switch ($_GET['mode']) {
         $product_category_id = sanitize($_POST['product_category_id']);
 
 
-        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`vehicle_make`,`vehicle_model`,`vehicle_value`,`yom`,`more_info`)
+        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`)
                                             VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$vehicle_make','$vehicle_model','$vehicle_value','$yom','$more_info')");
         if (!$insert) {
             echo mysqli_error($db);
