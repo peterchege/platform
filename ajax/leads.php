@@ -30,13 +30,16 @@ switch ($_GET['mode']) {
         $cover = filter_var(mysqli_real_escape_string($db, $_POST['cover']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
         //golfers
         $occupation = filter_var(mysqli_real_escape_string($db, $_POST['occupation']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+        //pet
+        $pet_number = filter_var(mysqli_real_escape_string($db, $_POST['pet_number']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+        $pet_type = filter_var(mysqli_real_escape_string($db, $_POST['pet_type']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
 
 
 
 
 
-        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`depature_date`,`return_date`,`destination`,`created_at`,`property`,`covers`,`occupation`)
-                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$depature_date','$return_date','$destination','$created_at','$property','$cover','$occupation')");
+        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`depature_date`,`return_date`,`destination`,`created_at`,`property`,`covers`,`occupation`,`pet_type`,`pet_number`)
+                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$depature_date','$return_date','$destination','$created_at','$property','$cover','$occupation','$pet_type','$pet_number')");
 
         if (!$insert) {
             echo mysqli_error($db);
