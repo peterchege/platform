@@ -115,7 +115,7 @@
 
                     <!-- COMMERCIAL COVER -->
                     <li class="list-down">
-                        <a href="products_commercial.php">COMMERCIAL</a>
+                        <a href="product_commercial.php">COMMERCIAL</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>

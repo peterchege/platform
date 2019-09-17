@@ -391,7 +391,7 @@
                             <h2> Cancer Care <br>(Femina) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">There are two common threats to women’s lives today – Breast Cancer and 
+                        <p class="text-justify">There are two common threats to women’s lives today – Breast Cancer and
                             Cervical Cancer. In most cases, these two are rarely diagnosed...
                         </p>
                         <!-- button click -->
@@ -513,7 +513,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Hospitalization Loss of income (HosiCare)</h2>
+                            <h2 class="text-center"> Hospitalization Loss of income <br> (HosiCare)</h2>
                         </div>
                         <br>
                         <p class="text-justify">When facing a medical emergency, the last thing you

@@ -66,7 +66,7 @@
             <div class="container">
 
                 <!-- NEW ROW 1 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -86,7 +86,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_health.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -147,7 +147,7 @@
                 </div>
 
                 <!-- NEW ROW 2 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-4">
@@ -229,7 +229,7 @@
                 </div>
 
                 <!-- NEW ROW 3 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -308,7 +308,7 @@
                 </div>
 
                 <!-- NEW ROW 4 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -387,7 +387,7 @@
                 </div>
 
                 <!-- NEW ROW 5 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -466,7 +466,7 @@
                 </div>
 
                 <!-- NEW ROW 6 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
@@ -545,7 +545,7 @@
                 </div>
 
                 <!-- NEW ROW 7 OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img prod-3">
                             <div class="overlay">
