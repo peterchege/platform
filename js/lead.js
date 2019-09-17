@@ -49,7 +49,7 @@ $(document).ready(function () {
     });
 
 
-    $('#value').keyup(function (event) {
+    $('#value, .value').keyup(function (event) {
         // skip for arrow keys
         if (event.which >= 37 && event.which <= 40) return;
 

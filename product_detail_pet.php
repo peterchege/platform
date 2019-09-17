@@ -275,7 +275,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Number of Animals</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400" value="">
+                                    <input name="value" type="text" class="form-control value" id="pet_number" placeholder="1,400" value="">
                                 </div>
                             </div>
 
@@ -287,7 +287,7 @@
 
                             </div>
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="10">
+                                <input type="hidden" id="product_id" name="product_id" value="11">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
