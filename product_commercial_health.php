@@ -802,27 +802,27 @@
 
 
                     <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <h3 for="inputAddress" class="comp-detail">COMPANY DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <label for="full_name"> Name of Organisation/company</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <label for="phone">Mobile Number of contact person</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <label for="email">Email Address of contact person</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <label for="location">Location of orginasation/Company</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
                                 </div>
                             </div>
 
@@ -833,33 +833,24 @@
                         </div>
 
                         <div class="container">
-                            <div class ="row">
+                            <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> DOB (optional) </label>
-                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                    <label for="make"> Population of staff </label>
+                                    <input name="make" type="number" class="form-control" id="make" value="" required>
                                 </div>
-                            </div>    
-                            <div class ="row">       
-                                <div class="form-group col-md-6">
-                                    <label for="model">Name of Beneficiary</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="model">Type of Cover</label>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
+                                        <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
+                                        <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
+                                        
+                                    </select>
                                 </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="value">DOB of Beneficiaries </label>
-                                    <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
-                                </div>
-                            </div>   
-                             <div class ="row">    
-                                <div class=" form-group col-md-6">
-                                    <label for="yom">Relationship of Beneficiary</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <br>
-                                   <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
-                                </div>
-                              </div>  
+                            </div>
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">
