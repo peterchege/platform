@@ -25,7 +25,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 domestic-background">
+        <div class="header-image header-image1 prod-13">
         </div>
     </div>
 
@@ -56,7 +56,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2>Home Insurance (Domestic Package) </h2>
+                                <h2>PET COVER </h2>
                                 <P class="text-justify">The policy provides cover to homeowners against accidental loss or damage to their property caused by the following perils: Fire & lightning, explosion, earthquake,
                                     storm & tempest, riot & strike, malicious damage, theft, bursting and overflowing of water tanks, apparatus, pipes and impact by road vehicles and animals, objects falling from aircraft or aerial device.
                                 </P>
@@ -160,6 +160,8 @@
 
                         </div>
 
+
+
                         <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
@@ -225,7 +227,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/domestic.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -263,29 +265,23 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="property">Property status</label>
+                                    <label for="property">Type of Animal</label>
                                     <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="owner" value="owner">Owner</option>
-                                        <option data-ref="tenant" name="tenant" value="tenant">Occupatant (Tenant)</option>
+                                        <option data-ref="owner" name="owner" value="owner"> All </option>
+                                        <option data-ref="owner" name="owner" value="owner"> Dog </option>
+                                        <option data-ref="tenant" name="tenant" value="tenant"> Cat </option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Covers</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> All Covers </option>
-                                        <option data-ref="owner" name="building" value="Building"> Building </option>
-                                        <option data-ref="tenant" name="contents" value="Contents"> Contents </option>
-                                        <option data-ref="tenant" name="all_risk" value="All Risk"> All Risk </option>
-                                        <option data-ref="tenant" name="domestic_employees" value="Domestic Employees"> Domestic Employees </option>
-                                    </select>
+                                    <label for="inputAddress2">Number of Animals</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value"> Value (Kshs)</label>
+                                    <label for="value"> Value of pet (Kshs)</label>
                                     <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="">
                                 </div>
 
