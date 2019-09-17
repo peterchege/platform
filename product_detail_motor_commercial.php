@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -60,7 +61,7 @@
                                     accident, fire, flood or malicious damage. It also covers the theft of the vehicle and the third party liability arising out of the use
                                     of the vehicle. The geographical coverage is Kenya, but can be extended to cover East Africa.</P>
 
-                                <P class="text-justify">APA has a wide network of garages and other service providers where clients can take their vehicles for repairs and 
+                                <P class="text-justify">APA has a wide network of garages and other service providers where clients can take their vehicles for repairs and
                                     enjoy cashless service.</P>
                                 <hr>
                                 <div class="job-content">
@@ -431,28 +432,28 @@
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container">
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -465,44 +466,45 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="make">Vehicle Make</label>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder="Toyota" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="model">Vehicle Model</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="Crown" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="value">Vehicle Value (Kshs)</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <label for="more_info">More Information</label>
+                                    <textarea name="more_info" id="more_info" class="form-control"></textarea>
                                 </div>
                             </div>
-
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                        ASSISTANCE
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </form>
+
 
                 </div>
             </div>
@@ -513,6 +515,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
