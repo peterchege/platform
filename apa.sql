@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 16/09/2019 14:36:30
+ Date: 17/09/2019 08:17:04
 */
 
 SET NAMES utf8mb4;
@@ -587,7 +587,7 @@ DROP TABLE IF EXISTS `pr_dp_domestics`;
 CREATE TABLE `pr_dp_domestics`  (
   `domestic_id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
-  `employee_type` enum('Indoors Staff','Gardener','Stablemen','Chauffeurs','Watchmen') CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `employee_type` enum('Indoors Staff','Gardener','Stablemen','Chauffeurs','Watchmen') CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `number_of_employees` int(11) NOT NULL,
   `annual_salary` double NOT NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
@@ -717,8 +717,8 @@ INSERT INTO `products` VALUES (10, 'HOME COVER/DOMESTIC PACKAGE', '2019-09-11 11
 INSERT INTO `products` VALUES (11, 'PET', '2019-09-11 11:39:52', '2019-09-11 11:39:54');
 INSERT INTO `products` VALUES (12, 'PERSONAL ACCIDENT', '2019-09-11 11:40:19', '2019-09-11 11:40:22');
 INSERT INTO `products` VALUES (13, 'GOLFERS', '2019-09-11 11:40:37', '2019-09-11 11:40:40');
-INSERT INTO `products` VALUES (14, 'FAMILY HEALTH COVER(JAMII PLUS', '2019-09-11 11:41:10', '2019-09-11 11:41:13');
-INSERT INTO `products` VALUES (15, 'FAMILY HEALTH COVER(AFYA NAFUU', '2019-09-11 11:41:31', '2019-09-11 11:41:34');
+INSERT INTO `products` VALUES (14, 'FAMILY HEALTH COVER/JAMII PLUS', '2019-09-11 11:41:10', '2019-09-11 11:41:13');
+INSERT INTO `products` VALUES (15, 'FAMILY HEALTH COVER/AFYA NAFUU', '2019-09-11 11:41:31', '2019-09-11 11:41:34');
 INSERT INTO `products` VALUES (16, 'CANCER CARE(FEMINA)', '2019-09-11 11:42:13', '2019-09-11 11:42:17');
 INSERT INTO `products` VALUES (17, 'ER CARD', '2019-09-11 11:42:29', '2019-09-11 11:42:33');
 INSERT INTO `products` VALUES (18, 'FIXED SAVINGS PLAN(IMARIKA)', '2019-09-11 11:44:47', '2019-09-11 11:44:50');
@@ -796,47 +796,19 @@ CREATE TABLE `products_leads`  (
   `value` float(255, 0) NULL DEFAULT NULL,
   `yom` int(8) NULL DEFAULT NULL,
   `more_info` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `depature_date` date NULL DEFAULT NULL,
+  `return_date` date NULL DEFAULT NULL,
+  `destination` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `created_at` datetime(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `property` enum('Owner','Tenant') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `covers` set('All Covers','Building','Contents','All Risk','Domestic Employees') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
+  `occupation` enum('Casual Golfer','Golfer','Professional Golfer') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `leads_product_id`(`leads_product_id`) USING BTREE,
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 57 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Records of products_leads
--- ----------------------------
-INSERT INTO `products_leads` VALUES (2, NULL, NULL, 'John Doe', 'johndoe@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `products_leads` VALUES (3, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, '');
-INSERT INTO `products_leads` VALUES (10, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, '');
-INSERT INTO `products_leads` VALUES (11, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (12, NULL, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (13, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (20, 6, 6, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (21, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (23, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (24, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (25, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2013, 'none');
-INSERT INTO `products_leads` VALUES (26, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2018, '');
-INSERT INTO `products_leads` VALUES (27, 6, NULL, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Toyota', 'crown', 800000, 2018, '');
-INSERT INTO `products_leads` VALUES (28, 6, NULL, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Mombasa', 'Toyota', 'Harrier', 80000, 2360, '');
-INSERT INTO `products_leads` VALUES (40, 6, 6, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Harrier', 4550000, 2018, '');
-INSERT INTO `products_leads` VALUES (41, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Mercedez', 'Benz', 800000, 2014, '');
-INSERT INTO `products_leads` VALUES (42, 6, 14, 'ANTHONY KARONJI', 'anthonybaru@gmail.com', '700658856', 'Nakuru', 'Toyota', 'Vitz', 80000, 2018, '');
-INSERT INTO `products_leads` VALUES (43, 6, 14, 'Winnie Koech', 'winniekoech@gmail.com', '0702931773', 'Nairobi', 'Mercedez', 'e class', 2000000, 2016, '');
-INSERT INTO `products_leads` VALUES (44, 6, 14, 'name', 'name@gmail.com', '7006588564', 'nairobi', 'Toyota', 'Harrier', 800000, 2000, '');
-INSERT INTO `products_leads` VALUES (45, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakus', 'Toyota', 'Harrier', 8000000, 2006, '');
-INSERT INTO `products_leads` VALUES (46, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakus', 'Toyota', 'Harrier', 800000, 2013, '');
-INSERT INTO `products_leads` VALUES (47, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'nairobi', 'toyota', 'crown', 8000000, 1223, '');
-INSERT INTO `products_leads` VALUES (48, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Mercedez', 'Harrier', 5822222, 1234, '');
-INSERT INTO `products_leads` VALUES (49, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'Mercedez', 'Harrier', 800000, 2019, '');
-INSERT INTO `products_leads` VALUES (50, 6, 14, 'peter chgee', 'p@gmail.com', '07123456', 'Marsabit', 'toyota', 'probox', 800000, 2018, '');
-INSERT INTO `products_leads` VALUES (51, 6, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Nakuru', 'Toyota', 'Benz', 3000000, 2016, '');
-INSERT INTO `products_leads` VALUES (52, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nairobi', 'Mercedez', 'S-CLASS', 8000000, 2016, '');
-INSERT INTO `products_leads` VALUES (53, 6, 14, 'Winnie Koech', 'winnie@gmail.com', '4265412654', 'nairobi', 'toyota', 'crown', 500000, 1900, '');
-INSERT INTO `products_leads` VALUES (54, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
-INSERT INTO `products_leads` VALUES (55, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
-INSERT INTO `products_leads` VALUES (56, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'S-CLASS', 800005, 2015, '');
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for ref_jobs
