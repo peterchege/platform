@@ -73,7 +73,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Health Coprate</h2>
+                            <h2 class="text-center"> Health Corporate</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
