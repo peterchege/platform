@@ -133,6 +133,9 @@
 .com-1 {
     background-image: url(../img/health.jpg);
 }
+.com-2 {
+    background-image: url(../img/motor2.jpg);
+}
 
 /* .prod:hover {
     transform: scale(1.05);

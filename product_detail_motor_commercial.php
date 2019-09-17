@@ -24,7 +24,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 commercial-background">
+        <div class="header-image header-image1 com-2">
         </div>
     </div>
 
@@ -55,9 +55,13 @@
 
                             <div class="job-description text-center">
 
-                                <h2>MOTOR PRIVATE COVER </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against financial loss in the event that the motor vehicle insured is involved
-                                    in an accident, burnt, stolen and third party liability arising from use of the insured motor vehicle.</P>
+                                <h2> MOTOR COMMERCIAL COVER </h2>
+                                <P class="text-justify">Motor Comprehensive Insurance also known as Own Damage Insurance covers damages to your motor vehicle following an
+                                    accident, fire, flood or malicious damage. It also covers the theft of the vehicle and the third party liability arising out of the use
+                                    of the vehicle. The geographical coverage is Kenya, but can be extended to cover East Africa.</P>
+
+                                <P class="text-justify">APA has a wide network of garages and other service providers where clients can take their vehicles for repairs and 
+                                    enjoy cashless service.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
@@ -423,7 +427,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 

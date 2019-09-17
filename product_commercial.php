@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-2">
+                        <div class="box-container-img com-2">
                             <div class="overlay">
                             </div>
                         </div>
@@ -112,7 +112,7 @@
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
