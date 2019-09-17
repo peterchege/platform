@@ -31,7 +31,11 @@ $(document).ready(function () {
         var pet_number = $('input[name="pet_number"]').val();
         var pet_number = numeral(pet_number).value();
 
-        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&pet_type=' + pet_type;
+        //corporate health
+        var population_staff = $('input[name="population_staff"]').val();
+        var population_staff = numeral(population_staff).value();
+
+        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&pet_type=' + pet_type + '&population_staff=' + population_staff;
 
         $.ajax({
             type: "POST",

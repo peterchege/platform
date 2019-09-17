@@ -835,25 +835,25 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> Population of staff </label>
-                                    <input name="make" type="number" class="form-control" id="make" value="" required>
+                                    <label for="population_staff"> Population of staff </label>
+                                    <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="model">Type of Cover</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
-                                        <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
-                                        <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
-                                        
+                                        <option data-ref="" name="" value="Inpatient Only"> Inpatient only </option>
+                                        <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient & Outpatient </option>
+                                        <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient & Outpatient & other riders </option>
+
                                     </select>
                                 </div>
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="14">
+                                <input type="hidden" id="product_id" name="product_id" value="40">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
