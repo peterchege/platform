@@ -277,7 +277,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_pedal_cycle.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -338,7 +338,7 @@
                             </div>
                         </div>
                         <div class="head-container text-center">
-                            <h2> Family Health Cover (Jamii Plus)</h2>
+                            <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
