@@ -31,7 +31,7 @@
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-11 job-box1">
+            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">

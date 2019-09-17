@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <?php include 'views/head_links.php'; ?>
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 </head>
 
@@ -24,13 +25,13 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 afya-background">
+        <div class="header-image header-image1 jamii-background">
         </div>
     </div>
 
     <div class="container product-container">
         <div class="row">
-            <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-11 job-box1">
 
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -58,20 +59,20 @@
 
                             <div class="job-description text-center">
 
-                                <h2>AFYA NAFUU </h2>
-                                <P class="text-justify">At APA, we believe that a healthy
-                                    family is a happy family. Good health
-                                    equates to good living, that means having
-                                    every one in the family covered for all
-                                    medical needs.
-                                    <br>
-                                    Our Afya Nafuu health cover, caters to
-                                    everyone in your family, from a term
-                                    baby born at 38 weeks to an adult 80
-                                    years of age.</P>
+                                <h2>JAMII PLUS </h2>
+                                <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
+                                    is a
+                                    happy family.
+                                    This is why we have medical insurance products designed to cover individuals and families.
+                                    Our main products include:
+                                    Inpatient cover is the core cover.
+                                    With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
+                                    cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
+                                    many
+                                    more others.</P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT AFYA NAFUU CATERS FOR:</h2>
+                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
 
                                     <div class="row cover-jamii">
                                         <div class="col-md-3 jamii-cater">
@@ -307,29 +308,34 @@
                                         <thead class="head-text">
                                             <tr>
                                                 <th>Overall maximum benefit per year</th>
+                                                <th>10,000,000</th>
+                                                <th>5,000,000</th>
                                                 <th>2,000,000 </th>
                                                 <th>1,000,000 </th>
-                                                <th>750,000 </th>
                                                 <th>500,000 </th>
-                                                <th>300,000 </th>
-                                                <th>100,000 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Bed limits net of NHIF</td>
-                                                <td>General Ward Bed</td>
-                                                <td>General Ward Bed</td>
-                                                <td>General Ward Bed</td>
-                                                <td>General Ward Bed</td>
+                                                <td>Private room upto Kshs 25,000</td>
+                                                <td>Ensuite up to Kshs. 18,000</td>
+                                                <td>SPR upto Kshs 12,500</td>
                                                 <td>General Ward Bed</td>
                                                 <td>General Ward Bed</td>
                                             </tr>
 
                                             <tr>
-                                                <td>Prescription drugs and dressings-discharge drugs allowed up to a maximum of 30
-                                                    days supply</td>
-                                                <td> Covered </td>
+                                                <td>In-patient Benefits</td>
+                                                <td> - </td>
+                                                <td> - </td>
+                                                <td> - </td>
+                                                <td> - </td>
+                                                <td> - </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Prescription drugs and dressings - discharge drugs allowed up to a maximum of 30 days supply</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -344,12 +350,10 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Theatre charges, HDU & ICU</td>
-                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -364,12 +368,10 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Physiotherapy as part of treatment</td>
-                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -381,28 +383,37 @@
                                                 <td>Pre-existing / chronic conditions/HIV/AIDS/ Congenital
                                                     conditions after 12 months of cover and on full disclosureat
                                                     the time of joining</td>
+                                                <td> 1,000,000 </td>
+                                                <td> 500,000 </td>
+                                                <td> 400,000 </td>
                                                 <td> 300,000 </td>
+                                                <td> 200,000 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Organ transplantation (3rd year) excluding cost of
+                                                    obtaining the donor organ. Covers operation costs for Kidney,
+                                                    Heart, Liver, Lung and Bone Marrow transplants</td>
+                                                <td> 500,000 </td>
+                                                <td> 500,000 </td>
+                                                <td> 300,000 </td>
+                                                <td> 200,000 </td>
+                                                <td> 100,000 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Psychiatry and psychotherapy conditions after 12 months
+                                                    of cover and on full disclosure at the time of joining</td>
+                                                <td> 500,000 </td>
                                                 <td> 250,000 </td>
                                                 <td> 200,000 </td>
                                                 <td> 150,000 </td>
                                                 <td> 100,000 </td>
-                                                <td> 50,000 </td>
                                             </tr>
 
                                             <tr>
-                                                <td>In Patient Dental</td>
-                                                <td> 75,000 </td>
-                                                <td> 40,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 20,000 </td>
-                                                <td> 10,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Reconstructive surgery
-                                                    following an accident</td>
-                                                <td> Covered </td>
+                                                <td>Post Hospitalization Treatment- reimbursement only
+                                                    limited to the first 3 weeks after discharge</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -411,40 +422,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Emergency dental/optical treatment following accident</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Funeral expensesl</td>
-                                                <td> 50,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 25,000 </td>
-                                                <td> 25,000 </td>
-                                                <td> 20,000 </td>
-                                                <td> 20,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Post Hospitalization Treatment reimbursement only limited to the first 2 weeks
-                                                    after discharge</td>
-                                                <td> 25,000 </td>
-                                                <td> 20,000 </td>
-                                                <td> 15,000 </td>
-                                                <td> 10,000 </td>
-                                                <td> 10,000 </td>
-                                                <td> 7,500 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Accommodation costs for 1 parent staying in hospital with insured child under
-                                                    8 years.</td>
-                                                <td> Covered </td>
+                                                <td>Accommodation costs for 1 parent staying in hospital
+                                                    with insured child under 10 years</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -459,22 +438,31 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
-                                                <td>Home Nursing (on doctor’s recommendation)</td>
-                                                <td> Up to a maximum of 30 days </td>
-                                                <td> Up to a maximum of 30 days </td>
-                                                <td> Up to a maximum of 30 days </td>
-                                                <td> Up to a maximum of 30 days </td>
-                                                <td> Up to a maximum of 30 days </td>
-                                                <td> Up to a maximum of 30 days </td>
+                                                <td>Nursing at home (on doctor’s recommendation)</td>
+                                                <td> 30 Days </td>
+                                                <td> 30 Days </td>
+                                                <td> 30 Days </td>
+                                                <td> 30 Days </td>
+                                                <td> 30 Days </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Local ambulance to hospital for emergency cases</td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Treatment outside East Africa RESTRICTED TO INDIA
+                                                    where treatment is not locally available (Pre-authorisation
+                                                    required) On reimbursement basis. Air fare Costs for patient
+                                                    only on a scheduled flight in Economy Class</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -489,29 +477,64 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>1st ever emergency C-section &/or maternity related complications
                                                     after being on cover for 12 months.</td>
+                                                <td> 100,000 </td>
+                                                <td> 100,000 </td>
                                                 <td> 75,000 </td>
                                                 <td> 50,000 </td>
-                                                <td> 40,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 30,000 </td>
+                                                <td> 50,000 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>In Patient non-accidental Ophthalmology : includes cost of cataract removal (1 year waiting period)</td>
+                                                <td> 100,000 </td>
+                                                <td> 75,000 </td>
                                                 <td> 75,000 </td>
                                                 <td> 50,000 </td>
-                                                <td> 40,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 30,000 </td>
-                                                <td> 30,000 </td>
+                                                <td> 50,000 </td>
                                             </tr>
+
+                                            <tr>
+                                                <td>In Patient non-accidental Dental (1 year waiting period)</td>
+                                                <td> 100,000 </td>
+                                                <td> 75,000 </td>
+                                                <td> 75,000 </td>
+                                                <td> 50,000 </td>
+                                                <td> 50,000 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Reconstructive surgery following an accident</td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Emergency dental / optical treatment following accident</td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Funeral expenses</td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                            </tr>
+
+
 
 
                                         </tbody>
@@ -521,7 +544,7 @@
                             </div>
                         </div>
 
-                        <!-- BENEFITS OUTPATIENT-->
+                        <!-- BENEFITS INPATIENT-->
 
                         <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
 
@@ -536,27 +559,23 @@
                                         <thead class="head-text">
                                             <tr>
                                                 <th>Annual Limits Per Person</th>
-                                                <th>30,000</th>
-                                                <th>40,000</th>
-                                                <th>50,000 </th>
-                                                <th>75,000 </th>
+                                                <th>50,000</th>
+                                                <th>75,000</th>
                                                 <th>100,000 </th>
-
+                                                <th>150,000 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>Maximum Consultation Limit per visit</td>
-                                                <td>1,000</td>
-                                                <td>1,000</td>
-                                                <td>1,500</td>
-                                                <td>1,500 </td>
-                                                <td>1,500 </td>
+                                                <td>2,000</td>
+                                                <td>2,500</td>
+                                                <td>3,000 </td>
+                                                <td>3,000 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Physicians consultation fees</td>
-                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -569,22 +588,19 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
                                             </tr>
 
                                             <tr>
                                                 <td>Specialists fees (strictly on referral by a GP)</td>
-                                                <td> 2,000 </td>
-                                                <td> 2,000 </td>
-                                                <td> 2,000 </td>
-                                                <td> 2,000 </td>
-                                                <td> 2,000 </td>
+                                                <td> Covered up to 3,000 </td>
+                                                <td> Covered up to 3,000 </td>
+                                                <td> Covered up to 3,500 </td>
+                                                <td> Covered up to 4,000 </td>
 
                                             </tr>
 
                                             <tr>
                                                 <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
-                                                <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -595,6 +611,14 @@
                                             <tr>
                                                 <td>Physiotherapy prescribed by a GP</td>
                                                 <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+                                                <td> Covered </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -609,9 +633,26 @@
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
-                                                <td> Covered </td>
 
                                             </tr>
+
+                                            <tr>
+                                                <td>KEPI recommended vaccines covered for children upto 18 months</td>
+                                                <td> 7,500 </td>
+                                                <td> 7,500 </td>
+                                                <td> 7,500 </td>
+                                                <td> 7,500 </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td>General Health Check-up for members from Age 21 and above</td>
+                                                <td> 5,000 </td>
+                                                <td> 7,500 </td>
+                                                <td> 10,000 </td>
+                                                <td> 10,000 </td>
+                                            </tr>
+
                                         </tbody>
                                     </table>
 
@@ -667,7 +708,7 @@
 
     <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
     <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
+    <div id="modal-close-outside" class="back-brochure" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
 
@@ -675,35 +716,35 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
+                    <!-- <a href="pdf/Jamii_Plus _Brochure.pdf">
                         <h2>Browsure</h2>
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Outpatient Claim Form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Calim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
             </div>
@@ -712,35 +753,35 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Dental authorization</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
                         <p>Optical Claim Form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/jamii">
+                    <!-- <a href="pdf/jamii">
                         <h2>Calim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
                         <hr>
                         <p>Dowload</p>
-                    </a>
+                    </a> -->
                 </div>
 
             </div>
@@ -756,7 +797,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -792,13 +833,13 @@
                         </div>
 
                         <div class="container">
-                            <div class="row">
+                            <div class ="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> DOB (optional) </label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
                                 </div>
-                            </div>
-                            <div class="row">
+                            </div>    
+                            <div class ="row">       
                                 <div class="form-group col-md-6">
                                     <label for="model">Name of Beneficiary</label>
                                     <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
@@ -808,17 +849,17 @@
                                     <label for="value">DOB of Beneficiaries </label>
                                     <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
-                            </div>
-                            <div class="row">
+                            </div>   
+                             <div class ="row">    
                                 <div class=" form-group col-md-6">
                                     <label for="yom">Relationship of Beneficiary</label>
                                     <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <br>
-                                    <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
+                                   <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
                                 </div>
-                            </div>
+                              </div>  
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">
@@ -831,7 +872,6 @@
                             </div>
                         </div>
                     </form>
-
                 </div>
             </div>
         </div>
@@ -839,6 +879,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
