@@ -833,27 +833,33 @@
                         </div>
 
                         <div class="container">
-                            <div class="row">
+                            <div class ="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> DOB (optional) </label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <label for="model">Beneficiaries</label>
+                            </div>    
+                            <div class ="row">       
+                                <div class="form-group col-md-6">
+                                    <label for="model">Name of Beneficiary</label>
                                     <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
                                 </div>
-                            </div>
 
-                            <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="value">DOB of Beneficiaries </label>
                                     <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
+                            </div>   
+                             <div class ="row">    
                                 <div class=" form-group col-md-6">
-                                    <label for="yom">Relationship of Beneficiaries</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                    <label for="yom">Relationship of Beneficiary</label>
+                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
                                 </div>
-                            </div>
+                                <div class=" form-group col-md-6">
+                                    <br>
+                                   <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
+                                </div>
+                              </div>  
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">

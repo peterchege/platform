@@ -242,7 +242,7 @@
                             <h2> Enhanced Personal Accident <br> (Flexpac) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">We also provide a student’s personal accident 
+                        <p class="text-justify">We also provide a student’s personal accident
                             cover to individuals, schools and organized groups on reasonable ...
                         </p>
                         <!-- button click -->
@@ -391,8 +391,8 @@
                             <h2> Cancer Care <br>(Femina) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">There are two common threats to women’s lives today – Breast Cancer and 
+                            Cervical Cancer. In most cases, these two are rarely diagnosed...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -401,7 +401,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_femina.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
                         </div>
 
