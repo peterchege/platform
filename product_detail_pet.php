@@ -265,23 +265,23 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="property">Type of Pets</label>
-                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                    <label for="pet_type">Type of Pet</label>
+                                    <select id="pet_type" name="pet_type" class="form-control selectFilter" data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="owner" value="owner"> Dog </option>
-                                        <option data-ref="tenant" name="tenant" value="tenant"> Cat </option>
-                                        <option data-ref="owner" name="owner" value="owner"> others </option>
+                                        <option data-ref="" name="dog" value="Dog">Dog </option>
+                                        <option data-ref="" name="cat" value="Cat">Cat </option>
+                                        <option data-ref="" name="other" value="Other">Other</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Number of Pet</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400" value="">
+                                    <label for="inputAddress2">Number of Pets</label>
+                                    <input name="pet_number" type="text" class="form-control value" id="pet_number" placeholder="50" value="">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value"> Value of Pet (Kshs)</label>
+                                    <label for="value"> Value of Pets (Kshs)</label>
                                     <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="">
                                 </div>
 
