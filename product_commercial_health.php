@@ -25,7 +25,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 jamii-background">
+        <div class="header-image header-image1 com-1">
         </div>
     </div>
 
@@ -797,7 +797,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -805,22 +805,22 @@
                         <h3 for="inputAddress" class="comp-detail">COMPANY DETAILS</h3>
                         <div class="container">
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="full_name"> Name of Organisation/company</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number of contact person</label>
                                     <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="email">Email Address of contact person</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-6">
+                                <div class=" form-group col-md-12">
                                     <label for="location">Location of orginasation/Company</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
                                 </div>
@@ -847,7 +847,7 @@
                                         <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
                                         <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
                                         <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
-                                        
+
                                     </select>
                                 </div>
                             </div>

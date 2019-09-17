@@ -128,6 +128,11 @@
     background-image: url(../images/funds-03.jpeg);
 }
 
+/* images of commercial products */
+
+.com-1 {
+    background-image: url(../img/health.jpg);
+}
 
 /* .prod:hover {
     transform: scale(1.05);
