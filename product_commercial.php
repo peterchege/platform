@@ -175,7 +175,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-1">
+                        <div class="box-container-img com-5">
                             <div class="overlay">
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
