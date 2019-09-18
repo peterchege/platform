@@ -11,7 +11,7 @@ if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 } else if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
 	$db = mysqli_connect('localhost', 'root', '', 'apa');
 } else {
-	echo 'No database connection set!';
+	//echo 'No database connection set!';
 	$db = mysqli_connect('vinehub.co.ke', 'vinehubc_apa_admin', 'apa_admin', 'vinehubc_apa');
 }
 
