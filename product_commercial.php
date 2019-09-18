@@ -158,7 +158,7 @@
                             <h2 class="text-center">Group Credit Life</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower, 
+                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower,
                             the remaining principal balance, assuming the borrower had made all the due installments...
                         </p>
                         <!-- button click -->
@@ -175,7 +175,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-1">
+                        <div class="box-container-img com-5">
                             <div class="overlay">
                             </div>
                         </div>
@@ -193,14 +193,14 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img com-6">
                             <div class="overlay">
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_theft.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -230,7 +230,7 @@
                 <!-- NEW ROW 3 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img com-7">
                             <div class="overlay">
                             </div>
                         </div>
@@ -248,7 +248,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_aviation.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

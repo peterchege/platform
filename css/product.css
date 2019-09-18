@@ -142,6 +142,15 @@
 .com-4 {
     background-image: url(../img/credit.jpg);
 }
+.com-5 {
+    background-image: url(../img/liability.jpg);
+}
+.com-6 {
+    background-image: url(../img/burglary.jpg);
+}
+.com-7 {
+    background-image: url(../img/aviation.jpg);
+}
 
 /* .prod:hover {
     transform: scale(1.05);
