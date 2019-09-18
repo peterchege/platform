@@ -6,14 +6,12 @@
 if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 	//make sure vhost file in apache folder has same information as $_SERVER['DOCUMENT_ROOT'
 	$db = mysqli_connect('localhost', 'root', 'VDW-pNs-Mk6-gLQ', 'dev_website');
-} else if ($_SERVER['DOCUMENT_ROOT'] == '') {
+} else if ($_SERVER['DOCUMENT_ROOT'] == '/home/vinehubc/public_html/test') {
 	$db = mysqli_connect('vinehub.co.ke', 'vinehubc_apa_admin', 'apa_admin', 'vinehubc_apa');
 } else if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
 	$db = mysqli_connect('localhost', 'root', '', 'apa');
 } else {
-	echo $_SERVER['DOCUMENT_ROOT'];
-	exit;
-	$db = mysqli_connect('vinehub.co.ke', 'vinehubc_apa_admin', 'apa_admin', 'vinehubc_apa');
+	echo "No database connection set!";
 }
 
 
