@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 17/09/2019 08:17:04
+ Date: 18/09/2019 10:17:51
 */
 
 SET NAMES utf8mb4;
@@ -507,7 +507,7 @@ CREATE TABLE `pr_dp_calculator_customer_quotations`  (
   `created_at` datetime(6) NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime(6) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of pr_dp_calculator_customer_quotations
@@ -524,6 +524,7 @@ INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (9, 'John Doe', '71234
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (10, 'GILBERT NJOROGE', '0700658856', 'P@gmail.cm', 'Nairobi', 'owner', 80000000, 95555, 5222, NULL, NULL, '2019-09-13 10:31:07.000000', '2019-09-13 10:31:07.000000');
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (11, 'name', '7006588564', 'anthonybaru@gmail.com', 'Mombasa', 'tenant', NULL, 464651841, 50000, 56666, 65456, '2019-09-13 15:28:43.979475', '2019-09-13 15:28:43.979475');
 INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (12, 'John Doe', '712345678', 'johndoe@gmail.com', 'nairobi', 'owner', 300000, NULL, NULL, 200000, NULL, '2019-09-16 09:29:18.188682', '2019-09-16 09:29:18.188682');
+INSERT INTO `pr_dp_calculator_customer_quotations` VALUES (13, 'name', '7006588564', 'p@gmail.com', 'Nairobi', 'owner', 20000000, NULL, NULL, 30000, NULL, '2019-09-17 14:46:31.130522', '2019-09-17 14:46:31.130522');
 
 -- ----------------------------
 -- Table structure for pr_dp_contents
@@ -699,12 +700,12 @@ INSERT INTO `pr_dp_premises` VALUES (13, 'Tenant', 1665378265, 'PLOT NO. 1870/VI
 DROP TABLE IF EXISTS `products`;
 CREATE TABLE `products`  (
   `product_id` int(11) NOT NULL AUTO_INCREMENT,
-  `product_name` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `product_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `created_at` timestamp(0) NULL DEFAULT NULL,
   `updated_at` timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (`product_id`) USING BTREE,
   UNIQUE INDEX `product_name`(`product_name`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 51 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 52 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products
@@ -719,18 +720,18 @@ INSERT INTO `products` VALUES (12, 'PERSONAL ACCIDENT', '2019-09-11 11:40:19', '
 INSERT INTO `products` VALUES (13, 'GOLFERS', '2019-09-11 11:40:37', '2019-09-11 11:40:40');
 INSERT INTO `products` VALUES (14, 'FAMILY HEALTH COVER/JAMII PLUS', '2019-09-11 11:41:10', '2019-09-11 11:41:13');
 INSERT INTO `products` VALUES (15, 'FAMILY HEALTH COVER/AFYA NAFUU', '2019-09-11 11:41:31', '2019-09-11 11:41:34');
-INSERT INTO `products` VALUES (16, 'CANCER CARE(FEMINA)', '2019-09-11 11:42:13', '2019-09-11 11:42:17');
+INSERT INTO `products` VALUES (16, 'CANCER CARE/FEMINA', '2019-09-11 11:42:13', '2019-09-11 11:42:17');
 INSERT INTO `products` VALUES (17, 'ER CARD', '2019-09-11 11:42:29', '2019-09-11 11:42:33');
-INSERT INTO `products` VALUES (18, 'FIXED SAVINGS PLAN(IMARIKA)', '2019-09-11 11:44:47', '2019-09-11 11:44:50');
-INSERT INTO `products` VALUES (19, 'ANTICIPATED SAVINGS(AKIBA HALI', '2019-09-11 11:45:37', '2019-09-11 11:45:40');
-INSERT INTO `products` VALUES (20, 'EDUCATION PLAN(ELIMU)', '2019-09-11 11:46:14', '2019-09-11 11:46:18');
+INSERT INTO `products` VALUES (18, 'FIXED SAVINGS PLAN/IMARIKA', '2019-09-11 11:44:47', '2019-09-11 11:44:50');
+INSERT INTO `products` VALUES (19, 'ANTICIPATED SAVINGS/AKIBA HALI', '2019-09-11 11:45:37', '2019-09-11 11:45:40');
+INSERT INTO `products` VALUES (20, 'EDUCATION PLAN/ELIMU', '2019-09-11 11:46:14', '2019-09-11 11:46:18');
 INSERT INTO `products` VALUES (21, 'HOSPITALISATION LOSS OF INCOME', '2019-09-11 11:46:51', '2019-09-11 11:46:55');
-INSERT INTO `products` VALUES (22, 'FUNERAL EXPENSE COVER(PUMZISHA', '2019-09-11 11:51:41', '2019-09-11 11:51:46');
-INSERT INTO `products` VALUES (23, 'LIFE COVER(TERM ASSURANCE)', '2019-09-11 11:52:56', '2019-09-11 11:53:00');
-INSERT INTO `products` VALUES (24, 'INDIVUDUAL PENSION PLAN(IPP)', '2019-09-11 11:53:03', '2019-09-11 11:53:15');
+INSERT INTO `products` VALUES (22, 'FUNERAL EXPENSE COVER/PUMZISHA', '2019-09-11 11:51:41', '2019-09-11 11:51:46');
+INSERT INTO `products` VALUES (23, 'LIFE COVER/TERM ASSURANCE', '2019-09-11 11:52:56', '2019-09-11 11:53:00');
+INSERT INTO `products` VALUES (24, 'INDIVUDUAL PENSION PLAN/IPP', '2019-09-11 11:53:03', '2019-09-11 11:53:15');
 INSERT INTO `products` VALUES (25, 'MORTGAGE PROTECTION', '2019-09-11 11:53:22', '2019-09-11 11:53:24');
 INSERT INTO `products` VALUES (26, 'MOTOR COMMERCIAL', '2019-09-11 11:59:08', '2019-09-11 11:59:10');
-INSERT INTO `products` VALUES (27, 'MOTOR CYCLE(PSV)', '2019-09-11 11:59:14', '2019-09-11 11:59:13');
+INSERT INTO `products` VALUES (27, 'MOTOR CYCLE/PSV', '2019-09-11 11:59:14', '2019-09-11 11:59:13');
 INSERT INTO `products` VALUES (28, 'MOTOR TRADE', '2019-09-11 11:59:16', '2019-09-11 11:59:17');
 INSERT INTO `products` VALUES (29, 'FIRE AND PERILS', '2019-09-11 11:59:20', '2019-09-11 11:59:19');
 INSERT INTO `products` VALUES (30, 'WIBA AND PERSONAL ACCIDENT', '2019-09-11 11:59:22', '2019-09-11 11:59:23');
@@ -740,7 +741,7 @@ INSERT INTO `products` VALUES (33, 'LIABILITY', '2019-09-11 11:59:36', '2019-09-
 INSERT INTO `products` VALUES (34, 'MARINE', '2019-09-11 11:59:38', '2019-09-11 11:59:39');
 INSERT INTO `products` VALUES (35, 'AVIATION', '2019-09-11 11:59:41', '2019-09-11 11:59:43');
 INSERT INTO `products` VALUES (36, 'SPECIAL PACKAGE COVERS', '2019-09-11 11:59:43', '2019-09-11 11:59:44');
-INSERT INTO `products` VALUES (37, 'GOOD IN TRANSIT(GIT)', '2019-09-11 11:59:48', '2019-09-11 11:59:47');
+INSERT INTO `products` VALUES (37, 'GOOD IN TRANSIT/GIT', '2019-09-11 11:59:48', '2019-09-11 11:59:47');
 INSERT INTO `products` VALUES (38, 'BONDS', '2019-09-11 11:59:49', '2019-09-11 11:59:50');
 INSERT INTO `products` VALUES (39, 'PLATE GLASS', '2019-09-11 11:59:52', '2019-09-11 11:59:51');
 INSERT INTO `products` VALUES (40, 'HEALTH CORPORATE', '2019-09-11 11:59:53', '2019-09-11 11:59:54');
@@ -752,6 +753,7 @@ INSERT INTO `products` VALUES (45, 'APOLLO BALANCED FUND', '2019-09-11 12:00:04'
 INSERT INTO `products` VALUES (46, 'APOLLO EQUITY FUND', '2019-09-11 12:00:08', '2019-09-11 12:00:44');
 INSERT INTO `products` VALUES (47, 'APOLLO MONEY MARKET FUND', '2019-09-11 12:00:09', '2019-09-11 12:00:45');
 INSERT INTO `products` VALUES (50, 'NULL', '2019-09-11 18:58:14', '2019-09-11 18:58:16');
+INSERT INTO `products` VALUES (51, 'ENHANCED PERSONAL ACCIDENT/FLEXPAX', '2019-09-17 08:30:20', '2019-09-17 08:30:23');
 
 -- ----------------------------
 -- Table structure for products_categories
@@ -801,14 +803,32 @@ CREATE TABLE `products_leads`  (
   `destination` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `created_at` datetime(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `property` enum('Owner','Tenant') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `covers` set('All Covers','Building','Contents','All Risk','Domestic Employees') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
+  `covers` set('All Covers','Building','Contents','All Risk','Domestic Employees','Inpatient Only','Inpatient and Outpatient','Inpatient and Outpatient and other Riders') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
   `occupation` enum('Casual Golfer','Golfer','Professional Golfer') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `pet_type` enum('Dog','Cat','Other') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `pet_number` int(10) NULL DEFAULT NULL,
+  `population_staff` int(10) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `leads_product_id`(`leads_product_id`) USING BTREE,
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of products_leads
+-- ----------------------------
+INSERT INTO `products_leads` VALUES (1, 13, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'undefined', 'undefined', 8000000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 08:22:39.000000', '', '', 'Golfer', NULL, NULL, NULL);
+INSERT INTO `products_leads` VALUES (2, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'Mercedez', 'civic', 8000000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 11:20:47.000000', '', '', '', NULL, NULL, NULL);
+INSERT INTO `products_leads` VALUES (3, 6, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakuru', 'suzuki', 'black', 80000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 11:25:22.000000', '', '', '', NULL, NULL, NULL);
+INSERT INTO `products_leads` VALUES (4, 8, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'honda', 'black', 8000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 11:26:36.000000', '', '', '', NULL, NULL, NULL);
+INSERT INTO `products_leads` VALUES (5, 11, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Nakus', 'undefined', 'undefined', 8000000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 12:06:29.000000', '', '', '', 'Cat', 5, NULL);
+INSERT INTO `products_leads` VALUES (6, 11, 14, 'name', 'johndoe@gmail.com', '4265412654', 'nairobi', 'undefined', 'undefined', 800005, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 12:08:37.000000', '', '', '', 'Other', 5, NULL);
+INSERT INTO `products_leads` VALUES (7, 14, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Seremala Inc', '3', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 16:09:56.000000', '', 'All Covers', '', '', 0, NULL);
+INSERT INTO `products_leads` VALUES (8, 14, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Seremala Inc', '8', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 16:10:23.000000', '', 'All Covers', '', '', 0, NULL);
+INSERT INTO `products_leads` VALUES (9, 40, 14, 'Seremala Inc', 'janedoe@gmail.com', '712365478', 'JaneDoeInc', 'undefined', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 17:11:42.000000', '', 'Inpatient Only', '', '', 0, 0);
+INSERT INTO `products_leads` VALUES (10, 40, 14, 'Seremala Inc', 'janedoe@gmail.com', '712365478', 'JaneDoeInc', 'undefined', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 17:15:03.000000', '', 'Inpatient Only', '', '', 0, 20000);
+INSERT INTO `products_leads` VALUES (11, 6, 14, 'name', 'p@gmail.com', '4265412654', 'Mombasa', 'honda', 'civic', 8000000, 2019, '', '0000-00-00', '0000-00-00', 'undefined', '2019-09-17 18:17:56.000000', '', '', '', '', 0, 0);
 
 -- ----------------------------
 -- Table structure for ref_jobs
