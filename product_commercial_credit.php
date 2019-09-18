@@ -25,7 +25,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 com-3">
+        <div class="header-image header-image1 com-4">
         </div>
     </div>
 
@@ -41,9 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
                         </li>
@@ -59,79 +57,19 @@
 
                             <div class="job-description text-center">
 
-                                <h2>Group Life </h2>
-                                <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
-                                    is a
-                                    happy family.
-                                    This is why we have medical insurance products designed to cover individuals and families.
-                                    Our main products include:
-                                    Inpatient cover is the core cover.
-                                    With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
-                                    cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
-                                    many
-                                    more others.</P>
+                                <h2>Group Credit Life </h2>
+                                <P class="text-justify">This is a life insurance policy designed to pay, for a borrower, the remaining principal balance, assuming the borrower
+                                    had made all the due installments.</P>
+                                <P class="text-justify">The policy applies in case of death, disability or even loss of employment of the borrower of a
+                                    lending institution during the term of their loan.</P>
+                                <P class="text-justify">Lending institution includes: Banks, Microfinance and Saccos.</P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
+                                    <h2>What is the purpose of Credit Life Insurance?</h2>
 
-                                    <div class="row cover-jamii">
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-procedures"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Bed Charges</h3>
-                                                    <p>Including all accommodation expenses net of NHIF during your stay in the
-                                                        hospital. Whether in the Wards, HDU or ICU.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-pills"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Medication</h3>
-                                                    <p>All prescribed drugs and dressings through our designated partners.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-user-md"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Doctor’s Fees</h3>
-                                                    <p>Any doctorrelated charges including those of physicians, surgeons, anesthetists
-                                                        and specialists for visits and consultations.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-stethoscope"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Diagnostics</h3>
-                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT Scans</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
+                                    <p2 class="text-center">The cover is meant to protect the lending institution against risk of unexpected death, disability or even loss of employment of a borrower.
+                                        This ensures that the lending institution gets paid.</p2>
+                                    <br><br>
 
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
@@ -797,7 +735,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/group.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -837,24 +775,6 @@
                                 <div class="form-group col-md-12">
                                     <label for="population_staff"> Population of staff </label>
                                     <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="model">Type of Cover</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-<<<<<<< HEAD
-                                        <option data-ref="" name="" value="Inpatient Only"> Inpatient only </option>
-                                        <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient & Outpatient </option>
-                                        <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient & Outpatient & other riders </option>
-=======
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
-                                        <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
-                                        <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
->>>>>>> a9ef250d52c7322b0d779cf2a616496446a6f2aa
-
-                                    </select>
                                 </div>
                             </div>
 
