@@ -150,7 +150,7 @@
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img com-4">
                             <div class="overlay">
                             </div>
                         </div>
@@ -158,18 +158,17 @@
                             <h2 class="text-center">Group Credit Life</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
-
+                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower, 
+                            the remaining principal balance, assuming the borrower had made all the due installments...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_credit.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
