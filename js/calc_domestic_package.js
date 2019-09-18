@@ -155,9 +155,6 @@ $(document).ready(function () {
         sessionStorage.setItem('domestic_amount', domestic_amount);
         sessionStorage.setItem('liability_amount', liability_amount);
         sessionStorage.setItem('property', property);
-
-        alert(localStorage.getItem('email'));
-        console.log(localStorage);
     });
 
 });
