@@ -200,7 +200,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img com-6">
                             <div class="overlay">
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_theft.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
