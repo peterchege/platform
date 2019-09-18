@@ -27,7 +27,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image11">
+        <div class="header-image header-image1 travel-background">
         </div>
     </div>
 
