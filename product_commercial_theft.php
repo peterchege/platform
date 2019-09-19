@@ -820,8 +820,8 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
-                                    <label for="location">Occupation</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <label for="occupation">Occupation</label>
+                                    <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
                                 </div>
                             </div>
 
@@ -834,7 +834,7 @@
                                 </div>
                             </div> -->
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="12">
+                                <input type="hidden" id="product_id" name="product_id" value="31">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">

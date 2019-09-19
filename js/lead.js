@@ -23,8 +23,13 @@ $(document).ready(function () {
         var property = $('#property').find(':selected').val();
         var cover = $('#cover').find(':selected').val();
 
-        //golfers
-        var occupation = $('#occupation').find(':selected').val();
+        //golfers and theft
+        if ($('#occupation').find(':selected').val() != undefined) {
+            occupation = $('#occupation').find(':selected').val()
+        } else {
+            occupation = $('#occupation').val();
+        }
+
 
         //pet
         var pet_type = $('#pet_type').find(':selected').val();
@@ -41,6 +46,8 @@ $(document).ready(function () {
         var geographical_scope = $('#geographical_scope').val();
         var pilot_details = $('input[name="pilot_details"]').val();
         var pilot_details = numeral(pilot_details).value();
+        //theft
+        //var occupation_theft = $('#occupation').val();
 
         var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&pet_type=' + pet_type + '&population_staff=' + population_staff + '&max_take_off_weight=' + max_take_off_weight + '&geographical_scope=' + geographical_scope + '&pilot_details=' + pilot_details;
 

@@ -28,7 +28,7 @@ switch ($_GET['mode']) {
         //domestic
         $property = filter_var(mysqli_real_escape_string($db, $_POST['property']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
         $cover = filter_var(mysqli_real_escape_string($db, $_POST['cover']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-        //golfers
+        //golfers and theft
         $occupation = filter_var(mysqli_real_escape_string($db, $_POST['occupation']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
         //pet
         $pet_number = filter_var(mysqli_real_escape_string($db, $_POST['pet_number']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
