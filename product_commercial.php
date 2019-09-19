@@ -288,8 +288,8 @@
                             <h2 class="text-center"> Workman's Compensation</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees 
-                            of the Insured whilst on duty and engaged in the execution 
+                        <p class="text-justify">This policy covers the employees
+                            of the Insured whilst on duty and engaged in the execution
                             of the Insured’s business &/or any project undertaken...
                         </p>
                         <!-- button click -->
@@ -309,7 +309,7 @@
                 <!-- NEW ROW 4 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img com-10">
                             <div class="overlay">
                             </div>
                         </div>
@@ -317,8 +317,8 @@
                             <h2 class="text-center"> Fire Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or 
+                            damage to the property insured arising from fire as well as ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -327,7 +327,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_fire.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
