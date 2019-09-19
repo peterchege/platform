@@ -317,7 +317,7 @@
                             <h2 class="text-center"> Fire Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy will indemnify the insured against the loss of or 
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or
                             damage to the property insured arising from fire as well as ...
                         </p>
                         <!-- button click -->
@@ -334,7 +334,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-11">
                             <div class="overlay">
                             </div>
                         </div>
@@ -352,7 +352,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_bonds.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
