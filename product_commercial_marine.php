@@ -25,7 +25,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 com-7">
+        <div class="header-image header-image1 com-8">
         </div>
     </div>
 
@@ -56,13 +56,12 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Aviation Cover </h2>
-                                <P class="text-justify">Motor Comprehensive Insurance also known as Own Damage Insurance covers damages to your motor vehicle following an
-                                    accident, fire, flood or malicious damage. It also covers the theft of the vehicle and the third party liability arising out of the use
-                                    of the vehicle. The geographical coverage is Kenya, but can be extended to cover East Africa.</P>
+                                <h2> Marine Cover </h2>
+                                <P class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other interests against loss or damage whilst
+                                    being transported by rail, road, sea and/or air from the port of loading to the final destination.</P>
 
-                                <P class="text-justify">APA has a wide network of garages and other service providers where clients can take their vehicles for repairs and
-                                    enjoy cashless service.</P>
+                                <P class="text-justify">It is ideal for both individuals and corporates transporting goods inland, importing or exporting like manufacturers, 
+                                    wholesalers, miners and producers.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
@@ -428,7 +427,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/cargo.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -445,14 +444,14 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <!-- <div class=" form-group col-md-6">
+                                <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div> -->
+                                </div>
                             </div>
 
 
@@ -465,7 +464,7 @@
                         <div class="container1">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="make">Aircraft Make</label>
+                                    <label for="make">Type of </label>
                                     <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -486,23 +485,23 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="max_take_off_weight">Maximum take off weight</label>
-                                    <input name="max_take_off_weight" type="text" class="form-control value" id="max_take_off_weight" placeholder="" value="" required>
+                                    <label for="value">Maximum take of weight</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="geographical_scope">Geographical-scope purpose of use</label>
-                                    <input name="geographical_scope" type="text" class="form-control" id="geographical_scope" placeholder="" value="" required>
+                                    <label for="inputAddress2">Geographical-scope purpose of use</label>
+                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Pilot details (Hours of experience on) </label>
-                                    <input name="email" type="text" class="form-control value" id="email" placeholder="" value="">
+                                    <input name="email" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
 
                             </div>
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="35">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">

@@ -255,7 +255,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-8">
                             <div class="overlay">
                             </div>
                         </div>
@@ -263,17 +263,17 @@
                             <h2 class="text-center">Marine Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other 
+                            interests against loss or damage whilst being transported...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_marine.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
