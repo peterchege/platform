@@ -572,6 +572,14 @@
                                     <label for="occupation">Occupation</label>
                                     <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
                                 </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="property">Property status</label>
+                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="owner" value="owner">Owner</option>
+                                        <option data-ref="tenant" name="tenant" value="tenant">Occupatant (Tenant)</option>
+                                    </select>
+                                </div>
                             </div>
 
                         </div>
