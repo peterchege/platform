@@ -486,23 +486,23 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="value">Maximum take of weight</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <label for="max_take_off_weight">Maximum take off weight</label>
+                                    <input name="max_take_off_weight" type="text" class="form-control value" id="max_take_off_weight" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Geographical-scope purpose of use</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                    <label for="geographical_scope">Geographical-scope purpose of use</label>
+                                    <input name="geographical_scope" type="text" class="form-control" id="geographical_scope" placeholder="" value="" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Pilot details (Hours of experience on) </label>
-                                    <input name="email" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="text" class="form-control value" id="email" placeholder="" value="">
                                 </div>
 
                             </div>
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_id" name="product_id" value="35">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
