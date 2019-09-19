@@ -342,8 +342,8 @@
                             <h2 class="text-center">Bonds</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">Bonds provide a guarantee that projects will be completed as expected – 
+                            even if the contractor fails. Bonds are an inexpensive way to protect the...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
