@@ -496,8 +496,8 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="email">Pilot details (Hours of experience on) </label>
-                                    <input name="email" type="text" class="form-control value" id="email" placeholder="" value="">
+                                    <label for="pilot_details">Pilot details (Hours of experience on) </label>
+                                    <input name="pilot_details" type="text" class="form-control value" id="pilot_details" placeholder="" value="" required>
                                 </div>
 
                             </div>
