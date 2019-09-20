@@ -468,7 +468,7 @@
                 <!-- NEW ROW 6 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-14">
+                        <div class="box-container-img com-16">
                             <div class="overlay">
                             </div>
                         </div>
@@ -486,14 +486,14 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_miscellaneous.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-16">
                             <div class="overlay">
                             </div>
                         </div>
