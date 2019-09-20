@@ -844,15 +844,14 @@
                                     <label for="model">Type of Cover</label>
                                     <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                         <option value="-1" selected disabled>Choose...</option>
-<<<<<<< HEAD
-                                        <option data-ref="" name="" value="Inpatient Only"> Inpatient only </option>
-                                        <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient & Outpatient </option>
-                                        <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient & Outpatient & other riders </option>
-=======
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
-                                        <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
-                                        <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
->>>>>>> a9ef250d52c7322b0d779cf2a616496446a6f2aa
+                                        <<<<<<< HEAD <option data-ref="" name="" value="Inpatient Only"> Inpatient only </option>
+                                            <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient & Outpatient </option>
+                                            <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient & Outpatient & other riders </option>
+                                            =======
+                                            <option data-ref="owner" name="all_covers" value="All Covers"> Inpatient only </option>
+                                            <option data-ref="owner" name="building" value="Building"> Inpatient & Outpatient </option>
+                                            <option data-ref="tenant" name="contents" value="Contents"> Inpatient & Outpatient & other riders </option>
+                                            >>>>>>> a9ef250d52c7322b0d779cf2a616496446a6f2aa
 
                                     </select>
                                 </div>
