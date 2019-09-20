@@ -37,13 +37,15 @@ switch ($_GET['mode']) {
             if (is_array($_POST['type'])) {
                 $type = '';
                 foreach ($_POST['type'] as $list) {
-                    $filtered = filter_var(mysqli_real_escape_string($db, $list), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+                    $filtered = ((isset($_POST['type'])) ? filter_var(mysqli_real_escape_string($db, $list), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
                     $type .= $filtered . ',';
                 }
                 $type = substr($type, 0, -1);
-            } else {
-                $type = filter_var(mysqli_real_escape_string($db, $_POST['type']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            } elseif (!isset($_POST['type'])) {
+                $type = ((isset($_POST['type'])) ? filter_var(mysqli_real_escape_string($db, $_POST['type']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
             }
+        } else {
+            $type = '';
         }
 
         //corporate health
