@@ -342,7 +342,7 @@
                             <h2 class="text-center">Bonds</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Bonds provide a guarantee that projects will be completed as expected – 
+                        <p class="text-justify">Bonds provide a guarantee that projects will be completed as expected –
                             even if the contractor fails. Bonds are an inexpensive way to protect the...
                         </p>
                         <!-- button click -->
@@ -359,7 +359,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img com-12">
                             <div class="overlay">
                             </div>
                         </div>
@@ -367,10 +367,10 @@
                             <h2 class="text-center"> Pre-Packaged</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">This policy indemnifies the Insured against
+                            any sums for which the Insured becomes legally liable as a direct
+                            result of any negligent act, error or omission...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -378,7 +378,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_pre_package.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -388,7 +388,7 @@
                 <!-- NEW ROW 5 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img com-13">
                             <div class="overlay">
                             </div>
                         </div>
@@ -396,8 +396,9 @@
                             <h2 class="text-center"> Engineering Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Covers the “Contract Works” undertaken 
+                            by a contractor against any unforeseen accidental physical 
+                            loss or damage. Interests covered include but are ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -406,7 +407,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_engineer.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
