@@ -607,6 +607,8 @@
     ?>
     <script src=" js/parsley.min.js"> </script>
     <script src="js/lead.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+
 </body>
 
 </html>
