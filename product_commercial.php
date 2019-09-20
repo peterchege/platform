@@ -396,8 +396,8 @@
                             <h2 class="text-center"> Engineering Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Covers the “Contract Works” undertaken 
-                            by a contractor against any unforeseen accidental physical 
+                        <p class="text-justify">Covers the “Contract Works” undertaken
+                            by a contractor against any unforeseen accidental physical
                             loss or damage. Interests covered include but are ...
                         </p>
                         <!-- button click -->
@@ -414,7 +414,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-14">
                             <div class="overlay">
                             </div>
                         </div>
@@ -422,8 +422,8 @@
                             <h2 class="text-center">Good In Transit (GIT)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or damage to the property 
+                            insured arising from fire as well as from allied perils such as...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
