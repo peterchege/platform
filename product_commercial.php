@@ -238,8 +238,8 @@
                             <h2 class="text-center"> Aviation Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Physical damage insurance provided to cover loss or damage to the
+                            insured’s aircraft, while it is in motion, not in motion or for both...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -263,7 +263,7 @@
                             <h2 class="text-center">Marine Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other 
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other
                             interests against loss or damage whilst being transported...
                         </p>
                         <!-- button click -->
@@ -280,7 +280,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img com-9">
                             <div class="overlay">
                             </div>
                         </div>
@@ -288,18 +288,18 @@
                             <h2 class="text-center"> Workman's Compensation</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">This policy covers the employees
+                            of the Insured whilst on duty and engaged in the execution
+                            of the Insured’s business &/or any project undertaken...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -309,7 +309,7 @@
                 <!-- NEW ROW 4 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img com-10">
                             <div class="overlay">
                             </div>
                         </div>
@@ -317,8 +317,8 @@
                             <h2 class="text-center"> Fire Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or
+                            damage to the property insured arising from fire as well as ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -327,14 +327,14 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_fire.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-11">
                             <div class="overlay">
                             </div>
                         </div>
@@ -342,8 +342,8 @@
                             <h2 class="text-center">Bonds</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">Bonds provide a guarantee that projects will be completed as expected – 
+                            even if the contractor fails. Bonds are an inexpensive way to protect the...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -352,7 +352,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_bonds.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
