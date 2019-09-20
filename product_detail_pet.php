@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -263,14 +265,13 @@
                         </div>
 
                         <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                            <div class="row ">
+                                <div class="form-group col-md-12 pet-count">
                                     <label for="type">Type of Pet</label>
-                                    <select id="type" name="type" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="" name="dog" value="Dog">Dog </option>
-                                        <option data-ref="" name="cat" value="Cat">Cat </option>
-                                        <option data-ref="" name="other" value="Other">Other</option>
+                                    <select id="type" name="type[]" class="form-control type-pet" data-target="section" required multiple>
+                                        <option value="Dog">Dog </option>
+                                        <option value="Cat">Cat </option>
+                                        <option value="Other">Other</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-12">
@@ -307,6 +308,7 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
     <script src="js/parsley.min.js"></script>
     <script src="js/lead.js"></script>
 </body>
