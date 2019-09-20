@@ -31,8 +31,8 @@ $(document).ready(function () {
         }
 
 
-        //pet
-        var pet_type = $('#pet_type').find(':selected').val();
+        //pet and bonds
+        var type = $('#type').find(':selected').val();
         var pet_number = $('input[name="pet_number"]').val();
         var pet_number = numeral(pet_number).value();
 
@@ -49,7 +49,7 @@ $(document).ready(function () {
         //theft
         //var occupation_theft = $('#occupation').val();
 
-        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&pet_type=' + pet_type + '&population_staff=' + population_staff + '&max_take_off_weight=' + max_take_off_weight + '&geographical_scope=' + geographical_scope + '&pilot_details=' + pilot_details;
+        var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&type=' + type + '&population_staff=' + population_staff + '&max_take_off_weight=' + max_take_off_weight + '&geographical_scope=' + geographical_scope + '&pilot_details=' + pilot_details;
 
         $.ajax({
             type: "POST",

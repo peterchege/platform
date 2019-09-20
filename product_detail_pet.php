@@ -265,8 +265,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="pet_type">Type of Pet</label>
-                                    <select id="pet_type" name="pet_type" class="form-control selectFilter" data-target="section" required>
+                                    <label for="type">Type of Pet</label>
+                                    <select id="type" name="type" class="form-control selectFilter" data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option data-ref="" name="dog" value="Dog">Dog </option>
                                         <option data-ref="" name="cat" value="Cat">Cat </option>

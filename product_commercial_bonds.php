@@ -565,29 +565,29 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
-                                    <label for="property">Type of Bond</label>
-                                    <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                    <label for="type">Type of Bond</label>
+                                    <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="owner" value="owner">Tender Bonds</option>
-                                        <option data-ref="owner" name="owner" value="owner">Financial guarantee Bonds</option>
-                                        <option data-ref="owner" name="owner" value="owner">Advance Payment Bond</option>
-                                        <option data-ref="owner" name="owner" value="owner">Performance Bonds</option>
-                                        <option data-ref="owner" name="owner" value="owner">Work Permits/Security Bond</option>
-                                        <option data-ref="owner" name="owner" value="owner">Customs Bonds</option>
-                                        <option data-ref="owner" name="owner" value="owner">Retention Bonds</option>
-                                        <option data-ref="owner" name="owner" value="owner">Regional customs transit guarantee</option>
+                                        <option name="tender" value="Tender Bonds">Tender Bonds</option>
+                                        <option name="financial" value="Financial guarantee Bonds">Financial guarantee Bonds</option>
+                                        <option name="advanced_payment" value="Advance Payment Bond">Advance Payment Bond</option>
+                                        <option name="performance" value="Performance Bonds">Performance Bonds</option>
+                                        <option name="work_permit" value="Work Permits/Security Bond">Work Permits/Security Bond</option>
+                                        <option name="customs" value="Customs Bonds">Customs Bonds</option>
+                                        <option name="retention" value="Retention Bonds">Retention Bonds</option>
+                                        <option name="regional" value="Regional customs transit guarantee">Regional customs transit guarantee</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">
-                                    <label for="occupation">Value of bond</label>
-                                    <input name="occupation" type="number" class="form-control" id="occupation" placeholder="" value="" required>
+                                    <label for="value">Value of bond</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
                                 </div>
                             </div>
 
                         </div>
                         <div class="container">
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="33">
+                                <input type="hidden" id="product_id" name="product_id" value="38">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
