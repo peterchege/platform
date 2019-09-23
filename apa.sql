@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 19/09/2019 14:44:43
+ Date: 23/09/2019 08:48:56
 */
 
 SET NAMES utf8mb4;
@@ -734,7 +734,7 @@ INSERT INTO `products` VALUES (26, 'MOTOR COMMERCIAL', '2019-09-11 11:59:08', '2
 INSERT INTO `products` VALUES (27, 'MOTOR CYCLE/PSV', '2019-09-11 11:59:14', '2019-09-11 11:59:13');
 INSERT INTO `products` VALUES (28, 'MOTOR TRADE', '2019-09-11 11:59:16', '2019-09-11 11:59:17');
 INSERT INTO `products` VALUES (29, 'FIRE AND PERILS', '2019-09-11 11:59:20', '2019-09-11 11:59:19');
-INSERT INTO `products` VALUES (30, 'WIBA AND PERSONAL ACCIDENT', '2019-09-11 11:59:22', '2019-09-11 11:59:23');
+INSERT INTO `products` VALUES (30, 'WIBA', '2019-09-11 11:59:22', '2019-09-11 11:59:23');
 INSERT INTO `products` VALUES (31, 'THEFT', '2019-09-11 11:59:29', '2019-09-11 11:59:28');
 INSERT INTO `products` VALUES (32, 'ENGINEERING', '2019-09-11 11:59:31', '2019-09-11 11:59:32');
 INSERT INTO `products` VALUES (33, 'LIABILITY', '2019-09-11 11:59:36', '2019-09-11 11:59:36');
@@ -806,7 +806,7 @@ CREATE TABLE `products_leads`  (
   `property` enum('Owner','Tenant') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `covers` set('All Covers','Building','Contents','All Risk','Domestic Employees','Inpatient Only','Inpatient and Outpatient','Inpatient and Outpatient and other Riders') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
   `occupation` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
-  `pet_type` enum('Dog','Cat','Other') CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `pet_number` int(10) NULL DEFAULT NULL,
   `population_staff` int(10) NULL DEFAULT NULL,
   `max_take_off_weight` double(20, 0) NULL DEFAULT NULL,
@@ -817,15 +817,13 @@ CREATE TABLE `products_leads`  (
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products_leads
 -- ----------------------------
-INSERT INTO `products_leads` VALUES (1, 13, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'nairobi', 'undefined', 'undefined', 8000000, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-19 11:52:16.000000', '', '', 'Casual Golfer', '', 0, 0, 0, 'undefined', 0);
-INSERT INTO `products_leads` VALUES (2, 12, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'undefined', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-19 11:55:58.000000', '', '', 'undefined', '', 0, 0, 0, 'undefined', 0);
-INSERT INTO `products_leads` VALUES (3, 12, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'Mombasa', 'undefined', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-19 11:58:01.000000', '', '', 'Clerk', '', 0, 0, 0, 'undefined', 0);
-INSERT INTO `products_leads` VALUES (4, 33, 14, 'John Doe', 'johndoe@gmail.com', '712345678', 'nairobi', 'undefined', 'undefined', 0, 0, 'undefined', '0000-00-00', '0000-00-00', 'undefined', '2019-09-19 12:05:36.000000', '', '', 'Clerk', '', 0, 0, 0, 'undefined', 0);
+INSERT INTO `products_leads` VALUES (1, 13, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'nairobi', '', '', 8000000, 0, '', '0000-00-00', '0000-00-00', '', '2019-09-22 15:47:18.000000', '', '', 'Casual Golfer', '', 0, 0, 0, '', 0);
+INSERT INTO `products_leads` VALUES (2, 13, 14, 'name', 'johndoe@gmail.com', '4265412654', 'Mombasa', '', '', 8000000, 0, '', '0000-00-00', '0000-00-00', '', '2019-09-22 15:48:37.000000', '', '', 'Casual Golfer', '', 0, 0, 0, '', 0);
 
 -- ----------------------------
 -- Table structure for ref_jobs
