@@ -26,7 +26,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class=" header-image header-image3 livestock-background">
+        <div class=" header-image header-image1 livestock-background">
         </div>
     </div>
 

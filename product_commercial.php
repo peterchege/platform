@@ -493,7 +493,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-16">
+                        <div class="box-container-img com-17">
                             <div class="overlay">
                             </div>
                         </div>
@@ -501,8 +501,8 @@
                             <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">Your crops and livestock are your source of 
+                            income and guaranteeing their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -529,7 +529,6 @@
                         <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -537,7 +536,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_livestock.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
