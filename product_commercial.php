@@ -501,7 +501,7 @@
                             <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of 
+                        <p class="text-justify">Your crops is your source of
                             income and guaranteeing their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
@@ -526,7 +526,7 @@
                             <h2 class="text-center"> Livestock Cover <br> (Agriculture)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                        <p class="text-justify">Your livestock is your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
@@ -546,7 +546,7 @@
                 <!-- NEW ROW 7 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img com-18">
                             <div class="overlay">
                             </div>
                         </div>
@@ -571,7 +571,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-5">
+                        <div class="box-container-img com-19">
                             <div class="overlay">
                             </div>
                         </div>
@@ -579,8 +579,8 @@
                             <h2 class="text-center">Group Deposit Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower,
+                            the remaining principal balance, assuming the borrower had made all the due installments....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -596,7 +596,7 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
+                        <div class="box-container-img com-20">
                             <div class="overlay">
                             </div>
                         </div>
@@ -604,10 +604,10 @@
                             <h2 class="text-center"> Group Last Expense</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">Cover caters for the immediate burial costs upon death of a Life
+                            Assured. Cover is payable within 48 hrs from the time of death and
+                            upon receipt....
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">

@@ -181,6 +181,15 @@
 .com-17 {
     background-image: url(../img/crop.jpg);
 }
+.com-18 {
+    background-image: url(../img/micro.jpg);
+}
+.com-19 {
+    background-image: url(../img/deposit.jpg);
+}
+.com-20 {
+    background-image: url(../img/last_expense.jpg);
+}
 
 /* .prod:hover {
     transform: scale(1.05);
