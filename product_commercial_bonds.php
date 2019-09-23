@@ -535,7 +535,7 @@
     </div>
 
 
-    <!-- ===================================== LEAD FORM FOR JAMII PLUS ===================================== -->
+    <!-- ===================================== LEAD FORM FOR BONDS ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
