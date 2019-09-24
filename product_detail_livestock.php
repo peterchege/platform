@@ -313,24 +313,24 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="">
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
                                 <h3 for="inputAddress" class="comp-detail">ANIMAL DETAILS</h3>
                                 <div class=" form-group col-md-12">
-                                    <label for="value">No of Animals</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <label for="number">No of Animals</label>
+                                    <input name="number" type="text" class="form-control value" id="number" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Livestock</label>
                                     <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option name="tender" value="Tender Bonds">Single Animal Cover</option>
-                                        <option name="financial" value="Financial guarantee Bonds">Poultry insurance</option>
-                                        <option name="advanced_payment" value="Advance Payment Bond">Dogs and Pet Insurance</option>
-                                        <option name="financial" value="Financial guarantee Bonds">Bloodstock/Horse Insurance</option>
+                                        <option value="Single Animal Cover">Single Animal Cover</option>
+                                        <option value="Poultry insurance">Poultry insurance</option>
+                                        <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option>
+                                        <option value="Bloodstock/Horse Insurance">Bloodstock/Horse Insurance</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">
@@ -342,7 +342,7 @@
                         </div>
                         <div class="container">
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="38">
+                                <input type="hidden" id="product_id" name="product_id" value="43">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
@@ -364,6 +364,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
