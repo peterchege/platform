@@ -122,35 +122,32 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
+                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation</a></li>
+                                        <li><a href="#"><i class="fas fa-chart-area"></i> Bonds </a></li>
+                                        <li><a href="#"><i class="fas fa-industry"></i> Engineering</a></li>
+                                        <li><a href="#"><i class="fas fa-fire"></i> Fire & Perils </a></li>
+                                        <li><a href="#"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
+                                        <li class="uk-nav-divider"></li> -->
+                                        <li><a href="#"><i class="fas fa-house-damage"></i> Liability </a></li>
+                                        <li><a href="#"><i class="fas fa-ship"></i> Marine</a></li>
                                         <li><a href="#"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
                                         <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle (PSV) </a></li>
                                         <li><a href="#"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
-                                        <li><a href="#"><i class="fas fa-fire"></i> Fire & Perils </a></li>
-                                        <li><a href="#"><i class="fas fa-people-carry"></i> WIBA & Personal Accident</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-user-secret"></i> Theft</a></li>
-                                        <li><a href="#"><i class="fas fa-industry"></i> Engineering</a></li>
-                                        <li><a href="#"><i class="fas fa-house-damage"></i> Liability </a></li>
-                                        <li><a href="#"><i class="fas fa-ship"></i> Marine</a></li>
-                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation</a></li>
-
-
-                                    </ul>
-                                </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a></li>
-                                        <li><a href="#"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-area"></i> Bonds </a></li>
                                         <li><a href="#"><i class="fas fa-bars"></i> Plate Glass </a></li>
-
+                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a></li>
+                                        <li><a href="#"><i class="fas fa-user-secret"></i> Theft</a></li>
+                                        <li><a href="#"><i class="fas fa-people-carry"></i> WIBA & Personal Accident</a></li>
                                     </ul>
                                 </div>
                                 <div>

@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Number of Pets</label>
-                                    <input name="pet_number" type="text" class="form-control value" id="pet_number" placeholder="50" value="" required>
+                                    <input name="number" type="text" class="form-control value" id="number" placeholder="50" value="" required>
                                 </div>
                             </div>
 

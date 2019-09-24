@@ -617,7 +617,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center">Morgage Protection</h2>
+                            <h2 class="text-center">Mortgage Protection</h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against

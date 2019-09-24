@@ -11,7 +11,7 @@
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Companies</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Financial Reports</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Leadership</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Managment</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Management</a></li>
                     </ul>
                 </div>
 
@@ -86,7 +86,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Terms & Condtions </div>
+                <div class="copyright"> Terms & Conditions </div>
             </div>
         </div>
     </div>

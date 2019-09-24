@@ -30,8 +30,8 @@ switch ($_GET['mode']) {
         $cover = ((isset($_POST['cover'])) ? filter_var(mysqli_real_escape_string($db, $_POST['cover']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
         //golfers and theft
         $occupation = ((isset($_POST['occupation'])) ? filter_var(mysqli_real_escape_string($db, $_POST['occupation']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
-        //pet and bonds
-        $pet_number = ((isset($_POST['pet_number'])) ? filter_var(mysqli_real_escape_string($db, $_POST['pet_number']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
+        //pet and bonds and livestock
+        $number = ((isset($_POST['number'])) ? filter_var(mysqli_real_escape_string($db, $_POST['number']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : '');
         if (isset($_POST['type'])) {
             if (is_array($_POST['type'])) {
                 $type = '';
@@ -40,6 +40,8 @@ switch ($_GET['mode']) {
                     $type .= $filtered . ',';
                 }
                 $type = substr($type, 0, -1);
+            } else if (!is_array($_POST['type'])) {
+                $type = ((isset($_POST['type'])) ? filter_var(mysqli_real_escape_string($db, $_POST['type']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
             } elseif (!isset($_POST['type'])) {
                 $type = ((isset($_POST['type'])) ? filter_var(mysqli_real_escape_string($db, $_POST['type']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
             }
@@ -54,8 +56,8 @@ switch ($_GET['mode']) {
         $pilot_details = ((isset($_POST['pilot_details'])) ? filter_var(mysqli_real_escape_string($db, $_POST['pilot_details']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
         $geographical_scope = ((isset($_POST['geographical_scope'])) ? filter_var(mysqli_real_escape_string($db, $_POST['geographical_scope']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '');
 
-        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`depature_date`,`return_date`,`destination`,`created_at`,`property`,`covers`,`occupation`,`type`,`pet_number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`)
-                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$depature_date','$return_date','$destination','$created_at','$property','$cover','$occupation','$type','$pet_number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details')");
+        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`depature_date`,`return_date`,`destination`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`)
+                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$depature_date','$return_date','$destination','$created_at','$property','$cover','$occupation','$type','$number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details')");
 
         if (!$insert) {
             echo mysqli_error($db);

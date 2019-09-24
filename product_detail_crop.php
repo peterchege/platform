@@ -313,15 +313,15 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Crop</label>
                                     <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option name="tender" value="Tender Bonds">Area Yield Index</option>
-                                        <option name="financial" value="Financial guarantee Bonds">Index-based Weather</option>
-                                        <option name="advanced_payment" value="Advance Payment Bond">Multi Peril Crop Insurance</option>
+                                        <option value="Area Yield Index">Area Yield Index</option>
+                                        <option value="Index-based Weather">Index-based Weather</option>
+                                        <option value="Multi Peril Crop Insurance">Multi Peril Crop Insurance</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">
@@ -354,6 +354,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
