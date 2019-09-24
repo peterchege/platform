@@ -68,168 +68,6 @@
                 <!-- NEW ROW 1 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-1">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Health Corporate</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_health.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-2">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Motor Commercial Cover </h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6  prod-lf">
-                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-3">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Group Life</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_life.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- NEW ROW 2 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-4">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Group Credit Life</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower,
-                            the remaining principal balance, assuming the borrower had made all the due installments...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_credit.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-5">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Liability Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
-                            policy will ensure you will have nothing to worry about...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-6">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Theft Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
-
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_theft.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- NEW ROW 3 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
                         <div class="box-container-img com-7">
                             <div class="overlay">
                             </div>
@@ -249,85 +87,6 @@
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_commercial_aviation.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-8">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Marine Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other
-                            interests against loss or damage whilst being transported...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_marine.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-9">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Workman's Compensation</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NEW ROW 4 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-10">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Fire Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This policy will indemnify the insured against the loss of or
-                            damage to the property insured arising from fire as well as ...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_fire.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -359,35 +118,6 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-12">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Pre-Packaged</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This policy indemnifies the Insured against
-                            any sums for which the Insured becomes legally liable as a direct
-                            result of any negligent act, error or omission...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_pre_package.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NEW ROW 5 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
                         <div class="box-container-img com-13">
                             <div class="overlay">
                             </div>
@@ -408,6 +138,35 @@
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_commercial_engineer.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- NEW ROW 2 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-10">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Fire Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or
+                            damage to the property insured arising from fire as well as ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_fire.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -439,18 +198,17 @@
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-15">
+                        <div class="box-container-img com-5">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Mobile Banking</h2>
+                            <h2 class="text-center">Liability Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
+                            policy will ensure you will have nothing to worry about...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -458,15 +216,124 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_mobile_bank.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
                     </div>
                 </div>
 
-                <!-- NEW ROW 6 OF PRODUCTS -->
+                <!-- NEW ROW 3 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Marine Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other
+                            interests against loss or damage whilst being transported...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_marine.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-2">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Motor Commercial Cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved
+                            in an accident, burnt, stolen ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6  prod-lf">
+                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- replace with cycle -->
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-2">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Motor Commercial Cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved
+                            in an accident, burnt, stolen ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6  prod-lf">
+                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW ROW 4 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- replace with motor trade -->
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-2">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Motor Commercial Cover </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Motor insurance cover protects the insured against
+                            financial loss in the event that the motor vehicle insured is involved
+                            in an accident, burnt, stolen ...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6  prod-lf">
+                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-16">
                             <div class="overlay">
@@ -487,6 +354,88 @@
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_commercial_miscellaneous.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-12">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Pre-Packaged</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy indemnifies the Insured against
+                            any sums for which the Insured becomes legally liable as a direct
+                            result of any negligent act, error or omission...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_pre_package.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- NEW ROW 5 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-6">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Theft Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
+                            contents whilst in the house and outside the house...
+
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_theft.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-9">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Workman's Compensation</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy covers the employees
+                            of the Insured whilst on duty and engaged in the execution
+                            of the Insured’s business &/or any project undertaken...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -537,6 +486,86 @@
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_detail_livestock.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW ROW 6 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-4">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Group Credit Life</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This is a life insurance policy designed to pay, for a borrower,
+                            the remaining principal balance, assuming the borrower had made all the due installments...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_credit.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-3">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Group Life</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_life.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-15">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Mobile Banking</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_mobile_bank.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -620,16 +649,17 @@
 
                         </div>
                     </div>
+
                 </div>
-
             </div>
+        </div>
 
-            <!-- <div class="load-more text-center">
+        <!-- <div class="load-more text-center">
                 <a href="#" class="btn btn-primary">LOAD MORE</a>
             </div> -->
-            <br>
+        <br>
 
-        </div>
+    </div>
     </div>
 
 
