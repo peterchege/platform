@@ -279,12 +279,12 @@
                     </div>
                     <!-- replace with cycle -->
                     <div class="col-md-4 prod">
-                        <div class="box-container-img com-2">
+                        <div class="box-container-img prod-10">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center">Motor Commercial Cover </h2>
+                            <h2 class="text-center">Motor Cycle (PSV) </h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -294,11 +294,11 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                <a href="#" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_cycle.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -314,7 +314,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center">Motor Commercial Cover </h2>
+                            <h2 class="text-center">Motor Trade </h2>
                         </div>
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
@@ -340,7 +340,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Miscellaneous Cover</h2>
+                            <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">Living a healthy stress free life is every persons dream. A
@@ -365,7 +365,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Pre-Packaged</h2>
+                            <h2 class="text-center"> Special Packaged Cover</h2>
                         </div>
                         <br>
                         <p class="text-justify">This policy indemnifies the Insured against
@@ -441,112 +441,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-17">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your crops is your source of
-                            income and guaranteeing their safety should bring you ultimate happiness...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_crop.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
 
-                <!-- NEW ROW 5.1 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-6">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Theft Cover</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
-
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_theft.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-9">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Workman's Compensation</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img prod-6">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Livestock Cover <br> (Agriculture)</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your livestock is your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_livestock.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
 
                 <!-- NEW ROW 6 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
@@ -708,6 +604,8 @@
 
                 </div>
             </div>
+
+
         </div>
 
         <!-- <div class="load-more text-center">
@@ -716,6 +614,113 @@
         <br>
 
     </div>
+
+    <div class="container-fluid23">
+        <div class="product-new text-left">
+
+            <h1>HEALTH </h1>
+
+            <div class="container">
+
+                <!-- NEW ROW 5.1 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="col-md-4 offset-1 prod">
+                        <div class="box-container-img com-1">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> corporate Health</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy covers the employees
+                            of the Insured whilst on duty and engaged in the execution
+                            of the Insured’s business &/or any project undertaken...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid23">
+        <div class="product-new text-left">
+
+            <h1>AGRICULTURE </h1>
+
+            <div class="container">
+
+                <!-- NEW ROW 1 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img com-17">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your crops is your source of
+                            income and guaranteeing their safety should bring you ultimate happiness...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_crop.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img prod-6">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Livestock Cover <br> (Agriculture)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Your livestock is your source of income and guaranteeing
+                            their safety should bring you ultimate happiness...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_livestock.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 
 
