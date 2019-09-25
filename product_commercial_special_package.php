@@ -57,7 +57,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2>Pre-Packaged Cover </h2>
+                                <h2> SPECIAL PACKAGE COVER </h2>
                                 <P class="text-justify">This policy indemnifies the Insured against any sums for which the Insured becomes legally liable as a direct result of any negligent act, 
                                     error or omission made by him during the performance of his duties as a professional man/women (e.g. engineers, architects, lawyers, accountants etc.). Indemnity
                                      will be provided in accordance with the limits, conditions and activities defined in the policy. The relevant proposal form has to be completed by the client and 

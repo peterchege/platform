@@ -57,7 +57,7 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Miscellaneous Cover </h2>
+                                <h2> PLATE GLASS COVER </h2>
                                 <P class="text-justify">We cover accidental death or disablement to the insured and offers compensation payable to the insured or to his legal representative in
                                     accordance with the sum insured and scale of compensation agreed and specified in the policy schedule. The age requirements for this policy is above 15 years
                                     and below 65 years. Policy can be given to individuals or groups.

@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL PRODUCTS ===================================== -->
+    <!-- ===================================== COMMERCIAL COVERS ===================================== -->
 
     <div class="container-fluid23 commercial-up">
         <div class="product product-new text-left">
@@ -192,7 +192,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_goods_in_transit.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -329,7 +329,7 @@
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_motor_trade.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -354,7 +354,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_miscellaneous.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_glass_plate.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -380,7 +380,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_pre_package.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_special_package.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -457,6 +457,8 @@
 
     </div>
 
+    <!-- ===================================== HEALTH COVERS ===================================== -->
+
     <div class="container-fluid23">
         <div class="product-new text-left">
 
@@ -487,7 +489,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_health.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -497,6 +499,8 @@
             </div>
         </div>
     </div>
+
+    <!-- ===================================== AGRICULTURE COVERS ===================================== -->
 
     <div class="container-fluid23">
         <div class="product-new text-left">
@@ -563,6 +567,11 @@
         </div>
     </div>
 
+    <!-- Anchor to the Life cover from navbar -->
+    <div id="group_life" class="anchor"></div>
+    <!-- End of anchor -->
+
+    <!-- ===================================== GROUP LIFE COVERS ===================================== -->
     <div class="container-fluid23 commercial-up">
         <div class="product product-new text-left">
 
@@ -671,7 +680,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_micro.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
