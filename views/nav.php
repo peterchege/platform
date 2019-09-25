@@ -167,7 +167,7 @@
 
                     <!-- INVESTMENT -->
                     <li class="list-down">
-                        <a href="products.php#investment">INVESTMENT</a>
+                        <a href="product_investment.php">INVESTMENT</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
