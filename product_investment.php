@@ -41,12 +41,15 @@ require_once 'inc/functions.php';
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h2>
-                        APA Apollo Foundation
+                        What Is Investment?
                     </h2>
                     <p>
-                        At The Apollo Group, we believe that the world is beautiful when people smile.
-                        We seek to harness this through our corporate social responsibility.
-                        It is a joy to see lives transformed. Watch this beautiful video and sing along with us!
+                        An investment is an asset or item acquired with the goal of generating income
+                        or appreciation. In an economic sense, an investment is the purchase of goods
+                        that are not consumed today but are used in the future to create wealth.
+                        In finance, an investment is a monetary asset purchased with the idea that
+                        the asset will provide income in the future or will later be sold at a higher
+                        price for a profit.
                     </p>
                     <a href="#modal-media-youtube" class="btn btn-primary" uk-toggle> Watch Video</a>
                 </div>
@@ -88,7 +91,7 @@ require_once 'inc/functions.php';
                         <p>
                             We offer a wide range of investment solutions whether fixed-income, equity, property and money
                             market investments.
-                            <br> 
+                            <br>
                             We are also adept at Wealth Management solutions for individuals from financial planning
                             to transition issues.
                         </p>
@@ -124,7 +127,20 @@ require_once 'inc/functions.php';
                         </p>
                     </div>
                 </div>
-
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Investment Approach and Style</h2>
+                        <p>At Apollo Asset Management, our investment philosophy is hinged on a flexible investment strategy, allowing portfolio managers to seek the most attractive total return opportunities based on changing market conditions.
+                            We approach this investment strategy with three objectives:
+                        </p>
+                        <ol>
+                            <li>Identify Changing Market Conditions<br> <b> ->Intelligence backed by Research</b></li>
+                            <li>Adjust asset allocations to seek maximum risk-adjusted returns based on changing market conditions<br> <b> ->Proactive approach</b></li>
+                            <li>Within each asset class, select the most attractive securities based on fundamentals and valuations <br> <b> ->Focus on returns/yield.</b></li>
+                        </ol>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

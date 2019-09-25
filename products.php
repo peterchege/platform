@@ -656,13 +656,13 @@
 
     <!-- =====================================investment PRODUCTS ===================================== -->
 
-    <div class="container-fluid23">
+     <div class="container-fluid23">
         <div class=" product-new text-left">
 
-            <h1>INVESTMENT</h1>
+            <!-- <h1>INVESTMENT</h1> -->
 
             <div class="container">
-                <div class="row row-product1">
+                <!-- <div class="row row-product1">
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img asset-3">
@@ -677,7 +677,6 @@
                             aims to give a reasonable rate of interest while preserving capital and offering liquidity....
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
@@ -703,7 +702,6 @@
                             to give a reasonable rate of interest while preserving capital and offering liquidity...
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
@@ -729,7 +727,6 @@
                             investment in quoted equities and by investing in a diversified range of e stocks across several sectors....
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
@@ -742,11 +739,9 @@
                         </div>
                     </div>
 
-                </div>
-            </div>
-
+                </div> -->
         </div>
-    </div>
+    </div> 
 
 
 
