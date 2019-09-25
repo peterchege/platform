@@ -53,22 +53,29 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Apollo Money Market Fund </h2>
-                                <P class="text-justify">This is a short to medium term investment product that aims to give a reasonable rate of interest while preserving
-                                    capital and offering liquidity.
+                                <h2> Apollo Balanced Fund </h2>
+                                <P class="text-justify">This is a short to medium term investment product that aims to give a reasonable rate of interest while preserving capital
+                                    and offering liquidity..
                                 </P>
 
 
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Apollo Money Market Fund? (Features) </h2>
-                                        <p2>This is a short to medium term investment product that aims to give a reasonable rate of interest while preserving capital and offering liquidity.
-                                            The fund is suitable for investors seeking an alternative to a fixed bank deposit. The minimum lump sum investment is KES. 10,000 and additional
-                                            top ups of KES.2,000 can be made thereafter . Regular voluntary top upscan be made by cheque, direct cash deposit, direct debit order or standing order.
+                                        <h2>Why the Apollo Balanced Fund? (Features) </h2>
+                                        <p2>The Fund aims to balance a medium risk investment strategy by spreading its investments among ordinary shares, preferred stock, high yielding
+                                            bonds, Bank deposits and offshore investments.
                                         </p2><br><br>
-                                        <p2>The principal investments in this is fund are short term (usually less than 1year) instruments like bank deposits, commercial papers and Government treasury bills.
+                                        <p2>When compared to Apollo Equity Fund the Balanced Fund will typically perform better when the stock market is declining and worse when it is gaining.
+                                        </p2><br><br>
+                                        <p2>This hybrid fund is suitable for investors with a moderate risk profile seeking a reasonable level of income and capital growth. Based on personal
+                                            objectives clients who do not want the hassle of investing in a variety of products that need to be re-balanced at regular intervals are advised
+                                            to invest for at least 3 years in order to derive ‘the best of both worlds’ as the fund’s portfolio is invested in a combination of equities and debt.
+                                        </p2><br><br>
+                                        <p2>The minimum lump sum investment is Sh. 10,000 with additional top ups of sh. 5,000. Regular voluntary top ups can be made by cheque, direct cash deposit,
+                                            direct debit order or standing order.
                                         </p2>
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -104,12 +111,12 @@
                                         <!-- <h2 class="text-center">Our main products features include:</h2><br> -->
 
                                         <p> CHARGES</p>
-                                        <p2>There is no initial fee and an annual management fee of up to 2% is charged.</p2><br><br>
-                                        <p2>Rate declared will be net of management fee charges. Withholding tax will apply.</p2><br><br><br>
-                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, 
-                                            may go down as well as up: and investors are reminded that in certain specified circumstances 
-                                            their right to redeem their shares may be suspended .</i></p2>
-                                            <br><br>
+                                        <p2>A 4 % one off charge known as an “initial/upfront fee” as well as a management fee of up to 2% annually..</p2><br><br>
+                                        <p2>upfront fees do not apply for switches between Apollo Equity Fund and Apollo Balanced Fund</p2><br><br><br>
+                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, may go down as 
+                                            well as up: and investors are reminded that in certain specified circumstances their right to redeem their 
+                                            shares may be suspended .</i></p2>
+                                        <br><br>
 
                                     </div>
 

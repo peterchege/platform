@@ -53,21 +53,25 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Apollo Money Market Fund </h2>
-                                <P class="text-justify">This is a short to medium term investment product that aims to give a reasonable rate of interest while preserving
-                                    capital and offering liquidity.
+                                <h2> Apollo Equity Fund </h2>
+                                <P class="text-justify">This fund aims to generate long-term capital growth through investment in quoted equities and by investing in a
+                                    diversified range of e stocks across several sectors..
                                 </P>
 
 
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Apollo Money Market Fund? (Features) </h2>
-                                        <p2>This is a short to medium term investment product that aims to give a reasonable rate of interest while preserving capital and offering liquidity.
-                                            The fund is suitable for investors seeking an alternative to a fixed bank deposit. The minimum lump sum investment is KES. 10,000 and additional
-                                            top ups of KES.2,000 can be made thereafter . Regular voluntary top upscan be made by cheque, direct cash deposit, direct debit order or standing order.
+                                        <h2>Why the Apollo Equity Fund? (Features) </h2>
+                                        <p2>This fund aims to generate long-term capital growth through investment in quoted equities and by investing in a diversified
+                                            range of e stocks across several sectors.
                                         </p2><br><br>
-                                        <p2>The principal investments in this is fund are short term (usually less than 1year) instruments like bank deposits, commercial papers and Government treasury bills.
+                                        <p2>The fund is suitable for investors with a higher risk profile seeking long-term capital growth and is recommended for those
+                                            with an investment horizon of at least 5 years.
+                                        </p2><br><br>
+                                        <p2>The main investment in this fund is predominately in shares of companies, showing strong potential for growth, that are listed
+                                            on the Nairobi Securities Exchange. The minimum initial investment is Kes.10,000 with additional top ups of Kesh. 5,000 at the
+                                            investor’s discretion. Regular voluntary top ups can be made by cheque, direct cash deposit, direct debit order or standing order.
                                         </p2>
                                         <br><br><br><br>
 
@@ -104,12 +108,12 @@
                                         <!-- <h2 class="text-center">Our main products features include:</h2><br> -->
 
                                         <p> CHARGES</p>
-                                        <p2>There is no initial fee and an annual management fee of up to 2% is charged.</p2><br><br>
+                                        <p2>A 5 % one off charge known as an “initial/upfront fee” as well as a management fee of up to 2% annually..</p2><br><br>
                                         <p2>Rate declared will be net of management fee charges. Withholding tax will apply.</p2><br><br><br>
-                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, 
-                                            may go down as well as up: and investors are reminded that in certain specified circumstances 
-                                            their right to redeem their shares may be suspended .</i></p2>
-                                            <br><br>
+                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, may go down as 
+                                            well as up: and investors are reminded that in certain specified circumstances their right to redeem their shares 
+                                            may be suspended.</i></p2>
+                                        <br><br>
 
                                     </div>
 
