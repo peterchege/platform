@@ -52,10 +52,10 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
-                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle</a></li>
-                                        <li><a href="#"><i class="fas fa-bicycle"></i> Pedal Cycle</a></li>
-                                        <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
+                                        <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private Motor</a></li>
+                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor Cycle</a></li>
+                                        <li><a href="product_detail_pedal_cycle.php"><i class="fas fa-bicycle"></i> Pedal Cycle</a></li>
+                                        <li><a href="product_detail_travel.php"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
 
                                     </ul>
                                 </div>
@@ -63,10 +63,10 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-home"></i> Home Cover (Domestic package)</a></li>
-                                        <li><a href="#"><i class="fas fa-cat"></i> Pet</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
-                                        <li><a href="#"><i class="fas fa-golf-ball"></i> Golfers</a></li>
+                                        <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover (Domestic package)</a></li>
+                                        <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
+                                        <li><a href="product_detail_personal_accident.php"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
+                                        <li><a href="product_detail_golfers.php"><i class="fas fa-golf-ball"></i> Golfers</a></li>
                                     </ul>
                                 </div>
                                 <div>
@@ -75,8 +75,8 @@
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover (Jamii Plus)</a></li>
                                         <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover (Afya Nafuu)</a></li>
-                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li>
+                                        <li><a href="product_detail_femina.php"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
+                                        <!-- <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -92,19 +92,19 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
-                                        <li><a href="#"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba Halisi)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Education Plan (Elimu)</a></li>
-                                        <li><a href="#"><i class="fas fa-procedures"></i> Hospitalisation Loss of Income (HosiCare)</a></li>
+                                        <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
+                                        <li><a href="product_detail_life_akiba_halisi.php"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba Halisi)</a></li>
+                                        <li><a href="product_detail_life_elimu.php"><i class="fas fa-user-graduate"></i> Education Plan (Elimu)</a></li>
+                                        <li><a href="product_detail_life_hosicare.php"><i class="fas fa-procedures"></i> Hospitalisation Loss of Income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover (Pumzisha)</a></li>
-                                        <li><a href="#"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="product_detail_life_pumzisha.php"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover (Pumzisha)</a></li>
+                                        <li><a href="product_detail_life_term_assuarance.php"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
+                                        <li><a href="product_detail_life_individual_pension_plan.php"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
                                         <li><a href="#"><i class="fas fa-home"></i> Mortgage Protection</a></li>
                                     </ul>
                                 </div>
