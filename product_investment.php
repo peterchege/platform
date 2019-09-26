@@ -88,7 +88,6 @@ require_once 'inc/functions.php';
                 <div class="row">
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="charter-block1">
-                            <!-- <img src="images/icon/icon5.png" alt=""> -->
                             <i class="fas fa-globe"></i>
                             <h2>Global Expertise Locally<br> Delivered </h2>
                             <hr>
@@ -102,7 +101,6 @@ require_once 'inc/functions.php';
 
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="charter-block1">
-                            <!-- <img src="images/icon/icon4.png" alt=""> -->
                             <i class="fas fa-chart-line"></i>
                             <h2> Fixed Income: </h2>
                             <hr>
@@ -116,7 +114,6 @@ require_once 'inc/functions.php';
 
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="charter-block1">
-                            <!-- <img src="images/icon/icon1.png" alt=""> -->
                             <i class="fas fa-chart-pie"></i>
                             <h2>Multi-asset strategies and solutions </h2>
                             <hr>
@@ -128,7 +125,6 @@ require_once 'inc/functions.php';
 
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class=" charter-block1">
-                            <!-- <img src="images/icon/icon4.png" alt=""> -->
                             <i class="fas fa-chart-area"></i>
                             <h2>Liquidity Management: </h2>
                             <hr>
