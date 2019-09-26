@@ -153,6 +153,7 @@ require_once 'inc/functions.php';
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -249,6 +250,112 @@ require_once 'inc/functions.php';
             <br>
         </div>
     </div>
+
+    <!-- ===================================== TABLE ===================================== -->
+
+    <div class="container">
+        <div class="row info-container wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-md-6">
+                <div class="image-container">
+
+                </div>
+            </div>
+
+            <div class="col-md-6 table-algn">
+                <table class="uk-table uk-table-hover uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th class="text-table-head">APOLLO ADVANTAGE </th>
+                            <th class="text-table-head text-center">POTENTIAL CLIENT BENEFIT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Wealth of Experience</td>
+                            <td>
+                                <ul>
+                                    <li>Access to superior returns through
+                                        our understanding of local markets,
+                                        which translates into a portfolio
+                                        of our best ideas.
+                                    </li>
+                                    <li>Access to superior returns through
+                                        our understanding of local markets,
+                                        which translates into a portfolio
+                                        of our best ideas.
+                                    </li>
+                                </ul>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Team Approach to Portfolio Management</td>
+                            <td>
+                                <ul>
+                                    <li>Confidence in the Sustainability
+                                        and Integrity of the Investment Process
+                                    </li>
+                                    <li>Customized Investment Management</li>
+                                    <li>Investment Decisions with clear accountability</li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Disciplined Processes</td>
+                            <td>
+                                <ul>
+                                    <li>Investment returns that are explainable,
+                                        definable and seek to be repeated
+                                    </li>
+                                    <li>Adherence to well defined processes</li>
+                                    <li>Quality controls and transparency</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Risk Management</td>
+                            <td>
+                                <ul>
+                                    <li>Portfolios that support the risk-return
+                                        trade off that clients’ seek, and an
+                                        understanding of what drives returns over time
+                                    </li>
+                                    <li>Transparent processes supported by Technology</li>
+                                    <li>Risk analysis embedded throughout</li>
+                                </ul>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Efficiency and Timeliness</td>
+                            <td>
+                                <ul>
+                                    <li>Using our INNOVA Investment Management Solution,
+                                        we provide timely, efficient and accurate services
+                                        whether trading, reporting or performance measurement.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Performance Reporting and Meetings</td>
+                            <td>
+                                <ul>
+                                    <li>Quarterly meetings to explain investment performance
+                                        and economic highlights
+                                    </li>
+                                    <li>Monthly Valuation Reports</li>
+                                    <li>Obtain Personalized Investment Advice</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- =====================================FOOTER===================================== -->
