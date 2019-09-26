@@ -74,7 +74,7 @@ if ($job_desc['job_id'] !== $job_token) {
                     <ul class="text-left">
                         <li><b>Company:</b> <span><?= sanitize($job_desc['company']); ?></span> </li>
                         <li><b>Location:</b> <span>
-                                <?= desanitize($job_desc['county']) . ', ' . desanitize($job_desc['country']); ?></span>
+                                <?= desanitize($job_desc['location']); ?></span>
                         </li>
                         <li><b>Employment Type:</b> <span><?= sanitize($job_desc['employment_type']); ?></span> </li>
                         <li><b>Job Id:</b> <span><?= sanitize($job_desc['job_id']); ?></span> </li>
@@ -83,9 +83,9 @@ if ($job_desc['job_id'] !== $job_token) {
                         <?php if ($job_desc['salary'] > 0) : ?>
                             <li><b>Salary:</b><span>
                                     <?php
-                                    $salo = desanitize($job_desc['salary']);
-                                    echo money($salo);
-                                    ?>
+                                        $salo = desanitize($job_desc['salary']);
+                                        echo money($salo);
+                                        ?>
                                 </span>
                             </li>
                             <br>
