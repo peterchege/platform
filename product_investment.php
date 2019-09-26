@@ -16,7 +16,8 @@ require_once 'inc/functions.php';
 
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
-    <link rel="stylesheet" href="css/product.css" media="screen">
+    <link rel="stylesheet" href="css/Product.css" media="screen">
+
 
     <?php include 'views/head_links.php'; ?>
 
@@ -82,55 +83,68 @@ require_once 'inc/functions.php';
                 institutions and individual high-net worth investors and their families. We are a 100% owned subsidiary
                 of Apollo Investments Limited, one of Kenya’s leading Insurance and property Management Company.
             </p>
+
+            <div class="container-fliud">
+                <div class="row">
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="charter-block1">
+                            <img src="images/icon/icon5.png" alt="">
+                            <h2>Global Expertise Locally<br> Delivered </h2>
+                            <hr>
+                            <p>
+                                We offer a wide range of investment solutions whether fixed-income, equity, property and money market investments.
+                                We are also adept at Wealth Management solutions for individuals from financial planning to transition issues.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class=" charter-block1">
+                            <img src="images/icon/icon4.png" alt="">
+                            <h2>Liquidity Management: </h2>
+                            <hr>
+                            <p>
+                                Short-term money market investments in a variety of structures and terms.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="charter-block1">
+                            <img src="images/icon/icon4.png" alt="">
+                            <h2>Fixed Income:<br> </h2>
+                            <hr>
+                            <p>
+                                Armed with the best investment ideas, AAMC seeks to capitalize on the best investment opportunities, 
+                                long-dated and short-term across the fixed income spectrum
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="charter-block1">
+                            <img src="images/icon/icon1.png" alt="">
+                            <h2>Multi-asset strategies and solutions </h2>
+                            <hr>
+                            <p>
+                                Asset allocation, pension solutions and overlay strategies.
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <div class="objective wow fadeInUp" data-wow-delay="0.1s">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>
-                            Global Expertise Locally Delivered
-                        </h2>
-                        <p>
-                            We offer a wide range of investment solutions whether fixed-income, equity, property and money
-                            market investments.
-                            <br>
-                            We are also adept at Wealth Management solutions for individuals from financial planning
-                            to transition issues.
-                        </p>
 
-                    </div>
-                    <div class="col-md-6">
-                        <h2>
-                            Fixed Income:
-                        </h2>
-                        <p>
-                            Armed with the best investment ideas, AAMC seeks to capitalize on the best investment opportunities,
-                            long-dated and short-term across the fixed income spectrum
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>
-                            Liquidity Management:
-                        </h2>
-                        <p>
-                            Short-term money market investments in a variety of structures and terms.
-                        </p>
-
-                    </div>
-                    <div class="col-md-6">
-                        <h2>
-                            Multi-asset strategies and solutions
-                        </h2>
-                        <p>
-                            Asset allocation, pension solutions and overlay strategies.
-                        </p>
-                    </div>
-                </div>
-                <br>
                 <div class="row">
                     <div class="col-12">
-                        <h2>Investment Approach and Style</h2>
+                        <h1>Investment Approach and Style</h1>
                         <p>At Apollo Asset Management, our investment philosophy is hinged on a flexible investment strategy, allowing portfolio managers to seek the most attractive total return opportunities based on changing market conditions.
                             We approach this investment strategy with three objectives:
                         </p>
