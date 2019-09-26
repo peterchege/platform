@@ -52,10 +52,10 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-car"></i> Private Motor</a></li>
-                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle</a></li>
-                                        <li><a href="#"><i class="fas fa-bicycle"></i> Pedal Cycle</a></li>
-                                        <li><a href="#"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
+                                        <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private Motor</a></li>
+                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor Cycle</a></li>
+                                        <li><a href="product_detail_pedal_cycle.php"><i class="fas fa-bicycle"></i> Pedal Cycle</a></li>
+                                        <li><a href="product_detail_travel.php"><i class="fas fa-plane-departure"></i> Travel Insurance</a></li>
 
                                     </ul>
                                 </div>
@@ -63,10 +63,10 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-home"></i> Home Cover (Domestic package)</a></li>
-                                        <li><a href="#"><i class="fas fa-cat"></i> Pet</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
-                                        <li><a href="#"><i class="fas fa-golf-ball"></i> Golfers</a></li>
+                                        <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover (Domestic package)</a></li>
+                                        <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
+                                        <li><a href="product_detail_personal_accident.php"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
+                                        <li><a href="product_detail_golfers.php"><i class="fas fa-golf-ball"></i> Golfers</a></li>
                                     </ul>
                                 </div>
                                 <div>
@@ -75,8 +75,8 @@
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family Health Cover (Jamii Plus)</a></li>
                                         <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family Health Cover (Afya Nafuu)</a></li>
-                                        <li><a href="#"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li>
+                                        <li><a href="product_detail_femina.php"><i class="fas fa-female"></i> Cancer Care (Femina)</a></li>
+                                        <!-- <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -92,20 +92,20 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
-                                        <li><a href="#"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba Halisi)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-graduate"></i> Education Plan (Elimu)</a></li>
-                                        <li><a href="#"><i class="fas fa-procedures"></i> Hospitalisation Loss of Income (HosiCare)</a></li>
+                                        <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i> Fixed Savings Plan (Imarika)</a></li>
+                                        <li><a href="product_detail_life_akiba_halisi.php"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba Halisi)</a></li>
+                                        <li><a href="product_detail_life_elimu.php"><i class="fas fa-user-graduate"></i> Education Plan (Elimu)</a></li>
+                                        <li><a href="product_detail_life_hosicare.php"><i class="fas fa-procedures"></i> Hospitalisation Loss of Income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">LIFE COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover (Pumzisha)</a></li>
-                                        <li><a href="#"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
-                                        <li><a href="#"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
-                                        <li><a href="#"><i class="fas fa-home"></i> Mortgage Protection</a></li>
+                                        <li><a href="product_detail_life_pumzisha.php"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover (Pumzisha)</a></li>
+                                        <li><a href="product_detail_life_term_assuarance.php"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
+                                        <li><a href="product_detail_life_individual_pension_plan.php"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a></li>
+                                        <li><a href="product_detail_life_morgage_protection.php"><i class="fas fa-home"></i> Mortgage Protection</a></li>
                                     </ul>
                                 </div>
 
@@ -122,41 +122,41 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-helicopter"></i> Aviation</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-area"></i> Bonds </a></li>
-                                        <li><a href="#"><i class="fas fa-industry"></i> Engineering</a></li>
-                                        <li><a href="#"><i class="fas fa-fire"></i> Fire & Perils </a></li>
-                                        <li><a href="#"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+                                        <li><a href="product_commercial_aviation.php"><i class="fas fa-helicopter"></i> Aviation</a></li>
+                                        <li><a href="product_commercial_bonds.php"><i class="fas fa-chart-area"></i> Bonds </a></li>
+                                        <li><a href="product_commercial_engineer.php"><i class="fas fa-industry"></i> Engineering</a></li>
+                                        <li><a href="product_commercial_fire.php"><i class="fas fa-fire"></i> Fire & Perils </a></li>
+                                        <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-house-damage"></i> Liability </a></li>
-                                        <li><a href="#"><i class="fas fa-ship"></i> Marine</a></li>
-                                        <li><a href="#"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
-                                        <li><a href="#"><i class="fas fa-motorcycle"></i> Motor Cycle (PSV) </a></li>
-                                        <li><a href="#"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
+                                        <li><a href="product_commercial_liability.php"><i class="fas fa-house-damage"></i> Liability </a></li>
+                                        <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i> Marine</a></li>
+                                        <li><a href="product_detail_motor_commercial.php"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
+                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor Cycle (PSV) </a></li>
+                                        <li><a href="product_commercial_motor_trade.php"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-bars"></i> Plate Glass </a></li>
-                                        <li><a href="#"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a></li>
-                                        <li><a href="#"><i class="fas fa-user-secret"></i> Theft</a></li>
-                                        <li><a href="#"><i class="fas fa-people-carry"></i> WIBA & Personal Accident</a></li>
+                                        <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i> Plate Glass </a></li>
+                                        <li><a href="product_commercial_special_package.php"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a></li>
+                                        <li><a href="product_commercial_theft.php"><i class="fas fa-user-secret"></i> Theft</a></li>
+                                        <li><a href="product_commercial_wiba.php"><i class="fas fa-people-carry"></i> WIBA & Personal Accident</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li><a href="#"><i class="fas fa-first-aid"></i> Health Corporate</a>
-                                        <li><a href="#"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
-                                        <li><a href="#"><i class="fas fa-cookie"></i> Crop Cover</a>
-                                        <li><a href="#"><i class="fas fa-hippo"></i> Livestock Cover</a></li>
-                                        <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
+                                        <li><a href="product_commercial_health.php"><i class="fas fa-first-aid"></i> Health Corporate</a>
+                                        <li><a href="product_commercial.php#group_life"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
+                                        <li><a href="product_detail_crop.php"><i class="fas fa-cookie"></i> Crop Cover</a>
+                                        <li><a href="product_detail_livestock.php"><i class="fas fa-hippo"></i> Livestock Cover</a></li>
+                                        <li><a href="product_commercial_micro.php"><i class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
 
                                     </ul>
                                 </div>
@@ -167,7 +167,7 @@
 
                     <!-- INVESTMENT -->
                     <li class="list-down">
-                        <a href="products.php#investment">INVESTMENT</a>
+                        <a href="product_investment.php">INVESTMENT</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>

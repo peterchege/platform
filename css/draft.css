@@ -415,6 +415,28 @@ a:focus {
     background-position: center;
 }
 
+.banner-invest {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/invest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-invest::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 2px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
 .banner-companies {
     width: 100%;
     height: 60vh;

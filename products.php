@@ -630,7 +630,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -656,13 +656,39 @@
 
     <!-- =====================================investment PRODUCTS ===================================== -->
 
-    <div class="container-fluid23">
+     <div class="container-fluid23">
         <div class=" product-new text-left">
 
-            <h1>INVESTMENT</h1>
+            <!-- <h1>INVESTMENT</h1> -->
 
             <div class="container">
-                <div class="row row-product1">
+                <!-- <div class="row row-product1">
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img asset-3">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Money Market Fund </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">his is a short to medium term investment product that
+                            aims to give a reasonable rate of interest while preserving capital and offering liquidity....
+                        </p>
+                        <br>
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div class="col-md-4 prod">
                         <div class="box-container-img asset-1">
                             <div class="overlay">
@@ -672,11 +698,10 @@
                             <h2 class="text-center"> Apollo Balanced Fund</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">This is a short to medium term investment product that aims
+                            to give a reasonable rate of interest while preserving capital and offering liquidity...
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
@@ -689,7 +714,6 @@
                         </div>
                     </div>
 
-
                     <div class="col-md-4 prod">
                         <div class="box-container-img asset-2">
                             <div class="overlay">
@@ -699,11 +723,10 @@
                             <h2 class="text-center">Apollo Equity Fund</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Explore wild possibilities and adventures unbothered!
-                            Whether you are headed for a business trip or a trip of a lifetime...
+                        <p class="text-justify">This fund aims to generate long-term capital growth through 
+                            investment in quoted equities and by investing in a diversified range of e stocks across several sectors....
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href class="btn btn-primary">Get Cover</a>
@@ -716,36 +739,9 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img asset-3">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Apollo Money Market Fund </h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_agriculture.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+                </div> -->
         </div>
-    </div>
+    </div> 
 
 
 
