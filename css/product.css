@@ -587,17 +587,6 @@
 
 .charter-block1 {
     width: 100%;
-    height: 400px;
-    margin: 10% auto 6% auto;
-    border-radius: 20px;
-    text-align: center;
-    -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
-    -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
-    box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
-}
-
-.charter-block1 {
-    width: 100%;
     height: 500px;
     margin: 15% auto 6% auto;
     border-radius: 20px;
@@ -613,10 +602,17 @@
     margin: 10% auto 0% auto;
 }
 
+.charter-block1 .fas {
+   font-size: 50px;
+   margin: 10% auto 0% auto;
+   color: #0D345F;
+}
+
 .charter-block1 h2 {
     font-family: 'Oswald', sans-serif;
     color: #0C4DA2;
     font-size: 20px;
+    height: 50px;
 }
 
 .charter-block1 hr {
