@@ -13,7 +13,6 @@ require_once 'inc/functions.php';
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/media.css" media="screen">
-
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/Product.css" media="screen">
