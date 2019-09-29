@@ -6,7 +6,7 @@ require_once 'inc/sessions.php';
 //JOB EXTRACTION
 if (isset($_GET['job_token'])) {
     $job_token = sanitize($_GET['job_token']);
-    $job_query = $db->query("SELECT * FROM apa_job_posts WHERE job_id='$job_token'");
+    $job_query = $db->query("SELECT * FROM apa_job_posts WHERE job_id='$job_token' AND archive = 0 LIMIT 1 ");
 
     $job_desc = mysqli_fetch_assoc($job_query);
 
@@ -69,7 +69,7 @@ if ($job_desc['job_id'] !== $job_token) {
         <div class="row ">
             <div class="col-10 job-box">
                 <div class="job-description text-center">
-                    <h2><?= desanitize($job_desc['job_title']); ?></h2>
+                    <h2><?= strtoupper(desanitize($job_desc['job_title'])); ?></h2>
                     <hr>
                     <ul class="text-left">
                         <li><b>Company:</b> <span><?= sanitize($job_desc['company']); ?></span> </li>

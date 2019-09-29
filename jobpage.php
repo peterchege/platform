@@ -65,7 +65,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                     <div class="row ">
                         <div class="col-10 job-box">
                             <div class="job-description text-center">
-                                <h2><?php echo sanitize($job_description['job_title']); ?></h2>
+                                <h2><?php echo strtoupper(sanitize($job_description['job_title'])); ?></h2>
                                 <hr><br>
                                 <div class="row job-content">
                                     <div class="col-8 text-justify">
@@ -80,7 +80,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                     </div>
                                     <div class="col-4">
                                         <div class="load-more text-center">
-                                            <a href="job_description.php?job_token=<?php echo desanitize($job_description['job_id']); ?>" class="btn btn-primary">APPLY NOW</a>
+                                            <a href="job_description.php?job_token=<?php echo desanitize($job_description['job_id']); ?>" class="btn btn-primary">READ MORE</a>
                                         </div>
                                     </div>
                                 </div><br>
