@@ -13,7 +13,6 @@ require_once 'inc/functions.php';
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/media.css" media="screen">
-
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/Product.css" media="screen">
@@ -160,7 +159,7 @@ require_once 'inc/functions.php';
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new ">
+        <div class="product product-new wow fadeInUp" data-wow-delay="0.1s">
             <div class="header text-left">
                 <h1>PRODUCTS</h1>
             </div>
@@ -254,7 +253,7 @@ require_once 'inc/functions.php';
     <!-- ===================================== TABLE ===================================== -->
 
     <div class="container">
-        <div class="row info-container wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row info-container wow fadeInUp" data-wow-delay="0.12s">
             <div class="col-md-6">
                 <div class="image-container">
 
