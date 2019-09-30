@@ -88,7 +88,8 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                    class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
@@ -107,7 +108,8 @@
                             <h2 class="text-center">Travel Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
+                            Globetrotter
                             policy will ensure you will have nothing to worry about...
                         </p>
                         <!-- button click -->
@@ -172,7 +174,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_personal_accident.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_personal_accident.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -441,11 +444,13 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                    class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_life_imarika.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_imarika.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -460,7 +465,8 @@
                             <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a period of time and allows
+                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a
+                            period of time and allows
                             you to have access to his fund at specified times to enable you...
                         </p>
                         <!-- button click -->
@@ -470,7 +476,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_akiba_halisi.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_akiba_halisi.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -527,7 +534,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_hosicare.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_hosicare.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -542,7 +550,8 @@
                             <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps cushion
+                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps
+                            cushion
                             yourself and your loved ones with lump sum payable within 48 hours provided....
                         </p>
                         <!-- button click -->
@@ -552,7 +561,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_pumzisha.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_pumzisha.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -567,7 +577,8 @@
                             <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy has been designed to enable one to enable one have a pure life cover
+                        <p class="text-justify">This policy has been designed to enable one to enable one have a pure
+                            life cover
                             that can be used as security on a loan. This policy can be used ...
                         </p>
                         <!-- button click -->
@@ -577,7 +588,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_term_assuarance.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_term_assuarance.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -595,7 +607,8 @@
                             <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic
+                            about tomorrow
                             and confident about taking ...
                         </p>
                         <!-- button click -->
@@ -605,7 +618,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -630,7 +644,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_morgage_protection.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -656,7 +671,7 @@
 
     <!-- =====================================investment PRODUCTS ===================================== -->
 
-     <div class="container-fluid23">
+    <div class="container-fluid23">
         <div class=" product-new text-left">
 
             <!-- <h1>INVESTMENT</h1> -->
@@ -740,17 +755,17 @@
                     </div>
 
                 </div> -->
+            </div>
         </div>
-    </div> 
 
 
 
-    <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
-    <!-- #footer -->
+        <!-- =====================================FOOTER===================================== -->
+        <?php include 'views/footer.php'; ?>
+        <!-- #footer -->
 
 
-    <?php
+        <?php
     require_once 'inc/scripts.php';
     ?>
 </body>
