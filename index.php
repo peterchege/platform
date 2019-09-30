@@ -117,11 +117,6 @@ require_once 'inc/functions.php';
                 </a>
             </div>
 
-            <!-- <div class="col-12">
-                <button class="btn btn-primary">
-                    0709 912 777
-                </button>
-            </div> -->
         </div>
 
     </div>
