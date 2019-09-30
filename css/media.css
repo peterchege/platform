@@ -83,6 +83,17 @@ body p {
 
 /* CSR */
 
+.logo-csr{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/apafoundation3.jpg);
+    background-size: contain;
+    background-repeat:no-repeat; 
+    background-position: center;
+    position: absolute;
+
+}
+
 .objective {
     text-align: left;
     margin: 5% auto;
@@ -124,3 +135,4 @@ body p {
     margin-left: 10px;
     margin-top: 10px;
 }
+

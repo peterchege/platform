@@ -101,7 +101,7 @@ require_once 'inc/functions.php';
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="charter-block1">
                             <i class="fas fa-chart-line"></i>
-                            <h2> Fixed Income: </h2>
+                            <h2> Fixed Income </h2>
                             <hr>
                             <p>
                                 Armed with the best investment ideas, AAMC seeks to capitalize on the best investment opportunities,
@@ -125,7 +125,7 @@ require_once 'inc/functions.php';
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class=" charter-block1">
                             <i class="fas fa-chart-area"></i>
-                            <h2>Liquidity Management: </h2>
+                            <h2>Liquidity Management </h2>
                             <hr>
                             <p>
                                 Short-term money market investments in a variety of structures and terms.
@@ -252,8 +252,10 @@ require_once 'inc/functions.php';
 
     <!-- ===================================== TABLE ===================================== -->
 
-    <div class="container">
-        <div class="row info-container wow fadeInUp" data-wow-delay="0.12s">
+    <div class="container wow fadeInUp" data-wow-delay="0.12s">
+        <h1>Key Distinctions and Benefits of Apollo Asset Management Company</h1>
+        <div class="row info-container">
+
             <div class="col-md-6">
                 <div class="image-container">
 
@@ -273,16 +275,13 @@ require_once 'inc/functions.php';
                             <td>Wealth of Experience</td>
                             <td>
                                 <ul>
+                                    <li> Access to expert Portfolio Managers</li>
                                     <li>Access to superior returns through
                                         our understanding of local markets,
                                         which translates into a portfolio
                                         of our best ideas.
                                     </li>
-                                    <li>Access to superior returns through
-                                        our understanding of local markets,
-                                        which translates into a portfolio
-                                        of our best ideas.
-                                    </li>
+
                                 </ul>
 
                             </td>
