@@ -95,7 +95,7 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <a href="customer_login.php">
+                <a href="portals.php">
                     <button class="btn btn-primary">
                         SELF SERVICE LOGIN
                     </button>
@@ -330,7 +330,7 @@ require_once 'inc/functions.php';
                                 timelines. We promise to respond to all your requests in a professional and timely manner.
                             </P>
                             <div class="load-more">
-                                <a href="#" class="btn btn-primary">GET HELP</a>
+                                <a href="contact_us.php" class="btn btn-primary">GET HELP</a>
                             </div>
                         </div>
                     </div>
@@ -356,7 +356,7 @@ require_once 'inc/functions.php';
                                 We have made some of our services available online, so that it is easier and quicker for you.
                             </P><BR>
                             <div class="load-more">
-                                <a href="Customer_login.php" class="btn btn-primary">OPEN PORTAL</a>
+                                <a href="portals.php" class="btn btn-primary">OPEN PORTAL</a>
                             </div>
                         </div>
                     </div>
