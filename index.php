@@ -50,34 +50,27 @@ require_once 'inc/functions.php';
             <div class="container">
                 <div class="row ">
 
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                            <i class="fas fa-car"></i>
-                            <p>Motor Private</p>
-                        </a>
-                    </div>
+                    <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2">
+                        <div class="c0l-md-4 font-awsome text-center">
+                            <i class="fas fa-ship"></i>
+                            <p>Marine Single Transit </p>
+                        </div>
+                    </a>
 
-
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <a href="http://192.168.100.20/APA-STS/travel/sts/about-trip/1">
+                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                        <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-plane-departure"></i>
                             <p>Travel Insurance</p>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <a href="http://apacs.test/calculator">
-                            <i class="fas fa-home"></i>
-                            <p>Domestic Package</p>
-                        </a>
-                    </div>
+                    <a href="https://portal.apainsurance.org/GISPORTAL/auth">
+                        <div class="c0l-md-4 font-awsome text-center">
+                            <i class="fas fa-ship"></i>
+                            <p>Marine Open Cover</p>
+                        </div>
+                    </a>
 
-                    <div class="c0l-md-4 font-awsome text-center">
-                        <a href="#">
-                            <i class="fas fa-user-injured"></i>
-                            <p>Personal Accident</p>
-                        </a>
-                    </div>
                 </div>
                 <br>
             </div>
@@ -112,7 +105,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="contact_us.php">
                     <button class="btn btn-primary">
-                       CONTACT US
+                        CONTACT US
                     </button>
                 </a>
             </div>
