@@ -39,14 +39,14 @@
                     <div class="col-md-5 contact-back">
                         <div class="content-info">
                             <h2>CONTACT INFORMATION</h2>
-                            <p><i class="fas fa-street-view"></i> LOCATION : Apollo Centre, Ring Rd Parklands<br>
+                            <p><i class="fas fa-street-view"></i> Addresss : Apollo Centre, Ring Rd Parklands<br>
                                 Westlands Nairobi – Kenya.
                             </p>
-                            <p><i class="fas fa-phone-square"></i> TELEPHONE : O20 286 2000
+                            <p><i class="fas fa-phone-square"></i> Telephone : O20 286 2000
                             </p>
-                            <p><i class="fas fa-mobile"></i> MOBILE NUMBER :(+254) 70991277
+                            <p><i class="fas fa-mobile"></i> Mobile Number :(+254) 70991277
                             </p>
-                            <p><i class="fas fa-envelope-open-text"></i> EMAIL :info@apainsurance.org
+                            <p><i class="fas fa-envelope-open-text"></i> Email :info@apainsurance.org
                             </p>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="row book-btn">
                                         <div class="col-md-12">
-                                            <button type="submit" name="request" class="btn btn-primary">Send message
+                                            <button type="submit" name="request" class="btn btn-primary"><i class="fas fa-paper-plane"></i> &nbsp; Send message
                                             </button>
                                         </div>
                                     </div>
@@ -102,6 +102,142 @@
         </div>
 
     </div>
+
+
+    <section class="map">
+        <h2> OUR BRANCHES</h2>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3626.240283045972!2d36.80207168448322!3d-1.259388768112602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f171338d2a965%3A0xc882ec8de269158!2sApollo%20Centre!5e0!3m2!1sen!2ske!4v1569853756860!5m2!1sen!2ske" 
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+        </iframe>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="office-branch head-office">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch head-office">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch head-office">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch head-office">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="office-branch branch">
+                        <h2> Head Office</h2>
+                        <p>location : apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Telephone : +254 (0) 20 364 1000</p>
+                        <hr>
+                        <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+
+    </section>
+
 
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
