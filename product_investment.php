@@ -253,10 +253,6 @@ require_once 'inc/functions.php';
     <!-- ===================================== TABLE ===================================== -->
 
     <div class="container">
-<<<<<<< HEAD
-        <h1 class=" wow fadeInUp" data-wow-delay="0.1s">Key Distinctions and Benefits of Apollo Asset Management Company</h1>
-=======
->>>>>>> 13ba4b8f7359e54d61af9cad58d74a03e63a6699
         <div class="row info-container wow fadeInUp" data-wow-delay="0.12s">
             <div class="col-md-6">
                 <div class="image-container">
