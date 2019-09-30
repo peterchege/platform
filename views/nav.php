@@ -253,7 +253,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li class="uk-nav-header ">Forms :</li>
                                         <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Broshures</a></li>
+                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Brochure</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Claim Forms</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Proposal Forms</a></li>
                                     </ul>

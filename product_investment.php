@@ -13,7 +13,6 @@ require_once 'inc/functions.php';
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/media.css" media="screen">
-
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/Product.css" media="screen">
@@ -102,7 +101,7 @@ require_once 'inc/functions.php';
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="charter-block1">
                             <i class="fas fa-chart-line"></i>
-                            <h2> Fixed Income: </h2>
+                            <h2> Fixed Income </h2>
                             <hr>
                             <p>
                                 Armed with the best investment ideas, AAMC seeks to capitalize on the best investment opportunities,
@@ -126,7 +125,7 @@ require_once 'inc/functions.php';
                     <div class="col-md-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class=" charter-block1">
                             <i class="fas fa-chart-area"></i>
-                            <h2>Liquidity Management: </h2>
+                            <h2>Liquidity Management </h2>
                             <hr>
                             <p>
                                 Short-term money market investments in a variety of structures and terms.
@@ -160,7 +159,7 @@ require_once 'inc/functions.php';
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new ">
+        <div class="product product-new wow fadeInUp" data-wow-delay="0.1s">
             <div class="header text-left">
                 <h1>PRODUCTS</h1>
             </div>
@@ -254,7 +253,8 @@ require_once 'inc/functions.php';
     <!-- ===================================== TABLE ===================================== -->
 
     <div class="container">
-        <div class="row info-container wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class=" wow fadeInUp" data-wow-delay="0.1s">Key Distinctions and Benefits of Apollo Asset Management Company</h1>
+        <div class="row info-container wow fadeInUp" data-wow-delay="0.12s">
             <div class="col-md-6">
                 <div class="image-container">
 
@@ -274,16 +274,13 @@ require_once 'inc/functions.php';
                             <td>Wealth of Experience</td>
                             <td>
                                 <ul>
+                                    <li> Access to expert Portfolio Managers</li>
                                     <li>Access to superior returns through
                                         our understanding of local markets,
                                         which translates into a portfolio
                                         of our best ideas.
                                     </li>
-                                    <li>Access to superior returns through
-                                        our understanding of local markets,
-                                        which translates into a portfolio
-                                        of our best ideas.
-                                    </li>
+
                                 </ul>
 
                             </td>

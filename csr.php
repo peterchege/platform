@@ -66,6 +66,14 @@ require_once 'inc/functions.php';
 
 
     <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo-csr">
+                    
+                </div>
+
+            </div>
+        </div>
         <div class="apollo">
             <h1>CORPORATE SOCIAL RESPONSIBILITY</h1>
             <div class="under-line img13">
@@ -73,7 +81,6 @@ require_once 'inc/functions.php';
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Welcome to Apollo Investments Limited.
                 APA Apollo Foundation is a corporate social investment arm set up by The Apollo Group
                 (APA Insurance, APA Life, Apollo Asset Management and Gordon Court) whose Corporate Social
                 Responsibility
