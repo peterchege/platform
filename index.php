@@ -110,9 +110,11 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    CONTACT US
-                </button>
+                <a href="contact_us.php">
+                    <button class="btn btn-primary">
+                       CONTACT US
+                    </button>
+                </a>
             </div>
 
             <!-- <div class="col-12">
