@@ -53,6 +53,47 @@
                     <div class="col-md-7">
                         <div class="content-info2">
                             <h2>DROP US A LINE ! </h2>
+
+                            <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                                <div class="form-algn"><br><br>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="full_name">Full Name / Company</label>
+                                            <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="phone">Mobile Number / Contact person</label>
+                                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <label for="email">Email Address</label>
+                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <label for="full_name">Message / FeedBack</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+
+                                    </div>
+
+                                    <div style="display: none">
+                                        <input type="hidden" id="product_id" name="product_id" value="9">
+                                        <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                    </div>
+                                    <div class="row book-btn">
+                                        <div class="col-md-12">
+                                            <button type="submit" name="request" class="btn btn-primary">Send message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
