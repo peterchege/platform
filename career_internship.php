@@ -96,7 +96,7 @@ require_once 'inc/sessions.php';
 
                         <div class="customer-btn">
                             <div class="row">
-                                <button id="submit_internship_form" type="submit" class="btn btn-primary">Submit</button>
+                                <button id="submit_internship_form" type="submit" class="btn btn-primary submit_internship_form">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -123,15 +123,20 @@ require_once 'inc/sessions.php';
             $('#internship_form').parsley();
             $('#internship_form').on('submit', function(e) {
                 e.preventDefault();
-                console.log(dataString) = new FormData(this);
-                alert(dataString);
+                var dataString = new FormData(this);
+                console.log(dataString)
                 $.ajax({
                     type: "POST",
                     url: "ajax/hr.php?request=internship_application",
                     data: new FormData(this),
                     dataType: "text",
                     processData: false,
+                    cache: false,
                     contentType: false,
+                    beforeSend: function() {
+                        // $('.submit_internship_form').attr("disabled", "disabled");
+                        // $('#fupForm').css("opacity", ".5");
+                    },
                     success: function(response) {
                         alert(response);
                     }
