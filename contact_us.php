@@ -123,9 +123,9 @@
             < <div class="row">
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
-                        <h2> Head Office</h2>
-                        <p>Location : apollo centre, Ring Road Parklands, westlands</p>
-                        <p>Tel:+254 (0) 20 364 1000</p>
+                        <h2>Head Office</h2>
+                        <p>Location: apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Tel: +254 (0) 20 364 1000</p>
                         <p>info@apainsurance.org</p>
                         <hr>
                         <p class="text-center get-direction"><a
@@ -136,8 +136,8 @@
                 </div>
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
-                        <h2> City Centre</h2>
-                        <p>Location : 3rd foor, Barclays Plaza, Loita Street, Nairobi</p>
+                        <h2>City Centre</h2>
+                        <p>Location: 3rd foor, Barclays Plaza, Loita Street, Nairobi</p>
                         <p>Tel: 020-2862000</p>
                         <p>info@apainsurance.org</p>
                         <hr>
@@ -148,8 +148,8 @@
                 </div>
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
-                        <h2> Thika Branch</h2>
-                        <p>location : 5th floor, Zuri Centre, Kenyatta Highway</p>
+                        <h2>Thika Branch</h2>
+                        <p>Location: 5th floor, Zuri Centre, Kenyatta Highway</p>
                         <p>Tel:+254 (0) 67 222 0196 </p>
                         <p>apa.thika@apainsurance.org</p>
                         <hr>
@@ -160,9 +160,9 @@
                 </div>
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
-                        <h2> Nanyuki Branch</h2>
-                        <p>location : ABC Imani Plaza, Ngei Road, Nanyuki</p>
-                        <p>Tel020-2862000</p>
+                        <h2>Nanyuki Branch</h2>
+                        <p>Location: ABC Imani Plaza, Ngei Road, Nanyuki</p>
+                        <p>Tel: 020-2862000</p>
                         <p>info@apainsurance.org</p>
                         <!-- < <p>Telephone : +254 (0) 20 364 1000</p> -->
                         <hr>
@@ -178,38 +178,52 @@
         <div class="row">
             <div class="col-md-3 ">
                 <div class="office-branch branch">
-                    <h2> Head Office</h2>
-                    <p>location : apollo centre, Ring Road Parklands, westlands</p>
-                    <p>Telephone : +254 (0) 20 364 1000</p>
+                    <h2>Nakuru Branch</h2>
+                    <p>Location: Giddo Plaza, HarvesterRoad, Nakuru</p>
+                    <p>Tel: 051-2213412/6</p>
+                    <p></p>apa.nakuru@apainsurance.org</p>
                     <hr>
-                    <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    <p class="text-center get-direction"><a
+                            href="https://www.google.com/maps/place/Giddo+Plaza/@-0.2871936,36.0573381,17z/data=!3m1!4b1!4m5!3m4!1s0x18298db861e220d7:0xca07ce732256503e!8m2!3d-0.287199!4d36.0595268"
+                            target="_blank"> Get Direction >> </a></p>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <div class="office-branch branch">
-                    <h2> Head Office</h2>
-                    <p>location : apollo centre, Ring Road Parklands, westlands</p>
-                    <p>Telephone : +254 (0) 20 364 1000</p>
+                    <h2>Kisii Branch</h2>
+                    <p>location: Mocha Place, Kisii-Kisumu Highway</p>
+                    <p>Tel: 058 203 1773| 020 286 2327</p>
+                    <p>apa.kisii@apainsurance.org</p>
+
                     <hr>
-                    <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    <p class="text-center get-direction"><a
+                            href="https://www.google.com/maps/place/Mocha+Place,+Kisii/@-0.6709952,34.7664811,17z/data=!3m1!4b1!4m5!3m4!1s0x182b3bf6cbbb4433:0xf31a4b128de97c92!8m2!3d-0.6710006!4d34.7686698"
+                            target="_blank">Get Direction >> </a></p>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <div class="office-branch branch">
-                    <h2> Head Office</h2>
-                    <p>location : apollo centre, Ring Road Parklands, westlands</p>
-                    <p>Telephone : +254 (0) 20 364 1000</p>
-                    <hr>
-                    <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    <h2>Eldoret Branch</h2>
+                    <p>Location: 1st Floor, Zion Mall,Uganda Road</p>
+                    <p>Tel: 053 203 0937 | 020 286 2334</p>
+                    <p>apa.eldoret@apainsurance.org</p>
+                    < <hr>
+                        <p class="text-center get-direction"><a
+                                href="https://www.google.com/maps/search/Zion+Mall,Uganda+Road/@0.5177737,35.2759758,17z/data=!3m1!4b1"
+                                target="_blank">
+                                Get Direction >> </a></p>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <div class="office-branch branch">
-                    <h2> Head Office</h2>
-                    <p>location : apollo centre, Ring Road Parklands, westlands</p>
-                    <p>Telephone : +254 (0) 20 364 1000</p>
+                    <h2>Naivasha Branch</h2>
+                    <p>location: 1st floor,Eagle Center, Mbari Kaniu Road</p>
+                    <p>Tel: 050 202 0086 | 020 086 2353</p>
+                    <P>apa.naivasha@apainsurance.org</P>
                     <hr>
-                    <p class="text-center get-direction"><a href="#"> Get Direction >> </a></p>
+                    <p class="text-center get-direction"><a
+                            href="https://www.google.com/maps/place/Mbaria+Kaniu+Rd,+Naivasha/@-0.7145835,36.4313025,17z/data=!3m1!4b1!4m5!3m4!1s0x182917f51ef8304f:0x2881fee7966ad491!8m2!3d-0.7145889!4d36.4334912"
+                            target Get Direction>> </a></p>
                 </div>
             </div>
 
