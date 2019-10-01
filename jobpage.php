@@ -43,6 +43,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
             echo errorMessage();
             echo successMessage();
             ?>
+            <br>
             <h1>RECOMMENDED JOBS</h1>
             <div class="under-line img6">
                 <img src="images/line.png" alt="">
@@ -68,7 +69,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                 <h2><?php echo strtoupper(sanitize($job_description['job_title'])); ?></h2>
                                 <hr><br>
                                 <div class="row job-content">
-                                    <div class="col-8 text-justify">
+                                    <div class="col-md-8 text-justify">
                                         <ul class="text-left">
                                             <li><b>Company:</b> <span><?php echo desanitize($job_description['company']); ?></span> </li>
                                             <li><b>Location:</b>
@@ -77,9 +78,12 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                             <li><b>Deadline:</b> <span><?php echo desanitize(dMMY($job_description['deadline'])); ?></span>
                                             </li>
                                         </ul>
+                                        <hr>
+                                        <p> Job description</p>
+                                        <p2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nemo possimus rem exercitationem ipsam aut fuga iure accusantium voluptates. Dolore debitis doloribus atque eveniet architecto officiis. Facere corporis dolore tenetur.
                                     </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center"><br><br><br>
                                             <a href="job_description.php?job_token=<?php echo desanitize($job_description['job_id']); ?>" class="btn btn-primary">READ MORE</a>
                                         </div>
                                     </div>

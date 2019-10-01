@@ -15,7 +15,6 @@ if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 }
 
 
-
 if (!$db) {
 	echo 'Database connection unsuccessful ' . mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 }
