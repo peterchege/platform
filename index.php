@@ -15,6 +15,7 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -881,6 +882,8 @@ require_once 'inc/functions.php';
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>

@@ -828,12 +828,12 @@
 
                         </div>
                         <hr>
-                        <div class="form-group col-md-12">
+                        <!-- <div class="form-group col-md-12">
                             <h3 for="inputAddress">COVER DETAILS</h3>
-                        </div>
+                        </div> -->
 
                         <div class="container">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> DOB (optional) </label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
@@ -859,7 +859,7 @@
                                     <br>
                                     <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">
