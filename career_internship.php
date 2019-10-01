@@ -3,15 +3,6 @@ require_once 'inc/db.php';
 require_once 'inc/functions.php';
 require_once 'inc/sessions.php';
 
-//checking job expiry
-$datequery = $db->query("SELECT job_id,deadline FROM apa_job_posts");
-while ($check = mysqli_fetch_assoc($datequery)) {
-    $diff = strtotime($check['deadline']) - time();
-    $expired_id = $check['job_id'];
-    if ($diff <= 0) {
-        $db->query("UPDATE apa_job_posts SET archive = 1 WHERE job_id = '$expired_id' ");
-    }
-}
 ?>
 <!doctype html>
 <html lang="en">
@@ -24,6 +15,8 @@ while ($check = mysqli_fetch_assoc($datequery)) {
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/career.css" media="screen">
     <link rel="stylesheet" href="css/customer.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+
 
     <?php include 'views/head_links.php'; ?>
 
@@ -68,44 +61,43 @@ while ($check = mysqli_fetch_assoc($datequery)) {
             <div class="col-md-6">
                 <div class="customer-login1">
                     <h2> Fill in the following form :</h2>
-                    <form class="customer-form intern-form">
+                    <form id="internship_form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="customer-form intern-form">
 
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">First Name</label>
-                                    <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="e.g john">
+                                    <label for="first_name">First Name</label>
+                                    <input name="first_name" type="text" class="form-control" id="first_name" aria-describedby="" placeholder="e.g john" required>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Last Name</label>
-                                    <input type="email" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="e.g doe">
+                                    <label for="last_name">Last Name</label>
+                                    <input name="last_name" type="text" class="form-control" id="last_name" aria-describedby="" placeholder="e.g doe" required>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g john@gmail.com">
+                            <label for="email">Email address</label>
+                            <input name="email" type="email" class="form-control" id="email" aria-describedby="" placeholder="e.g john@gmail.com" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Phone Number</label>
-                            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="0712 xxx xxx">
+                            <label for="phone">Phone Number</label>
+                            <input name="phone" type="number" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Attach document (Cv, Resume )</label>
-                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            <label for="resume">Attach document (Cv / Resume )</label>
+                            <input name="resume" type="file" class="form-control-file" id="resume" required>
                         </div>
 
                         <div class="customer-btn">
                             <div class="row">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button id="submit_internship_form" type="submit" class="btn btn-primary submit_internship_form">Submit</button>
                             </div>
-
                         </div>
                     </form>
                 </div>
@@ -121,50 +113,52 @@ while ($check = mysqli_fetch_assoc($datequery)) {
 
 
 
-    <!-- Optional JavaScript -->
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
+    <script src="js/parsley.min.js"></script>
 
     <script>
-        DecoupledEditor.create(document.querySelector('#editor'))
-            .then(editor => {
-                const toolbarContainer = document.querySelector('#toolbar-container');
-
-                toolbarContainer.appendChild(editor.ui.view.toolbar.element);
+        $(document).ready(function() {
+            $('#internship_form').parsley();
+            $('#internship_form').on('submit', function(e) {
+                e.preventDefault();
+                var dataString = new FormData(this);
+                console.log(dataString)
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/hr.php?request=internship_application",
+                    data: new FormData(this),
+                    dataType: "text",
+                    processData: false,
+                    cache: false,
+                    contentType: false,
+                    beforeSend: function() {
+                        $('.submit_internship_form').attr("disabled", "disabled");
+                        // $('#fupForm').css("opacity", ".5");
+                    },
+                    success: function(response) {
+                        if (response == 'success') {
+                            $('#internship_form')[0].reset();
+                            Swal.fire({
+                                title: 'Your request has been sent successfully.',
+                                type: response,
+                                allowOutsideClick: true,
+                                showConfirmButton: true
+                            });
+                        } else {
+                            swal.fire({
+                                title: response,
+                                type: 'error',
+                            });
+                        }
+                        // $('#fupForm').css("opacity", "");
+                        $(".submit_internship_form").removeAttr("disabled");
+                    }
+                });
             })
-            .catch(error => {
-                console.error(error);
-            });
-
-
-
-
-        ClassicEditor
-            .create(document.querySelector('#editor1'), {
-                ckfinder: {
-                    uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
-                },
-                toolbar: ['ckfinder', 'imageUpload', '|', 'heading', '|', 'bold', 'italic', '|', 'undo', 'redo']
-            })
-            .catch(error => {
-                console.error(error);
-            });
+        });
     </script>
-
 </body>
 
 </html>
