@@ -117,12 +117,14 @@ if ($job_desc['job_id'] !== $job_token) {
                             <br>
                             <hr>
                             <div class="load-more text-center">
-                                <a href="career_login.php?job_token=<?= $job_token ?>&apply=<?= $job_token ?>" class="btn btn-primary">APPLY NOW</a>
+                                <!-- <a href="career_login.php?job_token=<?= $job_token ?>&apply=<?= $job_token ?>" class="btn btn-primary">APPLY NOW</a> -->
+                                <a href="mailto:digital@apainsurance.org">Send mail to digital@apainsurance.org </a>
                             </div>
                         </div>
                     </div>
                 </div><br>
             </div>
+            <a href="mailto:peterchege442@gmail.com">Send mail to digital@apainsurance.org </a>
         </div>
     </div>
 
