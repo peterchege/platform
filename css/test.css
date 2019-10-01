@@ -798,14 +798,16 @@ width: 60%;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-    background: rgb(2, 23, 44);
+    /* background: rgb(2, 23, 44); */
+    background: rgb(0, 131, 185);
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
 }
 
 #footer .footer-top {
-    background: rgb(3, 28, 54);
+    /* background: rgb(3, 28, 54); */
+    background: rgb(0, 131, 185);
     padding: 60px 0 30px 0;
     
    

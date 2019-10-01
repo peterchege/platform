@@ -44,7 +44,7 @@ require_once 'inc/functions.php';
 
         <div class="box-quote">
             <div class="row">
-                <h3 class="text-center">Select a product to get a quote or buy now</h3>
+                <h3 class="text-center">Select a product to get a quote </h3>
             </div>
 
             <div class="container">
@@ -64,12 +64,19 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <a href="https://portal.apainsurance.org/GISPORTAL/auth">
+                    <a href="calc_domestic_package.php">
+                        <div class="c0l-md-4 font-awsome text-center">
+                            <i class="fas fa-home"></i>
+                            <p>Domestic Package</p>
+                        </div>
+                    </a>
+
+                    <!-- <a href="https://portal.apainsurance.org/GISPORTAL/auth">
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-ship"></i>
                             <p>Marine Open Cover</p>
                         </div>
-                    </a>
+                    </a> -->
 
                 </div>
                 <br>
@@ -154,7 +161,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full1" class="btn btn-primary" uk-toggle>Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -371,93 +378,78 @@ require_once 'inc/functions.php';
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+    <!-- ===================================== MOTOR PRIVATE LEAD FORM FOR ===================================== -->
 
-    <!-- ===================================== PERSONAL MOTOR MODAL ===================================== -->
-
-    <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/'); 
-                background-size: cover; " uk-height-viewport>
-
-                    <div class="box-contain">
-
-
-                        <div class="uk-margin personal">
-                            <h2>PERSONAL INSURANCE</h2>
-                            <div class="uk-form-controls">
-                                <label><input class="uk-radio" type="radio" name="radio1" checked> Motor Private</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio2"> Personal Accident</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio2"> Student Personal Accident</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio3"> Domestic Package</label><br>
-                                <label><input class="uk-radio" type="radio" name="radio4"> Pet </label><br>
-                                <label><input class="uk-radio" type="radio" name="radio4"> Golfers </label>
-                            </div>
-                        </div>
-                        <div class="head-layer">
-                        </div>
-                    </div>
-                </div>
+                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
-                    <form class="form-container" action="" method="POST">
-                        <br>
-                        <h3 for="inputAddress" class="comp-detail">PERSONALS DETAILS</h3>
+
+
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Name</label>
-                                    <input name="company_name" id="company_name" type="text" class="form-control" placeholder="Full Name" value="" selected>
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Phone Number</label>
-                                    <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
+
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Location</label>
-                                    <input name="capacity" id="capacity" type="number" min="1" class="form-control" placeholder="Nairobi" value="">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
                         </div>
-
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">PREMIUM DETAILS</h3>
+                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
                         </div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="make">Vehicle Make</label>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder="Toyota" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="model">Vehicle Model</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="Crown" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="value">Vehicle Value (Kshs)</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
-
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
                             <div class="row book-btn">
-                                <div class="col-md-12"><br>
-                                    <button class="btn btn-primary">REQUEST QUOTATION</button>
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                        ASSISTANCE
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -468,68 +460,8 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL PRODUCT FORM MODAL ===================================== -->
 
-    <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body">
-            <button class="uk-modal-close-outside " type="button" uk-close></button>
-            <h2 class="uk-modal-title modal-head">Select the cover you wish to generate a quote for:</h2>
 
-            <div class="row select-prod">
-                <div class="col-4">
-                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                        <div class="product-quote">
-                            <i class="fas fa-car"></i>
-                            <p>Motor Private</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-user-injured"></i>
-                        <p>Personal Accident</p>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <a href="calc_domestic_package.php">
-                        <div class="product-quote">
-                            <i class="fas fa-home"></i>
-                            <p>Domestic Package</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="row select-prod">
-                <div class="col-4">
-                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4">
-                        <div class="product-quote">
-                            <i class="fas fa-dog"></i>
-                            <p>Pet Cover</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-golf-ball"></i>
-                        <p>Golfers</p>
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="product-quote">
-                        <i class="fas fa-car"></i>
-                        <p>Motor Commercial</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 
     <!-- loading scripts -->

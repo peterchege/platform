@@ -62,7 +62,7 @@
                                             <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <label for="phone">Mobile Number / Contact person</label>
+                                            <label for="phone">Mobile Number</label>
                                             <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                                         </div>
                                     </div>
