@@ -298,22 +298,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="" placeholder="John Doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712345678" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="johndoe@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="">
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="Nairobi" value="">
                                 </div>
                             </div>
                             <hr>
@@ -321,7 +321,7 @@
                                 <h3 for="inputAddress" class="comp-detail">ANIMAL DETAILS</h3>
                                 <div class=" form-group col-md-12">
                                     <label for="number">No of Animals</label>
-                                    <input name="number" type="text" class="form-control value" id="number" placeholder="" value="" required>
+                                    <input name="number" type="text" class="form-control value" id="number" placeholder="15" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Livestock</label>
@@ -335,7 +335,7 @@
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="value">Value of animals</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="250,000" value="" required>
                                 </div>
                             </div>
 
