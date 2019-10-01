@@ -81,7 +81,7 @@
                     browse open jobs.
                 </p><br>
                 <div class="load-more text-center">
-                    <a href="jobpage.php" class="btn btn-primary">EXPLORE NOW</a>
+                    <a href="career_internship.php" class="btn btn-primary">EXPLORE NOW</a>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
 
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/career.css" media="screen">
-
+    <link rel="stylesheet" href="css/customer.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -44,8 +44,8 @@ while ($check = mysqli_fetch_assoc($datequery)) {
             echo successMessage();
             ?>
             <br>
-            <h1>RECOMMENDED JOBS</h1>
-            <div class="under-line img6">
+            <h1>INTERNSHIP APPLICATION</h1>
+            <div class="under-line img5">
                 <img src="images/line.png" alt="">
             </div>
             <p class="container content-offer text-left"> Apollo Group, our most valuable assets are our employees. We
@@ -56,57 +56,66 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                 race, religion, gender and marital status.
             </p>
 
-            <?php
-            //careers
-            $jobquery = $db->query("SELECT * FROM apa_job_posts WHERE archive = 0  ORDER BY id DESC");
-
-            ?>
-            <?php if (mysqli_num_rows($jobquery) > 0) : ?>
-                <?php while ($job_description = mysqli_fetch_assoc($jobquery)) : ?>
-                    <div class="row ">
-                        <div class="col-10 job-box">
-                            <div class="job-description text-center">
-                                <h2><?php echo strtoupper(sanitize($job_description['job_title'])); ?></h2>
-                                <hr><br>
-                                <div class="row job-content">
-                                    <div class="col-md-8 text-justify">
-                                        <ul class="text-left">
-                                            <li><b>Company:</b> <span><?php echo desanitize($job_description['company']); ?></span> </li>
-                                            <li><b>Location:</b>
-                                                <span><?php echo desanitize($job_description['location']); ?></span>
-                                            </li>
-                                            <li><b>Deadline:</b> <span><?php echo desanitize(dMMY($job_description['deadline'])); ?></span>
-                                            </li>
-                                        </ul>
-                                        <hr>
-                                        <p> Job description</p>
-                                        <p2><?php //echo desanitize($job_description['job_short_description']);
-                                                    $job_short_description = desanitize($job_description['job_short_description']);
-                                                    $job_short_description = strip_tags($job_short_description);
-                                                    if (strlen($job_short_description) > 200) {
-                                                        echo $newpost = substr($job_short_description, 0, 200) . '... ';
-                                                    } else {
-                                                        echo $job_short_description;
-                                                    }
-                                                    ?>
-                                        </p2>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="load-more text-center"><br><br><br>
-                                            <a href="job_description.php?job_token=<?php echo desanitize($job_description['job_id']); ?>" class="btn btn-primary">READ MORE</a>
-                                        </div>
-                                    </div>
-                                </div><br>
-                            </div>
-                        </div>
-                    </div><br><br>
-                <?php endwhile; ?>
-            <?php else : ?>
-                <p>Currently there are no job vacancies.</p>
-            <?php endif ?>
         </div>
 
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 intern-register">
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="customer-login1">
+                    <h2> Fill in the following form :</h2>
+                    <form class="customer-form intern-form">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">First Name</label>
+                                    <input type="text" class="form-control" id="first_name" aria-describedby="emailHelp" placeholder="e.g john">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Last Name</label>
+                                    <input type="email" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="e.g doe">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g john@gmail.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="0712 xxx xxx">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Attach document (Cv, Resume )</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+
+                        <div class="customer-btn">
+                            <div class="row">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br>
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
 
