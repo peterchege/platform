@@ -142,7 +142,7 @@ require_once 'inc/functions.php';
 
             <div class="box-quote">
                 <div class="row">
-                    <h3 class="text-center">Select your product that you want to make a claim on</h3>
+                    <h3 class="text-center">Select your product that you want to make a claim on :</h3>
                 </div>
 
                 <div class="container-fluid">
@@ -162,12 +162,12 @@ require_once 'inc/functions.php';
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-heartbeat"></i>
-                            <p>Health</p>
+                            <p>Health Claim</p>
                         </div>
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-hand-holding-heart"></i>
-                            <p>Life</p>
+                            <p>Life claim</p>
                         </div>
 
                         <div class="c0l-md-4 font-awsome text-center">
