@@ -27,13 +27,35 @@
     background-position:  center;
 }
 
+.intern-register {
+    width: 100%;
+    background-image: url(../images/moha.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+     -webkit-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.2);
+     -moz-box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.2);
+     box-shadow: 7px 7px 15px 2px rgba(95, 99, 104, 0.2);
+}
+
 .customer-login{
     margin: 10% auto;
 }
 
+.customer-login1 {
+    margin: 0% auto;
+}
 .customer-login h2{
     font-family: 'Oswald',
     sans-serif;
+    color: #0C4DA2;
+    font-size: 30px;
+    text-align: center;
+}
+
+.customer-login1 h2 {
+    font-family: 'Oswald',
+        sans-serif;
     color: #0C4DA2;
     font-size: 30px;
     text-align: center;
@@ -44,6 +66,13 @@
     margin: 3% auto 5% auto;
     
 }
+
+.intern-form {
+    width: 80%;
+    margin: 3% auto 5% auto;
+
+}
+
 
 .customer-form label{
     color: #0D345F;
