@@ -123,8 +123,6 @@ require_once 'inc/sessions.php';
             $('#internship_form').parsley();
             $('#internship_form').on('submit', function(e) {
                 e.preventDefault();
-                var dataString = new FormData(this);
-                console.log(dataString)
                 $.ajax({
                     type: "POST",
                     url: "ajax/hr.php?request=internship_application",

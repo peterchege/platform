@@ -4,8 +4,7 @@ require_once '../inc/functions.php';
 
 switch ($_GET['mode']) {
     case 'lead':
-        # code...
-
+        sleep(1);
         //validate from ajax request
         //universal attributes
         $created_at = date('Y-m-d H:i:s');
