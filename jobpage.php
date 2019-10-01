@@ -80,7 +80,16 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                         </ul>
                                         <hr>
                                         <p> Job description</p>
-                                        <p2><?php echo desanitize($job_description['job_short_description']) ?></p2>
+                                        <p2><?php //echo desanitize($job_description['job_short_description']);
+                                                    $job_short_description = desanitize($job_description['job_short_description']);
+                                                    $job_short_description = strip_tags($job_short_description);
+                                                    if (strlen($job_short_description) > 200) {
+                                                        echo $newpost = substr($job_short_description, 0, 200) . '... ';
+                                                    } else {
+                                                        echo $job_short_description;
+                                                    }
+                                                    ?>
+                                        </p2>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center"><br><br><br>
