@@ -51,7 +51,11 @@
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Claims can sometimes be a
                 headache, but not with us. In the case of an unfortunate event, we will hold your hand and
-                walk with you through the claims process
+                walk with you through the claims process.
+                In case of a claim, all you have to do is provide details
+                about the incident and we’ll take it from there. We will
+                advise you on the required documentation depending on
+                the nature of the claim.
             </p>
         </div>
     </div>
@@ -134,13 +138,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 1 : Report </h2>
+                        <h2>Step 1 : Report (Call the police) </h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            Insured/driver to report the accident to the nearest police station at once and while
+                            they at it, not to admit liability but to inform APA or their intermediary immediately.
                         </p>
 
                     </div>
@@ -148,13 +150,11 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 2 : Documents</h2>
+                        <h2>Step 2 : Document what you can</h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            Take details of the other vehicle, the driver and their insurance company. Also,
+                            if possible, take photographs of the accident scene.
                         </p>
 
                     </div>
@@ -162,13 +162,10 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 3 : Response</h2>
+                        <h2>Step 3 : Safety first</h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            If there are victims with injuries, get them help ASAP! Otherwise move to a police station.
                         </p>
 
                     </div>
@@ -281,17 +278,17 @@
                 To help us process your claim faster,
                 please download and complete the claim form and prepare the following documentation:
                 <ol>
-                    <li>Claim form (<a href="#">Click here to download</a>)</li>
+                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
                     <li>Police Abstract</li>
                     <li>Copy of Driving License</li>
                     <li>Copy of the Log Book </li>
-                    <li>Copy of ID/Passport</li>
+                    <li>Detailed statement and sketch of the circumstances of the accident</li>
                 </ol>
             </p>
         </div>
     </div>
 
-    
+
 
     <!-- Optional JavaScript -->
 
