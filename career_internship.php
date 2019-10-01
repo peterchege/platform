@@ -134,11 +134,26 @@ require_once 'inc/sessions.php';
                     cache: false,
                     contentType: false,
                     beforeSend: function() {
-                        // $('.submit_internship_form').attr("disabled", "disabled");
+                        $('.submit_internship_form').attr("disabled", "disabled");
                         // $('#fupForm').css("opacity", ".5");
                     },
                     success: function(response) {
-                        alert(response);
+                        if (response == 'success') {
+                            $('#internship_form')[0].reset();
+                            Swal.fire({
+                                title: 'Your request has been sent successfully.',
+                                type: response,
+                                allowOutsideClick: true,
+                                showConfirmButton: true
+                            });
+                        } else {
+                            swal.fire({
+                                title: response,
+                                type: 'error',
+                            });
+                        }
+                        // $('#fupForm').css("opacity", "");
+                        $(".submit_internship_form").removeAttr("disabled");
                     }
                 });
             })
