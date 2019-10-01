@@ -4,7 +4,7 @@ require_once '../inc/functions.php';
 
 switch ($_GET['request']) {
     case 'internship_application':
-        sleep(5);
+        sleep(1);
         $first_name = $_POST['first_name'];
         $last_name = $_POST['last_name'];
         $email = $_POST['email'];
@@ -34,8 +34,8 @@ switch ($_GET['request']) {
             $extensions = array("doc", "docx", "pdf");
 
             if (in_array($file_ext, $extensions) === false) {
-                $errors[] = "Invalid file.";
-                echo "Invalid file.";
+                $errors[] = "Invalid file type. Only doc, docx and pdf files allowed";
+                echo "Invalid file type. Only doc, docx, pdf files allowed.";
                 exit;
             }
 
@@ -47,10 +47,13 @@ switch ($_GET['request']) {
 
             if (empty($errors) == true) {
                 $file_path =  "../img/internshipfiles/" . $email . '-' . $intern_id . '-' . $file_name;
+                $file_name = $email . '-' . $intern_id . '-' . $file_name;
                 move_uploaded_file($file_tmp, $file_path);
-                $insert = $db->query("INSERT INTO apa_job_internship_applications(intern_id,first_name,last_name,email,phone,file_path) VALUES('$intern_id','$first_name','$last_name','$email','$phone','')  ");
+                $insert = $db->query("INSERT INTO apa_job_internship_applications(intern_id,first_name,last_name,email,phone,`file`) VALUES('$intern_id','$first_name','$last_name','$email','$phone','$file_name')  ");
                 if ($insert) {
                     echo "success";
+                } else {
+                    echo "An error occured please try again.";
                 }
             } else {
                 print_r($errors);
