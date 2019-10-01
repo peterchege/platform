@@ -101,7 +101,7 @@
                     </div>
 
 
-                    <div class="col-03 product-box we img-windscreen wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-03 product-box we img-theft wow fadeInUp " data-wow-delay="0.4s">
                         <a href="media_centre_video.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
