@@ -118,7 +118,7 @@ if ($job_desc['job_id'] !== $job_token) {
                             <hr>
                             <div class="load-more text-center">
                                 <!-- <a href="career_login.php?job_token=<?= $job_token ?>&apply=<?= $job_token ?>" class="btn btn-primary">APPLY NOW</a> -->
-                                <a href="mailto:recruitment@apollo.co.ke?subject=branch%20manager" class="btn btn-primary">Send mail to recruitment@apollo.co.ke</a>
+                                <a href="mailto:<?= desanitize($job_desc['email']); ?>?subject=<?= desanitize($job_desc['job_title']); ?>" class="btn btn-primary">Send mail to <?= desanitize($job_desc['email']); ?></a>
                             </div>
                         </div>
                     </div>
