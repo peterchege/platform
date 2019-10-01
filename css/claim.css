@@ -485,7 +485,34 @@
     
 }
 
-/* OUR CUSTOMER CHARTER */
+/* OUR CLAIM PROCESS */
+.product22 {
+    width: 100%;
+    margin: 0% auto 4% auto;
+    padding-top: 2%;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+}
+
+.product22 .fomt{
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
+.img-accident{
+    background-image: url(../img/claim2.jpg);
+}
+
+.img-windscreen {
+    background-image: url(../img/claim1.jpg);
+}
+
+.img-theft {
+    background-image: url(../img/claim2.jpg);
+}
 
 .charter2 {
     width: 100%;
@@ -508,7 +535,7 @@
     font-family: 'Oswald',
         sans-serif;
     color: #0C4DA2;
-    font-size: 25px;
+    font-size: 24px;
     padding-top: 20px;
 }
 

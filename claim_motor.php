@@ -55,18 +55,18 @@
     </div>
 
 
-    <!-- =================================== WE DO MORE ===================================== -->
+    <!-- =================================== TYPES OF MOTOR CLAIM ===================================== -->
 
     <div class="container-fluid12">
-        <div class="product product-new">
+        <div class="product22 product-new">
 
-            <h1 class="text-left">Choose the type of claim you wish to initiate : </h1>
+            <h1 class="text-left fomt">Choose the type of claim you wish to initiate : </h1>
             <br>
 
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box we company-image wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-03  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
                         <a href="companies.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -81,7 +81,7 @@
                     </div>
 
 
-                    <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-03  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
                         <a href="products.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -95,7 +95,7 @@
                     </div>
 
 
-                    <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-03 product-box we img-windscreen wow fadeInUp " data-wow-delay="0.4s">
                         <a href="media_centre_video.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -132,7 +132,6 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon1.png" alt=""> -->
                         <h2>Step 1 : Report </h2>
                         <hr>
                         <p>
@@ -147,7 +146,6 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon3.png" alt=""> -->
                         <h2>Step 2 : Documents</h2>
                         <hr>
                         <p>
@@ -162,7 +160,6 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon2.png" alt=""> -->
                         <h2>Step 3 : Response</h2>
                         <hr>
                         <p>
