@@ -186,7 +186,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full2" class="btn btn-primary" uk-toggle>Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -378,6 +378,8 @@ require_once 'inc/functions.php';
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
+    <!-- ===================================== LEAD FORM  ===================================== -->
+
     <!-- ===================================== MOTOR PRIVATE LEAD FORM FOR ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
@@ -460,7 +462,91 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
+    <!-- ===================================== JAMII PLUS LEAD FORM FOR  ===================================== -->
 
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">COVER DETAILS</h3>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make"> DOB (optional) </label>
+                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="model">Name of Beneficiary</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="value">DOB of Beneficiaries </label>
+                                    <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" form-group col-md-6">
+                                    <label for="yom">Relationship of Beneficiary</label>
+                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <br>
+                                    <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
+                                </div>
+                            </div>
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="14">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
