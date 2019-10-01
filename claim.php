@@ -147,10 +147,13 @@ require_once 'inc/functions.php';
 
                 <div class="container-fluid">
                     <div class="row ">
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-car"></i>
-                            <p>Motor</p>
-                        </div>
+
+                        <a href="claim_motor.php">
+                            <div class="c0l-md-4 font-awsome text-center">
+                                <i class="fas fa-car"></i>
+                                <p>Motor</p>
+                            </div>
+                        </a>
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-user-shield"></i>
