@@ -253,7 +253,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE CLAIM
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE CLAIM
                                 </button>
                             </div>
                         </div>
@@ -263,6 +263,32 @@
             </div>
         </div>
     </div>
+
+    <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
+
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <p class="uk-modal-title">
+                <div class="alert alert-success" role="alert">
+                    Sucessfull submited
+                </div>
+            </p>
+            <p>Thank you for providing us with details of your claim. One of our agents will contact you
+                shortly to guide you through the process.
+                <br><br>
+                To help us process your claim faster,
+                please download and complete the claim form and prepare the following documentation:
+                <ol>
+                    <li>Claim form (<a href="#">Click here to download</a>)</li>
+                    <li>Police Abstract</li>
+                    <li>Copy of Driving License</li>
+                    <li>Copy of the Log Book </li>
+                    <li>Copy of ID/Passport</li>
+                </ol>
+            </p>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

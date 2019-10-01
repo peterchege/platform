@@ -151,7 +151,7 @@ require_once 'inc/functions.php';
                         <a href="claim_motor.php">
                             <div class="c0l-md-4 font-awsome text-center">
                                 <i class="fas fa-car"></i>
-                                <p>Motor</p>
+                                <p>Motor Claim</p>
                             </div>
                         </a>
 
