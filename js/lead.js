@@ -55,21 +55,28 @@ $(document).ready(function () {
 
         //var dataString = 'full_name=' + full_name + '&phone=' + phone + '&email=' + email + '&location=' + location + '&make=' + make + '&model=' + model + '&value=' + value + '&yom=' + yom + '&more_info=' + more_info + '&product_id=' + product_id + '&product_category_id=' + product_category_id + '&depature_date=' + depature_date + '&return_date=' + return_date + '&destination=' + destination + '&property=' + property + '&cover=' + cover + '&occupation=' + occupation + '&pet_number=' + pet_number + '&type[]=' + type + '&population_staff=' + population_staff + '&max_take_off_weight=' + max_take_off_weight + '&geographical_scope=' + geographical_scope + '&pilot_details=' + pilot_details;
         var dataString = $(this).serialize();
-        console.log(dataString);
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
-            data: dataString,
+            data: new FormData(this),
             dataType: 'text',
+            processData: false,
+            cache: false,
+            contentType: false,
+            beforeSend: function () {
+                $('.btn').attr("disabled", true);
+            },
             success: function (response) {
                 if (response == 'success') {
                     swal.fire('SUCCESS', 'Thank you for your interest in our product. One of our customer care agents will contact you.', response)
-                    $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp')[0].reset();
+                    $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').trigger('reset');
                     $(".uk-close-large").click()
 
                 } else {
                     swal.fire('ERROR', 'An error occurred. Please try again.', response);
+
                 }
+                $('.btn').attr("disabled", false);
             }
         });
 
