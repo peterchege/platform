@@ -40,8 +40,8 @@ switch ($_GET['request']) {
             }
 
             if ($file_size > 5242880) {
-                $errors[] = "Invalid file size.";
-                echo "Invalid file size.";
+                $errors[] = "File should be less than 5mb in size.";
+                echo "File should be less than 5mb in size.";
                 exit;
             }
 
