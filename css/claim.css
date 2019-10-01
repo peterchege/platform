@@ -15,7 +15,7 @@
 
 /* BANNER WITH GET A CLAIM */
 .banner-home1 {
-    margin-top: 5%;
+    margin-top: 50px;
     width: 100%;
     height: 55vh;
     background-image: url(../img/claim2.jpg);
@@ -30,7 +30,7 @@
     position: absolute;
     height: 55.4%;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 50px;
     top: 0;
     right: 0;
     left: 0;
