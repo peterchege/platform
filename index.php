@@ -131,7 +131,6 @@ require_once 'inc/functions.php';
             <!-- New design for what we offer -->
 
             <div class="container">
-
                 <div class="row row-product1">
                     <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-2">
