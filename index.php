@@ -72,13 +72,6 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <!-- <a href="https://portal.apainsurance.org/GISPORTAL/auth">
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-ship"></i>
-                            <p>Marine Open Cover</p>
-                        </div>
-                    </a> -->
-
                 </div>
                 <br>
             </div>
@@ -88,12 +81,6 @@ require_once 'inc/functions.php';
         <!-- quick services -->
 
         <div class="quick-link text-right">
-            <!-- <div class="col-12">
-                <button class="btn btn-primary">
-                    GET A QUOTE
-                </button>
-            </div> -->
-
             <div class="col-12">
                 <a href="claim.php">
                     <button class="btn btn-primary">

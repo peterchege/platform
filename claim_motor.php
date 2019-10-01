@@ -9,6 +9,8 @@
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -49,25 +51,29 @@
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Claims can sometimes be a
                 headache, but not with us. In the case of an unfortunate event, we will hold your hand and
-                walk with you through the claims process
+                walk with you through the claims process.
+                In case of a claim, all you have to do is provide details
+                about the incident and we’ll take it from there. We will
+                advise you on the required documentation depending on
+                the nature of the claim.
             </p>
         </div>
     </div>
 
 
-    <!-- =================================== WE DO MORE ===================================== -->
+    <!-- =================================== TYPES OF MOTOR CLAIM ===================================== -->
 
     <div class="container-fluid12">
-        <div class="product product-new">
+        <div class="product22 product-new">
 
-            <h1 class="text-left">Choose the type of claim you wish to initiate : </h1>
+            <h1 class="text-left fomt">Choose the type of claim you wish to initiate : </h1>
             <br>
 
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box we company-image wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="companies.php">
+                    <div class="col-03  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="#modal-full1" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
 
@@ -81,7 +87,7 @@
                     </div>
 
 
-                    <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-03  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
                         <a href="products.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -95,7 +101,7 @@
                     </div>
 
 
-                    <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-03 product-box we img-windscreen wow fadeInUp " data-wow-delay="0.4s">
                         <a href="media_centre_video.php">
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -132,14 +138,11 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon1.png" alt=""> -->
-                        <h2>Step 1 : Report </h2>
+                        <h2>Step 1 : Report (Call the police) </h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            Insured/driver to report the accident to the nearest police station at once and while
+                            they at it, not to admit liability but to inform APA or their intermediary immediately.
                         </p>
 
                     </div>
@@ -147,14 +150,11 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon3.png" alt=""> -->
-                        <h2>Step 2 : Documents</h2>
+                        <h2>Step 2 : Document what you can</h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            Take details of the other vehicle, the driver and their insurance company. Also,
+                            if possible, take photographs of the accident scene.
                         </p>
 
                     </div>
@@ -162,14 +162,10 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <!-- <img src="images/icon/icon2.png" alt=""> -->
-                        <h2>Step 3 : Response</h2>
+                        <h2>Step 3 : Safety first</h2>
                         <hr>
                         <p>
-                            In case of a claim, all you have to do is provide details
-                            about the incident and we’ll take it from there. We will
-                            advise you on the required documentation depending on
-                            the nature of the claim.
+                            If there are victims with injuries, get them help ASAP! Otherwise move to a police station.
                         </p>
 
                     </div>
@@ -189,26 +185,110 @@
     <!-- #footer -->
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <!-- ===================================== MOTOR PRIVATE LEAD FORM FOR ===================================== -->
+
+    <div id="modal-full1" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="value">Vehicle Registarion Number </label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make">Describe the Claim Event</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE CLAIM
+                                </button>
+                            </div>
+                        </div>
                 </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                </form>
+
             </div>
         </div>
     </div>
+
+    <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
+
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <p class="uk-modal-title">
+                <div class="alert alert-success" role="alert">
+                    Sucessfull submited
+                </div>
+            </p>
+            <p>Thank you for providing us with details of your claim. One of our agents will contact you
+                shortly to guide you through the process.
+                <br><br>
+                To help us process your claim faster,
+                please download and complete the claim form and prepare the following documentation:
+                <ol>
+                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
+                    <li>Police Abstract</li>
+                    <li>Copy of Driving License</li>
+                    <li>Copy of the Log Book </li>
+                    <li>Detailed statement and sketch of the circumstances of the accident</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+
+
 
     <!-- Optional JavaScript -->
 

@@ -142,16 +142,15 @@ require_once 'inc/functions.php';
 
             <div class="box-quote">
                 <div class="row">
-                    <h3 class="text-center">Select your product that you want to make a claim on</h3>
+                    <h3 class="text-center">Select your product that you want to make a claim on :</h3>
                 </div>
-
+                <br>
                 <div class="container-fluid">
                     <div class="row ">
-
                         <a href="claim_motor.php">
                             <div class="c0l-md-4 font-awsome text-center">
                                 <i class="fas fa-car"></i>
-                                <p>Motor</p>
+                                <p>Motor Claim</p>
                             </div>
                         </a>
 
@@ -162,26 +161,34 @@ require_once 'inc/functions.php';
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-heartbeat"></i>
-                            <p>Health</p>
+                            <p>Health Claim</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+
+                        <div class="c0l-md-4 font-awsome text-center">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <p>Life claim <br>(Personal)</p>
                         </div>
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-hand-holding-heart"></i>
-                            <p>Life</p>
+                            <p>Life claim (Group)</p>
                         </div>
 
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-hand-holding-usd"></i>
                             <p>Investment</p>
                         </div>
-
                     </div>
-                    <br>
                 </div>
-
+                <br>
             </div>
-            <br><br><br><br>
+
         </div>
+        <br><br><br><br>
+    </div>
     </div>
     </div>
     <!-- =====================================FOOTER===================================== -->
