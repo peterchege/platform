@@ -57,7 +57,7 @@ if ($job_desc['job_id'] !== $job_token) {
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
 
     <div class="container">
-        <div class="apollo">
+        <div class="apollo"><br>
             <h1>JOB DESCRIPTION</h1>
             <div class="under-line img7">
                 <img src="images/line.png">
