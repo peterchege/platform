@@ -80,7 +80,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                         </ul>
                                         <hr>
                                         <p> Job description</p>
-                                        <p2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati nemo possimus rem exercitationem ipsam aut fuga iure accusantium voluptates. Dolore debitis doloribus atque eveniet architecto officiis. Facere corporis dolore tenetur.
+                                        <p2><?php echo desanitize($job_description['job_short_description']) ?></p2>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center"><br><br><br>
