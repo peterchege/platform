@@ -79,7 +79,8 @@
 
                                 <div class="content">
                                     <h3>Accident</h3>
-                                    <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                    <p>Living a healthy stress free life is every persons dream. A healthy family is a
+                                        happy
                                         family.</p>
                                 </div>
                             </div>
@@ -88,7 +89,7 @@
 
 
                     <div class="col-03  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="products.php">
+                        <a href="#modal-full2" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -102,7 +103,7 @@
 
 
                     <div class="col-03 product-box we img-theft wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="media_centre_video.php">
+                        <a href="#modal-full3" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -185,13 +186,14 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== MOTOR PRIVATE LEAD FORM FOR ===================================== -->
+    <!-- ===================================== MOTOR ACCIDENT CLAIM FORM FOR ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -201,22 +203,26 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -231,7 +237,8 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value"
+                                        placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
@@ -250,7 +257,9 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE CLAIM
+                                <button type="submit" name="request" class="btn btn-primary"
+                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
                                 </button>
                             </div>
                         </div>
@@ -289,6 +298,204 @@
     </div>
 
 
+    <!-- ===================================== WINDSCREEN CLAIM FORM FOR ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="value">Vehicle Registarion Number </label>
+                                    <input name="value" type="text" class="form-control" id="value"
+                                        placeholder="e.g KBY 213" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make">Describe the Claim Event</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary"
+                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== WINDSCREEN CLAIM FORM FOR ===================================== -->
+
+    <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/claim4.jpg'); background-si4ze: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="value">Vehicle Registarion Number </label>
+                                    <input name="value" type="text" class="form-control" id="value"
+                                        placeholder="e.g KBY 213" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make">Describe the Claim Event</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary"
+                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
+
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <p class="uk-modal-title">
+                <div class="alert alert-success" role="alert">
+                    Sucessfull submited
+                </div>
+            </p>
+            <p>Thank you for providing us with details of your claim. One of our agents will contact you
+                shortly to guide you through the process.
+                <br><br>
+                To help us process your claim faster,
+                please download and complete the claim form and prepare the following documentation:
+                <ol>
+                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
+                    <li>Police Abstract</li>
+                    <li>Copy of Driving License</li>
+                    <li>Copy of the Log Book </li>
+                    <li>Detailed statement and sketch of the circumstances of the accident</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
 
@@ -301,11 +508,14 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -327,11 +537,14 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>
