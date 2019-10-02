@@ -153,34 +153,38 @@ require_once 'inc/functions.php';
                                 <p>Motor Claim</p>
                             </div>
                         </a>
-
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-user-shield"></i>
-                            <p>Personal & Property</p>
-                        </div>
-
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-heartbeat"></i>
-                            <p>Health Claim</p>
-                        </div>
+                        <a href="claim_personal_property.php">
+                            <div class="c0l-md-4 font-awsome text-center">
+                                <i class="fas fa-user-shield"></i>
+                                <p>Personal & Property</p>
+                            </div>
+                        </a>
+                        <a href="claim_health.php">
+                            <div class="c0l-md-4 font-awsome text-center">
+                                <i class="fas fa-heartbeat"></i>
+                                <p>Health Claim</p>
+                            </div>
+                        </a>
                     </div>
                     <br>
                     <div class="row">
-
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-hand-holding-heart"></i>
-                            <p>Life claim <br>(Personal)</p>
-                        </div>
-
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-hand-holding-heart"></i>
-                            <p>Life claim (Group)</p>
-                        </div>
-
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-hand-holding-usd"></i>
-                            <p>Investment</p>
-                        </div>
+                        <a href="claim_life.php">
+                            <div class="c0l-md-4 font-awsome text-center">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <p>Life claim <br>(Personal)</p>
+                            </div>
+                        </a>
+                        <a href="claim_group_life.php">
+                            <div class="c0l-md-4 font-awsome text-center">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <p>Life claim (Group)</p>
+                            </div>
+                            <a href="claim_investment.php">
+                                <div class="c0l-md-4 font-awsome text-center">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                    <p>Investment</p>
+                                </div>
+                            </a>
                     </div>
                 </div>
                 <br>
