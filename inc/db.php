@@ -12,7 +12,7 @@ if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 	$db = mysqli_connect('localhost', 'root', '', 'apa');
 } else {
 	echo "No database connection set!";
-
+}
 if (!$db) {
 	echo 'Database connection unsuccessful ' . mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 }
