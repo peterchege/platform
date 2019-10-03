@@ -512,20 +512,28 @@
                         if (response.status == 1) {
                             form[0].reset();
                             swal.fire({
-                                title: '<strong>HTML <u>example</u></strong>',
-                                type: 'info',
-                                html: 'You can use <b>bold text</b>, ' +
-                                    '<a href="//sweetalert2.github.io">links</a> ' +
-                                    'and other HTML tags',
+                                title: 'Submitted successfully.',
+                                type: 'success',
+                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
                                 showCloseButton: true,
-                                showCancelButton: true,
+                                showCancelButton: false,
+                                allowOutsideClick: false,
                                 focusConfirm: false,
-                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
+                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
                                 confirmButtonAriaLabel: 'Thumbs up, great!',
-                                cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
-                                cancelButtonAriaLabel: 'Thumbs down'
-
                             });
+                        } else if (response.status == 0) {
+                            Swal.fire({
+                                type: 'error',
+                                title: respoonse.message,
+                                //text: 'Something went wrong!',
+                            })
+                        } else {
+                            Swal.fire({
+                                type: 'error',
+                                title: 'An error occurred!',
+                                //text: 'Something went wrong!',
+                            })
                         }
                         $('button[name=request]').attr('disabled', false);
                     }
