@@ -234,15 +234,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="claim_event">Describe the Claim Event</label>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"></textarea>
                                 </div>
                             </div>
 
@@ -489,14 +489,30 @@
             </p>
         </div>
     </div>
-
-
-
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.form').parsley();
+            $('.form').on('submit', function(e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/claims.php?request=motor_claim",
+                    data: new FormData(this),
+                    dataType: 'text',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function() {
+                        $('button[name=request]').attr('disabled', true);
+                    },
+                    success: function(response) {
+
+                        $('button[name=request]').attr('disabled', false);
+                    }
+                });
+            });
         });
     </script>
 
