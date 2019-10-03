@@ -526,7 +526,7 @@
                         } else if (response.status == 0) {
                             Swal.fire({
                                 type: 'error',
-                                title: respoonse.message,
+                                title: response.message,
                                 //text: 'Something went wrong!',
                             })
                         } else {
