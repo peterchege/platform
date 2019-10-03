@@ -227,7 +227,7 @@
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="">VEHICLE DETAILS</h3>
                         </div>
 
                         <div class="container">
@@ -242,7 +242,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -256,9 +256,9 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
                                     CLAIM
-                                </button> -->
+                                </button>
                                 <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
@@ -344,15 +344,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="claim_event">Describe the Claim Event</label>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -426,15 +426,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -496,11 +496,12 @@
             $('.form').parsley();
             $('.form').on('submit', function(e) {
                 e.preventDefault();
+                var form = $(this);
                 $.ajax({
                     type: "POST",
                     url: "ajax/claims.php?request=motor_claim",
                     data: new FormData(this),
-                    dataType: 'text',
+                    dataType: 'json',
                     contentType: false,
                     cache: false,
                     processData: false,
@@ -508,7 +509,24 @@
                         $('button[name=request]').attr('disabled', true);
                     },
                     success: function(response) {
+                        if (response.status == 1) {
+                            form[0].reset();
+                            swal.fire({
+                                title: '<strong>HTML <u>example</u></strong>',
+                                type: 'info',
+                                html: 'You can use <b>bold text</b>, ' +
+                                    '<a href="//sweetalert2.github.io">links</a> ' +
+                                    'and other HTML tags',
+                                showCloseButton: true,
+                                showCancelButton: true,
+                                focusConfirm: false,
+                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
+                                confirmButtonAriaLabel: 'Thumbs up, great!',
+                                cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
+                                cancelButtonAriaLabel: 'Thumbs down'
 
+                            });
+                        }
                         $('button[name=request]').attr('disabled', false);
                     }
                 });
