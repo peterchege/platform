@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -353,88 +354,88 @@
         </div>
     </div>
 
-    <!-- ===================================== LEAD FORM FOR COMPREHENSIVE ===================================== -->
+    
 
-    <div id="modal-full" class="uk-modal-full" uk-modal>
+      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+
+      <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
-
-
-                    <form class="form-container">
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="inputAddress">COVER DETAILS</h3>
                         </div>
 
                         <div class="container">
-                            <div class="row">
+                            <div class="row">    
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <label for="model">Amount to save every month</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="Ksh..." value="" required>
                                 </div>
+
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <label for="inputAddress2">Your Age</label>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 - 23 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 24 - 25 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 30 - 34 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 35 - 39 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 40 - 44 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 45 - 49 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
+                                    </select>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
-                                </div>
+                            
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
-                                </div>
-                            </div>
-
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                        ASSISTANCE
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </form>
+
 
                 </div>
             </div>
@@ -445,6 +446,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
