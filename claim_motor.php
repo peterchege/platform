@@ -256,9 +256,9 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
                                     CLAIM
-                                </button>
+                                </button> -->
                                 <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
@@ -511,6 +511,7 @@
                     success: function(response) {
                         if (response.status == 1) {
                             form[0].reset();
+                            $(".uk-close-large").click()
                             swal.fire({
                                 title: 'Submitted successfully.',
                                 type: 'success',
