@@ -1,8 +1,6 @@
 <?php
 // $db = mysqli_connect('localhost', 'root', 'VDW-pNs-Mk6-gLQ', 'dev_website');
 // echo $_SERVER['DOCUMENT_ROOT'];
-
-
 if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 	//make sure vhost file in apache folder has same information as $_SERVER['DOCUMENT_ROOT'
 	$db = mysqli_connect('localhost', 'root', 'VDW-pNs-Mk6-gLQ', 'dev_website');
@@ -17,8 +15,6 @@ if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 else {
 	echo "No database connection set!";
 }
-
-
 if (!$db) {
 	echo 'Database connection unsuccessful ' . mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 }

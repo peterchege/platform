@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+
 
     <?php include 'views/head_links.php'; ?>
 
@@ -79,14 +81,12 @@
 
                                 <div class="content">
                                     <h3>Accident</h3>
-                                    <<<<<<< HEAD <p>Living a healthy stress free life is every persons dream. A healthy
+                                    <p>Living a healthy stress free life is every persons dream. A healthy
                                         family is a
                                         happy
                                         family.</p>
-                                        =======
-                                        <p>Covers third party bodily injury and property damage arising out
-                                            of a vehicle accident. .</p>
-                                        >>>>>>> 7f0826a068c7cebc4cfca31ec4fb28eb9fea9d8e
+                                    <p>Covers third party bodily injury and property damage arising out
+                                        of a vehicle accident. .</p>
                                 </div>
                             </div>
                         </a>
@@ -195,37 +195,32 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -240,8 +235,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value"
-                                        placeholder="e.g KBY 213" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
@@ -257,11 +251,15 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="accident" name="motor_claim_type" value="accident">
+
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"
-                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button> -->
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
@@ -307,37 +305,32 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -352,8 +345,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value"
-                                        placeholder="e.g KBY 213" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
@@ -369,11 +361,15 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="windscreen" name="motor_claim_type" value="windscreen">
+
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"
-                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button> -->
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
@@ -391,37 +387,32 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim4.jpg'); background-si4ze: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -436,15 +427,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value"
-                                        placeholder="e.g KBY 213" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="claim_event">Describe the Claim Event</label>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"></textarea>
                                 </div>
                             </div>
 
@@ -453,11 +443,14 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="theft" name="motor_claim_type" value="theft">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"
-                                    data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button> -->
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
@@ -499,55 +492,12 @@
 
 
 
-
-    <!-- Optional JavaScript -->
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <?php require_once('inc/scripts.php'); ?>
+    <script src="js/parsley.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.form').parsley();
+        });
     </script>
 
 </body>
