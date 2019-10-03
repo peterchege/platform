@@ -227,22 +227,22 @@
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="">VEHICLE DETAILS</h3>
                         </div>
 
                         <div class="container">
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="claim_event">Describe the Claim Event</label>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -344,15 +344,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="claim_event">Describe the Claim Event</label>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -426,15 +426,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number </label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -489,14 +489,57 @@
             </p>
         </div>
     </div>
-
-
-
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.form').parsley();
+            $('.form').on('submit', function(e) {
+                e.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/claims.php?request=motor_claim",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function() {
+                        $('button[name=request]').attr('disabled', true);
+                    },
+                    success: function(response) {
+                        if (response.status == 1) {
+                            form[0].reset();
+                            $(".uk-close-large").click()
+                            swal.fire({
+                                title: 'Submitted successfully.',
+                                type: 'success',
+                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
+                                showCloseButton: true,
+                                showCancelButton: false,
+                                allowOutsideClick: false,
+                                focusConfirm: false,
+                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                                confirmButtonAriaLabel: 'Thumbs up, great!',
+                            });
+                        } else if (response.status == 0) {
+                            Swal.fire({
+                                type: 'error',
+                                title: response.message,
+                                //text: 'Something went wrong!',
+                            })
+                        } else {
+                            Swal.fire({
+                                type: 'error',
+                                title: 'An error occurred!',
+                                //text: 'Something went wrong!',
+                            })
+                        }
+                        $('button[name=request]').attr('disabled', false);
+                    }
+                });
+            });
         });
     </script>
 
