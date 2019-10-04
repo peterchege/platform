@@ -159,7 +159,7 @@
                                         <ol>
                                             <li>100% of the sum assured is paid immediately</li>
                                             <li>Premiums are waived</li>
-                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued 
+                                            <li>At the end of the term of the policy 100% of the sum assured plus accrued
                                                 bonus (simple reversionary bonus) and terminal bonus is paid.</li>
                                         </ol>
                                         <hr>
@@ -286,11 +286,11 @@
         </div>
     </div>
 
-   
 
-      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
 
-      <div id="modal-full" class="uk-modal-full" uk-modal>
+    <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+
+    <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -331,37 +331,44 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
-                                    <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
+                                    <select id="period" name="period" class="form-control" required>
+                                        <option value="-1" selected disabled>Select...</option>
+                                        <option value="6"> 6 yrs </option>
+                                        <option value="9"> 9 yrs </option>
+                                        <option value="12"> 12 yrs </option>
+                                        <option value="15"> 15 yrs </option>
+                                        <option value="18"> 18 yrs </option>
+                                    </select>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="model">Value of Cover</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="( Minimum Ksh 100,000 )" value="" required>
+                                    <label for="value">Value of Cover</label>
+                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
                             </div>
                             <div class="row">
-                           
+
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Your Age</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                    <label for="age">Your Age (yrs)</label>
+                                    <select id="age" name="age" class="form-control" required>
                                         <option value="-1" selected disabled>Select your age range...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 - 23 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 24 - 25 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 30 - 34 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 35 - 39 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 40 - 44 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 45 - 49 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
+                                        <option value="18 - 23"> 18 - 23 </option>
+                                        <option value="24 - 25"> 24 - 29 </option>
+                                        <option value="30 - 34"> 30 - 34 </option>
+                                        <option value="35 - 39"> 35 - 39 </option>
+                                        <option value="40 - 44"> 40 - 44 </option>
+                                        <option value="45 - 49"> 45 - 49 </option>
+                                        <option value="50 - 54"> 50 - 54 </option>
+                                        <option value="55 - 59"> 55 - 59 </option>
+                                        <option value="60 - 64"> 60 - 64 </option>
+                                        <option value="65 - 69"> 65 - 69 </option>
+                                        <option value="Above 70"> Above 70 </option>
                                     </select>
                                 </div>
                             </div>
 
-                            
+
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_id" name="product_id" value="20">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">

@@ -311,18 +311,18 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                    <select id="period" name="period" class="form-control" required>
                                         <option value="-1" selected disabled>Select...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 6 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 9 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 12 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 15 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 yrs </option>
+                                        <option value="6"> 6 yrs </option>
+                                        <option value="9"> 9 yrs </option>
+                                        <option value="12"> 12 yrs </option>
+                                        <option value="15"> 15 yrs </option>
+                                        <option value="18"> 18 yrs </option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="model">Value of Cover</label>
-                                    <input name="model" type="text" class="form-control value" min=100,000 id="model" placeholder="( Minimum Ksh 100,000 )" value="" required>
+                                    <label for="value">Value of Cover</label>
+                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -332,7 +332,7 @@
                                     <select id="age" name="age" class="form-control" required>
                                         <option value="-1" selected disabled>Select your age range...</option>
                                         <option value="18 - 23"> 18 - 23 </option>
-                                        <option value="24 - 25"> 24 - 25 </option>
+                                        <option value="24 - 25"> 24 - 29 </option>
                                         <option value="30 - 34"> 30 - 34 </option>
                                         <option value="35 - 39"> 35 - 39 </option>
                                         <option value="40 - 44"> 40 - 44 </option>
