@@ -268,9 +268,9 @@
     </div>
 
 
-      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+    <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
 
-      <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -318,39 +318,37 @@
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 12 yrs </option>
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 15 yrs </option>
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 18 yrs </option>
-                                                                                          
                                     </select>
                                 </div>
-                          
                                 <div class="form-group col-md-6">
                                     <label for="model">Value of Cover</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="( Minimum Ksh 100,000 )" value="" required>
+                                    <input name="model" type="text" class="form-control value" min=100,000 id="model" placeholder="( Minimum Ksh 100,000 )" value="" required>
                                 </div>
                             </div>
                             <div class="row">
-                           
+
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Your Age (yrs)</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                    <label for="age">Your Age (yrs)</label>
+                                    <select id="age" name="age" class="form-control" required>
                                         <option value="-1" selected disabled>Select your age range...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 - 23 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 24 - 25 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 30 - 34 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 35 - 39 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 40 - 44 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 45 - 49 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
+                                        <option value="18 - 23"> 18 - 23 </option>
+                                        <option value="24 - 25"> 24 - 25 </option>
+                                        <option value="30 - 34"> 30 - 34 </option>
+                                        <option value="35 - 39"> 35 - 39 </option>
+                                        <option value="40 - 44"> 40 - 44 </option>
+                                        <option value="45 - 49"> 45 - 49 </option>
+                                        <option value="50 - 54"> 50 - 54 </option>
+                                        <option value="55 - 59"> 55 - 59 </option>
+                                        <option value="60 - 64"> 60 - 64 </option>
+                                        <option value="65 - 69"> 65 - 69 </option>
+                                        <option value="Above 70"> Above 70 </option>
                                     </select>
                                 </div>
                             </div>
 
-                            
+
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_id" name="product_id" value="19">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
@@ -368,13 +366,11 @@
             </div>
         </div>
     </div>
-
-
-    <script src="js/parsley.min.js"></script>
-    <script src="js/lead.js"></script>
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
