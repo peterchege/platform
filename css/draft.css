@@ -305,7 +305,7 @@ a:focus {
         height: 60vh;
         background-image: url(../img/pip.jpg);
         background-size: none;
-        background-position: center;
+        background-position: left;
         background-repeat: no-repeat;
     }
 
