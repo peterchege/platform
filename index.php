@@ -49,17 +49,17 @@ require_once 'inc/functions.php';
             </div>
 
             <div class="container">
-                <div class="row ">
+                <div class="row icon-size">
 
                     <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2">
-                        <div class="c0l-md-4 font-awsome text-center">
+                        <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-ship"></i>
                             <p>Marine Single Transit </p>
                         </div>
                     </a>
 
                     <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
-                        <div class="c0l-md-4 font-awsome text-center">
+                        <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-plane-departure"></i>
                             <p>Travel Insurance</p>
                         </div>
@@ -131,7 +131,7 @@ require_once 'inc/functions.php';
             <!-- New design for what we offer -->
 
             <div class="container">
-                <div class="row row-product1">
+                <div class="row row-product1 small-opt">
                     <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-2">
                             <div class="overlay">
