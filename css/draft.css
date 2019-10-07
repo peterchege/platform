@@ -299,6 +299,15 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    .banner-home {
+        margin-top: 65px;
+        width: 100%;
+        height: 60vh;
+        background-image: url(../img/pip.jpg);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
 
     .banner-home .content-camp h2 {
         font-size: 15px;
