@@ -55,3 +55,25 @@
     color: #C80D10;
 }
 
+
+/* TRAILBLAZER */
+
+.trail-back{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/trailblazer.jpg);
+}
+
+.back-chatter{
+    background-color: #fff;
+     -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 0.3);
+     -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 0.3);
+     box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 0.3);
+}
+
+.charter3 p  {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #0D345F;
+}
