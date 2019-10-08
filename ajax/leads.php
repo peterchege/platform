@@ -30,9 +30,9 @@ switch ($_GET['mode']) {
         //golfers and theft
         $occupation = ((isset($_POST['occupation'])) ? filter_var(mysqli_real_escape_string($db, $_POST['occupation']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
         //pet and bonds and livestock
-        $number = ((isset($_POST['number'])) ? filter_var(mysqli_real_escape_string($db, $_POST['number']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : NULL);
+        $number = ((isset($_POST['number'])) ? filter_var(mysqli_real_escape_string($db, $_POST['number']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : 0);
         //life product leads
-        $period = ((isset($_POST['period'])) ? filter_var(mysqli_real_escape_string($db, $_POST['period']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : NULL);
+        $period = ((isset($_POST['period'])) ? filter_var(mysqli_real_escape_string($db, $_POST['period']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : 0);
         $age = ((isset($_POST['age'])) ? filter_var(mysqli_real_escape_string($db, $_POST['age']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
 
         if (isset($_POST['type'])) {
