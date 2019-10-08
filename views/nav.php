@@ -227,7 +227,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News & Updates</a></li>
                                         <li><a href="csr.php"><i class="fas fa-user-friends"></i> CSR</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-bar"></i> Trail Blazers</a></li>
+                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers</a></li>
                                         <li><a href="career.php"><i class="fas fa-walking"></i> Careers (Start your Journey)</a></li>
                                     </ul>
                                 </div>
