@@ -436,7 +436,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button id="submit" type="submit" name="request" class="btn btn-primary">REQUEST
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
                                         ASSISTANCE
                                     </button>
                                 </div>
