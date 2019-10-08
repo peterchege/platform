@@ -436,8 +436,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button id="submit" type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE
+                                    <button id="submit" type="submit" name="request" class="btn btn-primary">SUBMIT
                                     </button>
                                 </div>
                             </div>
@@ -491,33 +490,32 @@ require_once 'inc/functions.php';
                         </div> -->
 
                         <div class="container">
-                            <!-- <div class="row">
+                            <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> DOB (optional) </label>
+                                    <label for="make"> Inpatient Benefit (Kshs)</label>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers">Kshs 10,000,000 </option>
+                                        <option data-ref="owner" name="building" value="Building">Kshs 5,000,000 </option>
+                                        <option data-ref="tenant" name="contents" value="Contents">Kshs 2,000,000 </option>
+                                        <option data-ref="tenant" name="all_risk" value="All Risk">Kshs 1,000,000 </option>
+                                        <option data-ref="tenant" name="domestic_employees" value="Domestic Employees">Kshs 500,000 </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make"> Your Age category</label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="model">Name of Beneficiary</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="value">DOB of Beneficiaries </label>
-                                    <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
+                                <div class="form-group col-md-12">
+                                    <label for="make">Number of Children (Age < 20)</label>
+                                    <input name="make" type="number" class="form-control" id="make" value="" required>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class=" form-group col-md-6">
-                                    <label for="yom">Relationship of Beneficiary</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <br>
-                                    <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
-                                </div>
-                            </div> -->
+
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">
@@ -525,7 +523,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
                                 </div>
                             </div>
                         </div>
