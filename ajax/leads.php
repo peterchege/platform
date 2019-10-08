@@ -53,7 +53,7 @@ switch ($_GET['mode']) {
         }
 
         //corporate health
-        $population_staff = ((isset($_POST['population_staff'])) ? filter_var(mysqli_real_escape_string($db, $_POST['population_staff']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
+        $population_staff = ((isset($_POST['population_staff'])) ? filter_var(mysqli_real_escape_string($db, $_POST['population_staff']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : 0);
         //aviation
         $max_take_off_weight = ((isset($_POST['max_take_off_weight'])) ? filter_var(mysqli_real_escape_string($db, $_POST['max_take_off_weight']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
         $pilot_details = ((isset($_POST['pilot_details'])) ? filter_var(mysqli_real_escape_string($db, $_POST['pilot_details']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
