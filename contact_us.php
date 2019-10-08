@@ -210,7 +210,7 @@
                     <p>Tel: 053 203 0937 | 020 286 2334</p>
                     <p>apa.eldoret@"apainsurance.org</p>
                     <hr>
-                    <p class="text-center get-direction" </a> <a
+                    <p class="text-center get-direction">  <a
                         href="https://www.google.com/maps/search/Zion+Mall,Uganda+Road/@0.5177737,35.2759758,17z/data=!3m1!4b1"
                         target="_blank">
                         Get Direction >> </a></p>
