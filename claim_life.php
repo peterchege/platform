@@ -9,6 +9,7 @@
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
 
@@ -72,28 +73,29 @@
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-04  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-04  product-box we life-4 wow fadeInUp" data-wow-delay="0.2s">
                         <a href="#modal-full1" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
 
                                 <div class="content">
                                     <h3>Hospital Cash claim </h3>
-                                    <!-- <p>Covers third party bodily injury and property damage arising out
-                                        of a vehicle accident. .</p> -->
+                                    <br>
+                                    <p> In the event of hospitalization of the main member or a family member</p>
                                 </div>
                             </div>
                         </a>
                     </div>
 
 
-                    <div class="col-04  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-04  product-box we life-5 wow fadeInUp" data-wow-delay="0.3s">
                         <a href="#modal-full2" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
                                     <h3> Last Expense Claims</h3>
-                                    <!-- <p>Cover extends to cover windscreen damage.</p> -->
+                                    <br>
+                                    <p>Upon death, this claim will ensure that cash is available immediately to pay for the costs of a funeral and related expenses.</p>
                                 </div>
                             </div>
                         </a>
@@ -225,7 +227,7 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== HOSICARE CLAIM FORM FOR ===================================== -->
+    <!-- ===================================== HOSICARE CLAIM FORM  ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -340,13 +342,13 @@
 
 
 
-    <!-- ===================================== WINDSCREEN CLAIM FORM FOR ===================================== -->
+    <!-- ===================================== LAST EXPENSE CLAIM FORM  ===================================== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -378,24 +380,40 @@
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
 
                         <div class="container">
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="resume">Attach document : Filled Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="resume">Attach document : National Identity Card</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Hospital Discharge summary</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Hospital invoices and Receipts</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+
 
                         </div>
 
@@ -416,7 +434,6 @@
             </div>
         </div>
     </div>
-
     <!-- ===================================== Theft CLAIM FORM FOR ===================================== -->
 
     <div id="modal-full3" class="uk-modal-full" uk-modal>
