@@ -217,9 +217,13 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+=======
     <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+>>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
 
-    <div id="modal-full" class="uk-modal-full" uk-modal>
+      <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -252,6 +256,26 @@
 
                         </div>
                         <hr>
+<<<<<<< HEAD
+   
+                            
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                        ASSISTANCE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+=======
 
 
                         <div style="display: none">
@@ -269,6 +293,7 @@
                 </form>
 
 
+>>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
             </div>
         </div>
     </div>
