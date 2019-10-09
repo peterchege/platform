@@ -220,14 +220,14 @@
                                         <li><a href="companies.php"><i class="fas fa-building"></i> Companies </a></li>
                                         <li><a href="leadership.php"><i class="fas fa-user-tie"></i> Leadership</a></li>
                                         <li><a href="management_group.php"><i class="fas fa-sitemap"></i> Managment</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-bar"></i> Financial Reports </a></li>
+                                        <li><a href="financial_report.php"><i class="fas fa-chart-bar"></i> Financial Reports </a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News & Updates</a></li>
                                         <li><a href="csr.php"><i class="fas fa-user-friends"></i> CSR</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-bar"></i> Trail Blazers</a></li>
+                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers</a></li>
                                         <li><a href="career.php"><i class="fas fa-walking"></i> Careers (Start your Journey)</a></li>
                                     </ul>
                                 </div>
@@ -237,22 +237,20 @@
 
                     <!-- CUSTOMER CENTRE -->
                     <li class="list-down">
-                        <a href="customer_login.php">CUSTOMER CENTRE</a>
+                        <a href="portals.php">CUSTOMER CENTRE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">CONTACT :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-code-branch"></i> Branch Locations</a></li>
-                                        <li><a href="#"><i class="fas fa-question-circle"></i> Request Assistance</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request A CallBack</a></li>
+
+                                        <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch Locations</a></li>
+                                        <li><a href="#"><i class="fas fa-star"></i>Feedbacks</a></li>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request Assistance/ CallBack</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">Forms :</li>
-                                        <li class="uk-nav-divider"></li>
+
                                         <li><a href="#"><i class="fas fa-file-pdf"></i> Brochure</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Claim Forms</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Proposal Forms</a></li>
@@ -260,22 +258,13 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">Portals :</li>
-                                        <li class="uk-nav-divider"></li>
+
                                         <li><a href="#"><i class="fas fa-user"></i> Intermediary Portal</a></li>
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine Open Cover</a></li>
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine Single Transit</a></li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li class="uk-nav-header ">CLIENT PORTAL :</li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#"><i class="fas fa-user-circle"></i> My policies</a></li>
-                                        <li><a href="#"><i class="fas fa-file-invoice"></i> saved quotes</a></li>
-                                        <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login / Create Account</a></li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </li>

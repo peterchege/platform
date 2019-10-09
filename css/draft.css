@@ -112,13 +112,6 @@ a:focus {
     border-bottom: 3.5px solid #0C4DA2;
 }
 
-/* #header.header-scrolled {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px 0;
-    height: 94px;
-    transition: all 0.5s;
-} */
-
 #header #logo {
     float: left;
 }
@@ -263,7 +256,6 @@ a:focus {
     height: 60vh;
     background-image: url(../img/pip.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -289,6 +281,7 @@ a:focus {
     padding: 10% 5%;
 }
 
+
 .banner-home .box-quote {
     width: 60%;
     background-color: #0D345F;
@@ -305,6 +298,64 @@ a:focus {
     padding-top: 25px;
 }
 
+@media (max-width: 575.98px) {
+    .banner-home {
+        margin-top: 65px;
+        width: 100%;
+        height: 60vh;
+        background-image: url(../img/pip.jpg);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+
+    .banner-home .content-camp h2 {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10% 5%;
+        width: 50%;
+    }
+   .banner-home .box-quote {
+       width: 80%;
+       top: 55%;
+   }
+
+   .icon-size .font-awsome .fas {
+       font-size: 30px;
+   }
+
+   .icon-size .font-awsome p {
+       font-size: 12px;
+   }
+   
+   .banner-home .box-quote h3 {
+      font-size: 15px;
+   }
+
+    .banner-home .quick-link {
+      position: absolute;
+      top: 19%;
+      right: 0%;
+   }
+
+   .banner-home .quick-link .btn {
+       width: 100px;
+       font-size: 10px;
+       margin-right: 5px;
+       border-radius: 10px;
+   }
+
+   .small-opt {
+       margin-top: 50%;
+   }
+
+   .prod{
+       margin: 7% auto;
+   }
+
+
+}
+
 .font-awsome {
     cursor: pointer;
     padding-bottom: 20px;
@@ -315,7 +366,6 @@ a:focus {
 .font-awsome .fas {
     color: #fff;
     font-size: 35px;
-    /* padding-top: 30px; */
 }
 
 .font-awsome p {
@@ -907,29 +957,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # FLAGS
 --------------------------------------------------------------*/
-
-/* #flags {
-    margin-right: 8%;
-}
-
-#flags img {
-    width: 35px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 1% 1% 0 1%;
-    float: right;
-    -webkit-box-shadow: 6px 7px 16px 1px rgba(0, 0, 0, 0.33);
-    -moz-box-shadow: 6px 7px 16px 1px rgba(0, 0, 0, 0.33);
-    box-shadow: 6px 7px 16px 1px rgba(0, 0, 0, 0.33);
-}
-
-#flags img:hover {
-    -webkit-box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
-    -moz-box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
-    box-shadow: 6px 7px 10px 1px rgba(238, 35, 40, 0.4);
-} */
-
-
 
 /* ABOUT US */
 

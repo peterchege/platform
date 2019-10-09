@@ -3,7 +3,7 @@ require_once '../inc/db.php';
 require_once '../inc/functions.php';
 switch ($_GET['mode']) {
     case 'insert':
-        sleep(5);
+        sleep(1);
         $name = sanitize($_POST['name']);
         $phone = sanitize($_POST['phone']);
         $email = sanitize($_POST['email']);

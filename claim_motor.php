@@ -80,11 +80,7 @@
                             <div class="wrapper">
 
                                 <div class="content">
-                                    <h3>Accident</h3>
-                                    <p>Living a healthy stress free life is every persons dream. A healthy
-                                        family is a
-                                        happy
-                                        family.</p>
+                                    <h3>Accident</h3>                                   
                                     <p>Covers third party bodily injury and property damage arising out
                                         of a vehicle accident. .</p>
                                 </div>
@@ -526,7 +522,7 @@
                         } else if (response.status == 0) {
                             Swal.fire({
                                 type: 'error',
-                                title: respoonse.message,
+                                title: response.message,
                                 //text: 'Something went wrong!',
                             })
                         } else {

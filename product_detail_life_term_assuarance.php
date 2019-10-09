@@ -281,6 +281,12 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+=======
+
+
+    <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+>>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
 
 
       <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
@@ -326,6 +332,7 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
+<<<<<<< HEAD
                                     <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -350,13 +357,52 @@
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
                                         <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
+=======
+                                    <select id="period" name="period" class="form-control" required>
+                                        <option value="-1" selected disabled>Select...</option>
+                                        <option value="6"> 6 yrs </option>
+                                        <option value="9"> 9 yrs </option>
+                                        <option value="12"> 12 yrs </option>
+                                        <option value="15"> 15 yrs </option>
+                                        <option value="18"> 18 yrs </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="value">Value of Cover</label>
+                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="form-group col-md-12">
+                                    <label for="age">Your Age (yrs)</label>
+                                    <select id="age" name="age" class="form-control" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option value="18 - 23"> 18 - 23 </option>
+                                        <option value="24 - 25"> 24 - 29 </option>
+                                        <option value="30 - 34"> 30 - 34 </option>
+                                        <option value="35 - 39"> 35 - 39 </option>
+                                        <option value="40 - 44"> 40 - 44 </option>
+                                        <option value="45 - 49"> 45 - 49 </option>
+                                        <option value="50 - 54"> 50 - 54 </option>
+                                        <option value="55 - 59"> 55 - 59 </option>
+                                        <option value="60 - 64"> 60 - 64 </option>
+                                        <option value="65 - 69"> 65 - 69 </option>
+                                        <option value="Above 70"> Above 70 </option>
+>>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                     </select>
                                 </div>
                             </div>
 
+<<<<<<< HEAD
                             
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="26">
+=======
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="23">
+>>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
