@@ -45,7 +45,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>MOTOR CLAIM PROCESS</h1>
+            <h1>LIFE (INDIVIDUAL) CLAIM PROCESS</h1>
             <div class="under-line img1">
                 <img src="images/line.png" alt="">
             </div>
@@ -272,7 +272,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Filled Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="resume">Attach document : Completed Claim Form <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -387,33 +387,24 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Filled Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity Card</label>
+                                    <label for="resume">Attach document : National Identity or Passport</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital Discharge summary</label>
+                                    <label for="resume">Attach document : Original Burial permit</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital invoices and Receipts</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-
 
                         </div>
 
