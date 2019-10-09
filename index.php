@@ -159,7 +159,7 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-3">
+                        <div class="box-container-img prod-7">
                             <div class="overlay">
                             </div>
                         </div>
@@ -436,12 +436,8 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-<<<<<<< HEAD
-                                    <button id="submit" type="submit" name="request" class="btn btn-primary">SUBMIT
-=======
                                     <button type="submit" name="request" class="btn btn-primary">REQUEST
                                         ASSISTANCE
->>>>>>> 64645287220ff1c9e8d43aa08ca96a0704c062f4
                                     </button>
                                 </div>
                             </div>
@@ -516,8 +512,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label>
-                                    <input name="make" type="number" class="form-control" id="make" value="" required>
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" value="" required>
                                 </div>
                             </div>
 
@@ -606,8 +601,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
                                     </button>
                                 </div>
                             </div>
@@ -686,8 +680,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
                                     </button>
                                 </div>
                             </div>
@@ -765,7 +758,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
                                 </div>
                             </div>
                         </div>
@@ -853,7 +846,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button class="btn btn-primary">SUBMIT</button>
                                 </div>
                             </div>
                         </div>
