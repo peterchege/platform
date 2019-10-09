@@ -270,7 +270,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="resume">Attach document : Filled Claim Form <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -330,20 +330,14 @@
                 </div>
             </p>
             <p>Thank you for providing us with details of your claim. One of our agents will contact you
-                shortly to guide you through the process.
+                shortly to guide you through the next process.
                 <br><br>
-                To help us process your claim faster,
-                please download and complete the claim form and prepare the following documentation:
-                <ol>
-                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
-                    <li>Police Abstract</li>
-                    <li>Copy of Driving License</li>
-                    <li>Copy of the Log Book </li>
-                    <li>Detailed statement and sketch of the circumstances of the accident</li>
-                </ol>
+                For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000.
+                Or send and email to claims@apalife.co.ke
             </p>
         </div>
     </div>
+
 
 
     <!-- ===================================== WINDSCREEN CLAIM FORM FOR ===================================== -->
