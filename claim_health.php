@@ -79,14 +79,13 @@
 
                                 <div class="content">
                                     <h3>Accident</h3>
-                                    <<<<<<< HEAD <p>Living a healthy stress free life is every persons dream. A healthy
+                                    <p>Living a healthy stress free life is every persons dream. A healthy
                                         family is a
                                         happy
                                         family.</p>
-                                        =======
+                                        
                                         <p>Covers third party bodily injury and property damage arising out
-                                            of a vehicle accident. .</p>
-                                        >>>>>>> 7f0826a068c7cebc4cfca31ec4fb28eb9fea9d8e
+                                            of a vehicle accident. .</p>                                        
                                 </div>
                             </div>
                         </a>
