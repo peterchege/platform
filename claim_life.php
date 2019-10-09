@@ -136,12 +136,12 @@
                     </div>
 
                     <div class="col-04  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#modal-full1" uk-toggle>
+                        <a href="#modal-full5" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
 
                                 <div class="content">
-                                    <h3>Hospital Cash claim </h3>
+                                    <h3>Maturity claim </h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -152,11 +152,11 @@
 
 
                     <div class="col-04  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full2" uk-toggle>
+                        <a href="#modal-full6" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
-                                    <h3> Last Expense Claims</h3>
+                                    <h3> Partial Maturity Claims</h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -230,7 +230,7 @@
     </div>
 
 
-    <!-- =====================================FOOTER===================================== -->
+    <!-- ===================================== FOOTER ===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
@@ -348,7 +348,7 @@
         </div>
     </div>
 
-    <!-- ===================================== LAST EXPENSE CLAIM FORM  ===================================== -->
+    <!-- ===================================== LAST EXPENSE CLAIM FORM ===================================== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -432,7 +432,7 @@
         </div>
     </div>
 
-    <!-- ===================================== CRITICAL ILLNESS CLAIM FORM FOR ===================================== -->
+    <!-- ===================================== CRITICAL ILLNESS CLAIM FORM ===================================== -->
 
     <div id="modal-full3" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -523,7 +523,7 @@
         </div>
     </div>
 
-    <!-- ===================================== Death CLAIM FORM FOR ===================================== -->
+    <!-- ===================================== DEATH CLAIM FORM  ===================================== -->
 
     <div id="modal-full4" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -597,6 +597,153 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="resume">Attach document : Post Morterm report</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Maturity FORM  ===================================== -->
+
+    <div id="modal-full5" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : National Identity or Passport</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Your policy document</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== PARTIAL Maturity FORM  ===================================== -->
+
+    <div id="modal-full6" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Your policy document</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
