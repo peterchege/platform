@@ -263,24 +263,40 @@
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
 
                         <div class="container">
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="value">Vehicle Registarion Number </label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="e.g KBY 213" value="" required>
+                                    <label for="resume">Attach document : Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Describe the Claim Event</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                    <label for="resume">Attach document : National Identity Card</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Hospital Discharge summary</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Hospital invoices and Receipts</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+
 
                         </div>
 
