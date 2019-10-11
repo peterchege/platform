@@ -86,7 +86,7 @@ require_once 'inc/sessions.php';
 
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input name="phone" type="number" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
                         </div>
 
                         <div class="form-group">
@@ -148,6 +148,7 @@ require_once 'inc/sessions.php';
                             swal.fire({
                                 title: response,
                                 type: 'error',
+                                allowOutsideClick: false
                             });
                         }
                         // $('#fupForm').css("opacity", "");

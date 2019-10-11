@@ -10,7 +10,7 @@ switch ($_GET['request']) {
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         if (empty($first_name || $last_name || $email || $phone)) {
-            $errors = 'All fields required';
+            $errors[] = 'All fields required';
             echo 'All fields required';
             exit;
         }
@@ -46,14 +46,17 @@ switch ($_GET['request']) {
             }
 
             if (empty($errors) == true) {
-                $file_path =  "../img/internshipfiles/" . $email . '-' . $intern_id . '-' . $file_name;
+                $file_path =  "../documents/internship/" . $email . '-' . $intern_id . '-' . $file_name;
                 $file_name = $email . '-' . $intern_id . '-' . $file_name;
-                move_uploaded_file($file_tmp, $file_path);
-                $insert = $db->query("INSERT INTO apa_job_internship_applications(intern_id,first_name,last_name,email,phone,`file`) VALUES('$intern_id','$first_name','$last_name','$email','$phone','$file_name')  ");
-                if ($insert) {
-                    echo "success";
+                if (move_uploaded_file($file_tmp, $file_path)) {
+                    $insert = $db->query("INSERT INTO apa_job_internship_applications(intern_id,first_name,last_name,email,phone,`file`) VALUES('$intern_id','$first_name','$last_name','$email','$phone','$file_name')  ");
+                    if ($insert) {
+                        echo "success";
+                    } else {
+                        echo "An error occured please try again.";
+                    }
                 } else {
-                    echo "An error occured please try again.";
+                    echo 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 mb';
                 }
             } else {
                 print_r($errors);
