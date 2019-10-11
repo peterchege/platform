@@ -188,11 +188,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 1 : Report (Call the police) </h2>
+                        <h2>Step 1 : Report</h2>
                         <hr>
                         <p>
-                            Insured/driver to report the accident to the nearest police station at once and while
-                            they at it, not to admit liability but to inform APA or their intermediary immediately.
+                            You can report immediately or within 60 days using the following platform:<br>
+                            1. The Website<br>
+                            2. Email to claim@apalife.co.ke<br>
+                            3. Letter<br>
+                            4. Call<br>
+                            5. Walk in to the nearest Branch or Office
                         </p>
 
                     </div>
@@ -200,11 +204,14 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 2 : Document what you can</h2>
+                        <h2>Step 2 : Document preparation</h2>
                         <hr>
                         <p>
-                            Take details of the other vehicle, the driver and their insurance company. Also,
-                            if possible, take photographs of the accident scene.
+                            The following are the information that you will be required : <br> <br>
+                            1. Policy Number <br>
+                            2. Name of Policyholder<br>
+                            3. Name of Person Reporting<br>
+                            4. Cellphone of the person reporting
                         </p>
 
                     </div>
@@ -212,10 +219,10 @@
 
                 <div class="col-md-4">
                     <div class="charter2">
-                        <h2>Step 3 : Safety first</h2>
+                        <h2>Step 3 : Response</h2>
                         <hr>
                         <p>
-                            If there are victims with injuries, get them help ASAP! Otherwise move to a police station.
+                            One of our agent will call you once your claim is initiated.
                         </p>
 
                     </div>

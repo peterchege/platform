@@ -564,6 +564,75 @@
     padding-top: 20px;
 }
 
+/* REIMBUSMENT CLAIM */
+
+.charter3 {
+    width: 100%;
+    height: 480px;
+    margin: 10% auto 6% auto;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+    box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 1);
+}
+
+.charter3 img {
+    width: 80px;
+    /* height: 75px; */
+    margin: 10% auto 0% auto;
+}
+
+.charter3 h2 {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #0C4DA2;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.charter3 hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid slategray;
+}
+
+.charter3 p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.charter3 li {
+    width: 80%;
+    margin: 0 auto;
+     font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode',
+     'Lucida Grande',
+     'Lucida Sans',
+     Arial,
+     sans-serif;
+    text-align: justify;
+    padding: 3px 5px;
+    color: #0D345F;
+    font-size: 14px;
+}
+.charter2 li {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode',
+        'Lucida Grande',
+        'Lucida Sans',
+        Arial,
+        sans-serif;
+    text-align: justify;
+    padding: 3px 5px;
+    color: #0D345F;
+    font-size: 14px;
+}
+
 /* REQUEST TO YOU */
 
 .request {
