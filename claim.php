@@ -174,7 +174,7 @@ require_once 'inc/functions.php';
                                 <p>Life claim <br>(Personal)</p>
                             </div>
                         </a>
-                        <a href="claim_group_life.php">
+                        <a href="claim_life_group.php">
                             <div class="c0l-md-4 font-awsome text-center">
                                 <i class="fas fa-hand-holding-heart"></i>
                                 <p>Life claim (Group)</p>
