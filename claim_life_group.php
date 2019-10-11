@@ -185,7 +185,7 @@
 
     </div>
 
-    <!-- =================================== OUR CUSTOMER SERVICE CHARTER ===================================== -->
+    <!-- =================================== OUR  CLAIM PROCESS ===================================== -->
 
     <div class="container text-center">
         <h1>
@@ -255,7 +255,7 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== HOSICARE CLAIM FORM  ===================================== -->
+    <!-- ===================================== LAST EXPENSE CLAIM FORM  ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -300,7 +300,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Completed Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -314,19 +314,10 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital Discharge summary</label>
+                                    <label for="resume">Attach document : Original Burial Permit</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital invoices and Receipts</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-
 
                         </div>
 
@@ -348,7 +339,7 @@
         </div>
     </div>
 
-    <!-- ===================================== HOSICARE CLAIM REMARKS ===================================== -->
+    <!-- ===================================== LAST EXPENSE CLAIM REMARKS ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
@@ -368,7 +359,7 @@
         </div>
     </div>
 
-    <!-- ===================================== LAST EXPENSE CLAIM FORM ===================================== -->
+    <!-- ===================================== GROUP LIFE BENEFIT FORM ===================================== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -427,7 +418,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Original Burial permit</label>
+                                    <label for="resume">Attach document : Copy of 2 Last Months</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -522,6 +513,14 @@
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Police Report & Post morterm in case of death accidental</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
 
                         </div>
 
