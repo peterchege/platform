@@ -217,15 +217,10 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-    
-      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
-=======
 
     <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
 
-      <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -267,39 +262,6 @@
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
                                     <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
-<<<<<<< HEAD
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="model">Value of Cover</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Select value of cover...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 50, 000 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 70, 000 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 100, 000 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 200, 000 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 300, 000 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Ksh 500, 000 </option>
-                                        </select>
-                                </div>
-                            </div>
-                            <div class="row">
-                           
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Your Age</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Select your age range...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 - 23 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 24 - 25 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 30 - 34 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 35 - 39 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 40 - 44 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 45 - 49 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
-=======
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="cover">Value of Cover</label>
@@ -331,20 +293,13 @@
                                         <option value="60 - 64"> 60 - 64 </option>
                                         <option value="65 - 69"> 65 - 69 </option>
                                         <option value="Above 70"> Above 70 </option>
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                     </select>
                                 </div>
                             </div>
 
-<<<<<<< HEAD
-                            
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
-=======
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="22">
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
