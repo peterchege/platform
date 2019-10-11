@@ -178,7 +178,7 @@
             <h1>
                 TERMS & CONDITION
             </h1>
-            <div class="under-line img7">
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
             <br>
