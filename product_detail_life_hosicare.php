@@ -208,13 +208,9 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-  <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
-=======
     <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
 
-  <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -255,8 +251,7 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
-<<<<<<< HEAD
-                                    <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
+                                    <<<<<<< HEAD <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="model">Value of Cover</label>
@@ -264,7 +259,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                           
+
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Your Age</label>
                                     <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
@@ -278,17 +273,17 @@
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
                                         <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
-=======
-                                    <select id="period" name="period" class="form-control" required>
-                                        <option value="-1" selected disabled>Select...</option>
-                                        <option value="6"> 6 yrs </option>
-                                        <option value="9"> 9 yrs </option>
-                                        <option value="12"> 12 yrs </option>
-                                        <option value="15"> 15 yrs </option>
-                                        <option value="18"> 18 yrs </option>
-                                    </select>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>
+                                        =======
+                                        <select id="period" name="period" class="form-control" required>
+                                            <option value="-1" selected disabled>Select...</option>
+                                            <option value="6"> 6 yrs </option>
+                                            <option value="9"> 9 yrs </option>
+                                            <option value="12"> 12 yrs </option>
+                                            <option value="15"> 15 yrs </option>
+                                            <option value="18"> 18 yrs </option>
+                                        </select>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of Cover</label>
@@ -312,29 +307,27 @@
                                         <option value="60 - 64"> 60 - 64 </option>
                                         <option value="65 - 69"> 65 - 69 </option>
                                         <option value="Above 70"> Above 70 </option>
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
+                                        >>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                     </select>
                                 </div>
                             </div>
 
-<<<<<<< HEAD
-                            
-                            <div style="display: none">
+                            <<<<<<< HEAD <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="26">
-=======
+                                =======
 
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="21">
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
-                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            </div>
-                            <div class="row book-btn">
-                                <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE
-                                    </button>
+                                <div style="display: none">
+                                    <input type="hidden" id="product_id" name="product_id" value="21">
+                                    >>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
+                                    <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                                 </div>
-                            </div>
+                                <div class="row book-btn">
+                                    <div class="col-md-12">
+                                        <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                            ASSISTANCE
+                                        </button>
+                                    </div>
+                                </div>
                         </div>
                     </form>
 
