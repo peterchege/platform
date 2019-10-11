@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="col-04  product-box we img-partial wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full6" uk-toggle>
+                        <a href="#modal-full7" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
@@ -423,6 +423,13 @@
                                 </div>
                             </div>
 
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Police Report & Post morterm in case of death in accidental</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div style="display: none">
@@ -495,13 +502,6 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
                                     <label for="resume">Attach document : All medical reports relevant to the claim</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
@@ -509,18 +509,17 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Pay slips for at least 2 months</label>
+                                    <label for="resume">Attach document : pay slips for the least 2 months</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Police Report & Post morterm in case of death accidental</label>
+                                    <label for="resume">Attach document : Copy of national ID card or valid passport </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
-
 
                         </div>
 
@@ -542,7 +541,7 @@
         </div>
     </div>
 
-    <!-- ===================================== DEATH CLAIM FORM  ===================================== -->
+    <!-- ===================================== HOSPITAL CASH CLAIM FORM  ===================================== -->
 
     <div id="modal-full4" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -601,21 +600,14 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
+                                    <label for="resume">Attach document : Hospital Discharge summary</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Original Burial Permit</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Post Morterm report</label>
+                                    <label for="resume">Attach document : Hospital invoice and receipts</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -640,7 +632,7 @@
         </div>
     </div>
 
-    <!-- ===================================== Maturity FORM  ===================================== -->
+    <!-- ===================================== PERMANENT TOTAL DISABILITY BENEFIT FORM  ===================================== -->
 
     <div id="modal-full5" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -685,14 +677,35 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
+                                    <label for="resume">Attach document : Notification Letter</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
+                                    <label for="resume">Attach document : Provision of satisfaction medical examination report</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Last 3 month pay-slip</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Copy of your national ID</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Copy of police abstract if disability is due to an accident </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -717,13 +730,13 @@
         </div>
     </div>
 
-    <!-- ===================================== PARTIAL Maturity FORM  ===================================== -->
+    <!-- ===================================== OCCUPATIONAL BENEFIT - PTD & TTD FORM  ===================================== -->
 
     <div id="modal-full6" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/partial.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -762,7 +775,161 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
+                                    <label for="resume">Attach document : DOSH part I & II</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : DOSH/WIBA IV</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Pay slip for the month before the injury/Wage roll</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : original medical bill</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Sick off sheets </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Copy of National ID </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Claimants /witness statement </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Police abstract for RTA </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== CREDIT LIFE FORM  ===================================== -->
+
+    <div id="modal-full7" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Death Certificate</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Burial Permit</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Copy of National ID Card</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Loan Application form and executed loan agreement</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Loan repayment statement </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Post morterm and police abstract if death is accidental </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
