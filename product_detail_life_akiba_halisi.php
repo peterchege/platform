@@ -267,15 +267,12 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
 
     <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
 
-      <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+    <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
 
-      <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
@@ -316,16 +313,6 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Period/Length to be Covered</label>
-<<<<<<< HEAD
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Select...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 6 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 9 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 12 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 15 yrs </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 yrs </option>
-                                                                                          
-=======
                                     <select id="period" name="period" class="form-control" required>
                                         <option value="-1" selected disabled>Select...</option>
                                         <option value="6"> 6 yrs </option>
@@ -333,34 +320,10 @@
                                         <option value="12"> 12 yrs </option>
                                         <option value="15"> 15 yrs </option>
                                         <option value="18"> 18 yrs </option>
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                     </select>
                                 </div>
-                          
+
                                 <div class="form-group col-md-6">
-<<<<<<< HEAD
-                                    <label for="model">Value of Cover</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="( Minimum Ksh 100,000 )" value="" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                           
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress2">Your Age (yrs)</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Select your age range...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 18 - 23 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 24 - 25 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 30 - 34 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 35 - 39 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 40 - 44 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 45 - 49 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 50 - 54 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 55 - 59 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 60 - 64 </option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> 65 - 69 </option>      
-                                        <option data-ref="owner" name="all_covers" value="All Covers"> Above 70 </option>                                                                           
-=======
                                     <label for="value">Value of Cover</label>
                                     <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
@@ -382,20 +345,13 @@
                                         <option value="60 - 64"> 60 - 64 </option>
                                         <option value="65 - 69"> 65 - 69 </option>
                                         <option value="Above 70"> Above 70 </option>
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                     </select>
                                 </div>
                             </div>
 
-<<<<<<< HEAD
-                            
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
-=======
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="19">
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
@@ -413,13 +369,6 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-
-
-    <script src="js/parsley.min.js"></script>
-    <script src="js/lead.js"></script>
-=======
->>>>>>> fed27866aeab910fa9cb97b232df002ef3fabaf8
     <?php
     require_once 'inc/scripts.php';
     ?>
