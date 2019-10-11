@@ -103,7 +103,7 @@
                     </div>
 
 
-                    <div class="col-04 product-box we img-theft wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-04 product-box we img-critical wow fadeInUp " data-wow-delay="0.4s">
                         <a href="#modal-full3" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -121,7 +121,7 @@
                 </div>
                 <div class="row row-product">
 
-                    <div class="col-04 product-box we img-theft wow fadeInUp " data-wow-delay="0.4s">
+                    <div class="col-04 product-box we img-death wow fadeInUp " data-wow-delay="0.4s">
                         <a href="#modal-full4" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -135,7 +135,7 @@
                         </a>
                     </div>
 
-                    <div class="col-04  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-04  product-box we img-maturity wow fadeInUp" data-wow-delay="0.2s">
                         <a href="#modal-full5" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -151,7 +151,7 @@
                     </div>
 
 
-                    <div class="col-04  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-04  product-box we img-partial wow fadeInUp" data-wow-delay="0.3s">
                         <a href="#modal-full6" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
@@ -241,7 +241,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -354,7 +354,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -438,7 +438,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -529,7 +529,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/death.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -627,7 +627,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -704,7 +704,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/partial.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 

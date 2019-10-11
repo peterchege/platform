@@ -513,6 +513,18 @@
 .img-theft {
     background-image: url(../img/claim4.jpg);
 }
+.img-critical {
+    background-image: url(../img/critical.jpg);
+}
+.img-death {
+    background-image: url(../img/death.jpg);
+}
+.img-maturity {
+    background-image: url(../img/maturity.jpg);
+}
+.img-partial {
+    background-image: url(../img/partial.jpg);
+}
 
 .charter2 {
     width: 100%;
