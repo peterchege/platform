@@ -45,7 +45,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>LIFE (INDIVIDUAL) CLAIM PROCESS</h1>
+            <h1>LIFE (GROUP) CLAIM PROCESS</h1>
             <div class="under-line img1">
                 <img src="images/line.png" alt="">
             </div>
@@ -79,7 +79,7 @@
                             <div class="wrapper">
 
                                 <div class="content">
-                                    <h3>Hospital Cash claim </h3>
+                                    <h3>Last Expense Claims </h3>
                                     <br>
                                     <p> In the event of hospitalization of the main member or a family member</p>
                                 </div>
@@ -93,7 +93,7 @@
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
-                                    <h3> Last Expense Claims</h3>
+                                    <h3> Group Life Benefit</h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -117,16 +117,12 @@
                         </a>
                     </div>
 
-
-                </div>
-                <div class="row row-product">
-
                     <div class="col-04 product-box we img-death wow fadeInUp " data-wow-delay="0.4s">
                         <a href="#modal-full4" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
-                                    <h3>Death claims</h3>
+                                    <h3>Hospital Cash claim</h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -135,13 +131,16 @@
                         </a>
                     </div>
 
+                </div>
+                <div class="row row-product">
+
                     <div class="col-04  product-box we img-maturity wow fadeInUp" data-wow-delay="0.2s">
                         <a href="#modal-full5" uk-toggle>
                             <div class="color-overlay"></div>
                             <div class="wrapper">
 
                                 <div class="content">
-                                    <h3>Maturity claim </h3>
+                                    <h3>Permanent Total Disability Benefit: </h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -156,7 +155,21 @@
                             <div class="color-overlay"></div>
                             <div class="wrapper">
                                 <div class="content">
-                                    <h3> Partial Maturity Claims</h3>
+                                    <h3> Occupational Benefit – PTD & TTD</h3>
+                                    <br>
+                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                        for the costs of a funeral and related expenses.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-04  product-box we img-partial wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="#modal-full6" uk-toggle>
+                            <div class="color-overlay"></div>
+                            <div class="wrapper">
+                                <div class="content">
+                                    <h3> Credit Life Claim</h3>
                                     <br>
                                     <p>Upon death, this claim will ensure that cash is available immediately to pay
                                         for the costs of a funeral and related expenses.</p>
@@ -208,10 +221,10 @@
                         <hr>
                         <p>
                             The following are the information that you will be required : <br> <br>
-                            1. Policy Number <br>
-                            2. Name of Policyholder<br>
-                            3. Name of Person Reporting<br>
-                            4. Cellphone of the person reporting
+                            1. Scheme Name <br>
+                            2. Name of member<br>
+                            3. Name of person reporting<br>
+                            4. Cellphone Number of person reporting
                         </p>
 
                     </div>
