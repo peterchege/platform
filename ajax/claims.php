@@ -8,8 +8,8 @@ switch ($_GET['request']) {
             'status' => 0,
             'message' => 'Form submission failed, please try again.'
         );
-        if (!isset($_POST['full_name']) || empty($_POST['full_name'] || !isset($_POST['phone']) || $_POST['phone'] || !isset($_POST['email']) ||  $_POST['email'] || !isset($_POST['location']) || $_POST['location'] || !isset($_POST['registration_number']) || $_POST['registration_number'] ||  !isset($_POST['claim_event']) || $_POST['claim_event'] ||
-            !isset($_POST['product_id']) ||   $_POST['product_id'] || !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) || !isset($_POST['motor_claim_type']) ||  $_POST['motor_claim_type'])) {
+        if (!isset($_POST['full_name']) || empty($_POST['full_name'] || !isset($_POST['phone']) || $_POST['phone'] || !isset($_POST['email']) ||  $_POST['email'] || !isset($_POST['location']) || empty($_POST['location']) || !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||  !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            !isset($_POST['product_id']) ||  empty($_POST['product_id']) || !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) || !isset($_POST['motor_claim_type']) ||  empty($_POST['motor_claim_type']))) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $full_name = sanitize($_POST['full_name']);
@@ -45,6 +45,24 @@ switch ($_GET['request']) {
         //return response
         echo json_encode($response);
 
+        break;
+    case 'life_claim':
+        sleep(1);
+        $response = array(
+            'status' => 0,
+            'message' => 'Form submission failed, please try again.'
+        );
+        if (!isset($_POST['full_name']) || empty($_POST['full_name'] ||
+            !isset($_POST['phone']) || empty($_POST['phone']) ||
+            !isset($_POST['email']) || empty($_POST['email']) ||
+            !isset($_POST['location']) || empty($_POST['location']) ||
+            !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
+            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            !isset($_POST['motor_claim_type']))) {
+            $response['message'] = 'Please enter all required fields.';
+        } else { }
         break;
 
     default:
