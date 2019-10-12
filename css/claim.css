@@ -525,6 +525,21 @@
 .img-partial {
     background-image: url(../img/partial.jpg);
 }
+.img-group {
+    background-image: url(../img/group_life_claim.jpg);
+}
+.img-hosi {
+    background-image: url(../img/hospitilization.jpg);
+}
+.img-ptd {
+    background-image: url(../img/claim_life3.jpg);
+}
+.img-ttd {
+    background-image: url(../img/tempo.jpg);
+}
+.img-credit {
+    background-image: url(../img/credit_life.jpg);
+}
 
 .charter2 {
     width: 100%;
