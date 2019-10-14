@@ -207,27 +207,3 @@ function book(
         }
     }
 }
-
-function file_processing($input)
-{
-    $file_name = $_FILES[$input]['name'];
-    $file_size = $_FILES[$input]['size'];
-    $file_tmp = $_FILES[$input]['tmp_name'];
-    $file_type = $_FILES[$input]['type'];
-    $file_ext = explode('.', $file_name);
-    $file_ext = end($file_ext);
-    $file_ext = strtolower($file_ext);
-    $extensions = array("doc", "docx", "pdf");
-
-    if (in_array($file_ext, $extensions) === false) {
-        return $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed";
-        $errors[] = 0;
-        exit;
-    } elseif ($file_size > 5242880) {
-        return $response['message'] = "File should be less than 5mb in size.";
-        $errors[] = 0;
-        exit;
-    } else {
-        return $response['message'] = true;
-    }
-}

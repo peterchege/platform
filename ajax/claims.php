@@ -89,46 +89,61 @@ switch ($_GET['request']) {
             }
 
             switch ($form) {
-                case 'Hospital Cash Claim':
+                case 'claim_form_hospital_cash':
+                    $life_claim_type = 'Hospital Cash Claim';
                     $claim_id = randomstring(10);
-                    $life_claim_type = 'claim_form_hospital_cash';
-                    $file_name = $_FILES['claim_form_hospital_cash']['name'];
-                    $file_size = $_FILES['claim_form_hospital_cash']['size'];
-                    $file_tmp = $_FILES['claim_form_hospital_cash']['tmp_name'];
-                    $file_type = $_FILES['claim_form_hospital_cash']['type'];
-                    $file_ext = explode('.', $file_name);
-                    $file_ext = end($file_ext);
-                    $file_ext = strtolower($file_ext);
-                    $extensions = array("doc", "docx", "pdf");
+                    // completed form
+                    $claim_form_hospital_cash_file_name = $_FILES['claim_form_hospital_cash']['name'];
+                    $claim_form_hospital_cash_file_size = $_FILES['claim_form_hospital_cash']['size'];
+                    $claim_form_hospital_cash_file_tmp = $_FILES['claim_form_hospital_cash']['tmp_name'];
+                    $claim_form_hospital_cash_file_type = $_FILES['claim_form_hospital_cash']['type'];
 
-                    if (in_array($file_ext, $extensions) === false) {
+                    // national id
+                    $national_id_file_name = $_FILES['national_id']['name'];
+                    $national_id_file_size = $_FILES['national_id']['size'];
+                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                    $national_id_file_type = $_FILES['national_id']['type'];
+                    // hospital discharge summary
+                    $hospital_discharge_summary_file_name = $_FILES['hospital_discharge_summary']['name'];
+                    $hospital_discharge_summary_file_tmp = $_FILES['hospital_discharge_summary']['tmp_name'];
+                    $hospital_discharge_summary_file_size = $_FILES['hospital_discharge_summary']['size'];
+                    $hospital_discharge_summary_file_type = $_FILES['hospital_discharge_summary']['type'];
+
+                    // invoice
+                    $invoice_file_name = $_FILES['invoice']['name'];
+                    $invoice_file_size = $_FILES['invoice']['size'];
+                    $invoice_file_tmp = $_FILES['invoice']['tmp_name'];
+                    $invoice_file_type = $_FILES['invoice']['type'];
+
+                    $claim_form_hospital_cash_file_ext = explode('.', $claim_form_hospital_cash_file_name);
+                    $claim_form_hospital_cash_file_ext = end($claim_form_hospital_cash_file_ext);
+                    $claim_form_hospital_cash_file_ext = strtolower($claim_form_hospital_cash_file_ext);
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (in_array($claim_form_hospital_cash_file_ext, $extensions) === false) {
                         $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
                         $errors[] = 0;
-                        exit;
                     }
 
-                    if ($file_size > 5242880) {
-                        $response['message'] = "File should be less than 5mb in size!";
+                    if ($claim_form_hospital_cash_file_size > 5242880) {
+                        $response['message'] = "File should be less than 5MB in size!";
                         $errors[] = 0;
-                        exit;
                     }
-
                     if (empty($errors) == true) {
-                        $file_path =  "../documents/claims/" . $email . '----' . $file_name . '----' . $claim_id;
-                        $file_name = $email . '-----' . $file_name . '----' . $claim_id;
-                        if (move_uploaded_file($file_tmp, $file_path)) {
-                            $insert = $db->query("INSERT INTO claims_life(`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport_number`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`) 
-                                                VALUES('$full_name','$phone','$email','$location','$life_claim_type','$file_name','1','2','3')  ");
+                        $file_path =  "../documents/claims/" . $email . '----' . $claim_id . '----' . $claim_form_hospital_cash_file_name;
+                        $claim_form_hospital_cash_file_name = $email . '-----' . $claim_id . '----' . $claim_form_hospital_cash_file_name;
+                        if (move_uploaded_file($claim_form_hospital_cash_file_tmp, $file_path)) {
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport_number`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
+                                                VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name','1','2','3','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
                             } else {
-                                echo "An error occured please try again. " . mysqli_error($db);
+                                $response['message'] = "An error occurred. Please try again!";
+                                //  mysqli_error($db);
                             }
                         } else {
-                            echo 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 mb';
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
                         }
-                    } else {
-                        print_r($errors);
                     }
                     echo json_encode($response);
                     break;

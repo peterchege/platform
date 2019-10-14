@@ -19,10 +19,8 @@ $(document).ready(function () {
                     swal.fire('SUCCESS', 'Thank you for your interest in our product. One of our customer care agents will contact you.', response)
                     $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').trigger('reset');
                     $(".uk-close-large").click()
-
                 } else {
                     swal.fire('ERROR', 'An error occurred. Please try again.', response);
-
                 }
                 $('.btn').attr("disabled", false);
             }
