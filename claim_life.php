@@ -253,7 +253,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form" enctype="multipart/form-data">
                         <h3 for="" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -288,29 +288,29 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form">Attach document : Completed Claim Form <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="claim_form" type="file" class="form-control-file" id="claim_form" required>
+                                    <label for="claim_form_hospital_cash">Attach document : Completed Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_hospital_cash" type="file" class="form-control-file" id="claim_form_hospital_cash" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="national_id">Attach document : National Identity Card</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="hospital_discharge_summary">Attach document : Hospital Discharge summary</label>
-                                    <input name="hospital_discharge_summary" type="file" class="form-control-file" id="hospital_discharge_summary" required>
+                                    <input name="hospital_discharge_summary" type="file" class="form-control-file" id="hospital_discharge_summary">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="invoice">Attach document : Hospital invoices and Receipts</label>
-                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
+                                    <input name="invoice" type="file" class="form-control-file" id="invoice">
                                 </div>
                             </div>
 
@@ -401,8 +401,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="claim_form_last_expense">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_last_expense" type="file" class="form-control-file" id="claim_form_last_expense" required>
                                 </div>
                             </div>
 
@@ -485,8 +485,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="claim_form_critical_illness">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_critical_illness" type="file" class="form-control-file" id="claim_form_critical_illness" required>
                                 </div>
                             </div>
 
@@ -576,8 +576,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="claim_form_death_claim">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_death_claim" type="file" class="form-control-file" id="claim_form_death_claim" required>
                                 </div>
                             </div>
 
@@ -674,15 +674,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National Identity or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="policy_document_maturity">Attach document : Your policy document</label>
+                                    <input name="policy_document_maturity" type="file" class="form-control-file" id="policy_document_maturity" required>
                                 </div>
                             </div>
 
@@ -751,8 +751,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="policy_document_partial_maturity">Attach document : Your policy document</label>
+                                    <input name="policy_document_partial_maturity" type="file" class="form-control-file" id="policy_document_partial_maturity" required>
                                 </div>
                             </div>
 
