@@ -17,14 +17,18 @@ $(document).ready(function () {
                 if (response.message == 'success') {
                     swal.fire({
                         title: 'SUCCESS',
-                        html: '<p>Thank you for providing us with details of your claim. One of our agents will contact you ' +
+                        html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
                             'shortly to guide you through the next process. ' +
                             '<br><br>' +
                             'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
                             'Or send an email to claims@apalife.co.ke' +
                             '</p>',
                         type: 'success',
-                        allowOutsideClick: false
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
                     });
                     form.trigger('reset');
                     $(".uk-close-large").click();
