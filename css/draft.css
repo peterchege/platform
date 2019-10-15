@@ -1029,9 +1029,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+.row-product{
+    margin: 5% auto;
+}
+
 
 .product-box {
-    width:90%;
+    width: 90%;
     height: 260px;
     margin: 5% auto;
     border-radius: 20px;
@@ -1040,6 +1044,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     box-shadow: 11px 8px 48px 3px rgba(0, 0, 0, 0.33);
 
 }
+
 
 @media (max-width: 767.98px) {
     .line {

@@ -71,47 +71,55 @@
             <h1 class="text-left fomt">Choose the type of claim you wish to initiate : </h1>
             <br>
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box we img-accident wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#modal-full1" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-
-                                <div class="content">
-                                    <h3>Accident</h3>
-                                    <p>Covers third party bodily injury and property damage arising out
-                                        of a vehicle accident. .</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="product-box we img-accident">
+                            <a href="#modal-full1" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Accident</h3>
+                                        <br>
+                                        <p>Covers third party bodily injury and property damage arising out
+                                            of a vehicle accident. .</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-03  product-box we img-windscreen wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full2" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>WindScreen</h3>
-                                    <p>Cover extends to cover windscreen damage.</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="product-box we img-windscreen">
+                            <a href="#modal-full2" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>WindScreen</h3>
+                                        <br>
+                                        <p>Cover extends to cover windscreen damage.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-03 product-box we img-theft wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="#modal-full3" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>Theft</h3>
-                                    <p> This claim Cover theft of vehicle</p>
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.4s">
+                        <div class="product-box we img-theft">
+                            <a href="#modal-full3" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Theft</h3>
+                                        <br>
+                                        <p> This claim Cover theft of vehicle</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
