@@ -576,36 +576,36 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_death_claim">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="claim_form_death_claim">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="claim_form_death_claim" type="file" class="form-control-file" id="claim_form_death_claim" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National Identity or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Your policy document</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="policy_document">Attach document : Your policy document</label>
+                                    <input name="policy_document" type="file" class="form-control-file" id="policy_document" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Original Burial Permit</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="original_burial_permit">Attach document : Original Burial Permit</label>
+                                    <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Post Morterm report</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="post_mortem_report">Attach document : Post Morterm report</label>
+                                    <input name="post_mortem_report" type="file" class="form-control-file" id="post_mortem_report" required>
                                 </div>
                             </div>
 
@@ -617,7 +617,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
