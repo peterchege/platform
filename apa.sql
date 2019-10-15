@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 14/10/2019 19:50:13
+ Date: 15/10/2019 11:56:53
 */
 
 SET NAMES utf8mb4;
@@ -333,17 +333,17 @@ CREATE TABLE `claims_life`  (
   `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `life_claim_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `completed_form` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
-  `national_id_passport_number` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `national_id_passport` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `hospital_dishcharge_summary` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `hospital_invoice_receipt` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `original_burial_permit` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `medical_report` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
-  `payslip` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `payslips` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `post_mortem_report` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `policy_document` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 23 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 35 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of claims_life
@@ -370,6 +370,18 @@ INSERT INTO `claims_life` VALUES (19, 'wKK3wmB0rz', 'Jane Doe', '712365478', 'ja
 INSERT INTO `claims_life` VALUES (20, 'eeEVI7punH', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Hospital Cash Claim', 'johndoe@gmail.com-----eeEVI7punH----Afya Nafuu Brochure.pdf----completed form', ' johndoe@gmail.com--', 'johndoe@gmail.com-----eeEVI7punH----Afya Nafuu Brochure.pdf----hospital discharge summary', 'johndoe@gmail.com-----eeEVI7punH----Afya Nafuu Brochure.pdfinvoice', NULL, NULL, NULL, NULL, NULL, '2019-10-14 18:23:05.000000');
 INSERT INTO `claims_life` VALUES (21, 'OeiJpJa10j', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Hospital Cash Claim', 'johndoe@gmail.com-----OeiJpJa10j----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com--', 'johndoe@gmail.com-----OeiJpJa10j----hospital discharge summary----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----OeiJpJa10jinvoice----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-14 18:59:51.000000');
 INSERT INTO `claims_life` VALUES (22, 'ERrtEz3kdq', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Hospital Cash Claim', 'johndoe@gmail.com-----ERrtEz3kdq----completed form----Afya Nafuu Brochure.pdf', ' johndoe@gmail.com--', 'johndoe@gmail.com-----ERrtEz3kdq----hospital discharge summary----Afya Nafuu Brochure.pdf', 'johndoe@gmail.com-----ERrtEz3kdq----invoice----Afya Nafuu Brochure.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-14 19:01:42.000000');
+INSERT INTO `claims_life` VALUES (23, 'h6YhnAnRVs', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Hospital Cash Claim', 'johndoe@gmail.com-----h6YhnAnRVs----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com--', 'johndoe@gmail.com-----h6YhnAnRVs----hospital discharge summary----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----h6YhnAnRVs----invoice----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-15 08:20:47.000000');
+INSERT INTO `claims_life` VALUES (24, '4voaB12ZeS', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'Hospital Cash Claim', 'johndoe@gmail.com-----4voaB12ZeS----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com--', 'johndoe@gmail.com-----4voaB12ZeS----hospital discharge summary----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----4voaB12ZeS----invoice----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-15 08:23:08.000000');
+INSERT INTO `claims_life` VALUES (25, 'ruxkaRaWO', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Last Expense Claim', 'johndoe@gmail.com-----ruxkaRaWO----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----ruxkaRaWO----national_id----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----ruxkaRaWO----hospital discharge summary----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, NULL, '2019-10-15 09:09:54.000000');
+INSERT INTO `claims_life` VALUES (26, 'WGOWFRP3xB', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Last Expense Claim', 'johndoe@gmail.com-----WGOWFRP3xB----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----WGOWFRP3xB----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, 'johndoe@gmail.com-----WGOWFRP3xB----Original Burial Permit----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, '2019-10-15 09:15:36.000000');
+INSERT INTO `claims_life` VALUES (27, 'FUkoQ1nH7E', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Critical Illness Claim', 'johndoe@gmail.com-----FUkoQ1nH7E----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----FUkoQ1nH7E----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, 'johndoe@gmail.com-----FUkoQ1nH7E----hospital discharge summary----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----FUkoQ1nH7E----payslips----Jamii_Plus _Brochure.pdf', NULL, NULL, '2019-10-15 09:42:21.000000');
+INSERT INTO `claims_life` VALUES (28, '1cRBOy1UhJ', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Critical Illness Claim', 'johndoe@gmail.com-----1cRBOy1UhJ----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----1cRBOy1UhJ----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, 'johndoe@gmail.com-----1cRBOy1UhJ----medical report----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----1cRBOy1UhJ----payslips----Jamii_Plus _Brochure.pdf', NULL, NULL, '2019-10-15 09:50:04.000000');
+INSERT INTO `claims_life` VALUES (29, 'tnnW5akm9f', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Critical Illness Claim', 'johndoe@gmail.com-----tnnW5akm9f----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----tnnW5akm9f----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, 'johndoe@gmail.com-----tnnW5akm9f----medical report----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----tnnW5akm9f----payslips----Jamii_Plus _Brochure.pdf', NULL, NULL, '2019-10-15 10:26:08.000000');
+INSERT INTO `claims_life` VALUES (30, '0F7XkVhUCR', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Death Claim', 'johndoe@gmail.com-----0F7XkVhUCR----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----0F7XkVhUCR----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----0F7XkVhUCR----post mortem report----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----0F7XkVhUCR----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 11:01:41.000000');
+INSERT INTO `claims_life` VALUES (31, 'wwRu7E0h5u', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Death Claim', 'johndoe@gmail.com-----wwRu7E0h5u----completed form----Jamii_Plus _Brochure.pdf', ' johndoe@gmail.com-----wwRu7E0h5u----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----wwRu7E0h5u----post mortem report----Jamii_Plus _Brochure.pdf', 'johndoe@gmail.com-----wwRu7E0h5u----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 11:09:47.000000');
+INSERT INTO `claims_life` VALUES (32, '6q3XjF5MxB', 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'Death Claim', 'janedoe@gmail.com-----6q3XjF5MxB----completed form----Jamii_Plus _Brochure.pdf', ' janedoe@gmail.com-----6q3XjF5MxB----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, 'janedoe@gmail.com-----6q3XjF5MxB----original burial permit----Jamii_Plus _Brochure.pdf', NULL, NULL, 'janedoe@gmail.com-----6q3XjF5MxB----post mortem report----Jamii_Plus _Brochure.pdf', 'janedoe@gmail.com-----6q3XjF5MxB----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 11:14:32.000000');
+INSERT INTO `claims_life` VALUES (33, 'kH9wH66gA', 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'Maturity Claim', NULL, ' janedoe@gmail.com-----kH9wH66gA----national id----Jamii_Plus _Brochure.pdf', NULL, NULL, NULL, NULL, NULL, NULL, 'janedoe@gmail.com-----kH9wH66gA----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 11:40:11.000000');
+INSERT INTO `claims_life` VALUES (34, 'cDIIZzv3Tu', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Partial Maturity Claim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----cDIIZzv3Tu----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 11:49:11.000000');
 
 -- ----------------------------
 -- Table structure for claims_motor

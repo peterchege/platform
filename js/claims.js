@@ -23,7 +23,8 @@ $(document).ready(function () {
                             'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
                             'Or send an email to claims@apalife.co.ke' +
                             '</p>',
-                        type: 'success'
+                        type: 'success',
+                        allowOutsideClick: false
                     });
                     form.trigger('reset');
                     $(".uk-close-large").click();
