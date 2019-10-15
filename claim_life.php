@@ -492,22 +492,22 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National Identity or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : All medical reports relevant to the claim</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="medical_report">Attach document : All medical reports relevant to the claim</label>
+                                    <input name="medical_report" type="file" class="form-control-file" id="medical_report" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Pay slips for at least 2 months</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="payslips">Attach document : Pay slips for at least 2 months</label>
+                                    <input name="payslips" type="file" class="form-control-file" id="payslips" required>
                                 </div>
                             </div>
 
@@ -519,7 +519,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
