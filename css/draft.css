@@ -1031,9 +1031,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .product-box {
-    width: 22%;
-    margin: 3% auto;
-    margin-bottom: 5%;
+    width:90%;
+    height: 260px;
+    margin: 5% auto;
     border-radius: 20px;
     -webkit-box-shadow: 11px 8px 48px 3px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: 11px 8px 48px 3px rgba(0, 0, 0, 0.33);
@@ -1049,7 +1049,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     .product-box {
-        width: 40%;
+        /* width: 40%; */
         margin: 3% auto;
         align-items: center;
     }
@@ -1062,7 +1062,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     .product-box {
-        width: 70%;
+        /* width: 70%; */
         margin: 5% auto;
         align-items: center;
     }
