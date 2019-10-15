@@ -80,7 +80,7 @@
                             <div class="wrapper">
 
                                 <div class="content">
-                                    <h3>Accident</h3>                                   
+                                    <h3>Accident</h3>
                                     <p>Covers third party bodily injury and property damage arising out
                                         of a vehicle accident. .</p>
                                 </div>
@@ -371,6 +371,7 @@
                             </div>
                         </div>
                 </div>
+                <input type="hidden" class="form_pdf" name="form_pdf" value="windscreen">
                 </form>
 
             </div>
@@ -452,6 +453,7 @@
                             </div>
                         </div>
                 </div>
+                <input type="hidden" class="form_pdf" name="form_pdf" value="theft">
                 </form>
 
             </div>
@@ -493,6 +495,18 @@
             $('.form').on('submit', function(e) {
                 e.preventDefault();
                 var form = $(this);
+                var pdf = $(this).find('input[type=hidden]:last').val();
+
+                if (pdf == 'windscreen') {
+                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
+                } else if (pdf == 'accident') {
+                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
+                } else if (pdf == 'theft') {
+                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
+                } else {
+                    var claim_form = '';
+                }
+
                 $.ajax({
                     type: "POST",
                     url: "ajax/claims.php?request=motor_claim",
@@ -511,7 +525,7 @@
                             swal.fire({
                                 title: 'Submitted successfully.',
                                 type: 'success',
-                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
+                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
                                 showCloseButton: true,
                                 showCancelButton: false,
                                 allowOutsideClick: false,
