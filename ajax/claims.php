@@ -529,8 +529,8 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $policy_document_maturity_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national_id' . '----' . $national_id_file_name;
+                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
 
 
                         $policy_document_maturity_file_path =  "../documents/claims/" . $policy_document_maturity_file_name;
@@ -556,60 +556,43 @@ switch ($_GET['request']) {
                     break;
 
 
-                case 'policy_document_maturity':
-                    $life_claim_type = 'Maturity Claim';
+                case 'policy_document_partial_maturity':
+                    $life_claim_type = 'Partial Maturity Claim';
                     $claim_id = randomstring(10);
 
                     //policy document maturity
-                    $policy_document_maturity_file_name = $_FILES['policy_document_maturity']['name'];
-                    $policy_document_maturity_file_size = $_FILES['policy_document_maturity']['size'];
-                    $policy_document_maturity_file_tmp = $_FILES['policy_document_maturity']['tmp_name'];
-                    $policy_document_maturity_file_type = $_FILES['policy_document_maturity']['type'];
+                    $policy_document_maturity_file_name = $_FILES['policy_document_partial_maturity']['name'];
+                    $policy_document_maturity_file_size = $_FILES['policy_document_partial_maturity']['size'];
+                    $policy_document_maturity_file_tmp = $_FILES['policy_document_partial_maturity']['tmp_name'];
+                    $policy_document_maturity_file_type = $_FILES['policy_document_partial_maturity']['type'];
 
                     $policy_document_maturity_file_ext = explode('.', $policy_document_maturity_file_name);
                     $policy_document_maturity_file_ext = end($policy_document_maturity_file_ext);
                     $policy_document_maturity_file_ext = strtolower($policy_document_maturity_file_ext);
 
-                    // national id
-                    $national_id_file_name = $_FILES['national_id']['name'];
-                    $national_id_file_size = $_FILES['national_id']['size'];
-                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
-                    $national_id_file_type = $_FILES['national_id']['type'];
-
-                    $national_id_file_ext = explode('.', $national_id_file_name);
-                    $national_id_file_ext = end($national_id_file_ext);
-                    $national_id_file_ext = strtolower($national_id_file_ext);
-
 
                     $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
 
                     if (
-                        in_array($policy_document_maturity_file_ext, $extensions) === false ||
-                        in_array($national_id_file_ext, $extensions) === false
+                        in_array($policy_document_maturity_file_ext, $extensions) === false
                     ) {
                         $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
                         $errors[] = 0;
                     }
 
-                    if ($policy_document_maturity_file_size > 5242880 || $national_id_file_size > 5242880) {
+                    if ($policy_document_maturity_file_size > 5242880) {
                         $response['message'] = "Files should be less than 5MB each!";
                         $errors[] = 0;
                     }
 
                     if (empty($errors) == true) {
-                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $policy_document_maturity_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national_id' . '----' . $national_id_file_name;
-
+                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
 
                         $policy_document_maturity_file_path =  "../documents/claims/" . $policy_document_maturity_file_name;
-                        $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
 
-                        if (
-                            move_uploaded_file($policy_document_maturity_file_tmp, $policy_document_maturity_file_path) &&
-                            move_uploaded_file($national_id_file_tmp, $national_id_file_path)
-                        ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`policy_document`,`national_id_passport`,`created_at`) 
-                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name',' $national_id_file_name','$created_at')  ");
+                        if (move_uploaded_file($policy_document_maturity_file_tmp, $policy_document_maturity_file_path)) {
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`policy_document`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
                             } else {

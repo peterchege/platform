@@ -751,8 +751,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="policy_document">Attach document : Your policy document</label>
-                                    <input name="policy_document" type="file" class="form-control-file" id="policy_document" required>
+                                    <label for="policy_document_partial_maturity">Attach document : Your policy document</label>
+                                    <input name="policy_document_partial_maturity" type="file" class="form-control-file" id="policy_document_partial_maturity" required>
                                 </div>
                             </div>
 
