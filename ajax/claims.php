@@ -93,8 +93,6 @@ switch ($_GET['request']) {
                     $life_claim_type = 'Hospital Cash Claim';
                     $claim_id = randomstring(10);
 
-
-
                     // completed form
                     $claim_form_hospital_cash_file_name = $_FILES['claim_form_hospital_cash']['name'];
                     $claim_form_hospital_cash_file_size = $_FILES['claim_form_hospital_cash']['size'];
