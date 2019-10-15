@@ -122,12 +122,12 @@
                             </a>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="row row-product">
 
-                    <div class="col-md-4 offset-4 wow fadeInUp " data-wow-delay="0.5s">
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.5s">
                         <div class="product-box we img-hosi">
                             <a href="#modal-full4" uk-toggle>
                                 <div class="color-overlay"></div>
@@ -160,6 +160,11 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="offset-4">
+
+                    </div>
+
                 </div>
             </div>
             <br>

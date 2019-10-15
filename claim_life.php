@@ -197,7 +197,7 @@
 
             <div class="container">
 
-                <div class="row">
+                <div class="row wow fadeInUp" data-wow-delay="0.2s">
                     <div class="col-md-4">
                         <div class="charter2">
                             <h2>Step 1 : Report</h2>

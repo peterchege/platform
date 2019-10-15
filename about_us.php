@@ -208,60 +208,68 @@
             <div class="container-fluid">
                 <div class="row row-product">
 
-                    <div class="col-03  product-box we company-image wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="companies.php">
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="product-box we company-image">
+                            <a href="companies.php">
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
 
-                                <div class="content">
-                                    <h3>COMPANIES</h3>
-                                    <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
-                                        family.</p>
+                                    <div class="content">
+                                        <h3>COMPANIES</h3>
+                                        <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                            family.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-03  product-box we company-product wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="products.php">
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>PRODUCTS</h3>
-                                    <p>Explore wild possibilities and adventures unbothered!
-                                        Whether you are headed for a business trip or a trip of a lifetime.</p>
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="product-box we company-product">
+                            <a href="products.php">
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>PRODUCTS</h3>
+                                        <p>Explore wild possibilities and adventures unbothered!
+                                            Whether you are headed for a business trip or a trip of a lifetime.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-03 product-box we company-media wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="media_centre_video.php">
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>MEDIA CENTRE</h3>
-                                    <p>Sail your goods across different regions with no worry.
-                                        This cover is crafted for both individuals and corporates
+                    <div class="col-md-3 wow fadeInUp " data-wow-delay="0.4s">
+                        <div class="product-box we company-media">
+                            <a href="media_centre_video.php">
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>MEDIA CENTRE</h3>
+                                        <p>Sail your goods across different regions with no worry.
+                                            This cover is crafted for both individuals and corporates
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="col-03  product-box we company-csr wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="csr.php">
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>CSR</h3>
-                                    <p>Your crops and livestock are your source of income and guaranteeing their safety
-                                        should
-                                        bring you ultimate happiness.</p>
+                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="product-box we company-csr">
+                            <a href="csr.php">
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>CSR</h3>
+                                        <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                            should
+                                            bring you ultimate happiness.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
