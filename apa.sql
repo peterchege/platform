@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 15/10/2019 12:44:20
+ Date: 15/10/2019 18:22:15
 */
 
 SET NAMES utf8mb4;
@@ -343,7 +343,7 @@ CREATE TABLE `claims_life`  (
   `policy_document` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 41 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 42 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of claims_life
@@ -353,6 +353,7 @@ INSERT INTO `claims_life` VALUES (37, '8NdRRTv7jR', 'Jane Doe', '712365478', 'ja
 INSERT INTO `claims_life` VALUES (38, 't2kmX1bxag', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Partial Maturity Claim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----t2kmX1bxag----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 12:24:55.000000');
 INSERT INTO `claims_life` VALUES (39, 'hA4co0JTG8', 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'Death Claim', 'janedoe@gmail.com-----hA4co0JTG8----completed form----Jamii_Plus _Brochure.pdf', ' janedoe@gmail.com-----hA4co0JTG8----national_id----Jamii_Plus _Brochure.pdf', NULL, NULL, 'janedoe@gmail.com-----hA4co0JTG8----original burial permit----Jamii_Plus _Brochure.pdf', NULL, NULL, 'janedoe@gmail.com-----hA4co0JTG8----post mortem report----Jamii_Plus _Brochure.pdf', 'janedoe@gmail.com-----hA4co0JTG8----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 12:38:28.000000');
 INSERT INTO `claims_life` VALUES (40, 'gzrvrPhio9', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Partial Maturity Claim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----gzrvrPhio9----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 12:39:15.000000');
+INSERT INTO `claims_life` VALUES (41, 'SA56KrtQYM', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Partial Maturity Claim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----SA56KrtQYM----policy document----Jamii_Plus _Brochure.pdf', '2019-10-15 18:21:46.000000');
 
 -- ----------------------------
 -- Table structure for claims_motor
@@ -374,7 +375,7 @@ CREATE TABLE `claims_motor`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `claim product id`(`product_id`) USING BTREE,
   CONSTRAINT `claim product id` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 36 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 52 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of claims_motor
@@ -383,6 +384,22 @@ INSERT INTO `claims_motor` VALUES (32, '', '0712345678', 'johndoe@gmail.com', 'M
 INSERT INTO `claims_motor` VALUES (33, '', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'jhjkh', 6, 14, 'accident', '2019-10-03 16:54:51.000000', NULL);
 INSERT INTO `claims_motor` VALUES (34, 'p', '+254721656618', 'rkagotho8@gmail.com', 'b', 'kbq324', 'ghdgdgd', 6, 14, 'accident', '2019-10-07 16:34:19.000000', NULL);
 INSERT INTO `claims_motor` VALUES (35, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'Accident', 6, 14, 'windscreen', '2019-10-15 12:18:27.000000', NULL);
+INSERT INTO `claims_motor` VALUES (36, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'k', 6, 14, 'accident', '2019-10-15 13:57:19.000000', NULL);
+INSERT INTO `claims_motor` VALUES (37, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'i', 6, 14, 'accident', '2019-10-15 14:04:19.000000', NULL);
+INSERT INTO `claims_motor` VALUES (38, 'John Doe', '0712345678', 'johndoe@gmail.com', 'nairobi', 'KBC 123J', 'ssd', 6, 14, 'accident', '2019-10-15 14:08:02.000000', NULL);
+INSERT INTO `claims_motor` VALUES (39, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'bc', 6, 14, 'theft', '2019-10-15 14:09:36.000000', NULL);
+INSERT INTO `claims_motor` VALUES (40, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123T', 'Nice', 6, 14, 'theft', '2019-10-15 14:11:34.000000', NULL);
+INSERT INTO `claims_motor` VALUES (41, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'theft', '2019-10-15 14:12:47.000000', NULL);
+INSERT INTO `claims_motor` VALUES (42, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'hj', 6, 14, 'theft', '2019-10-15 14:19:52.000000', NULL);
+INSERT INTO `claims_motor` VALUES (43, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghkl;', 6, 14, 'theft', '2019-10-15 14:23:29.000000', NULL);
+INSERT INTO `claims_motor` VALUES (44, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ghjk', 6, 14, 'theft', '2019-10-15 14:33:20.000000', NULL);
+INSERT INTO `claims_motor` VALUES (45, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'windscreen', '2019-10-15 14:41:41.000000', NULL);
+INSERT INTO `claims_motor` VALUES (46, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghk', 6, 14, 'windscreen', '2019-10-15 14:44:33.000000', NULL);
+INSERT INTO `claims_motor` VALUES (47, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'sds', 6, 14, 'windscreen', '2019-10-15 14:46:18.000000', NULL);
+INSERT INTO `claims_motor` VALUES (48, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Nakuru', 'KBC 123J', 'fghjkl', 6, 14, 'accident', '2019-10-15 14:50:36.000000', NULL);
+INSERT INTO `claims_motor` VALUES (49, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'uoi', 6, 14, 'windscreen', '2019-10-15 15:07:37.000000', NULL);
+INSERT INTO `claims_motor` VALUES (50, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'lk', 6, 14, 'theft', '2019-10-15 15:22:04.000000', NULL);
+INSERT INTO `claims_motor` VALUES (51, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ko', 6, 14, 'theft', '2019-10-15 15:56:00.000000', NULL);
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
