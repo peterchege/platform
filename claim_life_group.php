@@ -142,13 +142,13 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-box we img-ptd">
                             <a href="#modal-full5" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
-                                        <h3>Permanent Total Disability Benefit: </h3>
+                                        <h3>Permanent Total Disability : </h3>
                                         <br>
                                         <p>Upon death, this claim will ensure that cash is available immediately to pay
                                             for the costs of a funeral</p>
@@ -159,13 +159,13 @@
                     </div>
 
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="product-box we img-ttd">
                             <a href="#modal-full6" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
-                                        <h3> Occupational Benefit – PTD & TTD</h3>
+                                        <h3> Occupational  – PTD & TTD</h3>
                                         <br>
                                         <p>Upon death, this claim will ensure that cash is available immediately to pay
                                             for the costs of a funeral and related expenses.</p>
@@ -177,8 +177,8 @@
                 </div>
 
                 <div class="row row-product">
-                    
-                    <div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
+
+                    <div class="col-md-4  wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-box we img-credit">
                             <a href="#modal-full7" uk-toggle>
                                 <div class="color-overlay"></div>
