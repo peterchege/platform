@@ -70,115 +70,135 @@
             <h1 class="text-left fomt">Choose the type of claim you wish to initiate : </h1>
             <br>
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row row-product">
 
-                    <div class="col-04  product-box we life-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#modal-full1" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-
-                                <div class="content">
-                                    <h3>Last Expense Claims </h3>
-                                    <br>
-                                    <p> In the event of hospitalization of the main member or a family member</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="product-box we life-4">
+                            <a href="#modal-full1" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Last Expense Claims </h3>
+                                        <br>
+                                        <p> In the event of hospitalization of the main member or a family member</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-04  product-box we img-group wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full2" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3> Group Life Benefit</h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="product-box we img-group ">
+                            <a href="#modal-full2" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3> Group Life Benefit</h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-04 product-box we img-critical wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="#modal-full3" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>Critical illness Claim </h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="product-box we img-critical">
+                            <a href="#modal-full3" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Critical illness Claim </h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-04 product-box we img-hosi wow fadeInUp " data-wow-delay="0.4s">
-                        <a href="#modal-full4" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3>Hospital Cash claim</h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
+
                 <div class="row row-product">
 
-                    <div class="col-04  product-box we img-ptd wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#modal-full5" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-
-                                <div class="content">
-                                    <h3>Permanent Total Disability Benefit: </h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.4s">
+                        <div class="product-box we img-hosi">
+                            <a href="#modal-full4" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Hospital Cash claim</h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="product-box we img-ptd">
+                            <a href="#modal-full5" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3>Permanent Total Disability Benefit: </h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
 
-                    <div class="col-04  product-box we img-ttd wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full6" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3> Occupational Benefit – PTD & TTD</h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
+                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="product-box we img-ttd">
+                            <a href="#modal-full6" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3> Occupational Benefit – PTD & TTD</h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-product">
+                    
+                    <div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="product-box we img-credit">
+                            <a href="#modal-full7" uk-toggle>
+                                <div class="color-overlay"></div>
+                                <div class="wrapper">
+                                    <div class="content">
+                                        <h3> Credit Life Claim</h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
-                    <div class="col-04  product-box we img-credit wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="#modal-full7" uk-toggle>
-                            <div class="color-overlay"></div>
-                            <div class="wrapper">
-                                <div class="content">
-                                    <h3> Credit Life Claim</h3>
-                                    <br>
-                                    <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                        for the costs of a funeral and related expenses.</p>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="offset-8">
                     </div>
 
                 </div>
+
             </div>
             <br>
         </div>
