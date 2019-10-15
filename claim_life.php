@@ -296,21 +296,21 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="national_id">Attach document : National Identity Card</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id">
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="hospital_discharge_summary">Attach document : Hospital Discharge summary</label>
-                                    <input name="hospital_discharge_summary" type="file" class="form-control-file" id="hospital_discharge_summary">
+                                    <input name="hospital_discharge_summary" type="file" class="form-control-file" id="hospital_discharge_summary" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="invoice">Attach document : Hospital invoices and Receipts</label>
-                                    <input name="invoice" type="file" class="form-control-file" id="invoice">
+                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
                                 </div>
                             </div>
 
@@ -366,7 +366,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -408,15 +408,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National Identity or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Original Burial permit</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="original_burial_permit">Attach document : Original Burial permit</label>
+                                    <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                 </div>
                             </div>
 
@@ -428,7 +428,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>

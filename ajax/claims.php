@@ -176,7 +176,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($invoice_file_tmp, $invoice_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport_number`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -191,6 +191,91 @@ switch ($_GET['request']) {
                     echo json_encode($response);
                     break;
 
+                case 'claim_form_last_expense':
+                    $life_claim_type = 'Last Expense Claim';
+                    $claim_id = randomstring(10);
+
+
+
+                    // completed form
+                    $claim_form_last_expense_file_name = $_FILES['claim_form_last_expense']['name'];
+                    $claim_form_last_expense_file_size = $_FILES['claim_form_last_expense']['size'];
+                    $claim_form_last_expense_file_tmp = $_FILES['claim_form_last_expense']['tmp_name'];
+                    $claim_form_last_expense_file_type = $_FILES['claim_form_last_expense']['type'];
+
+                    $claim_form_last_expense_file_ext = explode('.', $claim_form_last_expense_file_name);
+                    $claim_form_last_expense_file_ext = end($claim_form_last_expense_file_ext);
+                    $claim_form_last_expense_file_ext = strtolower($claim_form_last_expense_file_ext);
+
+                    // national id
+                    $national_id_file_name = $_FILES['national_id']['name'];
+                    $national_id_file_size = $_FILES['national_id']['size'];
+                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                    $national_id_file_type = $_FILES['national_id']['type'];
+
+                    $national_id_file_ext = explode('.', $national_id_file_name);
+                    $national_id_file_ext = end($national_id_file_ext);
+                    $national_id_file_ext = strtolower($national_id_file_ext);
+
+
+
+                    // hospital discharge summary
+                    $original_burial_permit_file_name = $_FILES['original_burial_permit']['name'];
+                    $original_burial_permit_file_tmp = $_FILES['original_burial_permit']['tmp_name'];
+                    $original_burial_permit_file_size = $_FILES['original_burial_permit']['size'];
+                    $original_burial_permit_file_type = $_FILES['original_burial_permit']['type'];
+
+                    $original_burial_permit_file_ext = explode('.', $original_burial_permit_file_name);
+                    $original_burial_permit_file_ext = end($original_burial_permit_file_ext);
+                    $original_burial_permit_file_ext = strtolower($original_burial_permit_file_ext);
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_last_expense_file_ext, $extensions) === false ||
+                        in_array($national_id_file_ext, $extensions) === false ||
+                        in_array($original_burial_permit_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_last_expense_file_size > 5242880 || $national_id_file_size > 5242880 || $original_burial_permit_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_last_expense_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national_id' . '----' . $national_id_file_name;
+                        $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
+
+                        $claim_form_last_expense_file_path =  "../documents/claims/" . $claim_form_last_expense_file_name;
+                        $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
+                        $original_burial_permit_file_path =  "../documents/claims/" . $original_burial_permit_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_last_expense_file_tmp, $claim_form_last_expense_file_path) &&
+                            move_uploaded_file($original_burial_permit_file_tmp, $original_burial_permit_file_path)  &&
+                            move_uploaded_file($national_id_file_tmp, $national_id_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`original_burial_permit`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
                 default:
                     # code...
                     break;
