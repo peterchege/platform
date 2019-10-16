@@ -262,7 +262,7 @@
                                         <hr>
                                         <h3>Who is eligible for the cover?</h3>
                                         <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
+                                            <li>Adults between the age of 18 years and 80 years.
                                             </li>
                                             <li>Children between the age of 1 month and 17 years.
                                             </li>
