@@ -540,6 +540,21 @@
 .img-credit {
     background-image: url(../img/credit_life.jpg);
 }
+.claim-property {
+    background-image: url(../img/property_damage.jpg);
+}
+.claim-injury {
+    background-image: url(../img/wiba_claim.jpg);
+}
+.claim-accident {
+    background-image: url(../img/personal_accident.jpg);
+}
+.claim-livestock {
+    background-image: url(../img/cow_dead.jpg);
+}
+.claim-crop {
+    background-image: url(../img/crop_dead.jpg);
+}
 
 .charter2 {
     width: 100%;
