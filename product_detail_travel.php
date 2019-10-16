@@ -104,17 +104,17 @@
                                         <br><br><br><br>
 
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center ">
                                                     <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
@@ -664,17 +664,17 @@
                                     velit itaque mollitia libero modi corrupti omnis laborum magnam.
                                     <br><br> <br>
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-md-4">
                                             <div class="load-more text-center ">
                                                 <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4">
                                             <div class="load-more text-center " data-target="#modal-full" uk-toggle="target: #modal-close-outside">
                                                 <a href="#" class="btn btn-danger"> Download Forms </a>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4">
                                             <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                 <a href="#" class="btn btn-dark">I Need Assistance</a>
                                             </div>
