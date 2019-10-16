@@ -41,7 +41,7 @@ $(document).ready(function () {
     });
 
     $('.life-group-claim-form').parsley();
-    $('.life-claim-form').on('submit', function (e) {
+    $('.life-group-claim-form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         $.ajax({
