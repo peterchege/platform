@@ -306,7 +306,7 @@
 
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="national_id">Attach document : National Identity Card</label>
+                                        <label for="national_id">Attach document : National Identity Card or Passport </label>
                                         <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                     </div>
                                 </div>
@@ -412,21 +412,21 @@
 
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="claim_form_last_expense">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                        <label for="claim_form_last_expense">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                         <input name="claim_form_last_expense" type="file" class="form-control-file" id="claim_form_last_expense" required>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="national_id">Attach document : National Identity or Passport</label>
+                                        <label for="national_id">Attach document : National Identity Card or Passport</label>
                                         <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="original_burial_permit">Attach document : Original Burial permit</label>
+                                        <label for="original_burial_permit">Attach document : Scanned Copy of the Original Burial permit</label>
                                         <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                     </div>
                                 </div>
@@ -593,33 +593,28 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="form-group col-md-12">
+                                    <div class="form-group col-md-6">
                                         <label for="national_id">Attach document : National Identity or Passport</label>
                                         <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                     </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <label for="policy_document">Attach document : Your policy document</label>
+                                    <div class="form-group col-md-6">
+                                        <label for="policy_document">Attach document : Your policy <br>document</label>
                                         <input name="policy_document" type="file" class="form-control-file" id="policy_document" required>
                                     </div>
                                 </div>
 
                                 <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <label for="original_burial_permit">Attach document : Original Burial Permit</label>
+                                    <div class="form-group col-md-6">
+                                        <label for="original_burial_permit">Attach document : Scanned Copy of the Original Burial Permit</label>
                                         <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                     </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <label for="post_mortem_report">Attach document : Post Morterm report</label>
+                                    <div class="form-group col-md-6">
+                                        <label for="post_mortem_report">Attach document : Post Morterm<br> report</label>
                                         <input name="post_mortem_report" type="file" class="form-control-file" id="post_mortem_report" required>
                                     </div>
                                 </div>
 
+                              
                             </div>
 
                             <div style="display: none">
