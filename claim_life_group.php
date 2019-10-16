@@ -837,7 +837,7 @@
                                     <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <div style="display: none">
@@ -903,8 +903,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Death Certificate</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="credit_death_certificate">Attach document : Death Certificate</label>
+                                    <input name="credit_death_certificate" type="file" class="form-control-file" id="credit_death_certificate" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Burial Permit</label>
