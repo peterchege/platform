@@ -7,10 +7,11 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>About APA</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Apollo Group</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Companies</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Financial Reports</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Leadership</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="about_us.php">Apollo Group</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="companies.php">Companies</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="financial_report.php">Financial Reports</a>
+                        </li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="eadership.php">Leadership</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="#">Management</a></li>
                     </ul>
                 </div>
