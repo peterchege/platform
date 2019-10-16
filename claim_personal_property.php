@@ -677,35 +677,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Notification Letter</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Provision of satisfaction medical examination report</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Last 3 month pay-slip</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Copy of your national ID</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Copy of police abstract if disability is due to an accident </label>
+                                    <label for="resume">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
