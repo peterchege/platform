@@ -607,29 +607,29 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_hospital_cash_claim">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="claim_form_hospital_cash_claim" type="file" class="form-control-file" id="claim_form_hospital_cash_claim" required>
+                                    <label for="claim_form_hospital_cash">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_hospital_cash" type="file" class="form-control-file" id="claim_form_hospital_cash" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National Identity or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital Discharge summary</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="hospital_discharge_summary">Attach document : Hospital Discharge summary</label>
+                                    <input name="hospital_discharge_summary" type="file" class="form-control-file" id="hospital_discharge_summary" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital invoice and receipts</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="invoice">Attach document : Hospital invoice and receipts</label>
+                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
                                 </div>
                             </div>
 
@@ -641,7 +641,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
