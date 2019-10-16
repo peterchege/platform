@@ -264,7 +264,7 @@
                     <div class="uk-padding-large">
 
 
-                        <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form" enctype="multipart/form-data">
+                        <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form" enctype="multipart/form-data">
                             <h3 for="" class="comp-detail">PERSONAL DETAILS</h3>
                             <div class="container">
                                 <div class="row">
@@ -461,7 +461,7 @@
                     <div class="uk-padding-large">
 
 
-                        <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                        <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
                             <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                             <div class="container">
                                 <div class="row">
@@ -552,7 +552,7 @@
                     <div class="uk-padding-large">
 
 
-                        <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                        <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
                             <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                             <div class="container">
                                 <div class="row">
@@ -650,7 +650,7 @@
                     <div class="uk-padding-large">
 
 
-                        <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                        <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
                             <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                             <div class="container">
                                 <div class="row">
@@ -727,7 +727,7 @@
                     <div class="uk-padding-large">
 
 
-                        <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
+                        <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-claim-form">
                             <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                             <div class="container">
                                 <div class="row">
