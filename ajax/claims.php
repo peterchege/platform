@@ -300,7 +300,7 @@ switch ($_GET['request']) {
 
 
 
-                    // hospital discharge summary
+                    // medical report
                     $medical_report_file_name = $_FILES['medical_report']['name'];
                     $medical_report_file_tmp = $_FILES['medical_report']['tmp_name'];
                     $medical_report_file_size = $_FILES['medical_report']['size'];
@@ -310,7 +310,7 @@ switch ($_GET['request']) {
                     $medical_report_file_ext = end($medical_report_file_ext);
                     $medical_report_file_ext = strtolower($medical_report_file_ext);
 
-                    // invoice
+                    // payslip
                     $payslips_file_name = $_FILES['payslips']['name'];
                     $payslips_file_size = $_FILES['payslips']['size'];
                     $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
@@ -611,6 +611,7 @@ switch ($_GET['request']) {
             }
         }
         break;
+
     case 'life_group_claim':
         sleep(1);
         $response = array(
@@ -738,12 +739,206 @@ switch ($_GET['request']) {
                     echo json_encode($response);
                     break;
 
+                case 'claim_form_group_life_benefit':
+                    $life_claim_type = 'Group Life Benefit Claim';
+                    $claim_id = randomstring(10);
+                    // completed form
+                    $claim_form_group_life_benefit_file_name = $_FILES['claim_form_group_life_benefit']['name'];
+                    $claim_form_group_life_benefit_file_size = $_FILES['claim_form_group_life_benefit']['size'];
+                    $claim_form_group_life_benefit_file_tmp = $_FILES['claim_form_group_life_benefit']['tmp_name'];
+                    $claim_form_group_life_benefit_file_type = $_FILES['claim_form_group_life_benefit']['type'];
+
+                    $claim_form_group_life_benefit_file_ext = explode('.', $claim_form_group_life_benefit_file_name);
+                    $claim_form_group_life_benefit_file_ext = end($claim_form_group_life_benefit_file_ext);
+                    $claim_form_group_life_benefit_file_ext = strtolower($claim_form_group_life_benefit_file_ext);
+
+                    // national id
+                    $national_id_file_name = $_FILES['national_id']['name'];
+                    $national_id_file_size = $_FILES['national_id']['size'];
+                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                    $national_id_file_type = $_FILES['national_id']['type'];
+
+                    $national_id_file_ext = explode('.', $national_id_file_name);
+                    $national_id_file_ext = end($national_id_file_ext);
+                    $national_id_file_ext = strtolower($national_id_file_ext);
+
+
+
+                    // medical report
+                    $post_mortem_report_file_name = $_FILES['post_mortem_report']['name'];
+                    $post_mortem_report_file_tmp = $_FILES['post_mortem_report']['tmp_name'];
+                    $post_mortem_report_file_size = $_FILES['post_mortem_report']['size'];
+                    $post_mortem_report_file_type = $_FILES['post_mortem_report']['type'];
+
+                    $post_mortem_report_file_ext = explode('.', $post_mortem_report_file_name);
+                    $post_mortem_report_file_ext = end($post_mortem_report_file_ext);
+                    $post_mortem_report_file_ext = strtolower($post_mortem_report_file_ext);
+
+                    // payslip
+                    $payslips_file_name = $_FILES['payslips']['name'];
+                    $payslips_file_size = $_FILES['payslips']['size'];
+                    $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
+                    $payslips_file_type = $_FILES['payslips']['type'];
+
+                    $payslips_file_ext = explode('.', $payslips_file_name);
+                    $payslips_file_ext = end($payslips_file_ext);
+                    $payslips_file_ext = strtolower($payslips_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_group_life_benefit_file_ext, $extensions) === false ||
+                        in_array($national_id_file_ext, $extensions) === false ||
+                        in_array($post_mortem_report_file_ext, $extensions) === false ||
+                        in_array($payslips_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_group_life_benefit_file_size > 5242880 || $national_id_file_size > 5242880 || $post_mortem_report_file_size > 5242880 || $payslips_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_group_life_benefit_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_group_life_benefit_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national_id' . '----' . $national_id_file_name;
+                        $post_mortem_report_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
+                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+
+                        $claim_form_group_life_benefit_file_path =  "../documents/claims/" . $claim_form_group_life_benefit_file_name;
+                        $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
+                        $post_mortem_report_file_path =  "../documents/claims/" . $post_mortem_report_file_name;
+                        $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_group_life_benefit_file_tmp, $claim_form_group_life_benefit_file_path) &&
+                            move_uploaded_file($post_mortem_report_file_tmp, $post_mortem_report_file_path)  &&
+                            move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
+                            move_uploaded_file($payslips_file_tmp, $payslips_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`post_mortem_report`,`payslips`,`created_at`) 
+                                VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_group_life_benefit_file_name',' $national_id_file_name','$post_mortem_report_file_name','$payslips_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
                 default:
                     # code...
                     break;
 
-                case 'claim_form_group_life_benefit':
+                case 'claim_form_critical_illness':
+                    $life_claim_type = 'Group Critical Illness Claim';
+                    $claim_id = randomstring(10);
+                    // completed form
+                    $claim_form_critical_illness_file_name = $_FILES['claim_form_critical_illness']['name'];
+                    $claim_form_critical_illness_file_size = $_FILES['claim_form_critical_illness']['size'];
+                    $claim_form_critical_illness_file_tmp = $_FILES['claim_form_critical_illness']['tmp_name'];
+                    $claim_form_critical_illness_file_type = $_FILES['claim_form_critical_illness']['type'];
 
+                    $claim_form_critical_illness_file_ext = explode('.', $claim_form_critical_illness_file_name);
+                    $claim_form_critical_illness_file_ext = end($claim_form_critical_illness_file_ext);
+                    $claim_form_critical_illness_file_ext = strtolower($claim_form_critical_illness_file_ext);
+
+                    // national id
+                    $national_id_file_name = $_FILES['national_id']['name'];
+                    $national_id_file_size = $_FILES['national_id']['size'];
+                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                    $national_id_file_type = $_FILES['national_id']['type'];
+
+                    $national_id_file_ext = explode('.', $national_id_file_name);
+                    $national_id_file_ext = end($national_id_file_ext);
+                    $national_id_file_ext = strtolower($national_id_file_ext);
+
+
+
+                    // medical report
+                    $medical_report_file_name = $_FILES['medical_report']['name'];
+                    $medical_report_file_tmp = $_FILES['medical_report']['tmp_name'];
+                    $medical_report_file_size = $_FILES['medical_report']['size'];
+                    $medical_report_file_type = $_FILES['medical_report']['type'];
+
+                    $medical_report_file_ext = explode('.', $medical_report_file_name);
+                    $medical_report_file_ext = end($medical_report_file_ext);
+                    $medical_report_file_ext = strtolower($medical_report_file_ext);
+
+                    // payslip
+                    $payslips_file_name = $_FILES['payslips']['name'];
+                    $payslips_file_size = $_FILES['payslips']['size'];
+                    $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
+                    $payslips_file_type = $_FILES['payslips']['type'];
+
+                    $payslips_file_ext = explode('.', $payslips_file_name);
+                    $payslips_file_ext = end($payslips_file_ext);
+                    $payslips_file_ext = strtolower($payslips_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_critical_illness_file_ext, $extensions) === false ||
+                        in_array($national_id_file_ext, $extensions) === false ||
+                        in_array($medical_report_file_ext, $extensions) === false ||
+                        in_array($payslips_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_critical_illness_file_size > 5242880 || $national_id_file_size > 5242880 || $medical_report_file_size > 5242880 || $payslips_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_critical_illness_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national_id' . '----' . $national_id_file_name;
+                        $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
+                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+
+                        $claim_form_critical_illness_file_path =  "../documents/claims/" . $claim_form_critical_illness_file_name;
+                        $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
+                        $medical_report_file_path =  "../documents/claims/" . $medical_report_file_name;
+                        $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_critical_illness_file_tmp, $claim_form_critical_illness_file_path) &&
+                            move_uploaded_file($medical_report_file_tmp, $medical_report_file_path)  &&
+                            move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
+                            move_uploaded_file($payslips_file_tmp, $payslips_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`medical_report`,`payslips`,`created_at`) 
+                            VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
                     break;
             } //specify form case
         }
