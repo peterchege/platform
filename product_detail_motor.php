@@ -356,7 +356,7 @@
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
                     <a href="pdf/Jamii_Plus _Brochure.pdf">
-                        <h2> <i class="fas fa-file-pdf"></i> Browsure</h2>
+                        <h2> <i class="fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
