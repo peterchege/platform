@@ -741,7 +741,11 @@ switch ($_GET['request']) {
                 default:
                     # code...
                     break;
-            }
+
+                case 'claim_form_group_life_benefit':
+
+                    break;
+            } //specify form case
         }
     default:
         # code...l
