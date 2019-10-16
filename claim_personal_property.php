@@ -625,7 +625,9 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Claim Form completed <a href="#">(click here
+                                    <label for="resume">Attach document : Claim Form completed <a
+                                            href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM............ammended.pdf">(click
+                                            here
                                             to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
