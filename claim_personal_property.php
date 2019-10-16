@@ -62,7 +62,7 @@
     </div>
 
 
-    <!-- =================================== TYPES OF MOTOR CLAIM ===================================== -->
+    <!-- =================================== TYPES OF PROPERTY & INJURY CLAIM ===================================== -->
 
     <div class="container-fluid12">
         <div class="product22 product-new">
@@ -74,7 +74,7 @@
                 <div class="row row-product">
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="product-box we life-4">
+                        <div class="product-box we claim-property">
                             <a href="#modal-full1" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
@@ -91,7 +91,7 @@
 
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="product-box we img-group">
+                        <div class="product-box we claim-injury ">
                             <a href="#modal-full2" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
@@ -108,7 +108,7 @@
 
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="product-box we img-critical">
+                        <div class="product-box we claim-accident">
                             <a href="#modal-full3" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
@@ -128,7 +128,7 @@
                 <div class="row row-product">
 
                     <div class="col-md-4 wow fadeInUp " data-wow-delay="0.5s">
-                        <div class="product-box we img-hosi">
+                        <div class="product-box we claim-livestock">
                             <a href="#modal-full4" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
@@ -145,7 +145,7 @@
 
 
                     <div class="col-md-4  wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="product-box we img-ptd">
+                        <div class="product-box we claim-crop">
                             <a href="#modal-full5" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
@@ -248,8 +248,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/property_damage.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -368,9 +367,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/group_life_claim.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -458,7 +455,7 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover"
-                    style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
+                    style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -575,7 +572,7 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover"
-                    style="background-image: url('img/hospitilization.jpg'); background-size: cover;"
+                    style="background-image: url('img/cow_dead.jpg'); background-size: cover;"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
 
@@ -674,7 +671,7 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover"
-                    style="background-image: url('img/claim_life3.jpg'); background-size: cover;" uk-height-viewport>
+                    style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
