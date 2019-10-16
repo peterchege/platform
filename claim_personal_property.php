@@ -474,56 +474,48 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Medical Report </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Statements </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Payslip </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : National ID Card </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Sick Sheet (Optional)</label>
+                                <div class="form-group col-md-6">
+                                    <label for="resume">Attach document : Sick Sheet<br> (Optional)</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Medical Bill (Optional) </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Discharge Summary </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Police Abstract </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
@@ -549,7 +541,7 @@
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL ACCIDENT CLAIM FORM  ===================================== -->
+    <!-- ===================================== LIVESTOCK CLAIM FORM  ===================================== -->
 
     <div id="modal-full4" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -594,28 +586,28 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="resume">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
+                                    <label for="resume">Attach document : Post Moterm Report</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital Discharge summary</label>
+                                    <label for="resume">Attach document : Vet Certificate of loss </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Hospital invoice and receipts</label>
+                                    <label for="resume">Attach document : Photo of the dead cow </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -640,7 +632,7 @@
         </div>
     </div>
 
-    <!-- ===================================== PERMANENT TOTAL DISABILITY BENEFIT FORM  ===================================== -->
+    <!-- ===================================== CROP CLAIM FORM  ===================================== -->
 
     <div id="modal-full5" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
