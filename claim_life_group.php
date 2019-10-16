@@ -321,21 +321,21 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_last_expense">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="claim_form_last_expense">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="claim_form_last_expense" type="file" class="form-control-file" id="claim_form_last_expense" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="national_id">Attach document : National Identity Card</label>
+                                    <label for="national_id">Attach document : National Identity Card or Passport</label>
                                     <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="original_burial_permit">Attach document : Original Burial Permit</label>
+                                    <label for="original_burial_permit">Attach document : Scanned Copy of the Original Burial Permit</label>
                                     <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                 </div>
                             </div>
@@ -425,7 +425,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_group_life_benefit">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="claim_form_group_life_benefit">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="claim_form_group_life_benefit" type="file" class="form-control-file" id="claim_form_group_life_benefit" required>
                                 </div>
                             </div>
@@ -607,7 +607,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_hospital_cash">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="claim_form_hospital_cash">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
                                     <input name="claim_form_hospital_cash" type="file" class="form-control-file" id="claim_form_hospital_cash" required>
                                 </div>
                             </div>
@@ -757,7 +757,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -849,7 +849,6 @@
                                 </div>
                             </div>
 
-
                         </div>
 
                         <div style="display: none">
@@ -876,7 +875,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/credit_life.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -914,42 +913,33 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Death Certificate</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Burial Permit</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Copy of National ID Card</label>
+                                <div class="form-group col-md-6">
+                                    <label for="resume">Attach document : Copy of National ID Card or Passport</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Loan Application form and executed loan agreement</label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Loan repayment statement </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="resume">Attach document : Post morterm and police abstract if death is accidental </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
