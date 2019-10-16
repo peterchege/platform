@@ -383,18 +383,18 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=" 07xx 532 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
@@ -423,7 +423,7 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="value">Vehicle Value (Kshs)</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder=" 1,200,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
@@ -436,8 +436,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -465,18 +464,18 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
@@ -512,7 +511,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" value="" required>
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
                                 </div>
                             </div>
 
@@ -523,7 +522,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -549,18 +548,18 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 514 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <!-- <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
@@ -582,7 +581,7 @@ require_once 'inc/functions.php';
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="return_date">Return Date</label>
-                                        <input name="return_date" type="date" class="form-control" id="return_date" placeholder="Crown" value="" required>
+                                        <input name="return_date" type="date" class="form-control" id="return_date" placeholder="" value="" required>
                                     </div>
                                 </div>
 
@@ -601,7 +600,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -627,18 +626,18 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 453 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
@@ -680,7 +679,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -709,22 +708,22 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="" placeholder="John doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="">
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="nairobi" value="">
                                 </div>
                             </div>
                             <hr>
@@ -732,7 +731,7 @@ require_once 'inc/functions.php';
                                 <h3 for="inputAddress" class="comp-detail">ANIMAL DETAILS</h3>
                                 <div class=" form-group col-md-12">
                                     <label for="number">No of Animals</label>
-                                    <input name="number" type="text" class="form-control value" id="number" placeholder="" value="" required>
+                                    <input name="number" type="text" class="form-control value" id="number" placeholder="10" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Livestock</label>
@@ -740,13 +739,13 @@ require_once 'inc/functions.php';
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option value="Single Animal Cover">Single Animal Cover</option>
                                         <option value="Poultry insurance">Poultry insurance</option>
-                                        <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option>
+                                        <!-- <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option> -->
                                         <option value="Bloodstock/Horse Insurance">Bloodstock/Horse Insurance</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="value">Value of animals</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="700,000" value="" required>
                                 </div>
                             </div>
 
@@ -758,7 +757,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -846,7 +845,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">SUBMIT</button>
+                                    <button class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
                                 </div>
                             </div>
                         </div>
