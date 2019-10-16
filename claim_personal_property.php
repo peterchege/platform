@@ -242,208 +242,13 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== LAST EXPENSE CLAIM FORM  ===================================== -->
+    <!-- ===================================== PROPERTY DAMAGE CLAIM FORM  ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
-                <div class="uk-padding-large">
-
-
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
-                        </div>
-
-                        <div class="container">
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity Card</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Original Burial Permit</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
-                                    CLAIM
-                                </button>
-                            </div>
-                        </div>
-                </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- ===================================== LAST EXPENSE CLAIM REMARKS ===================================== -->
-
-    <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body">
-            <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <p class="uk-modal-title">
-                <div class="alert alert-success" role="alert">
-                    Sucessfull submited
-                </div>
-            </p>
-            <p>Thank you for providing us with details of your claim. One of our agents will contact you
-                shortly to guide you through the next process.
-                <br><br>
-                For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000.
-                Or send and email to claims@apalife.co.ke
-            </p>
-        </div>
-    </div>
-
-    <!-- ===================================== GROUP LIFE BENEFIT FORM ===================================== -->
-
-    <div id="modal-full2" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/group_life_claim.jpg'); background-size: cover;" uk-height-viewport></div>
-                <div class="uk-padding-large">
-
-
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
-                        </div>
-
-                        <div class="container">
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : LE Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : National Identity or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Copy of 2 Last Months</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Police Report & Post morterm in case of death in accidental</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
-                                    CLAIM
-                                </button>
-                            </div>
-                        </div>
-                </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- ===================================== CRITICAL ILLNESS CLAIM FORM ===================================== -->
-
-    <div id="modal-full3" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -489,21 +294,21 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : All medical reports relevant to the claim</label>
+                                    <label for="resume">Attach document : Police Abstract </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : pay slips for the least 2 months</label>
+                                    <label for="resume">Attach document : Proforma Invoice </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Copy of national ID card or valid passport </label>
+                                    <label for="resume">Attach document : Detailed Statement </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
                             </div>
@@ -528,7 +333,223 @@
         </div>
     </div>
 
-    <!-- ===================================== HOSPITAL CASH CLAIM FORM  ===================================== -->
+    <!-- ===================================== PROPERTY CLAIM REMARKS ===================================== -->
+
+    <!-- This is the modal with the outside close button -->
+    <div id="modal-close-outside" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <p class="uk-modal-title">
+                <div class="alert alert-success" role="alert">
+                    Sucessfull submited
+                </div>
+            </p>
+            <p>Thank you for providing us with details of your claim. One of our agents will contact you
+                shortly to guide you through the next process.
+                <br><br>
+                For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000.
+                Or send and email to claims.motor@apainsurance.org
+            </p>
+        </div>
+    </div>
+
+    <!-- ===================================== INJURIES: WIBA FORM ===================================== -->
+
+    <div id="modal-full2" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/group_life_claim.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : DOSH I & II Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : DOSH IV </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== PERSONAL ACCIDENT CLAIM FORM ===================================== -->
+
+    <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
+                        </div>
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Medical Report </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Statements </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Payslip </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : National ID Card </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Sick Sheet (Optional)</label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Medical Bill (Optional) </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Discharge Summary </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="resume">Attach document : Police Abstract </label>
+                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                    CLAIM
+                                </button>
+                            </div>
+                        </div>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== PERSONAL ACCIDENT CLAIM FORM  ===================================== -->
 
     <div id="modal-full4" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
