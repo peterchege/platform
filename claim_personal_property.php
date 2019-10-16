@@ -414,7 +414,10 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="resume">Attach document : DOSH I & II Claim Form completed <a
-                                            href="PROPERTY LOSS CLAIM FORM.pdf">(click here to download a claim
+                                            href="pdf/claim/APA WIBA CLAIM FORM.pdf" target="_blank">(click here to
+                                            download
+                                            a
+                                            claim
                                             form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
