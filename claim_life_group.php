@@ -907,30 +907,30 @@
                                     <input name="credit_death_certificate" type="file" class="form-control-file" id="credit_death_certificate" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Burial Permit</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="burial_permit">Attach document : Burial Permit</label>
+                                    <input name="burial_permit" type="file" class="form-control-file" id="burial_permit" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Copy of National ID Card or Passport</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : Copy of National ID Card or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Loan Application form and executed loan agreement</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="loan_application_and_agreement">Attach document : Loan Application form and executed loan agreement</label>
+                                    <input name="loan_application_and_agreement" type="file" class="form-control-file" id="loan_application_and_agreement" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Loan repayment statement </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="loan_repayment">Attach document : Loan repayment statement </label>
+                                    <input name="loan_repayment" type="file" class="form-control-file" id="loan_repayment" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Post morterm and police abstract if death is accidental </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="police_abstract">Attach document : Post morterm and police abstract if death is accidental </label>
+                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
 
@@ -942,7 +942,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
+                                <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>

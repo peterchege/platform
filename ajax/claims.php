@@ -650,6 +650,8 @@ switch ($_GET['request']) {
                 $form = 'notification_letter_permanent_total_disability';
             } elseif (isset($_FILES['dosh_one_two'])) {
                 $form = 'dosh_one_two';
+            } elseif (isset($_FILES['credit_death_certificate'])) {
+                $form = 'credit_death_certificate';
             } else {
                 $form = 'invalid selection';
             }
@@ -1308,7 +1310,7 @@ switch ($_GET['request']) {
                 case 'credit_death_certificate':
                     $life_claim_type = 'Group Credit Life';
                     $claim_id = randomstring(10);
-                    // dosh one two form
+                    // death certificate file input
                     $credit_death_certificate_file_name = $_FILES['credit_death_certificate']['name'];
                     $credit_death_certificate_file_size = $_FILES['credit_death_certificate']['size'];
                     $credit_death_certificate_file_tmp = $_FILES['credit_death_certificate']['tmp_name'];
@@ -1319,14 +1321,14 @@ switch ($_GET['request']) {
                     $credit_death_certificate_file_ext = strtolower($credit_death_certificate_file_ext);
 
                     // dosh four form
-                    $dosh_four_file_name = $_FILES['dosh_four']['name'];
-                    $dosh_four_file_size = $_FILES['dosh_four']['size'];
-                    $dosh_four_file_tmp = $_FILES['dosh_four']['tmp_name'];
-                    $dosh_four_file_type = $_FILES['dosh_four']['type'];
+                    $burial_permit_file_name = $_FILES['burial_permit']['name'];
+                    $burial_permit_file_size = $_FILES['burial_permit']['size'];
+                    $burial_permit_file_tmp = $_FILES['burial_permit']['tmp_name'];
+                    $burial_permit_file_type = $_FILES['burial_permit']['type'];
 
-                    $dosh_four_file_ext = explode('.', $dosh_four_file_name);
-                    $dosh_four_file_ext = end($dosh_four_file_ext);
-                    $dosh_four_file_ext = strtolower($dosh_four_file_ext);
+                    $burial_permit_file_ext = explode('.', $burial_permit_file_name);
+                    $burial_permit_file_ext = end($burial_permit_file_ext);
+                    $burial_permit_file_ext = strtolower($burial_permit_file_ext);
 
                     // national id
                     $national_id_file_name = $_FILES['national_id']['name'];
@@ -1340,25 +1342,25 @@ switch ($_GET['request']) {
 
 
 
-                    // medical report
-                    $medical_bill_file_name = $_FILES['medical_bill']['name'];
-                    $medical_bill_file_tmp = $_FILES['medical_bill']['tmp_name'];
-                    $medical_bill_file_size = $_FILES['medical_bill']['size'];
-                    $medical_bill_file_type = $_FILES['medical_bill']['type'];
+                    // loan application form and agreement
+                    $loan_application_and_agreement_file_name = $_FILES['loan_application_and_agreement']['name'];
+                    $loan_application_and_agreement_file_tmp = $_FILES['loan_application_and_agreement']['tmp_name'];
+                    $loan_application_and_agreement_file_size = $_FILES['loan_application_and_agreement']['size'];
+                    $loan_application_and_agreement_file_type = $_FILES['loan_application_and_agreement']['type'];
 
-                    $medical_bill_file_ext = explode('.', $medical_bill_file_name);
-                    $medical_bill_file_ext = end($medical_bill_file_ext);
-                    $medical_bill_file_ext = strtolower($medical_bill_file_ext);
+                    $loan_application_and_agreement_file_ext = explode('.', $loan_application_and_agreement_file_name);
+                    $loan_application_and_agreement_file_ext = end($loan_application_and_agreement_file_ext);
+                    $loan_application_and_agreement_file_ext = strtolower($loan_application_and_agreement_file_ext);
 
-                    // payslip
-                    $payslips_file_name = $_FILES['payslips']['name'];
-                    $payslips_file_size = $_FILES['payslips']['size'];
-                    $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
-                    $payslips_file_type = $_FILES['payslips']['type'];
+                    // loan repayment statement
+                    $loan_repayment_file_name = $_FILES['loan_repayment']['name'];
+                    $loan_repayment_file_size = $_FILES['loan_repayment']['size'];
+                    $loan_repayment_file_tmp = $_FILES['loan_repayment']['tmp_name'];
+                    $loan_repayment_file_type = $_FILES['loan_repayment']['type'];
 
-                    $payslips_file_ext = explode('.', $payslips_file_name);
-                    $payslips_file_ext = end($payslips_file_ext);
-                    $payslips_file_ext = strtolower($payslips_file_ext);
+                    $loan_repayment_file_ext = explode('.', $loan_repayment_file_name);
+                    $loan_repayment_file_ext = end($loan_repayment_file_ext);
+                    $loan_repayment_file_ext = strtolower($loan_repayment_file_ext);
 
                     // police abstract
                     $police_abstract_file_name = $_FILES['police_abstract']['name'];
@@ -1370,81 +1372,53 @@ switch ($_GET['request']) {
                     $police_abstract_file_ext = end($police_abstract_file_ext);
                     $police_abstract_file_ext = strtolower($police_abstract_file_ext);
 
-                    // sick off sheets
-                    $sick_off_sheets_file_name = $_FILES['sick_off_sheets']['name'];
-                    $sick_off_sheets_file_size = $_FILES['sick_off_sheets']['size'];
-                    $sick_off_sheets_file_tmp = $_FILES['sick_off_sheets']['tmp_name'];
-                    $sick_off_sheets_file_type = $_FILES['sick_off_sheets']['type'];
-
-                    $sick_off_sheets_file_ext = explode('.', $sick_off_sheets_file_name);
-                    $sick_off_sheets_file_ext = end($sick_off_sheets_file_ext);
-                    $sick_off_sheets_file_ext = strtolower($sick_off_sheets_file_ext);
-
-                    // witness statement
-                    $witness_statement_file_name = $_FILES['witness_statement']['name'];
-                    $witness_statement_file_size = $_FILES['witness_statement']['size'];
-                    $witness_statement_file_tmp = $_FILES['witness_statement']['tmp_name'];
-                    $witness_statement_file_type = $_FILES['witness_statement']['type'];
-
-                    $witness_statement_file_ext = explode('.', $witness_statement_file_name);
-                    $witness_statement_file_ext = end($witness_statement_file_ext);
-                    $witness_statement_file_ext = strtolower($witness_statement_file_ext);
-
-
-
 
                     $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
 
                     if (
                         in_array($credit_death_certificate_file_ext, $extensions) === false ||
                         in_array($national_id_file_ext, $extensions) === false ||
-                        in_array($dosh_four_file_ext, $extensions) === false ||
-                        in_array($medical_bill_file_ext, $extensions) === false ||
-                        in_array($payslips_file_ext, $extensions) === false ||
-                        in_array($police_abstract_file_ext, $extensions) === false ||
-                        in_array($sick_off_sheets_file_ext, $extensions) === false ||
-                        in_array($witness_statement_file_ext, $extensions) === false
+                        in_array($burial_permit_file_ext, $extensions) === false ||
+                        in_array($loan_application_and_agreement_file_ext, $extensions) === false ||
+                        in_array($loan_repayment_file_ext, $extensions) === false ||
+                        in_array($police_abstract_file_ext, $extensions) === false
                     ) {
                         $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
-                    if ($credit_death_certificate_file_size > 5242880 || $dosh_four_file_size > 5242880 || $national_id_file_size > 5242880 || $medical_bill_file_size > 5242880 || $payslips_file_size > 5242880 || $police_abstract_file_size > 5242880 || $sick_off_sheets_file_size > 5242880 || $witness_statement_file_size > 5242880) {
+                    if ($credit_death_certificate_file_size > 5242880 || $burial_permit_file_size > 5242880 || $national_id_file_size > 5242880 || $loan_application_and_agreement_file_size > 5242880 || $loan_repayment_file_size > 5242880 || $police_abstract_file_size > 5242880) {
                         $response['message'] = "Files should be less than 5MB each!";
                         $errors[] = 0;
                     }
 
                     if (empty($errors) == true) {
                         $credit_death_certificate_file_name = $email . '-----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $credit_death_certificate_file_name;
-                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $dosh_four_file_name;
+                        $burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $burial_permit_file_name;
                         $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $loan_application_and_agreement_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $loan_application_and_agreement_file_name;
+                        $loan_repayment_file_name = $email . '-----' . $claim_id . '----' . 'loan_repayment' . '----' . $loan_repayment_file_name;
                         $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-                        $sick_off_sheets_file_name = $email . '-----' . $claim_id . '----' . 'sick off sheets' . '----' . $sick_off_sheets_file_name;
-                        $witness_statement_file_name = $email . '-----' . $claim_id . '----' . 'witness statement' . '----' . $witness_statement_file_name;
 
                         $credit_death_certificate_file_path =  "../documents/claims/" . $credit_death_certificate_file_name;
-                        $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
+                        $burial_permit_file_path =  "../documents/claims/" . $burial_permit_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
-                        $medical_bill_file_path =  "../documents/claims/" . $medical_bill_file_name;
-                        $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
+                        $loan_application_and_agreement_file_path =  "../documents/claims/" . $loan_application_and_agreement_file_name;
+                        $loan_repayment_file_path =  "../documents/claims/" . $loan_repayment_file_name;
                         $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
-                        $sick_off_sheets_file_path =  "../documents/claims/" . $sick_off_sheets_file_name;
-                        $witness_statement_file_path =  "../documents/claims/" . $witness_statement_file_name;
 
                         if (
                             move_uploaded_file($credit_death_certificate_file_tmp, $credit_death_certificate_file_path) &&
-                            move_uploaded_file($dosh_four_file_tmp, $dosh_four_file_path) &&
-                            move_uploaded_file($medical_bill_file_tmp, $medical_bill_file_path)  &&
+                            move_uploaded_file($burial_permit_file_tmp, $burial_permit_file_path) &&
+                            move_uploaded_file($loan_application_and_agreement_file_tmp, $loan_application_and_agreement_file_path)  &&
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
-                            move_uploaded_file($payslips_file_tmp, $payslips_file_path) &&
-                            move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path) &&
-                            move_uploaded_file($sick_off_sheets_file_tmp, $sick_off_sheets_file_path) &&
-                            move_uploaded_file($witness_statement_file_tmp, $witness_statement_file_path)
+                            move_uploaded_file($loan_repayment_file_tmp, $loan_repayment_file_path) &&
+                            move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
+
+
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`credit_death_certificate`,`dosh_four`,`national_id_passport`,`medical_bill`,`payslips`,`police_abstract`,`sick_off_sheets`,`witness_statement`,`created_at`) 
-                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$credit_death_certificate_file_name','$dosh_four_file_name',' $national_id_file_name','$medical_bill_file_name','$payslips_file_name','$police_abstract_file_name','$sick_off_sheets_file_name','$witness_statement_file_name','$created_at')  ");
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`death_certificate`,`original_burial_permit`,`national_id_passport`,`loan_application_and_agreement`,`loan_repayment`,`police_abstract`,`created_at`) 
+                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$credit_death_certificate_file_name','$burial_permit_file_name',' $national_id_file_name','$loan_application_and_agreement_file_name','$loan_repayment_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
                             } else {
