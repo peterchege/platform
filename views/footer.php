@@ -11,19 +11,20 @@
                         <li><i class="ion-ios-arrow-right"></i> <a href="companies.php">Companies</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="financial_report.php">Financial Reports</a>
                         </li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="eadership.php">Leadership</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Management</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="leadership.php">Leadership</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="management.php">Management</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Careers</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">CSR</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Media Centre </a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Trail Blazers</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#"> Contact Us</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="career.php">Careers</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.phpc">CSR</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_details.php">Media Centre </a>
+                        </li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="trailblazer.php">Trail Blazers</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="contact_us.php"> Contact Us</a></li>
 
                     </ul>
                 </div>
