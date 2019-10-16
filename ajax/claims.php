@@ -157,7 +157,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_hospital_cash_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $hospital_discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
                         $invoice_file_name = $email . '-----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
 
@@ -246,7 +246,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_last_expense_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
 
                         $claim_form_last_expense_file_path =  "../documents/claims/" . $claim_form_last_expense_file_name;
@@ -342,7 +342,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_critical_illness_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
                         $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
@@ -451,7 +451,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_death_claim_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_death_claim_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'original burial permit' . '----' . $original_burial_permit_file_name;
                         $policy_document_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_file_name;
                         $post_mortem_report_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
@@ -710,7 +710,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_last_expense_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
 
                         $claim_form_last_expense_file_path =  "../documents/claims/" . $claim_form_last_expense_file_name;
@@ -806,7 +806,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_group_life_benefit_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_group_life_benefit_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $post_mortem_report_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
                         $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
@@ -909,7 +909,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_critical_illness_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
                         $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
@@ -1009,7 +1009,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $claim_form_hospital_cash_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $hospital_discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
                         $invoice_file_name = $email . '-----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
 
@@ -1086,7 +1086,7 @@ switch ($_GET['request']) {
                     $payslips_file_ext = end($payslips_file_ext);
                     $payslips_file_ext = strtolower($payslips_file_ext);
 
-                    // payslip
+                    // police abstract
                     $police_abstract_file_name = $_FILES['police_abstract']['name'];
                     $police_abstract_file_size = $_FILES['police_abstract']['size'];
                     $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
@@ -1119,7 +1119,7 @@ switch ($_GET['request']) {
 
                     if (empty($errors) == true) {
                         $notification_letter_permanent_total_disability_file_name = $email . '-----' . $claim_id . '----' . 'notification letter' . '----' . $notification_letter_permanent_total_disability_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical examination report' . '----' . $medical_report_file_name;
                         $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
                         $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
@@ -1207,7 +1207,7 @@ switch ($_GET['request']) {
                     $payslips_file_ext = end($payslips_file_ext);
                     $payslips_file_ext = strtolower($payslips_file_ext);
 
-                    // payslip
+                    // police abstract
                     $police_abstract_file_name = $_FILES['police_abstract']['name'];
                     $police_abstract_file_size = $_FILES['police_abstract']['size'];
                     $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
@@ -1250,7 +1250,7 @@ switch ($_GET['request']) {
                         in_array($payslips_file_ext, $extensions) === false ||
                         in_array($police_abstract_file_ext, $extensions) === false ||
                         in_array($sick_off_sheets_file_ext, $extensions) === false ||
-                        in_array($witness_statement_file_ext, $extensions)
+                        in_array($witness_statement_file_ext, $extensions) === false
                     ) {
                         $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
@@ -1264,12 +1264,12 @@ switch ($_GET['request']) {
                     if (empty($errors) == true) {
                         $dosh_one_two_file_name = $email . '-----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $dosh_one_two_file_name;
                         $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $dosh_four_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id/passport' . '----' . $national_id_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
                         $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
                         $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
                         $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-                        $sick_off_sheets_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $sick_off_sheets_file_name;
-                        $witness_statement_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $witness_statement_file_name;
+                        $sick_off_sheets_file_name = $email . '-----' . $claim_id . '----' . 'sick off sheets' . '----' . $sick_off_sheets_file_name;
+                        $witness_statement_file_name = $email . '-----' . $claim_id . '----' . 'witness statement' . '----' . $witness_statement_file_name;
 
                         $dosh_one_two_file_path =  "../documents/claims/" . $dosh_one_two_file_name;
                         $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
