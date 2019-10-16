@@ -367,13 +367,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-<<<<<<< HEAD
                 <div class="uk-background-cover" style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
-=======
-                <div class="uk-background-cover"
-                    style="background-image: url('img/group_life_claim.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
->>>>>>> 8ede0a8fa13810ae7399797bfd0cca3b6d33287b
                 <div class="uk-padding-large">
 
 
@@ -417,7 +411,10 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="resume">Attach document : DOSH I & II Claim Form completed <a
-                                            href="PROPERTY LOSS CLAIM FORM.pdf">(click here to download a claim
+                                            href="pdf/claim/APA WIBA CLAIM FORM.pdf" target="_blank">(click here to
+                                            download
+                                            a
+                                            claim
                                             form)</a></label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
@@ -457,12 +454,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-<<<<<<< HEAD
-                <div class="uk-background-cover" style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
-=======
                 <div class="uk-background-cover"
-                    style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
->>>>>>> 8ede0a8fa13810ae7399797bfd0cca3b6d33287b
+                    style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -578,13 +571,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-<<<<<<< HEAD
-                <div class="uk-background-cover" style="background-image: url('img/cow_dead.jpg'); background-size: cover;" uk-height-viewport></div>
-=======
                 <div class="uk-background-cover"
-                    style="background-image: url('img/hospitilization.jpg'); background-size: cover;"
+                    style="background-image: url('img/cow_dead.jpg'); background-size: cover;"
                     uk-height-viewport></div>
->>>>>>> 8ede0a8fa13810ae7399797bfd0cca3b6d33287b
                 <div class="uk-padding-large">
 
 
@@ -681,13 +670,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-<<<<<<< HEAD
-                <div class="uk-background-cover" style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport></div>
-=======
                 <div class="uk-background-cover"
-                    style="background-image: url('img/claim_life3.jpg'); background-size: cover;" uk-height-viewport>
+                    style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
->>>>>>> 8ede0a8fa13810ae7399797bfd0cca3b6d33287b
                 <div class="uk-padding-large">
 
 
