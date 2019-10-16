@@ -248,7 +248,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/property_damage.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/property_damage.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -367,7 +369,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -455,13 +459,14 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover"
-                    style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
+                    style="background-image: url('img/personal_accident.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
                     <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
@@ -494,11 +499,16 @@
                             <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
 
-                        <div class="container">
+                        <div class="container-fluid">
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Medical Report </label>
+                                    <label for="resume">Attach document : Medical Report <a
+                                            href="pdf/claim/GPA CLAIM FORM.pdf" target="_blank">(click here to
+                                            download
+                                            a
+                                            claim
+                                            form)</a> </label>
                                     <input name="resume" type="file" class="form-control-file" id="resume" required>
                                 </div>
 
@@ -572,8 +582,7 @@
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
                 <div class="uk-background-cover"
-                    style="background-image: url('img/cow_dead.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
+                    style="background-image: url('img/cow_dead.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
