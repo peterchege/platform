@@ -20,8 +20,8 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="career.php">Careers</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.phpc">CSR</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_details.php">Media Centre </a>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.php">CSR</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_video.php">Media Centre </a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="trailblazer.php">Trail Blazers</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="contact_us.php"> Contact Us</a></li>
@@ -33,16 +33,18 @@
                     <h4>PORTALS</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Life Cleint Portal</a>
+                        https://portal.apainsurance.org/TurnQuestClient/" target="_target">Life Cleint Portal</a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Intermediary Portal</a>
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">APAI Intermediary
+                                Portal</a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Pumzisha</a></li>
+                        https://portal.apainsurance.org/TurnQuestAgent/" target="_target">APAL Intermediary
+                                Porta</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Group Pension</a></li>
 
