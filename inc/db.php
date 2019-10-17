@@ -9,7 +9,7 @@ if ($_SERVER['DOCUMENT_ROOT'] == '/var/www/html') {
 else if ($_SERVER['DOCUMENT_ROOT'] == '/home/vinehubc/public_html/test') {
 	$db = mysqli_connect('vinehub.co.ke', 'vinehubc_apa_admin', 'vinehubc_apa_admin', 'vinehubc_apa');
 } else if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
-	$db = mysqli_connect('localhost', 'root', 'root', 'apa');
+	$db = mysqli_connect('localhost', 'root', '', 'apa');
 }
 //End of Other connections 
 else {
