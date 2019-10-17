@@ -1396,7 +1396,7 @@ switch ($_GET['request']) {
                         $credit_death_certificate_file_name = $email . '-----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $credit_death_certificate_file_name;
                         $burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $burial_permit_file_name;
                         $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $loan_application_and_agreement_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $loan_application_and_agreement_file_name;
+                        $loan_application_and_agreement_file_name = $email . '-----' . $claim_id . '----' . 'loan application and agreement' . '----' . $loan_application_and_agreement_file_name;
                         $loan_repayment_file_name = $email . '-----' . $claim_id . '----' . 'loan_repayment' . '----' . $loan_repayment_file_name;
                         $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
 
@@ -1615,8 +1615,8 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $dosh_one_two_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $dosh_one_two_property_damage_file_name;
-                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $dosh_four_file_name;
+                        $dosh_one_two_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'dosh one and two completed form' . '----' . $dosh_one_two_property_damage_file_name;
+                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'dosh four' . '----' . $dosh_four_file_name;
 
                         $dosh_one_two_property_damage_file_path =  "../documents/claims/" . $dosh_one_two_property_damage_file_name;
                         $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
