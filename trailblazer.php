@@ -72,7 +72,7 @@
                             Insurance Payouts for Livestock Herders Facing Historic Drought
                         </p>
                         <br>
-                        <a href="digital/samples/december_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/april_2017">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             the insurance industry's top qualification
                         </p>
                         <br>
-                        <a href="digital/samples/december_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/dec_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
 
                     </div>
@@ -105,7 +105,7 @@
                             Card Foundation fund for rural prosperity in Kenya
                         </p>
                         <br>
-                        <a href="digital/samples/december_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/july_dec">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
