@@ -1656,46 +1656,32 @@ switch ($_GET['request']) {
                     $claim_form_crop_file_ext = end($claim_form_crop_file_ext);
                     $claim_form_crop_file_ext = strtolower($claim_form_crop_file_ext);
 
-                    // police abstract
-                    $dosh_four_file_name = $_FILES['dosh_four']['name'];
-                    $dosh_four_file_size = $_FILES['dosh_four']['size'];
-                    $dosh_four_file_tmp = $_FILES['dosh_four']['tmp_name'];
-                    $dosh_four_file_type = $_FILES['dosh_four']['type'];
-
-                    $dosh_four_file_ext = explode('.', $dosh_four_file_name);
-                    $dosh_four_file_ext = end($dosh_four_file_ext);
-                    $dosh_four_file_ext = strtolower($dosh_four_file_ext);
-
                     $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
 
                     if (
-                        in_array($claim_form_crop_file_ext, $extensions) === false ||
-                        in_array($dosh_four_file_ext, $extensions) === false
+                        in_array($claim_form_crop_file_ext, $extensions) === false
                     ) {
                         $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
                         $errors[] = 0;
                     }
 
-                    if ($claim_form_crop_file_size > 5242880 || $dosh_four_file_size > 5242880) {
+                    if ($claim_form_crop_file_size > 5242880) {
                         $response['message'] = "Files should be less than 5MB each!";
                         $errors[] = 0;
                     }
 
                     if (empty($errors) == true) {
                         $claim_form_crop_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_crop_file_name;
-                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $dosh_four_file_name;
 
                         $claim_form_crop_file_path =  "../documents/claims/" . $claim_form_crop_file_name;
-                        $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
 
 
 
                         if (
-                            move_uploaded_file($claim_form_crop_file_tmp, $claim_form_crop_file_path) &&
-                            move_uploaded_file($dosh_four_file_tmp, $dosh_four_file_path)
+                            move_uploaded_file($claim_form_crop_file_tmp, $claim_form_crop_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`dosh_four`,`created_at`) 
-                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name',' $dosh_four_file_name','$created_at')  ");
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
                             } else {
