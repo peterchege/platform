@@ -174,7 +174,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($invoice_file_tmp, $invoice_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -260,7 +260,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($original_burial_permit_file_tmp, $original_burial_permit_file_path)  &&
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`original_burial_permit`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`original_burial_permit`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -359,7 +359,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($payslips_file_tmp, $payslips_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`medical_report`,`payslips`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`medical_report`,`payslips`,`created_at`) 
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -471,7 +471,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($policy_document_file_tmp, $policy_document_file_path) &&
                             move_uploaded_file($post_mortem_report_file_tmp, $post_mortem_report_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`policy_document`,`post_mortem_report`,`original_burial_permit`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`policy_document`,`post_mortem_report`,`original_burial_permit`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_death_claim_file_name',' $national_id_file_name','$policy_document_file_name','$post_mortem_report_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -538,7 +538,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($policy_document_maturity_file_tmp, $policy_document_maturity_file_path) &&
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`policy_document`,`national_id_passport`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`policy_document`,`national_id_passport`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name',' $national_id_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -589,7 +589,7 @@ switch ($_GET['request']) {
                         $policy_document_maturity_file_path =  "../documents/claims/" . $policy_document_maturity_file_name;
 
                         if (move_uploaded_file($policy_document_maturity_file_tmp, $policy_document_maturity_file_path)) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`policy_document`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`policy_document`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -726,7 +726,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($original_burial_permit_file_tmp, $original_burial_permit_file_path)  &&
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`original_burial_permit`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`original_burial_permit`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -825,7 +825,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($payslips_file_tmp, $payslips_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`post_mortem_report`,`payslips`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`post_mortem_report`,`payslips`,`created_at`) 
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_group_life_benefit_file_name',' $national_id_file_name','$post_mortem_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -928,7 +928,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($payslips_file_tmp, $payslips_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`medical_report`,`payslips`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`medical_report`,`payslips`,`created_at`) 
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1028,7 +1028,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($national_id_file_tmp, $national_id_file_path)  &&
                             move_uploaded_file($invoice_file_tmp, $invoice_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`completed_form`,`national_id_passport`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`national_id_passport`,`hospital_dishcharge_summary`,`hospital_invoice_receipt`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1139,7 +1139,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($payslips_file_tmp, $payslips_file_path) &&
                             move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`notification_letter`,`national_id_passport`,`medical_report`,`payslips`,`police_abstract`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`notification_letter`,`national_id_passport`,`medical_report`,`payslips`,`police_abstract`,`created_at`) 
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$notification_letter_permanent_total_disability_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1292,7 +1292,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($sick_off_sheets_file_tmp, $sick_off_sheets_file_path) &&
                             move_uploaded_file($witness_statement_file_tmp, $witness_statement_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`dosh_one_two`,`dosh_four`,`national_id_passport`,`medical_bill`,`payslips`,`police_abstract`,`sick_off_sheets`,`witness_statement`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`dosh_one_two`,`dosh_four`,`national_id_passport`,`medical_bill`,`payslips`,`police_abstract`,`sick_off_sheets`,`witness_statement`,`created_at`) 
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$dosh_one_two_file_name','$dosh_four_file_name',' $national_id_file_name','$medical_bill_file_name','$payslips_file_name','$police_abstract_file_name','$sick_off_sheets_file_name','$witness_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1417,7 +1417,7 @@ switch ($_GET['request']) {
 
 
                         ) {
-                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`life_claim_type`,`death_certificate`,`original_burial_permit`,`national_id_passport`,`loan_application_and_agreement`,`loan_repayment`,`police_abstract`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_life(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`death_certificate`,`original_burial_permit`,`national_id_passport`,`loan_application_and_agreement`,`loan_repayment`,`police_abstract`,`created_at`) 
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$credit_death_certificate_file_name','$burial_permit_file_name',' $national_id_file_name','$loan_application_and_agreement_file_name','$loan_repayment_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1433,6 +1433,380 @@ switch ($_GET['request']) {
                     break;
             } //specify form case
         }
+
+    case 'life_personal_property_claim':
+        sleep(1);
+        $response = array(
+            'status' => 0,
+            'message' => 'Form submission failed, please try again.'
+        );
+        if (!isset($_POST['full_name']) || empty($_POST['full_name'] ||
+            !isset($_POST['phone']) || empty($_POST['phone']) ||
+            !isset($_POST['email']) || empty($_POST['email']) ||
+            !isset($_POST['location']) || empty($_POST['location']) ||
+            !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
+            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            !isset($_POST['motor_claim_type']))) {
+            $response['message'] = 'Please enter all required fields.';
+        } else {
+            $created_at = date('Y-m-d H:i:s');
+            $product_id = filter_var(mysqli_real_escape_string($db, $_POST['product_id']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+            $product_category_id = sanitize($_POST['product_category_id']);
+            $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+            $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
+            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+
+            if (isset($_FILES['claim_form_property_damage'])) {
+                $form =  'claim_form_property_damage';
+            } elseif (isset($_FILES['dosh_one_two_property_damage'])) {
+                $form = 'dosh_one_two_property_damage';
+            } elseif (isset($_FILES['completed_medical_report'])) {
+                $form = 'completed_medical_report';
+            } elseif (isset($_FILES['claim_form_livestock'])) {
+                $form = 'claim_form_livestock';
+            } elseif (isset($_FILES['claim_form_crop'])) {
+                $form = 'claim_form_crop';
+            } else {
+                $form = 'invalid selection';
+            }
+
+            #switch starts here
+            switch ($form) {
+                case 'claim_form_property_damage':
+                    $personal_property_claim_type = 'Personal Property Damage';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $claim_form_property_damage_file_name = $_FILES['claim_form_property_damage']['name'];
+                    $claim_form_property_damage_file_size = $_FILES['claim_form_property_damage']['size'];
+                    $claim_form_property_damage_file_tmp = $_FILES['claim_form_property_damage']['tmp_name'];
+                    $claim_form_property_damage_file_type = $_FILES['claim_form_property_damage']['type'];
+
+                    $claim_form_property_damage_file_ext = explode('.', $claim_form_property_damage_file_name);
+                    $claim_form_property_damage_file_ext = end($claim_form_property_damage_file_ext);
+                    $claim_form_property_damage_file_ext = strtolower($claim_form_property_damage_file_ext);
+
+                    // police abstract
+                    $police_abstract_file_name = $_FILES['police_abstract']['name'];
+                    $police_abstract_file_size = $_FILES['police_abstract']['size'];
+                    $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
+                    $police_abstract_file_type = $_FILES['police_abstract']['type'];
+
+                    $police_abstract_file_ext = explode('.', $police_abstract_file_name);
+                    $police_abstract_file_ext = end($police_abstract_file_ext);
+                    $police_abstract_file_ext = strtolower($police_abstract_file_ext);
+
+
+
+                    // invoice
+                    $invoice_file_name = $_FILES['invoice']['name'];
+                    $invoice_file_tmp = $_FILES['invoice']['tmp_name'];
+                    $invoice_file_size = $_FILES['invoice']['size'];
+                    $invoice_file_type = $_FILES['invoice']['type'];
+
+                    $invoice_file_ext = explode('.', $invoice_file_name);
+                    $invoice_file_ext = end($invoice_file_ext);
+                    $invoice_file_ext = strtolower($invoice_file_ext);
+
+                    // detailed statement
+                    $detailed_statement_file_name = $_FILES['detailed_statement']['name'];
+                    $detailed_statement_file_size = $_FILES['detailed_statement']['size'];
+                    $detailed_statement_file_tmp = $_FILES['detailed_statement']['tmp_name'];
+                    $detailed_statement_file_type = $_FILES['detailed_statement']['type'];
+
+                    $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
+                    $detailed_statement_file_ext = end($detailed_statement_file_ext);
+                    $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_property_damage_file_ext, $extensions) === false ||
+                        in_array($police_abstract_file_ext, $extensions) === false ||
+                        in_array($invoice_file_ext, $extensions) === false ||
+                        in_array($detailed_statement_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_property_damage_file_size > 5242880 || $police_abstract_file_size > 5242880 || $invoice_file_size > 5242880 || $detailed_statement_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_property_damage_file_name;
+                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $invoice_file_name = $email . '-----' . $claim_id . '----' . 'proforma invoice' . '----' . $invoice_file_name;
+                        $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+
+                        $claim_form_property_damage_file_path =  "../documents/claims/" . $claim_form_property_damage_file_name;
+                        $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
+                        $invoice_file_path =  "../documents/claims/" . $invoice_file_name;
+                        $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_property_damage_file_tmp, $claim_form_property_damage_file_path) &&
+                            move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)  &&
+                            move_uploaded_file($invoice_file_tmp, $invoice_file_path) &&
+                            move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`police_abstract`,`invoice`,`detailed_statement`,`created_at`) 
+                                                VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_property_damage_file_name',' $police_abstract_file_name','$invoice_file_name','$detailed_statement_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
+                case 'dosh_one_two_property_damage':
+                    $personal_property_claim_type = 'Injuries - Wiba';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $dosh_one_two_property_damage_file_name = $_FILES['dosh_one_two_property_damage']['name'];
+                    $dosh_one_two_property_damage_file_size = $_FILES['dosh_one_two_property_damage']['size'];
+                    $dosh_one_two_property_damage_file_tmp = $_FILES['dosh_one_two_property_damage']['tmp_name'];
+                    $dosh_one_two_property_damage_file_type = $_FILES['dosh_one_two_property_damage']['type'];
+
+                    $dosh_one_two_property_damage_file_ext = explode('.', $dosh_one_two_property_damage_file_name);
+                    $dosh_one_two_property_damage_file_ext = end($dosh_one_two_property_damage_file_ext);
+                    $dosh_one_two_property_damage_file_ext = strtolower($dosh_one_two_property_damage_file_ext);
+
+                    // police abstract
+                    $dosh_four_file_name = $_FILES['dosh_four']['name'];
+                    $dosh_four_file_size = $_FILES['dosh_four']['size'];
+                    $dosh_four_file_tmp = $_FILES['dosh_four']['tmp_name'];
+                    $dosh_four_file_type = $_FILES['dosh_four']['type'];
+
+                    $dosh_four_file_ext = explode('.', $dosh_four_file_name);
+                    $dosh_four_file_ext = end($dosh_four_file_ext);
+                    $dosh_four_file_ext = strtolower($dosh_four_file_ext);
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($dosh_one_two_property_damage_file_ext, $extensions) === false ||
+                        in_array($dosh_four_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($dosh_one_two_property_damage_file_size > 5242880 || $dosh_four_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $dosh_one_two_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $dosh_one_two_property_damage_file_name;
+                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $dosh_four_file_name;
+
+                        $dosh_one_two_property_damage_file_path =  "../documents/claims/" . $dosh_one_two_property_damage_file_name;
+                        $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($dosh_one_two_property_damage_file_tmp, $dosh_one_two_property_damage_file_path) &&
+                            move_uploaded_file($dosh_four_file_tmp, $dosh_four_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`dosh_one_two`,`dosh_four`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$dosh_one_two_property_damage_file_name',' $dosh_four_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
+                case 'claim_form_crop':
+                    $personal_property_claim_type = 'Crop Claim';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $claim_form_crop_file_name = $_FILES['claim_form_crop']['name'];
+                    $claim_form_crop_file_size = $_FILES['claim_form_crop']['size'];
+                    $claim_form_crop_file_tmp = $_FILES['claim_form_crop']['tmp_name'];
+                    $claim_form_crop_file_type = $_FILES['claim_form_crop']['type'];
+
+                    $claim_form_crop_file_ext = explode('.', $claim_form_crop_file_name);
+                    $claim_form_crop_file_ext = end($claim_form_crop_file_ext);
+                    $claim_form_crop_file_ext = strtolower($claim_form_crop_file_ext);
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_crop_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_crop_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_crop_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_crop_file_name;
+
+                        $claim_form_crop_file_path =  "../documents/claims/" . $claim_form_crop_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_crop_file_tmp, $claim_form_crop_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
+                case 'claim_form_livestock':
+                    $personal_property_claim_type = 'Livestock Claim';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $claim_form_livestock_file_name = $_FILES['claim_form_livestock']['name'];
+                    $claim_form_livestock_file_size = $_FILES['claim_form_livestock']['size'];
+                    $claim_form_livestock_file_tmp = $_FILES['claim_form_livestock']['tmp_name'];
+                    $claim_form_livestock_file_type = $_FILES['claim_form_livestock']['type'];
+
+                    $claim_form_livestock_file_ext = explode('.', $claim_form_livestock_file_name);
+                    $claim_form_livestock_file_ext = end($claim_form_livestock_file_ext);
+                    $claim_form_livestock_file_ext = strtolower($claim_form_livestock_file_ext);
+
+                    //post mortem
+                    $post_mortem_file_name = $_FILES['post_mortem']['name'];
+                    $post_mortem_file_size = $_FILES['post_mortem']['size'];
+                    $post_mortem_file_tmp = $_FILES['post_mortem']['tmp_name'];
+                    $post_mortem_file_type = $_FILES['post_mortem']['type'];
+
+                    $post_mortem_file_ext = explode('.', $post_mortem_file_name);
+                    $post_mortem_file_ext = end($post_mortem_file_ext);
+                    $post_mortem_file_ext = strtolower($post_mortem_file_ext);
+
+
+
+                    // invoice
+                    $vet_loss_certificate_file_name = $_FILES['vet_loss_certificate']['name'];
+                    $vet_loss_certificate_file_tmp = $_FILES['vet_loss_certificate']['tmp_name'];
+                    $vet_loss_certificate_file_size = $_FILES['vet_loss_certificate']['size'];
+                    $vet_loss_certificate_file_type = $_FILES['vet_loss_certificate']['type'];
+
+                    $vet_loss_certificate_file_ext = explode('.', $vet_loss_certificate_file_name);
+                    $vet_loss_certificate_file_ext = end($vet_loss_certificate_file_ext);
+                    $vet_loss_certificate_file_ext = strtolower($vet_loss_certificate_file_ext);
+
+                    // detailed statement
+                    $dead_livestock_photo_file_name = $_FILES['dead_livestock_photo']['name'];
+                    $dead_livestock_photo_file_size = $_FILES['dead_livestock_photo']['size'];
+                    $dead_livestock_photo_file_tmp = $_FILES['dead_livestock_photo']['tmp_name'];
+                    $dead_livestock_photo_file_type = $_FILES['dead_livestock_photo']['type'];
+
+                    $dead_livestock_photo_file_ext = explode('.', $dead_livestock_photo_file_name);
+                    $dead_livestock_photo_file_ext = end($dead_livestock_photo_file_ext);
+                    $dead_livestock_photo_file_ext = strtolower($dead_livestock_photo_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_livestock_file_ext, $extensions) === false ||
+                        in_array($post_mortem_file_ext, $extensions) === false ||
+                        in_array($vet_loss_certificate_file_ext, $extensions) === false ||
+                        in_array($dead_livestock_photo_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_livestock_file_size > 5242880 || $post_mortem_file_size > 5242880 || $vet_loss_certificate_file_size > 5242880 || $dead_livestock_photo_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_livestock_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_livestock_file_name;
+                        $post_mortem_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_file_name;
+                        $vet_loss_certificate_file_name = $email . '-----' . $claim_id . '----' . 'vet loss certificate' . '----' . $vet_loss_certificate_file_name;
+                        $dead_livestock_photo_file_name = $email . '-----' . $claim_id . '----' . 'dead livestock photo' . '----' . $dead_livestock_photo_file_name;
+
+                        $claim_form_livestock_file_path =  "../documents/claims/" . $claim_form_livestock_file_name;
+                        $post_mortem_file_path =  "../documents/claims/" . $post_mortem_file_name;
+                        $vet_loss_certificate_file_path =  "../documents/claims/" . $vet_loss_certificate_file_name;
+                        $dead_livestock_photo_file_path =  "../documents/claims/" . $dead_livestock_photo_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_livestock_file_tmp, $claim_form_livestock_file_path) &&
+                            move_uploaded_file($post_mortem_file_tmp, $post_mortem_file_path)  &&
+                            move_uploaded_file($vet_loss_certificate_file_tmp, $vet_loss_certificate_file_path) &&
+                            move_uploaded_file($dead_livestock_photo_file_tmp, $dead_livestock_photo_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem`,`vet_loss_certificate`,`dead_livestock_photo`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
+
+
+
+
+
+                default:
+                    # code...
+                    break;
+            }
+        }
+        break;
+
     default:
         # code...l
         break;
