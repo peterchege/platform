@@ -606,22 +606,22 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Post Moterm Report</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="post_mortem">Attach document : Post Moterm Report</label>
+                                    <input name="post_mortem" type="file" class="form-control-file" id="post_mortem" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Vet Certificate of loss </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="vet_loss_certificate">Attach document : Vet Certificate of loss </label>
+                                    <input name="vet_loss_certificate" type="file" class="form-control-file" id="vet_loss_certificate" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="resume">Attach document : Photo of the dead cow </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="dead_livestock_photo">Attach document : Photo of the dead livestock </label>
+                                    <input name="dead_livestock_photo" type="file" class="form-control-file" id="dead_livestock_photo" required>
                                 </div>
                             </div>
 

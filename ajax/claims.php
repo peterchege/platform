@@ -1695,6 +1695,106 @@ switch ($_GET['request']) {
                     echo json_encode($response);
                     break;
 
+                case 'claim_form_livestock':
+                    $personal_property_claim_type = 'Livestock Claim';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $claim_form_livestock_file_name = $_FILES['claim_form_livestock']['name'];
+                    $claim_form_livestock_file_size = $_FILES['claim_form_livestock']['size'];
+                    $claim_form_livestock_file_tmp = $_FILES['claim_form_livestock']['tmp_name'];
+                    $claim_form_livestock_file_type = $_FILES['claim_form_livestock']['type'];
+
+                    $claim_form_livestock_file_ext = explode('.', $claim_form_livestock_file_name);
+                    $claim_form_livestock_file_ext = end($claim_form_livestock_file_ext);
+                    $claim_form_livestock_file_ext = strtolower($claim_form_livestock_file_ext);
+
+                    //post mortem
+                    $post_mortem_file_name = $_FILES['post_mortem']['name'];
+                    $post_mortem_file_size = $_FILES['post_mortem']['size'];
+                    $post_mortem_file_tmp = $_FILES['post_mortem']['tmp_name'];
+                    $post_mortem_file_type = $_FILES['post_mortem']['type'];
+
+                    $post_mortem_file_ext = explode('.', $post_mortem_file_name);
+                    $post_mortem_file_ext = end($post_mortem_file_ext);
+                    $post_mortem_file_ext = strtolower($post_mortem_file_ext);
+
+
+
+                    // invoice
+                    $vet_loss_certificate_file_name = $_FILES['vet_loss_certificate']['name'];
+                    $vet_loss_certificate_file_tmp = $_FILES['vet_loss_certificate']['tmp_name'];
+                    $vet_loss_certificate_file_size = $_FILES['vet_loss_certificate']['size'];
+                    $vet_loss_certificate_file_type = $_FILES['vet_loss_certificate']['type'];
+
+                    $vet_loss_certificate_file_ext = explode('.', $vet_loss_certificate_file_name);
+                    $vet_loss_certificate_file_ext = end($vet_loss_certificate_file_ext);
+                    $vet_loss_certificate_file_ext = strtolower($vet_loss_certificate_file_ext);
+
+                    // detailed statement
+                    $dead_livestock_photo_file_name = $_FILES['dead_livestock_photo']['name'];
+                    $dead_livestock_photo_file_size = $_FILES['dead_livestock_photo']['size'];
+                    $dead_livestock_photo_file_tmp = $_FILES['dead_livestock_photo']['tmp_name'];
+                    $dead_livestock_photo_file_type = $_FILES['dead_livestock_photo']['type'];
+
+                    $dead_livestock_photo_file_ext = explode('.', $dead_livestock_photo_file_name);
+                    $dead_livestock_photo_file_ext = end($dead_livestock_photo_file_ext);
+                    $dead_livestock_photo_file_ext = strtolower($dead_livestock_photo_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($claim_form_livestock_file_ext, $extensions) === false ||
+                        in_array($post_mortem_file_ext, $extensions) === false ||
+                        in_array($vet_loss_certificate_file_ext, $extensions) === false ||
+                        in_array($dead_livestock_photo_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($claim_form_livestock_file_size > 5242880 || $post_mortem_file_size > 5242880 || $vet_loss_certificate_file_size > 5242880 || $dead_livestock_photo_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $claim_form_livestock_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_livestock_file_name;
+                        $post_mortem_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_file_name;
+                        $vet_loss_certificate_file_name = $email . '-----' . $claim_id . '----' . 'vet loss certificate' . '----' . $vet_loss_certificate_file_name;
+                        $dead_livestock_photo_file_name = $email . '-----' . $claim_id . '----' . 'dead livestock photo' . '----' . $dead_livestock_photo_file_name;
+
+                        $claim_form_livestock_file_path =  "../documents/claims/" . $claim_form_livestock_file_name;
+                        $post_mortem_file_path =  "../documents/claims/" . $post_mortem_file_name;
+                        $vet_loss_certificate_file_path =  "../documents/claims/" . $vet_loss_certificate_file_name;
+                        $dead_livestock_photo_file_path =  "../documents/claims/" . $dead_livestock_photo_file_name;
+
+
+
+                        if (
+                            move_uploaded_file($claim_form_livestock_file_tmp, $claim_form_livestock_file_path) &&
+                            move_uploaded_file($post_mortem_file_tmp, $post_mortem_file_path)  &&
+                            move_uploaded_file($vet_loss_certificate_file_tmp, $vet_loss_certificate_file_path) &&
+                            move_uploaded_file($dead_livestock_photo_file_tmp, $dead_livestock_photo_file_path)
+                        ) {
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem`,`vet_loss_certificate`,`dead_livestock_photo`,`created_at`) 
+                                                    VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
+                            if ($insert) {
+                                $response['message'] = 'success';
+                            } else {
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
+                            }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        }
+                    }
+                    echo json_encode($response);
+                    break;
+
 
 
 
