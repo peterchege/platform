@@ -52,13 +52,13 @@
 
                 <div class="col-md-4 offset-md-4 ">
                     <div class="charter3 back-chatter">
-                        <h2> May 2018 </h2>
+                        <h2> April 2018 </h2>
                         <hr>
                         <p>
                             We always putour customers first,that’s why the judgespicked us first.
                         </p>
                         <br>
-                        <a href="digital/samples/december_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/april_2018">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
