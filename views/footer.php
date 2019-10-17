@@ -32,11 +32,19 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>PORTALS</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Life Cleint Portal</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Self Service login</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Intermediary Portal</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Pumzisha</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Group Pension</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Life Cleint Portal</a>
+                        </li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a>
+                        </li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Intermediary Portal</a>
+                        </li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Pumzisha</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Group Pension</a></li>
 
                     </ul>
                 </div>
@@ -44,11 +52,20 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>BUY NOW</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Travel cover</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Motor Cover </a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Marine Open Cover</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Marine Single Transit </a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="#"> Home cover ( Domestic Package ) </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a
+                                href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
+                                target="_target">Travel cover</a></li>
+
+                        <li><i class=" ion-ios-arrow-right"></i> <a
+                                href="https://portal.apainsurance.org/GISPORTAL/auth" target="_target">Marine Open
+                                Cover</a>
+                        </li>
+                        <li><i class=" ion-ios-arrow-right"></i> <a
+                                href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
+                                Single Transit </a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                        calc_domestic_package.php" target="_target"> Home cover ( Domestic
+                                Package ) </a></li>
 
                     </ul>
                 </div>
