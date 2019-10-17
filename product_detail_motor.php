@@ -391,8 +391,9 @@
                         <hr>
                         <p>Windscreen Claim form</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
-                    </a>
+                        <a href="pdf/claim/Windscreen CLM_FRM.pdf" </a> <p class="download">Dowload <i
+                                class="fas fa-download"></i></p>
+                        </a>
                 </div>
 
             </div>
