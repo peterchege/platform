@@ -35,18 +35,18 @@
                         <li><i class="ion-ios-arrow-right"></i> <a href="
                         https://portal.apainsurance.org/TurnQuestClient/" target="_target">Life Cleint Portal</a>
                         </li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a>
+                        <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a> -->
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">APAI Intermediary
+                        https://portal.apainsurance.org/GISPORTAL/auth" target="_target">APAI Intermediary
                                 Portal</a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
                         https://portal.apainsurance.org/TurnQuestAgent/" target="_target">APAL Intermediary
-                                Porta</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="
-                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Group Pension</a></li>
+                                Portal</a></li>
+                        <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
+                                https://portal.apainsurance.org/GISPORTAL/" target="_target">Group Pension</a></li> -->
 
                     </ul>
                 </div>
@@ -65,9 +65,9 @@
                         <li><i class=" ion-ios-arrow-right"></i> <a
                                 href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
                                 Single Transit </a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                        <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                         calc_domestic_package.php" target="_target"> Home cover ( Domestic
-                                Package ) </a></li>
+                                Package ) </a></li> -->
 
                     </ul>
                 </div>
