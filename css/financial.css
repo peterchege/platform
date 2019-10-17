@@ -1,3 +1,16 @@
+@font-face {
+    src: url(../font/trebuchetms.ttf);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(../font/trebuc.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+    src: url(../font/trebuchetms.ttf);
+    font-family: trebuchet;
+}
+
 .header-finance{
     margin-top: 7%;
 }
@@ -76,4 +89,28 @@
     font-family: 'Oswald',
         sans-serif;
     color: #0D345F;
+}
+
+
+.card-fin{
+    margin: 5% auto;
+}
+
+.card-fin .my-custom {
+    font-family: 'Oswald',
+    sans-serif;
+     color: #0C4DA2;
+}
+
+.card-fin .my-text{
+     font-family: 'Oswald',
+     sans-serif;
+     color: #0C4DA2;
+}
+
+.card-fin .my-text:hover {
+    font-family: 'Oswald',
+        sans-serif;
+    color: #C80D10;
+
 }
