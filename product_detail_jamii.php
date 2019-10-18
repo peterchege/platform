@@ -36,19 +36,24 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
+                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab"
+                                aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -60,14 +65,18 @@
                             <div class="job-description text-center">
 
                                 <h2>JAMII PLUS </h2>
-                                <P class="text-justify">Living a healthy stress free life is every persons dream. A healthy family
+                                <P class="text-justify">Living a healthy stress free life is every persons dream. A
+                                    healthy family
                                     is a
                                     happy family.
-                                    This is why we have medical insurance products designed to cover individuals and families.
+                                    This is why we have medical insurance products designed to cover individuals and
+                                    families.
                                     Our main products include:
                                     Inpatient cover is the core cover.
-                                    With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related conditions,
-                                    cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive surgery among
+                                    With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
+                                    conditions,
+                                    cancer treatment, organ transplant, lodger fees, accidental dental/reconstructive
+                                    surgery among
                                     many
                                     more others.</P>
                                 <hr>
@@ -83,7 +92,8 @@
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Bed Charges</h3>
-                                                    <p>Including all accommodation expenses net of NHIF during your stay in the
+                                                    <p>Including all accommodation expenses net of NHIF during your stay
+                                                        in the
                                                         hospital. Whether in the Wards, HDU or ICU.</p>
                                                 </div>
                                             </div>
@@ -97,7 +107,8 @@
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Medication</h3>
-                                                    <p>All prescribed drugs and dressings through our designated partners.</p>
+                                                    <p>All prescribed drugs and dressings through our designated
+                                                        partners.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,7 +121,8 @@
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Doctor’s Fees</h3>
-                                                    <p>Any doctorrelated charges including those of physicians, surgeons, anesthetists
+                                                    <p>Any doctorrelated charges including those of physicians,
+                                                        surgeons, anesthetists
                                                         and specialists for visits and consultations.</p>
                                                 </div>
                                             </div>
@@ -125,7 +137,8 @@
                                                 </div>
                                                 <div class="card-body">
                                                     <h3 class="card-title">Diagnostics</h3>
-                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT Scans</p>
+                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT
+                                                        Scans</p>
                                                 </div>
                                             </div>
 
@@ -136,7 +149,8 @@
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
+                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
+                                            related
                                             conditions, cancer treatment, organ transplant, lodger fees, accidental
                                             dental/reconstructive surgery among many more others.</p2>
                                         <p>Optional Benefits:</p>
@@ -150,7 +164,8 @@
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
                                         <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
+                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
+                                                including
                                                 related
                                                 conditions
                                             </li>
@@ -179,36 +194,45 @@
                                         </ol><br>
                                         <hr>
                                         <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
+                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
+                                            of joy, it
                                             is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
+                                            best that we cater for the mother’s health and conditions pre birth. This is
+                                            why we have
                                             a
                                             Maternity Cover that caters for:</p2>
                                         <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
+                                            <li>Normal delivery including professional fees, labour and recovery wards
+                                                for all
                                                 plans.
                                             </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
+                                            <li>Costs of delivery, and other related ailments and complications
+                                                including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
+                                            <li>Caesarean section delivery including professional fees, labour and
+                                                recovery wards.
                                             </li>
 
                                         </ol><br>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,7 +251,8 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
                                         <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
+                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
+                                            related
                                             conditions, cancer treatment, organ transplant, lodger fees, accidental
                                             dental/reconstructive surgery among many more others.</p2>
                                         <p>Optional Benefits:</p>
@@ -241,7 +266,8 @@
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
                                         <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
+                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
+                                                including
                                                 related
                                                 conditions
                                             </li>
@@ -270,19 +296,24 @@
                                         </ol><br>
                                         <hr>
                                         <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
+                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
+                                            of joy, it
                                             is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
+                                            best that we cater for the mother’s health and conditions pre birth. This is
+                                            why we have
                                             a
                                             Maternity Cover that caters for:</p2>
                                         <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
+                                            <li>Normal delivery including professional fees, labour and recovery wards
+                                                for all
                                                 plans.
                                             </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
+                                            <li>Costs of delivery, and other related ailments and complications
+                                                including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
+                                            <li>Caesarean section delivery including professional fees, labour and
+                                                recovery wards.
                                             </li>
 
                                         </ol><br>
@@ -335,7 +366,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Prescription drugs and dressings - discharge drugs allowed up to a maximum of 30 days supply</td>
+                                                <td>Prescription drugs and dressings - discharge drugs allowed up to a
+                                                    maximum of 30 days supply</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -344,7 +376,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Physicians, Specialist & Surgical fees, including anaesthetist fees subject to APA panel rates</td>
+                                                <td>Physicians, Specialist & Surgical fees, including anaesthetist fees
+                                                    subject to APA panel rates</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -490,7 +523,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>In Patient non-accidental Ophthalmology : includes cost of cataract removal (1 year waiting period)</td>
+                                                <td>In Patient non-accidental Ophthalmology : includes cost of cataract
+                                                    removal (1 year waiting period)</td>
                                                 <td> 100,000 </td>
                                                 <td> 75,000 </td>
                                                 <td> 75,000 </td>
@@ -618,7 +652,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP</td>
+                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP
+                                                </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -627,7 +662,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions after
+                                                <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions
+                                                    after
                                                     12 months of cover & full disclosure at the time of joining</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -673,17 +709,20 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                    uk-toggle>Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="load-more text-center">
-                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                    uk-toggle="target: #modal-close-outside"> Download Form </a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    Need Assistance</a>
                                             </div>
                                         </div>
                                     </div>
@@ -716,19 +755,21 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
-                        <h2> <i class="fas fa-file-pdf"></i> Brochure</h2>
+                    <a href=" pdf/brochure/Jamii Plus Brochure.pdf" target="_blank"">
+                        <h2> <i class=" fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
+
+
 
                     </a>
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Outpatient Claim Form</p>
@@ -740,7 +781,7 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
@@ -792,7 +833,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
@@ -802,22 +845,27 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="john doe"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 343 xx7" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -831,13 +879,19 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> Inpatient Benefit (Kshs)</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                    <select id="cover" name="cover" class="form-control selectFilter"
+                                        data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="all_covers" value="All Covers">Kshs 10,000,000 </option>
-                                        <option data-ref="owner" name="building" value="Building">Kshs 5,000,000 </option>
-                                        <option data-ref="tenant" name="contents" value="Contents">Kshs 2,000,000 </option>
-                                        <option data-ref="tenant" name="all_risk" value="All Risk">Kshs 1,000,000 </option>
-                                        <option data-ref="tenant" name="domestic_employees" value="Domestic Employees">Kshs 500,000 </option>
+                                        <option data-ref="owner" name="all_covers" value="All Covers">Kshs 10,000,000
+                                        </option>
+                                        <option data-ref="owner" name="building" value="Building">Kshs 5,000,000
+                                        </option>
+                                        <option data-ref="tenant" name="contents" value="Contents">Kshs 2,000,000
+                                        </option>
+                                        <option data-ref="tenant" name="all_risk" value="All Risk">Kshs 1,000,000
+                                        </option>
+                                        <option data-ref="tenant" name="domestic_employees" value="Domestic Employees">
+                                            Kshs 500,000 </option>
                                     </select>
                                 </div>
                             </div>
@@ -849,7 +903,9 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make"
+                                            type="number" class="form-control" id="make" placeholder="3" value=""
+                                            required>
                                 </div>
                             </div>
 
@@ -860,7 +916,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -876,7 +933,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
@@ -886,22 +945,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1">Message</label>
@@ -915,7 +979,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
