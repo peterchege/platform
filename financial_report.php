@@ -45,239 +45,265 @@
         </div>
         <br>
 
-        <div class="container">
+        <section>
+            <div class="container">
+                <div class="row text-left">
 
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
 
-            <!-- ===================================== APA INSURANCE FINANCIAL REPORTS ===================================== -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA INSURANCE 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Insurance Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="row text-left">
 
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA INSURANCE 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Insurance Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2018</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2017</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="row text-left">
 
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA INSURANCE - UGANDA 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Insurance Uganda Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2018</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2017</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-
-            <!-- ===================================== APA LIFE FINANCIAL REPORTS ===================================== -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA LIFE 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Life Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA LIFE 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Life Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APA LIFE 2016 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> APA Life Annual Report and Financials Statement
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- ===================================== APOLLO ASSET MANAGMENT FINANCIAL REPORTS ===================================== -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Money Market Fund Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Equity Funds Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Balanced Fund Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="row">
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2018 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Abridged Financials Report To Unit Holders
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Money Market Fund Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Equity Funds Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="offset-4 col-md-4 ">
-                    <div class="charter3">
-                        <h2>APOLLO ASSET MANAGMENT 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Balanced Fund Financials Statements
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4 ">
-                    <div class="charter3  ">
-                        <h2>APOLLO ASSET MANAGMENT 2017 </h2>
-                        <hr>
-                        <p>
-                            <a href="#">
-                                <i class="fas fa-file-pdf"></i> Abridged Financials Report To Unit Holders
-                            </a>
-                        </p>
-                        <br>
-                        <a href="#">Download <i class="fas fa-download"></i></a>
-
-                    </div>
-                </div>
-
-            </div>
-
             <br>
 
-        </div>
+        </section>
 
     </div>
 
