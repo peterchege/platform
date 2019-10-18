@@ -39,11 +39,11 @@
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a> -->
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                        https://portal.apainsurance.org/GISPORTAL/auth" target="_target">APAI Intermediary
+                        https://portal.apainsurance.org/GISPORTAL/auth" target="_target">APA Insurance Intermediary
                                 Portal</a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                        https://portal.apainsurance.org/TurnQuestAgent/" target="_target">APAL Intermediary
+                        https://portal.apainsurance.org/TurnQuestAgent/" target="_target">APA Life Intermediary
                                 Portal</a></li>
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Group Pension</a></li> -->
