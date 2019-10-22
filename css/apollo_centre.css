@@ -217,6 +217,26 @@
 	background-image: url(../images/chyullu/img6.jpg);
 }
 
+/* CHERENGANI HILLS GALLERY IMAGE */
+.cherengany-view-1 {
+	background-image: url(../images/cherengani/img6.jpg);
+}
+.cherengany-view-2 {
+	background-image: url(../images/cherengani/img2.jpg);
+}
+.cherengany-view-3 {
+	background-image: url(../images/cherengani/img3.jpg);
+}
+.cherengany-view-4 {
+	background-image: url(../images/cherengani/img4.jpg);
+}
+.cherengany-view-5 {
+	background-image: url(../images/cherengani/img5.jpg);
+}
+.cherengany-view-6 {
+	background-image: url(../images/cherengani/img6.jpg);
+}
+
 .gallery-view:hover {
 	transform: scale(1.12);
 	-webkit-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
