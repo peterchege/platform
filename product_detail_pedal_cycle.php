@@ -369,7 +369,7 @@
                     <a href="">
                         <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
                         <hr>
-                        <p>Pedal Cycle Claim form</p>
+                        <p>Pedal Cycle form</p>
                         <hr>
                         <a href="pdf/claim/motor_claim_form.pdf">
                             <p class=" download">Dowload <i class="fas fa-download"></i>
