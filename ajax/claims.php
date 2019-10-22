@@ -1802,46 +1802,86 @@ switch ($_GET['request']) {
                         $claim_id = randomstring(10);
     
                         // completed form
-                        $claim_form_livestock_file_name = $_FILES['claim_form_livestock']['name'];
-                        $claim_form_livestock_file_size = $_FILES['claim_form_livestock']['size'];
-                        $claim_form_livestock_file_tmp = $_FILES['claim_form_livestock']['tmp_name'];
-                        $claim_form_livestock_file_type = $_FILES['claim_form_livestock']['type'];
+                        $personal_accident_claim_form_file_name = $_FILES['personal_accident_claim_form']['name'];
+                        $personal_accident_claim_form_file_size = $_FILES['personal_accident_claim_form']['size'];
+                        $personal_accident_claim_form_file_tmp = $_FILES['personal_accident_claim_form']['tmp_name'];
+                        $personal_accident_claim_form_file_type = $_FILES['personal_accident_claim_form']['type'];
     
-                        $claim_form_livestock_file_ext = explode('.', $claim_form_livestock_file_name);
-                        $claim_form_livestock_file_ext = end($claim_form_livestock_file_ext);
-                        $claim_form_livestock_file_ext = strtolower($claim_form_livestock_file_ext);
+                        $personal_accident_claim_form_file_ext = explode('.', $personal_accident_claim_form_file_name);
+                        $personal_accident_claim_form_file_ext = end($personal_accident_claim_form_file_ext);
+                        $personal_accident_claim_form_file_ext = strtolower($personal_accident_claim_form_file_ext);
     
-                        //post mortem
-                        $post_mortem_file_name = $_FILES['post_mortem']['name'];
-                        $post_mortem_file_size = $_FILES['post_mortem']['size'];
-                        $post_mortem_file_tmp = $_FILES['post_mortem']['tmp_name'];
-                        $post_mortem_file_type = $_FILES['post_mortem']['type'];
+                        //detailed statement
+                        $detailed_statement_file_name = $_FILES['detailed_statement']['name'];
+                        $detailed_statement_file_size = $_FILES['detailed_statement']['size'];
+                        $detailed_statement_file_tmp = $_FILES['detailed_statement']['tmp_name'];
+                        $detailed_statement_file_type = $_FILES['detailed_statement']['type'];
     
-                        $post_mortem_file_ext = explode('.', $post_mortem_file_name);
-                        $post_mortem_file_ext = end($post_mortem_file_ext);
-                        $post_mortem_file_ext = strtolower($post_mortem_file_ext);
+                        $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
+                        $detailed_statement_file_ext = end($detailed_statement_file_ext);
+                        $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
     
     
     
-                        // invoice
-                        $vet_loss_certificate_file_name = $_FILES['vet_loss_certificate']['name'];
-                        $vet_loss_certificate_file_tmp = $_FILES['vet_loss_certificate']['tmp_name'];
-                        $vet_loss_certificate_file_size = $_FILES['vet_loss_certificate']['size'];
-                        $vet_loss_certificate_file_type = $_FILES['vet_loss_certificate']['type'];
+                        // payslips
+                        $payslips_file_name = $_FILES['payslips']['name'];
+                        $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
+                        $payslips_file_size = $_FILES['payslips']['size'];
+                        $payslips_file_type = $_FILES['payslips']['type'];
     
-                        $vet_loss_certificate_file_ext = explode('.', $vet_loss_certificate_file_name);
-                        $vet_loss_certificate_file_ext = end($vet_loss_certificate_file_ext);
-                        $vet_loss_certificate_file_ext = strtolower($vet_loss_certificate_file_ext);
+                        $payslips_file_ext = explode('.', $payslips_file_name);
+                        $payslips_file_ext = end($payslips_file_ext);
+                        $payslips_file_ext = strtolower($payslips_file_ext);
     
-                        // detailed statement
-                        $dead_livestock_photo_file_name = $_FILES['dead_livestock_photo']['name'];
-                        $dead_livestock_photo_file_size = $_FILES['dead_livestock_photo']['size'];
-                        $dead_livestock_photo_file_tmp = $_FILES['dead_livestock_photo']['tmp_name'];
-                        $dead_livestock_photo_file_type = $_FILES['dead_livestock_photo']['type'];
+                        // national id
+                        $national_id_file_name = $_FILES['national_id']['name'];
+                        $national_id_file_size = $_FILES['national_id']['size'];
+                        $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                        $national_id_file_type = $_FILES['national_id']['type'];
     
-                        $dead_livestock_photo_file_ext = explode('.', $dead_livestock_photo_file_name);
-                        $dead_livestock_photo_file_ext = end($dead_livestock_photo_file_ext);
-                        $dead_livestock_photo_file_ext = strtolower($dead_livestock_photo_file_ext);
+                        $national_id_file_ext = explode('.', $national_id_file_name);
+                        $national_id_file_ext = end($national_id_file_ext);
+                        $national_id_file_ext = strtolower($national_id_file_ext);
+    
+                        // sick sheet
+                        $sick_sheet_file_name = $_FILES['sick_sheet']['name'];
+                        $sick_sheet_file_size = $_FILES['sick_sheet']['size'];
+                        $sick_sheet_file_tmp = $_FILES['sick_sheet']['tmp_name'];
+                        $sick_sheet_file_type = $_FILES['sick_sheet']['type'];
+    
+                        $sick_sheet_file_ext = explode('.', $sick_sheet_file_name);
+                        $sick_sheet_file_ext = end($sick_sheet_file_ext);
+                        $sick_sheet_file_ext = strtolower($sick_sheet_file_ext);
+    
+                        // medical bill
+                        $medical_bill_file_name = $_FILES['medical_bill']['name'];
+                        $medical_bill_file_size = $_FILES['medical_bill']['size'];
+                        $medical_bill_file_tmp = $_FILES['medical_bill']['tmp_name'];
+                        $medical_bill_file_type = $_FILES['medical_bill']['type'];
+    
+                        $medical_bill_file_ext = explode('.', $medical_bill_file_name);
+                        $medical_bill_file_ext = end($medical_bill_file_ext);
+                        $medical_bill_file_ext = strtolower($medical_bill_file_ext);
+    
+                        // discharge summary
+                        $discharge_summary_file_name = $_FILES['discharge_summary']['name'];
+                        $discharge_summary_file_size = $_FILES['discharge_summary']['size'];
+                        $discharge_summary_file_tmp = $_FILES['discharge_summary']['tmp_name'];
+                        $discharge_summary_file_type = $_FILES['discharge_summary']['type'];
+    
+                        $discharge_summary_file_ext = explode('.', $discharge_summary_file_name);
+                        $discharge_summary_file_ext = end($discharge_summary_file_ext);
+                        $discharge_summary_file_ext = strtolower($discharge_summary_file_ext);
+    
+                        // police abstract
+                        $police_abstract_file_name = $_FILES['police_abstract']['name'];
+                        $police_abstract_file_size = $_FILES['police_abstract']['size'];
+                        $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
+                        $police_abstract_file_type = $_FILES['police_abstract']['type'];
+    
+                        $police_abstract_file_ext = explode('.', $police_abstract_file_name);
+                        $police_abstract_file_ext = end($police_abstract_file_ext);
+                        $police_abstract_file_ext = strtolower($police_abstract_file_ext);
     
     
     
@@ -1849,41 +1889,57 @@ switch ($_GET['request']) {
                         $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
     
                         if (
-                            in_array($claim_form_livestock_file_ext, $extensions) === false ||
-                            in_array($post_mortem_file_ext, $extensions) === false ||
-                            in_array($vet_loss_certificate_file_ext, $extensions) === false ||
-                            in_array($dead_livestock_photo_file_ext, $extensions) === false
+                            in_array($personal_accident_claim_form_file_ext, $extensions) === false ||
+                            in_array($detailed_statement_file_ext, $extensions) === false ||
+                            in_array($payslips_file_ext, $extensions) === false ||
+                            in_array($national_id_file_ext, $extensions) === false||
+                            in_array($sick_sheet_file_ext, $extensions) === false||
+                            in_array($medical_bill_file_ext, $extensions) === false||
+                            in_array($discharge_summary_file_ext, $extensions) === false||
+                            in_array($police_abstract_file_ext, $extensions) === false
                         ) {
                             $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
                             $errors[] = 0;
                         }
     
-                        if ($claim_form_livestock_file_size > 5242880 || $post_mortem_file_size > 5242880 || $vet_loss_certificate_file_size > 5242880 || $dead_livestock_photo_file_size > 5242880) {
+                        if ($personal_accident_claim_form_file_size > 5242880 || $detailed_statement_file_size > 5242880 || $payslips_file_size > 5242880 || $national_id_file_size > 5242880|| $sick_sheet_file_size > 5242880|| $police_abstract_file_size > 5242880|| $medical_bill_file_size > 5242880|| $discharge_summary_file_size > 5242880) {
                             $response['message'] = "Files should be less than 5MB each!";
                             $errors[] = 0;
                         }
     
                         if (empty($errors) == true) {
-                            $claim_form_livestock_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_livestock_file_name;
-                            $post_mortem_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_file_name;
-                            $vet_loss_certificate_file_name = $email . '-----' . $claim_id . '----' . 'vet loss certificate' . '----' . $vet_loss_certificate_file_name;
-                            $dead_livestock_photo_file_name = $email . '-----' . $claim_id . '----' . 'dead livestock photo' . '----' . $dead_livestock_photo_file_name;
+                            $personal_accident_claim_form_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $personal_accident_claim_form_file_name;
+                            $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+                            $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslip' . '----' . $payslips_file_name;
+                            $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
+                            $sick_sheet_file_name = $email . '-----' . $claim_id . '----' . 'sick sheet' . '----' . $sick_sheet_file_name;
+                            $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
+                            $discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'discharge summary' . '----' . $discharge_summary_file_name;
+                            $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
     
-                            $claim_form_livestock_file_path =  "../documents/claims/" . $claim_form_livestock_file_name;
-                            $post_mortem_file_path =  "../documents/claims/" . $post_mortem_file_name;
-                            $vet_loss_certificate_file_path =  "../documents/claims/" . $vet_loss_certificate_file_name;
-                            $dead_livestock_photo_file_path =  "../documents/claims/" . $dead_livestock_photo_file_name;
+                            $personal_accident_claim_form_file_path =  "../documents/claims/" . $personal_accident_claim_form_file_name;
+                            $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;
+                            $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
+                            $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
+                            $sick_sheet_file_path =  "../documents/claims/" . $sick_sheet_file_name;
+                            $medical_bill_file_path =  "../documents/claims/" . $medical_bill_file_name;
+                            $discharge_summary_file_path =  "../documents/claims/" . $discharge_summary_file_name;
+                            $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
     
     
     
                             if (
-                                move_uploaded_file($claim_form_livestock_file_tmp, $claim_form_livestock_file_path) &&
-                                move_uploaded_file($post_mortem_file_tmp, $post_mortem_file_path)  &&
-                                move_uploaded_file($vet_loss_certificate_file_tmp, $vet_loss_certificate_file_path) &&
-                                move_uploaded_file($dead_livestock_photo_file_tmp, $dead_livestock_photo_file_path)
+                                move_uploaded_file($personal_accident_claim_form_file_tmp, $personal_accident_claim_form_file_path) &&
+                                move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)  &&
+                                move_uploaded_file($payslips_file_tmp, $payslips_file_path) &&
+                                move_uploaded_file($national_id_file_tmp, $national_id_file_path)&&
+                                move_uploaded_file($sick_sheet_file_tmp, $sick_sheet_file_path)&&
+                                move_uploaded_file($medical_bill_file_tmp, $medical_bill_file_path)&&
+                                move_uploaded_file($discharge_summary_file_tmp, $discharge_summary_file_path)&&
+                                move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
                             ) {
-                                $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem`,`vet_loss_certificate`,`dead_livestock_photo`,`created_at`) 
-                                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
+                                $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`) 
+                                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$personal_accident_claim_form_file_name',' $detailed_statement_file_name','$payslips_file_name','$national_id_file_name','$sick_sheet_file_name','$medical_bill_file_name','$discharge_summary_file_name','$police_abstract_file_name','$created_at')  ");
                                 if ($insert) {
                                     $response['message'] = 'success';
                                 } else {
