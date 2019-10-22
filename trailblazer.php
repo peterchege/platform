@@ -46,19 +46,19 @@
         <br>
     </div>
 
-    <section class="trail-back">
+    <!-- <section class="trail-back">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-4 offset-md-4 ">
                     <div class="charter3 back-chatter">
-                        <h2> May 2018 </h2>
+                        <h2> April 2018 </h2>
                         <hr>
                         <p>
                             We always putour customers first,that’s why the judgespicked us first.
                         </p>
                         <br>
-                        <a href="#">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/april_2018">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             Insurance Payouts for Livestock Herders Facing Historic Drought
                         </p>
                         <br>
-                        <a href="#">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/april_2017">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             the insurance industry's top qualification
                         </p>
                         <br>
-                        <a href="#">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/dec_2016">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
 
                     </div>
@@ -105,7 +105,7 @@
                             Card Foundation fund for rural prosperity in Kenya
                         </p>
                         <br>
-                        <a href="#">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="digital/samples/july_dec">View &nbsp;<i class="fas fa-eye"></i></a>&nbsp;&nbsp;&nbsp;
                         <a href="#">Download &nbsp; <i class="fas fa-download"></i></a>
                     </div>
                 </div>
@@ -115,6 +115,186 @@
             <br><br>
 
         </div>
+    </section> -->
+    <section class="trail-back">
+        <div class="container">
+            <div class="row text-left">
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-left">
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+
     </section>
 
 
