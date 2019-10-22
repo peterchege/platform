@@ -134,18 +134,17 @@
 /*--------------------------------------------------------------
 # GALLERY VIEW
 --------------------------------------------------------------*/
-.shimba-banner {
+.gallery-banner{
     width: 100%;
     height: 65vh;
-    background-image: url(../images/shimba/img7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.shimba-banner::after {
+.gallery-banner::after {
     content: '';
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     height: 64.5%;
     width: 100%;
@@ -153,6 +152,16 @@
     right: 0;
     left: 0;
     bottom: 0;
+}
+
+.shimba-banner {
+    background-image: url(../images/shimba/img7.jpg);
+}
+.chyullu-banner {
+    background-image: url(../images/chyullu/img2.jpg);
+}
+.ngong-banner {
+    background-image: url(../images/shimba/img7.jpg);
 }
 
 .gallery-view{

@@ -28,7 +28,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="shimba-banner">
+    <div class="gallery-banner chyullu-banner ">
 
     </div>
     <div class="cover-line">
@@ -45,7 +45,7 @@
     <div class="container">
         <div class="apollo">
             <h1>CHYULLU HILLS</h1>
-            <div class="under-line img2">
+            <div class="under-line img4">
                 <img src="images/line.png" alt="">
             </div>
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites,
@@ -105,18 +105,19 @@
         <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
             <br><br><br>
         </div>
+    </div>
 
 
 
-        <!-- =====================================FOOTER===================================== -->
-        <?php include 'views/footer.php'; ?>
-        <!-- #footer -->
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
 
-        <!-- =====================================Modal link===================================== -->
-        <?php include 'views/modal_apollo.php'; ?>
+    <!-- =====================================Modal link===================================== -->
+    <?php include 'views/modal_apollo.php'; ?>
 
-        <?php
+    <?php
     require_once 'inc/scripts.php';
     ?>
 
