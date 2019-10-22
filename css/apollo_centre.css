@@ -147,11 +147,20 @@
 .shimba-banner {
 	background-image: url(../images/shimba/img7.jpg);
 }
-.chyullu-banner {
+.taita-banner {
 	background-image: url(../images/chyullu/img3.jpg);
 }
 .ngong-banner {
+	background-image: url(../images/chyullu/img3.jpg);
+}
+.chyullu-banner {
+	background-image: url(../images/chyullu/img3.jpg);
+}
+.cherrengany-banner {
 	background-image: url(../images/shimba/img7.jpg);
+}
+.entertainment-banner {
+	background-image: url(../images/chyullu/img3.jpg);
 }
 
 .gallery-view {
