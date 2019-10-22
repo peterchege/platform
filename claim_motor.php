@@ -199,8 +199,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -210,26 +209,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -244,16 +239,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -316,8 +309,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -327,26 +319,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -361,16 +349,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -406,8 +392,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -417,26 +402,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -451,16 +432,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -519,69 +498,69 @@
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
     <script>
-    $(document).ready(function() {
-        $('.form').parsley();
-        $('.form').on('submit', function(e) {
-            e.preventDefault();
-            var form = $(this);
-            var pdf = $(this).find('input[type=hidden]:last').val();
+        $(document).ready(function() {
+            $('.form').parsley();
+            $('.form').on('submit', function(e) {
+                e.preventDefault();
+                var form = $(this);
+                var pdf = $(this).find('input[type=hidden]:last').val();
 
-            if (pdf == 'windscreen') {
-                var claim_form = 'pdf/claim/Windscreen CLM_FRM.pdf';
-            } else if (pdf == 'accident') {
-                var claim_form = 'pdf/claim/motor_claim_form.pdf';
-            } else if (pdf == 'theft') {
-                var claim_form = 'pdf/claim/motor_claim_form.pdf';
-            } else {
-                var claim_form = '';
-            }
-
-            $.ajax({
-                type: "POST",
-                url: "ajax/claims.php?request=motor_claim",
-                data: new FormData(this),
-                dataType: 'json',
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function() {
-                    $('button[name=request]').attr('disabled', true);
-                },
-                success: function(response) {
-                    if (response.status == 1) {
-                        form[0].reset();
-                        $(".uk-close-large").click()
-                        swal.fire({
-                            title: 'Submitted successfully.',
-                            type: 'success',
-                            html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="' +
-                                claim_form +
-                                '">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
-                            showCloseButton: true,
-                            showCancelButton: false,
-                            allowOutsideClick: false,
-                            focusConfirm: false,
-                            confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
-                            confirmButtonAriaLabel: 'Thumbs up, great!',
-                        });
-                    } else if (response.status == 0) {
-                        Swal.fire({
-                            type: 'error',
-                            title: response.message,
-                            //text: 'Something went wrong!',
-                        })
-                    } else {
-                        Swal.fire({
-                            type: 'error',
-                            title: 'An error occurred!',
-                            //text: 'Something went wrong!',
-                        })
-                    }
-                    $('button[name=request]').attr('disabled', false);
+                if (pdf == 'windscreen') {
+                    var claim_form = 'pdf/claim/Windscreen CLM_FRM.pdf';
+                } else if (pdf == 'accident') {
+                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
+                } else if (pdf == 'theft') {
+                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
+                } else {
+                    var claim_form = '';
                 }
+
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/claims.php?request=motor_claim",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function() {
+                        $('button[name=request]').attr('disabled', true);
+                    },
+                    success: function(response) {
+                        if (response.status == 1) {
+                            form[0].reset();
+                            $(".uk-close-large").click()
+                            swal.fire({
+                                title: 'Submitted successfully.',
+                                type: 'success',
+                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="' +
+                                    claim_form +
+                                    '">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
+                                showCloseButton: true,
+                                showCancelButton: false,
+                                allowOutsideClick: false,
+                                focusConfirm: false,
+                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                                confirmButtonAriaLabel: 'Thumbs up, great!',
+                            });
+                        } else if (response.status == 0) {
+                            Swal.fire({
+                                type: 'error',
+                                title: response.message,
+                                //text: 'Something went wrong!',
+                            })
+                        } else {
+                            Swal.fire({
+                                type: 'error',
+                                title: 'An error occurred!',
+                                //text: 'Something went wrong!',
+                            })
+                        }
+                        $('button[name=request]').attr('disabled', false);
+                    }
+                });
             });
         });
-    });
     </script>
 
 </body>
