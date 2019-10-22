@@ -1,7 +1,7 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : localhost_3306
+ Source Server         : localhost
  Source Server Type    : MariaDB
  Source Server Version : 100139
  Source Host           : localhost:3306
@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 17/10/2019 16:58:40
+ Date: 22/10/2019 18:13:29
 */
 
 SET NAMES utf8mb4;
@@ -390,7 +390,6 @@ CREATE TABLE `claims_motor`  (
   `product_category_id` int(11) NULL DEFAULT NULL,
   `motor_claim_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
-  `updated_at` timestamp(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `claim product id`(`product_id`) USING BTREE,
   CONSTRAINT `claim product id` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
@@ -399,26 +398,26 @@ CREATE TABLE `claims_motor`  (
 -- ----------------------------
 -- Records of claims_motor
 -- ----------------------------
-INSERT INTO `claims_motor` VALUES (32, '', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fafd', 6, 14, 'accident', '2019-10-03 16:54:13.000000', NULL);
-INSERT INTO `claims_motor` VALUES (33, '', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'jhjkh', 6, 14, 'accident', '2019-10-03 16:54:51.000000', NULL);
-INSERT INTO `claims_motor` VALUES (34, 'p', '+254721656618', 'rkagotho8@gmail.com', 'b', 'kbq324', 'ghdgdgd', 6, 14, 'accident', '2019-10-07 16:34:19.000000', NULL);
-INSERT INTO `claims_motor` VALUES (35, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'Accident', 6, 14, 'windscreen', '2019-10-15 12:18:27.000000', NULL);
-INSERT INTO `claims_motor` VALUES (36, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'k', 6, 14, 'accident', '2019-10-15 13:57:19.000000', NULL);
-INSERT INTO `claims_motor` VALUES (37, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'i', 6, 14, 'accident', '2019-10-15 14:04:19.000000', NULL);
-INSERT INTO `claims_motor` VALUES (38, 'John Doe', '0712345678', 'johndoe@gmail.com', 'nairobi', 'KBC 123J', 'ssd', 6, 14, 'accident', '2019-10-15 14:08:02.000000', NULL);
-INSERT INTO `claims_motor` VALUES (39, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'bc', 6, 14, 'theft', '2019-10-15 14:09:36.000000', NULL);
-INSERT INTO `claims_motor` VALUES (40, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123T', 'Nice', 6, 14, 'theft', '2019-10-15 14:11:34.000000', NULL);
-INSERT INTO `claims_motor` VALUES (41, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'theft', '2019-10-15 14:12:47.000000', NULL);
-INSERT INTO `claims_motor` VALUES (42, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'hj', 6, 14, 'theft', '2019-10-15 14:19:52.000000', NULL);
-INSERT INTO `claims_motor` VALUES (43, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghkl;', 6, 14, 'theft', '2019-10-15 14:23:29.000000', NULL);
-INSERT INTO `claims_motor` VALUES (44, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ghjk', 6, 14, 'theft', '2019-10-15 14:33:20.000000', NULL);
-INSERT INTO `claims_motor` VALUES (45, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'windscreen', '2019-10-15 14:41:41.000000', NULL);
-INSERT INTO `claims_motor` VALUES (46, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghk', 6, 14, 'windscreen', '2019-10-15 14:44:33.000000', NULL);
-INSERT INTO `claims_motor` VALUES (47, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'sds', 6, 14, 'windscreen', '2019-10-15 14:46:18.000000', NULL);
-INSERT INTO `claims_motor` VALUES (48, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Nakuru', 'KBC 123J', 'fghjkl', 6, 14, 'accident', '2019-10-15 14:50:36.000000', NULL);
-INSERT INTO `claims_motor` VALUES (49, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'uoi', 6, 14, 'windscreen', '2019-10-15 15:07:37.000000', NULL);
-INSERT INTO `claims_motor` VALUES (50, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'lk', 6, 14, 'theft', '2019-10-15 15:22:04.000000', NULL);
-INSERT INTO `claims_motor` VALUES (51, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ko', 6, 14, 'theft', '2019-10-15 15:56:00.000000', NULL);
+INSERT INTO `claims_motor` VALUES (32, '', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fafd', 6, 14, 'accident', '2019-10-03 16:54:13.000000');
+INSERT INTO `claims_motor` VALUES (33, '', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'jhjkh', 6, 14, 'accident', '2019-10-03 16:54:51.000000');
+INSERT INTO `claims_motor` VALUES (34, 'p', '+254721656618', 'rkagotho8@gmail.com', 'b', 'kbq324', 'ghdgdgd', 6, 14, 'accident', '2019-10-07 16:34:19.000000');
+INSERT INTO `claims_motor` VALUES (35, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'Accident', 6, 14, 'windscreen', '2019-10-15 12:18:27.000000');
+INSERT INTO `claims_motor` VALUES (36, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'k', 6, 14, 'accident', '2019-10-15 13:57:19.000000');
+INSERT INTO `claims_motor` VALUES (37, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'i', 6, 14, 'accident', '2019-10-15 14:04:19.000000');
+INSERT INTO `claims_motor` VALUES (38, 'John Doe', '0712345678', 'johndoe@gmail.com', 'nairobi', 'KBC 123J', 'ssd', 6, 14, 'accident', '2019-10-15 14:08:02.000000');
+INSERT INTO `claims_motor` VALUES (39, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'bc', 6, 14, 'theft', '2019-10-15 14:09:36.000000');
+INSERT INTO `claims_motor` VALUES (40, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123T', 'Nice', 6, 14, 'theft', '2019-10-15 14:11:34.000000');
+INSERT INTO `claims_motor` VALUES (41, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'theft', '2019-10-15 14:12:47.000000');
+INSERT INTO `claims_motor` VALUES (42, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'hj', 6, 14, 'theft', '2019-10-15 14:19:52.000000');
+INSERT INTO `claims_motor` VALUES (43, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghkl;', 6, 14, 'theft', '2019-10-15 14:23:29.000000');
+INSERT INTO `claims_motor` VALUES (44, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ghjk', 6, 14, 'theft', '2019-10-15 14:33:20.000000');
+INSERT INTO `claims_motor` VALUES (45, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghjk', 6, 14, 'windscreen', '2019-10-15 14:41:41.000000');
+INSERT INTO `claims_motor` VALUES (46, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'fghk', 6, 14, 'windscreen', '2019-10-15 14:44:33.000000');
+INSERT INTO `claims_motor` VALUES (47, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nakuru', 'KBC 123J', 'sds', 6, 14, 'windscreen', '2019-10-15 14:46:18.000000');
+INSERT INTO `claims_motor` VALUES (48, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Nakuru', 'KBC 123J', 'fghjkl', 6, 14, 'accident', '2019-10-15 14:50:36.000000');
+INSERT INTO `claims_motor` VALUES (49, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'uoi', 6, 14, 'windscreen', '2019-10-15 15:07:37.000000');
+INSERT INTO `claims_motor` VALUES (50, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'lk', 6, 14, 'theft', '2019-10-15 15:22:04.000000');
+INSERT INTO `claims_motor` VALUES (51, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ko', 6, 14, 'theft', '2019-10-15 15:56:00.000000');
 
 -- ----------------------------
 -- Table structure for claims_personal_property
@@ -436,22 +435,29 @@ CREATE TABLE `claims_personal_property`  (
   `police_abstract` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `invoice` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `detailed_statement` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
-  `created_at` timestamp(6) NULL DEFAULT NULL,
   `dosh_one_two` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `dosh_four` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `post_mortem` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `vet_loss_certificate` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `dead_livestock_photo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `created_at` timestamp(6) NULL DEFAULT NULL,
+  `national_id` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `payslips` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `sick_sheet` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `medical_bill` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `discharge_summary` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 7 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of claims_personal_property
 -- ----------------------------
-INSERT INTO `claims_personal_property` VALUES (1, '3RhpXFMspm', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Personal Property Damage', 'johndoe@gmail.com-----3RhpXFMspm----completed form----sample.pdf', ' johndoe@gmail.com-----3RhpXFMspm----police abstract----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----proforma invoice----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----detailed statement----sample.pdf', '2019-10-17 15:03:56.000000', NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `claims_personal_property` VALUES (2, '5w0ZvcD6Cw', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Injuries - Wiba', NULL, NULL, NULL, NULL, '2019-10-17 15:55:08.000000', 'johndoe@gmail.com-----5w0ZvcD6Cw----completed form----sample.pdf', ' johndoe@gmail.com-----5w0ZvcD6Cw----police abstract----sample.pdf', NULL, NULL, NULL);
-INSERT INTO `claims_personal_property` VALUES (3, 'i6sLbfYGFr', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Crop Claim', 'johndoe@gmail.com-----i6sLbfYGFr----completed form----sample.pdf', NULL, NULL, NULL, '2019-10-17 16:04:25.000000', NULL, NULL, NULL, NULL, NULL);
-INSERT INTO `claims_personal_property` VALUES (4, 'lpYqENIBn', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Livestock Claim', 'johndoe@gmail.com-----lpYqENIBn----completed form----sample.pdf', NULL, NULL, NULL, '2019-10-17 16:51:07.000000', NULL, NULL, ' johndoe@gmail.com-----lpYqENIBn----post mortem report----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----vet loss certificate----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----dead livestock photo----sample.pdf');
+INSERT INTO `claims_personal_property` VALUES (1, '3RhpXFMspm', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Personal Property Damage', 'johndoe@gmail.com-----3RhpXFMspm----completed form----sample.pdf', ' johndoe@gmail.com-----3RhpXFMspm----police abstract----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----proforma invoice----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----detailed statement----sample.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-17 15:03:56.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (2, '5w0ZvcD6Cw', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Injuries - Wiba', NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----5w0ZvcD6Cw----completed form----sample.pdf', ' johndoe@gmail.com-----5w0ZvcD6Cw----police abstract----sample.pdf', NULL, NULL, NULL, '2019-10-17 15:55:08.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (3, 'i6sLbfYGFr', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Crop Claim', 'johndoe@gmail.com-----i6sLbfYGFr----completed form----sample.pdf', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2019-10-17 16:04:25.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (4, 'lpYqENIBn', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Livestock Claim', 'johndoe@gmail.com-----lpYqENIBn----completed form----sample.pdf', NULL, NULL, NULL, NULL, NULL, ' johndoe@gmail.com-----lpYqENIBn----post mortem report----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----vet loss certificate----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----dead livestock photo----sample.pdf', '2019-10-17 16:51:07.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (5, 'wZmUjYCQMX', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Injuries - Wiba', NULL, NULL, NULL, NULL, 'johndoe@gmail.com-----wZmUjYCQMX----dosh one and two completed form----sample.pdf', ' johndoe@gmail.com-----wZmUjYCQMX----dosh four----sample.pdf', NULL, NULL, NULL, '2019-10-17 17:12:59.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (6, 'F9g6BQEOec', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Machakos', 'Personal Accident Claim', 'johndoe@gmail.com-----F9g6BQEOec----completed form----sample.pdf', 'johndoe@gmail.com-----F9g6BQEOec----police abstract----sample.pdf', NULL, ' johndoe@gmail.com-----F9g6BQEOec----detailed statement----sample.pdf', NULL, NULL, NULL, NULL, NULL, '2019-10-22 10:02:14.000000', 'johndoe@gmail.com-----F9g6BQEOec----national id----sample.pdf', 'johndoe@gmail.com-----F9g6BQEOec----payslip----sample.pdf', 'johndoe@gmail.com-----F9g6BQEOec----sick sheet----sample.pdf', 'johndoe@gmail.com-----F9g6BQEOec----medical bill----sample.pdf', 'johndoe@gmail.com-----F9g6BQEOec----discharge summary----sample.pdf');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -463,24 +469,40 @@ CREATE TABLE `hr_jobs_users`  (
   `last_name` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `email` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `password` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+  `invited_by` int(11) NULL DEFAULT NULL,
+  `invite_token` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `password_reset_token` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
   `created_at` timestamp(6) NULL DEFAULT NULL,
   `updated_at` timestamp(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `email unique`(`email`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 22 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 38 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of hr_jobs_users
 -- ----------------------------
-INSERT INTO `hr_jobs_users` VALUES (9, 'tony', 'tony', 'anthony@gmail.com', '$2y$10$41bKaflVtmX5uQff1xbpmO.CZTSrE99ldXsA4mKY1Jw/EDwsBTAMq', '5ba66107001c15480811b33027e88241f72e7d3567857d40fb1560d84f1d6c8e315d61d62a39fde0', NULL, '2019-09-30 12:19:08.534031');
-INSERT INTO `hr_jobs_users` VALUES (10, 'chege', 'chege', 'chege@gmail.com', '$2y$10$IDEVyytSrpnUkFa1qXpU0Ou4IjRVVXE/8d8101niiUlMWbFN699nq', NULL, NULL, NULL);
-INSERT INTO `hr_jobs_users` VALUES (16, 'John', 'Doe', 'tony@gmail.com', '$2y$10$yZbInr5l3/k6.RGfHEPhd.WgZ/Z5XBPS50AztmdiH/ESPkWpUxbVi', '0fc14e79d23bfe1fc24e085b4a95ea6886fc4c39cc81c42810a9d738fe950bf412e0e04f945bea3b', NULL, '2019-09-28 15:59:48.440007');
-INSERT INTO `hr_jobs_users` VALUES (17, 'Jane', 'Doe', 'peter@gmail.com', '$2y$10$8GYZYvl0oREWIbXCJGaiJuurRSAOvA8oof0RTOv2SDWJr0L6bSiVC', NULL, '2019-09-26 17:22:50.000000', NULL);
-INSERT INTO `hr_jobs_users` VALUES (18, 'Jane', 'Doe', 'petpoer@gmail.com', '$2y$10$3NRBm3/hQyRCirfhmnZ7V.dZglOFt0ly8ZSO9QpB7WSnsl/BKZWE2', NULL, '2019-09-26 17:26:06.000000', NULL);
-INSERT INTO `hr_jobs_users` VALUES (19, 'Jane', 'Doe', 'tonyadfafdfa@gmail.com', '$2y$10$pEmn7wROUEyYZ5pXIzbUg.QfO4PlL/dAruLCaBAf/6co7tviBM9Va', NULL, '2019-09-27 07:54:58.000000', NULL);
-INSERT INTO `hr_jobs_users` VALUES (20, 'Jane', 'Doe', 'tonyaddfafdadafafdfa@gmail.com', '$2y$10$NKIXJiFwrjiPLAFGpPNTTuobLheF5Q2OQJa9jQhkfLjTy3zyBeVPm', NULL, '2019-09-27 07:55:16.000000', NULL);
-INSERT INTO `hr_jobs_users` VALUES (21, 'peter', 'chege', 'peterchege442@gmail.com', '$2y$10$adJVoy2h6I16omQbQwxZdu72IQ6gmp8nGZ1HqbMBi3SAlELr2Xul.', NULL, '2019-09-27 14:11:21.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (9, 'tony', 'tony', 'anthony@gmail.com', '$2y$10$41bKaflVtmX5uQff1xbpmO.CZTSrE99ldXsA4mKY1Jw/EDwsBTAMq', NULL, NULL, '5ba66107001c15480811b33027e88241f72e7d3567857d40fb1560d84f1d6c8e315d61d62a39fde0', NULL, '2019-09-30 12:19:08.534031');
+INSERT INTO `hr_jobs_users` VALUES (10, 'chege', 'chege', 'chege@gmail.com', '$2y$10$IDEVyytSrpnUkFa1qXpU0Ou4IjRVVXE/8d8101niiUlMWbFN699nq', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `hr_jobs_users` VALUES (16, 'John', 'Doe', 'tony@gmail.com', '$2y$10$yZbInr5l3/k6.RGfHEPhd.WgZ/Z5XBPS50AztmdiH/ESPkWpUxbVi', NULL, NULL, '0fc14e79d23bfe1fc24e085b4a95ea6886fc4c39cc81c42810a9d738fe950bf412e0e04f945bea3b', NULL, '2019-09-28 15:59:48.440007');
+INSERT INTO `hr_jobs_users` VALUES (17, 'Jane', 'Doe', 'peter@gmail.com', '$2y$10$8GYZYvl0oREWIbXCJGaiJuurRSAOvA8oof0RTOv2SDWJr0L6bSiVC', NULL, NULL, NULL, '2019-09-26 17:22:50.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (18, 'Jane', 'Doe', 'petpoer@gmail.com', '$2y$10$3NRBm3/hQyRCirfhmnZ7V.dZglOFt0ly8ZSO9QpB7WSnsl/BKZWE2', NULL, NULL, NULL, '2019-09-26 17:26:06.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (19, 'Jane', 'Doe', 'tonyadfafdfa@gmail.com', '$2y$10$pEmn7wROUEyYZ5pXIzbUg.QfO4PlL/dAruLCaBAf/6co7tviBM9Va', NULL, NULL, NULL, '2019-09-27 07:54:58.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (20, 'Jane', 'Doe', 'tonyaddfafdadafafdfa@gmail.com', '$2y$10$NKIXJiFwrjiPLAFGpPNTTuobLheF5Q2OQJa9jQhkfLjTy3zyBeVPm', NULL, NULL, NULL, '2019-09-27 07:55:16.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (21, 'peter', 'chege', 'peterchege4432@gmail.com', '$2y$10$adJVoy2h6I16omQbQwxZdu72IQ6gmp8nGZ1HqbMBi3SAlELr2Xul.', NULL, NULL, NULL, '2019-09-27 14:11:21.000000', '2019-10-22 16:27:34.824171');
+INSERT INTO `hr_jobs_users` VALUES (22, '', '', 'p@gmail.com', '', 16, '5f4576b4747d20c5a3132e9171f655308c9903f152124bf31e8f48e083c638d2dfa3de430bc39ad0', NULL, '2019-10-22 12:56:24.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (25, '', '', 'pdfkljads@gmail.com', '', 16, '9e54c60cd4208e38ed6b92b1083a93ce3a9fa0704cc2687fb5cf396ef81f52b548b09008629f633b', NULL, '2019-10-22 12:59:14.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (26, '', '', 'anthonybaru@gmail.com', '', 16, '325d926abcaf55cf7abb4515cb21b0f670fb00f96ced39d5f283eb846a7766d4cf1c8b06fbc0e5a6', NULL, '2019-10-22 13:46:48.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (27, '', '', 'anthonybaru@gmail.comt', '', 16, 'd9f7b860923c15a1294d2fbad76eb54767e1bab694e6b80d801ce5a6363e29342513f4515da9c2cc', NULL, '2019-10-22 13:56:32.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (28, '', '', 'anthonybaru@gmail.comtry', '', 16, 'b58663bb1b5594c7877096b9b96a1394a4a2e3a7bf0ce7d4327f9c00505f5fcdfe915dfd61fc8f12', NULL, '2019-10-22 14:01:08.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (29, '', '', 'alkdjfla@gm.cow', '', 16, 'd687f4c20a95b9e6fff371f0e291eaf3ca0b463aa289e92a3eb6a8519e353c4c5cc0cc8b277e2de3', NULL, '2019-10-22 14:26:18.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (30, '', '', 'alkdjfla@gm.cowy', '', 16, '509c52e35342244514717e80764d6ca8cfe05aec4362ccd92f3d379f1dbf03216c2c5a8d9adbc346', NULL, '2019-10-22 14:42:32.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (31, '', '', 'alkdjfla@gm.cowyfgh', '', 16, '85e9f2130fbecf2fbfe480cec97a5f9c3c67509e19a51e740562b6548726b1c0164ad0d957f46f3d', NULL, '2019-10-22 14:46:47.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (32, '', '', 'fakdfjkahakfjhaf@gmail.com', '', 16, '11923f5b38a69545e74877d5efa24ff67aec385ae3d1c118ab9c9f22cf8972be5a831072eb453e78', NULL, '2019-10-22 15:17:47.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (33, '', '', 'kafd@gm.co', '', 16, 'fe541a8293c310f8a55aeecd111f8a6944adc5594746a473716127ff5466b10f5de9f3dbe665b2de', NULL, '2019-10-22 15:19:56.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (34, '', '', 'akjdfha@gmai.co', '', 16, '6e6314a6dec12953a173c6b8d0ba7f2f68fe10763e2d8ecd368892a332ce587869ef5727dae7bf10', NULL, '2019-10-22 15:50:35.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (35, 'range', 'range', 'p@gmial.com', '$2y$10$6zqXysnyLzeewse21c7yIOon5LI3FzGeA75QiX41sxtyqYt6xNMUO', 16, 'Registred', NULL, '2019-10-22 17:34:35.000000', '2019-10-22 17:34:35.501333');
+INSERT INTO `hr_jobs_users` VALUES (36, '', '', 'peterchege442@gmail.com', '', 16, '940f9aaeaa6cceae1d0fab8a93e58463e7c2c50d50be743fd37185038361ef0f9cfd5a616f0b510c', NULL, '2019-10-22 16:27:38.000000', NULL);
+INSERT INTO `hr_jobs_users` VALUES (37, '', '', 'fakfdj!Q@gmail.com', '', 16, 'd023ac7ba797e90bba29d2b5a6f609af83a695b1b2596d0fd27baa447f11fa5040358283e69bfd8f', NULL, '2019-10-22 16:54:25.000000', NULL);
 
 -- ----------------------------
 -- Table structure for media_centre_admin_registration
