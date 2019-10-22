@@ -201,13 +201,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center ">
+                                                <div class="load-more text-center">
                                                     <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                        Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -642,7 +643,8 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I Need Assistance</a>
+                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    Need Assistance</a>
                                             </div>
                                         </div>
                                     </div>
@@ -667,7 +669,7 @@
 
     <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
     <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
+    <div id="modal-close-outside" class="back-brochure" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
 
@@ -675,34 +677,38 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
-                        <h2>Browsure</h2>
+                    <a href=" pdf/brochure/Jamii Plus Brochure.pdf" target="_blank"">
+                        <h2> <i class=" fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
-                        <p>Dowload</p>
+                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+
+
+
                     </a>
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Claim Form</h2>
+                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
+                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Outpatient Claim Form</p>
                         <hr>
-                        <p>Dowload</p>
+                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+
                     </a>
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
-                        <h2>Calim Form</h2>
+                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
+                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
                         <hr>
-                        <p>Dowload</p>
+                        <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
                 </div>
 
@@ -713,34 +719,27 @@
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
                     <a href="#">
-                        <h2>Claim Form</h2>
+                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Dental authorization</p>
                         <hr>
-                        <p>Dowload</p>
+                        <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
                 </div>
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
                     <a href="#">
-                        <h2>Claim Form</h2>
+                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Optical Claim Form</p>
                         <hr>
-                        <p>Dowload</p>
+                        <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
                 </div>
 
-                <!-- Claim Form -->
-                <div class="col-md-3 box-download">
-                    <a href="pdf/jamii">
-                        <h2>Calim Form</h2>
-                        <hr>
-                        <p>Inpatient Claim form</p>
-                        <hr>
-                        <p>Dowload</p>
-                    </a>
+                <div class="offset-3">
+
                 </div>
 
             </div>
@@ -756,28 +755,29 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
-                    <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+                    <form class="form-container" id="form-jp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
@@ -787,38 +787,40 @@
 
                         </div>
                         <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">COVER DETAILS</h3>
-                        </div>
 
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> DOB (optional) </label>
+                                    <label for="make"> Inpatient Benefit (Kshs)</label>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                        <option value="-1" selected disabled>Choose...</option>
+                                        <option data-ref="owner" name="" value="">Kshs 2,000,000
+                                        </option>
+                                        <option data-ref="owner" name="" value="">Kshs 1,000,000
+                                        </option>
+                                        <option data-ref="tenant" name="" value="">Kshs 750,000
+                                        </option>
+                                        <option data-ref="tenant" name="" value="">Kshs 500,000
+                                        </option>
+                                        <option data-ref="tenant" name="" value="">Kshs 300,000
+                                        </option>
+                                        <option data-ref="tenant" name="" value="">Kshs 100,000
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="make"> Your Age category</label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="model">Name of Beneficiary</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                                <div class="form-group col-md-12">
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
                                 </div>
+                            </div>
 
-                                <div class="form-group col-md-6">
-                                    <label for="value">DOB of Beneficiaries </label>
-                                    <input name="value" type="date" class="form-control" id="value" placeholder="1,400,000" value="" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class=" form-group col-md-6">
-                                    <label for="yom">Relationship of Beneficiary</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required>
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <br>
-                                    <button type="submit" name="request" class="btn btn-secondary">Add Another beneficiary</button>
-                                </div>
-                            </div>
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">
@@ -826,7 +828,64 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
+
+    <div id="modal-full_r" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -836,6 +895,7 @@
             </div>
         </div>
     </div>
+
     <?php
     require_once 'inc/scripts.php';
     ?>
