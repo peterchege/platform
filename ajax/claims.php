@@ -1794,12 +1794,7 @@ switch ($_GET['request']) {
                     }
                     echo json_encode($response);
                     break;
-
-
-
-
-
-
+                    
                 default:
                     # code...
                     break;
