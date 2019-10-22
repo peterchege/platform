@@ -1,217 +1,206 @@
 @font-face {
-    src: url(../font/trebuchetms.ttf);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    src: url(../font/trebuc.ttf);
-    font-family: trebuchet;
-    src: url(../font/trebuchetms.ttf);
-    font-family: trebuchet;
-    src: url(../font/trebuchetms.ttf);
-    font-family: trebuchet;
-    src: url(../font/trebuchetms.ttf);
-    font-family: trebuchet;
+	src: url(../font/trebuchetms.ttf);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	src: url(../font/trebuc.ttf);
+	font-family: trebuchet;
+	src: url(../font/trebuchetms.ttf);
+	font-family: trebuchet;
+	src: url(../font/trebuchetms.ttf);
+	font-family: trebuchet;
+	src: url(../font/trebuchetms.ttf);
+	font-family: trebuchet;
 }
 
-.room-wrapper{
-    margin: 5% auto;
-    
+.room-wrapper {
+	margin: 5% auto;
 }
 
-.room-container{
-    margin: 10% auto;
-    width: 90%;
-    height: 250px;
-    border-radius: 20px;
-    -webkit-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
-    box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+.room-container {
+	margin: 10% auto;
+	width: 90%;
+	height: 250px;
+	border-radius: 20px;
+	-webkit-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+	-moz-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
+	box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
 }
 
 .color-overlay-apollo {
-    width: 84.5%;
-    height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-    position: absolute;
-    border-radius: 20px;
+	width: 84.5%;
+	height: 250px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+	position: absolute;
+	border-radius: 20px;
 }
 
-.content-centre h1{
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 45%;
-    color: #fff;
-    position: relative;
-
+.content-centre h1 {
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 45%;
+	color: #fff;
+	position: relative;
 }
 
-.content-bottom p{
-    height: 170px;
+.content-bottom p {
+	height: 170px;
 }
 
-.apollo-btn .btn-primary{
-    background-color: #0D345F;
-    border: 1px solid #0D345F;
-    border-radius: 20px;
-    font-size: 10px;
-    padding: 10px 15px;
-    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
-    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
-    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+.apollo-btn .btn-primary {
+	background-color: #0d345f;
+	border: 1px solid #0d345f;
+	border-radius: 20px;
+	font-size: 10px;
+	padding: 10px 15px;
+	-webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+	-moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+	box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
 
 .apollo-btn .gallery-btn {
-    background-color: slategray;
-    border: 1px solid slategray;
+	background-color: slategray;
+	border: 1px solid slategray;
 }
 
 .img-shimba {
-    background-image: url(../images/shimba/img5.jpg);
-    background-size: cover;
+	background-image: url(../images/shimba/img5.jpg);
+	background-size: cover;
 }
 
 .img-Chyullu {
-    background-image: url(../images/chyullu/img2.jpg);
-    background-size: cover;
+	background-image: url(../images/chyullu/img2.jpg);
+	background-size: cover;
 }
 
 .img-Cherengani {
-    background-image: url(../images/cherengani/img6.jpg);
-    background-size: cover;
+	background-image: url(../images/cherengani/img6.jpg);
+	background-size: cover;
 }
 
 .img-Entertainment {
-    background-image: url(../images/Entertainment/img11.jpg);
-    background-size: cover;
+	background-image: url(../images/Entertainment/img11.jpg);
+	background-size: cover;
 }
-
 
 /* BOOKING MODAL */
 
-.form-container{
-    margin-top: -50px;
+.form-container {
+	margin-top: -50px;
 }
 
 .form-container h3 {
-    font-family: 'Oswald',
-    sans-serif;
-    color: #0D345F;
-    font-size: 20px;
-    /* margin-top: -10px; */
+	font-family: 'Oswald', sans-serif;
+	color: #0d345f;
+	font-size: 20px;
+	/* margin-top: -10px; */
 }
 
-.form-container label{
-    font-size: 14px;
-        font-family: 'Trebuchet MS',
-        'Lucida Sans Unicode',
-        'Lucida Grande',
-        'Lucida Sans',
-        Arial,
-        sans-serif;
-
+.form-container label {
+	font-size: 14px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.comp-detail{
-    margin-top: 2px;
-    padding-left: 12px;
+.comp-detail {
+	margin-top: 2px;
+	padding-left: 12px;
 }
 
 .book-btn .btn-primary {
-    background-color: #0D345F;
-    border: 1px solid #0D345F;
-    border-radius: 20px;
-    font-size: 15px;
-    padding: 10px 15px;
-    margin-top: 20px;
-    width: 100%;
-    -webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
-    -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
-    box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+	background-color: #0d345f;
+	border: 1px solid #0d345f;
+	border-radius: 20px;
+	font-size: 15px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	width: 100%;
+	-webkit-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+	-moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
+	box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
 
 .space-up .room-wrapper {
-    margin-top: -40px;
+	margin-top: -40px;
 }
 
 /*--------------------------------------------------------------
 # GALLERY VIEW
 --------------------------------------------------------------*/
-.gallery-banner{
-    width: 100%;
-    height: 65vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.gallery-banner {
+	width: 100%;
+	height: 65vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .gallery-banner::after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    height: 64.5%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+	content: '';
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	height: 64.5%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .shimba-banner {
-    background-image: url(../images/shimba/img7.jpg);
+	background-image: url(../images/shimba/img7.jpg);
 }
 .chyullu-banner {
-    background-image: url(../images/chyullu/img2.jpg);
+	background-image: url(../images/chyullu/img3.jpg);
 }
 .ngong-banner {
-    background-image: url(../images/shimba/img7.jpg);
+	background-image: url(../images/shimba/img7.jpg);
 }
 
-.gallery-view{
-    width: 90%;
-    height: 250px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 20px;
-    transition: transform 1.5s;
-    cursor: pointer;
-    -webkit-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
-    -moz-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
-    box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+.gallery-view {
+	width: 90%;
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+	transition: transform 1.5s;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+	-moz-box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
+	box-shadow: 2px 3px 14px 3px rgba(13, 52, 95, 0.5);
 }
 
 /* SHIMBA HILLS GALLERY IMAGE */
-.view-1{
-    background-image: url(../images/shimba/img8.jpg);
+.view-1 {
+	background-image: url(../images/shimba/img8.jpg);
 }
 .view-2 {
-    background-image: url(../images/shimba/img3.jpg);
+	background-image: url(../images/shimba/img3.jpg);
 }
 .view-3 {
-    background-image: url(../images/shimba/img4.jpg);
+	background-image: url(../images/shimba/img4.jpg);
 }
 .view-4 {
-    background-image: url(../images/shimba/img1.jpg);
+	background-image: url(../images/shimba/img1.jpg);
 }
 .view-5 {
-    background-image: url(../images/shimba/img6.jpg);
+	background-image: url(../images/shimba/img6.jpg);
 }
 .view-6 {
-    background-image: url(../images/shimba/img9.jpg);
+	background-image: url(../images/shimba/img9.jpg);
 }
 
-
 .gallery-view:hover {
-   transform: scale(1.12);
-  -webkit-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
-  -moz-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
-  box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
+	transform: scale(1.12);
+	-webkit-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
+	-moz-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
+	box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
 }
 
 .gallery-container .col-md-4 {
-     margin: 3% auto;
+	margin: 3% auto;
 }
 
-.gallery-book  {
-    margin-top: 1%;
-    width: 40%;
-    font-size: 24px;
-} 
+.gallery-book {
+	margin-top: 1%;
+	width: 40%;
+	font-size: 24px;
+}
