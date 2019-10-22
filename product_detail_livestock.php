@@ -335,7 +335,7 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM............ammended.pdf">
+                    <a href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM............ammended.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
                         <hr>
                         <p>Livestock Proposal form</p>
@@ -346,8 +346,8 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="">
-                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
+                    <a href=" pdf/claim/LIVESTOCK INSURANCE CLAIM FORM............ammended.pdf" target="_blank"">
+                        <h2> <i class=" fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Livestock Claim form</p>
                         <hr>
