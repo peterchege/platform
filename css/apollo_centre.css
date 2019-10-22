@@ -197,6 +197,26 @@
 	background-image: url(../images/shimba/img9.jpg);
 }
 
+/* CHYULLU HILLS GALLERY IMAGE */
+.chyullu-view-1 {
+	background-image: url(../images/chyullu/img1.jpg);
+}
+.chyullu-view-2 {
+	background-image: url(../images/chyullu/img2.jpg);
+}
+.chyullu-view-3 {
+	background-image: url(../images/chyullu/img3.jpg);
+}
+.chyullu-view-4 {
+	background-image: url(../images/chyullu/img4.jpg);
+}
+.chyullu-view-5 {
+	background-image: url(../images/chyullu/img5.jpg);
+}
+.chyullu-view-6 {
+	background-image: url(../images/chyullu/img6.jpg);
+}
+
 .gallery-view:hover {
 	transform: scale(1.12);
 	-webkit-box-shadow: 2px 3px 14px 2px rgba(200, 13, 16, 0.4);
