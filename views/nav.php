@@ -244,19 +244,30 @@
                                                 Hills
                                                 (18px)</a>
                                         </li>
-                                        <li><a href="#"><i class="fas fa-handshake"></i> Taita Hills (10-12px)</a></li>
-                                        <li><a href="#"><i class="fas fa-handshake"></i> Ngong Hills (8px)</a></li>
+                                        <li><a href="apollo_centre_taita.php"><i class="fas fa-handshake"></i> Taita
+                                                Hills
+                                                (10-12px)</a></li>
+                                        <li><a href="apollo_centre_ngong.php"><i class="fas fa-handshake"></i> Ngong
+                                                Hills
+                                                (8px)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">ROOMS:</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"><i class="fas fa-hotel"></i> Chyullu Hills - Auditorium
+                                        <li><a href="apollo_centre_chyullu.php"><i class="fas fa-hotel"></i> Chyullu
+                                                Hills
+                                                -
+                                                Auditorium
                                                 (40px)</a></li>
-                                        <li><a href="#"><i class="fas fa-hotel"></i> Cherengani Hills - Training
+                                        <li><a href="apollo_centre_cherengani.php"><i class="fas fa-hotel"></i>
+                                                Cherengani Hills -
+                                                Training
                                                 Room</a></li>
-                                        <li><a href="#"><i class="fas fa-hotel"></i> Entertainment Area</a></li>
+                                        <li><a href="apollo_centre_entertainment.php"><i class="fas fa-hotel"></i>
+                                                Entertainment Area</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
