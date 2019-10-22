@@ -749,7 +749,7 @@
     </div>
 
 
-    <!-- ===================================== LEAD FORM FOR JAMII PLUS ===================================== -->
+    <!-- ===================================== LEAD FORM FOR AFYA NAFUU ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
