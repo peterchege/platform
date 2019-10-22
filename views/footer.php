@@ -33,7 +33,7 @@
                     <h4>PORTALS</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                        https://portal.apainsurance.org/TurnQuestClient/" target="_target">Life Cleint Portal</a>
+                        https://portal.apainsurance.org/TurnQuestClient/" target="_target">APA Life Cleint Portal</a>
                         </li>
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a> -->
