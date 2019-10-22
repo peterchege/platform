@@ -812,7 +812,21 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> Your Age category</label>
-                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                    <select id="age" name="age" class="form-control" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option value="18 - 23"> 20 - 24 yrs</option>
+                                        <option value="24 - 25"> 25 - 29 yrs</option>
+                                        <option value="30 - 34"> 30 - 34 yrs</option>
+                                        <option value="35 - 39"> 35 - 39 yrs</option>
+                                        <option value="40 - 44"> 40 - 44 yrs</option>
+                                        <option value="45 - 49"> 45 - 49 yrs</option>
+                                        <option value="50 - 54"> 50 - 54 yrs</option>
+                                        <option value="55 - 59"> 55 - 59 yrs</option>
+                                        <option value="60 - 64"> 60 - 64 yrs</option>
+                                        <option value="65 - 69"> 65 - 69 yrs</option>
+                                        <option value="70 - 75"> 70 - 75 yrs</option>
+                                        <option value="76 - 80"> 76 - 80 yrs</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="row">

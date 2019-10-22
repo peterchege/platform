@@ -65,67 +65,7 @@
                                     application form and one is covered.</P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT AFYA NAFUU CATERS FOR:</h2>
-
-                                    <div class="row cover-jamii">
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-procedures"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Bed Charges</h3>
-                                                    <p>Including all accommodation expenses net of NHIF during your stay in the
-                                                        hospital. Whether in the Wards, HDU or ICU.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-pills"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Medication</h3>
-                                                    <p>All prescribed drugs and dressings through our designated partners.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-user-md"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Doctor’s Fees</h3>
-                                                    <p>Any doctorrelated charges including those of physicians, surgeons, anesthetists
-                                                        and specialists for visits and consultations.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-stethoscope"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Diagnostics</h3>
-                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT Scans</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
-
+                
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Inpatient cover is the core cover.</p>
@@ -400,63 +340,38 @@
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
                                     <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
                                     <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-6">
+                                <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
                         </div>
-                        <hr>
 
                         <div class="container">
+                            
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> Inpatient Benefit (Kshs)</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="" value="">Kshs 2,000,000
-                                        </option>
-                                        <option data-ref="owner" name="" value="">Kshs 1,000,000
-                                        </option>
-                                        <option data-ref="tenant" name="" value="">Kshs 750,000
-                                        </option>
-                                        <option data-ref="tenant" name="" value="">Kshs 500,000
-                                        </option>
-                                        <option data-ref="tenant" name="" value="">Kshs 300,000
-                                        </option>
-                                        <option data-ref="tenant" name="" value="">Kshs 100,000
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="make"> Your Age category</label>
+                                    <label for="make"> Your Age </label>
                                     <input name="make" type="date" class="form-control" id="make" value="" required>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
-                                </div>
-                            </div>
-
+        
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="14">

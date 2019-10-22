@@ -36,24 +36,19 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab"
-                                aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
+                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -218,21 +213,17 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                        uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger"
-                                                        data-target="#modal-close-outside"
-                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
-                                                        uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -709,14 +700,12 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                    uk-toggle>Get Cover</a>
+                                                <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="load-more text-center">
-                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
-                                                    uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -833,8 +822,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -845,42 +833,33 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="john doe"
-                                        placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="07xx 343 xx7" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="john@example.com" value="" required data-parsley-type="email"
-                                        data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
                         </div>
                         <hr>
-                        <!-- <div class="form-group col-md-12">
-                            <h3 for="inputAddress">COVER DETAILS</h3>
-                        </div> -->
 
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> Inpatient Benefit (Kshs)</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter"
-                                        data-target="section" required>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option data-ref="owner" name="all_covers" value="All Covers">Kshs 10,000,000
                                         </option>
@@ -898,14 +877,26 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> Your Age category</label>
-                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                    <select id="age" name="age" class="form-control" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option value="18 - 23"> 20 - 24 yrs</option>
+                                        <option value="24 - 25"> 25 - 29 yrs</option>
+                                        <option value="30 - 34"> 30 - 34 yrs</option>
+                                        <option value="35 - 39"> 35 - 39 yrs</option>
+                                        <option value="40 - 44"> 40 - 44 yrs</option>
+                                        <option value="45 - 49"> 45 - 49 yrs</option>
+                                        <option value="50 - 54"> 50 - 54 yrs</option>
+                                        <option value="55 - 59"> 55 - 59 yrs</option>
+                                        <option value="60 - 64"> 60 - 64 yrs</option>
+                                        <option value="65 - 69"> 65 - 69 yrs</option>
+                                        <option value="70 - 75"> 70 - 75 yrs</option>
+                                        <option value="76 - 80"> 76 - 80 yrs</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label> <input name="make"
-                                            type="number" class="form-control" id="make" placeholder="3" value=""
-                                            required>
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
                                 </div>
                             </div>
 
@@ -916,8 +907,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                            class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -933,8 +923,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -945,27 +934,22 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="john@example.com" value="" required data-parsley-type="email"
-                                        data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1">Message</label>
@@ -979,8 +963,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
