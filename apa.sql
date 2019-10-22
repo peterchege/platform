@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 16/10/2019 18:29:02
+ Date: 17/10/2019 16:58:40
 */
 
 SET NAMES utf8mb4;
@@ -331,7 +331,7 @@ CREATE TABLE `claims_life`  (
   `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `life_claim_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `claim_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `completed_form` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `national_id_passport` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `hospital_dishcharge_summary` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
@@ -419,6 +419,39 @@ INSERT INTO `claims_motor` VALUES (48, 'Jane Doe', '712365478', 'janedoe@gmail.c
 INSERT INTO `claims_motor` VALUES (49, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'uoi', 6, 14, 'windscreen', '2019-10-15 15:07:37.000000', NULL);
 INSERT INTO `claims_motor` VALUES (50, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'lk', 6, 14, 'theft', '2019-10-15 15:22:04.000000', NULL);
 INSERT INTO `claims_motor` VALUES (51, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'KBC 123J', 'ko', 6, 14, 'theft', '2019-10-15 15:56:00.000000', NULL);
+
+-- ----------------------------
+-- Table structure for claims_personal_property
+-- ----------------------------
+DROP TABLE IF EXISTS `claims_personal_property`;
+CREATE TABLE `claims_personal_property`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `claim_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `full_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `location` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `claim_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `completed_form` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `police_abstract` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `invoice` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `detailed_statement` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `created_at` timestamp(6) NULL DEFAULT NULL,
+  `dosh_one_two` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `dosh_four` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `post_mortem` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `vet_loss_certificate` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `dead_livestock_photo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of claims_personal_property
+-- ----------------------------
+INSERT INTO `claims_personal_property` VALUES (1, '3RhpXFMspm', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Personal Property Damage', 'johndoe@gmail.com-----3RhpXFMspm----completed form----sample.pdf', ' johndoe@gmail.com-----3RhpXFMspm----police abstract----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----proforma invoice----sample.pdf', 'johndoe@gmail.com-----3RhpXFMspm----detailed statement----sample.pdf', '2019-10-17 15:03:56.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (2, '5w0ZvcD6Cw', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Injuries - Wiba', NULL, NULL, NULL, NULL, '2019-10-17 15:55:08.000000', 'johndoe@gmail.com-----5w0ZvcD6Cw----completed form----sample.pdf', ' johndoe@gmail.com-----5w0ZvcD6Cw----police abstract----sample.pdf', NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (3, 'i6sLbfYGFr', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Crop Claim', 'johndoe@gmail.com-----i6sLbfYGFr----completed form----sample.pdf', NULL, NULL, NULL, '2019-10-17 16:04:25.000000', NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `claims_personal_property` VALUES (4, 'lpYqENIBn', 'John Doe', '0712345678', 'johndoe@gmail.com', 'Mombasa', 'Livestock Claim', 'johndoe@gmail.com-----lpYqENIBn----completed form----sample.pdf', NULL, NULL, NULL, '2019-10-17 16:51:07.000000', NULL, NULL, ' johndoe@gmail.com-----lpYqENIBn----post mortem report----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----vet loss certificate----sample.pdf', 'johndoe@gmail.com-----lpYqENIBn----dead livestock photo----sample.pdf');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users

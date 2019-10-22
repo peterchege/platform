@@ -263,7 +263,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"  data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
@@ -376,7 +376,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value=""  data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"  data-parsley-trigger="keyup"  required>
                                 </div>
                             </div>
 
@@ -457,7 +457,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value=""  data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"  data-parsley-trigger="keyup"  required>
                                 </div>
                             </div>
 
@@ -482,53 +482,53 @@
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="completed_medical_report">Attach document : completed claim form <a href="pdf/claim/GPA CLAIM FORM.pdf" target="_blank">(click here to
+                                    <label for="personal_accident_claim_form">Attach document : completed claim form <a href="pdf/claim/GPA CLAIM FORM.pdf" target="_blank">(click here to
                                             download
                                             a
                                             claim
                                             form)</a> </label>
-                                    <input name="completed_medical_report" type="file" class="form-control-file" id="completed_medical_report" required>
+                                    <input name="personal_accident_claim_form" type="file" class="form-control-file" id="personal_accident_claim_form" required>
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Statements </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Payslip </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : National ID Card </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="detailed_statement">Attach document : Statements </label>
+                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Sick Sheet<br> (Optional)</label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="payslips">Attach document : Payslip </label>
+                                    <input name="payslips" type="file" class="form-control-file" id="payslips" required>
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Medical Bill (Optional) </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="national_id">Attach document : National ID Card </label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Discharge Summary </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="sick_sheet">Attach document : Sick Sheet<br> (Optional)</label>
+                                    <input name="sick_sheet" type="file" class="form-control-file" id="sick_sheet" required>
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="resume">Attach document : Police Abstract </label>
-                                    <input name="resume" type="file" class="form-control-file" id="resume" required>
+                                    <label for="medical_bill">Attach document : Medical Bill (Optional) </label>
+                                    <input name="medical_bill" type="file" class="form-control-file" id="medical_bill" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="discharge_summary">Attach document : Discharge Summary </label>
+                                    <input name="discharge_summary" type="file" class="form-control-file" id="discharge_summary" required>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="police_abstract">Attach document : Police Abstract </label>
+                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
 
@@ -572,7 +572,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value=""  data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"  data-parsley-trigger="keyup"  required>
                                 </div>
                             </div>
 
@@ -666,7 +666,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value=""  data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"  data-parsley-trigger="keyup"  required>
                                 </div>
                             </div>
 
