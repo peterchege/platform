@@ -36,14 +36,11 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> OVERVIEW </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bonds" role="tab" aria-controls="bonds" aria-selected="false"> FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
@@ -57,139 +54,97 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Workman's Compensation </h2>
-                                <P class="text-justify">We cover accidental death or disablement to the insured and offers compensation payable to the insured or to his legal representative in
-                                    accordance with the sum insured and scale of compensation agreed and specified in the policy schedule. The age requirements for this policy is above 15 years
-                                    and below 65 years. Policy can be given to individuals or groups.
+                                <h2> Bonds </h2>
+                                <P class="text-justify">A Bond is A written legal contract executed under
+                                    seal whereby the person or persons
+                                    entering into it bind themselves to pay
+                                    to some other person or body a specified
+                                    sum of money, known as Penalty if the
+                                    bond, if any of the conditions of the bond
+                                    are not performed
+
                                 </P>
-                                <P class="text-justify">We also provide a student’s personal accident cover to individuals, schools and organized groups on reasonable premium terms. Special
-                                    group covers are available as personal accident covers which include work related occupational illness.
-                                </P>
+
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
-
-                                    <div class="row cover-jamii">
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-procedures"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Bed Charges</h3>
-                                                    <p>Including all accommodation expenses net of NHIF during your stay in the
-                                                        hospital. Whether in the Wards, HDU or ICU.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-pills"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Medication</h3>
-                                                    <p>All prescribed drugs and dressings through our designated partners.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-user-md"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Doctor’s Fees</h3>
-                                                    <p>Any doctorrelated charges including those of physicians, surgeons, anesthetists
-                                                        and specialists for visits and consultations.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-stethoscope"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Diagnostics</h3>
-                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT Scans</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
 
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
+                                        <h2>Why Bonds?</h2>
+                                        <p2>Bonds provide a guarantee that projects will be completed as expected – even
+                                            if the contractor fails.
+                                        </p2>
+                                        <br><br>
+                                        <p2>Bonds are an inexpensive way to protect the public interest and assure
+                                            contracts are completed on time, for the agreed upon price.
+                                        </p2>
                                         <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <h2>Type of Bonds</h2>
+                                        <p> Tender Bonds </p>
+                                        <p2>This tender bond (or bid bond) is for use where a Procuring entity is
+                                            obtaining tenders for a contract and requires a bond as security
+                                            against the risk of the successful bidder failing to enter into the
+                                            contract. It gives the beneficiary the right to call the bond on demand
+                                            within a specified period and for a maximum specified amount.
+                                        </p2>
+                                        <p> Advance Payment Bond </p>
+                                        <p2>This is a down payment given to the principal by the obligee to ensure
+                                            that he will perform his obligation as mentioned in the contract. Advance
+                                            payment bond guarantees the obligee to complete his contract as per the
+                                            agreement covering loss only when the principal cannot be able to refund
+                                            the amount given by the obligee.
+                                        </p2>
+                                        <p> Performance Bonds </p>
+                                        <p2>A performance bond is a surety bond issued by an insurance company or a
+                                            bank to guarantee satisfactory completion of a project by a principal.
+                                            If the principal fails to perform according to the specifications laid
+                                            out by the contract (most often due to the bankruptcy of the principal)
+                                            the client (obligee) is guaranteed compensation for any monetary loss up
+                                            to the amount of the performance bond.
+                                        </p2>
+                                        <p> Work Permits/Security Bond </p>
+                                        <p2>This is a legal authorization which allows a person to take employment in
+                                            instances where a person is given permission to work in a country where
+                                            one does not hold citizenship.
+                                        </p2><br><br>
+                                        <p2>The first surety should be the firm employing such a person and the second
+                                            surety is the Ins Co. It is the responsibility of the first surety to write
+                                            to immigration when such persons leave the organization for the bond to be
+                                            cancelled. It is renewable in Kenya after every two years.
+                                        </p2>
+                                        <p> Customs Bonds </p>
+                                        <p2>This is a guarantee from a
+                                            surety to the Government that the Principal will
+                                            faithfully abide by all Laws and regulations governing
+                                            the payment of Customs revenue together with the
+                                            proper carrying on of business in dutiable articles.
+                                            There are two classes of Bonds namely;
+                                            <ol>
+                                                <li>
+                                                    <b>Particular bonds</b> - These are executed to
+                                                    cover one specific transaction
+                                                </li>
+                                                <li>
+                                                    <b>General Bonds </b>- These are executed to cover
+                                                    a number of transactions over an unspecified
+                                                    period of time.
 
+                                                </li>
+                                            </ol>
+                                        </p2>
+                                        <p> Validity of Customs Bonds </p>
+                                        <p2>Customs bonds do not expire. They are valid from the time of proper
+                                            execution up to the time of bond discharge by the parties to the bond.
+                                            Read Section 108 of the EAC Customs mgt Act and 109 on bond enforcement.
+                                        </p2>
+                                        <p> Financial Guarantee </p>
+                                        <p2>This is a first demand indemnity bond that is backed by an insurer in order
+                                            to guarantee an obligee that principal and interest payments will be made.
+                                            The guarantee provides additional level of comfort that the investment will
+                                            be repaid in the event that principal would not be able to fulfill the contractual
+                                            obligation to make timely payments.
+                                        </p2>
                                         <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 80 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
-
-                                        </ol><br>
+                                        <br>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
@@ -214,187 +169,88 @@
 
                         </div>
 
-                        <!-- FEATURES -->
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
-                            <div class="job-description text-center">
-                                <div class="job-content">
-                                    <div class="text-justify">
-                                        <h2 class="text-center">Main Features include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
-
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and recovery wards.
-                                            </li>
-
-                                        </ol><br>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
                         <!-- BENEFITS INPATIENT-->
 
-                        <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
+                        <div class="tab-pane fade" id="bonds" role="tabpanel" aria-labelledby="bonds-tab">
 
                             <div class="job-description text-center">
                                 <div class="job-content">
 
                                     <!-- TABLE OF BENEFITS OUTPATIENT -->
 
-                                    <h2>OUTPATIENT CORE PLANS</h2>
+                                    <h2>Types of Customs Bonds </h2>
                                     <hr>
                                     <table class="uk-table uk-table-hover uk-table-divider">
                                         <thead class="head-text">
                                             <tr>
-                                                <th>Annual Limits Per Person</th>
-                                                <th>50,000</th>
-                                                <th>75,000</th>
-                                                <th>100,000 </th>
-                                                <th>150,000 </th>
+                                                <th>Type </th>
+                                                <th>Definition</th>
+                                                <th>PB/GB</th>
+                                                <th>Duration</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Maximum Consultation Limit per visit</td>
-                                                <td>2,000</td>
-                                                <td>2,500</td>
-                                                <td>3,000 </td>
-                                                <td>3,000 </td>
+                                                <td>CB 1</td>
+                                                <td>delivery of perishable goods or other goods prior
+                                                    to payment of duty
+                                                </td>
+                                                <td>Both</td>
+                                                <td>PB – 48 hrs <br> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Physicians consultation fees</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
+                                                <td>CB(1A)</td>
+                                                <td>Delivery of project goods entered provisionally
+                                                    prior to payment of duty
+                                                </td>
+                                                <td>PB Only</td>
+                                                <td>90 Days</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Prescription drugs up to a maximum of 30 days</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
+                                                <td>CB 2</td>
+                                                <td>Removal of goods from one port or place to be
+                                                    examined and entered<br> at another port/place
+                                                </td>
+                                                <td>Both</td>
+                                                <td>PB – 48 hrs <br> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Specialists fees (strictly on referral by a GP)</td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,500 </td>
-                                                <td> Covered up to 4,000 </td>
-
+                                                <td>CB 3</td>
+                                                <td>Warehousing of goods or removal of warehouse goods
+                                                </td>
+                                                <td>Both</td>
+                                                <td>PB – 21 Days <br> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
+                                                <td>CB 4</td>
+                                                <td>Exportation of goods </td>
+                                                <td>Both</td>
+                                                <td>PB – 45 Days <br> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Physiotherapy prescribed by a GP</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
+                                                <td>CB 5</td>
+                                                <td>Shipment of stores e.g. provided to planes or ships </td>
+                                                <td>Both</td>
+                                                <td>PB – 30 Days <br> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
+                                                <td>CB 6</td>
+                                                <td>General bond for the security of warehoused goods </td>
+                                                <td>GB Only</td>
+                                                <td> GB – 3 Yrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions after
-                                                    12 months of cover & full disclosure at the time of joining</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
+                                                <td>CB 7</td>
+                                                <td>Shipment of goods prior to entry – goods are shipped and <br> documentation is done later
+                                                </td>
+                                                <td>PB Only</td>
+                                                <td> 96 Hrs</td>
                                             </tr>
-
                                             <tr>
-                                                <td>KEPI recommended vaccines covered for children upto 18 months</td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>General Health Check-up for members from Age 21 and above</td>
-                                                <td> 5,000 </td>
-                                                <td> 7,500 </td>
-                                                <td> 10,000 </td>
-                                                <td> 10,000 </td>
+                                                <td>CB 8</td>
+                                                <td>Transit Bond </td>
+                                                <td>GB Only</td>
+                                                <td> 3 Years</td>
                                             </tr>
 
                                         </tbody>
