@@ -28,7 +28,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="ngong-banner">
+    <div class="gallery-banner ngong-banner">
 
     </div>
     <div class="cover-line">

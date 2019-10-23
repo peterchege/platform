@@ -28,7 +28,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="shimba-banner">
+    <div class="gallery-banner taita-banner">
 
     </div>
     <div class="cover-line">

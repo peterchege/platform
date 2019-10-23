@@ -28,7 +28,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="shimba-banner">
+    <div class="gallery-banner entertainment-banner">
 
     </div>
     <div class="cover-line">
