@@ -252,6 +252,78 @@
                                                 <td>GB Only</td>
                                                 <td> 3 Years</td>
                                             </tr>
+                                            <tr>
+                                                <td>CB 9</td>
+                                                <td>Transshipment bond </td>
+                                                <td>Both </td>
+                                                <td> PB – 30 Days <br> GB – 3 Yrs </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 10</td>
+                                                <td>Re – exportation of imported goods delivered without payment of duty </td>
+                                                <td>PB Only </td>
+                                                <td> 1 Years </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 11</td>
+                                                <td>Bond for Customs Agents </td>
+                                                <td>GB Only </td>
+                                                <td> 3 years </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 12</td>
+                                                <td>Conveyance of goods subject to customs control </td>
+                                                <td>GB </td>
+                                                <td> GB – 3 Yrs </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 13</td>
+                                                <td>For goods imported for use in the production of goods for export</td>
+                                                <td>PB Only </td>
+                                                <td> GB – 3 Yrs </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 14</td>
+                                                <td>Removal of goods to and from an EPZ</td>
+                                                <td>GB </td>
+                                                <td>9 Months </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 16</td>
+                                                <td>For project goods imported and delivered without payment of duty</td>
+                                                <td>PB </td>
+                                                <td>1 Years </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CB 18</td>
+                                                <td>For security of goods in a transit shed or a Customs Freight Station</td>
+                                                <td>GB Only </td>
+                                                <td>Until retired </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EB 1</td>
+                                                <td>Bond for payment of Excise duties</td>
+                                                <td>GB Only </td>
+                                                <td>3 years </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EB 3</td>
+                                                <td>Bond for licensed manufacturer </td>
+                                                <td>- </td>
+                                                <td>- </td>
+                                            </tr>
+                                            <tr>
+                                                <td>-</td>
+                                                <td>Security to Customs </td>
+                                                <td>PB Only </td>
+                                                <td>Until retired </td>
+                                            </tr>
+                                            <tr>
+                                                <td>-</td>
+                                                <td>Customs Transit Guarantee </td>
+                                                <td>Both</td>
+                                                <td>PB - 90 Days<br> GB – 3 Years </td>
+                                            </tr>
 
                                         </tbody>
                                     </table>
