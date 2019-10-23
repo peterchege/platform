@@ -14,7 +14,7 @@
                         <h3 for="inputAddress">BOOKING DETAILS</h3>
                         <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="" required>
                             <option value="-1" selected disabled>Please Select</option>
-                            <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
+                            <option value="1">Shimba Hills (Boardroom 18pax)</option>
                             <option value="2">Taita Hills (10-12pax)</option>
                             <option value="3">Ngong Hills (Boardroom 8pax)</option>
                             <option value="4">Chyullu Hills (Auditorium 40pax)</option>
