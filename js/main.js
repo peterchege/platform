@@ -1,9 +1,75 @@
 jQuery(document).ready(function ($) {
-    var roomd = $('input[name=roomd]').val();
+    if ($('.apollo-centre-book').length !== 6) {
+        //        var roomd = $(this).siblings('input[name=roomd]').val();
+        var roomd = $('input[name=roomd]').val();
+        switch (roomd) {
+            case 'shimba':
+                $('#room_name').val('1');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'taita':
+                $('#room_name').val('2');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'ngong':
+                $('#room_name').val('3');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'chyullu':
+                $('#room_name').val('4');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'cherengani':
+                $('#room_name').val('5');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'entertainment':
+                $('#room_name').val('6');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    $('.apollo-centre-book').on('click', function () {
+        var roomd = $(this).siblings('input[name=roomd]').val();
+        switch (roomd) {
+            case 'shimba':
+                $('#room_name').val('1');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'taita':
+                $('#room_name').val('2');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'ngong':
+                $('#room_name').val('3');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'chyullu':
+                $('#room_name').val('4');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'cherengani':
+                $('#room_name').val('5');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+            case 'entertainment':
+                $('#room_name').val('6');
+                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                break;
+
+            default:
+                break;
+        }
+    });
+
+
     switch (roomd) {
         case 'shimba':
             $('#room_name').val('1');
-            var image = 'img5.jpg';
             $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'taita':
