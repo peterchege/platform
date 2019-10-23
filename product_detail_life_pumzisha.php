@@ -231,7 +231,7 @@
                     <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
                         <hr>
-                        <p>Hosicash Proposal Form</p>
+                        <p>Pumzisha Proposal Form</p>
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
 
@@ -243,7 +243,7 @@
                     <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
-                        <p>Hosicash Claim form</p>
+                        <p>Pumzisha Claim form</p>
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
