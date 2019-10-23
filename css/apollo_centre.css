@@ -148,19 +148,19 @@
 	background-image: url(../images/shimba/img7.jpg);
 }
 .taita-banner {
-	background-image: url(../images/chyullu/img3.jpg);
+	background-image: url(../images/taita/img1.jpg);
 }
 .ngong-banner {
-	background-image: url(../images/chyullu/img3.jpg);
+	background-image: url(../images/ngong/img1.jpg);
 }
 .chyullu-banner {
-	background-image: url(../images/chyullu/img6.jpg);
+	background-image: url(../images/chyullu/img1.jpg);
 }
 .cherrengany-banner {
-	background-image: url(../images/shimba/img7.jpg);
+	background-image: url(../images/cherengany/img1.jpg);
 }
 .entertainment-banner {
-	background-image: url(../images/chyullu/img3.jpg);
+	background-image: url(../images/entertainment/img1.jpg);
 }
 
 .gallery-view {
@@ -235,6 +235,63 @@
 }
 .cherengany-view-6 {
 	background-image: url(../images/cherengani/img6.jpg);
+}
+/* TAITA HILLS GALLERY IMAGE */
+.cherengany-view-1 {
+	background-image: url(../images/taita/img6.jpg);
+}
+.cherengany-view-2 {
+	background-image: url(../images/taita/img2.jpg);
+}
+.cherengany-view-3 {
+	background-image: url(../images/taita/img3.jpg);
+}
+.cherengany-view-4 {
+	background-image: url(../images/taita/img4.jpg);
+}
+.cherengany-view-5 {
+	background-image: url(../images/taita/img5.jpg);
+}
+.cherengany-view-6 {
+	background-image: url(../images/taita/img6.jpg);
+}
+/* NGONG HILLS GALLERY IMAGE */
+.cherengany-view-1 {
+	background-image: url(../images/ngong/img6.jpg);
+}
+.cherengany-view-2 {
+	background-image: url(../images/ngong/img2.jpg);
+}
+.cherengany-view-3 {
+	background-image: url(../images/ngong/img3.jpg);
+}
+.cherengany-view-4 {
+	background-image: url(../images/ngong/img4.jpg);
+}
+.cherengany-view-5 {
+	background-image: url(../images/ngong/img5.jpg);
+}
+.cherengany-view-6 {
+	background-image: url(../images/ngong/img6.jpg);
+}
+/* ENTERTAINMENT HILLS GALLERY IMAGE */
+.cherengany-view-1 {
+	background-image: url(../images/entertainment/img6.jpg);
+}
+.cherengany-view-2 {
+	background-image: url(../images/entertainment/img2.jpg);
+}
+.cherengany-view-3 {
+	background-image: url(../images/entertainment/img3.jpg);
+}
+.cherengany-view-4 {
+	background-image: url(../images/entertainment/img4.jpg);
+}
+.cherengany-view-5 {
+	background-image: url(../images/entertainment/img5.jpg);
+}
+.cherengany-view-6 {
+	background-image: url(../images/entertainment/img6.jpg);
 }
 
 .gallery-view:hover {
