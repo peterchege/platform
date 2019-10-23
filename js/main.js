@@ -1,7 +1,5 @@
 jQuery(document).ready(function ($) {
-    if ($('.apollo-centre-book').length !== 6) {
-        //        var roomd = $(this).siblings('input[name=roomd]').val();
-        var roomd = $('input[name=roomd]').val();
+    function roomcheck(roomd) {
         switch (roomd) {
             case 'shimba':
                 $('#room_name').val('1');
@@ -9,107 +7,53 @@ jQuery(document).ready(function ($) {
                 break;
             case 'taita':
                 $('#room_name').val('2');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                $('.uk-background-cover').css('background-image', 'url("images/taita/img1.jpg")');
                 break;
             case 'ngong':
                 $('#room_name').val('3');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                $('.uk-background-cover').css('background-image', 'url("images/ngong/img1.jpg")');
                 break;
             case 'chyullu':
                 $('#room_name').val('4');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                $('.uk-background-cover').css('background-image', 'url("images/chyullu/img1.jpg")');
                 break;
             case 'cherengani':
                 $('#room_name').val('5');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                $('.uk-background-cover').css('background-image', 'url("images/cherengani/img3.jpg")');
                 break;
             case 'entertainment':
                 $('#room_name').val('6');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
+                $('.uk-background-cover').css('background-image', 'url("images/entertainment/img3.jpg")');
                 break;
 
             default:
                 break;
         }
+    }
+    if ($('.apollo-centre-book').length !== 6) {
+        var roomd = $('input[name=roomd]').val();
+        roomcheck(roomd);
     }
 
     $('.apollo-centre-book').on('click', function () {
         var roomd = $(this).siblings('input[name=roomd]').val();
-        switch (roomd) {
-            case 'shimba':
-                $('#room_name').val('1');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-            case 'taita':
-                $('#room_name').val('2');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-            case 'ngong':
-                $('#room_name').val('3');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-            case 'chyullu':
-                $('#room_name').val('4');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-            case 'cherengani':
-                $('#room_name').val('5');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-            case 'entertainment':
-                $('#room_name').val('6');
-                $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-                break;
-
-            default:
-                break;
-        }
+        roomcheck(roomd);
     });
 
 
-    switch (roomd) {
-        case 'shimba':
-            $('#room_name').val('1');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-        case 'taita':
-            $('#room_name').val('2');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-        case 'ngong':
-            $('#room_name').val('3');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-        case 'chyullu':
-            $('#room_name').val('4');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-        case 'cherengani':
-            $('#room_name').val('5');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-        case 'entertainment':
-            $('#room_name').val('6');
-            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
-            break;
-
-        default:
-            break;
-    }
-
     $('.book-room').parsley();
-    $('.book-room').on('submit', (function (e) {
+    $('.book-room').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         $.ajax({
-            type: "POST",
-            url: "ajax/book.php?request=book",
+            type: 'POST',
+            url: 'ajax/book.php?request=book',
             data: new FormData(this),
             dataType: 'JSON',
             processData: false,
             contentType: false,
             beforeSend: function () {
-                $('.btn').attr("disabled", true);
+                $('.btn').attr('disabled', true);
             },
             success: function (response) {
                 if (response.status == 1) {
@@ -124,19 +68,17 @@ jQuery(document).ready(function ($) {
                         showCloseButton: true,
                         focusConfirm: false,
                         confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
-                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!'
                     });
-                    $(".uk-close-large").click();
+                    $('.uk-close-large').click();
                     form.trigger('reset');
                 } else {
                     swal.fire('ERROR', response.message, 'error');
                 }
-                $('.btn').attr("disabled", false);
-
+                $('.btn').attr('disabled', false);
             }
         });
-    }));
-
+    });
 
     // Back to top button
     $(window).scroll(function () {
@@ -148,8 +90,11 @@ jQuery(document).ready(function ($) {
     });
     $('.back-to-top').click(function () {
         $('html, body').animate({
-            scrollTop: 0
-        }, 1500, 'easeInOutExpo');
+                scrollTop: 0
+            },
+            1500,
+            'easeInOutExpo'
+        );
         return false;
     });
 
@@ -170,8 +115,8 @@ jQuery(document).ready(function ($) {
             id: 'mobile-nav'
         });
         $mobile_nav.find('> ul').attr({
-            'class': '',
-            'id': ''
+            class: '',
+            id: ''
         });
         $('body').append($mobile_nav);
         $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
@@ -181,7 +126,7 @@ jQuery(document).ready(function ($) {
         $(document).on('click', '.menu-has-children i', function (e) {
             $(this).next().toggleClass('menu-item-active');
             $(this).nextAll('ul').eq(0).slideToggle();
-            $(this).toggleClass("fa-chevron-up fa-chevron-down");
+            $(this).toggleClass('fa-chevron-up fa-chevron-down');
         });
 
         $(document).on('click', '#mobile-nav-toggle', function (e) {
@@ -191,7 +136,7 @@ jQuery(document).ready(function ($) {
         });
 
         $(document).click(function (e) {
-            var container = $("#mobile-nav, #mobile-nav-toggle");
+            var container = $('#mobile-nav, #mobile-nav-toggle');
             if (!container.is(e.target) && container.has(e.target).length === 0) {
                 if ($('body').hasClass('mobile-nav-active')) {
                     $('body').removeClass('mobile-nav-active');
@@ -200,13 +145,16 @@ jQuery(document).ready(function ($) {
                 }
             }
         });
-    } else if ($("#mobile-nav, #mobile-nav-toggle").length) {
-        $("#mobile-nav, #mobile-nav-toggle").hide();
+    } else if ($('#mobile-nav, #mobile-nav-toggle').length) {
+        $('#mobile-nav, #mobile-nav-toggle').hide();
     }
 
     // Smooth scroll for the menu and links with .scrollto classes
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+            location.hostname == this.hostname
+        ) {
             var target = $(this.hash);
             if (target.length) {
                 var top_space = 0;
@@ -220,8 +168,11 @@ jQuery(document).ready(function ($) {
                 }
 
                 $('html, body').animate({
-                    scrollTop: target.offset().top - top_space
-                }, 1500, 'easeInOutExpo');
+                        scrollTop: target.offset().top - top_space
+                    },
+                    1500,
+                    'easeInOutExpo'
+                );
 
                 if ($(this).parents('.nav-menu').length) {
                     $('.nav-menu .menu-active').removeClass('menu-active');
@@ -248,33 +199,40 @@ jQuery(document).ready(function ($) {
     });
 
     // Intro carousel
-    var introCarousel = $(".carousel");
-    var introCarouselIndicators = $(".carousel-indicators");
-    introCarousel.find(".carousel-inner").children(".carousel-item").each(function (index) {
-        (index === 0) ?
-        introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>"):
+    var introCarousel = $('.carousel');
+    var introCarouselIndicators = $('.carousel-indicators');
+    introCarousel.find('.carousel-inner').children('.carousel-item').each(function (index) {
+        index === 0 ?
+            introCarouselIndicators.append(
+                "<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>"
+            ) :
             introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "'></li>");
 
-        $(this).css("background-image", "url('" + $(this).children('.carousel-background').children('img').attr('src') + "')");
+        $(this).css(
+            'background-image',
+            "url('" + $(this).children('.carousel-background').children('img').attr('src') + "')"
+        );
         $(this).children('.carousel-background').remove();
     });
 
-    $(".carousel").swipe({
+    $('.carousel').swipe({
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             if (direction == 'left') $(this).carousel('next');
             if (direction == 'right') $(this).carousel('prev');
         },
-        allowPageScroll: "vertical"
+        allowPageScroll: 'vertical'
     });
 
     // Skills section
-    $('#skills').waypoint(function () {
-        $('.progress .progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {
-        offset: '80%'
-    });
+    $('#skills').waypoint(
+        function () {
+            $('.progress .progress-bar').each(function () {
+                $(this).css('width', $(this).attr('aria-valuenow') + '%');
+            });
+        }, {
+            offset: '80%'
+        }
+    );
 
     // jQuery counterUp (used in Facts section)
     $('[data-toggle="counter-up"]').counterUp({
@@ -289,7 +247,7 @@ jQuery(document).ready(function ($) {
     });
 
     $('#portfolio-flters li').on('click', function () {
-        $("#portfolio-flters li").removeClass('filter-active');
+        $('#portfolio-flters li').removeClass('filter-active');
         $(this).addClass('filter-active');
 
         portfolioIsotope.isotope({
@@ -298,7 +256,7 @@ jQuery(document).ready(function ($) {
     });
 
     // Clients carousel (uses the Owl Carousel library)
-    $(".clients-carousel").owlCarousel({
+    $('.clients-carousel').owlCarousel({
         autoplay: true,
         dots: true,
         loop: true,
@@ -316,11 +274,10 @@ jQuery(document).ready(function ($) {
     });
 
     // Testimonials carousel (uses the Owl Carousel library)
-    $(".testimonials-carousel").owlCarousel({
+    $('.testimonials-carousel').owlCarousel({
         autoplay: true,
         dots: true,
         loop: true,
         items: 1
     });
-
 });
