@@ -20,7 +20,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>
-
+<script src="js/parsley.min.js"></script>
 <script src="lib/easing/easing.min.js"></script>
 <script src="lib/superfish/hoverIntent.js"></script>
 <script src="lib/wow/wow.min.js"></script>

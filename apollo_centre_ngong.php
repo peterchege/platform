@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="css/parsley.css">
 
 
     <?php include 'views/head_links.php'; ?>
@@ -45,6 +46,8 @@
     <div class="container">
         <div class="apollo">
             <h1>NGONG HILLS</h1>
+            <input type="hidden" name="roomd" value="ngong">
+
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
@@ -117,8 +120,8 @@
         <?php include 'views/modal_apollo.php'; ?>
 
         <?php
-    require_once 'inc/scripts.php';
-    ?>
+        require_once 'inc/scripts.php';
+        ?>
 
 </body>
 

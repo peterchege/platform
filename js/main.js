@@ -1,4 +1,47 @@
 jQuery(document).ready(function ($) {
+    var roomd = $('input[name=roomd]').val();
+    switch (roomd) {
+        case 'shimba':
+            $('#room_name').val('1');
+            break;
+        case 'taita':
+            $('#room_name').val('2');
+            break;
+        case 'ngong':
+            $('#room_name').val('3');
+            break;
+        case 'chyullu':
+            $('#room_name').val('4');
+            break;
+        case 'cherengani':
+            $('#room_name').val('5');
+            break;
+        case 'entertainment':
+            $('#room_name').val('6');
+            break;
+
+        default:
+            break;
+    }
+
+    $('.book-room').parsley();
+    $('.book-room').on('submit', (function (e) {
+        e.preventDefault();
+        var form = $(this);
+        $.ajax({
+            type: "POST",
+            url: "inc/processor.php?request=book",
+            data: new FormData(this),
+            processData: false,
+            contentType: false,
+            success: function (result) {
+                form.trigger('reset');
+                $('#display').html(result);
+            }
+        });
+    }));
+
+
     //booking info for shimba hills on apollo centre and homepage
     $('#submit').click(function (e) {
         e.preventDefault();
