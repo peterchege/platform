@@ -1,5 +1,4 @@
 <!-- ===================================== APOLLO CENTRE Booking Form ===================================== -->
-<!-- shimba hill -->
 
 <div id="modal-full" class="uk-modal-full" uk-modal>
     <div class="uk-modal-dialog">
@@ -14,6 +13,7 @@
                     <div class="form-group col-md-12">
                         <h3 for="inputAddress">BOOKING DETAILS</h3>
                         <select name="room_name" id="room_name" class="custom-select custom-select-lg mb-3" value="" required>
+                            <option value="-1" selected disabled>Please Select</option>
                             <option value="1" selected>Shimba Hills (Boardroom 18pax)</option>
                             <option value="2">Taita Hills (10-12pax)</option>
                             <option value="3">Ngong Hills (Boardroom 8pax)</option>

@@ -3,21 +3,28 @@ jQuery(document).ready(function ($) {
     switch (roomd) {
         case 'shimba':
             $('#room_name').val('1');
+            var image = 'img5.jpg';
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'taita':
             $('#room_name').val('2');
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'ngong':
             $('#room_name').val('3');
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'chyullu':
             $('#room_name').val('4');
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'cherengani':
             $('#room_name').val('5');
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
         case 'entertainment':
             $('#room_name').val('6');
+            $('.uk-background-cover').css('background-image', 'url("images/shimba/img5.jpg")');
             break;
 
         default:
@@ -30,226 +37,40 @@ jQuery(document).ready(function ($) {
         var form = $(this);
         $.ajax({
             type: "POST",
-            url: "inc/processor.php?request=book",
+            url: "ajax/book.php?request=book",
             data: new FormData(this),
+            dataType: 'JSON',
             processData: false,
             contentType: false,
-            success: function (result) {
-                form.trigger('reset');
-                $('#display').html(result);
+            beforeSend: function () {
+                $('.btn').attr("disabled", true);
+            },
+            success: function (response) {
+                if (response.status == 1) {
+                    swal.fire({
+                        title: 'SUCCESS',
+                        html: '<p class="text-left" >Booking has been made successfully. ' +
+                            'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
+                            'Or send an email to info@apainsurance.co.ke' +
+                            '</p>',
+                        type: 'success',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                    $(".uk-close-large").click();
+                    form.trigger('reset');
+                } else {
+                    swal.fire('ERROR', response.message, 'error');
+                }
+                $('.btn').attr("disabled", false);
+
             }
         });
     }));
 
-
-    //booking info for shimba hills on apollo centre and homepage
-    $('#submit').click(function (e) {
-        e.preventDefault();
-        var room_name = $('#room_name option:selected').val();
-        var start_date = $('#start_date').val();
-        var end_date = $('#end_date').val();
-        var start_time = $('#start_time').val();
-        var end_time = $('#end_time').val();
-        var company_name = $('#company_name').val();
-        var phone = $('#phone').val();
-        var email = $('#email').val();
-        var capacity = $('#capacity').val();
-        var more_information = $('#more_information').val();
-
-        var dataString = 'room_name=' + room_name + '&start_date=' + start_date + '&end_date=' + end_date + '&start_time=' + start_time + '&end_time=' + end_time + '&company_name=' + company_name + '&phone=' + phone + '&email=' + email + '&more_information=' + more_information + '&capacity=' + capacity;
-
-        if (room_name == 'Select preferred room') {
-            $('#display').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name == '' || start_date == '' || end_date == '' || start_time == '' || end_time == '' || company_name == '' || phone == '' || email == '' || capacity == '') {
-            $('#display').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
-
-    // chyullu
-    $('#submit1').click(function (e) {
-        e.preventDefault();
-        var room_name1 = $('#room_name1 option:selected').val();
-        var start_date1 = $('#start_date1').val();
-        var end_date1 = $('#end_date1').val();
-        var start_time1 = $('#start_time1').val();
-        var end_time1 = $('#end_time1').val();
-        var company_name1 = $('#company_name1').val();
-        var phone1 = $('#phone1').val();
-        var email1 = $('#email1').val();
-        var capacity1 = $('#capacity1').val();
-        var more_information1 = $('#more_information1').val();
-
-
-        var dataString = 'room_name=' + room_name1 + '&start_date=' + start_date1 + '&end_date=' + end_date1 + '&start_time=' + start_time1 + '&end_time=' + end_time1 + '&company_name=' + company_name1 + '&phone=' + phone1 + '&email=' + email1 + '&more_information=' + more_information1 + '&capacity=' + capacity1;
-
-        if (room_name1 == 'Select preferred room') {
-            $('#display1').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name1 == '' || start_date1 == '' || end_date1 == '' || start_time1 == '' || end_time1 == '' || company_name1 == '' || phone1 == '' || email1 == '' || capacity1 == '') {
-            $('#display1').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display1').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
-
-    // cherengani
-    $('#submit2').click(function (e) {
-        e.preventDefault();
-        var room_name2 = $('#room_name2 option:selected').val();
-        var start_date2 = $('#start_date2').val();
-        var end_date2 = $('#end_date2').val();
-        var start_time2 = $('#start_time2').val();
-        var end_time2 = $('#end_time2').val();
-        var company_name2 = $('#company_name2').val();
-        var phone2 = $('#phone2').val();
-        var email2 = $('#email2').val();
-        var capacity2 = $('#capacity2').val();
-        var more_information2 = $('#more_information2').val();
-
-
-        var dataString = 'room_name=' + room_name2 + '&start_date=' + start_date2 + '&end_date=' + end_date2 + '&start_time=' + start_time2 + '&end_time=' + end_time2 + '&company_name=' + company_name2 + '&phone=' + phone2 + '&email=' + email2 + '&more_information=' + more_information2 + '&capacity=' + capacity2;
-
-        if (room_name2 == 'Select preferred room') {
-            $('#display2').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name2 == '' || start_date2 == '' || end_date2 == '' || start_time2 == '' || end_time2 == '' || company_name2 == '' || phone2 == '' || email2 == '' || capacity2 == '') {
-            $('#display2').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display2').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
-
-    // ngong
-    $('#submit4').click(function (e) {
-        e.preventDefault();
-        var room_name4 = $('#room_name4 option:selected').val();
-        var start_date4 = $('#start_date4').val();
-        var end_date4 = $('#end_date4').val();
-        var start_time4 = $('#start_time4').val();
-        var end_time4 = $('#end_time4').val();
-        var company_name4 = $('#company_name4').val();
-        var phone4 = $('#phone4').val();
-        var email4 = $('#email4').val();
-        var capacity4 = $('#capacity4').val();
-        var more_information4 = $('#more_information4').val();
-
-
-        var dataString = 'room_name=' + room_name4 + '&start_date=' + start_date4 + '&end_date=' + end_date4 + '&start_time=' + start_time4 + '&end_time=' + end_time4 + '&company_name=' + company_name4 + '&phone=' + phone4 + '&email=' + email4 + '&more_information=' + more_information4 + '&capacity=' + capacity4;
-
-        if (room_name4 == 'Select preferred room') {
-            $('#display4').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name4 == '' || start_date4 == '' || end_date4 == '' || start_time4 == '' || end_time4 == '' || company_name4 == '' || phone4 == '' || email4 == '' || capacity4 == '') {
-            $('#display4').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display4').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
-
-    // taita
-    $('#submit5').click(function (e) {
-        e.preventDefault();
-        var room_name5 = $('#room_name5 option:selected').val();
-        var start_date5 = $('#start_date5').val();
-        var end_date5 = $('#end_date5').val();
-        var start_time5 = $('#start_time5').val();
-        var end_time5 = $('#end_time5').val();
-        var company_name5 = $('#company_name5').val();
-        var phone5 = $('#phone5').val();
-        var email5 = $('#email5').val();
-        var capacity5 = $('#capacity5').val();
-        var more_information5 = $('#more_information5').val();
-
-
-        var dataString = 'room_name=' + room_name5 + '&start_date=' + start_date5 + '&end_date=' + end_date5 + '&start_time=' + start_time5 + '&end_time=' + end_time5 + '&company_name=' + company_name5 + '&phone=' + phone5 + '&email=' + email5 + '&more_information=' + more_information5 + '&capacity=' + capacity5;
-
-        if (room_name5 == 'Select preferred room') {
-            $('#display5').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name5 == '' || start_date5 == '' || end_date5 == '' || start_time5 == '' || end_time5 == '' || company_name5 == '' || phone5 == '' || email5 == '' || capacity5 == '') {
-            $('#display5').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display5').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
-
-    // entertainment area
-    $('#submit3').click(function (e) {
-        e.preventDefault();
-        var room_name3 = $('#room_name3 option:selected').val();
-        var start_date3 = $('#start_date3').val();
-        var end_date3 = $('#end_date3').val();
-        var start_time3 = $('#start_time3').val();
-        var end_time3 = $('#end_time3').val();
-        var company_name3 = $('#company_name3').val();
-        var phone3 = $('#phone3').val();
-        var email3 = $('#email3').val();
-        var capacity3 = $('#capacity3').val();
-        var more_information3 = $('#more_information3').val();
-
-
-        var dataString = 'room_name=' + room_name3 + '&start_date=' + start_date3 + '&end_date=' + end_date3 + '&start_time=' + start_time3 + '&end_time=' + end_time3 + '&company_name=' + company_name3 + '&phone=' + phone3 + '&email=' + email3 + '&more_information=' + more_information3 + '&capacity=' + capacity3;
-
-        if (room_name3 == 'Select preferred room') {
-            $('#display3').html('<div class="alert alert-danger" >Please select a room.</div>');
-        } else if (room_name3 == '' || start_date3 == '' || end_date3 == '' || start_time3 == '' || end_time3 == '' || company_name3 == '' || phone3 == '' || email3 == '' || capacity3 == '') {
-            $('#display3').html('<div class="alert alert-danger" >Please fill all the fields.</div>');
-        } else {
-            $.ajax({
-                type: "POST",
-                url: "inc/processor.php",
-                data: dataString,
-                success: function (result) {
-                    $('#display3').html(result);
-                }
-            });
-            $('input,textarea,select').val('');
-        }
-        return false;
-    });
 
     // Back to top button
     $(window).scroll(function () {
