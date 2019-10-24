@@ -506,12 +506,26 @@ require_once 'inc/functions.php';
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make"> Your Age category</label>
-                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                    <select id="age" name="age" class="form-control" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option value="18 - 23"> 20 - 24 yrs</option>
+                                        <option value="24 - 25"> 25 - 29 yrs</option>
+                                        <option value="30 - 34"> 30 - 34 yrs</option>
+                                        <option value="35 - 39"> 35 - 39 yrs</option>
+                                        <option value="40 - 44"> 40 - 44 yrs</option>
+                                        <option value="45 - 49"> 45 - 49 yrs</option>
+                                        <option value="50 - 54"> 50 - 54 yrs</option>
+                                        <option value="55 - 59"> 55 - 59 yrs</option>
+                                        <option value="60 - 64"> 60 - 64 yrs</option>
+                                        <option value="65 - 69"> 65 - 69 yrs</option>
+                                        <option value="70 - 75"> 70 - 75 yrs</option>
+                                        <option value="76 - 80"> 76 - 80 yrs</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
+                                    <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="">
                                 </div>
                             </div>
 
@@ -532,7 +546,7 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-    <!-- ===================================== TRAVELL LEAD FORM FOR  ===================================== -->
+    <!-- ===================================== TRAVEL LEAD FORM FOR  ===================================== -->
 
     <div id="modal-full3" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -723,7 +737,7 @@ require_once 'inc/functions.php';
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder="nairobi" value="">
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="nairobi" value="" required>
                                 </div>
                             </div>
                             <hr>
@@ -845,7 +859,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </div>
                             </div>
                         </div>
