@@ -38,12 +38,8 @@
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
+                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
@@ -65,7 +61,6 @@
                                 </P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
 
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
