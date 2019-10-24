@@ -11,18 +11,13 @@ $(document).ready(function () {
             processData: false,
             contentType: false,
             beforeSend: function () {
-                $('.btn').attr("disabled", true);
+                $('.btn').attr("disabled", true).html('Processing');
             },
             success: function (response) {
                 if (response.message == 'success') {
                     swal.fire({
-                        title: 'SUCCESS',
-                        html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
-                            'shortly to guide you through the next process. ' +
-                            '<br><br>' +
-                            'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
-                            'Or send an email to claims@apalife.co.ke' +
-                            '</p>',
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
                         type: 'success',
                         allowOutsideClick: false,
                         showCloseButton: true,
@@ -33,9 +28,19 @@ $(document).ready(function () {
                     form.trigger('reset');
                     $(".uk-close-large").click();
                 } else {
-                    swal.fire('ERROR', response.message, 'error');
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
+                        type: 'success',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                    // swal.fire('ERROR', response.message, 'error');
                 }
-                $('.btn').attr("disabled", false);
+                $('.btn').attr("disabled", false).html('INITIATE CLAIM');
             }
         });
     });
@@ -52,18 +57,13 @@ $(document).ready(function () {
             processData: false,
             contentType: false,
             beforeSend: function () {
-                $('.btn').attr("disabled", true);
+                $('.btn').attr("disabled", true).html('Processing');
             },
             success: function (response) {
                 if (response.message == 'success') {
                     swal.fire({
-                        title: 'SUCCESS',
-                        html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
-                            'shortly to guide you through the next process. ' +
-                            '<br><br>' +
-                            'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
-                            'Or send an email to claims@apalife.co.ke' +
-                            '</p>',
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
                         type: 'success',
                         allowOutsideClick: false,
                         showCloseButton: true,
@@ -74,9 +74,19 @@ $(document).ready(function () {
                     form.trigger('reset');
                     $(".uk-close-large").click();
                 } else {
-                    swal.fire('ERROR', response.message, 'error');
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
+                        type: 'error',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                    // swal.fire('ERROR', response.message, 'error');
                 }
-                $('.btn').attr("disabled", false);
+                $('.btn').attr("disabled", false).html('INITIATE CLAIM');
             }
         });
     });
@@ -92,18 +102,13 @@ $(document).ready(function () {
             processData: false,
             contentType: false,
             beforeSend: function () {
-                $('.btn').attr("disabled", true);
+                $('.btn').attr("disabled", true).html('Processing');
             },
             success: function (response) {
                 if (response.message == 'success') {
                     swal.fire({
-                        title: 'SUCCESS',
-                        html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
-                            'shortly to guide you through the next process. ' +
-                            '<br><br>' +
-                            'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
-                            'Or send an email to claims@apalife.co.ke' +
-                            '</p>',
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
                         type: 'success',
                         allowOutsideClick: false,
                         showCloseButton: true,
@@ -114,9 +119,19 @@ $(document).ready(function () {
                     form.trigger('reset');
                     $(".uk-close-large").click();
                 } else {
-                    swal.fire('ERROR', response.message, 'error');
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p class="text-left" >' + response.message + '</p>',
+                        type: 'success',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                    // swal.fire('ERROR', response.message, 'error');
                 }
-                $('.btn').attr("disabled", false);
+                $('.btn').attr("disabled", false).html('INITIATE CLAIM');
             }
         });
     });
