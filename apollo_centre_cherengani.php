@@ -28,7 +28,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="gallery-banner cerangani-banner">
+    <div class="gallery-banner cherengani-banner">
 
     </div>
     <div class="cover-line">
@@ -44,7 +44,7 @@
 
     <div class="container">
         <div class="apollo">
-            <h1>CHERENGANY HILLS</h1>
+            <h1>CHERENGANI HILLS</h1>
             <input type="hidden" name="roomd" value="cherengani">
 
             <div class="under-line img2">
@@ -72,35 +72,35 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
                 <a href="images/cherengani/img6.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-1"></div>
+                    <div class="gallery-view cherengani-view-1"></div>
                 </a>
 
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <a href="images/cherengani/img2.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-2"></div>
+                    <div class="gallery-view cherengani-view-2"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <a href="images/cherengani/img3.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-3"></div>
+                    <div class="gallery-view cherengani-view-3"></div>
                 </a>
             </div>
         </div>
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <a href="images/cherengani/img4.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-4"></div>
+                    <div class="gallery-view cherengani-view-4"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <a href="images/cherengani/img5.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-5"></div>
+                    <div class="gallery-view cherengani-view-5"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
                 <a href="images/cherengani/img6.jpg" data-lightbox="photos">
-                    <div class="gallery-view cherengany-view-6"></div>
+                    <div class="gallery-view cherengani-view-6"></div>
                 </a>
             </div>
         </div>
