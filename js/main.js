@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
             processData: false,
             contentType: false,
             beforeSend: function () {
-                $('.btn').attr('disabled', true);
+                form.find('button[type=submit]').attr('disabled', true).html('Processing');
             },
             success: function (response) {
                 if (response.status == 1) {
@@ -75,7 +75,7 @@ jQuery(document).ready(function ($) {
                 } else {
                     swal.fire('ERROR', response.message, 'error');
                 }
-                $('.btn').attr('disabled', false);
+                form.find('button[type=submit]').attr('disabled', false).html('BOOK NOW');
             }
         });
     });
