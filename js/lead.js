@@ -4,7 +4,6 @@ $(document).ready(function () {
     $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').on('submit', function (e) {
         e.preventDefault();
         var buttonText = $(this).find('button[name=request]').text();
-        alert(buttonText);
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
