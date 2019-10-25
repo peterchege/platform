@@ -46,7 +46,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>MOTOR CLAIM PROCESS</h1>
+            <h1>ACCIDENT CLAIM</h1>
             <div class="under-line img1">
                 <img src="images/line.png" alt="">
             </div>
@@ -62,130 +62,55 @@
         </div>
     </div>
 
-
-    <!-- =================================== TYPES OF MOTOR CLAIM ===================================== -->
-
-    <div class="container-fluid12">
-        <div class="product22 product-new">
-
-            <h1 class="text-left fomt">Choose the type of claim you wish to initiate : </h1>
-            <br>
-
-            <div class="container">
-                <div class="row row-product">
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="product-box we img-accident">
-                            <a href="claim_report.php" uk-toggle>
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
-                                    <div class="content">
-                                        <h3>Accident</h3>
-                                        <br>
-                                        <p>Covers third party bodily injury and property damage arising out
-                                            of a vehicle accident. .</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="product-box we img-windscreen">
-                            <a href="#modal-full2" uk-toggle>
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
-                                    <div class="content">
-                                        <h3>WindScreen</h3>
-                                        <br>
-                                        <p>Cover extends to cover windscreen damage.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.4s">
-                        <div class="product-box we img-theft">
-                            <a href="#modal-full3" uk-toggle>
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
-                                    <div class="content">
-                                        <h3>Theft</h3>
-                                        <br>
-                                        <p> This claim Cover theft of vehicle</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-            <br>
-        </div>
-
-    </div>
-
-    <!-- =================================== OUR CUSTOMER SERVICE CHARTER ===================================== -->
-
-    <div class="container text-center">
-        <h1>
-            CLAIM PROCESS
-        </h1>
-        <div class="under-line img7">
-            <img src="images/line.png" alt="">
-        </div>
-        <br>
-
+    <section>
         <div class="container">
-
             <div class="row">
-                <div class="col-md-4">
-                    <div class="charter2">
-                        <h2>Step 1 : Report (Call the police) </h2>
-                        <hr>
-                        <p>
-                            Insured/driver to report the accident to the nearest police station at once and while
-                            they at it, not to admit liability but to inform APA or their intermediary immediately.
-                        </p>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="card-report">
+                            <h2> Report claim </h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+                                        eveniet neque voluptatum autem consectetur
+                                </div>
+                                <div class="col-6">
+                                    <div class="report-avatar">
 
-                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
+                <div class="col-md-6">
+                    <a href="#">
+                        <div class="card-report">
+                            <h2>Upload document </h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+                                        eveniet neque voluptatum autem consectetur
+                                </div>
+                                <div class="col-6">
+                                    <div class="report-avatar2">
 
-                <div class="col-md-4">
-                    <div class="charter2">
-                        <h2>Step 2 : Document what you can</h2>
-                        <hr>
-                        <p>
-                            Take details of the other vehicle, the driver and their insurance company. Also,
-                            if possible, take photographs of the accident scene.
-                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
 
-                    </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="charter2">
-                        <h2>Step 3 : Safety first</h2>
-                        <hr>
-                        <p>
-                            If there are victims with injuries, get them help ASAP! Otherwise move to a police station.
-                        </p>
-
-                    </div>
-                </div>
-
             </div>
-
-            <br>
-
         </div>
+    </section>
 
-    </div>
 
 
     <!-- =====================================FOOTER===================================== -->
