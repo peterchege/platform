@@ -316,8 +316,8 @@
 
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i>Feedbacks</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request Assistance/ CallBack</a>
+                                        <li><a href="#"><i class="fas fa-star"></i>Feedback</a></li>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request Assistance/ Call Back</a>
                                         </li>
                                     </ul>
                                 </div>
