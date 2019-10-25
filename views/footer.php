@@ -33,7 +33,7 @@
                     <h4>PORTALS</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="
-                        https://portal.apainsurance.org/TurnQuestClient/" target="_target">APA Life Cleint Portal</a>
+                        https://portal.apainsurance.org/TurnQuestClient/" target="_target">APA Life Client Portal</a>
                         </li>
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a> -->
@@ -54,16 +54,12 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>BUY NOW</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
-                                target="_target">Travel cover</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_target">Travel cover</a></li>
 
-                        <li><i class=" ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/auth" target="_target">Marine Open
+                        <li><i class=" ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/auth" target="_target">Marine Open
                                 Cover</a>
                         </li>
-                        <li><i class=" ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
+                        <li><i class=" ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
                                 Single Transit </a></li>
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                         calc_domestic_package.php" target="_target"> Home cover ( Domestic

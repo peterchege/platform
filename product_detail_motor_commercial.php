@@ -143,10 +143,10 @@
                                             <li>3RD PARTY ONLY</li>
                                             <li>3RD PARTY & THEFT </li>
                                             <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li>BIMA BAMBA</li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>The cover provides the following benefits. This include:</h3>
                                         <ol>
                                             <li>Accidental Impact damage including overturning and collision </li>
                                             <li>Accidental Fire damage</li>
@@ -222,7 +222,7 @@
                                             <td>N/A</td>
                                             <td>N/A</td>
                                             <td>Charged at 0.5% of insured value with a minimum of Kshs. 5,000.00
-                                                Subject to the vehicle being fitted with Antitheft device</td>
+                                                Subject to the vehicle being fitted with Anti-theft device</td>
                                         </tr>
                                         <tr>
                                             <td>Loss of Use/ Courtesy Car</td>

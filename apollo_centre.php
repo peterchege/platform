@@ -80,8 +80,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-10 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
-                            uk-slider="center: true">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
@@ -118,10 +117,8 @@
                                 </li>
                             </ul>
 
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
-                                uk-slidenav-previous uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
-                                uk-slidenav-next uk-slider-item="next"></a>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
                         </div>
                     </div>
@@ -153,8 +150,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="shimba">
                             </div>
                             <div class="col-md-6 text-left">
@@ -180,14 +176,13 @@
                             <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
                                 It has a high definition projector with a surround sound system suitable for audio/
                                 visual presentations
-                                or trainings.
+                                or training.
                             </p>
                         </div>
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="chyullu">
                             </div>
                             <div class="col-md-6 text-left">
@@ -211,15 +206,14 @@
                         <div class="content-bottom text-justify">
                             <p>Our training room can hold 30 guests in a U-shape setup and 44 guests in a classroom
                                 setup.
-                                The room is ideal for corporate, promotional or interactive trainings.
+                                The room is ideal for corporate, promotional or interactive training.
                                 It can also be divided into two rooms for break-out sessions.
                             </p>
                         </div>
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="cherengani">
                             </div>
                             <div class="col-md-6 text-left">
@@ -255,8 +249,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="ngong">
                             </div>
                             <div class="col-md-6 text-left">
@@ -289,8 +282,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="taita">
                             </div>
                             <div class="col-md-6 text-left">
@@ -321,8 +313,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-md-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="entertainment">
                             </div>
                             <div class="col-md-6 text-left">
