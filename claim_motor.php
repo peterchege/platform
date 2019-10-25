@@ -76,7 +76,7 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="product-box we img-accident">
-                            <a href="claim_report.php" uk-toggle>
+                            <a href="claim_report_accident.php" uk-toggle>
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
@@ -193,87 +193,6 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== MOTOR ACCIDENT CLAIM FORM FOR ===================================== -->
-
-    <div id="modal-full1" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
-                <div class="uk-padding-large">
-
-
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="">VEHICLE DETAILS</h3>
-                        </div>
-
-                        <div class="container">
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="accident" name="motor_claim_type" value="accident">
-
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
-                                    CLAIM
-                                </button> -->
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
-                                    CLAIM
-                                </button>
-                            </div>
-                        </div>
-                </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
 
     <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
 
