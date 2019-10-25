@@ -326,7 +326,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -402,6 +402,14 @@
     ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
     <script src="js/parsley.min.js"></script>
+    <script>
+        $('.type-pet').multiselect({
+            nonSelectedText: 'Select pet type',
+            enableFiltering: false,
+            enableCaseInsensitiveFiltering: false,
+            buttonWidth: '100%'
+        });
+    </script>
     <script src="js/lead.js"></script>
 </body>
 
