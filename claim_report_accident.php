@@ -9,6 +9,7 @@
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
+    <link rel="stylesheet" href="css/draft.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
@@ -47,7 +48,7 @@
         <BR><BR>
         <div class="apollo">
             <h1>ACCIDENT CLAIM</h1>
-            <div class="under-line img1">
+            <div class="under-line img7">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -68,7 +69,7 @@
                 <div class="col-md-6">
                     <a href="#modal-full1" uk-toggle>
                         <div class="card-report">
-                            <h2> Report claim </h2>
+                            <h2> Report claim &nbsp;<i class="fas fa-chevron-right"></i> </h2>
                             <hr>
                             <div class="row">
                                 <div class="col-6">
@@ -89,7 +90,7 @@
                 <div class="col-md-6">
                     <a href="#modal-full2" uk-toggle>
                         <div class="card-report">
-                            <h2>Upload document </h2>
+                            <h2>Upload document <i class="fas fa-upload"></i></h2>
                             <hr>
                             <div class="row">
                                 <div class="col-6">
