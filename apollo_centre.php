@@ -261,13 +261,12 @@
                     </div>
 
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="room-container img-Cherengani">
+                        <div class="room-container img-taita">
                             <div class="color-overlay-apollo">
                             </div>
 
                             <div class="content-centre">
                                 <h1>Taita Hills<br><small>Boardroom (10-12px)</small></h1>
-
 
                             </div>
                         </div>
