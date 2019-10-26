@@ -612,7 +612,7 @@
             <div class="row forms-download">
 
                 <!-- Browsure form -->
-                <div class="col-md-3 box-download">
+                <!-- <div class="col-md-3 box-download">
                     <a href="pdf/Jamii_Plus _Brochure.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
@@ -620,10 +620,10 @@
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
-                </div>
+                </div> -->
 
                 <!-- Claim Form -->
-                <div class="col-md-3 box-download">
+                <!-- <div class="col-md-3 box-download">
                     <a href="">
                         <h2> <i class="fas fa-file-pdf"></i> PROPOSAL</h2>
                         <hr>
@@ -633,7 +633,7 @@
                             <p class=" download">Dowload <i class="fas fa-download"></i>
                             </p>
                         </a>
-                </div>
+                </div> -->
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
