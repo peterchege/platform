@@ -468,17 +468,11 @@
                                             <td> $ 250 </td>
                                         </tr>
 
-
-
                                     </tbody>
-                                </table>
-
-                                <!-- END TABLE -->
+                                </table> <!-- END TABLE -->
                             </div>
                         </div>
-
                         <!-- CHARGES -->
-
                         <div class="tab-pane fade" id="charges" role="tabpanel" aria-labelledby="charges-tab">
 
                             <div class="job-description text-center">
@@ -708,7 +702,7 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/Jamii_Plus _Brochure.pdf">
+                    <a href="pdf/brochure/TRAVEL Brochure.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
@@ -751,7 +745,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
@@ -832,7 +827,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 

@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>APA INSURANCE</title>
-    <link rel="stylesheet" href="css/product.css" />
-    <link rel="stylesheet" href="css/career.css" />
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/career.css">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -271,10 +270,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </form>
 
                 </div>
