@@ -109,7 +109,7 @@
 
                     <div class="col-md-4 wow fadeInUp " data-wow-delay="0.4s">
                         <div class="product-box we img-theft">
-                            <a href="#modal-full3" uk-toggle>
+                            <a href="claim_report_theft.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">

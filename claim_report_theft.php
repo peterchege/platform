@@ -47,7 +47,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>WINDSCREEN CLAIM</h1>
+            <h1>THEFT CLAIM</h1>
             <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
@@ -125,7 +125,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -186,9 +186,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <!-- <button type="submit" name="request" class="btn btn-primary" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside">INITIATE
-                                    CLAIM
-                                </button> -->
+
                                 <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
@@ -209,7 +207,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
