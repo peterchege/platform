@@ -97,8 +97,7 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">LIFE COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
+
                                         <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i>
                                                 Fixed Savings Plan (Imarika)</a></li>
                                         <li><a href="product_detail_life_akiba_halisi.php"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba
@@ -111,8 +110,7 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">LIFE COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
+
                                         <li><a href="product_detail_life_pumzisha.php"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover
                                                 (Pumzisha)</a></li>
                                         <li><a href="product_detail_life_term_assuarance.php"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
@@ -133,8 +131,7 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
+
                                         <li><a href="product_commercial_aviation.php"><i class="fas fa-helicopter"></i>
                                                 Aviation</a></li>
                                         <li><a href="product_commercial_bonds.php"><i class="fas fa-chart-area"></i>
@@ -148,8 +145,7 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">COMMERCIAL COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
+
                                         <li><a href="product_commercial_liability.php"><i class="fas fa-house-damage"></i> Liability </a></li>
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
@@ -197,7 +193,7 @@
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-left" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund11111</a>
+                                        <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund</a>
                                         </li>
                                         <li><a href="#"><i class="fas fa-chart-pie"></i> Apollo Equity Fund</a></li>
                                         <li><a href="#"><i class="fas fa-chart-line"></i> Apollo Money Market Fund</a>
@@ -291,22 +287,22 @@
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
                                         <li><a href="#"><i class="fas fa-star"></i>Feedback</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request Assistance/ Call Back</a>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request CallBack</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Brochure</a></li>
-                                        <li><a href="#"><i class="fas fa-file-alt"></i> Claim Forms</a></li>
-                                        <li><a href="#"><i class="fas fa-file-alt"></i> Proposal Forms</a></li>
+                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
+                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life Intermediary portal</a></li>
+                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life client portal</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="#"><i class="fas fa-user"></i> Intermediary Portal</a></li>
+                                        <li><a href="#"><i class="fas fa-user"></i> Travel Portal</a></li>
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine Open Cover</a></li>
                                         <li><a href="#"><i class="fas fa-ship"></i> Marine Single Transit</a></li>
                                     </ul>

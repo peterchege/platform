@@ -92,7 +92,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="portals.php">
                     <button class="btn btn-primary">
-                        SELF SERVICE LOGIN
+                        ONLINE SERVICES
                     </button>
                 </a>
             </div>
