@@ -384,7 +384,7 @@
                 </div>
 
                 <!-- Claim Form -->
-                <div class="col-md-3 box-download">
+                <!-- <div class="col-md-3 box-download">
                     <a href="#">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
@@ -393,7 +393,7 @@
                         <a href="pdf/claim/Windscreen CLM_FRM.pdf">
                             <p class="download">Dowload <i class="fas fa-download"></i></p>
                         </a>
-                </div>
+                </div> -->
 
             </div>
             <br>
