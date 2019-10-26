@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -65,7 +67,7 @@
                                     application form and one is covered.</P>
                                 <hr>
                                 <div class="job-content">
-                
+
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Inpatient cover is the core cover.</p>
@@ -364,17 +366,30 @@
                         </div>
 
                         <div class="container">
-                            
+
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="make"> Your Age </label>
-                                    <input name="make" type="date" class="form-control" id="make" value="" required>
+                                    <label for="age">Your Age (yrs)</label>
+                                    <select id="age" name="age" class="form-control" required>
+                                        <option value="-1" selected disabled>Select your age range...</option>
+                                        <option value="18 - 23"> 18 - 23 </option>
+                                        <option value="24 - 25"> 24 - 29 </option>
+                                        <option value="30 - 34"> 30 - 34 </option>
+                                        <option value="35 - 39"> 35 - 39 </option>
+                                        <option value="40 - 44"> 40 - 44 </option>
+                                        <option value="45 - 49"> 45 - 49 </option>
+                                        <option value="50 - 54"> 50 - 54 </option>
+                                        <option value="55 - 59"> 55 - 59 </option>
+                                        <option value="60 - 64"> 60 - 64 </option>
+                                        <option value="65 - 69"> 65 - 69 </option>
+                                        <option value="Above 70"> Above 70 </option>
+                                    </select>
                                 </div>
                             </div>
-        
+
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="14">
+                                <input type="hidden" id="product_id" name="product_id" value="16">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
@@ -428,10 +443,10 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
-
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_id" name="product_id" value="50">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="Contact Us">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
@@ -451,6 +466,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>

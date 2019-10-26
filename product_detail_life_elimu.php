@@ -460,8 +460,9 @@
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_id" name="product_id" value="20">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="Contact Us">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
