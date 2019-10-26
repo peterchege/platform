@@ -26,19 +26,22 @@
 }
 
 .color-overlay-apollo {
-	width: 84.5%;
+	width: 100%;
 	height: 250px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-	position: absolute;
+	position: relative;
 	border-radius: 20px;
+}
+
+.content-centre{
+	position: relative;
+	margin-top: -20%;
 }
 
 .content-centre h1 {
 	font-size: 20px;
-	font-weight: 500;
-	padding-top: 45%;
+	font-weight: 500;	
 	color: #fff;
-	position: relative;
 }
 
 .content-bottom p {
@@ -73,6 +76,10 @@
 
 .img-Cherengani {
 	background-image: url(../images/cherengani/img6.jpg);
+	background-size: cover;
+}
+.img-taita {
+	background-image: url(../images/taita/img4.jpg);
 	background-size: cover;
 }
 
