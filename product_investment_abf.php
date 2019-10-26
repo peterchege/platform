@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -81,7 +83,7 @@
                                         <div class="row">
                                             <div class="col-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                    <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
@@ -113,9 +115,9 @@
                                         <p> CHARGES</p>
                                         <p2>A 4 % one off charge known as an “initial/upfront fee” as well as a management fee of up to 2% annually..</p2><br><br>
                                         <p2>upfront fees do not apply for switches between Apollo Equity Fund and Apollo Balanced Fund</p2><br><br><br>
-                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, may go down as 
-                                            well as up: and investors are reminded that in certain specified circumstances their right to redeem their 
-                                            shares may be suspended .</i></p2>
+                                        <p2><i>The price of shares, and the income therefrom is the collective investment scheme pays dividends, may go down as
+                                                well as up: and investors are reminded that in certain specified circumstances their right to redeem their
+                                                shares may be suspended .</i></p2>
                                         <br><br>
 
                                     </div>
@@ -284,6 +286,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
