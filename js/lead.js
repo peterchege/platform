@@ -3,6 +3,7 @@ $(document).ready(function () {
 
     $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').on('submit', function (e) {
         e.preventDefault();
+        var buttonText = $(this).find('button[name=request]').text();
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
@@ -41,7 +42,7 @@ $(document).ready(function () {
                     });
 
                 }
-                $('button[name=request]').attr("disabled", false).html('SUBMIT<i class="fas fa-paper-plane">');
+                $('button[name=request]').attr("disabled", false).html(buttonText + '<i class="fas fa-paper-plane">');
             }
         });
 
@@ -58,12 +59,5 @@ $(document).ready(function () {
                 .replace(/\D/g, "")
                 .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         });
-    });
-
-    $('.type-pet').multiselect({
-        nonSelectedText: 'Select pet type',
-        enableFiltering: false,
-        enableCaseInsensitiveFiltering: false,
-        buttonWidth: '100%'
     });
 });

@@ -176,7 +176,7 @@
                             <p>Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
                                 It has a high definition projector with a surround sound system suitable for audio/
                                 visual presentations
-                                or trainings.
+                                or training.
                             </p>
                         </div>
 
@@ -206,7 +206,7 @@
                         <div class="content-bottom text-justify">
                             <p>Our training room can hold 30 guests in a U-shape setup and 44 guests in a classroom
                                 setup.
-                                The room is ideal for corporate, promotional or interactive trainings.
+                                The room is ideal for corporate, promotional or interactive training.
                                 It can also be divided into two rooms for break-out sessions.
                             </p>
                         </div>
