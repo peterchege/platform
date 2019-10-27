@@ -438,6 +438,7 @@
                     type: "POST",
                     url: "ajax/claims.php?request=motor_claim",
                     data: new FormData(this),
+                    
                     dataType: 'json',
                     contentType: false,
                     cache: false,
