@@ -144,14 +144,14 @@ $(document).ready(function () {
         });
     });
 
-    $('.form,.motor-claim-form-upload').parsley();
+    $('.form,.motor-claim-upload').parsley();
     $('.form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         var pdf = $(this).find('input[type=hidden]:last').val();
 
         if (pdf == 'windscreen') {
-            var you = 'pdf/claim/Windscreen CLM_FRM.pdf';
+            var claim_form = 'pdf/claim/Windscreen CLM_FRM.pdf';
         } else if (pdf == 'accident') {
             var claim_form = 'pdf/claim/motor_claim_form.pdf';
         } else if (pdf == 'theft') {
@@ -207,4 +207,27 @@ $(document).ready(function () {
             }
         });
     });
+
+    $('.form,.motor-claim-upload').on('submit', function (e) {
+        e.preventDefault();
+        var form = $(this);
+        $.ajax({
+            type: "POST",
+            url: "ajax/claims.php?request=motor_upload",
+            data: new FormData(this),
+            dataType: "json",
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function () {
+                form.find('button[name=request_upload]').attr('disabled', true).html('Processing...');
+
+            },
+            success: function (response) {
+                alert(response.message);
+                form.find('button[name=request_upload]').attr('disabled', true).html('INITIATE CLAIM');
+                $('button[name=request_upload]').attr('disabled', false);
+            }
+        });
+    })
 });

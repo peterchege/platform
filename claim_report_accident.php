@@ -212,7 +212,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="motor-claim-form-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-form-upload life-personal-property-claim-form">
+                    <form id="motor-claim-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload ">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -289,7 +289,7 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
+                                <button type="submit" name="request_upload" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
