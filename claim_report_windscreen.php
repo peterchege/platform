@@ -100,8 +100,8 @@
                                 <div class="col-6">
                                     <p>
                                         If you already have a completed claim form and have managed
-                                         to gather all supporting documentation. Please click here 
-                                         to submit the documentation.
+                                        to gather all supporting documentation. Please click here
+                                        to submit the documentation.
                                     </p>
 
                                 </div>
@@ -240,8 +240,8 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <label for="location">Vehicle Registarion Number</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="KBQ 123" value="" required>
                                 </div>
                             </div>
 
