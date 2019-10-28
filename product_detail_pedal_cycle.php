@@ -305,7 +305,7 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
                                 <p>If you are interested in learning how much this insurance product would cost
                                     you, or if you are interested in purchasing this insurance product, please click <b>Get Cover</b>.
