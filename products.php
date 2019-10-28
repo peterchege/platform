@@ -136,7 +136,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_dp" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -165,7 +165,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_pa" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
