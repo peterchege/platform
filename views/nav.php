@@ -309,7 +309,7 @@
 
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
-                                        <li><a href="#"><i class="fas fa-star"></i>Feedback</a></li>
+                                        <li><a href="contact_us.php"><i class="fas fa-star"></i>Feedback</a></li>
                                         <li><a href="#"><i class="fas fa-headset"></i> Request CallBack</a>
                                         </li>
                                     </ul>
@@ -318,17 +318,24 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
                                         <li><a href="claim.php"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
-                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life Intermediary portal</a>
+                                        <li><a
+                                                href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrWindowMode=0&_afrLoop=14884103847609303&_adf.ctrl-state=mbeaekind_9"><i
+                                                    class="fas fa-file-alt"></i> Life Intermediary portal</a>
                                         </li>
-                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life client portal</a></li>
+                                        <li><a
+                                                href="https://portal.apainsurance.org/TurnQuestClient/faces/index.jspx?_afrWindowMode=0&_afrLoop=14884103847609303&_adf.ctrl-state=mbeaekind_9"><i
+                                                    class="fas fa-file-alt"></i> Life client portal</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="#"><i class="fas fa-user"></i> Travel Portal</a></li>
-                                        <li><a href="#"><i class="fas fa-ship"></i> Marine Open Cover</a></li>
-                                        <li><a href="#"><i class="fas fa-ship"></i> Marine Single Transit</a></li>
+                                        <li><a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"><i
+                                                    class="fas fa-user"></i> Travel Portal</a></li>
+                                        <li><a href="https://portal.apainsurance.org/GISPORTAL/auth"><i
+                                                    class="fas fa-ship"></i> Marine Open Cover</a></li>
+                                        <li><a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"><i
+                                                    class="fas fa-ship"></i> Marine Single Transit</a></li>
                                     </ul>
                                 </div>
 
