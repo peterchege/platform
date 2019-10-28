@@ -36,16 +36,20 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -57,17 +61,21 @@
                             <div class="job-description text-center">
 
                                 <h2> Marine Cover </h2>
-                                <P class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other interests against loss or damage whilst
-                                    being transported by rail, road, sea and/or air from the port of loading to the final destination.</P>
+                                <P class="text-justify">APA Marine is a comprehensive insurance policy that covers
+                                    goods, freight and other interests against loss or damage whilst
+                                    being transported by rail, road, sea and/or air from the port of loading to the
+                                    final destination.</P>
 
-                                <P class="text-justify">It is ideal for both individuals and corporates transporting goods inland, importing or exporting like manufacturers, 
+                                <P class="text-justify">It is ideal for both individuals and corporates transporting
+                                    goods inland, importing or exporting like manufacturers,
                                     wholesalers, miners and producers.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in the process of using his vehicle while carrying his
+                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in
+                                            the process of using his vehicle while carrying his
                                             own goods. The main cover features are as follows;</p2>
                                         <ol>
                                             <li>Accidental Impact damage including overturning and collision </li>
@@ -85,34 +93,41 @@
                                         <p>Third Party, Fire, and Theft</p>
                                         <p2>This policy covers the insured against three main risks;</p2>
                                         <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                            <li>Third party liability cover for bodily injury or property damage as a
+                                                result
                                                 of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
+                                                destroyed</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
 
                                         </ol>
 
                                         <hr>
                                         <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from third parties in the event of an accident.
+                                        <p2>It is the minimum legal cover that every car owner must have in order to be
+                                            legally on the road.
+                                            The cover protects a vehicle owner from liabilities that may arise from
+                                            third parties in the event of an accident.
                                             Third party liability relates to;</p2>
                                         <ol>
                                             <li>Bodily injury</li>
                                             <li>Property damage</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
                                         </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any repair costs are met by the insured himself.</p2>
+                                        <p2>This cover does not protect the car owner from personal liabilities and any
+                                            repair costs are met by the insured himself.</p2>
                                         <br><br><br><br>
 
                                         <div class="row">
                                             <div class="col-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                                        class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
@@ -157,9 +172,11 @@
                                             <li>Courtesy car/ loss of use cover</li>
                                             <li>Excess protector</li>
                                             <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a result
+                                            <li>Third party liability cover for bodily injury or property damage as a
+                                                result
                                                 of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is destroyed</li>
+                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
+                                                destroyed</li>
                                             <li>Theft cover as a result of your vehicle being stolen</li>
                                             <li>Bodily injury</li>
                                             <li>Property damage</li>
@@ -297,30 +314,41 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
-                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
-                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
-                                    <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <div class="load-more text-center ">
-                                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
-                                                <a href="#" class="btn btn-danger"> Download Forms </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="load-more text-center " data-target="#modal-full" uk-toggle>
-                                                <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                            </div>
+                                <p>If you are interested in learning how much this insurance product would cost
+                                    you, or if you are interested in purchasing this insurance product, please click
+                                    <b>Get Cover</b>.
+                                </p>
+                                <p>
+                                    If you would like further assistance explanation or assistance about this insurance
+                                    product, please click I <b>Need Assistance.</b>
+                                </p>
+                                <p>
+                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    insurance product,
+                                    such as the claim form, proposal form etc.
+                                </p><br> <br>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="load-more text-center ">
+                                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                                class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> <br>
+                                    <div class="col-4">
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
+                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                            <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br> <br>
                             </div>
 
 
@@ -427,7 +455,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/cargo.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/cargo.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -435,22 +464,26 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -465,38 +498,45 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="make">Type of </label>
-                                    <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder=""
+                                        value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="model">Aircraft Model</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="value">Aircraft Value (Kshs)</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder=""
+                                        value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                    <input name="yom" type="number" class="form-control" id="yom" placeholder=""
+                                        value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="value">Maximum take of weight</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder=""
+                                        value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Geographical-scope purpose of use</label>
-                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value=""
+                                        required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Pilot details (Hours of experience on) </label>
-                                    <input name="email" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="text" class="form-control" id="email" placeholder=""
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
 
                             </div>
