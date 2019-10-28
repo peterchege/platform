@@ -8,8 +8,17 @@ switch ($_GET['request']) {
             'status' => 0,
             'message' => 'Form submission failed, please try again.'
         );
-        if (!isset($_POST['full_name']) || empty($_POST['full_name'] || !isset($_POST['phone']) || $_POST['phone'] || !isset($_POST['email']) ||  $_POST['email'] || !isset($_POST['location']) || empty($_POST['location']) || !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||  !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
-            !isset($_POST['product_id']) ||  empty($_POST['product_id']) || !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) || !isset($_POST['motor_claim_type']) ||  empty($_POST['motor_claim_type']))) {
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
+            !isset($_POST['phone']) || empty($_POST['phone']) ||
+            !isset($_POST['email']) ||  empty($_POST['email']) ||
+            !isset($_POST['location']) || empty($_POST['location']) ||
+            !isset($_POST['registration_number']) ||    empty($_POST['registration_number']) ||
+            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            !isset($_POST['motor_claim_type']) ||  empty($_POST['motor_claim_type'])
+        ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $full_name = sanitize($_POST['full_name']);
@@ -44,8 +53,150 @@ switch ($_GET['request']) {
         }
         //return response
         echo json_encode($response);
-
         break;
+
+    case 'motor_claim_upload':
+        sleep(1);
+        $response = array(
+            'status' => 0,
+            'message' => 'Form submission failed, please try again.'
+        );
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
+            !isset($_POST['phone']) || empty($_POST['phone']) ||
+            !isset($_POST['email']) ||  empty($_POST['email']) ||
+            !isset($_POST['registration_number']) ||  empty($_POST['registration_number']) ||
+            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            !isset($_POST['motor_claim_type']) ||  empty($_POST['motor_claim_type']) ||
+            !isset($_FILES['claim_form_motor']['name']) ||  empty($_FILES['claim_form_motor']['name']) ||
+            !isset($_FILES['police_abstract']['name']) ||  empty($_FILES['police_abstract']['name']) ||
+            !isset($_FILES['driving_license']['name']) ||  empty($_FILES['driving_license']['name']) ||
+            !isset($_FILES['log_book']['name']) ||  empty($_FILES['log_book']['name']) ||
+            !isset($_FILES['detailed_statement']['name']) ||  empty($_FILES['detailed_statement']['name'])
+        ) {
+            $response['message'] = 'Please enter all required fields!';
+        } else {
+            $full_name = sanitize($_POST['full_name']);
+            $phone = sanitize($_POST['phone']);
+            $email = sanitize($_POST['email']);
+            $claim_type = sanitize($_POST['motor_claim_type']);
+            $registration_number = sanitize($_POST['registration_number']);
+            $product_id = sanitize($_POST['product_id']);
+            $product_category_id = sanitize($_POST['product_category_id']);
+            $motor_claim_type = sanitize($_POST['motor_claim_type']);
+            $created_at = date('Y-m-d H:i:s');
+
+            if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+                $response['message'] = 'Please enter a valid email.';
+                $status = 0;
+                exit;
+            } else {
+
+                $claim_id = randomstring(10);
+
+                $life_claim_type = '';
+
+                // completed form
+                $claim_form_motor_file_name = $_FILES['claim_form_motor']['name'];
+                $claim_form_motor_file_size = $_FILES['claim_form_motor']['size'];
+                $claim_form_motor_file_tmp = $_FILES['claim_form_motor']['tmp_name'];
+                $claim_form_motor_file_type = $_FILES['claim_form_motor']['type'];
+
+                $claim_form_motor_file_ext = explode('.', $claim_form_motor_file_name);
+                $claim_form_motor_file_ext = end($claim_form_motor_file_ext);
+                $claim_form_motor_file_ext = strtolower($claim_form_motor_file_ext);
+
+                // police abstract
+                $police_abstract_file_name = $_FILES['police_abstract']['name'];
+                $police_abstract_file_size = $_FILES['police_abstract']['size'];
+                $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
+                $police_abstract_file_type = $_FILES['police_abstract']['type'];
+
+                $police_abstract_file_ext = explode('.', $police_abstract_file_name);
+                $police_abstract_file_ext = end($police_abstract_file_ext);
+                $police_abstract_file_ext = strtolower($police_abstract_file_ext);
+
+
+
+                // driving license
+                $driving_license_file_name = $_FILES['driving_license']['name'];
+                $driving_license_file_tmp = $_FILES['driving_license']['tmp_name'];
+                $driving_license_file_size = $_FILES['driving_license']['size'];
+                $driving_license_file_type = $_FILES['driving_license']['type'];
+
+                $driving_license_file_ext = explode('.', $driving_license_file_name);
+                $driving_license_file_ext = end($driving_license_file_ext);
+                $driving_license_file_ext = strtolower($driving_license_file_ext);
+
+                // log book
+                $log_book_file_name = $_FILES['log_book']['name'];
+                $log_book_file_size = $_FILES['log_book']['size'];
+                $log_book_file_tmp = $_FILES['log_book']['tmp_name'];
+                $log_book_file_type = $_FILES['log_book']['type'];
+
+                $log_book_file_ext = explode('.', $log_book_file_name);
+                $log_book_file_ext = end($log_book_file_ext);
+                $log_book_file_ext = strtolower($log_book_file_ext);
+
+
+
+
+                $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                if (
+                    in_array($claim_form_motor_file_ext, $extensions) === false ||
+                    in_array($police_abstract_file_ext, $extensions) === false ||
+                    in_array($driving_license_file_ext, $extensions) === false ||
+                    in_array($log_book_file_ext, $extensions) === false
+                ) {
+                    $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                    $errors[] = 0;
+                }
+
+                if ($claim_form_motor_file_size > 5242880 || $police_abstract_file_size > 5242880 || $driving_license_file_size > 5242880 || $log_book_file_size > 5242880) {
+                    $response['message'] = "Files should be less than 5MB each!";
+                    $errors[] = 0;
+                }
+
+                if (empty($errors) == true) {
+                    $claim_form_motor_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_motor_file_name;
+                    $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                    $driving_license_file_name = $email . '-----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
+                    $log_book_file_name = $email . '-----' . $claim_id . '----' . 'log_book' . '----' . $log_book_file_name;
+
+                    $claim_form_motor_file_path =  "../documents/claims/" . $claim_form_motor_file_name;
+                    $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
+                    $driving_license_file_path =  "../documents/claims/" . $driving_license_file_name;
+                    $log_book_file_path =  "../documents/claims/" . $log_book_file_name;
+
+
+
+                    if (
+                        move_uploaded_file($claim_form_motor_file_tmp, $claim_form_motor_file_path) &&
+                        move_uploaded_file($driving_license_file_tmp, $driving_license_file_path)  &&
+                        move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)  &&
+                        move_uploaded_file($log_book_file_tmp, $log_book_file_path)
+                    ) {
+                        $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`created_at`) 
+                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$created_at')  ");
+                        if ($insert) {
+                            $response['message'] = 'success';
+                            $response['status'] = 1;
+                        } else {
+                            $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                            //  mysqli_error($db);
+                        }
+                    } else {
+                        $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                    }
+                }
+            }
+        }
+        //return response
+        echo json_encode($response);
+        break;
+
     case 'life_claim':
         sleep(1);
         $response = array(
@@ -1471,7 +1622,7 @@ switch ($_GET['request']) {
                 $form = 'claim_form_crop';
             } elseif (isset($_FILES['personal_accident_claim_form'])) {
                 $form = 'personal_accident_claim_form';
-            }  else {
+            } else {
                 $form = 'invalid selection';
             }
 
@@ -1796,164 +1947,164 @@ switch ($_GET['request']) {
                     }
                     echo json_encode($response);
                     break;
-                    
-                    case 'personal_accident_claim_form':
-                        $personal_property_claim_type = 'Personal Accident Claim';
-                        $claim_id = randomstring(10);
-    
-                        // completed form
-                        $personal_accident_claim_form_file_name = $_FILES['personal_accident_claim_form']['name'];
-                        $personal_accident_claim_form_file_size = $_FILES['personal_accident_claim_form']['size'];
-                        $personal_accident_claim_form_file_tmp = $_FILES['personal_accident_claim_form']['tmp_name'];
-                        $personal_accident_claim_form_file_type = $_FILES['personal_accident_claim_form']['type'];
-    
-                        $personal_accident_claim_form_file_ext = explode('.', $personal_accident_claim_form_file_name);
-                        $personal_accident_claim_form_file_ext = end($personal_accident_claim_form_file_ext);
-                        $personal_accident_claim_form_file_ext = strtolower($personal_accident_claim_form_file_ext);
-    
-                        //detailed statement
-                        $detailed_statement_file_name = $_FILES['detailed_statement']['name'];
-                        $detailed_statement_file_size = $_FILES['detailed_statement']['size'];
-                        $detailed_statement_file_tmp = $_FILES['detailed_statement']['tmp_name'];
-                        $detailed_statement_file_type = $_FILES['detailed_statement']['type'];
-    
-                        $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
-                        $detailed_statement_file_ext = end($detailed_statement_file_ext);
-                        $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
-    
-    
-    
-                        // payslips
-                        $payslips_file_name = $_FILES['payslips']['name'];
-                        $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
-                        $payslips_file_size = $_FILES['payslips']['size'];
-                        $payslips_file_type = $_FILES['payslips']['type'];
-    
-                        $payslips_file_ext = explode('.', $payslips_file_name);
-                        $payslips_file_ext = end($payslips_file_ext);
-                        $payslips_file_ext = strtolower($payslips_file_ext);
-    
-                        // national id
-                        $national_id_file_name = $_FILES['national_id']['name'];
-                        $national_id_file_size = $_FILES['national_id']['size'];
-                        $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
-                        $national_id_file_type = $_FILES['national_id']['type'];
-    
-                        $national_id_file_ext = explode('.', $national_id_file_name);
-                        $national_id_file_ext = end($national_id_file_ext);
-                        $national_id_file_ext = strtolower($national_id_file_ext);
-    
-                        // sick sheet
-                        $sick_sheet_file_name = $_FILES['sick_sheet']['name'];
-                        $sick_sheet_file_size = $_FILES['sick_sheet']['size'];
-                        $sick_sheet_file_tmp = $_FILES['sick_sheet']['tmp_name'];
-                        $sick_sheet_file_type = $_FILES['sick_sheet']['type'];
-    
-                        $sick_sheet_file_ext = explode('.', $sick_sheet_file_name);
-                        $sick_sheet_file_ext = end($sick_sheet_file_ext);
-                        $sick_sheet_file_ext = strtolower($sick_sheet_file_ext);
-    
-                        // medical bill
-                        $medical_bill_file_name = $_FILES['medical_bill']['name'];
-                        $medical_bill_file_size = $_FILES['medical_bill']['size'];
-                        $medical_bill_file_tmp = $_FILES['medical_bill']['tmp_name'];
-                        $medical_bill_file_type = $_FILES['medical_bill']['type'];
-    
-                        $medical_bill_file_ext = explode('.', $medical_bill_file_name);
-                        $medical_bill_file_ext = end($medical_bill_file_ext);
-                        $medical_bill_file_ext = strtolower($medical_bill_file_ext);
-    
-                        // discharge summary
-                        $discharge_summary_file_name = $_FILES['discharge_summary']['name'];
-                        $discharge_summary_file_size = $_FILES['discharge_summary']['size'];
-                        $discharge_summary_file_tmp = $_FILES['discharge_summary']['tmp_name'];
-                        $discharge_summary_file_type = $_FILES['discharge_summary']['type'];
-    
-                        $discharge_summary_file_ext = explode('.', $discharge_summary_file_name);
-                        $discharge_summary_file_ext = end($discharge_summary_file_ext);
-                        $discharge_summary_file_ext = strtolower($discharge_summary_file_ext);
-    
-                        // police abstract
-                        $police_abstract_file_name = $_FILES['police_abstract']['name'];
-                        $police_abstract_file_size = $_FILES['police_abstract']['size'];
-                        $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
-                        $police_abstract_file_type = $_FILES['police_abstract']['type'];
-    
-                        $police_abstract_file_ext = explode('.', $police_abstract_file_name);
-                        $police_abstract_file_ext = end($police_abstract_file_ext);
-                        $police_abstract_file_ext = strtolower($police_abstract_file_ext);
-    
-    
-    
-    
-                        $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
-    
+
+                case 'personal_accident_claim_form':
+                    $personal_property_claim_type = 'Personal Accident Claim';
+                    $claim_id = randomstring(10);
+
+                    // completed form
+                    $personal_accident_claim_form_file_name = $_FILES['personal_accident_claim_form']['name'];
+                    $personal_accident_claim_form_file_size = $_FILES['personal_accident_claim_form']['size'];
+                    $personal_accident_claim_form_file_tmp = $_FILES['personal_accident_claim_form']['tmp_name'];
+                    $personal_accident_claim_form_file_type = $_FILES['personal_accident_claim_form']['type'];
+
+                    $personal_accident_claim_form_file_ext = explode('.', $personal_accident_claim_form_file_name);
+                    $personal_accident_claim_form_file_ext = end($personal_accident_claim_form_file_ext);
+                    $personal_accident_claim_form_file_ext = strtolower($personal_accident_claim_form_file_ext);
+
+                    //detailed statement
+                    $detailed_statement_file_name = $_FILES['detailed_statement']['name'];
+                    $detailed_statement_file_size = $_FILES['detailed_statement']['size'];
+                    $detailed_statement_file_tmp = $_FILES['detailed_statement']['tmp_name'];
+                    $detailed_statement_file_type = $_FILES['detailed_statement']['type'];
+
+                    $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
+                    $detailed_statement_file_ext = end($detailed_statement_file_ext);
+                    $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
+
+
+
+                    // payslips
+                    $payslips_file_name = $_FILES['payslips']['name'];
+                    $payslips_file_tmp = $_FILES['payslips']['tmp_name'];
+                    $payslips_file_size = $_FILES['payslips']['size'];
+                    $payslips_file_type = $_FILES['payslips']['type'];
+
+                    $payslips_file_ext = explode('.', $payslips_file_name);
+                    $payslips_file_ext = end($payslips_file_ext);
+                    $payslips_file_ext = strtolower($payslips_file_ext);
+
+                    // national id
+                    $national_id_file_name = $_FILES['national_id']['name'];
+                    $national_id_file_size = $_FILES['national_id']['size'];
+                    $national_id_file_tmp = $_FILES['national_id']['tmp_name'];
+                    $national_id_file_type = $_FILES['national_id']['type'];
+
+                    $national_id_file_ext = explode('.', $national_id_file_name);
+                    $national_id_file_ext = end($national_id_file_ext);
+                    $national_id_file_ext = strtolower($national_id_file_ext);
+
+                    // sick sheet
+                    $sick_sheet_file_name = $_FILES['sick_sheet']['name'];
+                    $sick_sheet_file_size = $_FILES['sick_sheet']['size'];
+                    $sick_sheet_file_tmp = $_FILES['sick_sheet']['tmp_name'];
+                    $sick_sheet_file_type = $_FILES['sick_sheet']['type'];
+
+                    $sick_sheet_file_ext = explode('.', $sick_sheet_file_name);
+                    $sick_sheet_file_ext = end($sick_sheet_file_ext);
+                    $sick_sheet_file_ext = strtolower($sick_sheet_file_ext);
+
+                    // medical bill
+                    $medical_bill_file_name = $_FILES['medical_bill']['name'];
+                    $medical_bill_file_size = $_FILES['medical_bill']['size'];
+                    $medical_bill_file_tmp = $_FILES['medical_bill']['tmp_name'];
+                    $medical_bill_file_type = $_FILES['medical_bill']['type'];
+
+                    $medical_bill_file_ext = explode('.', $medical_bill_file_name);
+                    $medical_bill_file_ext = end($medical_bill_file_ext);
+                    $medical_bill_file_ext = strtolower($medical_bill_file_ext);
+
+                    // discharge summary
+                    $discharge_summary_file_name = $_FILES['discharge_summary']['name'];
+                    $discharge_summary_file_size = $_FILES['discharge_summary']['size'];
+                    $discharge_summary_file_tmp = $_FILES['discharge_summary']['tmp_name'];
+                    $discharge_summary_file_type = $_FILES['discharge_summary']['type'];
+
+                    $discharge_summary_file_ext = explode('.', $discharge_summary_file_name);
+                    $discharge_summary_file_ext = end($discharge_summary_file_ext);
+                    $discharge_summary_file_ext = strtolower($discharge_summary_file_ext);
+
+                    // police abstract
+                    $police_abstract_file_name = $_FILES['police_abstract']['name'];
+                    $police_abstract_file_size = $_FILES['police_abstract']['size'];
+                    $police_abstract_file_tmp = $_FILES['police_abstract']['tmp_name'];
+                    $police_abstract_file_type = $_FILES['police_abstract']['type'];
+
+                    $police_abstract_file_ext = explode('.', $police_abstract_file_name);
+                    $police_abstract_file_ext = end($police_abstract_file_ext);
+                    $police_abstract_file_ext = strtolower($police_abstract_file_ext);
+
+
+
+
+                    $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+
+                    if (
+                        in_array($personal_accident_claim_form_file_ext, $extensions) === false ||
+                        in_array($detailed_statement_file_ext, $extensions) === false ||
+                        in_array($payslips_file_ext, $extensions) === false ||
+                        in_array($national_id_file_ext, $extensions) === false ||
+                        in_array($sick_sheet_file_ext, $extensions) === false ||
+                        in_array($medical_bill_file_ext, $extensions) === false ||
+                        in_array($discharge_summary_file_ext, $extensions) === false ||
+                        in_array($police_abstract_file_ext, $extensions) === false
+                    ) {
+                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $errors[] = 0;
+                    }
+
+                    if ($personal_accident_claim_form_file_size > 5242880 || $detailed_statement_file_size > 5242880 || $payslips_file_size > 5242880 || $national_id_file_size > 5242880 || $sick_sheet_file_size > 5242880 || $police_abstract_file_size > 5242880 || $medical_bill_file_size > 5242880 || $discharge_summary_file_size > 5242880) {
+                        $response['message'] = "Files should be less than 5MB each!";
+                        $errors[] = 0;
+                    }
+
+                    if (empty($errors) == true) {
+                        $personal_accident_claim_form_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $personal_accident_claim_form_file_name;
+                        $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslip' . '----' . $payslips_file_name;
+                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
+                        $sick_sheet_file_name = $email . '-----' . $claim_id . '----' . 'sick sheet' . '----' . $sick_sheet_file_name;
+                        $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
+                        $discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'discharge summary' . '----' . $discharge_summary_file_name;
+                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+
+                        $personal_accident_claim_form_file_path =  "../documents/claims/" . $personal_accident_claim_form_file_name;
+                        $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;
+                        $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
+                        $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
+                        $sick_sheet_file_path =  "../documents/claims/" . $sick_sheet_file_name;
+                        $medical_bill_file_path =  "../documents/claims/" . $medical_bill_file_name;
+                        $discharge_summary_file_path =  "../documents/claims/" . $discharge_summary_file_name;
+                        $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
+
+
+
                         if (
-                            in_array($personal_accident_claim_form_file_ext, $extensions) === false ||
-                            in_array($detailed_statement_file_ext, $extensions) === false ||
-                            in_array($payslips_file_ext, $extensions) === false ||
-                            in_array($national_id_file_ext, $extensions) === false||
-                            in_array($sick_sheet_file_ext, $extensions) === false||
-                            in_array($medical_bill_file_ext, $extensions) === false||
-                            in_array($discharge_summary_file_ext, $extensions) === false||
-                            in_array($police_abstract_file_ext, $extensions) === false
+                            move_uploaded_file($personal_accident_claim_form_file_tmp, $personal_accident_claim_form_file_path) &&
+                            move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)  &&
+                            move_uploaded_file($payslips_file_tmp, $payslips_file_path) &&
+                            move_uploaded_file($national_id_file_tmp, $national_id_file_path) &&
+                            move_uploaded_file($sick_sheet_file_tmp, $sick_sheet_file_path) &&
+                            move_uploaded_file($medical_bill_file_tmp, $medical_bill_file_path) &&
+                            move_uploaded_file($discharge_summary_file_tmp, $discharge_summary_file_path) &&
+                            move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
                         ) {
-                            $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
-                            $errors[] = 0;
-                        }
-    
-                        if ($personal_accident_claim_form_file_size > 5242880 || $detailed_statement_file_size > 5242880 || $payslips_file_size > 5242880 || $national_id_file_size > 5242880|| $sick_sheet_file_size > 5242880|| $police_abstract_file_size > 5242880|| $medical_bill_file_size > 5242880|| $discharge_summary_file_size > 5242880) {
-                            $response['message'] = "Files should be less than 5MB each!";
-                            $errors[] = 0;
-                        }
-    
-                        if (empty($errors) == true) {
-                            $personal_accident_claim_form_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $personal_accident_claim_form_file_name;
-                            $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
-                            $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslip' . '----' . $payslips_file_name;
-                            $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
-                            $sick_sheet_file_name = $email . '-----' . $claim_id . '----' . 'sick sheet' . '----' . $sick_sheet_file_name;
-                            $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
-                            $discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'discharge summary' . '----' . $discharge_summary_file_name;
-                            $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-    
-                            $personal_accident_claim_form_file_path =  "../documents/claims/" . $personal_accident_claim_form_file_name;
-                            $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;
-                            $payslips_file_path =  "../documents/claims/" . $payslips_file_name;
-                            $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
-                            $sick_sheet_file_path =  "../documents/claims/" . $sick_sheet_file_name;
-                            $medical_bill_file_path =  "../documents/claims/" . $medical_bill_file_name;
-                            $discharge_summary_file_path =  "../documents/claims/" . $discharge_summary_file_name;
-                            $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
-    
-    
-    
-                            if (
-                                move_uploaded_file($personal_accident_claim_form_file_tmp, $personal_accident_claim_form_file_path) &&
-                                move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)  &&
-                                move_uploaded_file($payslips_file_tmp, $payslips_file_path) &&
-                                move_uploaded_file($national_id_file_tmp, $national_id_file_path)&&
-                                move_uploaded_file($sick_sheet_file_tmp, $sick_sheet_file_path)&&
-                                move_uploaded_file($medical_bill_file_tmp, $medical_bill_file_path)&&
-                                move_uploaded_file($discharge_summary_file_tmp, $discharge_summary_file_path)&&
-                                move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
-                            ) {
-                                $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`) 
                                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$personal_accident_claim_form_file_name',' $detailed_statement_file_name','$payslips_file_name','$national_id_file_name','$sick_sheet_file_name','$medical_bill_file_name','$discharge_summary_file_name','$police_abstract_file_name','$created_at')  ");
-                                if ($insert) {
-                                    $response['message'] = 'success';
-                                } else {
-                                    $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                    //  mysqli_error($db);
-                                }
+                            if ($insert) {
+                                $response['message'] = 'success';
                             } else {
-                                $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                                $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
+                                //  mysqli_error($db);
                             }
+                        } else {
+                            $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
                         }
-                        echo json_encode($response);
-                        break;
-                        
-                    
+                    }
+                    echo json_encode($response);
+                    break;
+
+
                 default:
                     # code...
                     break;

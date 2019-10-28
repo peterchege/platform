@@ -213,7 +213,7 @@ $(document).ready(function () {
         var form = $(this);
         $.ajax({
             type: "POST",
-            url: "ajax/claims.php?request=motor_upload",
+            url: "ajax/claims.php?request=motor_claim_upload",
             data: new FormData(this),
             dataType: "json",
             contentType: false,
