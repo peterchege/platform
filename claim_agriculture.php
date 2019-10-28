@@ -46,8 +46,8 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>PERSONAL & PROPERTY CLAIM</h1>
-            <div class="under-line img9">
+            <h1>AGRICULTURE CLAIM</h1>
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -63,7 +63,7 @@
     </div>
 
 
-    <!-- =================================== TYPES OF PROPERTY & INJURY CLAIM ===================================== -->
+    <!-- =================================== TYPES AGRICULTURE CLAIM ===================================== -->
 
     <div class="container-fluid12">
         <div class="product22 product-new">
@@ -72,32 +72,16 @@
             <br> <br>
 
             <div class="container">
+
                 <div class="row row-product">
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="product-box we claim-property">
-                            <a href="claim_report_property.php">
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
-
-                                    <div class="content">
-                                        <h3>Property Damage </h3>
-                                        <br>
-                                        <p> In the event of hospitalization of the main member or a family member</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="product-box we claim-injury ">
-                            <a href="claim_report_wiba.php" >
+                    <div class="col-md-4 wow fadeInUp " data-wow-delay="0.5s">
+                        <div class="product-box we claim-livestock">
+                            <a href="claim_report_agri_livestock.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
-                                        <h3> Injuries : WIBA</h3>
+                                        <h3>Livestock Claim</h3>
                                         <br>
                                         <p>Upon death, this claim will ensure that cash is available immediately to pay
                                             for the costs of a funeral and related expenses.</p>
@@ -108,27 +92,31 @@
                     </div>
 
 
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="product-box we claim-accident">
-                            <a href="claim_report_personal_accident.php">
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
-                                    <div class="content">
-                                        <h3>Personal Accident</h3>
-                                        <br>
-                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                            for the costs of a funeral and related expenses.</p>
-                                    </div>
-                                </div>
-                            </a>
+                    <div class="col-md-4  wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="product-box we claim-crop">
+                            <a href="claim_report_agri_crop.php">
+                                <div class=" color-overlay"></div>
+                        <div class="wrapper">
+
+                            <div class="content">
+                                <h3>Crop Claim </h3>
+                                <br>
+                                <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                    for the costs of a funeral and related expenses.</p>
+                            </div>
                         </div>
+                        </a>
                     </div>
+                </div>
+
+                <div class="offset-4">
 
                 </div>
 
             </div>
-            <br>
         </div>
+        <br>
+    </div>
 
     </div>
 
@@ -202,19 +190,20 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== PERSONAL ACCIDENT CLAIM FORM ===================================== -->
+    <!-- ===================================== CROP CLAIM FORM  ===================================== -->
 
-    <div id="modal-full3" class="uk-modal-full" uk-modal>
+    <div id="modal-full5" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
                     <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container-fluid">
+                        <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
@@ -243,57 +232,13 @@
                             <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
 
-                        <div class="container-fluid">
+                        <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="personal_accident_claim_form">Attach document : completed claim form <a href="pdf/claim/GPA CLAIM FORM.pdf" target="_blank">(click here to
-                                            download
-                                            a
-                                            claim
-                                            form)</a> </label>
-                                    <input name="personal_accident_claim_form" type="file" class="form-control-file" id="personal_accident_claim_form" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="detailed_statement">Attach document : Statements </label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="payslips">Attach document : Payslip </label>
-                                    <input name="payslips" type="file" class="form-control-file" id="payslips" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="national_id">Attach document : National ID Card </label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="sick_sheet">Attach document : Sick Sheet<br> (Optional)</label>
-                                    <input name="sick_sheet" type="file" class="form-control-file" id="sick_sheet" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="medical_bill">Attach document : Medical Bill (Optional) </label>
-                                    <input name="medical_bill" type="file" class="form-control-file" id="medical_bill" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="discharge_summary">Attach document : Discharge Summary </label>
-                                    <input name="discharge_summary" type="file" class="form-control-file" id="discharge_summary" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="police_abstract">Attach document : Police Abstract </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                <div class="form-group col-md-12">
+                                    <label for="claim_form_crop">Attach document : Claim Form completed <a href="PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
+                                            to download a claim form)</a></label>
+                                    <input name="claim_form_crop" type="file" class="form-control-file" id="claim_form_crop" required>
                                 </div>
                             </div>
 
@@ -316,7 +261,6 @@
             </div>
         </div>
     </div>
-
     <?php
     require_once('inc/scripts.php');
     ?>
