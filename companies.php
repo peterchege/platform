@@ -13,6 +13,7 @@
 
 </head>
 
+
 <body>
 
     <!--==========================
@@ -48,7 +49,7 @@
                 <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">DOWNLOADS</a>
+                <a class="nav-link" href="financial_report.php">FINANCIAL REPORTS</a>
             </li>
         </ul>
     </div>
@@ -67,16 +68,21 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 Welcome to Apollo Investments Limited.<br><br>
                 Apollo Group (Apollo Investments Limited) was an idea born from the need to harness synergies across the
-                insurance business. Established in 1977 as one of the first locally owned insurance companies, Apollo has
-                achieved impressive growth over the years thanks to unwavering commitment to service, confidence of the policy
+                insurance business. Established in 1977 as one of the first locally owned insurance companies, Apollo
+                has
+                achieved impressive growth over the years thanks to unwavering commitment to service, confidence of the
+                policy
                 holders and constant adherence to a sound management policy.
 
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                The group is a one stop financial services provider offering innovative products and services in Insurance, Pensions
-                and Investments. Built on commitment, integrity and innovation, the group has risen to be one of the leading providers
-                of insurance and financial services in East Africa. Apollo Investments comprises of APA Insurance Ke /Ug, APA Life
+                The group is a one stop financial services provider offering innovative products and services in
+                Insurance, Pensions
+                and Investments. Built on commitment, integrity and innovation, the group has risen to be one of the
+                leading providers
+                of insurance and financial services in East Africa. Apollo Investments comprises of APA Insurance Ke
+                /Ug, APA Life
                 Assurance, Apollo Asset Management ,Gordon Court.
             </p>
 
@@ -84,35 +90,44 @@
                 <b>APA INSURANCE:</b> The flagship company, APA Insurance, was formed
                 after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
                 With a combined experience of over 100 years (Pan Africa – 1946 and Apollo –1977), APA has become
-                the largest insurance firm in Kenya and the most innovative in product offering. APA Insurance underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro Insurance.
+                the largest insurance firm in Kenya and the most innovative in product offering. APA Insurance
+                underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro Insurance.
                 We also underwrite Individual and Family Health Insurance. Our products provide customers with peace
                 of mind, helping both businesses and individuals to return to the same standing following a loss or
                 other unfortunate event.
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APA INSURANCE (UGANDA) LIMITED : </b> Our wholly owned subsidiary underwrites General and Health Insurance .The firms market share and ranking
+                <b>APA INSURANCE (UGANDA) LIMITED : </b> Our wholly owned subsidiary underwrites General and Health
+                Insurance .The firms market share and ranking
                 has improved and has been recognised for Best Claims Service by the insurance industry in Uganda.
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APA LIFE ASSURANCE LIMITTED : </b>APA Life is one of the leading insurance companies in Kenya, providing Life Insurance and Pension Benefits.
+                <b>APA LIFE ASSURANCE LIMITTED : </b>APA Life is one of the leading insurance companies in Kenya,
+                providing Life Insurance and Pension Benefits.
                 It has been recognised as the Best Insurance Company in Claims Settlement (Life Business). Our products
                 include: Employee Benefits such as Group Life Assurance, Last Expense, Disability Covers and Individual
                 Pension Plans. We also provide Unit Linked Investment Plans and Education Plans, among many others.
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APOLLO ASSET MANAGMENT : </b> Apollo Asset Management Company (AAMC) is focused exclusively on meeting needs of institutional investors
-                like pension schemes, Saccos, and High Net Worth investors and their families. AAMC is licensed by the Capital
-                Markets Authority (CMA) and the Retirement Benefits Authority (RBA) to conduct Fund Management and Investment
+                <b>APOLLO ASSET MANAGMENT : </b> Apollo Asset Management Company (AAMC) is focused exclusively on
+                meeting needs of institutional investors
+                like pension schemes, Saccos, and High Net Worth investors and their families. AAMC is licensed by the
+                Capital
+                Markets Authority (CMA) and the Retirement Benefits Authority (RBA) to conduct Fund Management and
+                Investment
                 Advisory Services.
             </p>
 
             <p class="container content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-                <b>APOLLO CENTRE : </b>Is wholly owned by Gordon Court Limited, a subsidiary of AIL. It is a commercial building situated in the Westlands
-                area of Nairobi. Besides being the group headquarters, Apollo Centre offers modern conference facilities including: private meeting rooms and
-                custom designed training rooms fitted with state-of-the-art equipment. The facility is popular with a number of corporate and individual clients
+                <b>APOLLO CENTRE : </b>Is wholly owned by Gordon Court Limited, a subsidiary of AIL. It is a commercial
+                building situated in the Westlands
+                area of Nairobi. Besides being the group headquarters, Apollo Centre offers modern conference facilities
+                including: private meeting rooms and
+                custom designed training rooms fitted with state-of-the-art equipment. The facility is popular with a
+                number of corporate and individual clients
                 due to its exclusivity and convenience.
             </p>
 
@@ -134,9 +149,12 @@
                 <li>Best in Fraud Detection & Prevention </li>
                 <li>Best in Customer Satisfaction </li>
                 <li>Best in Corporate Social Responsibility </li>
-                <li>Lead insurer for the Agriculture Consortium of Insurance Companies for Government Sponsored Agri-Livestock Insurance </li>
-                <li>Environmental champions through tree planting and dam building .We are friends of Karura, Sponsors of Mau Run To Create
-                    Environmental Awareness, raising funds for rehabilitation of Njoro River and Mau ecosystem and winners of Total Eco-Challenge -Tree Planting Champion </li>
+                <li>Lead insurer for the Agriculture Consortium of Insurance Companies for Government Sponsored
+                    Agri-Livestock Insurance </li>
+                <li>Environmental champions through tree planting and dam building .We are friends of Karura, Sponsors
+                    of Mau Run To Create
+                    Environmental Awareness, raising funds for rehabilitation of Njoro River and Mau ecosystem and
+                    winners of Total Eco-Challenge -Tree Planting Champion </li>
             </ol>
         </div>
 
@@ -155,7 +173,8 @@
         <div class="row">
             <div class="col-10">
                 <p class="wow fadeInUp" data-wow-delay="0.1s">
-                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are
+                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we
+                    are
                     always ready to listen, help and advise you.
                 </p>
             </div>
@@ -169,7 +188,8 @@
                         <h2>STRONG FINANCIAL BASE </h2>
                         <hr>
                         <p>
-                            The firm is backed by a strong financial base. Getting into partnership with Swiss Re provides
+                            The firm is backed by a strong financial base. Getting into partnership with Swiss Re
+                            provides
                             for a strong financial backing that enables us deliver on our brand promise.
                         </p>
 
@@ -182,7 +202,8 @@
                         <h2>REPUTABLE SERVICES </h2>
                         <hr>
                         <p>
-                            Our products and services are well known and respected in the market. We have built our reputation
+                            Our products and services are well known and respected in the market. We have built our
+                            reputation
                             through hardwork and good service.
                         </p>
 
@@ -195,7 +216,8 @@
                         <h2>PROFESSIONAL AND <br>PERSONALISED SERVICE </h2>
                         <hr>
                         <p>
-                            The customer is the focus of our attention. Each account is assigned to a Relationship Officer
+                            The customer is the focus of our attention. Each account is assigned to a Relationship
+                            Officer
                             who ensures that personal and professional service is given.
                         </p>
 
@@ -259,7 +281,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
