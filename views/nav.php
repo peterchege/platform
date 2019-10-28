@@ -46,7 +46,8 @@
                     <!-- PERSONAL AND HEALTH -->
                     <li class="list-down">
                         <a href="products.php#personal">PERSONAL & HEALTH</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
@@ -68,7 +69,8 @@
                                         <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
                                                 (Domestic package)</a></li>
                                         <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
-                                        <li><a href="product_detail_personal_accident.php"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
+                                        <li><a href="product_detail_personal_accident.php"><i
+                                                    class="fas fa-user-injured"></i> Personal Accident</a></li>
                                         <li><a href="product_detail_golfers.php"><i class="fas fa-golf-ball"></i>
                                                 Golfers</a></li>
                                     </ul>
@@ -93,14 +95,16 @@
                     <!-- LIFE COVER -->
                     <li class="list-down">
                         <a href="products.php#life">LIFE ASSURANCE</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
                                         <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i>
                                                 Fixed Savings Plan (Imarika)</a></li>
-                                        <li><a href="product_detail_life_akiba_halisi.php"><i class="fas fa-money-check"></i> Anticipated Savings (Akiba
+                                        <li><a href="product_detail_life_akiba_halisi.php"><i
+                                                    class="fas fa-money-check"></i> Anticipated Savings (Akiba
                                                 Halisi)</a></li>
                                         <li><a href="product_detail_life_elimu.php"><i class="fas fa-user-graduate"></i>
                                                 Education Plan (Elimu)</a></li>
@@ -111,12 +115,16 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="product_detail_life_pumzisha.php"><i class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover
+                                        <li><a href="product_detail_life_pumzisha.php"><i
+                                                    class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover
                                                 (Pumzisha)</a></li>
-                                        <li><a href="product_detail_life_term_assuarance.php"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
-                                        <li><a href="product_detail_life_individual_pension_plan.php"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a>
+                                        <li><a href="product_detail_life_term_assuarance.php"><i
+                                                    class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
+                                        <li><a href="product_detail_life_individual_pension_plan.php"><i
+                                                    class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a>
                                         </li>
-                                        <li><a href="product_detail_life_morgage_protection.php"><i class="fas fa-home"></i> Mortgage Protection</a></li>
+                                        <li><a href="product_detail_life_morgage_protection.php"><i
+                                                    class="fas fa-home"></i> Mortgage Protection</a></li>
                                     </ul>
                                 </div>
 
@@ -127,7 +135,8 @@
                     <!-- COMMERCIAL COVER -->
                     <li class="list-down">
                         <a href="product_commercial.php">COMMERCIAL</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
@@ -140,19 +149,23 @@
                                                 Engineering</a></li>
                                         <li><a href="product_commercial_fire.php"><i class="fas fa-fire"></i> Fire &
                                                 Perils </a></li>
-                                        <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+                                        <li><a href="product_commercial_goods_in_transit.php"><i
+                                                    class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="product_commercial_liability.php"><i class="fas fa-house-damage"></i> Liability </a></li>
+                                        <li><a href="product_commercial_liability.php"><i
+                                                    class="fas fa-house-damage"></i> Liability </a></li>
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
-                                        <li><a href="product_detail_motor_commercial.php"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
+                                        <li><a href="product_detail_motor_commercial.php"><i
+                                                    class="fas fa-car-side"></i> Motor Commercial</a></li>
                                         <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
                                                 Cycle (PSV) </a></li>
-                                        <li><a href="product_commercial_motor_trade.php"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
+                                        <li><a href="product_commercial_motor_trade.php"><i
+                                                    class="fas fa-globe-africa"></i> Motor Trade </a></li>
                                     </ul>
                                 </div>
                                 <div>
@@ -160,7 +173,8 @@
 
                                         <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i>
                                                 Plate Glass </a></li>
-                                        <li><a href="product_commercial_special_package.php"><i class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a>
+                                        <li><a href="product_commercial_special_package.php"><i
+                                                    class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a>
                                         </li>
                                         <li><a href="product_commercial_theft.php"><i class="fas fa-user-secret"></i>
                                                 Theft</a></li>
@@ -172,12 +186,14 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_commercial_health.php"><i class="fas fa-first-aid"></i>
                                                 Health Corporate</a>
-                                        <li><a href="product_commercial.php#group_life"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
+                                        <li><a href="product_commercial.php#group_life"><i
+                                                    class="fas fa-hand-holding-heart"></i> Commercial Life</a>
                                         <li><a href="product_detail_crop.php"><i class="fas fa-cookie"></i> Crop
                                                 Cover</a>
                                         <li><a href="product_detail_livestock.php"><i class="fas fa-hippo"></i>
                                                 Livestock Cover</a></li>
-                                        <li><a href="product_commercial_micro.php"><i class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
+                                        <li><a href="product_commercial_micro.php"><i
+                                                    class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
 
                                     </ul>
                                 </div>
@@ -189,14 +205,18 @@
                     <!-- INVESTMENT -->
                     <li class="list-down">
                         <a href="product_investment.php">INVESTMENT</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-left" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <li><a href="#"><i class="fas fa-balance-scale"></i> Apollo Balanced Fund</a>
+                                        <li><a href="product_investment_abf.php"><i class="fas fa-balance-scale"></i>
+                                                Apollo Balanced Fund</a>
                                         </li>
-                                        <li><a href="#"><i class="fas fa-chart-pie"></i> Apollo Equity Fund</a></li>
-                                        <li><a href="#"><i class="fas fa-chart-line"></i> Apollo Money Market Fund</a>
+                                        <li><a href="product_investment_aef.php"><i class="fas fa-chart-pie"></i> Apollo
+                                                Equity Fund</a></li>
+                                        <li><a href="product_investment_ammf.php"><i class="fas fa-chart-line"></i>
+                                                Apollo Money Market Fund</a>
                                         </li><br>
                                     </ul>
                                 </div>
@@ -207,7 +227,8 @@
                     <!-- CONFERENCE FACILITIES -->
                     <li class="list-down">
                         <a href="apollo_centre.php">CONFERENCE FACILITIES</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
@@ -249,7 +270,8 @@
                     <!-- ABOUT US -->
                     <li class="list-down">
                         <a href="about_us.php">ABOUT US</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
@@ -279,7 +301,8 @@
                     <!-- CUSTOMER CENTRE -->
                     <li class="list-down">
                         <a href="portals.php">CUSTOMER CENTRE</a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 " uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
@@ -295,7 +318,8 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
                                         <li><a href="claim.php"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
-                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life Intermediary portal</a></li>
+                                        <li><a href="#"><i class="fas fa-file-alt"></i> Life Intermediary portal</a>
+                                        </li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Life client portal</a></li>
                                     </ul>
                                 </div>
@@ -314,15 +338,19 @@
 
                     <!-- BRANCHES -->
                     <li class="list-down">
-                        <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
-                        <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                        <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto"
+                                alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
+                        <div class="uk-navbar-dropdown back-color"
+                            uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi text-left">
                                         <!-- <li class="uk-nav-header ">BRANCHES :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="#"> <img src="img/kenya.png" class="rounded" width="30" height="auto" alt="APA KENYA"> &nbsp; KENYA</a></li>
-                                        <li><a href="#"> <img src="img/uganda.png" class="rounded" width="30" height="auto" alt="APA UGANDA"> &nbsp; UGANDA</a></li>
+                                        <li><a href="#"> <img src="img/kenya.png" class="rounded" width="30"
+                                                    height="auto" alt="APA KENYA"> &nbsp; KENYA</a></li>
+                                        <li><a href="#"> <img src="img/uganda.png" class="rounded" width="30"
+                                                    height="auto" alt="APA UGANDA"> &nbsp; UGANDA</a></li>
                                         <!-- <li><a href="#"> <img src="img/tanzania.png" class="rounded" width="30" height="auto" alt="APA TANZANIA"> &nbsp; TANZANIA</a></li><br> -->
                                     </ul>
                                 </div>
@@ -331,7 +359,8 @@
                     </li>
 
                     <li>
-                        <a class="logo1" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                        <a class="logo1" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto"
+                                alt="" title="" /></a>
                     </li>
 
                 </ul>
