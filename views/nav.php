@@ -294,7 +294,7 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="#"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
+                                        <li><a href="claim.php"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Life Intermediary portal</a></li>
                                         <li><a href="#"><i class="fas fa-file-alt"></i> Life client portal</a></li>
                                     </ul>

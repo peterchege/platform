@@ -74,8 +74,11 @@
                             <div class="row">
                                 <div class="col-6">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-                                        eveniet neque voluptatum autem consectetur
+                                        In the unfortunate event you have been involved in an accident
+                                        and do not have a claim form or any supporting documentation,
+                                        you can report the incident to us. This will help us reach out
+                                        to you and guide you through the process.
+                                    </p>
                                 </div>
                                 <div class="col-6">
                                     <div class="report-avatar">
@@ -95,8 +98,11 @@
                             <div class="row">
                                 <div class="col-6">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-                                        eveniet neque voluptatum autem consectetur
+                                        If you already have a completed claim form and have managed to
+                                        gather all supporting documentation. Please click here to submit
+                                        the documentation.
+                                    </p>
+
                                 </div>
                                 <div class="col-6">
                                     <div class="report-avatar2">
@@ -231,8 +237,8 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <label for="location">Vehicle Registarion Number</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="KBQ 123" value="" required>
                                 </div>
                             </div>
 

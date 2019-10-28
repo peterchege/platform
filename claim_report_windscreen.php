@@ -74,8 +74,12 @@
                             <div class="row">
                                 <div class="col-6">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-                                        eveniet neque voluptatum autem consectetur
+                                        In the unfortunate event you have been involved in an accident
+                                        and do not have a claim form or any supporting documentation,
+                                        you can report the incident to us. This will help us reach out
+                                        to you and guide you through the process.
+                                    </p>
+
                                 </div>
                                 <div class="col-6">
                                     <div class="report-avatar">
@@ -95,8 +99,11 @@
                             <div class="row">
                                 <div class="col-6">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-                                        eveniet neque voluptatum autem consectetur
+                                        If you already have a completed claim form and have managed
+                                         to gather all supporting documentation. Please click here 
+                                         to submit the documentation.
+                                    </p>
+
                                 </div>
                                 <div class="col-6">
                                     <div class="report-avatar2">
