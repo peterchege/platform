@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /documents
+/inc/db.php
 /storage/*.key
 # /vendor
 # .env
