@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> OVERVIEW </a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true"> OVERVIEW </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bonds" role="tab" aria-controls="bonds" aria-selected="false"> FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bonds" role="tab"
+                                aria-controls="bonds" aria-selected="false"> FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -140,7 +143,8 @@
                                         <p2>This is a first demand indemnity bond that is backed by an insurer in order
                                             to guarantee an obligee that principal and interest payments will be made.
                                             The guarantee provides additional level of comfort that the investment will
-                                            be repaid in the event that principal would not be able to fulfill the contractual
+                                            be repaid in the event that principal would not be able to fulfill the
+                                            contractual
                                             obligation to make timely payments.
                                         </p2>
                                         <hr>
@@ -148,17 +152,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -260,7 +268,8 @@
                                             </tr>
                                             <tr>
                                                 <td>CB 7</td>
-                                                <td>Shipment of goods prior to entry – goods are shipped and <br> documentation is done later
+                                                <td>Shipment of goods prior to entry – goods are shipped and <br>
+                                                    documentation is done later
                                                 </td>
                                                 <td>PB Only</td>
                                                 <td> 96 Hrs</td>
@@ -279,7 +288,8 @@
                                             </tr>
                                             <tr>
                                                 <td>CB 10</td>
-                                                <td>Re – exportation of imported goods delivered without payment of duty </td>
+                                                <td>Re – exportation of imported goods delivered without payment of duty
+                                                </td>
                                                 <td>PB Only </td>
                                                 <td> 1 Years </td>
                                             </tr>
@@ -297,7 +307,8 @@
                                             </tr>
                                             <tr>
                                                 <td>CB 13</td>
-                                                <td>For goods imported for use in the production of goods for export</td>
+                                                <td>For goods imported for use in the production of goods for export
+                                                </td>
                                                 <td>PB Only </td>
                                                 <td> GB – 3 Yrs </td>
                                             </tr>
@@ -309,13 +320,15 @@
                                             </tr>
                                             <tr>
                                                 <td>CB 16</td>
-                                                <td>For project goods imported and delivered without payment of duty</td>
+                                                <td>For project goods imported and delivered without payment of duty
+                                                </td>
                                                 <td>PB </td>
                                                 <td>1 Years </td>
                                             </tr>
                                             <tr>
                                                 <td>CB 18</td>
-                                                <td>For security of goods in a transit shed or a Customs Freight Station</td>
+                                                <td>For security of goods in a transit shed or a Customs Freight Station
+                                                </td>
                                                 <td>GB Only </td>
                                                 <td>Until retired </td>
                                             </tr>
@@ -355,31 +368,42 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
-                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
-                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
-                                    <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center">
-                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
-                                                    Need Assistance</a>
-                                            </div>
+                                <p>If you are interested in learning how much this insurance product would cost
+                                    you, or if you are interested in purchasing this insurance product, please click
+                                    <b>Get Cover</b>.
+                                </p>
+                                <p>
+                                    If you would like further assistance explanation or assistance about this insurance
+                                    product, please click I <b>Need Assistance.</b>
+                                </p>
+                                <p>
+                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    insurance product,
+                                    such as the claim form, proposal form etc.
+                                </p><br> <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get
+                                                Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> <br>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center">
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br> <br>
                             </div>
 
 
@@ -455,7 +479,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -465,36 +490,44 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Bond</label>
                                     <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option name="tender" value="Tender Bonds">Tender Bonds</option>
-                                        <option name="financial" value="Financial guarantee Bonds">Financial guarantee Bonds</option>
-                                        <option name="advanced_payment" value="Advance Payment Bond">Advance Payment Bond</option>
+                                        <option name="financial" value="Financial guarantee Bonds">Financial guarantee
+                                            Bonds</option>
+                                        <option name="advanced_payment" value="Advance Payment Bond">Advance Payment
+                                            Bond</option>
                                         <option name="performance" value="Performance Bonds">Performance Bonds</option>
-                                        <option name="work_permit" value="Work Permits/Security Bond">Work Permits/Security Bond</option>
+                                        <option name="work_permit" value="Work Permits/Security Bond">Work
+                                            Permits/Security Bond</option>
                                         <option name="customs" value="Customs Bonds">Customs Bonds</option>
                                         <option name="retention" value="Retention Bonds">Retention Bonds</option>
-                                        <option name="regional" value="Regional customs transit guarantee">Regional customs transit guarantee</option>
+                                        <option name="regional" value="Regional customs transit guarantee">Regional
+                                            customs transit guarantee</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="value">Value of bond</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
@@ -506,7 +539,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -523,7 +557,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -534,22 +569,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1">Message</label>
@@ -563,7 +603,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -579,7 +620,8 @@
     ?>
     <script src=" js/parsley.min.js"> </script>
     <script src="js/lead.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
+    </script>
 
 </body>
 
