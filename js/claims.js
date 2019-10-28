@@ -224,7 +224,33 @@ $(document).ready(function () {
 
             },
             success: function (response) {
-                alert(response.message);
+                if (response.status == 1) {
+                    form[0].reset();
+                    $(".uk-close-large").click()
+                    swal.fire({
+                        title: 'Submitted Successfully.',
+                        type: 'success',
+                        html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br> ',
+                        showCloseButton: true,
+                        showCancelButton: false,
+                        allowOutsideClick: false,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                } else if (response.status == 0) {
+                    Swal.fire({
+                        type: 'error',
+                        title: response.message,
+                        //text: 'Something went wrong!',
+                    })
+                } else {
+                    Swal.fire({
+                        type: 'error',
+                        title: 'An error occurred!',
+                        //text: 'Something went wrong!',
+                    })
+                }
                 form.find('button[name=request_upload]').attr('disabled', true).html('INITIATE CLAIM');
                 $('button[name=request_upload]').attr('disabled', false);
             }
