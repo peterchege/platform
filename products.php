@@ -265,13 +265,14 @@
                             <h2> Pedal Cycle Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Our Bicycle Insurance will provide you
+                            with cover for theft and accidental damage or breakdown of
+                            your pedal cycle plus public liability cover ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_pedal" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
