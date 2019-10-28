@@ -120,7 +120,7 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== REPORT PROPERTY CLAIM ===================================== -->
+    <!-- ===================================== REPORT LIVESTOCK CLAIM ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -183,7 +183,7 @@
         </div>
     </div>
 
-    <!-- ===================================== UPLOAD PROPERTY CLAIM  ===================================== -->
+    <!-- ===================================== UPLOAD LIVESTOCK CLAIM  ===================================== -->
 
     <<div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
