@@ -220,7 +220,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -240,8 +240,8 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="location">Vehicle Registarion Number</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="KBQ 123" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number</label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123" value="" required>
                                 </div>
                             </div>
 
@@ -255,9 +255,9 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_property_damage">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
+                                    <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_property_damage" type="file" class="form-control-file" id="claim_form_property_damage" required>
+                                    <input name="claim_form_motor" type="file" class="form-control-file" id="claim_form_motor" required>
                                 </div>
                             </div>
 
@@ -270,15 +270,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="invoice">Attach document : Driving license </label>
-                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
+                                    <label for="driving_license">Attach document : Driving license </label>
+                                    <input name="driving_license" type="file" class="form-control-file" id="driving_license" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="detailed_statement">Attach document : Log Book </label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <label for="log_book">Attach document : Log Book </label>
+                                    <input name="log_book" type="file" class="form-control-file" id="log_book" required>
                                 </div>
                             </div>
 
@@ -286,6 +286,8 @@
                                 <div class="form-group col-md-12">
                                     <label for="detailed_statement">Attach document : Detailed statement and sketch of the circumstance of the accident </label>
                                     <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="Windscreen">
+
                                 </div>
                             </div>
 
@@ -337,73 +339,7 @@
     </div>
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('.form').parsley();
-            $('.form').on('submit', function(e) {
-                e.preventDefault();
-                var form = $(this);
-                var pdf = $(this).find('input[type=hidden]:last').val();
-
-                if (pdf == 'windscreen') {
-                    var claim_form = 'pdf/claim/Windscreen CLM_FRM.pdf';
-                } else if (pdf == 'accident') {
-                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
-                } else if (pdf == 'theft') {
-                    var claim_form = 'pdf/claim/motor_claim_form.pdf';
-                } else {
-                    var claim_form = '';
-                }
-
-                $.ajax({
-                    type: "POST",
-                    url: "ajax/claims.php?request=motor_claim",
-                    data: new FormData(this),
-                    dataType: 'json',
-                    contentType: false,
-                    cache: false,
-                    processData: false,
-                    beforeSend: function() {
-                        form.find('button[name=request]').attr('disabled', true).html('Processing...');
-                        //$('button[name=request]').attr('disabled', true);
-                    },
-                    success: function(response) {
-                        if (response.status == 1) {
-                            form[0].reset();
-                            $(".uk-close-large").click()
-                            swal.fire({
-                                title: 'Submitted Successfully.',
-                                type: 'success',
-                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="' +
-                                    claim_form +
-                                    '">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
-                                showCloseButton: true,
-                                showCancelButton: false,
-                                allowOutsideClick: false,
-                                focusConfirm: false,
-                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
-                                confirmButtonAriaLabel: 'Thumbs up, great!',
-                            });
-                        } else if (response.status == 0) {
-                            Swal.fire({
-                                type: 'error',
-                                title: response.message,
-                                //text: 'Something went wrong!',
-                            })
-                        } else {
-                            Swal.fire({
-                                type: 'error',
-                                title: 'An error occurred!',
-                                //text: 'Something went wrong!',
-                            })
-                        }
-                        form.find('button[name=request]').attr('disabled', true).html('INITIATE CLAIM');
-                        $('button[name=request]').attr('disabled', false);
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="js/claims.js"> </script>
 
 </body>
 

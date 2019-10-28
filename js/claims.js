@@ -221,7 +221,6 @@ $(document).ready(function () {
             processData: false,
             beforeSend: function () {
                 form.find('button[name=request_upload]').attr('disabled', true).html('Processing...');
-
             },
             success: function (response) {
                 if (response.status == 1) {

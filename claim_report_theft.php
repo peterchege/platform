@@ -217,7 +217,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="motor-claim-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  motor-claim-upload">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -237,8 +237,8 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="location">Vehicle Registarion Number</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="KBQ 123" value="" required>
+                                    <label for="registration_number">Vehicle Registarion Number</label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123" value="" required>
                                 </div>
                             </div>
 
@@ -252,9 +252,9 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_property_damage">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
+                                    <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_property_damage" type="file" class="form-control-file" id="claim_form_property_damage" required>
+                                    <input name="claim_form_motor" type="file" class="form-control-file" id="claim_form_motor" required>
                                 </div>
                             </div>
 
@@ -267,15 +267,15 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="invoice">Attach document : Driving license </label>
-                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
+                                    <label for="driving_license">Attach document : Driving license </label>
+                                    <input name="driving_license" type="file" class="form-control-file" id="driving_license" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="detailed_statement">Attach document : Log Book </label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <label for="log_book">Attach document : Log Book </label>
+                                    <input name="log_book" type="file" class="form-control-file" id="log_book" required>
                                 </div>
                             </div>
 
@@ -291,10 +291,11 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="Theft">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
+                                <button type="submit" name="request_upload" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>
@@ -334,7 +335,7 @@
     </div>
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             $('.form').parsley();
             $('.form').on('submit', function(e) {
@@ -400,8 +401,8 @@
                 });
             });
         });
-    </script>
-
+    </script> -->
+    <script src="js/claims.js"></script>
 </body>
 
 </html>

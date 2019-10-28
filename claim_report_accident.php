@@ -212,7 +212,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="motor-claim-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload ">
+                    <form id="motor-claim-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">

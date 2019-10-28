@@ -139,6 +139,16 @@ switch ($_GET['request']) {
                 $log_book_file_ext = end($log_book_file_ext);
                 $log_book_file_ext = strtolower($log_book_file_ext);
 
+                // detailed statement
+                $detailed_statement_file_name = $_FILES['detailed_statement']['name'];
+                $detailed_statement_file_size = $_FILES['detailed_statement']['size'];
+                $detailed_statement_file_tmp = $_FILES['detailed_statement']['tmp_name'];
+                $detailed_statement_file_type = $_FILES['detailed_statement']['type'];
+
+                $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
+                $detailed_statement_file_ext = end($detailed_statement_file_ext);
+                $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
+
 
 
 
@@ -148,13 +158,14 @@ switch ($_GET['request']) {
                     in_array($claim_form_motor_file_ext, $extensions) === false ||
                     in_array($police_abstract_file_ext, $extensions) === false ||
                     in_array($driving_license_file_ext, $extensions) === false ||
-                    in_array($log_book_file_ext, $extensions) === false
+                    in_array($log_book_file_ext, $extensions) === false ||
+                    in_array($detailed_statement_file_ext, $extensions) === false
                 ) {
                     $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
                     $errors[] = 0;
                 }
 
-                if ($claim_form_motor_file_size > 5242880 || $police_abstract_file_size > 5242880 || $driving_license_file_size > 5242880 || $log_book_file_size > 5242880) {
+                if ($claim_form_motor_file_size > 5242880 || $police_abstract_file_size > 5242880 || $driving_license_file_size > 5242880 || $log_book_file_size > 5242880  || $detailed_statement_file_size > 5242880) {
                     $response['message'] = "Files should be less than 5MB each!";
                     $errors[] = 0;
                 }
@@ -164,11 +175,13 @@ switch ($_GET['request']) {
                     $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
                     $driving_license_file_name = $email . '-----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
                     $log_book_file_name = $email . '-----' . $claim_id . '----' . 'log_book' . '----' . $log_book_file_name;
+                    $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
 
                     $claim_form_motor_file_path =  "../documents/claims/" . $claim_form_motor_file_name;
                     $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
                     $driving_license_file_path =  "../documents/claims/" . $driving_license_file_name;
                     $log_book_file_path =  "../documents/claims/" . $log_book_file_name;
+                    $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;
 
 
 
@@ -176,10 +189,11 @@ switch ($_GET['request']) {
                         move_uploaded_file($claim_form_motor_file_tmp, $claim_form_motor_file_path) &&
                         move_uploaded_file($driving_license_file_tmp, $driving_license_file_path)  &&
                         move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)  &&
-                        move_uploaded_file($log_book_file_tmp, $log_book_file_path)
+                        move_uploaded_file($log_book_file_tmp, $log_book_file_path) &&
+                        move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)
                     ) {
-                        $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`created_at`) 
-                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$created_at')  ");
+                        $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`detailed_statement`,`created_at`) 
+                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at')  ");
                         if ($insert) {
                             $response['message'] = 'success';
                             $response['status'] = 1;
