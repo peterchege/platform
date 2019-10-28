@@ -37,13 +37,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFIT</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFIT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -55,46 +58,63 @@
                             <div class="job-description text-center">
 
                                 <h2>Golfers Cover </h2>
-                                <P class="text-justify">Golfers cover protects your equipment against accidental damage or loss.
-                                    The cover also covers you in hole-in-one as well as public liability and personal accident
+                                <P class="text-justify">Golfers cover protects your equipment against accidental damage
+                                    or loss.
+                                    The cover also covers you in hole-in-one as well as public liability and personal
+                                    accident
                                     to the insured and their personal effect. </P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Section I - Golfing Equipment</p>
-                                        <p2>The value or the cost of repairing the Insured's Golf Clubs, Bags or Bag Carrier or
-                                            Trolleys (not motorized) as declared to the Company against ALL RISKS whilst in
+                                        <p2>The value or the cost of repairing the Insured's Golf Clubs, Bags or Bag
+                                            Carrier or
+                                            Trolleys (not motorized) as declared to the Company against ALL RISKS whilst
+                                            in
                                             transit to and from or at any Golf Club Premises, the Club House,
                                             Caddie Master's Hut or professional shop.
                                         </p2>
 
                                         <hr>
                                         <p>Section II - Personal Effects</p>
-                                        <p2>Loss or damage caused by Fire, Lighting, Thunderbolt, Burglary, Larceny or Theft
-                                            of or to the Insured's effects including Apparel in any Golf Club House.</p2>
+                                        <p2>Loss or damage caused by Fire, Lighting, Thunderbolt, Burglary, Larceny or
+                                            Theft
+                                            of or to the Insured's effects including Apparel in any Golf Club House.
+                                        </p2>
 
                                         <hr>
                                         <p>Section III - Third Party Liability</p>
-                                        <p2>Legal liability arising from claims made on the Insured in respect of accidents
-                                            caused by the Insured whilst playing or practicing Golf on any Golf Course resulting in:</p2>
+                                        <p2>Legal liability arising from claims made on the Insured in respect of
+                                            accidents
+                                            caused by the Insured whilst playing or practicing Golf on any Golf Course
+                                            resulting in:</p2>
                                         <ol>
-                                            <li>Bodily injury to any person not being a member of the Insured's family or household or
+                                            <li>Bodily injury to any person not being a member of the Insured's family
+                                                or household or
                                                 his service (other than persons casually engaged as Caddies).</li>
-                                            <li>Damage to property not belonging to or in the charge or under the control of the
-                                                Insured or of a member of his family or household or of a person in his service.</li>
+                                            <li>Damage to property not belonging to or in the charge or under the
+                                                control of the
+                                                Insured or of a member of his family or household or of a person in his
+                                                service.</li>
                                         </ol>
-                                        <p2>Provided ALWAYS that the amount payable here under in respect of any accident
+                                        <p2>Provided ALWAYS that the amount payable here under in respect of any
+                                            accident
                                             shall not in any case exceed the sum of KSh. 1,000,000.
                                         </p2>
                                         <p>Section IV - Personal Accidents</p>
-                                        <p2>If the Insured shall sustain accidental bodily injury caused by violent external and
+                                        <p2>If the Insured shall sustain accidental bodily injury caused by violent
+                                            external and
                                             visible means whilst playing golf course then; the Company will pay,</p2>
                                         <p>Section V - Hole-in-one</p>
-                                        <p2>The Company will reimburse to the Insured expenses incurred not exceeding KSh. 20,000 should the
-                                            Insured "Hole-in-One" during actual play but not in practice. The strike must be witnessed by at
-                                            least one member of the Club on whose course the insured is playing and a signed statement from
-                                            the secretary of the Club that the occurrence has been reported to him must be submitted with
+                                        <p2>The Company will reimburse to the Insured expenses incurred not exceeding
+                                            KSh. 20,000 should the
+                                            Insured "Hole-in-One" during actual play but not in practice. The strike
+                                            must be witnessed by at
+                                            least one member of the Club on whose course the insured is playing and a
+                                            signed statement from
+                                            the secretary of the Club that the occurrence has been reported to him must
+                                            be submitted with
                                             every claim.
                                         </p2>
                                         <br><br><br><br>
@@ -106,12 +126,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r"
+                                                    uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -143,13 +165,13 @@
                                         <ol>
                                             <li>Bodily injury to any person not being a member of the
                                                 Insured's family or household or his service
-                                                (other than persons casually engaged as Caddies). 
+                                                (other than persons casually engaged as Caddies).
                                             </li>
-                                            <li>mage to property not belonging to or in the charge or 
-                                                under the control of the Insured or of a member of his 
+                                            <li>mage to property not belonging to or in the charge or
+                                                under the control of the Insured or of a member of his
                                                 family or household or of a person in his service.
                                             </li>
-                                           
+
                                         </ol>
                                         <br>
                                         <hr>
@@ -165,30 +187,40 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
-                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
-                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
-                                    <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                                <a href="#" class="btn btn-primary">Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
-                                                <a href="#" class="btn btn-danger"> Download Forms </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
-                                                <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                            </div>
+                                <p>If you are interested in learning how much this insurance product would cost
+                                    you, or if you are interested in purchasing this insurance product, please click
+                                    <b>Get Cover</b>.
+                                </p>
+                                <p>
+                                    If you would like further assistance explanation or assistance about this insurance
+                                    product, please click I <b>Need Assistance.</b>
+                                </p>
+                                <p>
+                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    insurance product,
+                                    such as the claim form, proposal form etc.
+                                </p><br> <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
+                                            <a href="#" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> <br>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
+                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                            <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br> <br>
                             </div>
 
 
@@ -261,7 +293,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -271,22 +304,26 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -300,11 +337,13 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Equipment Value</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" required value="">
+                                    <input name="value" type="text" class="form-control" id="value"
+                                        placeholder="1,400,000" required value="">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Occupation</label>
-                                    <select id="occupation" name="occupation" class="form-control selectFilter" data-target="section" required>
+                                    <select id="occupation" name="occupation" class="form-control selectFilter"
+                                        data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option data-ref="owner" name="owner" value="Casual Golfer"> Casual Golfer
                                         </option>
@@ -320,7 +359,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i> </button>
                                 </div>
                             </div>
                         </div>
@@ -336,7 +376,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -347,22 +388,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1">Message</label>
@@ -377,7 +423,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
