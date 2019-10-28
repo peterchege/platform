@@ -212,7 +212,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="motor-claim-form-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-form-upload life-personal-property-claim-form">
+                    <form id="motor-claim-upload" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload ">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -232,8 +232,8 @@
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="vehicle_reg">Vehicle Registarion Number</label>
-                                    <input name="vehicle_reg" type="text" class="form-control" id="vehicle_reg" placeholder="KBQ 123" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
+                                    <label for="registration_number">Vehicle Registarion Number</label>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
@@ -286,10 +286,11 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="Accident">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
+                                <button type="submit" name="request_upload" class="btn btn-primary">INITIATE
                                     CLAIM
                                 </button>
                             </div>

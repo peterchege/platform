@@ -657,33 +657,42 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
-                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
-                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
-                                    <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                    uk-toggle>Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center">
-                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
-                                                    uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
-                                                    Need Assistance</a>
-                                            </div>
+                                <p>If you are interested in learning how much this insurance product would cost
+                                    you, or if you are interested in purchasing this insurance product, please click
+                                    <b>Get Cover</b>.
+                                </p>
+                                <p>
+                                    If you would like further assistance explanation or assistance about this insurance
+                                    product, please click I <b>Need Assistance.</b>
+                                </p>
+                                <p>
+                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    insurance product,
+                                    such as the claim form, proposal form etc.
+                                </p><br> <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get
+                                                Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> <br>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center">
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br> <br>
                             </div>
 
 
