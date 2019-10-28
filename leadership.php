@@ -48,7 +48,7 @@
                 <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" >DOWNLOADS</a>
+                <a class="nav-link" href="financial_report.php">FINANCIAL REPORTS</a>
             </li>
         </ul>
     </div>
@@ -226,7 +226,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/ashok.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/ashok.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Ashok Shah
@@ -258,7 +259,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/daniel.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/daniel.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Daniel Ndonye
@@ -284,7 +286,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/mary.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/mary.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Mary Kimotho
@@ -310,7 +313,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/richard.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/richard.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Richard Ashley
@@ -340,7 +344,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/pratul.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/pratul.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Pratul Shah
@@ -368,7 +373,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/smshah.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/smshah.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         S M Shah
@@ -400,7 +406,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/pjshah.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/pjshah.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         PJ Shah
@@ -426,7 +433,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/piyush.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/piyush.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Piyush Shah
@@ -452,7 +460,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/reto.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/reto.jpg');"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Reto Schnarwiler
