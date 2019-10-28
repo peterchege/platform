@@ -286,7 +286,7 @@
                                 <div class="form-group col-md-12">
                                     <label for="detailed_statement">Attach document : Detailed statement and sketch of the circumstance of the accident </label>
                                     <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
-                                    <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="Windscreen">
+                                    <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="windscreen">
 
                                 </div>
                             </div>
