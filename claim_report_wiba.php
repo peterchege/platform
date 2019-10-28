@@ -47,7 +47,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>Property Damage</h1>
+            <h1>INJURIES: WIBA</h1>
             <div class="under-line img7">
                 <img src="images/line.png" alt="">
             </div>
@@ -126,7 +126,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/property_damage.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -189,7 +189,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/property_damage.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/wiba_claim.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -228,30 +228,19 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_property_damage">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
-                                            to download a claim form)</a></label>
-                                    <input name="claim_form_property_damage" type="file" class="form-control-file" id="claim_form_property_damage" required>
+                                    <label for="dosh_one_two_property_damage">Attach document : DOSH I & II Claim Form completed <a href="pdf/claim/APA WIBA CLAIM FORM.pdf" target="_blank">(click here to
+                                            download
+                                            a
+                                            claim
+                                            form)</a></label>
+                                    <input name="dosh_one_two_property_damage" type="file" class="form-control-file" id="dosh_one_two_property_damage" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="police_abstract">Attach document : Police Abstract </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="invoice">Attach document : Proforma Invoice </label>
-                                    <input name="invoice" type="file" class="form-control-file" id="invoice" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="detailed_statement">Attach document : Detailed Statement </label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <label for="dosh_four">Attach document : DOSH IV </label>
+                                    <input name="dosh_four" type="file" class="form-control-file" id="dosh_four" required>
                                 </div>
                             </div>
 
@@ -275,7 +264,7 @@
         </div>
     </div>
 
-    <!-- ===================================== PROPERTY CLAIM REMARKS ===================================== -->
+    <!-- ===================================== WIBA CLAIM REMARKS ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
@@ -291,7 +280,7 @@
                 <br><br>
                 For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286
                 2000.
-                Or send and email to claims.motor@apainsurance.org
+                Or send and email to claims@apainsurance.org
             </p>
         </div>
     </div>
