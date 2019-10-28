@@ -179,10 +179,10 @@ require_once 'inc/functions.php';
                                 <i class="fas fa-hand-holding-heart"></i>
                                 <p>Life claim (Group)</p>
                             </div>
-                            <a href="claim_investment.php">
+                            <a href="claim_agriculture.php">
                                 <div class="c0l-md-4 font-awsome text-center">
-                                    <i class="fas fa-hand-holding-usd"></i>
-                                    <p>Investment</p>
+                                    <i class="fas fa-tractor"></i>
+                                    <p>Agriculture</p>
                                 </div>
                             </a>
                     </div>
