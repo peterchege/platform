@@ -36,13 +36,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -54,14 +57,20 @@
                             <div class="job-description text-center">
 
                                 <h2> Individual Pension Plan (IPP) </h2>
-                                <P class="text-justify">We’ll help you think differently about retirement – more optimistic about tomorrow and confident about taking control.
-                                    You may see yourself traveling, volunteering or simply spoiling your grandkids. Whatever your plans, we are in your corner.
+                                <P class="text-justify">We’ll help you think differently about retirement – more
+                                    optimistic about tomorrow and confident about taking control.
+                                    You may see yourself traveling, volunteering or simply spoiling your grandkids.
+                                    Whatever your plans, we are in your corner.
                                 </P>
-                                <P class="text-justify">Our individual pension product is a long-term investment plan that allows you to build a sizeable retirement fund.
+                                <P class="text-justify">Our individual pension product is a long-term investment plan
+                                    that allows you to build a sizeable retirement fund.
                                     Your monthly contributions grow exponentially with competitive interest rates.
                                 </P>
-                                <P class="text-justify">The plan allows you to first build your retirement income by making regular contributions during your working life.
-                                    On attainment of your selected retirement age, APA Life will pay your accumulated retirement benefits in accordance to the option selected at the inception of the policy.
+                                <P class="text-justify">The plan allows you to first build your retirement income by
+                                    making regular contributions during your working life.
+                                    On attainment of your selected retirement age, APA Life will pay your accumulated
+                                    retirement benefits in accordance to the option selected at the inception of the
+                                    policy.
                                 </P>
 
                                 <hr>
@@ -69,7 +78,8 @@
                                     <div class="text-justify">
                                         <h2>Why the Individual Pension Plan cover? </h2>
                                         <li>
-                                            <p2>Member’s contributions and accumulated earnings are guaranteed against impairment by investment loss
+                                            <p2>Member’s contributions and accumulated earnings are guaranteed against
+                                                impairment by investment loss
                                                 at a Minimum guaranteed interest of 4%
                                             </p2>
                                         </li><br>
@@ -95,17 +105,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -125,12 +139,17 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">The power of Compounding with APA</h2><br>
 
-                                        <p2>APA has averaged 10% net investment returns over the last 10 years. The competitive historical returns are
-                                            primarily driven by our value investments that guarantee preservation of member’s benefits.At the 10% return,
-                                            a savings of Ksh1,000 during a members active work life of 35 years compounded monthly will grow by more
-                                            than eight (8) folds under the APA Individual guaranteed Savings Plan.</p2><br>
+                                        <p2>APA has averaged 10% net investment returns over the last 10 years. The
+                                            competitive historical returns are
+                                            primarily driven by our value investments that guarantee preservation of
+                                            member’s benefits.At the 10% return,
+                                            a savings of Ksh1,000 during a members active work life of 35 years
+                                            compounded monthly will grow by more
+                                            than eight (8) folds under the APA Individual guaranteed Savings Plan.</p2>
+                                        <br>
 
-                                        <p>The table below illustrates the projected benefits at retirement based on the guaranteed returns and
+                                        <p>The table below illustrates the projected benefits at retirement based on the
+                                            guaranteed returns and
                                             average investments returns
                                         </p>
 
@@ -297,31 +316,42 @@
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-left">
                                 <br>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsa provident
-                                    cupiditate accusantium nobis reiciendis, itaque veritatis enim. Quia deleniti quas
-                                    velit itaque mollitia libero modi corrupti omnis laborum magnam.
-                                    <br><br> <br>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center">
-                                                <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
-                                                    Need Assistance</a>
-                                            </div>
+                                <p>If you are interested in learning how much this insurance product would cost
+                                    you, or if you are interested in purchasing this insurance product, please click
+                                    <b>Get Cover</b>.
+                                </p>
+                                <p>
+                                    If you would like further assistance explanation or assistance about this insurance
+                                    product, please click I <b>Need Assistance.</b>
+                                </p>
+                                <p>
+                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    insurance product,
+                                    such as the claim form, proposal form etc.
+                                </p><br> <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get
+                                                Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> <br>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center">
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br> <br>
                             </div>
 
 
@@ -394,7 +424,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -402,22 +434,27 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 254 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -442,7 +479,8 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of Cover</label>
-                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                    <input name="value" type="text" class="form-control value" id="value"
+                                        placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -473,7 +511,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -492,7 +531,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -503,22 +543,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="exampleFormControlTextarea1">Message</label>
@@ -533,7 +578,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
