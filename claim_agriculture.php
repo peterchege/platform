@@ -72,7 +72,7 @@
             <br> <br>
 
             <div class="container">
-               
+
                 <div class="row row-product">
 
                     <div class="col-md-4 wow fadeInUp " data-wow-delay="0.5s">
@@ -94,29 +94,29 @@
 
                     <div class="col-md-4  wow fadeInUp" data-wow-delay="0.6s">
                         <div class="product-box we claim-crop">
-                            <a href="#modal-full5" uk-toggle>
-                                <div class="color-overlay"></div>
-                                <div class="wrapper">
+                            <a href="claim_report_agri_crop.php">
+                                <div class=" color-overlay"></div>
+                        <div class="wrapper">
 
-                                    <div class="content">
-                                        <h3>Crop Claim </h3>
-                                        <br>
-                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                            for the costs of a funeral and related expenses.</p>
-                                    </div>
-                                </div>
-                            </a>
+                            <div class="content">
+                                <h3>Crop Claim </h3>
+                                <br>
+                                <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                    for the costs of a funeral and related expenses.</p>
+                            </div>
                         </div>
+                        </a>
                     </div>
+                </div>
 
-                    <div class="offset-4">
-
-                    </div>
+                <div class="offset-4">
 
                 </div>
+
             </div>
-            <br>
         </div>
+        <br>
+    </div>
 
     </div>
 
