@@ -111,7 +111,7 @@
                             <hr>
                             <p>When a client is travelling outside the country for leisure / treatment
                                 has to notify the insurance in writing failure to do so in case
-                                a claim arises it will not be honoured.</p>
+                                a claim arises it will not be honored.</p>
                             <p>Required documentation / information</p><br>
 
                             <li class="text-left"> Fully filled and signed claim form by both claimant and doctor</li>
