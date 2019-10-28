@@ -48,12 +48,6 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <!-- <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
-                Since our founding in 1977, our mission has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.
-            </p> -->
-
             <!-- Anchor to the personal cover from navbar -->
             <div id="personal" class="anchor"></div>
             <!-- End of anchor -->
@@ -88,8 +82,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_motor" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
@@ -444,8 +437,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
@@ -618,8 +610,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_individual_pension_plan.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -644,8 +635,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_morgage_protection.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -665,12 +655,16 @@
     </div>
 
 
-        <!-- =====================================FOOTER===================================== -->
-        <?php include 'views/footer.php'; ?>
-        <!-- #footer -->
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
 
-        <?php
+    <!-- ===================================== LEAD FORMS ===================================== -->
+    <?php include 'views/get_cover.php'; ?>
+    <!-- #end of lead forms -->
+
+    <?php
     require_once 'inc/scripts.php';
     ?>
 </body>
