@@ -233,7 +233,7 @@
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="registration_number">Vehicle Registarion Number</label>
-                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123J" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
