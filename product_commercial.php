@@ -472,17 +472,17 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> corporate Health</h2>
+                            <h2 class="text-center"> Corporate Health</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
+                        <p class="text-justify">APA Insurance offers flexible tailor made corporate products
+                            for groups with ten (10) or more employees. The main benefit is a fully insured
+                            in-patient scheme ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_ch" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">

@@ -2427,3 +2427,82 @@ COMMERCIAL COVER
         </div>
     </div>
 </div>
+
+<!-- ===================================== CORPORATE HEALTH LEAD FORM  ===================================== -->
+
+<div id="modal-full_ch" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+                    <h3 for="inputAddress" class="comp-detail">COMPANY DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name"> Name of Organisation/company</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number of contact person</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address of contact person</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location of orginasation/Company</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="population_staff"> Population of staff </label>
+                                <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="model">Type of Cover</label>
+                                <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option data-ref="" name="" value="Inpatient Only"> Inpatient only
+                                    </option>
+                                    <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
+                                        Outpatient </option>
+                                    <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                        Outpatient & other riders </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="40">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
