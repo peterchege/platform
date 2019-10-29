@@ -163,7 +163,7 @@ $(document).ready(function () {
         var claim_type = $('input[name=claim_type]').val();
         switch (claim_type) {
             case 'accident':
-            case 'personal accident':
+            case 'theft':
             case 'windscreen':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     +'<ol class="text-left"><li>Claim form (<a href="' +
