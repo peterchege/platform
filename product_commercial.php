@@ -47,13 +47,6 @@
             <div class="under-line img8">
                 <img src="images/line.png" alt="">
             </div>
-
-            <!-- <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
-                Since our founding in 1977, our mission has been to provide
-                present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
-                to become one of the leading Financial Service Groups in East Africa.
-            </p> -->
         </div>
     </div>
 
@@ -83,7 +76,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_aviation" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -108,7 +101,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_bonds" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -134,7 +127,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_egineer" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -759,6 +752,10 @@
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
+
+    <!-- ===================================== LEAD FORMS ===================================== -->
+    <?php include 'views/get_cover.php'; ?>
+    <!-- #end of lead forms -->
 
 
     <!-- Modal -->

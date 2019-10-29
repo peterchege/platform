@@ -1690,3 +1690,305 @@ INDIVIDUAL LIFE COVER
         </div>
     </div>
 </div>
+
+<!-- ===================================== 
+COMMERCIAL COVER
+===================================== -->
+
+<!-- ===================================== AVIATION LEAD FORM ===================================== -->
+
+<div id="modal-full_aviation" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container1">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">AIRCRAFT DETAILS</h3>
+                    </div>
+
+                    <div class="container1">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="make">Aircraft Make</label>
+                                <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="model">Aircraft Model</label>
+                                <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="value">Aircraft Value (Kshs)</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="inputAddress2">Year of Manufacture</label>
+                                <input name="yom" type="number" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="max_take_off_weight">Maximum take off weight</label>
+                                <input name="max_take_off_weight" type="text" class="form-control value" id="max_take_off_weight" placeholder="" value="" required>
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="geographical_scope">Geographical-scope purpose of use</label>
+                                <input name="geographical_scope" type="text" class="form-control" id="geographical_scope" placeholder="" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="pilot_details">Pilot details (Hours of experience on) </label>
+                                <input name="pilot_details" type="text" class="form-control value" id="pilot_details" placeholder="" value="" required>
+                            </div>
+
+                        </div>
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="35">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                    ASSISTANCE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== BONDS LEAD FORM  ===================================== -->
+
+<div id="modal-full_bonds" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="type">Type of Bond</label>
+                                <select id="type" name="type" class="form-control" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option name="tender" value="Tender Bonds">Tender Bonds</option>
+                                    <option name="financial" value="Financial guarantee Bonds">Financial guarantee
+                                        Bonds</option>
+                                    <option name="advanced_payment" value="Advance Payment Bond">Advance Payment
+                                        Bond</option>
+                                    <option name="performance" value="Performance Bonds">Performance Bonds</option>
+                                    <option name="work_permit" value="Work Permits/Security Bond">Work
+                                        Permits/Security Bond</option>
+                                    <option name="customs" value="Customs Bonds">Customs Bonds</option>
+                                    <option name="retention" value="Retention Bonds">Retention Bonds</option>
+                                    <option name="regional" value="Regional customs transit guarantee">Regional
+                                        customs transit guarantee</option>
+                                </select>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="value">Value of bond</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="38">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== Engineering LEAD FORM  ===================================== -->
+
+<div id="modal-full_egineer" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/engineer.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="" value="" required>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="container">
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                    ASSISTANCE</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== FIRE LEAD FORM  ===================================== -->
+
+<div id="modal-full_fire" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="property">Property status</label>
+                                <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option data-ref="owner" name="owner" value="owner">Owner</option>
+                                    <option data-ref="tenant" name="tenant" value="tenant">Occupatant (Tenant)
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                  
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">REQUEST
+                                    ASSISTANCE</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
