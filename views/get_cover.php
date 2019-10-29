@@ -2506,3 +2506,146 @@ COMMERCIAL COVER
         </div>
     </div>
 </div>
+
+<!-- ===================================== CROP LEAD FORM  ===================================== -->
+
+<div id="modal-full_crop" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="email">Location</label>
+                                <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="type">Type of Crop</label>
+                                <select id="type" name="type" class="form-control" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option value="Area Yield Index">Area Yield Index</option>
+                                    <option value="Index-based Weather">Index-based Weather</option>
+                                    <option value="Multi Peril Crop Insurance">Multi Peril Crop Insurance</option>
+                                </select>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="value">No of Acres</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="42">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== LEAD FORM FOR LIVESTOCK ===================================== -->
+
+<div id="modal-full_livestock" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/sheep.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="" placeholder="John Doe" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712345678" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="johndoe@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Location</label>
+                                <input name="location" type="text" class="form-control" id="email" placeholder="Nairobi" value="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <h3 for="inputAddress" class="comp-detail">ANIMAL DETAILS</h3>
+                            <div class=" form-group col-md-12">
+                                <label for="number">No of Animals</label>
+                                <input name="number" type="text" class="form-control value" id="number" placeholder="15" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="type">Type of Livestock</label>
+                                <select id="type" name="type" class="form-control" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option value="Single Animal Cover">Single Animal Cover</option>
+                                    <option value="Poultry insurance">Poultry insurance</option>
+                                    <!-- <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option> -->
+                                    <option value="Bloodstock/Horse Insurance">Bloodstock/Horse Insurance</option>
+                                </select>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="value">Total Value of animals</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="250,000" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="43">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

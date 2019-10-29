@@ -39,20 +39,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -64,8 +60,8 @@
                             <div class="job-description text-center">
 
                                 <h2> CROP COVER </h2>
-                                <P class="text-justify">Your livestock is your source of income and guaranteeing their
-                                    safety should bring you ultimate happiness.
+                                <P class="text-justify">Your crops is your source of income and guaranteeing their safety
+                                    should bring you ultimate happiness.
                                 </P>
                                 <hr>
                                 <div class="job-content">
@@ -171,18 +167,17 @@
 
                                         <div class="row">
                                             <div class="col-4">
-                                                <div class="load-more text-center ">
+                                                <div class="load-more text-center" data-target="#modal-full" uk-toggle>
                                                     <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full1"
-                                                    uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -290,19 +285,17 @@
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-4">
-                                        <div class="load-more text-center ">
-                                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
-                                                class="btn btn-primary">Get Cover</a>
+                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
+                                            <a href="#" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="load-more text-center " data-target="#modal-full1"
-                                            uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                        <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                             <a href="#" class="btn btn-dark">I Need Assistance</a>
                                         </div>
                                     </div>
@@ -323,14 +316,13 @@
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
-    <!-- ===================================== LEAD FORM FOR BONDS ===================================== -->
+    <!-- ===================================== CROP LEAD FORM  ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -340,26 +332,22 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=""
-                                        value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder=""
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="email">Location</label>
-                                    <input name="location" type="text" class="form-control" id="email" placeholder=""
-                                        value="" required>
+                                    <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="type">Type of Crop</label>
@@ -372,8 +360,7 @@
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="value">No of Acres</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder=""
-                                        value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
                                 </div>
                             </div>
 
@@ -385,8 +372,65 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
+
+    <div id="modal-full_r" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="Contact Us">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
