@@ -219,6 +219,19 @@ $(document).ready(function () {
                     '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
+
+            case 'crop':
+                var claim_form2 = 'pdf/claim/LIVESTOCK INSURANCE CLAIM FORM.pdf';
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
+                    ' <ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form2 + '">Click here to download</a>)</li>' +
+                    '<li>Document 1</li>' +
+                    '<li>Document2</li>' +
+                    '<li>Document3 </li>' +
+                    '<li>Document4...</li>' +
+                    '</ol></p>';
+                break;
+
             default:
                 break;
         }
