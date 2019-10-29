@@ -169,9 +169,8 @@ require_once 'inc/functions.php';
                 <div class="row row-product1">
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img asset-3">
-                            <div class="overlay">
-                            </div>
+                        <div class="box-container-img1 asset-1">
+    
                         </div>
                         <div class="head-container">
                             <h2 class="text-center">Apollo Money Market Fund </h2>
@@ -195,9 +194,8 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img asset-1">
-                            <div class="overlay">
-                            </div>
+                        <div class="box-container-img1 asset-2">
+                            
                         </div>
                         <div class="head-container">
                             <h2 class="text-center"> Apollo Balanced Fund</h2>
@@ -221,9 +219,7 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img asset-2">
-                            <div class="overlay">
-                            </div>
+                        <div class="box-container-img1 asset-3">
                         </div>
                         <div class="head-container">
                             <h2 class="text-center">Apollo Equity Fund</h2>
