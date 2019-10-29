@@ -167,7 +167,7 @@ $(document).ready(function () {
             case 'windscreen':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '<li>Claim form (<a href="pdf/claim/motor_claim_form.pdf" + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract</li>' +
                     '<li>Copy of Driving License</li>' +
                     '<li>Copy of the Log Book </li>' +

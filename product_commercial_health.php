@@ -431,12 +431,19 @@
                                     <label for="model">Type of Cover</label>
                                     <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="" name="" value="Inpatient Only"> Inpatient only
-                                        </option>
-                                        <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
-                                            Outpatient </option>
-                                        <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
-                                            Outpatient & other riders </option>
+                                        <<<<<<< HEAD <option value="Inpatient Only"> Inpatient only
+                                            </option>
+                                            <option value="Inpatient & Outpatient"> Inpatient &
+                                                Outpatient </option>
+                                            <option value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                                =======
+                                            <option data-ref="" name="" value="Inpatient Only"> Inpatient only
+                                            </option>
+                                            <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
+                                                Outpatient </option>
+                                            <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                                >>>>>>> 09df2548bf5ac2d93a5d3b3854c7ea9dbdcc76ce
+                                                Outpatient & other riders </option>
                                     </select>
                                 </div>
                             </div>

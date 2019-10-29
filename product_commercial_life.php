@@ -41,6 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
+                        
 
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
@@ -381,10 +382,10 @@
                                     <label for="model">Type of Cover</label>
                                     <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="" name="" value="Inpatient Only"> Inpatient only </option>
-                                        <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
+                                        <option value="Inpatient Only"> Inpatient only </option>
+                                        <option value="Inpatient & Outpatient"> Inpatient &
                                             Outpatient </option>
-                                        <option data-ref="" name="" value="Inpatient and Outpatient and other Riders">
+                                        <option value="Inpatient and Outpatient and other Riders">
                                             Inpatient & Outpatient & other riders </option>
 
                                     </select>
@@ -392,8 +393,10 @@
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="52">
+                                <input type="hidden" id="product_id" name="product_id" value="41">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="request assistance">
+
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">

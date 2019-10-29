@@ -476,14 +476,56 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
+                            </div>
+
+
+                        </div>
+                        <hr>
+                        <div class="form-group col-md-12">
+                            <h3 for="inputAddress">AIRCRAFT DETAILS</h3>
+                        </div>
+
+                        <div class="container1">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="make">Type of Aircraft</label>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="model">Aircraft Model</label>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="value">Aircraft Value (Kshs)</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="inputAddress2">Year of Manufacture</label>
+                                    <input name="yom" type="number" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="value">Maximum take of weight</label>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                                </div>
+                                <div class=" form-group col-md-6">
+                                    <label for="inputAddress2">Geographical-scope purpose of use</label>
+                                    <input name="yom" type="text" class="form-control" id="yom" placeholder="" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="email">Pilot details (Hours of experience on) </label>
+                                    <input name="email" type="text" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_id" name="product_id" value="34">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
