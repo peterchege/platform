@@ -182,7 +182,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="accident" name="motor_claim_type" value="accident">
+                            <input type="hidden" id="accident" name="claim_type" value="accident">
 
                         </div>
                         <div class="row book-btn">
@@ -286,7 +286,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="Accident">
+                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="accident">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">

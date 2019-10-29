@@ -166,7 +166,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="accident" name="motor_claim_type" value="accident">
+                            <input type="hidden" id="claim_type" name="claim_type" value="personal accident">
 
                         </div>
                         <div class="row book-btn">
