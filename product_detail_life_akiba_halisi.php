@@ -349,7 +349,7 @@
         </div>
     </div>
 
-    <!-- ===================================== LEAD FORM FOR APA LIFE ===================================== -->
+    <!-- ===================================== AKIBA HALISI LEAD FORM  ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">

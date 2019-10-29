@@ -371,7 +371,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_femina" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_afya" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -396,7 +396,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_afya" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_femina" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -440,7 +440,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_jamii" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_imarika" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
@@ -467,7 +467,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_akiba" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -495,7 +495,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_elimu" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -525,7 +525,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_hosicare" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -552,7 +552,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_pumzisha" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -579,7 +579,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_assurance" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -609,7 +609,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_pension" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -634,7 +634,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_morgage" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
