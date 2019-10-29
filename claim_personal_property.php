@@ -93,7 +93,7 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-box we claim-injury ">
-                            <a href="claim_report_wiba.php" >
+                            <a href="claim_report_wiba.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
@@ -212,7 +212,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container-fluid">
                             <div class="row">
@@ -302,6 +302,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">

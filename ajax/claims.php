@@ -2,7 +2,7 @@
 require_once '../inc/db.php';
 require_once '../inc/functions.php';
 switch ($_GET['request']) {
-    case 'motor_claim':
+    case 'claim_report':
         sleep(1);
         $response = array(
             'status' => 0,
@@ -13,11 +13,10 @@ switch ($_GET['request']) {
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) ||  empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location']) ||
-            !isset($_POST['registration_number']) ||    empty($_POST['registration_number']) ||
             !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
             !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type']) ||  empty($_POST['motor_claim_type'])
+            !isset($_POST['claim_type']) ||  empty($_POST['claim_type'])
         ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
@@ -25,11 +24,11 @@ switch ($_GET['request']) {
             $phone = sanitize($_POST['phone']);
             $email = sanitize($_POST['email']);
             $location = sanitize($_POST['location']);
-            $registration_number = sanitize($_POST['registration_number']);
+            $registration_number = ((isset($_POST['registration_number'])) ? sanitize($_POST['registration_number']) : null);
             $claim_event = sanitize($_POST['claim_event']);
             $product_id = sanitize($_POST['product_id']);
             $product_category_id = sanitize($_POST['product_category_id']);
-            $motor_claim_type = sanitize($_POST['motor_claim_type']);
+            $claim_type = sanitize($_POST['claim_type']);
             $created_at = date('Y-m-d H:i:s');
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -38,8 +37,8 @@ switch ($_GET['request']) {
                 exit;
             } else {
                 // insert to db
-                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`motor_claim_type`,`created_at`) 
-                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$motor_claim_type', '$created_at')  ";
+                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`) 
+                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at')  ";
                 $feed = $db->query($query);
 
                 if ($feed) {

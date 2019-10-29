@@ -162,7 +162,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "ajax/claims.php?request=motor_claim",
+            url: "ajax/claims.php?request=claim_report",
             data: new FormData(this),
             dataType: 'json',
             contentType: false,
@@ -208,7 +208,7 @@ $(document).ready(function () {
         });
     });
 
-    $('.form,.motor-claim-upload').on('submit', function (e) {
+    $('.motor-claim-upload').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
         $.ajax({
