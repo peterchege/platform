@@ -40,11 +40,9 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> FEATURES / BENEFITS </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -68,7 +66,6 @@
                                 </P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
 
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
@@ -152,7 +149,7 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -244,124 +241,6 @@
 
                         </div>
 
-                        <!-- BENEFITS INPATIENT-->
-
-                        <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
-
-                            <div class="job-description text-center">
-                                <div class="job-content">
-
-                                    <!-- TABLE OF BENEFITS OUTPATIENT -->
-
-                                    <h2>OUTPATIENT CORE PLANS</h2>
-                                    <hr>
-                                    <table class="uk-table uk-table-hover uk-table-divider">
-                                        <thead class="head-text">
-                                            <tr>
-                                                <th>Annual Limits Per Person</th>
-                                                <th>50,000</th>
-                                                <th>75,000</th>
-                                                <th>100,000 </th>
-                                                <th>150,000 </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Maximum Consultation Limit per visit</td>
-                                                <td>2,000</td>
-                                                <td>2,500</td>
-                                                <td>3,000 </td>
-                                                <td>3,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Physicians consultation fees</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Prescription drugs up to a maximum of 30 days</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Specialists fees (strictly on referral by a GP)</td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,500 </td>
-                                                <td> Covered up to 4,000 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Physiotherapy prescribed by a GP</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP
-                                                </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions
-                                                    after
-                                                    12 months of cover & full disclosure at the time of joining</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>KEPI recommended vaccines covered for children upto 18 months</td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>General Health Check-up for members from Age 21 and above</td>
-                                                <td> 5,000 </td>
-                                                <td> 7,500 </td>
-                                                <td> 10,000 </td>
-                                                <td> 10,000 </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div>
-
                         <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
@@ -395,7 +274,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I Need
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need
                                                 Assistance</a>
                                         </div>
                                     </div>
@@ -504,7 +383,7 @@
     </div>
 
 
-    <!-- ===================================== LEAD FORM FOR JAMII PLUS ===================================== -->
+    <!-- ===================================== SPECIAL PACKAGE LEAD FORM  ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -553,8 +432,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -564,6 +442,66 @@
             </div>
         </div>
     </div>
+
+    <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
+
+    <div id="modal-full_r" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="Contact Us">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <?php
     require_once 'inc/scripts.php';
     ?>

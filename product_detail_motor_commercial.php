@@ -406,7 +406,7 @@
         </div>
     </div>
 
-    <!-- ===================================== LEAD FORM FOR COMPREHENSIVE ===================================== -->
+    <!-- ===================================== MOTOR COMMERCIAL LEAD FORM ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">

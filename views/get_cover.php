@@ -2108,3 +2108,544 @@ COMMERCIAL COVER
         </div>
     </div>
 </div>
+
+<!-- ===================================== MOTOR COMMERCIAL LEAD FORM ===================================== -->
+
+<div id="modal-full_mc" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John doe" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 424 xxx" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">VEHICLE DETAILS</h3>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="make">Vehicle Make</label>
+                                <input name="make" type="text" class="form-control" id="make" placeholder="Toyota" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="model">Vehicle Model</label>
+                                <input name="model" type="text" class="form-control" id="model" placeholder="Crown" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="value">Vehicle Value (Kshs)</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="inputAddress2">Year of Manufacture</label>
+                                <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                            </div>
+                        </div>
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="26">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== PLATE GLASS LEAD FORM ===================================== -->
+
+<div id="modal-full_plate" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/miscellaneous.jpg'); background-size: cover;" uk-height-viewport>
+            </div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="container">
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== SPECIAL PACKAGE LEAD FORM  ===================================== -->
+
+<div id="modal-full_special" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="" value="" required>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="container">
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== THEFT LEAD FORM  ===================================== -->
+
+<div id="modal-full_theft" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="31">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== WIBA LEAD FORM  ===================================== -->
+
+<div id="modal-full_wiba" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Occupation</label>
+                                <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="30">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== CORPORATE HEALTH LEAD FORM  ===================================== -->
+
+<div id="modal-full_ch" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+                    <h3 for="inputAddress" class="comp-detail">COMPANY DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name"> Name of Organisation/company</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number of contact person</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address of contact person</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location of orginasation/Company</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="population_staff"> Population of staff </label>
+                                <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="model">Type of Cover</label>
+                                <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option data-ref="" name="" value="Inpatient Only"> Inpatient only
+                                    </option>
+                                    <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
+                                        Outpatient </option>
+                                    <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                        Outpatient & other riders </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="40">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== CROP LEAD FORM  ===================================== -->
+
+<div id="modal-full_crop" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="email">Location</label>
+                                <input name="location" type="text" class="form-control" id="email" placeholder="" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="type">Type of Crop</label>
+                                <select id="type" name="type" class="form-control" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option value="Area Yield Index">Area Yield Index</option>
+                                    <option value="Index-based Weather">Index-based Weather</option>
+                                    <option value="Multi Peril Crop Insurance">Multi Peril Crop Insurance</option>
+                                </select>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="value">No of Acres</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="42">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===================================== LEAD FORM FOR LIVESTOCK ===================================== -->
+
+<div id="modal-full_livestock" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/sheep.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="" placeholder="John Doe" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712345678" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="johndoe@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Location</label>
+                                <input name="location" type="text" class="form-control" id="email" placeholder="Nairobi" value="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <h3 for="inputAddress" class="comp-detail">ANIMAL DETAILS</h3>
+                            <div class=" form-group col-md-12">
+                                <label for="number">No of Animals</label>
+                                <input name="number" type="text" class="form-control value" id="number" placeholder="15" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="type">Type of Livestock</label>
+                                <select id="type" name="type" class="form-control" required>
+                                    <option value="-1" selected disabled>Choose...</option>
+                                    <option value="Single Animal Cover">Single Animal Cover</option>
+                                    <option value="Poultry insurance">Poultry insurance</option>
+                                    <!-- <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option> -->
+                                    <option value="Bloodstock/Horse Insurance">Bloodstock/Horse Insurance</option>
+                                </select>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="value">Total Value of animals</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="250,000" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="43">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

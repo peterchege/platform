@@ -754,7 +754,7 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href=" pdf/brochure/Jamii Plus Brochure.pdf" target="_blank"">
+                    <a href=" pdf/brochure/Jamii Plus Brochure.pdf" target="_blank">
                         <h2> <i class=" fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
@@ -768,8 +768,9 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
-                        <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
+                    <a href="pdf/claim/Outpatient Claim Form.pdf" target="_blank">
+                        <h2> <i class="fas fa-file-pdf"></i>
+                            Claim Form</h2>
                         <hr>
                         <p>Outpatient Claim Form</p>
                         <hr>
@@ -780,7 +781,7 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/claim/Medical_Health_claim_form.pdf">
+                    <a href="pdf/claim/Inpatient Preauthorisation Claim Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Inpatient Claim form</p>
@@ -795,7 +796,7 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <a href="pdf/claim/Dental Preauthorisation Claim Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Dental authorization</p>
@@ -806,7 +807,7 @@
 
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
-                    <a href="#">
+                    <a href="pdf/claim/APA Optical Claim Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
                         <p>Optical Claim Form</p>
