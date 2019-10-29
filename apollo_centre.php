@@ -188,6 +188,7 @@
                             <div class="col-md-6 text-left">
                                 <a href="apollo_centre_chyullu.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -219,6 +220,7 @@
                             <div class="col-md-6 text-left">
                                 <a href="apollo_centre_cherengani.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -287,6 +289,7 @@
                             <div class="col-md-6 text-left">
                                 <a href="apollo_centre_taita.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                </a>
                             </div>
                         </div>
                     </div>
