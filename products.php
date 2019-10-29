@@ -670,6 +670,9 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
