@@ -268,7 +268,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -322,7 +322,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -398,7 +398,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 214 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 214 xxx" value="" required>
                             </div>
                         </div>
 
@@ -471,7 +471,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 583 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 583 xxx" value="" required>
                             </div>
                         </div>
 
@@ -524,7 +524,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 214 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 214 xxx" value="" required>
                             </div>
                         </div>
 
@@ -599,7 +599,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -709,20 +709,20 @@ HEALTH COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make"> Inpatient Benefit (Kshs)</label>
-                                <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                <label for="inpatient"> Inpatient Benefit (Kshs)</label>
+                                <select id="inpatient" name="inpatient" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="owner" name="all_covers" value="All Covers">Kshs 10,000,000 </option>
-                                    <option data-ref="owner" name="building" value="Building">Kshs 5,000,000 </option>
-                                    <option data-ref="tenant" name="contents" value="Contents">Kshs 2,000,000 </option>
-                                    <option data-ref="tenant" name="all_risk" value="All Risk">Kshs 1,000,000 </option>
-                                    <option data-ref="tenant" name="domestic_employees" value="Domestic Employees">Kshs 500,000 </option>
+                                    <option value="10000000">Kshs 10,000,000 </option>
+                                    <option value="5000000">Kshs 5,000,000 </option>
+                                    <option value="2000000">Kshs 2,000,000 </option>
+                                    <option value="1000000">Kshs 1,000,000 </option>
+                                    <option value="500000">Kshs 500,000 </option>
                                 </select>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make"> Your Age category</label>
+                                <label for="age"> Your Age category</label>
                                 <select id="age" name="age" class="form-control" required>
                                     <option value="-1" selected disabled>Select your age range...</option>
                                     <option value="18 - 23"> 20 - 24 yrs</option>
@@ -742,7 +742,7 @@ HEALTH COVER
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="">
+                                <label for="number">Number of Children (Age < 20)</label> <input name="number" type="number" class="form-control" id="number" placeholder="3" value="">
                             </div>
                         </div>
 
@@ -772,8 +772,6 @@ HEALTH COVER
             <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
-
-
                 <form class="form-container" id="form-jp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                     <div class="container">
@@ -784,7 +782,7 @@ HEALTH COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
                             </div>
                         </div>
 
@@ -805,27 +803,21 @@ HEALTH COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make"> Inpatient Benefit (Kshs)</label>
-                                <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
+                                <label for="inpatient"> Inpatient Benefit (Kshs)</label>
+                                <select id="inpatient" name="inpatient" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="owner" name="" value="">Kshs 2,000,000
-                                    </option>
-                                    <option data-ref="owner" name="" value="">Kshs 1,000,000
-                                    </option>
-                                    <option data-ref="tenant" name="" value="">Kshs 750,000
-                                    </option>
-                                    <option data-ref="tenant" name="" value="">Kshs 500,000
-                                    </option>
-                                    <option data-ref="tenant" name="" value="">Kshs 300,000
-                                    </option>
-                                    <option data-ref="tenant" name="" value="">Kshs 100,000
-                                    </option>
+                                    <option value="2000000">Kshs 2,000,000 </option>
+                                    <option value="1000000">Kshs 1,000,000 </option>
+                                    <option value="750000">Kshs 750,000 </option>
+                                    <option value="500000">Kshs 500,000 </option>
+                                    <option value="300000">Kshs 300,000 </option>
+                                    <option value="100000">Kshs 100,000 </option>
                                 </select>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make"> Your Age category</label>
+                                <label for="age"> Your Age category</label>
                                 <select id="age" name="age" class="form-control" required>
                                     <option value="-1" selected disabled>Select your age range...</option>
                                     <option value="18 - 23"> 20 - 24 yrs</option>
@@ -845,13 +837,13 @@ HEALTH COVER
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="make">Number of Children (Age < 20)</label> <input name="make" type="number" class="form-control" id="make" placeholder="3" value="" required>
+                                <label for="number">Number of Children (Age < 20)</label> <input name="number" type="number" class="form-control" id="number" placeholder="3" value="" required>
                             </div>
                         </div>
 
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="14">
+                            <input type="hidden" id="product_id" name="product_id" value="15">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -887,7 +879,7 @@ HEALTH COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
                             </div>
                         </div>
 
@@ -965,7 +957,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -1063,7 +1055,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -1162,7 +1154,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder=" 07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder=" 07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1260,7 +1252,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1358,7 +1350,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1382,8 +1374,8 @@ INDIVIDUAL LIFE COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="make">Period/Length to be Covered</label>
-                                <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
+                                <label for="period">Period/Length to be Covered</label>
+                                <input name="period" type="text" class="form-control" id="period" placeholder="( 5-20 yrs )" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="cover">Value of Cover</label>
@@ -1402,7 +1394,7 @@ INDIVIDUAL LIFE COVER
 
                             <div class="form-group col-md-12">
                                 <label for="inputAddress2">Your Age</label>
-                                <select id="cover" name="cover" class="form-control" required>
+                                <select id="age" name="age" class="form-control" required>
                                     <option value="-1" selected disabled>Select your age range...</option>
                                     <option value="18 - 23"> 18 - 23 </option>
                                     <option value="24 - 25"> 24 - 25 </option>
@@ -1457,7 +1449,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1481,7 +1473,7 @@ INDIVIDUAL LIFE COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="make">Period/Length to be Covered</label>
+                                <label for="period">Period/Length to be Covered</label>
                                 <select id="period" name="period" class="form-control" required>
                                     <option value="-1" selected disabled>Select...</option>
                                     <option value="6"> 6 yrs </option>
@@ -1556,7 +1548,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1654,7 +1646,7 @@ INDIVIDUAL LIFE COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 245 xxx" value="" required>
                             </div>
                         </div>
 
@@ -1713,7 +1705,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -1811,7 +1803,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -1883,7 +1875,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="" value="" required>
                             </div>
                         </div>
 
@@ -1944,7 +1936,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -2013,7 +2005,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="" value="" required>
                             </div>
                         </div>
 
@@ -2078,7 +2070,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 

@@ -42,7 +42,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -67,17 +67,17 @@
                                         <p> LOSS OR DAMAGE to any pedal cycle described in the schedule here to caused by:-</p>
 
                                         <ol>
-                                            <li>Fire, lightning explosion thunderbolt earthquake storm tempest or flood - including 
+                                            <li>Fire, lightning explosion thunderbolt earthquake storm tempest or flood - including
                                                 tyres accessories and fittings on the cycle.</li>
-                                            <li>Burglary, housebreaking or theft - excluding tyres accessories and 
+                                            <li>Burglary, housebreaking or theft - excluding tyres accessories and
                                                 fittings unless stolen with the cycle.</li>
-                                            <li>Accidental or malicious means - excluding tyres accessories and 
-                                                fitting unless damaged at the same time as the cycle and the 
+                                            <li>Accidental or malicious means - excluding tyres accessories and
+                                                fitting unless damaged at the same time as the cycle and the
                                                 damage to the cycle is covered by this Policy. </li>
-                                            
+
                                         </ol>
-                                        
-                                       
+
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -107,7 +107,7 @@
                         <!-- FEATURES -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                            
+
                         </div>
 
                         <!-- HOW DO I START -->
@@ -297,7 +297,6 @@
                 </div>
                 <div class="uk-padding-large">
 
-
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
@@ -308,7 +307,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
@@ -322,15 +321,15 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
                             </div>
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="8">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                                <input type="hidden" id="type" name="type" value="Contact Us">
+                                <input type="hidden" id="type" name="type" value="request assistance">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
