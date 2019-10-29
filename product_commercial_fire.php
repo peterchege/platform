@@ -42,7 +42,7 @@
                         <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -436,8 +436,9 @@
                                 </div>
                             </div> -->
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="33">
+                                <input type="hidden" id="product_id" name="product_id" value="29">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="request assistance">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
@@ -452,7 +453,7 @@
             </div>
         </div>
     </div>
-    
+
     <?php
     require_once 'inc/scripts.php';
     ?>

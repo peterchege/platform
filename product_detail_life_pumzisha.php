@@ -319,12 +319,12 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="make">Period/Length to be Covered</label>
-                                    <input name="make" type="text" class="form-control" id="make" placeholder="( 5-20 yrs )" value="" required>
+                                    <label for="period">Period/Length to be Covered</label>
+                                    <input name="period" type="text" class="form-control" id="period" min="5" max="20" placeholder="( 5-20 yrs )" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="cover">Value of Cover</label>
-                                    <select id="cover" name="value" class="form-control" required>
+                                    <label for="value">Value of cover</label>
+                                    <select id="value" name="value" class="form-control" required>
                                         <option value="-1" selected disabled>Select value of cover...</option>
                                         <option value="50000"> Ksh 50, 000 </option>
                                         <option value="70000"> Ksh 70, 000 </option>
@@ -339,7 +339,7 @@
 
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Your Age</label>
-                                    <select id="cover" name="cover" class="form-control" required>
+                                    <select id="age" name="age" class="form-control" required>
                                         <option value="-1" selected disabled>Select your age range...</option>
                                         <option value="18 - 23"> 18 - 23 </option>
                                         <option value="24 - 25"> 24 - 25 </option>
