@@ -578,3 +578,84 @@ PERSONAL COVER
         </div>
     </div>
 </div>
+
+<!-- ===================================== PET LEAD FORM  ===================================== -->
+
+<div id="modal-full_pet" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-padding-large">
+
+
+                <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-6">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container">
+                        <div class="row ">
+                            <div class="form-group col-md-12 pet-count">
+                                <label for="type">Type of Pet</label>
+                                <select id="type" name="type[]" class="form-control type-pet" data-target="section" required multiple>
+                                    <option value="Dog">Dog </option>
+                                    <option value="Cat">Cat </option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="inputAddress2">Number of Pets</label>
+                                <input name="number" type="text" class="form-control value" id="number" placeholder="10" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="value"> Value of Pets (Kshs)</label>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="400,000" value="" required>
+                            </div>
+
+                        </div>
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="11">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
