@@ -25,7 +25,7 @@
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div class="header-image header-image1 asset-2">
+        <div class="header-image header-image1 asset-2b">
         </div>
     </div>
 

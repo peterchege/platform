@@ -168,34 +168,10 @@ require_once 'inc/functions.php';
             <div class="container">
                 <div class="row row-product1">
 
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img1 asset-1">
-    
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center">Apollo Money Market Fund </h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">his is a short to medium term investment product that
-                            aims to give a reasonable rate of interest while preserving capital and offering liquidity....
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img1 asset-2">
-                            
+
                         </div>
                         <div class="head-container">
                             <h2 class="text-center"> Apollo Balanced Fund</h2>
@@ -219,7 +195,7 @@ require_once 'inc/functions.php';
                     </div>
 
                     <div class="col-md-4 prod">
-                        <div class="box-container-img1 asset-3">
+                        <div class="box-container-img1 asset-1">
                         </div>
                         <div class="head-container">
                             <h2 class="text-center">Apollo Equity Fund</h2>
@@ -236,6 +212,31 @@ require_once 'inc/functions.php';
 
                             <div class="col-6 text-left prod-lf">
                                 <a href="product_investment_aef.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod">
+                        <div class="box-container-img1 asset-3">
+
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Money Market Fund </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">his is a short to medium term investment product that
+                            aims to give a reasonable rate of interest while preserving capital and offering liquidity....
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#" class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>

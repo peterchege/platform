@@ -132,16 +132,25 @@
 /* APOLLO ASSET IMAGE */
 
 .asset-1 {
-    background-image: url(../img/funds.png);
-    
+    background-image: url(../img/funds.png);   
+}
+.asset-1a {
+    background-image: url(../img/apollo_asset/grow_funds.png);
+    background-position: center;
 }
 
 .asset-2 {
     background-image: url(../img/balance.png);
 }
+.asset-2b {
+    background-image: url(../img/apollo_asset/create_wealth.png);
+}
 
 .asset-3 {
     background-image: url(../img/money.png);
+}
+.asset-3b {
+    background-image: url(../img/apollo_asset/money_funds.jpg);
 }
 
 /* images of commercial products */
