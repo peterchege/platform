@@ -1726,7 +1726,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($invoice_file_tmp, $invoice_file_path) &&
                             move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`police_abstract`,`invoice`,`detailed_statement`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`police_abstract`,`invoice`,`detailed_statement`,`created_at`) 
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_property_damage_file_name',' $police_abstract_file_name','$invoice_file_name','$detailed_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1793,7 +1793,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($dosh_one_two_property_damage_file_tmp, $dosh_one_two_property_damage_file_path) &&
                             move_uploaded_file($dosh_four_file_tmp, $dosh_four_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`dosh_one_two`,`dosh_four`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`dosh_one_two`,`dosh_four`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$dosh_one_two_property_damage_file_name',' $dosh_four_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1846,7 +1846,7 @@ switch ($_GET['request']) {
                         if (
                             move_uploaded_file($claim_form_crop_file_tmp, $claim_form_crop_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -1946,7 +1946,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($vet_loss_certificate_file_tmp, $vet_loss_certificate_file_path) &&
                             move_uploaded_file($dead_livestock_photo_file_tmp, $dead_livestock_photo_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem`,`vet_loss_certificate`,`dead_livestock_photo`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem`,`vet_loss_certificate`,`dead_livestock_photo`,`created_at`) 
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
@@ -2102,7 +2102,7 @@ switch ($_GET['request']) {
                             move_uploaded_file($discharge_summary_file_tmp, $discharge_summary_file_path) &&
                             move_uploaded_file($police_abstract_file_tmp, $police_abstract_file_path)
                         ) {
-                            $insert = $db->query("INSERT INTO claims_personal_property(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`) 
+                            $insert = $db->query("INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`) 
                                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$personal_accident_claim_form_file_name',' $detailed_statement_file_name','$payslips_file_name','$national_id_file_name','$sick_sheet_file_name','$medical_bill_file_name','$discharge_summary_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';

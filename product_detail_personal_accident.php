@@ -180,36 +180,36 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost 
+                                <p>If you are interested in learning how much this insurance product would cost
                                     you, or if you are interested in purchasing this insurance product, please click <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance 
+                                    If you would like further assistance explanation or assistance about this insurance
                                     product, please click I <b>Need Assistance.</b>
                                 </p>
                                 <p>
-                                   <b> Download forms</b> will give you access to any relevant documents for this insurance product, 
+                                    <b> Download forms</b> will give you access to any relevant documents for this insurance product,
                                     such as the claim form, proposal form etc.
                                 </p>
-                                    <br><br> 
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                                <a href="#" class="btn btn-primary">Get Cover</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
-                                                <a href="#" class="btn btn-danger"> Download Forms </a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
-                                                <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                            </div>
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
+                                            <a href="#" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
-                                    <br><br> 
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                            <a href="#" class="btn btn-dark">I Need Assistance</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br>
                             </div>
 
 
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
@@ -370,15 +370,15 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
                             </div>
 
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="12">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                                <input type="hidden" id="type" name="type" value="Contact Us">
+                                <input type="hidden" id="type" name="type" value="request assistance">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
