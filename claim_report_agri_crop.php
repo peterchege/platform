@@ -164,10 +164,9 @@
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="42">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="accident" name="motor_claim_type" value="accident">
-
+                            <input type="hidden" id="crop" name="claim_type" value="crop">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -194,7 +193,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -238,7 +237,7 @@
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="42">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
