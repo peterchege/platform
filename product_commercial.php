@@ -156,7 +156,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_fire" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -181,7 +181,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_git" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -206,7 +206,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_liability" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -262,7 +262,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_mc" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
@@ -302,7 +302,7 @@
                 <!-- NEW ROW 4 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <!-- replace with motor trade -->
-                    <div class="col-md-4 prod">
+                    <!-- <div class="col-md-4 prod">
                         <div class="box-container-img com-2">
                             <div class="overlay">
                             </div>
@@ -315,7 +315,6 @@
                             financial loss in the event that the motor vehicle insured is involved
                             in an accident, burnt, stolen ...
                         </p>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">Get Cover</a>
@@ -326,7 +325,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-16">
@@ -337,13 +336,13 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described
+                            in the schedule including the cost of temporary boarding up where necessary ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_plate" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -369,7 +368,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_special" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -379,10 +378,6 @@
                         </div>
                     </div>
 
-                </div>
-
-                <!-- NEW ROW 5 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-6">
                             <div class="overlay">
@@ -399,7 +394,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_theft" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -408,6 +403,11 @@
 
                         </div>
                     </div>
+
+                </div>
+
+                <!-- NEW ROW 5 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-9">
@@ -425,7 +425,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_wiba" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -433,6 +433,10 @@
                             </div>
 
                         </div>
+                    </div>
+
+                    <div class="offset-8">
+
                     </div>
 
                 </div>
@@ -468,17 +472,17 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> corporate Health</h2>
+                            <h2 class="text-center"> Corporate Health</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
+                        <p class="text-justify">APA Insurance offers flexible tailor made corporate products
+                            for groups with ten (10) or more employees. The main benefit is a fully insured
+                            in-patient scheme ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_ch" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -520,7 +524,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_crop" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -545,7 +549,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_livestock" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">

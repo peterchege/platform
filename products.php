@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
     <?php include 'views/head_links.php'; ?>
@@ -670,6 +671,19 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
+    </script>
+    <script>
+        $('.type-pet').multiselect({
+            nonSelectedText: 'Select pet type',
+            enableFiltering: false,
+            enableCaseInsensitiveFiltering: false,
+            buttonWidth: '100%'
+        });
+    </script>
 </body>
 
 </html>
