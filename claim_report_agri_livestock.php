@@ -228,7 +228,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_livestock">Attach document : Claim Form completed <a href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM............ammended.pdf">(click
+                                    <label for="claim_form_livestock">Attach document : Claim Form completed <a href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM.pdf">(click
                                             here
                                             to download a claim form)</a></label>
                                     <input name="claim_form_livestock" type="file" class="form-control-file" id="claim_form_livestock" required>
