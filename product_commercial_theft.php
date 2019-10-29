@@ -36,21 +36,15 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false">BENEFITS ( INPATIENT )</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab"
-                                aria-controls="outpatient" aria-selected="false">BENEFITS ( OUTPATIENT )</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -75,70 +69,7 @@
                                 </P>
                                 <hr>
                                 <div class="job-content">
-                                    <h2>WHAT JAMII PLUS CATERS FOR:</h2>
 
-                                    <div class="row cover-jamii">
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-procedures"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Bed Charges</h3>
-                                                    <p>Including all accommodation expenses net of NHIF during your stay
-                                                        in the
-                                                        hospital. Whether in the Wards, HDU or ICU.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-pills"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Medication</h3>
-                                                    <p>All prescribed drugs and dressings through our designated
-                                                        partners.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-user-md"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Doctor’s Fees</h3>
-                                                    <p>Any doctorrelated charges including those of physicians,
-                                                        surgeons, anesthetists
-                                                        and specialists for visits and consultations.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-md-3 jamii-cater">
-
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <i class="fas fa-stethoscope"></i>
-                                                </div>
-                                                <div class="card-body">
-                                                    <h3 class="card-title">Diagnostics</h3>
-                                                    <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT
-                                                        Scans</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <br>
 
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
@@ -212,21 +143,17 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                        uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger"
-                                                        data-target="#modal-close-outside"
-                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full"
-                                                        uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -572,124 +499,6 @@
                             </div>
                         </div>
 
-                        <!-- BENEFITS INPATIENT-->
-
-                        <div class="tab-pane fade" id="outpatient" role="tabpanel" aria-labelledby="outpatient-tab">
-
-                            <div class="job-description text-center">
-                                <div class="job-content">
-
-                                    <!-- TABLE OF BENEFITS OUTPATIENT -->
-
-                                    <h2>OUTPATIENT CORE PLANS</h2>
-                                    <hr>
-                                    <table class="uk-table uk-table-hover uk-table-divider">
-                                        <thead class="head-text">
-                                            <tr>
-                                                <th>Annual Limits Per Person</th>
-                                                <th>50,000</th>
-                                                <th>75,000</th>
-                                                <th>100,000 </th>
-                                                <th>150,000 </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Maximum Consultation Limit per visit</td>
-                                                <td>2,000</td>
-                                                <td>2,500</td>
-                                                <td>3,000 </td>
-                                                <td>3,000 </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Physicians consultation fees</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Prescription drugs up to a maximum of 30 days</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td>Specialists fees (strictly on referral by a GP)</td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,000 </td>
-                                                <td> Covered up to 3,500 </td>
-                                                <td> Covered up to 4,000 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>X-Ray, MRI’s, CT and other diagnostic tests</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Physiotherapy prescribed by a GP</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Treatment by chiropractors and osteopaths if on referral by a GP
-                                                </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>Pre-existing/ Chronic conditions/ HIV AIDS/ Congenital Conditions
-                                                    after
-                                                    12 months of cover & full disclosure at the time of joining</td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-                                                <td> Covered </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>KEPI recommended vaccines covered for children upto 18 months</td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-                                                <td> 7,500 </td>
-
-                                            </tr>
-
-                                            <tr>
-                                                <td>General Health Check-up for members from Age 21 and above</td>
-                                                <td> 5,000 </td>
-                                                <td> 7,500 </td>
-                                                <td> 10,000 </td>
-                                                <td> 10,000 </td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div>
-
                         <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
@@ -718,13 +527,12 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
-                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I Need
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need
                                                 Assistance</a>
                                         </div>
                                     </div>
@@ -833,14 +641,13 @@
     </div>
 
 
-    <!-- ===================================== LEAD FORM FOR JAMII PLUS ===================================== -->
+    <!-- ===================================== THEFT LEAD FORM  ===================================== -->
 
     <div id="modal-full" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -850,50 +657,39 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Occupation</label>
-                                    <input name="occupation" type="text" class="form-control" id="occupation"
-                                        placeholder="Clerk" value="" required>
+                                    <input name="occupation" type="text" class="form-control" id="occupation" placeholder="Clerk" value="" required>
                                 </div>
                             </div>
 
                         </div>
                         <div class="container">
-                            <!-- <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
-                                </div>
-                            </div> -->
+
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="31">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -903,6 +699,65 @@
             </div>
         </div>
     </div>
+
+    <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
+
+    <div id="modal-full_r" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
+                <div class="uk-padding-large">
+
+
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="Contact Us">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <?php
     require_once 'inc/scripts.php';
     ?>
