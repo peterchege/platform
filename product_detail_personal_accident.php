@@ -96,7 +96,6 @@
 
                         <!-- FEATURES -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
                             <!-- <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
