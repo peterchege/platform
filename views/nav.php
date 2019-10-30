@@ -67,7 +67,7 @@
                                         <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
-                                                (Domestic package)</a></li>
+                                                (Domestic Package)</a></li>
                                         <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
                                         <li><a href="product_detail_personal_accident.php"><i
                                                     class="fas fa-user-injured"></i> Personal Accident</a></li>
@@ -79,7 +79,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <!-- <li class="uk-nav-header ">HEALTH COVER :</li>
                                         <li class="uk-nav-divider"></li> -->
-                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Family
+                                        <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Enhanced Family
                                                 Health Cover (Jamii Plus)</a></li>
                                         <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family
                                                 Health Cover (Afya Nafuu)</a></li>
@@ -104,19 +104,19 @@
                                         <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i>
                                                 Fixed Savings Plan (Imarika)</a></li>
                                         <li><a href="product_detail_life_akiba_halisi.php"><i
-                                                    class="fas fa-money-check"></i> Anticipated Savings (Akiba
+                                                    class="fas fa-money-check"></i> Anticipated Savings Plan (Akiba
                                                 Halisi)</a></li>
                                         <li><a href="product_detail_life_elimu.php"><i class="fas fa-user-graduate"></i>
                                                 Education Plan (Elimu)</a></li>
                                         <li><a href="product_detail_life_hosicare.php"><i class="fas fa-procedures"></i>
-                                                Hospitalisation Loss of Income (HosiCare)</a></li>
+                                                Hospitalisation, Loss of Income (HosiCare)</a></li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
                                         <li><a href="product_detail_life_pumzisha.php"><i
-                                                    class="fas fa-file-invoice-dollar"></i> Funeral Expense Cover
+                                                    class="fas fa-file-invoice-dollar"></i> Funeral Expenses Cover
                                                 (Pumzisha)</a></li>
                                         <li><a href="product_detail_life_term_assuarance.php"><i
                                                     class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
@@ -193,7 +193,7 @@
                                         <li><a href="product_detail_livestock.php"><i class="fas fa-hippo"></i>
                                                 Livestock Cover</a></li>
                                         <li><a href="product_commercial_micro.php"><i
-                                                    class="fas fa-hand-holding-usd"></i> Micro insurance</a></li>
+                                                    class="fas fa-hand-holding-usd"></i> Micro Insurance</a></li>
 
                                     </ul>
                                 </div>
@@ -277,7 +277,7 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="companies.php"><i class="fas fa-building"></i> Companies </a></li>
                                         <li><a href="leadership.php"><i class="fas fa-user-tie"></i> Leadership</a></li>
-                                        <li><a href="management_group.php"><i class="fas fa-sitemap"></i> Managment</a>
+                                        <li><a href="management_group.php"><i class="fas fa-sitemap"></i> Management</a>
                                         </li>
                                         <li><a href="financial_report.php"><i class="fas fa-chart-bar"></i> Financial
                                                 Reports </a></li>
@@ -288,10 +288,10 @@
                                         <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News &
                                                 Updates</a></li>
                                         <li><a href="csr.php"><i class="fas fa-user-friends"></i> CSR</a></li>
-                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers</a>
+                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers Magazine</a>
                                         </li>
                                         <li><a href="career.php"><i class="fas fa-walking"></i> Careers (Start your
-                                                Journey)</a></li>
+                                                Journey with us)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -310,21 +310,21 @@
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
                                         <li><a href="contact_us.php"><i class="fas fa-star"></i>Feedback</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request CallBack</a>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request Callback</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="claim.php"><i class="fas fa-file-pdf"></i> Make a claim</a></li>
+                                        <li><a href="claim.php"><i class="fas fa-file-pdf"></i> Make a Claim</a></li>
                                         <li><a
                                                 href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrWindowMode=0&_afrLoop=14884103847609303&_adf.ctrl-state=mbeaekind_9"><i
-                                                    class="fas fa-file-alt"></i> Life Intermediary portal</a>
+                                                    class="fas fa-file-alt"></i> Life Intermediary Portal</a>
                                         </li>
                                         <li><a
                                                 href="https://portal.apainsurance.org/TurnQuestClient/faces/index.jspx?_afrWindowMode=0&_afrLoop=14884103847609303&_adf.ctrl-state=mbeaekind_9"><i
-                                                    class="fas fa-file-alt"></i> Life client portal</a></li>
+                                                    class="fas fa-file-alt"></i> Life Client pPrtal</a></li>
                                     </ul>
                                 </div>
                                 <div>
