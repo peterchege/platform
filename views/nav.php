@@ -349,7 +349,7 @@
                                 alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
                         <div class="uk-navbar-dropdown back-color"
                             uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 text-center" uk-grid>
                             
                             
                             <div>
