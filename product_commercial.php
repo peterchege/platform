@@ -593,7 +593,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_credit" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -612,10 +612,9 @@
                             <h2 class="text-center"> Group Life</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">Group Life insurance is a benefit offered by an employer or an aggregator
+                            of diverse segments of the population for reasons other ...
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -629,35 +628,6 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-15">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Mobile Banking</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
-                        </p>
-                        <br>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_mobile_bank.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- NEW ROW 7 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-18">
                             <div class="overlay">
@@ -682,6 +652,13 @@
 
                         </div>
                     </div>
+
+
+                </div>
+
+                <!-- NEW ROW 7 OF PRODUCTS -->
+                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-19">
@@ -732,6 +709,10 @@
                             </div>
 
                         </div>
+                    </div>
+
+                    <div class="offset-4">
+                        
                     </div>
 
                 </div>
