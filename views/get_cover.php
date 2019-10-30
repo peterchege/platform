@@ -1899,7 +1899,7 @@ COMMERCIAL COVER
                     <div class="container">
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_id" name="product_id" value="32">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -1968,7 +1968,7 @@ COMMERCIAL COVER
                     <div class="container">
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_id" name="product_id" value="29">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -2033,7 +2033,7 @@ COMMERCIAL COVER
                     <div class="container">
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_id" name="product_id" value="37">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -2127,7 +2127,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 424 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 424 xxx" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                             </div>
                         </div>
 
@@ -2210,7 +2210,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                             </div>
                         </div>
 
@@ -2234,7 +2234,7 @@ COMMERCIAL COVER
                     <div class="container">
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_id" name="product_id" value="39">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -2270,7 +2270,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                             </div>
                         </div>
 
@@ -2294,7 +2294,7 @@ COMMERCIAL COVER
                     <div class="container">
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="33">
+                            <input type="hidden" id="product_id" name="product_id" value="36">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
@@ -2330,7 +2330,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                             </div>
                         </div>
 
@@ -2389,7 +2389,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
@@ -2448,7 +2448,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number of contact person</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                             </div>
                         </div>
 
@@ -2481,11 +2481,11 @@ COMMERCIAL COVER
                                 <label for="model">Type of Cover</label>
                                 <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option data-ref="" name="" value="Inpatient Only"> Inpatient only
+                                    <option value="Inpatient Only"> Inpatient only
                                     </option>
-                                    <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
+                                    <option value="Inpatient & Outpatient"> Inpatient &
                                         Outpatient </option>
-                                    <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                    <option value="Inpatient and Outpatient and other Riders"> Inpatient &
                                         Outpatient & other riders </option>
                                 </select>
                             </div>
@@ -2527,7 +2527,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                             </div>
                         </div>
 
@@ -2594,7 +2594,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712345678" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="0712345678" value="" required>
                             </div>
                         </div>
 
@@ -2670,7 +2670,7 @@ COMMERCIAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number of contact person</label>
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="" value="" required>
                             </div>
                         </div>
 
@@ -2700,7 +2700,7 @@ COMMERCIAL COVER
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="40">
+                            <input type="hidden" id="product_id" name="product_id" value="54">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">

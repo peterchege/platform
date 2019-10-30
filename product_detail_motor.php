@@ -452,7 +452,7 @@
                                     <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="" required>
                                 </div>
                                 <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Year of Manufacture</label>
+                                    <label for="yom">Year of Manufacture</label>
                                     <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                                 </div>
                             </div>
