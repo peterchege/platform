@@ -150,7 +150,7 @@
                                         <li><a href="product_commercial_fire.php"><i class="fas fa-fire"></i> Fire &
                                                 Perils </a></li>
                                         <li><a href="product_commercial_goods_in_transit.php"><i
-                                                    class="fas fa-truck-loading"></i>Good in Transit (GIT)</a></li>
+                                                    class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                     </ul>
                                 </div>
                                 <div>
@@ -288,7 +288,7 @@
                                         <li><a href="media_centre_video.php"><i class="fas fa-newspaper"></i> News &
                                                 Updates</a></li>
                                         <li><a href="csr.php"><i class="fas fa-user-friends"></i> CSR</a></li>
-                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers Magazine</a>
+                                        <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trailblazer Newsletter</a>
                                         </li>
                                         <li><a href="career.php"><i class="fas fa-walking"></i> Careers (Start your
                                                 Journey with Us Today)</a></li>
