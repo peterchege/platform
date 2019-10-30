@@ -143,7 +143,8 @@
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
-                                    <a href="#" class="uk-button uk-button-text my-text">Download <i
+                                    <a href="pdf/trailblazer/APA-Trailblazer-Apr2018-HIRES-1.pdf"
+                                        class="uk-button uk-button-text my-text">Download <i
                                             class="fas fa-download"></i></a>
                                 </div>
                             </div>
@@ -175,7 +176,8 @@
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
-                                    <a href="#" class="uk-button uk-button-text my-text">Download <i
+                                    <a href="pdf/trailblazer/APA trailblazer MAGAZINE APRIL 2017.pdf"
+                                        class="uk-button uk-button-text my-text">Download <i
                                             class="fas fa-download"></i></a>
                                 </div>
                             </div>
@@ -207,7 +209,8 @@
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
-                                    <a href="#" class="uk-button uk-button-text my-text">Download <i
+                                    <a href="pdf/trailblazer/December 2016 issue.pdf"
+                                        class="uk-button uk-button-text my-text">Download <i
                                             class="fas fa-download"></i></a>
                                 </div>
                             </div>
@@ -242,7 +245,8 @@
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
-                                    <a href="#" class="uk-button uk-button-text my-text">Download <i
+                                    <a href="pdf/trailblazer/July 2016 issue.pdf"
+                                        class="uk-button uk-button-text my-text">Download <i
                                             class="fas fa-download"></i></a>
                                 </div>
                             </div>
@@ -274,7 +278,8 @@
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
-                                    <a href="#" class="uk-button uk-button-text my-text">Download <i
+                                    <a href="pdf/trailblazer/February 2016.pdf"
+                                        class="uk-button uk-button-text my-text">Download <i
                                             class="fas fa-download"></i></a>
                                 </div>
                             </div>

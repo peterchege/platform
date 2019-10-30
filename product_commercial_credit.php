@@ -314,7 +314,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number of contact person</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                    <input name="phone" type="tel" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" class="form-control" id="phone" placeholder="" value="" required>
                                 </div>
                             </div>
 
@@ -344,7 +344,7 @@
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="41">
+                                <input type="hidden" id="product_id" name="product_id" value="54">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                                 <input type="hidden" id="type" name="type" value="request assistance">
 
@@ -382,7 +382,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
                                 </div>
                             </div>
 
@@ -401,7 +401,7 @@
                                 </div>
                             </div>
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_id" name="product_id" value="54">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                                 <input type="hidden" id="type" name="type" value="Contact Us">
                             </div>

@@ -45,7 +45,7 @@ require_once 'inc/functions.php';
 
         <div class="box-quote">
             <div class="row">
-                <h3 class="text-center">Select a product to get a quote </h3>
+                <h3 class="text-center">Select a product to get a quote and buy online</h3>
             </div>
 
             <div class="container">
