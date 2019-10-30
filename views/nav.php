@@ -369,7 +369,7 @@
                                 
                                 
                                 <div>
-                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi text-left">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi text-right">
                                         <!-- <li class="uk-nav-header ">BRANCHES :</li>
                                         <li class="uk-nav-divider"></li> -->
                                         <li><a href="#"> <img src="img/kenya.png" class="rounded" width="30"
