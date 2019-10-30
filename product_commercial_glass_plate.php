@@ -595,8 +595,8 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
                             </div>
                             <div style="display: none">
