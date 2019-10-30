@@ -349,9 +349,11 @@
                                 alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
                         <div class="uk-navbar-dropdown back-color"
                             uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                           
+                            #changed uk-child-width to 1-3 and added 
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 text-center" uk-grid>
                             
-                            
+                           /* 
                             <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -361,7 +363,7 @@
 
                                     </ul>
                                 </div>    
-                                
+                             */   
                                 
                                 
                                 
