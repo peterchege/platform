@@ -63,10 +63,10 @@
                                 <P class="text-justify">Lending institution includes: Banks, Microfinance and Saccos.
                                 </P>
                                 <hr>
-                                <div class="job-content">
+                                <div class="job-content text-justify">
                                     <h2>What is the purpose of Credit Life Insurance?</h2>
 
-                                    <p2 class="text-left">The cover is meant to protect the lending institution
+                                    <p2>The cover is meant to protect the lending institution
                                         against risk of unexpected death, disability or even loss of employment of a
                                         borrower.
                                         This ensures that the lending institution gets paid.</p2>
@@ -83,6 +83,7 @@
                                             <li>Provides a more economical coverage because of mass purchase and group discounting. </li>
                                             <li>Premium is lower than individual insurance.</li>
                                         </ol>
+
                                         <br> <br>
                                         <div class="row">
                                             <div class="col-md-4">
@@ -114,81 +115,43 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Main Features include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <br>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
+                                        <p>Features</p>
 
-                                        </ol><br>
+                                        <h3>Death:</h3>
+                                        <p2>Covers death of a borrower due to illness, accident or natural causes.
+                                        </p2>
                                         <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
-
-                                        </ol><br>
+                                        <h3>Permanent Total Disability [PTD]: </h3>
+                                        <p2>Covers permanent total disability, of a borrower due to an accident.
+                                        </p2>
+                                        <hr>
+                                        <h3>Critical Illness:</h3>
+                                        <p2>Covers a first positive diagnosis of a critical illness, of a borrower
+                                            [Heart attack, Cancer, Stroke, Kidney failure, major Organ Transplant,
+                                            Coronary Artery Bypass Surgery & Paraplegia].
+                                        </p2><br><br>
+                                        <p2>Cover can be extended to cover the nuclear family for the same amount.</p2>
+                                        <hr>
+                                        <h3>Funeral Expense Cover:</h3>
+                                        <p2>Payment to cater for the immediate burial costs upon death of the borrower</p2>
+                                        <hr>
+                                        <h3>Retrenchment:</h3>
+                                        <p2>Covers loss of employment/Involuntary termination of employment. </p2><br><br>
+                                        <p2>This means without the employee’s fault, their employment is terminated
+                                            through the employer’s initiative. </p2>
+                                        <hr>
+                                        <h3>Deposit Cover:</h3>
+                                        <p2>Pays an equivalent of a multiple of the member’s savings to his beneficiaries
+                                            upon his unfortunate death.</p2>
+                                        <br>
                                     </div>
 
                                 </div>
                             </div>
 
                         </div>
-
                         <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
