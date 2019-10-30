@@ -119,7 +119,7 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa3/maria.jpg" class="img" alt="">
+                        <img src="img/apa3/Maria.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Maria Simiyu <br>
                             <small>Group Head of Human Resource</small>
@@ -248,7 +248,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/apa3/maria.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/apa3/Maria.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
