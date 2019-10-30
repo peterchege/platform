@@ -150,7 +150,7 @@
                                         <li><a href="product_commercial_fire.php"><i class="fas fa-fire"></i> Fire &
                                                 Perils </a></li>
                                         <li><a href="product_commercial_goods_in_transit.php"><i
-                                                    class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+                                                    class="fas fa-truck-loading"></i>Good in Transit (GIT)</a></li>
                                     </ul>
                                 </div>
                                 <div>
