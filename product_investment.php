@@ -15,7 +15,7 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/media.css" media="screen">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
-    <link rel="stylesheet" href="css/Product.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
@@ -92,8 +92,10 @@ require_once 'inc/functions.php';
                             <h2>Global Expertise Locally<br> Delivered </h2>
                             <hr>
                             <p>
-                                We offer a wide range of investment solutions whether fixed-income, equity, property and money market investments.
-                                We are also adept at Wealth Management solutions for individuals from financial planning to transition issues.
+                                We offer a wide range of investment solutions whether fixed-income, equity, property and
+                                money market investments.
+                                We are also adept at Wealth Management solutions for individuals from financial planning
+                                to transition issues.
                             </p>
 
                         </div>
@@ -105,7 +107,8 @@ require_once 'inc/functions.php';
                             <h2> Fixed Income </h2>
                             <hr>
                             <p>
-                                Armed with the best investment ideas, AAMC seeks to capitalize on the best investment opportunities,
+                                Armed with the best investment ideas, AAMC seeks to capitalize on the best investment
+                                opportunities,
                                 long-dated and short-term across the fixed income spectrum
                             </p>
 
@@ -142,13 +145,17 @@ require_once 'inc/functions.php';
                 <div class="row">
                     <div class="col-12">
                         <h1>Investment Approach and Style</h1>
-                        <p>At Apollo Asset Management, our investment philosophy is hinged on a flexible investment strategy, allowing portfolio managers to seek the most attractive total return opportunities based on changing market conditions.
+                        <p>At Apollo Asset Management, our investment philosophy is hinged on a flexible investment
+                            strategy, allowing portfolio managers to seek the most attractive total return opportunities
+                            based on changing market conditions.
                             We approach this investment strategy with three objectives:
                         </p>
                         <ol>
                             <li>Identify Changing Market Conditions<br> <b> ->Intelligence backed by Research</b></li>
-                            <li>Adjust asset allocations to seek maximum risk-adjusted returns based on changing market conditions<br> <b> ->Proactive approach</b></li>
-                            <li>Within each asset class, select the most attractive securities based on fundamentals and valuations <br> <b> ->Focus on returns/yield.</b></li>
+                            <li>Adjust asset allocations to seek maximum risk-adjusted returns based on changing market
+                                conditions<br> <b> ->Proactive approach</b></li>
+                            <li>Within each asset class, select the most attractive securities based on fundamentals and
+                                valuations <br> <b> ->Focus on returns/yield.</b></li>
                         </ol>
                     </div>
                 </div>
@@ -202,7 +209,8 @@ require_once 'inc/functions.php';
                         </div>
                         <br>
                         <p class="text-justify">This fund aims to generate long-term capital growth through
-                            investment in quoted equities and by investing in a diversified range of e stocks across several sectors....
+                            investment in quoted equities and by investing in a diversified range of e stocks across
+                            several sectors....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -226,7 +234,8 @@ require_once 'inc/functions.php';
                         </div>
                         <br>
                         <p class="text-justify">his is a short to medium term investment product that
-                            aims to give a reasonable rate of interest while preserving capital and offering liquidity....
+                            aims to give a reasonable rate of interest while preserving capital and offering
+                            liquidity....
                         </p>
                         <br>
                         <!-- button click -->
@@ -363,7 +372,9 @@ require_once 'inc/functions.php';
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 
