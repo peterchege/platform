@@ -291,7 +291,7 @@
                                         <li><a href="trailblazer.php"><i class="fas fa-chart-bar"></i> Trail Blazers Magazine</a>
                                         </li>
                                         <li><a href="career.php"><i class="fas fa-walking"></i> Careers (Start your
-                                                Journey with us)</a></li>
+                                                Journey with Us Today)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -310,7 +310,7 @@
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
                                         <li><a href="contact_us.php"><i class="fas fa-star"></i>Feedback</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request Callback</a>
+                                        <li><a href="#"><i class="fas fa-headset"></i> Request a Callback</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -324,7 +324,7 @@
                                         </li>
                                         <li><a
                                                 href="https://portal.apainsurance.org/TurnQuestClient/faces/index.jspx?_afrWindowMode=0&_afrLoop=14884103847609303&_adf.ctrl-state=mbeaekind_9"><i
-                                                    class="fas fa-file-alt"></i> Life Client pPrtal</a></li>
+                                                    class="fas fa-file-alt"></i> Life Client Portal</a></li>
                                     </ul>
                                 </div>
                                 <div>
