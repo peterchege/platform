@@ -64,73 +64,39 @@
 
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
+                                        <p> Optional Riders:</p>
+                                        <li>A fully insured outpatient scheme</li>
+                                        <li>A fully insured Dental and optical cover</li>
+                                        <li>A fully insured Maternity Cover</li>
+                                        <li>Last/Funeral expense cover</li>
+                                        <li>Excess of Loss Cover</li>
+                                        <p>Enhanced benefits:</p>
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>Cover for Pre-existing and chronic conditions </li>
+                                            <li>Opportunistic infections of HIV conditions</li>
                                         </ol>
+                                        <p>Other benefits offered at a fee:</p>
+                                        <p2>Fund management / Scheme administration only</p2>
                                         <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
+                                        <h2>Structure of Cover</h2>
+                                        <p> Cover can be either on a:</p>
+                                        <li>Per Family /shared limit. The family shares the cover on a first
+                                            come first to claim basis until the limit is exhausted.
+                                        </li>
+                                        <li>Per person basis. Each member has own limit.</li>
+                                        <hr>
+
+                                        <p> Scheme Membership:</p>
                                         <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
+                                            <li>All Permanent Employees, aged between 18 to 65 years. </li>
+                                            <li>One Legal Spouse per principle member.</li>
+                                            <li>Own or legally adopted child from 0 months (a term baby)
+                                                to 18 years (or 23 Years for a child who is a fulltime school
+                                                or college students).
                                             </li>
                                         </ol>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 80 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
-
-                                        </ol><br>
+                                        <br><br>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
@@ -162,73 +128,44 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
+                                        <p> Inpatient Cover: Minimum Kshs.100, 000 to a maximum 5,000,000</p>
+                                        <p2>Inpatient cover provides for medically necessary hospital bed charges, doctor’s bills, anesthetist’s bills, operating theatre fees,
+                                            ICU expenses, day surgery, physiotherapy pharmacy, laboratory and investigations reasonably incurred by an insured member.
+                                            Local road and air evacuation is also included. This cover will be on credit facility with our providers.</p2>
+
+                                        <p>Outpatient: Limit of cover offered: Kshs. 30,000 to 300,000</p>
+                                        <p2>Outpatient cover provides for medically necessary consultation fees, investigatory procedures (laboratory & radiology), and referral
+                                            to specialists, pharmacy and dressings Cover will be on credit facility basis with our providers and on 80% re-imbursement.</p2>
+                                        <p>Dental:</p>
+                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
+                                        <li>This provides for: Cost of fillings, X-rays, Extractions including surgical extraction together with anesthetics fees</li>
+                                        <p>Optical:</p>
+                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
+                                        <li>This provides for the cost of eyeglasses and eye testing.</li>
+                                        <hr>
+                                        <p>Maternity:</p>
+                                        <p2>This benefit shall cover Delivery fees, consultation and treatment for both mother and child only during the period of confinement
+                                            in hospital.
+                                        </p2><br><br>
+                                        <p2>Costs for miscarriages and abortions may be covered, provided they are certified by a gynecologist as being necessary
+                                            to save the life of the mother.
+                                        </p2><br><br>
+                                        <p2>This benefit is only available to staff/spouse </p2>
+                                        <hr>
+                                        <h2>At APA Health, we:</h2>
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>Guarantee confidentiality of member data and medical information.</li>
+                                            <li>Provide clear communication of scope of cover to employer/members.</li>
+                                            <li>Maintain access to all the accredited hospitals.</li>
+                                            <li>Audit of bills and the utilization of the scheme by members.</li>
+                                            <li>Ensure prompt settlement of claims.</li>
+                                            <li>Issue policy document and photo cards promptly.</li>
+                                            <li>Issue quarterly expenditure statement and call for review meeting.</li>
+                                            <li>Observe the principal of Utmost Good Faith.</li>
+                                            <li>Issue policy document and photo cards promptly.</li>
                                         </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
-
-                                        </ol><br>
                                     </div>
 
                                 </div>
