@@ -431,19 +431,12 @@
                                     <label for="model">Type of Cover</label>
                                     <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <<<<<<< HEAD <option value="Inpatient Only"> Inpatient only
-                                            </option>
-                                            <option value="Inpatient & Outpatient"> Inpatient &
-                                                Outpatient </option>
-                                            <option value="Inpatient and Outpatient and other Riders"> Inpatient &
-                                                =======
-                                            <option data-ref="" name="" value="Inpatient Only"> Inpatient only
-                                            </option>
-                                            <option data-ref="" name="" value="Inpatient & Outpatient"> Inpatient &
-                                                Outpatient </option>
-                                            <option data-ref="" name="" value="Inpatient and Outpatient and other Riders"> Inpatient &
-                                                >>>>>>> 09df2548bf5ac2d93a5d3b3854c7ea9dbdcc76ce
-                                                Outpatient & other riders </option>
+                                        <option value="Inpatient Only"> Inpatient only
+                                        </option>
+                                        <option value="Inpatient & Outpatient"> Inpatient &
+                                            Outpatient </option>
+                                        <option value="Inpatient and Outpatient and other Riders"> Inpatient &
+                                            Outpatient & other riders </option>
                                     </select>
                                 </div>
                             </div>
@@ -499,14 +492,14 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
                             </div>
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="26">
+                                <input type="hidden" id="product_id" name="product_id" value="40">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                                <input type="hidden" id="type" name="type" value="Contact Us">
+                                <input type="hidden" id="type" name="type" value="request assistance">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
