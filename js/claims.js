@@ -177,9 +177,7 @@ $(document).ready(function () {
                     '<ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract</li>' +
-                    '<li>Copy of Driving License</li>' +
                     '<li>Copy of the Log Book </li>' +
-                    '<li>Picture of the accident scene</li>' +
                     '</ol></p>';
                 break;
             case 'windscreen':
