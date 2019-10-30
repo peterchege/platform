@@ -350,6 +350,21 @@
                         <div class="uk-navbar-dropdown back-color"
                             uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-center" uk-grid>
+                            
+                            
+                            <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+
+                                    </ul>
+                                </div>    
+                                
+                                
+                                
+                                
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi text-left">
                                         <!-- <li class="uk-nav-header ">BRANCHES :</li>
