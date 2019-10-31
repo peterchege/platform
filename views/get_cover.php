@@ -2544,9 +2544,12 @@ COMMERCIAL COVER
                                 <label for="type">Type of Crop</label>
                                 <select id="type" name="type" class="form-control" required>
                                     <option value="-1" selected disabled>Choose...</option>
-                                    <option value="Area Yield Index">Area Yield Index</option>
-                                    <option value="Index-based Weather">Index-based Weather</option>
-                                    <option value="Multi Peril Crop Insurance">Multi Peril Crop Insurance</option>
+                                    <option value="Area Yield Index">Multi-Peril Crop Insurance (MPCI)</option>
+                                    <option value="Index-based Weather">Named-Peril Crop Insurance (NPCI)</option>
+                                    <option value="Multi Peril Crop Insurance">Greenhouse Insurance</option>
+                                    <option value="Index-based Weather">Forest Insurance</option>
+                                    <option value="Multi Peril Crop Insurance">Area Yield Index Insurance (AYII)</option>
+                                    <option value="Multi Peril Crop Insurance">Weather Index Insurance (WII)</option>
                                 </select>
                             </div>
                             <div class=" form-group col-md-12">
