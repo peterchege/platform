@@ -174,7 +174,7 @@
                                         <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i>
                                                 Plate Glass </a></li>
                                         <li><a href="product_commercial_special_package.php"><i
-                                                    class="fas fa-dolly-flatbed"></i></i> Special Packaged Covers </a>
+                                                    class="fas fa-dolly-flatbed"></i></i> Specially Pre-Packaged Covers </a>
                                         </li>
                                         <li><a href="product_commercial_theft.php"><i class="fas fa-user-secret"></i>
                                                 Theft</a></li>
