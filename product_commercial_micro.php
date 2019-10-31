@@ -50,7 +50,7 @@
                     </ul>
                     <div class="tab-content" id="myTabContent">
 
-                        <!-- OVERVIEW -->
+                        <!-- OVERVIEW --> 
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
