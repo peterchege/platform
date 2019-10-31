@@ -1111,15 +1111,11 @@ INDIVIDUAL LIFE COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="make">Period/Length to be Covered</label>
-                                <select id="period" name="period" class="form-control" required>
-                                    <option value="-1" selected disabled>Select...</option>
-                                    <option value="6"> 6 yrs </option>
-                                    <option value="9"> 9 yrs </option>
-                                    <option value="12"> 12 yrs </option>
-                                    <option value="15"> 15 yrs </option>
-                                    <option value="18"> 18 yrs </option>
-                                </select>
+                                <label for="period">Period/Length to be Covered</label>
+
+                                <input id="period" name="period" class="form-control" type="text"
+                                    placeholder="( 5 - 20 Years )" value="" required>
+
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
@@ -1326,15 +1322,11 @@ INDIVIDUAL LIFE COVER
                     <div class="container">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="make">Period/Length to be Covered</label>
-                                <select id="period" name="period" class="form-control" required>
-                                    <option value="-1" selected disabled>Select...</option>
-                                    <option value="6"> 6 yrs </option>
-                                    <option value="9"> 9 yrs </option>
-                                    <option value="12"> 12 yrs </option>
-                                    <option value="15"> 15 yrs </option>
-                                    <option value="18"> 18 yrs </option>
-                                </select>
+                                <label for="period">Period/Length to be Covered</label>
+
+                                <input id="period" name="period" class="form-control" type="text"
+                                    placeholder="( 5 - 20 Years )" value="" required>
+
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
@@ -2842,7 +2834,8 @@ COMMERCIAL COVER
                                     <option value="Index-based Weather">Named-Peril Crop Insurance (NPCI)</option>
                                     <option value="Multi Peril Crop Insurance">Greenhouse Insurance</option>
                                     <option value="Index-based Weather">Forest Insurance</option>
-                                    <option value="Multi Peril Crop Insurance">Area Yield Index Insurance (AYII)</option>
+                                    <option value="Multi Peril Crop Insurance">Area Yield Index Insurance (AYII)
+                                    </option>
                                     <option value="Multi Peril Crop Insurance">Weather Index Insurance (WII)</option>
                                 </select>
                             </div>
