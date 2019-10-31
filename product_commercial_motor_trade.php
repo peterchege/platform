@@ -313,16 +313,16 @@
                             <div class="job-description text-left">
                                 <br>
                                 <p>If you are interested in learning how much Motor Trade insurance would cost
-                                    to protect your business, or if you are interested in purchasing this insurance product, please click
+                                    to protect your business, or if you are interested in purchasing Motor Trade insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about what Motor Trade insurance is, 
+                                    please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
+                                    <b> Download forms</b> will give you access to any relevant documents for Motor Trade
+                                    insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
                                 <div class="row">
