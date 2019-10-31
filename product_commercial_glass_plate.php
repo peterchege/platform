@@ -362,17 +362,17 @@
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much Plate Glass insurance would cost
+                                    you, or if you are interested in purchasing Plate Glass insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about Plate Glass insurance, please click
+                                     <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
+                                    <b> Download forms</b> will give you access to any relevant documents for Plate Glass
+                                    insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
                                 <div class="row">
@@ -384,7 +384,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Forms </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">

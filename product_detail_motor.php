@@ -312,8 +312,8 @@
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about motor insurance, 
-                                    please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about motor insurance, 
+                                    please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for motor

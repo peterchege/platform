@@ -312,8 +312,8 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much Motor Trade insurance would cost
+                                    to protect your business, or if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>

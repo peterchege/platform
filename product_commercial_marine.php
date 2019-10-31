@@ -310,17 +310,17 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much Marine insurance would cost
+                                    you, or if you are interested in purchasing Marine insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about how Marine insurance is essential to protect your goods, 
+                                    please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
+                                    <b> Download forms</b> will give you access to any relevant documents for Marine
+                                    insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
                                 <div class="row">
