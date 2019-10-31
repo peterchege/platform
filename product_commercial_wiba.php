@@ -366,17 +366,17 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much WIBA or Group Personal Accident insurance would cost
+                                    to ensure your employees are safe, or if you are interested in purchasing any of these insurance products, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about how WIBA or Group Personal Accident insurance
+                                    can add value to your business, please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
+                                    <b> Download forms</b> will give you access to any relevant documents for these
+                                    insurance products,
                                     such as the claim form, proposal form etc.
                                 </p>
                                 <br> <br>
@@ -389,7 +389,7 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Forms </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
