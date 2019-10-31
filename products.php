@@ -629,8 +629,8 @@
                             <h2 class="text-center">Mortgage Protection</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable trust. 
+                            Upon being set up the scheme is a separate legal entity...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
