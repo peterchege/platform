@@ -132,7 +132,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -142,22 +143,28 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -172,14 +179,16 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control"
+                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
+                                        required></textarea>
                                 </div>
                             </div>
 
@@ -216,32 +225,43 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST"
+                        class="form-container motor-claim-upload">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 327 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 327 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="registration_number">Vehicle Registarion Number</label>
-                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123J" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
+                                    <input name="registration_number" type="text" class="form-control"
+                                        id="registration_number" placeholder="KBQ 123J" value=""
+                                        data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
@@ -255,91 +275,94 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
+                                    <label for="claim_form_motor">Attach document : Claim Form completed <a
+                                            href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_motor" type="file" class="form-control-file" id="claim_form_motor" required>
+                                    <input name="claim_form_motor" type="file" class="form-control-file"
+                                        id="claim_form_motor" required>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="detailed_statement">Attach document : Windscreen Photo</label>
+                                    <input name="detailed_statement" type="file" class="form-control-file"
+                                        id="windscreen" required>
+
+
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="police_abstract">Attach document : Police Abstract </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                    <label for="detailed_statement">Attach document : Vehicle Photo</label>
+                                    <input name="detailed_statement" type="file" class="form-control-file"
+                                        id="detailed_statement" required>
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="driving_license">Attach document : Driving license </label>
-                                    <input name="driving_license" type="file" class="form-control-file" id="driving_license" required>
+                                    <label for="police_abstract">Attach document : Police Abstract
+                                        (Optional)</label>
+                                    <input name="police_abstract" type="file" class="form-control-file"
+                                        id="police_abstract" required>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="log_book">Attach document : Log Book </label>
-                                    <input name="log_book" type="file" class="form-control-file" id="log_book" required>
+                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="vehicle">
+
+
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="6">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary">INITIATE
+                                        CLAIM
+                                    </button>
                                 </div>
                             </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="detailed_statement">Attach document : Detailed statement and sketch of the circumstance of the accident </label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
-                                    <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="windscreen">
-
-                                </div>
-                            </div>
-
                         </div>
+                    </form>
 
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
-                                    CLAIM
-                                </button>
-                            </div>
-                        </div>
                 </div>
-                </form>
-
             </div>
         </div>
-    </div>
 
-    <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
+        <!-- ===================================== ACCIDENT CLAIM REMARKS ===================================== -->
 
-    <!-- This is the modal with the outside close button -->
-    <div id="modal-close-outside" uk-modal>
-        <div class="uk-modal-dialog uk-modal-body">
-            <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <p class="uk-modal-title">
-                <div class="alert alert-success" role="alert">
-                    Sucessfull submited
-                </div>
-            </p>
-            <p>Thank you for providing us with details of your claim. One of our agents will contact you
-                shortly to guide you through the process.
-                <br><br>
-                To help us process your claim faster,
-                please download and complete the claim form and prepare the following documentation:
-                <ol>
-                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
-                    <li>Police Abstract</li>
-                    <li>Copy of Driving License</li>
-                    <li>Copy of the Log Book </li>
-                    <li>Detailed statement and sketch of the circumstances of the accident</li>
-                </ol>
-            </p>
+        <!-- This is the modal with the outside close button -->
+        <div id="modal-close-outside" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body">
+                <button class="uk-modal-close-outside" type="button" uk-close></button>
+                <p class="uk-modal-title">
+                    <div class="alert alert-success" role="alert">
+                        Sucessfull submited
+                    </div>
+                </p>
+                <p>Thank you for providing us with details of your claim. One of our agents will contact you
+                    shortly to guide you through the process.
+                    <br><br>
+                    To help us process your claim faster,
+                    please download and complete the claim form and prepare the following documentation:
+                    <ol>
+                        <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
+                        <li>Police Abstract</li>
+                        <li>Copy of Driving License</li>
+                        <li>Copy of the Log Book </li>
+                        <li>Detailed statement and sketch of the circumstances of the accident</li>
+                    </ol>
+                </p>
+            </div>
         </div>
-    </div>
-    <?php require_once('inc/scripts.php'); ?>
-    <script src="js/parsley.min.js"></script>
-    <script src="js/claims.js"> </script>
+        <?php require_once('inc/scripts.php'); ?>
+        <script src="js/parsley.min.js"></script>
+        <script src="js/claims.js"> </script>
 
 </body>
 
