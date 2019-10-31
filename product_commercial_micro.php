@@ -35,108 +35,110 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
-                        </li> -->
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
                     <div class="tab-content" id="myTabContent">
 
-                        <!-- OVERVIEW -->
+                        <!-- OVERVIEW --> 
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
 
                                 <h2> MICRO INSURANCE </h2>
-                                <P class="text-justify">What is a better start to realizing your dreams for the future
-                                    than by having a lump sum payment at a predetermined date? Whether it’s travelling,
-                                    buying a house or paying for your child’s wedding, the Imarika plan is designed just
-                                    for you.
+                                <P class="text-justify">APA’s Micro & Inclusive Insurance product offerings are
+                                    innovative and affordable. We position ourselves as Kenya’s innovative one
+                                    stop provider for tailor made micro insurance solutions. We have different
+                                    types of micro insurance policies which offer extensive coverage for a wide
+                                    range of risk.
                                 </P>
-                                <P class="text-justify">This policy has been designed to enable one to build a fund over
-                                    a period of time and at the same time make
-                                    provision in case of an early death.
-                                </P>
-                                <P class="text-justify">It also assures a lump sum at a desired age, which can also be
-                                    reinvested to provide an annuity during
-                                    the remainder of your life.
-                                </p>
-                                <P class="text-justify">The premium will be payable for the policy term selected (capped
-                                    at 20 years) or until the death of
-                                    the life assured if it occurs within the term.
-                                </p>
-                                <P class="text-justify">The minimum and maximum ages at entry are 18 years and 65 years
-                                    respectively. The maximum maturity age is 70 years.
-                                </p>
+
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Imarika plan? </h2>
-                                        <p> Financial Security</p>
-                                        <p2>This plan allows a controlled, organized and relaxed way to save for a
-                                            specific future financial need. The savings
-                                            process helps you to enjoy decent returns while at the same time offering
-                                            you a life cover. The Imarika plan provides
-                                            an excellent alternative to a loan.
+                                        <h2>Following are the significant micro & inclusive insurance policies available from APA : </h2>
+                                        <p> Micro property Insurance</p>
+                                        <p2>Micro property is a combined insurance policy tailor made to provide insurance cover
+                                            for business and domestic (households) property.
+                                        </p2><br><br>
+                                        <p2><b><i>Features:</i></b><br><br>
+                                            This product covers against property loss/ damage arising from
+                                            <ol>
+                                                <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited explosions, etc.), </li>
+                                                <li>Burglary (forced and violent entry to insured premises), </li>
+                                                <li>Theft and Political Violence & Terrorism risks. </li>
+                                                <li>Can be extended to cover risk such as Money, Fidelity guarantee, electronic equipment etc. </li>
+                                            </ol>
                                         </p2>
-                                        <p> Flexible term</p>
-                                        <p2>The plan has a (saving period) which ranges from 5 to 20 years, which will
-                                            be chosen by you, and this will depend on
-                                            when you require the funds.
+                                        <p2><b><i>Benefits:</i></b><br><br>
+                                            <li>Nature of premises could be of Stone, Timber, Iron Sheets but not Thatched</li>
+                                            <li>Cover (Sum Insured) up to maximum limit of KSh 4 Million</li>
+                                            <li>Minimum annual premium Ksh 1000/-</li>
+                                            <li>Nature of business and location not restricted</li>
+                                            <li>Watchman requirement – communal watchmen allowed</li>
                                         </p2>
-
                                         <hr>
-                                        <h2>Product Specification </h2>
-                                        <p> a) Premiums</p>
-                                        <p2>This is determined by:</p2>
-                                        <ol>
-                                            <li>Life assured’s age</li>
-                                            <li>Frequency of premium payment</li>
-                                            <li>level of cover selected</li>
-                                            <li>Term of the policy</li>
-                                        </ol>
-                                        <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually
-                                            and the modes of payment include
-                                            Standing Order, Cheque, and Direct Debit Authority, M-Pesa or Salary Check
-                                            off.
-                                        </p2>
-                                        <br>
-                                        <p2>The premium is payable up to the end of the term of the policy or on earlier
-                                            death.</p2>
-                                        <p> b) Terms</p>
-                                        <ol>
-                                            <li>The policy term ranges from 6, 9, 12,15 and 18 Years</li>
-                                            <li>Premium will be payable for the policy term selected or until death of
-                                                the life assured if it occurs within the</li>
+                                        <p>APA Hospitalisation Cash</p>
+                                        <p2>This is a cover that provides a weekly benefit equivalent to weekly earnings/ profit/ loan instalment
+                                            to enable the insured person meet the financial obligation occasioned by following continued hospitalisation.
+                                        </p2><br><br>
+                                        <p2><b><i>Features:</i></b><br><br>
+                                            <li>Fixed benefit which is not determined/ dependent on actual hospital bills incurred. </li>
+                                            <li>Age limit on entry maximum 70 years. </li>
+                                        </p2><br>
+                                        <p2><b><i>Benefits:</i></b><br><br>
+                                            The weekly benefit shall be limited to a maximum of KES 10,000 and the total claim/ benefit cannot exceed KES 50,000
 
-                                        </ol>
+                                            <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan instalment </li>
+                                            <li>8 – 14 nights: 2 (two) week’s earnings/ profit/ loan instalment </li>
+                                            <li>15 – 21 nights: 3 (three) week’s earnings/ profit/ loan instalment </li>
+                                            <li>22 – 28 nights: 4 (four) week’s earnings/ profit/ loan instalment</li>
+                                            <li>Over 28 nights : Up to 6 (six) weeks earnings/ profit/ loan instalment</li>
+                                        </p2>
+                                        <hr>
+                                        <p>Heshima na Faraja</p>
+                                        <p2>A comprehensive insurance cover designed to provide protection to you and your family
+                                            against personal accident risk. There is an additional funeral cash benefit to meet funeral expenses
+                                            in the unfortunate event of the death of insured member.
+                                        </p2><br><br>
+                                        <p2><b><i>Features:</i></b><br><br>
+                                            This product covers against accidental Death, Total permanent disability, Medical expenses and
+                                            a last expense (funeral) benefit of oneself and family in the event of death from accidental,
+                                            illness or natural cause.
+                                        </p2>
+                                        <br> <br>
+                                        <p2><b><i>Benefits:</i></b><br><br>
+                                            <li>Available to an individual or a family package (Spouse and up to two children included)</li>
+                                            <li>Annual premium is as low as Ksh 170/- for an individual </li>
+                                            <li>In the event of an accidental death both, death and funeral benefit is payable. </li>
+                                            <li>Age limit minimum 3 months (children) and 65 years (adults)</li>
+                                        </p2>
+
+
                                         <br><br><br><br>
 
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
-                                                        class="btn btn-primary">Get Cover</a>
+                                                    <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full1"
-                                                    uk-toggle="target: #modal-close-outside">
+                                            <div class="col-md-4">
+                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
@@ -155,90 +157,35 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products features include:</h2><br>
+                                        <h2 class="text-center">Our main products include:</h2><br>
 
-                                        <p> Survival Benefits</p>
-                                        <p2>On survival of the Policyholder up to :</p2>
                                         <ol>
-                                            <li>100% of the sum assured plus </li>
-                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured
-                                                (4%) </li>
-                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%) </li>
+                                            <li>Micro property Insurance </li>
+                                            <li>APA Hospitalisation Cash</li>
+                                            <li>Heshima na Faraja</li>
+
                                         </ol>
                                         <hr>
-                                        <p> Death Benefits</p>
-                                        <br>100% of the sum assured plus accrued bonus (simple reversionary bonus).
-                                        <br><br>
-                                        The benefits are payable as a lump sum or in from of an annuity payable in
-                                        installments
-                                        as specified by the life assured e.g. monthly, quarterly, half yearly or yearly,
-                                        the first payment being payable at the end of the term of the policy.
-                                        </br>
-                                        <hr>
-                                        <p> Rider Benefits</p>
-                                        <p2>On payment of additional premium, the following rider benefits are
-                                            available; </p2>
+                                        <h3>The cover provides the following features. This include:</h3>
                                         <ol>
-                                            <li><b>Total and Permanent Disability</b></li>
-                                            <p2>On total and permanent disability due to an accident an amount equal to
-                                                the basic sum
-                                                assured will become payable in equal monthly installments over a period
-                                                of 24 months form the
-                                                date of the accident. The disability referred to must be such that there
-                                                is neither then or
-                                                at any time thereafter any work, occupation or profession that the life
-                                                assured can do to earn
-                                                or obtain wages, compensation or profit.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Accidental Death</b></li>
-                                            <p2>On death due to an accident an amount equal to the basic sum assured
-                                                will become payable.
-                                                This is in addition to the main benefit.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Waiver of Premium</b></li>
-                                            <p2>All future premiums will be waived following total permanent disability
-                                                due to accident or illness.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Medical Reimbursement Rider </b></li>
-                                            <p2>In case of an accident leading to the injury and hospitalization of the
-                                                life assured, the in-patient
-                                                medical expenses incurred will be reimbursed subject to a maximum of 60%
-                                                of the policy sum assured
-                                                but not exceeding Kes. 500,000/-.
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Critical Illness rider </b></li>
-                                            <p2>In the event of first diagnosis of a specified critical illness an
-                                                amount equal to 30% of the sum
-                                                assured is payable to the life assured up to a maximum of Kes. 300,000.
-                                                Includes: Cancer, Stroke,
-                                                Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary, Artery
-                                                Disease, Major Organ Transplant, e.g.
-                                                Kidney transplant
-                                            </p2>
-                                            <br><br>
-                                            <li><b>Retrenchment rider </b></li>
-                                            <p2>In the event of loss of employment due to adverse business conditions
-                                                e.g. introduction of new technology
-                                                or re-organization of the business by the employer, future premiums will
-                                                be waived off up to a maximum of
-                                                6 monthly installments. This will cease, if the assured secures
-                                                employment before the end of 6 months
-                                            </p2>
+                                            <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited explosions, etc.),
+                                            </li><br>
+                                            <li>Burglary (forced and violent entry to insured premises),
+                                            </li><br>
+                                            <li>Theft and Political Violence & Terrorism risks.
+                                            </li><br>
+                                            <li>Can be extended to cover risk such as Money, Fidelity guarantee, electronic equipment etc.
+                                            </li><br>
+                                            <li>Fixed benefit which is not determined/ dependent on actual hospital bills incurred.
+                                            </li><br>
+                                            <li>Age limit on entry maximum 70 years </li><br>
+                                            <li>This product covers against accidental Death, Total permanent disability, Medical expenses
+                                                and a last expense (funeral) benefit of oneself and family in the event of death from
+                                                accidental, illness or natural cause. </li><br>
+
                                         </ol>
+                                        <br>
                                         <hr>
-                                        <h2 class="text-center">Additional benefits </h2>
-                                        <p>Paid Up and Surrender </p>
-                                        <p2>The policy will acquire paid up and surrender values after payment of at
-                                            least 3 full years’ premium. </p2>
-                                        <p>Loans </p>
-                                        <p2>Loans will also be available within the surrender value of the policy </p2>
-                                        <p>Tax benefit </p>
-                                        <p2>By law, a 15% insurance relief will be granted to the policyholder up to a
-                                            maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.) </p2>
                                         <br>
                                     </div>
 
@@ -251,11 +198,38 @@
 
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description">
 
+                                <!-- TABLE -->
+
+                                <h2 class="text-center">The benefit include:</h2><br>
+                                <ol>
+                                    <li>Nature of premises could be of Stone, Timber, Iron Sheets but not Thatched
+                                    </li><br>
+                                    <li>Cover (Sum Insured) up to maximum limit of KSh 4 Million
+                                    </li><br>
+                                    <li>Minimum annual premium Ksh 1000/-
+                                    </li><br>
+                                    <li>Nature of business and location not restricted
+                                    </li><br>
+                                    <li>Watchman requirement – communal watchmen allowed
+                                    </li><br>
+                                    <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan instalment </li><br>
+                                    <li>8 – 14 nights: 2 (two) week’s earnings/ profit/ loan instalment </li><br>
+                                    <li>15 – 21 nights: 3 (three) week’s earnings/ profit/ loan instalment </li><br>
+                                    <li>22 – 28 nights: 4 (four) week’s earnings/ profit/ loan instalment</li><br>
+                                    <li>Over 28 nights : Up to 6 (six) weeks earnings/ profit/ loan instalment </li><br>
+                                    <li>Available to an individual or a family package (Spouse and up to two children included) </li><br>
+                                    <li>Annual premium is as low as Ksh 170/- for an individual </li><br>
+                                    <li>In the event of an accidental death both, death and funeral benefit is payable.</li><br>
+                                    <li>Age limit minimum 3 months (children) and 65 years (adults)</li><br>
+                                </ol>
+                                <br>
+                                <hr>
+
+                                <!-- END TABLE -->
                             </div>
                         </div>
-
                         <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
@@ -330,8 +304,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -341,27 +314,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
-                                        placeholder="Full Name"
-                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2"
-                                        placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress"
-                                        placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2"
-                                        placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
@@ -375,27 +343,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
-                                        placeholder="Toyota"
-                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2"
-                                        placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress"
-                                        placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2"
-                                        placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 

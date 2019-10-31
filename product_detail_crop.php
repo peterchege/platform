@@ -66,36 +66,34 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Under our livestock policy we cover:</h2>
+                                        <h2>Under our Crop policy we cover:</h2>
                                         <!-- Single Animal Cover -->
-                                        <p>1.) Single Animal Cover</p>
-                                        <p2>This offers a cover for high value animals (dairy or beef) losses/death as a
-                                            result of; accidents, illness and disease,
-                                            epidemics, emergency slaughter and calving risks. It can be extended to
-                                            cover; Transit risks, Theft cover as well as
-                                            Loss of income benefit.
+                                        <p>1.) Multi-Peril Crop Insurance (MPCI)</p>
+                                        <p2>A seasonal cover against physical loss or damage to growing crop directly
+                                            caused by assorted natural calamities such as Drought, Uncontrollable Pests &
+                                            Diseases, Hailstone Damage, Flooding, Fire, Lightning, Earthquake, Explosion,
+                                            Frost and Windstorm.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            The basis of cover value is as pre-agreed with the farmer and health status
-                                            certified by qualified veterinary doctor/officer.
-                                            All covered animals must be tagged or bolus served. Age limits are 90 days
-                                            to 10 years for cattle and 60 days to 5 years for
-                                            shoats.
+                                            In this we cover all sorts of crops in a single strand of large or small farms.
+                                            The claim payable is determined by a qualified loss assessor who inspects and
+                                            scientifically quantifies the magnitude of loss.
+
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing there
-                                            is a safety net for unexpected loss and associated costs
-
+                                            Cover for all kinds of crops irrespective the farm size, cover form any form of
+                                            loss associated with nature, stability, improved financial management and comfort
+                                            in knowing there is a safety net for unexpected loss and associated costs.
                                         </p2>
                                         <!-- END Single Animal Cover -->
                                         <hr>
                                         <!-- Poultry insurance -->
-                                        <p>2.) Poultry insurance</p>
-                                        <p2>This is a mortality cover for domesticated bird birds kept under a
-                                            controlled environment.
+                                        <p>2.) Named-Peril Crop Insurance (NPCI) </p>
+                                        <p2>In this we offer cover all sorts of crops in ether small or large farms.
+                                            The claim payable is determined by a qualified loss assessor who inspects and
+                                            scientifically quantifies the magnitude of loss.
 
                                         </p2>
                                         <br><br>
@@ -111,72 +109,101 @@
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing
-                                            there is a safety net for unexpected loss and associated costs
+                                            Cover for all kinds of crops irrespective the farm size, stability, improved
+                                            financial management and comfort in knowing there is a safety net for unexpected
+                                            loss and associated costs
+
                                         </p2>
                                         <!-- END OF Poultry insurance -->
                                         <hr>
                                         <!-- Dogs and Pet Insurance -->
-                                        <p>3.) Dogs and Pet Insurance</p>
+                                        <p>3.) Greenhouse Insurance</p>
                                         <p2>This offers a Basic cover for loss/dearth of insured animal due to;
                                             Accidents, Illness and disease, Epidemics, Euthanasia
                                             on advice of a qualified vet doctor.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            The cover can be extended to cover; Treatment and medical expenses, Third
-                                            party liability, Theft, Recovery and straying
-                                            expenses. Cover age limits is 8weeks to 8 years.
-
+                                            This is cover steel structured greenhouses only irrespective of size. The indemnity
+                                            is based on the actual loss as assessed and quantified by our appointed loss assessors
+                                            less deductibles.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing
-                                            there is a safety net for unexpected loss and associated costs
-
+                                            Cover for all kinds of crops, assured stability, improved financial management and
+                                            comfort in knowing there is a safety net for unexpected loss and associated costs.
                                         </p2>
                                         <!-- END OF Dogs and Pet Insurance -->
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
-                                        <p>4.) Bloodstock/Horse Insurance</p>
-                                        <p2>Our bloodstock product covers mortality of the insured racing or polo horse
-                                            as a result of accidents and medical expenses
-                                            as a result of accidental injuries.
-
+                                        <p>4.) Forest Insurance</p>
+                                        <p2>This is cover for commercial tree farms, fruit orchards, natural forests and tree
+                                            nurseries against; fire, lightning, windstorm, flooding, hail etc.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            The cover can be extended to cover transit risk as well as theft. The basis
-                                            of cover value is as pre-agreed with the owner
-                                            and health status certified by qualified veterinary doctor/officer.
-
-
+                                            The tree value is evaluated by a forest ranger or a qualified specialist and agreed
+                                            before cover. The claim payable is determined by a qualified loss assessor who inspects
+                                            and scientifically quantifies the magnitude of loss less deductibles.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing
-                                            there is a safety net for unexpected loss and associated costs
-
+                                            Cover for all kinds of commercial and aesthetic trees, assured stability, improved
+                                            financial management and peace in knowing there is a safety net for unexpected loss
+                                            and associated costs
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
+                                        <!-- Bloodstock/Horse Insurance -->
+                                        <p>5.) Area Yield Index Insurance (AYII)</p>
+                                        <p2>A seasonal cover for crop yield shortfall below the historical average yield in a
+                                            unit area of insurance (UAI).
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            It can only be for a particular crop within a defined area of homogenous production.
+                                            Payout is based on a crop cutting exercises results done at the end of the harvesting period.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Cover for all kinds of crops, assured stability of many farmers in one location, affordable,
+                                            improved financial management and peace in knowing there is a safety net for unexpected loss
+                                            and associated costs.
+                                        </p2>
+                                        <!-- END OF Bloodstock/Horse Insurance -->
+                                        <hr>
+                                        <!-- Bloodstock/Horse Insurance -->
+                                        <p>6.)Weather Index Insurance (WII) </p>
+                                        <p2>A seasonal cover for loss or damage to growing crops directly caused by deficit or excesses
+                                            in weather conditions such as temperature, sunlight, wind speed or rainfall.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Features:</i></b><br>
+                                            It can only be for a particular crop within a defined area of homogenous weather patterns.
+                                            Payout based on actual weather measurement at the reference weather station or satellite in
+                                            relation to effects at any stage of a crop growth cycle.
+                                        </p2>
+                                        <br><br>
+                                        <p2><b><i>Benefits:</i></b><br>
+                                            Cover for many farmers at once, assured stability, affordable, easy claim process,
+                                            improved financial management and peace in knowing there is a safety net for unexpected
+                                            loss and associated costs.
+                                        </p2>
+                                        <!-- END OF Bloodstock/Horse Insurance -->
                                         <br><br><br><br>
 
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center" data-target="#modal-full" uk-toggle>
                                                     <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
@@ -198,38 +225,45 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>Single Animal Cover </li>
-                                            <li>Poultry insurance</li>
-                                            <li>Dogs and Pet Insurance </li>
-                                            <li>Bloodstock/Horse Insurance </li>
+                                            <li>Multi-Peril Crop Insurance (MPCI) </li>
+                                            <li>Named-Peril Crop Insurance (NPCI)</li>
+                                            <li>Greenhouse Insurance</li>
+                                            <li>Forest Insurance </li>
+                                            <li>Area Yield Index Insurance (AYII) </li>
+                                            <li>Weather Index Insurance (WII)</li>
+
                                         </ol>
                                         <hr>
                                         <h3>The cover provides the following features. This include:</h3>
                                         <ol>
-                                            <li>The basis of cover value is as pre-agreed with the farmer and health
-                                                status certified by qualified veterinary doctor/officer.
-                                                All covered animals must be tagged or bolus served. Age limits are 90
-                                                days to 10 years for cattle and 60 days to 5 years for shoats.
+                                            <li>In this we cover all sorts of crops in a single strand of large or
+                                                small farms. The claim payable is determined by a qualified loss
+                                                assessor who inspects and scientifically quantifies the magnitude of loss.
                                             </li><br>
                                             <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days
-                                                to 1½ years. This cover Indemnifies on the insured’s
-                                                bird’s death due to; uncontrollable diseases and Accidents. The cover
-                                                can be extended to cover Transit Risk as well as Theft.
-                                                Threshold for the cover is a Minimum premium of 5,000 Kenya shillings.
-                                                The policy covers the maximum capacity of birds that a
-                                                farmer’s structure can hold.
+                                                to 1½ years. This cover Indemnifies on the insured’s bird’s death due to;
+                                                uncontrollable diseases and Accidents. The cover can be extended to cover
+                                                Transit Risk as well as Theft. Threshold for the cover is a Minimum premium
+                                                of 5,000 Kenya shillings. The policy covers the maximum capacity of birds
+                                                that a farmer’s structure can hold.
                                             </li><br>
-                                            <li>The cover can be extended to cover; Treatment and medical expenses,
-                                                Third party liability, Theft, Recovery and straying expenses.
-                                                Cover age limits is 8weeks to 8 years.
+                                            <li>This is cover steel structured greenhouses only irrespective of size. The
+                                                indemnity is based on the actual loss as assessed and quantified by our
+                                                appointed loss assessors less deductibles.
                                             </li><br>
-                                            <li>The cover can be extended to cover; Treatment and medical expenses,
-                                                Third party liability, Theft, Recovery and straying expenses.
-                                                Cover age limits is 8weeks to 8 years.
+                                            <li>The tree value is evaluated by a forest ranger or a qualified specialist
+                                                and agreed before cover. The claim payable is determined by a qualified
+                                                loss assessor who inspects and scientifically quantifies the magnitude
+                                                of loss less deductibles.
                                             </li><br>
-                                            <li>The cover can be extended to cover transit risk as well as theft. The
-                                                basis of cover value is as pre-agreed with the owner and health
-                                                status certified by qualified veterinary doctor/officer.
+                                            <li>It can only be for a particular crop within a defined area of homogenous
+                                                production. Payout is based on a crop cutting exercises results done at
+                                                the end of the harvesting period.
+                                            </li><br>
+                                            <li>It can only be for a particular crop within a defined area of homogenous
+                                                weather patterns. Payout based on actual weather measurement at the reference
+                                                weather station or satellite in relation to effects at any stage of a crop
+                                                growth cycle.
                                             </li>
                                         </ol>
                                         <br>
@@ -252,10 +286,25 @@
 
                                 <h2 class="text-center">The benefit include:</h2><br>
                                 <ol>
-                                    <li>Easy claim process, assured stability, loan collateral, affordable, improved
-                                        financial management and peace in knowing there is a safety net
-                                        for unexpected loss and associated costs.
+                                    <li>Cover for all kinds of crops irrespective the farm size, cover form any
+                                        form of loss associated with nature, stability, improved financial management
+                                        and comfort in knowing there is a safety net for unexpected loss and associated costs.
                                     </li><br>
+                                    <li>Cover for all kinds of crops irrespective the farm size, stability, improved financial
+                                        management and comfort in knowing there is a safety net for unexpected loss and associated costs
+                                    </li><br>
+                                    <li>Cover for all kinds of crops, assured stability, improved financial management and comfort in knowing
+                                        there is a safety net for unexpected loss and associated costs.
+                                    </li><br>
+                                    <li>Cover for all kinds of commercial and aesthetic trees, assured stability, improved financial
+                                        management and peace in knowing there is a safety net for unexpected loss and associated costs
+                                    </li><br>
+                                    <li>Cover for all kinds of crops, assured stability of many farmers in one location, affordable, improved
+                                        financial management and peace in knowing there is a safety net for unexpected loss and associated costs.
+                                    </li><br>
+                                    <li>Cover for many farmers at once, assured stability, affordable, easy claim process, improved
+                                        financial management and peace in knowing there is a safety net for unexpected loss and associated costs.
+                                    </li>
                                 </ol>
                                 <br>
                                 <hr>
@@ -353,9 +402,12 @@
                                     <label for="type">Type of Crop</label>
                                     <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
-                                        <option value="Area Yield Index">Area Yield Index</option>
-                                        <option value="Index-based Weather">Index-based Weather</option>
-                                        <option value="Multi Peril Crop Insurance">Multi Peril Crop Insurance</option>
+                                        <option value="Area Yield Index">Multi-Peril Crop Insurance (MPCI)</option>
+                                        <option value="Index-based Weather">Named-Peril Crop Insurance (NPCI)</option>
+                                        <option value="Multi Peril Crop Insurance">Greenhouse Insurance</option>
+                                        <option value="Index-based Weather">Forest Insurance</option>
+                                        <option value="Multi Peril Crop Insurance">Area Yield Index Insurance (AYII)</option>
+                                        <option value="Multi Peril Crop Insurance">Weather Index Insurance (WII)</option>
                                     </select>
                                 </div>
                                 <div class=" form-group col-md-12">

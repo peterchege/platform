@@ -109,19 +109,19 @@
             <br><br><br>
         </div>
 
+    </div>
+
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
 
-        <!-- =====================================FOOTER===================================== -->
-        <?php include 'views/footer.php'; ?>
-        <!-- #footer -->
+    <!-- =====================================Modal link===================================== -->
+    <?php include 'views/modal_apollo.php'; ?>
 
-
-        <!-- =====================================Modal link===================================== -->
-        <?php include 'views/modal_apollo.php'; ?>
-
-        <?php
-        require_once 'inc/scripts.php';
-        ?>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
 
 </body>
 
