@@ -51,83 +51,42 @@
                         <!-- OVERVIEW -->
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                            <div class="job-description text-center">
+                            <div class="job-description text-justify">
 
-                                <h2> Mortgage Protection </h2>
-                                <P class="text-justify">Death is a traumatic event, however making plans ahead of time
-                                    helps cushion yourself and your loved ones with lump sum payable within 48 hours
-                                    provided.
+                                <h2 class="text-center"> Mortgage Protection </h2>
+                                <P class="text-justify">These are employer sponsored arrangements, set up under irrevocable trust. Upon being set up the scheme
+                                    is a separate legal entity. The principle objective of setting up an Occupational Retirement Benefits Scheme is to provide for
+                                    employees upon their retirement or for their dependents on the unfortunate demise of an employee.
                                 </P>
-                                <P class="text-justify">Upon the death of a loved one, most people consider a dignified
-                                    funeral
-                                    a non-negotiable expense. Because they tend to be very costly, and may come at a
-                                    time when
-                                    they are not expected, it is often difficult to manage the financial burden of a
-                                    funeral.
-                                    This situation is aggravated if the deceased had been a primary provider of income.
+                                <P class="text-justify">As an employer, you need to be able to attract and retain high caliber staff. One of the ways in which several leading
+                                    organizations do this is through the establishment of an Occupational Retirement Benefits Scheme.
                                 </P>
+                                <p>
+                                    Your occupational retirement schemes can either be:
+                                </p>
+                                <li>a defined contribution scheme, or</li>
+                                <li>a defined benefit scheme.</li>
 
-                                <hr>
-                                <div class="job-content">
-                                    <div class="text-justify">
-                                        <h2>Why the Pumzisha cover? </h2>
-                                        <p2>Our funeral expenses include, among other things, mortuary fees, the cost of
-                                            a casket,
-                                            hearse, flowers, funeral programs and, refreshments. We have designed a
-                                            funeral plan
-                                            to cover most, if not all, funeral expenses in the event of an unexpected
-                                            death so as to:<br><br>
-                                            <li>Minimize the financial impact of an unexpected death on the surviving
-                                                members of your family.</li>
-                                            <li>Ensure the surviving members of your family go through a smooth
-                                                transition during this difficult period.</li>
-                                            <li>Provide you with peace of mind, knowing that the funeral expenses will
-                                                be covered in the event of your
-                                                death or that of a family member.</li><br>
-                                        </p2>
-                                        <p2>The cover allows you to include all members of your nuclear family together
-                                            with your parents and parents-in-law
-                                            and provide peace of mind thanks to APA pumzisha cover.
-                                        </p2>
 
-                                        <hr>
-                                        <h2>Product Specification </h2>
-                                        <p> a) Premiums</p>
-                                        <ol>
-                                            <li>The premiums will be based on age bands (18-23,24-29,30-34,35-39 and so
-                                                on)</li>
-                                            <li>The premiums will be paid monthly or annually</li>
-                                            <li>The premium is payable up to the end of the term of the policy or on
-                                                earlier death.</li>
-                                            <li>Extra premiums will be charged for any additional member.</li>
-                                        </ol>
-                                        <p> b) Policy Terms</p>
-                                        <ol>
-                                            <li>The policy term ranges from 5 to 10 years.</li>
+                                <br><br><br><br>
 
-                                        </ol>
-                                        <br><br><br><br>
-
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
-                                                        Need Assistance</a>
-                                                </div>
-                                            </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
                                         </div>
                                     </div>
-
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center">
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center ">
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need Assistance</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -139,21 +98,14 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products features include:</h2><br>
+                                        <br><br>
+                                        <p2>With the defined contribution scheme, which has proven to be very popular in the East African region, the amount or rate of
+                                            contribution is determined at the start of the scheme.</p2>
+                                        <br><br>
 
-                                        <p> Death Benefits</p>
-                                        <p2>A lump-sum benefit equal to 100% of the sum assured stated in the
-                                            policy schedule will be payable as long as the policy is active on
-                                            the occurrence of the insured event</p2><br>
-                                        <p2>Three sum assured options are available: 500,000/-, 300,000/-,
-                                            200,000/- 100,000/-, 70,000/- and 50,000/-</p2>
-                                        <hr>
-                                        <p>Accidental Death Benefits</p>
-                                        <p2>In the event death of the main life assured as a result of an accident,
-                                            a lump-sum equal to twice the sum assured will be paid to the beneficiaries.
-                                        </p2>
-                                        <hr>
-
+                                        <p2>At the time of retirement, the overall benefit is determined by the total amount of contributions and the accrued
+                                            interest earned on the contributions.</p2>
+                                        <br><br>
                                     </div>
 
                                 </div>
@@ -161,13 +113,6 @@
 
                         </div>
 
-                        <!-- BENEFITS -->
-
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-
-                            <div class="job-description text-center">
-                            </div>
-                        </div>
 
                         <!-- HOW DO I START -->
 
