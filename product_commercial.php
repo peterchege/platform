@@ -81,7 +81,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_aviation.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_aviation.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -132,7 +133,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_engineer.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_engineer.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -173,10 +175,11 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center">Good In Transit (GIT)</h2>
+                            <h2 class="text-center">Goods In Transit (GIT)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy will indemnify the insured against the loss of or damage to the property
+                        <p class="text-justify">This policy will indemnify the insured against the loss of or damage to
+                            the property
                             insured arising from fire as well as from allied perils such as...
                         </p>
                         <!-- button click -->
@@ -186,7 +189,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_goods_in_transit.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_goods_in_transit.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -201,7 +205,8 @@
                             <h2 class="text-center">Liability Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our Globetrotter
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
+                            Globetrotter
                             policy will ensure you will have nothing to worry about...
                         </p>
                         <!-- button click -->
@@ -211,7 +216,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_liability.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -231,13 +237,15 @@
                             <h2 class="text-center">Marine Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, freight and other
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods,
+                            freight and other
                             interests against loss or damage whilst being transported...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
+                                    class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -267,7 +275,8 @@
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_motor_commercial.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -337,7 +346,8 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described
+                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items
+                            described
                             in the schedule including the cost of temporary boarding up where necessary ...
                         </p>
                         <!-- button click -->
@@ -347,7 +357,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_glass_plate.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_glass_plate.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -373,7 +384,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_special_package.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_special_package.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -613,7 +625,8 @@
                             <h2 class="text-center"> Group Life</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Group Life insurance is a benefit offered by an employer or an aggregator
+                        <p class="text-justify">Group Life insurance is a benefit offered by an employer or an
+                            aggregator
                             of diverse segments of the population for reasons other ...
                         </p>
                         <!-- button click -->
@@ -680,7 +693,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_deposit.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_deposit.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -706,7 +720,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_last_expense.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_last_expense.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -745,7 +760,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
