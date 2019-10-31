@@ -307,17 +307,17 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much motor insurance would cost
+                                    you, or if you are interested in purchasing motor insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further assistance explanation or assistance about motor insurance, 
+                                    please click I <b>Need Assistance.</b>
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
+                                    <b> Download forms</b> will give you access to any relevant documents for motor
+                                    insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
                                 <div class="row">
