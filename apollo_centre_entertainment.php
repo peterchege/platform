@@ -45,10 +45,10 @@
 
     <div class="container">
         <div class="apollo">
-            <h1>APOLLO CENTRE ENTERTAINMENT AREA</h1>
+            <h1> ENTERTAINMENT AREA</h1>
             <input type="hidden" name="roomd" value="entertainment">
 
-            <div class="under-line img2">
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites,
