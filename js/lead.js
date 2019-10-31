@@ -1,9 +1,14 @@
 $(document).ready(function () {
-    $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').parsley();
+    $('.form-container').parsley(); //in case of errors: #form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp
+    //determining button text
+    $(document).find('.form-container:first').append('<input name="buttonText" type="hidden" value="SUBMIT" ></input>');
+    $(document).find('.form-container:last').append('<input name="buttonText" type="hidden" value="REQUEST ASSISTANCE" ></input>');
 
-    $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').on('submit', function (e) {
+    $('.form-container').on('submit', function (e) {
         e.preventDefault();
-        var buttonText = $(this).find('button[name=request]').text();
+        var buttonClicked = $(this).find('button[name=request]');
+        var buttonText = $(this).find('input[name=buttonText]').val();
+        // alert($(this).position().top);
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
@@ -13,7 +18,7 @@ $(document).ready(function () {
             cache: false,
             contentType: false,
             beforeSend: function () {
-                $('button[name=request]').attr("disabled", true).html('Processing');
+                buttonClicked.attr("disabled", true).html('Processing');
             },
             success: function (response) {
                 if (response == 'success') {
@@ -42,7 +47,7 @@ $(document).ready(function () {
                     });
 
                 }
-                $('button[name=request]').attr("disabled", false).html(buttonText + '<i class="fas fa-paper-plane">');
+                buttonClicked.attr("disabled", false).html(buttonText + '<i class="fas fa-paper-plane">');
             }
         });
 
