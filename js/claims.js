@@ -163,9 +163,9 @@ $(document).ready(function () {
         var claim_type = $('input[name=claim_type]').val();
         switch (claim_type) {
             case 'accident':
-                    var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="pdf/claim/motor_claim_form.pdf" + claim_form + '">Click here to download</a>)</li>' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract</li>' +
                     '<li>Copy of Driving License</li>' +
                     '<li>Copy of the Log Book </li>' +
@@ -173,19 +173,17 @@ $(document).ready(function () {
                     '</ol></p>';
                 break;
             case 'theft':
-                    var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="pdf/claim/motor_claim_form.pdf" + claim_form + '">Click here to download</a>)</li>' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract</li>' +
-                    '<li>Copy of Driving License</li>' +
                     '<li>Copy of the Log Book </li>' +
-                    '<li>Picture of the accident scene</li>' +
                     '</ol></p>';
                 break;
             case 'windscreen':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="pdf/claim/motor_claim_form.pdf" + claim_form + '">Click here to download</a>)</li>' +                  
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Windscreen and whole vehicle photos</li>' +
                     '<li>Police Abstract (Optional)</li>' +
                     '</ol></p>';
