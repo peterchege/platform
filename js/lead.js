@@ -1,8 +1,13 @@
 $(document).ready(function () {
     $('.form-container').parsley(); //in case of errors: #form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp
     //determining button text
-    $(document).find('.form-container:first').append('<input name="buttonText" type="hidden" value="SUBMIT" ></input>');
-    $(document).find('.form-container:last').append('<input name="buttonText" type="hidden" value="REQUEST ASSISTANCE" ></input>');
+    if ($('.form-container').length != 2) {
+        $(document).find('.form-container').append('<input name="buttonText" type="hidden" value="SUBMIT" ></input>');
+    } else {
+        $(document).find('.form-container:first').append('<input name="buttonText" type="hidden" value="SUBMIT" ></input>');
+        $(document).find('.form-container:last').append('<input name="buttonText" type="hidden" value="REQUEST ASSISTANCE" ></input>');
+    }
+
 
     $('.form-container').on('submit', function (e) {
         e.preventDefault();

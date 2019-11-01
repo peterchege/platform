@@ -570,7 +570,7 @@
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
+                            <h2 class="text-center"> Life Cover <br> (Term Assurance)</h2>
                         </div>
                         <br>
                         <p class="text-justify">This policy has been designed to enable one have a pure
@@ -629,7 +629,7 @@
                             <h2 class="text-center">Mortgage Protection</h2>
                         </div>
                         <br>
-                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable trust. 
+                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable trust.
                             Upon being set up the scheme is a separate legal entity...
                         </p>
                         <!-- button click -->
