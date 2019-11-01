@@ -413,15 +413,11 @@
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="make">Period/Length to be Covered</label>
-                                    <select id="period" name="period" class="form-control" required>
-                                        <option value="-1" selected disabled>Select...</option>
-                                        <option value="6"> 6 yrs </option>
-                                        <option value="9"> 9 yrs </option>
-                                        <option value="12"> 12 yrs </option>
-                                        <option value="15"> 15 yrs </option>
-                                        <option value="18"> 18 yrs </option>
-                                    </select>
+                                    <label for="period">Period/Length to be Covered</label>
+
+                                    <input id="period" name="period" class="form-control" type="text"
+                                        placeholder="( 5 - 20 yrs )" value="" required>
+
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of Cover</label>
@@ -455,6 +451,7 @@
                                 <input type="hidden" id="product_id" name="product_id" value="18">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
+
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
