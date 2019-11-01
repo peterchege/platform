@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -56,7 +59,8 @@
 
                                 <h2>Corporate Health </h2>
                                 <P class="text-justify">
-                                    APA Insurance offers flexible tailor made corporate products for groups with ten (10) or
+                                    APA Insurance offers flexible tailor made corporate products for groups with ten
+                                    (10) or
                                     more employees. The main benefit is a fully insured in-patient scheme.</P>
                                 <hr>
                                 <div class="job-content">
@@ -100,17 +104,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,25 +137,33 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
                                         <p> Inpatient Cover: Minimum Kshs.100, 000 to a maximum 5,000,000</p>
-                                        <p2>Inpatient cover provides for medically necessary hospital bed charges, doctor’s bills, anesthetist’s bills, operating theatre fees,
-                                            ICU expenses, day surgery, physiotherapy pharmacy, laboratory and investigations reasonably incurred by an insured member.
-                                            Local road and air evacuation is also included. This cover will be on credit facility with our providers.</p2>
+                                        <p2>Inpatient cover provides for medically necessary hospital bed charges,
+                                            doctor’s bills, anesthetist’s bills, operating theatre fees,
+                                            ICU expenses, day surgery, physiotherapy pharmacy, laboratory and
+                                            investigations reasonably incurred by an insured member.
+                                            Local road and air evacuation is also included. This cover will be on credit
+                                            facility with our providers.</p2>
 
                                         <p>Outpatient: Limit of cover offered: Kshs. 30,000 to 300,000</p>
-                                        <p2>Outpatient cover provides for medically necessary consultation fees, investigatory procedures (laboratory & radiology), and referral
-                                            to specialists, pharmacy and dressings Cover will be on credit facility basis with our providers and on 80% re-imbursement.</p2>
+                                        <p2>Outpatient cover provides for medically necessary consultation fees,
+                                            investigatory procedures (laboratory & radiology), and referral
+                                            to specialists, pharmacy and dressings Cover will be on credit facility
+                                            basis with our providers and on 80% re-imbursement.</p2>
                                         <p>Dental:</p>
                                         <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
-                                        <li>This provides for: Cost of fillings, X-rays, Extractions including surgical extraction together with anesthetics fees</li>
+                                        <li>This provides for: Cost of fillings, X-rays, Extractions including surgical
+                                            extraction together with anesthetics fees</li>
                                         <p>Optical:</p>
                                         <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
                                         <li>This provides for the cost of eyeglasses and eye testing.</li>
                                         <hr>
                                         <p>Maternity:</p>
-                                        <p2>This benefit shall cover Delivery fees, consultation and treatment for both mother and child only during the period of confinement
+                                        <p2>This benefit shall cover Delivery fees, consultation and treatment for both
+                                            mother and child only during the period of confinement
                                             in hospital.
                                         </p2><br><br>
-                                        <p2>Costs for miscarriages and abortions may be covered, provided they are certified by a gynecologist as being necessary
+                                        <p2>Costs for miscarriages and abortions may be covered, provided they are
+                                            certified by a gynecologist as being necessary
                                             to save the life of the mother.
                                         </p2><br><br>
                                         <p2>This benefit is only available to staff/spouse </p2>
@@ -179,16 +195,19 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much Health insurance for your business would cost, 
+                                <p>If you are interested in learning how much Health insurance for your business would
+                                    cost,
                                     or if you are interested in purchasing Corporate Health insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further explanation or assistance about how Health insurance can add value to your organisation, 
+                                    If you would like further explanation or assistance about how Health insurance can
+                                    add value to your organisation,
                                     please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for Corporate Health
+                                    <b> Download forms</b> will give you access to any relevant documents for Corporate
+                                    Health
                                     insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
@@ -200,13 +219,14 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="load-more text-center">
+                                        <!-- <div class="load-more text-center">
                                             <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Forms </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need
                                                 Assistance</a>
                                         </div>
                                     </div>
@@ -321,7 +341,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -331,22 +352,26 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name"> Name of Organisation/company</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number of contact person</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address of contact person</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder=""
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location of orginasation/Company</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
@@ -360,13 +385,15 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="population_staff"> Population of staff </label>
-                                    <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
+                                    <input name="population_staff" type="text" class="form-control value"
+                                        id="population_staff" value="" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="model">Type of Cover</label>
-                                    <select id="cover" name="cover" class="form-control selectFilter" data-target="" required>
+                                    <select id="cover" name="cover" class="form-control selectFilter" data-target=""
+                                        required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option value="Inpatient Only"> Inpatient only
                                         </option>
@@ -384,7 +411,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -400,7 +428,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -411,22 +440,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -440,7 +474,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
