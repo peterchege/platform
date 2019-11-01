@@ -573,7 +573,7 @@
                             <h2 class="text-center"> Life Cover <br> (Term Assuarance)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy has been designed to enable one to enable one have a pure
+                        <p class="text-justify">This policy has been designed to enable one have a pure
                             life cover
                             that can be used as security on a loan. This policy can be used ...
                         </p>

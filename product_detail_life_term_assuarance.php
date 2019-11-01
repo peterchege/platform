@@ -57,7 +57,7 @@
                             <div class="job-description text-center">
 
                                 <h2> Life Cover (Term Assuarance)</h2>
-                                <P class="text-justify">This policy has been designed to enable one to enable one have a
+                                <P class="text-justify">This policy has been designed to enable one have a
                                     pure life
                                     cover that can be used as security on a loan
                                 </P>
