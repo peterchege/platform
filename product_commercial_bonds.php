@@ -157,11 +157,11 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center">
+                                                <!-- <div class="load-more text-center">
                                                     <a href="#" class="btn btn-danger"
                                                         data-target="#modal-close-outside"
                                                         uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
