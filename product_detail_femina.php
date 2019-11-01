@@ -151,11 +151,11 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <!-- <div class="load-more text-center">
+                                                <div class="load-more text-center">
                                                     <a href="#" class="btn btn-danger"
                                                         data-target="#modal-close-outside"
                                                         uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                                </div> -->
+                                                </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
@@ -321,7 +321,7 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href=" pdf/brochure/Jamii Plus Brochure.pdf" target="_blank">
+                    <a href=" pdf/brochure/FEMINA BROCHURE REDESIGNED[2].pdf" target="_blank">
                         <h2> <i class=" fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
@@ -334,7 +334,7 @@
                 </div>
 
                 <!-- Claim Form -->
-                <div class="col-md-3 box-download">
+                <!-- <div class="col-md-3 box-download">
                     <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
                         <hr>
@@ -343,10 +343,10 @@
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
 
                     </a>
-                </div>
+                </div> -->
 
                 <!-- Claim Form -->
-                <div class="col-md-3 box-download">
+                <!-- <div class="col-md-3 box-download">
                     <a href="pdf/claim/Medical_Health_claim_form.pdf">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
@@ -354,7 +354,7 @@
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>
-                </div>
+                </div> -->
 
             </div>
 

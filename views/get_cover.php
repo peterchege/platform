@@ -1725,7 +1725,7 @@ INDIVIDUAL LIFE COVER
                     </div>
 
                     <div class="container">
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="make">Period/Length to be Covered</label>
                                 <select id="period" name="period" class="form-control" required>
@@ -1742,7 +1742,7 @@ INDIVIDUAL LIFE COVER
                                 <input name="value" type="text" class="form-control value" id="value"
                                     placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row">
 
                             <div class="form-group col-md-12">
