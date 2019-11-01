@@ -71,76 +71,25 @@
                                 <p class="text-justify"> Specifically developed for today’s woman, it does not require
                                     any checkups before signup, just a simple
                                     application form and one is covered.</P>
+
                                 <hr>
                                 <div class="job-content">
 
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <h2>Facts about breast/ cervical cancer :</h2>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
                                         <ol>
-                                            <li>Adults between the age of 18 years and 80 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
+                                            <li> Anybody can get breast/ cervical cancer </li>
+                                            <li> It affects women and men of all ages, race and social classes </li>
+                                            <li> There are no known causes of breast cancer </li>
+                                            <li> Having one or more of the risk factors associated with breast/ cervical
+                                                cancer does not necessarily mean one will develop the disease </li>
+                                            <li>Men do get breast cancer</li>
+                                            <li>Mastectomy does not affect a woman’s sexuality</li>
+                                            <li>Breast cancer is curable if detected early</li>
+                                            <li>Surgery for removal of cancerous lumps does NOT
+                                                lead to fatality</li>
+                                        </ol>
 
                                         </ol><br>
                                         <div class="row">
@@ -176,79 +125,46 @@
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                             <div class="job-description text-center">
-                                <div class="job-content">
-                                    <div class="text-justify">
-                                        <h2 class="text-center">Main Features include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
+                                <!-- TABLE -->
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
+                                <table class="uk-table uk-table-hover uk-table-divider">
+                                    <thead class="head-text">
+                                        <tr>
+                                            <th>OPTION</th>
+                                            <th>BENEFIT</th>
+                                            <th>20-29 yrs</th>
+                                            <th>30-39 yrs </th>
+                                            <th>40+</th>
 
-                                        </ol><br>
-                                    </div>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>A</td>
+                                            <td>Kshs 250,000 /=</td>
+                                            <td>Kshs 1,000 /=</td>
+                                            <td>Kshs 1,550 /=</td>
+                                            <td>Kshs 2,000 /=</td>
+                                        </tr>
+                                        <tr>
+                                            <td>B</td>
+                                            <td>Kshs 500,000 /=</td>
+                                            <td>Kshs 1,950 /=</td>
+                                            <td>Kshs 3,000 /=</td>
+                                            <td>Kshs 3,950 /=</td>
+                                        </tr>
 
-                                </div>
+                                    </tbody>
+                                </table> <!-- END TABLE -->
+
+                                <h2>In the event of a claim?</h2>
+                                <p>Immediately inform APA through our 24-hour
+                                    helpline 0722 200 100/ 0734 600 577 or email
+                                    info@apainsurance.org or medical@apainsurance. org
+                                    and your account handler will be ready to assist you.
+                                </p>
+
                             </div>
 
                         </div>
