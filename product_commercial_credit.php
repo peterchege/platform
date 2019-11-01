@@ -36,13 +36,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -78,9 +81,12 @@
                                         <ol>
                                             <li>Protects the lending institution against risk of losing money. </li>
                                             <li>The family of the deceased also gets to keep the asset/property that
-                                                was financed by the borrowed funds even after the death of the borrower.</li>
-                                            <li>Removes the strain of repaying loans by the families of the departed member. </li>
-                                            <li>Provides a more economical coverage because of mass purchase and group discounting. </li>
+                                                was financed by the borrowed funds even after the death of the borrower.
+                                            </li>
+                                            <li>Removes the strain of repaying loans by the families of the departed
+                                                member. </li>
+                                            <li>Provides a more economical coverage because of mass purchase and group
+                                                discounting. </li>
                                             <li>Premium is lower than individual insurance.</li>
                                         </ol>
 
@@ -88,17 +94,19 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center ">
+                                                <!-- <div class="load-more text-center ">
                                                     <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -135,15 +143,18 @@
                                         <p2>Cover can be extended to cover the nuclear family for the same amount.</p2>
                                         <hr>
                                         <h3>Funeral Expense Cover:</h3>
-                                        <p2>Payment to cater for the immediate burial costs upon death of the borrower</p2>
+                                        <p2>Payment to cater for the immediate burial costs upon death of the borrower
+                                        </p2>
                                         <hr>
                                         <h3>Retrenchment:</h3>
-                                        <p2>Covers loss of employment/Involuntary termination of employment. </p2><br><br>
+                                        <p2>Covers loss of employment/Involuntary termination of employment. </p2>
+                                        <br><br>
                                         <p2>This means without the employee’s fault, their employment is terminated
                                             through the employer’s initiative. </p2>
                                         <hr>
                                         <h3>Deposit Cover:</h3>
-                                        <p2>Pays an equivalent of a multiple of the member’s savings to his beneficiaries
+                                        <p2>Pays an equivalent of a multiple of the member’s savings to his
+                                            beneficiaries
                                             upon his unfortunate death.</p2>
                                         <br>
                                     </div>
@@ -159,15 +170,18 @@
                             <div class="job-description text-left">
                                 <br>
                                 <p>If you are interested in learning how much Group Credit Life insurance would cost
-                                    you, or if you are interested in purchasing Group Credit Life insurance, please click
+                                    you, or if you are interested in purchasing Group Credit Life insurance, please
+                                    click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further explanation or assistance about how Group Credit Life insurance can help your business,
-                                     please click <b>I Need Assistance</b>.
+                                    If you would like further explanation or assistance about how Group Credit Life
+                                    insurance can help your business,
+                                    please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for Group Credit Life
+                                    <b> Download forms</b> will give you access to any relevant documents for Group
+                                    Credit Life
                                     insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
@@ -180,12 +194,14 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Forms </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Forms </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need
+                                            <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                Need
                                                 Assistance</a>
                                         </div>
                                     </div>
@@ -300,7 +316,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -310,22 +327,28 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name"> Name of Organisation/company</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number of contact person</label>
-                                    <input name="phone" type="tel" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" class="form-control" id="phone" placeholder="" value="" required>
+                                    <input name="phone" type="tel"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" class="form-control" id="phone" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address of contact person</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder=""
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location of orginasation/Company</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
@@ -339,7 +362,8 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="population_staff"> Population of staff </label>
-                                    <input name="population_staff" type="text" class="form-control value" id="population_staff" value="" required>
+                                    <input name="population_staff" type="text" class="form-control value"
+                                        id="population_staff" value="" required>
                                 </div>
                             </div>
 
@@ -351,7 +375,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i> </button>
                                 </div>
                             </div>
                         </div>
@@ -367,7 +392,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -378,22 +404,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" required>
+                                    <input name="phone" type="tel"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -407,7 +440,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

@@ -263,15 +263,18 @@
                             <div class="job-description text-left">
                                 <br>
                                 <p>If you are interested in learning how much Group Last Expense insurance would cost
-                                    you, or if you are interested in purchasing Group Last Expense insurance, please click
+                                    you, or if you are interested in purchasing Group Last Expense insurance, please
+                                    click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further explanation or assistance about Group Last Expense insurance, 
+                                    If you would like further explanation or assistance about Group Last Expense
+                                    insurance,
                                     please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for Group Last Expense
+                                    <b> Download forms</b> will give you access to any relevant documents for Group Last
+                                    Expense
                                     insurance,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
@@ -281,27 +284,27 @@
                                             <a href="#" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <!-- <div class="col-4">
                                         <div class="load-more text-center ">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                            <a href="#" class="btn btn-dark">I Need Assistance</a>
-                                        </div>
+                                        </div> -->
+                                </div>
+                                <div class="col-4">
+                                    <div class="load-more text-center" data-target="#modal-full" uk-toggle>
+                                        <a href="#" class="btn btn-dark">I Need Assistance</a>
                                     </div>
                                 </div>
-                                <br><br> <br>
                             </div>
-
-
+                            <br><br> <br>
                         </div>
+
+
                     </div>
                 </div>
-                <BR>
             </div>
+            <BR>
         </div>
+    </div>
     </div>
 
     <!-- =====================================FOOTER===================================== -->
