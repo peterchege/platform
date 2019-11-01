@@ -40,7 +40,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
 
                         <li class="nav-item">
@@ -64,74 +64,55 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Our main products include:</h2>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <h2>Loss destruction or damage to the property described in the schedule or any part there of directly
+                                            by any of the undermentioned perils:-</h2>
+                                        <li>
+                                            <p2><b> FIRE, LIGHTNING, EXPLOSION</b> but excluding loss or damage to boilers, economizer or other vessels, machinery or
+                                                apparatus in which pressure is used, or their contents resulting from their explosion.</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2> EARTHQUAKE</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2> STORM AND TEMPEST, FLOOD, BURSTING OR OVERFLOWING OF WATER TANKS, APPARATUS OR PIPES
+                                                ( excluding the first Kshs. 500/- of each and every claim).</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>AIRCRAFT AND OTHER AERIAL DEVICES AND/OR ARTICLES DROPPED THEREFROM.</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2><b>IMPACT</b> with any of the said building insured under this Policy and/or any walls, gates and fences around and
+                                                pertaining thereto by any road vehicles, horses or cattle not belonging to or under the control of the Insured,
+                                                his agent or servant thereto by any road vehicles, horses or cattle not belonging to or under the control of
+                                                the Insured, his agent or servant.</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>SUBTERRANEAN FIRE.</p2>
+                                        </li><br>
+                                        <li>
+                                            <p2>RIOT AND STRIKE which for the purpose of this insurance shall mean:-</p2>
+                                            <ol>
+                                                <li>The Act of any person taking part together with others in any disturbances of the public peace
+                                                    (whether in connection with a strike or lock-out or not) not being directly or indirectly connected
+                                                    with any of the following occurrences, namely:-
+                                                </li>
+                                                <li>The Act of any person taking part together with others in any disturbances of the public peace
+                                                    (whether in connection with a strike or lock-out or not) not being directly or indirectly connected
+                                                    with any of the following occurrences, namely:-
+                                                    <ol>
+                                                        <li>War, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not),
+                                                            civil war,</li>
+                                                        <li>Mutiny, civil commotion assuming the proportions of or amounting to a popular rising, military rising, insurrection,
+                                                            rebellion, revolution, military or usurped power, or any act of any person acting on behalf of or in connection with
+                                                            any organization with activities directed towards the overthrow by force of government de jure or de facto to the influencing
+                                                            of it by terrorism or violence
+                                                        </li>
+                                                    </ol>
+                                                </li>
+                                            </ol>
+                                        </li>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 80 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
-
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
-
-                                        </ol><br>
+                                        <br><br><br>
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
@@ -159,7 +140,7 @@
                         <!-- FEATURES / BENEFITS -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                            <div class="job-description text-center">
+                            <!-- <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
@@ -233,7 +214,7 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
 
