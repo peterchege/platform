@@ -35,22 +35,26 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
                     <div class="tab-content" id="myTabContent">
 
-                        <!-- OVERVIEW --> 
+                        <!-- OVERVIEW -->
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
@@ -66,22 +70,27 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Following are the significant micro & inclusive insurance policies available from APA : </h2>
+                                        <h2>Following are the significant micro & inclusive insurance policies available
+                                            from APA : </h2>
                                         <p> Micro property Insurance</p>
-                                        <p2>Micro property is a combined insurance policy tailor made to provide insurance cover
+                                        <p2>Micro property is a combined insurance policy tailor made to provide
+                                            insurance cover
                                             for business and domestic (households) property.
                                         </p2><br><br>
                                         <p2><b><i>Features:</i></b><br><br>
                                             This product covers against property loss/ damage arising from
                                             <ol>
-                                                <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited explosions, etc.), </li>
+                                                <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited
+                                                    explosions, etc.), </li>
                                                 <li>Burglary (forced and violent entry to insured premises), </li>
                                                 <li>Theft and Political Violence & Terrorism risks. </li>
-                                                <li>Can be extended to cover risk such as Money, Fidelity guarantee, electronic equipment etc. </li>
+                                                <li>Can be extended to cover risk such as Money, Fidelity guarantee,
+                                                    electronic equipment etc. </li>
                                             </ol>
                                         </p2>
                                         <p2><b><i>Benefits:</i></b><br><br>
-                                            <li>Nature of premises could be of Stone, Timber, Iron Sheets but not Thatched</li>
+                                            <li>Nature of premises could be of Stone, Timber, Iron Sheets but not
+                                                Thatched</li>
                                             <li>Cover (Sum Insured) up to maximum limit of KSh 4 Million</li>
                                             <li>Minimum annual premium Ksh 1000/-</li>
                                             <li>Nature of business and location not restricted</li>
@@ -89,38 +98,50 @@
                                         </p2>
                                         <hr>
                                         <p>APA Hospitalisation Cash</p>
-                                        <p2>This is a cover that provides a weekly benefit equivalent to weekly earnings/ profit/ loan instalment
-                                            to enable the insured person meet the financial obligation occasioned by following continued hospitalisation.
+                                        <p2>This is a cover that provides a weekly benefit equivalent to weekly
+                                            earnings/ profit/ loan instalment
+                                            to enable the insured person meet the financial obligation occasioned by
+                                            following continued hospitalisation.
                                         </p2><br><br>
                                         <p2><b><i>Features:</i></b><br><br>
-                                            <li>Fixed benefit which is not determined/ dependent on actual hospital bills incurred. </li>
+                                            <li>Fixed benefit which is not determined/ dependent on actual hospital
+                                                bills incurred. </li>
                                             <li>Age limit on entry maximum 70 years. </li>
                                         </p2><br>
                                         <p2><b><i>Benefits:</i></b><br><br>
-                                            The weekly benefit shall be limited to a maximum of KES 10,000 and the total claim/ benefit cannot exceed KES 50,000
+                                            The weekly benefit shall be limited to a maximum of KES 10,000 and the total
+                                            claim/ benefit cannot exceed KES 50,000
 
-                                            <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan instalment </li>
+                                            <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan
+                                                instalment </li>
                                             <li>8 – 14 nights: 2 (two) week’s earnings/ profit/ loan instalment </li>
                                             <li>15 – 21 nights: 3 (three) week’s earnings/ profit/ loan instalment </li>
                                             <li>22 – 28 nights: 4 (four) week’s earnings/ profit/ loan instalment</li>
-                                            <li>Over 28 nights : Up to 6 (six) weeks earnings/ profit/ loan instalment</li>
+                                            <li>Over 28 nights : Up to 6 (six) weeks earnings/ profit/ loan instalment
+                                            </li>
                                         </p2>
                                         <hr>
                                         <p>Heshima na Faraja</p>
-                                        <p2>A comprehensive insurance cover designed to provide protection to you and your family
-                                            against personal accident risk. There is an additional funeral cash benefit to meet funeral expenses
+                                        <p2>A comprehensive insurance cover designed to provide protection to you and
+                                            your family
+                                            against personal accident risk. There is an additional funeral cash benefit
+                                            to meet funeral expenses
                                             in the unfortunate event of the death of insured member.
                                         </p2><br><br>
                                         <p2><b><i>Features:</i></b><br><br>
-                                            This product covers against accidental Death, Total permanent disability, Medical expenses and
-                                            a last expense (funeral) benefit of oneself and family in the event of death from accidental,
+                                            This product covers against accidental Death, Total permanent disability,
+                                            Medical expenses and
+                                            a last expense (funeral) benefit of oneself and family in the event of death
+                                            from accidental,
                                             illness or natural cause.
                                         </p2>
                                         <br> <br>
                                         <p2><b><i>Benefits:</i></b><br><br>
-                                            <li>Available to an individual or a family package (Spouse and up to two children included)</li>
+                                            <li>Available to an individual or a family package (Spouse and up to two
+                                                children included)</li>
                                             <li>Annual premium is as low as Ksh 170/- for an individual </li>
-                                            <li>In the event of an accidental death both, death and funeral benefit is payable. </li>
+                                            <li>In the event of an accidental death both, death and funeral benefit is
+                                                payable. </li>
                                             <li>Age limit minimum 3 months (children) and 65 years (adults)</li>
                                         </p2>
 
@@ -134,9 +155,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <!-- <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full" uk-toggle>
@@ -168,19 +189,24 @@
                                         <hr>
                                         <h3>The cover provides the following features. This include:</h3>
                                         <ol>
-                                            <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited explosions, etc.),
+                                            <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited
+                                                explosions, etc.),
                                             </li><br>
                                             <li>Burglary (forced and violent entry to insured premises),
                                             </li><br>
                                             <li>Theft and Political Violence & Terrorism risks.
                                             </li><br>
-                                            <li>Can be extended to cover risk such as Money, Fidelity guarantee, electronic equipment etc.
+                                            <li>Can be extended to cover risk such as Money, Fidelity guarantee,
+                                                electronic equipment etc.
                                             </li><br>
-                                            <li>Fixed benefit which is not determined/ dependent on actual hospital bills incurred.
+                                            <li>Fixed benefit which is not determined/ dependent on actual hospital
+                                                bills incurred.
                                             </li><br>
                                             <li>Age limit on entry maximum 70 years </li><br>
-                                            <li>This product covers against accidental Death, Total permanent disability, Medical expenses
-                                                and a last expense (funeral) benefit of oneself and family in the event of death from
+                                            <li>This product covers against accidental Death, Total permanent
+                                                disability, Medical expenses
+                                                and a last expense (funeral) benefit of oneself and family in the event
+                                                of death from
                                                 accidental, illness or natural cause. </li><br>
 
                                         </ol>
@@ -214,14 +240,17 @@
                                     </li><br>
                                     <li>Watchman requirement – communal watchmen allowed
                                     </li><br>
-                                    <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan instalment </li><br>
+                                    <li>3 – 7 nights in hospital: 1 (one) week’s earnings/ profit/ loan instalment </li>
+                                    <br>
                                     <li>8 – 14 nights: 2 (two) week’s earnings/ profit/ loan instalment </li><br>
                                     <li>15 – 21 nights: 3 (three) week’s earnings/ profit/ loan instalment </li><br>
                                     <li>22 – 28 nights: 4 (four) week’s earnings/ profit/ loan instalment</li><br>
                                     <li>Over 28 nights : Up to 6 (six) weeks earnings/ profit/ loan instalment </li><br>
-                                    <li>Available to an individual or a family package (Spouse and up to two children included) </li><br>
+                                    <li>Available to an individual or a family package (Spouse and up to two children
+                                        included) </li><br>
                                     <li>Annual premium is as low as Ksh 170/- for an individual </li><br>
-                                    <li>In the event of an accidental death both, death and funeral benefit is payable.</li><br>
+                                    <li>In the event of an accidental death both, death and funeral benefit is payable.
+                                    </li><br>
                                     <li>Age limit minimum 3 months (children) and 65 years (adults)</li><br>
                                 </ol>
                                 <br>
@@ -236,12 +265,13 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much any of the Micro Insurance products would cost
+                                <p>If you are interested in learning how much any of the Micro Insurance products would
+                                    cost
                                     you, or if you are interested in purchasing Micro Insurance products, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further explanation or assistance about Micro Insurance, 
+                                    If you would like further explanation or assistance about Micro Insurance,
                                     please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
@@ -304,7 +334,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -314,22 +345,27 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
+                                        placeholder="Full Name"
+                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" type="tel" class="form-control" id="inputAddress2"
+                                        placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" type="email" class="form-control" id="inputAddress"
+                                        placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
@@ -343,22 +379,27 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
+                                        placeholder="Toyota"
+                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="text" type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress"
+                                        placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2"
+                                        placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
