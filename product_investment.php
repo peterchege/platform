@@ -17,8 +17,7 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
 
@@ -242,7 +241,6 @@ require_once 'inc/functions.php';
                             aims to give a reasonable rate of interest while preserving capital and offering
                             liquidity....
                         </p>
-                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
