@@ -122,9 +122,9 @@
                             <h2 class="text-center"> Engineering Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Covers the “Contract Works” undertaken
-                            by a contractor against any unforeseen accidental physical
-                            loss or damage. Interests covered include but are ...
+                        <p class="text-justify">This policy indemnifies the Insured
+                            against any sums for which the Insured becomes legally
+                            liable as a direct result of any negligent act, error ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -178,9 +178,8 @@
                             <h2 class="text-center">Goods In Transit (GIT)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy will indemnify the insured against the loss of or damage to
-                            the property
-                            insured arising from fire as well as from allied perils such as...
+                        <p class="text-justify">Loss or damage to merchandise and goods incidental to the Insured's business
+                            the property of the Insured or held by the Insured in trust or...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -237,15 +236,15 @@
                             <h2 class="text-center">Marine Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods,
-                            freight and other
-                            interests against loss or damage whilst being transported...
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, 
+                            freight and other interests against loss or damage whilst being transported by rail, 
+                            road, sea and/or air from the port of loading to the final destination.
+
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -720,8 +719,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_last_expense.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_last_expense.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -760,8 +758,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
