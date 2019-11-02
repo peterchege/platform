@@ -166,38 +166,38 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Police Abstract</li>' +
-                    '<li>Copy of Driving License</li>' +
-                    '<li>Copy of the Log Book </li>' +
-                    '<li>Photos of the accident scene</li>' +
+                    '<li>Police Abstract.</li>' +
+                    '<li>Copy of Driving License.</li>' +
+                    '<li>Copy of the Log Book .</li>' +
+                    '<li>Photos of the accident scene.</li>' +
                     '</ol></p>';
                 break;
             case 'theft':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Police Abstract</li>' +
-                    '<li>Copy of the Log Book </li>' +
-                    '<li>Detailed statement of the circumstance</li>' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
+                    '<li>Police Abstract.</li>' +
+                    '<li>Copy of the Log Book .</li>' +
+                    '<li>Detailed statement and sketch of the circumstance of the accident. .</li>' +
                     '</ol></p>';
                 break;
             case 'windscreen':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Windscreen and whole vehicle photos</li>' +
-                    '<li>Police Abstract (Optional)</li>' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
+                    '<li>Windscreen and whole vehicle photos.</li>' +
+                    '<li>Police Abstract (Optional).</li>' +
                     '</ol></p>';
                 break;
             case 'property damage':
                 var claim_form2 = 'pdf/claim/GPA CLAIM FORM.pdf';
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form2 + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
+                    '<li>Claim form (<a href="' + claim_form2 + '">Click here to download</a>).</li>' +
+                    '<li>Document 1.</li>' +
+                    '<li>Document2.</li>' +
+                    '<li>Document3 .</li>' +
+                    '<li>Document4....</li>' +
                     '</ol></p>';
                 break;
             case 'wiba':

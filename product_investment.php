@@ -17,6 +17,11 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <link rel="stylesheet" <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+
+
+
 
 
     <?php include 'views/head_links.php'; ?>
@@ -191,7 +196,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full-abf" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -215,7 +220,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full-aef" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -233,7 +238,7 @@ require_once 'inc/functions.php';
                             <h2 class="text-center">Apollo Money Market Fund </h2>
                         </div>
                         <br>
-                        <p class="text-justify">his is a short to medium term investment product that
+                        <p class="text-justify">This is a short to medium term investment product that
                             aims to give a reasonable rate of interest while preserving capital and offering
                             liquidity....
                         </p>
@@ -241,11 +246,12 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
@@ -366,7 +372,7 @@ require_once 'inc/functions.php';
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
-
+    <?php include 'views/get_cover.php'; ?>
 
     <!-- ===================================== YOUTUBE MODAL ===================================== -->
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>

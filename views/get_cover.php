@@ -3021,3 +3021,334 @@ COMMERCIAL COVER
         </div>
     </div>
 </div>
+<!-- =====================================Apollo Balanced Fund  LEAD FORM ===================================== -->
+<div id="modal-full-abf" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
+                uk-height-viewport>
+            </div>
+            <div class="uk-padding-large">
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name"
+                                    placeholder="john doe" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email"
+                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                    data-parsley-trigger="keyup">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location"
+                                    placeholder="Nairobi" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container"> -->
+                    <!-- <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="make">Period/Length to be Covered</label>
+                                <select id="period" name="period" class="form-control" required>
+                                    <option value="-1" selected disabled>Select...</option>
+                                    <option value="6"> 6 yrs </option>
+                                    <option value="9"> 9 yrs </option>
+                                    <option value="12"> 12 yrs </option>
+                                    <option value="15"> 15 yrs </option>
+                                    <option value="18"> 18 yrs </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="value">Value of Cover</label>
+                                <input name="value" type="text" class="form-control value" id="value"
+                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                            </div>
+                        </div> -->
+                    <!-- <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <label for="age">Your Age (yrs)</label>
+                                <select id="age" name="age" class="form-control" required>
+                                    <option value="-1" selected disabled>Select your age range...</option>
+                                    <option value="18 - 23"> 18 - 23 </option>
+                                    <option value="24 - 25"> 24 - 29 </option>
+                                    <option value="30 - 34"> 30 - 34 </option>
+                                    <option value="35 - 39"> 35 - 39 </option>
+                                    <option value="40 - 44"> 40 - 44 </option>
+                                    <option value="45 - 49"> 45 - 49 </option>
+                                    <option value="50 - 54"> 50 - 54 </option>
+                                    <option value="55 - 59"> 55 - 59 </option>
+                                    <option value="60 - 64"> 60 - 64 </option>
+                                    <option value="65 - 69"> 65 - 69 </option>
+                                    <option value="Above 70"> Above 70 </option>
+                                </select>
+                            </div>
+                        </div> -->
+
+
+                    <div style="display: none">
+                        <input type="hidden" id="product_id" name="product_id" value="24">
+                        <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                    </div>
+                    <div class="row book-btn">
+                        <div class="col-md-12">
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                    class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- =====================================Apollo Equity Fund  LEAD FORM ===================================== -->
+<div id="modal-full-aef" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
+                uk-height-viewport>
+            </div>
+            <div class="uk-padding-large">
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name"
+                                    placeholder="john doe" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email"
+                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                    data-parsley-trigger="keyup">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location"
+                                    placeholder="Nairobi" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container"> -->
+                    <!-- <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="make">Period/Length to be Covered</label>
+                                <select id="period" name="period" class="form-control" required>
+                                    <option value="-1" selected disabled>Select...</option>
+                                    <option value="6"> 6 yrs </option>
+                                    <option value="9"> 9 yrs </option>
+                                    <option value="12"> 12 yrs </option>
+                                    <option value="15"> 15 yrs </option>
+                                    <option value="18"> 18 yrs </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="value">Value of Cover</label>
+                                <input name="value" type="text" class="form-control value" id="value"
+                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                            </div>
+                        </div> -->
+                    <!-- <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <label for="age">Your Age (yrs)</label>
+                                <select id="age" name="age" class="form-control" required>
+                                    <option value="-1" selected disabled>Select your age range...</option>
+                                    <option value="18 - 23"> 18 - 23 </option>
+                                    <option value="24 - 25"> 24 - 29 </option>
+                                    <option value="30 - 34"> 30 - 34 </option>
+                                    <option value="35 - 39"> 35 - 39 </option>
+                                    <option value="40 - 44"> 40 - 44 </option>
+                                    <option value="45 - 49"> 45 - 49 </option>
+                                    <option value="50 - 54"> 50 - 54 </option>
+                                    <option value="55 - 59"> 55 - 59 </option>
+                                    <option value="60 - 64"> 60 - 64 </option>
+                                    <option value="65 - 69"> 65 - 69 </option>
+                                    <option value="Above 70"> Above 70 </option>
+                                </select>
+                            </div>
+                        </div> -->
+
+
+                    <div style="display: none">
+                        <input type="hidden" id="product_id" name="product_id" value="24">
+                        <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                    </div>
+                    <div class="row book-btn">
+                        <div class="col-md-12">
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                    class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- =====================================Apollo Money market Fund  LEAD FORM ===================================== -->
+<div id="modal-full-ammf" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
+                uk-height-viewport>
+            </div>
+            <div class="uk-padding-large">
+                <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                    <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name"
+                                    placeholder="john doe" value="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email"
+                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                    data-parsley-trigger="keyup">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location"
+                                    placeholder="Nairobi" value="" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <hr>
+                    <div class="form-group col-md-12">
+                        <h3 for="inputAddress">COVER DETAILS</h3>
+                    </div>
+
+                    <div class="container"> -->
+                    <!-- <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="make">Period/Length to be Covered</label>
+                                <select id="period" name="period" class="form-control" required>
+                                    <option value="-1" selected disabled>Select...</option>
+                                    <option value="6"> 6 yrs </option>
+                                    <option value="9"> 9 yrs </option>
+                                    <option value="12"> 12 yrs </option>
+                                    <option value="15"> 15 yrs </option>
+                                    <option value="18"> 18 yrs </option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="value">Value of Cover</label>
+                                <input name="value" type="text" class="form-control value" id="value"
+                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                            </div>
+                        </div> -->
+                    <!-- <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <label for="age">Your Age (yrs)</label>
+                                <select id="age" name="age" class="form-control" required>
+                                    <option value="-1" selected disabled>Select your age range...</option>
+                                    <option value="18 - 23"> 18 - 23 </option>
+                                    <option value="24 - 25"> 24 - 29 </option>
+                                    <option value="30 - 34"> 30 - 34 </option>
+                                    <option value="35 - 39"> 35 - 39 </option>
+                                    <option value="40 - 44"> 40 - 44 </option>
+                                    <option value="45 - 49"> 45 - 49 </option>
+                                    <option value="50 - 54"> 50 - 54 </option>
+                                    <option value="55 - 59"> 55 - 59 </option>
+                                    <option value="60 - 64"> 60 - 64 </option>
+                                    <option value="65 - 69"> 65 - 69 </option>
+                                    <option value="Above 70"> Above 70 </option>
+                                </select>
+                            </div>
+                        </div> -->
+
+
+                    <div style="display: none">
+                        <input type="hidden" id="product_id" name="product_id" value="24">
+                        <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                    </div>
+                    <div class="row book-btn">
+                        <div class="col-md-12">
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                    class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+</div>
+<!------------------------------------------------  Apollo Money Market Fund ----------------------->

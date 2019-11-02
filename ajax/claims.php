@@ -160,7 +160,7 @@ switch ($_GET['request']) {
                     in_array($log_book_file_ext, $extensions) === false ||
                     in_array($detailed_statement_file_ext, $extensions) === false
                 ) {
-                    $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                    $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                     $errors[] = 0;
                 }
 
@@ -310,7 +310,7 @@ switch ($_GET['request']) {
                         in_array($hospital_discharge_summary_file_ext, $extensions) === false ||
                         in_array($invoice_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -399,7 +399,7 @@ switch ($_GET['request']) {
                         in_array($national_id_file_ext, $extensions) === false ||
                         in_array($original_burial_permit_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -495,7 +495,7 @@ switch ($_GET['request']) {
                         in_array($medical_report_file_ext, $extensions) === false ||
                         in_array($payslips_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -604,7 +604,7 @@ switch ($_GET['request']) {
                         in_array($policy_document_file_ext, $extensions) === false ||
                         in_array($post_mortem_report_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -681,7 +681,7 @@ switch ($_GET['request']) {
                         in_array($policy_document_maturity_file_ext, $extensions) === false ||
                         in_array($national_id_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -738,7 +738,7 @@ switch ($_GET['request']) {
                     if (
                         in_array($policy_document_maturity_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -865,7 +865,7 @@ switch ($_GET['request']) {
                         in_array($national_id_file_ext, $extensions) === false ||
                         in_array($original_burial_permit_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -961,7 +961,7 @@ switch ($_GET['request']) {
                         in_array($post_mortem_report_file_ext, $extensions) === false ||
                         in_array($payslips_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1064,7 +1064,7 @@ switch ($_GET['request']) {
                         in_array($medical_report_file_ext, $extensions) === false ||
                         in_array($payslips_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1164,7 +1164,7 @@ switch ($_GET['request']) {
                         in_array($hospital_discharge_summary_file_ext, $extensions) === false ||
                         in_array($invoice_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1274,7 +1274,7 @@ switch ($_GET['request']) {
                         in_array($payslips_file_ext, $extensions) === false ||
                         in_array($police_abstract_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1698,7 +1698,7 @@ switch ($_GET['request']) {
                         in_array($invoice_file_ext, $extensions) === false ||
                         in_array($detailed_statement_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1771,7 +1771,7 @@ switch ($_GET['request']) {
                         in_array($dosh_one_two_property_damage_file_ext, $extensions) === false ||
                         in_array($dosh_four_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1827,7 +1827,7 @@ switch ($_GET['request']) {
                     if (
                         in_array($claim_form_crop_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -1918,7 +1918,7 @@ switch ($_GET['request']) {
                         in_array($vet_loss_certificate_file_ext, $extensions) === false ||
                         in_array($dead_livestock_photo_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
@@ -2062,7 +2062,7 @@ switch ($_GET['request']) {
                         in_array($discharge_summary_file_ext, $extensions) === false ||
                         in_array($police_abstract_file_ext, $extensions) === false
                     ) {
-                        $response['message'] = "Invalid file type. Only doc, docx and pdf files allowed!";
+                        $response['message'] = "Invalid file type. Only doc, docx, jpg, jpeg and pdf files allowed!";
                         $errors[] = 0;
                     }
 
