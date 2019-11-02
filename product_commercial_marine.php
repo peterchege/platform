@@ -74,7 +74,7 @@
                                             <li>Guaranteed outturn (GOT) available for palm and petroleum products</li>
                                             <li>Enjoy personalized customer service and timely claim settlement</li>
                                         </ol>
-                                        <br><br><br><br>
+                                        <br><br>
 
                                         <div class="row">
                                             <div class="col-md-4">

@@ -237,8 +237,7 @@
                         </div>
                         <br>
                         <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, 
-                            freight and other interests against loss or damage whilst being transported by rail, 
-                            road, sea and/or air from the port of loading to the final destination.
+                            freight and other interests against loss or damage whilst being transported by rail,  ...
 
                         </p>
                         <!-- button click -->
