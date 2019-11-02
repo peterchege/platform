@@ -253,17 +253,27 @@
     <!-- #footer -->
 
 
-    <!-- ===================================== DOWNLOAD FORM FOR COMPREHENSIVE ===================================== -->
-
+    <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
+    <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
         <div class="uk-modal-dialog uk-modal-body">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <h2 class="uk-modal-title">DOCUMENTS:</h2>
 
-            <a class="uk-button uk-button-default" href="pdf/Apollo Unit Trust Funds Brochure.pdf">Brochure </a><br><br>
-            <a class="uk-button uk-button-default" href="#"> Application/ proposal form</a><br><br>
-            <a class="uk-button uk-button-default" href="#">Claim form</a><br><br>
-            <a class="uk-button uk-button-default" href="#">Brochure</a><br><br>
+            <div class="row forms-download">
+
+                <!-- Claim Form -->
+                <div class="col-md-3 box-download">
+                    <a href="">
+                        <h2> <i class="fas fa-file-pdf"></i>
+                            <Bronchure/h2> <hr>
+                                <p>Download Brochure</p>
+                                <hr>
+                                <a href="pdf/brochure/Apollo Unit Trust Funds Brochure  - Final.pdf">
+                                    <p class=" download">Dowload <i class="fas fa-download"></i>
+                                    </p>
+                                </a>
+                </div>
+            </div> <br>
 
         </div>
     </div>
