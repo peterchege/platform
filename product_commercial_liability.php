@@ -71,7 +71,8 @@
                                             insured shall become legally liable to pay as compensation for:</p2>
                                         <ol>
                                             <li>Accidental death of or bodily injury to or disease contracted by any person.</li>
-                                            <li>Accidental death of or bodily injury to or disease contracted by any person.</li>
+                                            <li>Accidental loss or damage to tangible property happening on or after the retroactive 
+                                                date stated in the schedule within the territorial limits.</li>
                                         </ol>
 
                                         <p>Products Liability</p>
