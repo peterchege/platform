@@ -1627,7 +1627,6 @@ INDIVIDUAL LIFE COVER
 
                                 <input id="period" name="period" class="form-control" type="text"
                                     placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
-
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
