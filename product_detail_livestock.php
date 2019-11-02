@@ -115,29 +115,7 @@
                                             financial management and peace in knowing
                                             there is a safety net for unexpected loss and associated costs
                                         </p2>
-                                        <!-- END OF Poultry insurance -->
-                                        <hr>
-                                        <!-- Dogs and Pet Insurance -->
-                                        <p>3.) Dogs and Pet Insurance</p>
-                                        <p2>This offers a Basic cover for loss/dearth of insured animal due to;
-                                            Accidents, Illness and disease, Epidemics, Euthanasia
-                                            on advice of a qualified vet doctor.
-                                        </p2>
-                                        <br><br>
-                                        <p2><b><i>Features:</i></b><br>
-                                            The cover can be extended to cover; Treatment and medical expenses, Third
-                                            party liability, Theft, Recovery and straying
-                                            expenses. Cover age limits is 8weeks to 8 years.
-
-                                        </p2>
-                                        <br><br>
-                                        <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing
-                                            there is a safety net for unexpected loss and associated costs
-
-                                        </p2>
-                                        <!-- END OF Dogs and Pet Insurance -->
+                                        <!-- END OF Poultry insurance -->                                       
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
                                         <p>4.) Bloodstock/Horse Insurance</p>
