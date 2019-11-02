@@ -178,7 +178,6 @@ $(document).ready(function () {
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract</li>' +
                     '<li>Copy of the Log Book </li>' +
-                    '<li>Detailed statement of the circumstance</li>' +
                     '</ol></p>';
                 break;
             case 'windscreen':

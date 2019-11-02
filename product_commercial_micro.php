@@ -35,20 +35,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -187,7 +183,7 @@
 
                                         </ol>
                                         <hr>
-                                        <h3>The cover provides the following features. This include:</h3>
+                                        <h3>The cover provides the following features.</h3>
                                         <ol>
                                             <li>Fire & Perils (Fire, Lightning, Impacts, Water, Wind, Hail, Limited
                                                 explosions, etc.),
@@ -334,8 +330,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -345,27 +340,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
-                                        placeholder="Full Name"
-                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2"
-                                        placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress"
-                                        placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Location</label>
-                                    <input name="capacity" type="text" class="form-control" id="inputAddress2"
-                                        placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="text" class="form-control" id="inputAddress2" placeholder="Nairobi" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
@@ -379,27 +369,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress"
-                                        placeholder="Toyota"
-                                        value="<?= ((isset($company_name)) ? $company_name : '') ?>">
+                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="<?= ((isset($company_name)) ? $company_name : '') ?>">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2"
-                                        placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
+                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="<?= ((isset($phone)) ? $phone : '') ?>">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress"
-                                        placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
+                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="<?= ((isset($email)) ? $email : '') ?>">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2"
-                                        placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
+                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="<?= ((isset($capacity)) ? $capacity : '') ?>">
                                 </div>
                             </div>
 
