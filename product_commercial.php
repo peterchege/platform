@@ -236,8 +236,8 @@
                             <h2 class="text-center">Marine Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods, 
-                            freight and other interests against loss or damage whilst being transported by rail,  ...
+                        <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods,
+                            freight and other interests against loss or damage whilst being transported by rail, ...
 
                         </p>
                         <!-- button click -->
@@ -344,8 +344,7 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items
-                            described
+                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described 
                             in the schedule including the cost of temporary boarding up where necessary ...
                         </p>
                         <!-- button click -->
