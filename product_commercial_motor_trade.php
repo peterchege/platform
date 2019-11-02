@@ -343,10 +343,10 @@
 
 
                                     <div class="col-4">
-                                        <div class="load-more text-center " data-target="#modal-full1"
+                                        <!-- <div class="load-more text-center " data-target="#modal-full1"
                                             uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="col-4">
                                         <div class="load-more text-center " data-target="#modal-full" uk-toggle>
