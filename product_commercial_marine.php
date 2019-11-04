@@ -82,8 +82,9 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                        uk-toggle>Get Cover</a>
+                                                    <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
+                                                        class="btn btn-primary">Get
+                                                        Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
