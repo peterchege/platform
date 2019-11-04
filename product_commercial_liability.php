@@ -71,7 +71,7 @@
                                             insured shall become legally liable to pay as compensation for:</p2>
                                         <ol>
                                             <li>Accidental death of or bodily injury to or disease contracted by any person.</li>
-                                            <li>Accidental loss or damage to tangible property happening on or after the retroactive 
+                                            <li>Accidental loss or damage to tangible property happening on or after the retroactive
                                                 date stated in the schedule within the territorial limits.</li>
                                         </ol>
 
@@ -81,6 +81,22 @@
                                             company's consent, for any one event or series of events with one original cause or source or
                                             during any one (annual) period of insurance, shall not exceed in the aggregate the limit of
                                             indemnity for this extension stated in the Schedule. </p2>
+
+                                        <p>Directors and Officers liability</p>
+                                        <p2>This policy covers directors and officers (and the Company itself where it is legally permitted
+                                            to indemnify its Directors and Officers) for any wrongful acts committed in their capacity as
+                                            directors and officers of the Company. The Policy is written in two sections as follows:
+                                        </p2>
+                                        <br><br>
+                                        <p2>The Directors and Officers Liability Section indemnifies the Directors and Officers in respect
+                                            of any “Wrongful Act” committed in their capacity as Directors and Officers of the Company, where
+                                            the company is not permitted (either legally or by its articles of Association) to reimburse them.
+                                        </p2>
+                                        <br><br>
+                                        <p2>The company reimbursement section covers the Company only in respect of any reimbursement that it
+                                            is required, or permitted by law to make to its directors and officers against whom a legal action
+                                            has been sought
+                                        </p2>
 
                                         <br><br><br>
                                         <div class="row">
