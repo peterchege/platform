@@ -584,55 +584,6 @@
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
-                            <!-- <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
-                                </div>
-                                <div class=" form-group col-md-12">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
-                                </div>
-                                <div class=" form-group col-md-12">
-                                    <label for="occupation">Occupation</label>
-                                    <input name="occupation" type="text" class="form-control" id="occupation"
-                                        placeholder="Clerk" value="" required>
-                                </div>
-                                <div class=" form-group col-md-12">
-                                    <label for="property">Property status</label>
-                                    <select id="property" name="property" class="form-control selectFilter"
-                                        data-target="section" required>
-                                        <option value="-1" selected disabled>Choose...</option>
-                                        <option data-ref="owner" name="owner" value="owner">Owner</option>
-                                        <option data-ref="tenant" name="tenant" value="tenant">Occupatant (Tenant)
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="container">
-                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
-                                </div>
-                            </div>  -->
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
@@ -661,13 +612,6 @@
                             </div>
 
                         </div>
-                        <!-- <div class="container">
-
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="37">
-                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            </div> -->
-
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="33">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">

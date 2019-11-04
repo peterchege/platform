@@ -20,8 +20,8 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="career.php">Careers</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.php?<?php echo  randomstring(900); ?>&csr.php?page=1&<?php echo  randomstring(900); ?>">CSR</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_video.php">Media Centre </a>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.php?csr.php?page=1">CSR</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_video.php?page=1">Media Centre </a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="trailblazer.php">Trail Blazers</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="contact_us.php"> Contact Us</a></li>
