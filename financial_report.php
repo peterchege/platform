@@ -58,14 +58,14 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for 2018</time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/fin_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
                                         <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
