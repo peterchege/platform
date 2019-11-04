@@ -82,7 +82,8 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary">Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -378,10 +379,6 @@
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
 
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="34">
-                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
