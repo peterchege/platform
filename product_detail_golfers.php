@@ -301,7 +301,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
@@ -377,7 +377,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
