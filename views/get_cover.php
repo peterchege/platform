@@ -2674,7 +2674,7 @@ COMMERCIAL COVER
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                     <div class="container">
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
                                 <input name="full_name" type="text" class="form-control" id="full_name"
@@ -2704,6 +2704,40 @@ COMMERCIAL COVER
                                 <label for="occupation">Occupation</label>
                                 <input name="occupation" type="text" class="form-control" id="occupation"
                                     placeholder="Clerk" value="" required>
+                            </div>
+
+                        </div>
+
+                    </div> -->
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="full_name">Full Name</label>
+                                <input name="full_name" type="text" class="form-control" id="full_name"
+                                    placeholder="Full Name" value="" required>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="phone">Mobile Number</label>
+                                <input name="phone" type="tel" class="form-control" id="phone"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="location">Location</label>
+                                <input name="location" type="text" class="form-control" id="location"
+                                    placeholder="Nairobi" value="" required>
+                            </div>
+                            <div class=" form-group col-md-12">
+                                <label for="occupation">Company</label>
+                                <input name="company" type="text" class="form-control" id="company"
+                                    placeholder="Company" value="" required>
                             </div>
 
                         </div>
