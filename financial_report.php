@@ -222,18 +222,18 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2018</time></p>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/mmf_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
                                         <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
