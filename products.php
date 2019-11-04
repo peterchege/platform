@@ -292,8 +292,8 @@
                             <h2>Pet Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and
+                            disease, Epidemics, Euthanasia on advice of...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
