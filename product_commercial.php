@@ -496,7 +496,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_group_life" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_corporate_health" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -633,7 +633,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_group_life" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -658,7 +658,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_microinsurance" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
