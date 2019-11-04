@@ -344,7 +344,7 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described 
+                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described
                             in the schedule including the cost of temporary boarding up where necessary ...
                         </p>
                         <!-- button click -->
@@ -397,8 +397,8 @@
                             <h2 class="text-center">Theft Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
+                        <p class="text-justify">This covers loss or damage as a result of visible forcible and violent breaking into or out of the premises or any attempt thereat.
+                            Mandatory...
 
                         </p>
                         <!-- button click -->
