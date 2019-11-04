@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> FEATURES/BENEFITS </a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false"> FEATURES/BENEFITS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -56,7 +59,8 @@
 
                                 <h2>Liability Cover</h2>
                                 <P class="text-justify">Liability Cover is a critical for those who maybe held liabe for
-                                    injuries to others or in the event that the insured party damaages someone else's property
+                                    injuries to others or in the event that the insured party damaages someone else's
+                                    property
                                     and is considered to be at fault
                                 </P>
 
@@ -66,35 +70,51 @@
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Public Liability</p>
-                                        <p2>Indemnity to the insured (or in the event of his death, his legal personal representatives)
-                                            for claims first made against the insured in writing during the period of insurance, which the
+                                        <p2>Indemnity to the insured (or in the event of his death, his legal personal
+                                            representatives)
+                                            for claims first made against the insured in writing during the period of
+                                            insurance, which the
                                             insured shall become legally liable to pay as compensation for:</p2>
                                         <ol>
-                                            <li>Accidental death of or bodily injury to or disease contracted by any person.</li>
-                                            <li>Accidental loss or damage to tangible property happening on or after the retroactive
+                                            <li>Accidental death of or bodily injury to or disease contracted by any
+                                                person.</li>
+                                            <li>Accidental loss or damage to tangible property happening on or after the
+                                                retroactive
                                                 date stated in the schedule within the territorial limits.</li>
                                         </ol>
 
                                         <p>Products Liability</p>
-                                        <p2>The amount payable under this extension inclusive of any legal costs recoverable from the insured
-                                            by a claimant or any number of claimants, and all other costs and expenses incurred with the
-                                            company's consent, for any one event or series of events with one original cause or source or
-                                            during any one (annual) period of insurance, shall not exceed in the aggregate the limit of
+                                        <p2>The amount payable under this extension inclusive of any legal costs
+                                            recoverable from the insured
+                                            by a claimant or any number of claimants, and all other costs and expenses
+                                            incurred with the
+                                            company's consent, for any one event or series of events with one original
+                                            cause or source or
+                                            during any one (annual) period of insurance, shall not exceed in the
+                                            aggregate the limit of
                                             indemnity for this extension stated in the Schedule. </p2>
 
                                         <p>Directors and Officers liability</p>
-                                        <p2>This policy covers directors and officers (and the Company itself where it is legally permitted
-                                            to indemnify its Directors and Officers) for any wrongful acts committed in their capacity as
-                                            directors and officers of the Company. The Policy is written in two sections as follows:
+                                        <p2>This policy covers directors and officers (and the Company itself where it
+                                            is legally permitted
+                                            to indemnify its Directors and Officers) for any wrongful acts committed in
+                                            their capacity as
+                                            directors and officers of the Company. The Policy is written in two sections
+                                            as follows:
                                         </p2>
                                         <br><br>
-                                        <p2>The Directors and Officers Liability Section indemnifies the Directors and Officers in respect
-                                            of any “Wrongful Act” committed in their capacity as Directors and Officers of the Company, where
-                                            the company is not permitted (either legally or by its articles of Association) to reimburse them.
+                                        <p2>The Directors and Officers Liability Section indemnifies the Directors and
+                                            Officers in respect
+                                            of any “Wrongful Act” committed in their capacity as Directors and Officers
+                                            of the Company, where
+                                            the company is not permitted (either legally or by its articles of
+                                            Association) to reimburse them.
                                         </p2>
                                         <br><br>
-                                        <p2>The company reimbursement section covers the Company only in respect of any reimbursement that it
-                                            is required, or permitted by law to make to its directors and officers against whom a legal action
+                                        <p2>The company reimbursement section covers the Company only in respect of any
+                                            reimbursement that it
+                                            is required, or permitted by law to make to its directors and officers
+                                            against whom a legal action
                                             has been sought
                                         </p2>
 
@@ -102,7 +122,8 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get
                                                         Cover</a>
                                                 </div>
                                             </div>
@@ -113,7 +134,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need
                                                         Assistance</a>
                                                 </div>
@@ -285,7 +307,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/liability.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/liability.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -293,7 +316,7 @@
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
@@ -319,6 +342,40 @@
                                 </div>
                             </div>
 
+                        </div> -->
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="occupation">Company</label>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
+                                </div>
+
+                            </div>
+
                         </div>
                         <div class="container">
 
@@ -328,7 +385,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -345,7 +403,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -356,22 +415,27 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -386,7 +450,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
