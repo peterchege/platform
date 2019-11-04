@@ -135,14 +135,14 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa4/eva.jpg" class="img" alt="">
+                        <img src="img/passport2/jp.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Eva Labatt<br>
-                            <small>Unit Trust Officer</small>
+                            John Paul<br>
+                            <small>Senior Accountant </small>
                         </h5>
 
                         <p>
-                            Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company...
+                            John Paul is the Senior Accountant at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
@@ -152,7 +152,7 @@
 
                 <div class="row lead-img ">
 
-                    <div class="col-md-3-offset-8 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/apa4/eva.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Eva Labatt<br>
@@ -162,7 +162,11 @@
                         <p>
                             Eva Labatt is the Unit Trust Officer at Apollo Asset Management Company...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
+                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
+                    </div>
+
+                    <div class="offset-md-9">
+
                     </div>
 
 
@@ -265,9 +269,36 @@
         </div>
     </div>
 
-    <!-- ===================================== Everlyne Lagat ===================================== -->
+    <!-- ===================================== John Paul ===================================== -->
 
     <div id="modal-full3" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                <div class="uk-background-cover" style="background-image: url('img/passport2/jp.jpg');" uk-height-viewport></div>
+                <div class="uk-padding-large">
+                    <h1>
+                        John Paul
+                    </h1>
+                    <h2 class="small-head">
+                        Senior Accountant
+                    </h2>
+                    <p class="text-justify">
+                        John Paul is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya, 
+                        graduate of Moi University Bachelors of Business Management(Accounting) with more than 9 years of professional 
+                        experience in auditing and management accounting, and currently pursuing his final exams in Certified Investment 
+                        Financial Analysis (CIFA). He also has enrolled as a student under Chartered Institute for Securities Investment 
+                        (CISI) where he has had trainings in Fundamentals of Investing; fixed income instruments trading.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================================== Everlyne Lagat ===================================== -->
+
+    <div id="modal-full4" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
