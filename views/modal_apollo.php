@@ -56,7 +56,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputAddress2">Phone Number</label>
-                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="" required>
+                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                             </div>
                         </div>
 
