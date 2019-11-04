@@ -30,8 +30,19 @@ require_once 'inc/functions.php';
     Intro Section
     ============================-->
     <?php
-    // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY datetime desc ");
+    // selecting csr posts
+    if (isset($_GET['page'])) {
+        $page = filter_var(mysqli_real_escape_string($db, $_GET['page']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+        if ($page == 0 || $page < 1) {
+            $showFrom = 0;
+        } else {
+            $showFrom = ($page * 5) - 5;
+        }
+        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT $showFrom,5 ");
+    } else {
+        // $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT 0,3 ");
+        echo "<script>window.location.href = 'csr.php?page=1'</script>";
+    }
     ?>
     <div class="banner-csr">
         <div class="container-fluid">
@@ -69,13 +80,13 @@ require_once 'inc/functions.php';
         <div class="row">
             <div class="col-md-12">
                 <div class="logo-csr">
-                    
+
                 </div>
 
             </div>
         </div>
         <div class="apollo">
-            <h1>CORPORATE SOCIAL RESPONSIBILITY</h1>
+            <h1>CORPORATE SOCIAL RESPONSIBILITY </h1>
             <div class="under-line img13">
                 <img src="images/line.png" alt="">
             </div>
@@ -139,6 +150,26 @@ require_once 'inc/functions.php';
                         </div>
                     <?php endwhile; ?>
                 </div>
+                <?php
+                $queryPagination = $db->query("SELECT COUNT(*) FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ");
+                $rowPagination = mysqli_fetch_array($queryPagination);
+                $totalPosts = array_shift($rowPagination);
+                $postPerPage = $totalPosts / 5;
+                $postPerPage = ceil($postPerPage);
+                ?>
+                <nav>
+                    <ul class="pagination pull-left pagination-lg ">
+                        <?php if (isset($page) && $page > 1) : ?>
+                            <li class="page-item"><a href="csr.php?page=<?php echo $page - 1 ?>" class="class-link">&laquo;</a></li>
+                        <?php endif; ?>
+                        <?php for ($i = 1; $i <= $postPerPage; $i++) : ?>
+                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="csr.php?page=<?php echo $i; ?>">Page<?php echo $i; ?></a></li>
+                        <?php endfor; ?>
+                        <?php if (isset($page) && ($page + 1) <= $postPerPage) : ?>
+                            <li class="page-item"><a href="csr.php?page=<?php echo $page + 1 ?>" class="class-link">&raquo;</a></li>
+                        <?php endif; ?>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
