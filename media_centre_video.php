@@ -31,7 +31,26 @@ require_once 'inc/functions.php';
     ============================-->
     <?php
     // selecting media centre posts
-    $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY date_added desc ");
+    if (isset($_GET['page'])) {
+        $page = filter_var(mysqli_real_escape_string($db, $_GET['page']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+        if ($page == 0 || $page < 1) {
+            $showFrom = 0;
+        } else {
+            $showFrom = ($page * 5) - 5;
+        }
+        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY id desc LIMIT $showFrom,5 ");
+    } else {
+        // $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT 0,3 ");
+        echo "<script>window.location.href = 'media_centre_video.php?page=1'</script>";
+    }
+    //$mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY date_added desc "); //old
+    //pagination
+
+    $queryPagination = $db->query("SELECT COUNT(*) FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ");
+    $rowPagination = mysqli_fetch_array($queryPagination);
+    $totalPosts = array_shift($rowPagination);
+    $postPerPage = $totalPosts / 5;
+    $postPerPage = ceil($postPerPage);
     ?>
     <div class="vida">
         <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
@@ -97,7 +116,19 @@ require_once 'inc/functions.php';
                         </div>
                     <?php endwhile; ?>
                 </div>
-
+                <nav>
+                    <ul class="pagination pull-left pagination-lg ">
+                        <?php if (isset($page) && $page > 1) : ?>
+                            <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page - 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&laquo;</a></li>
+                        <?php endif; ?>
+                        <?php for ($i = 1; $i <= $postPerPage; $i++) : ?>
+                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="media_centre_video.php??<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
+                        <?php endfor; ?>
+                        <?php if (isset($page) && ($page + 1) <= $postPerPage) : ?>
+                            <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&raquo;</a></li>
+                        <?php endif; ?>
+                    </ul>
+                </nav>
             </div>
 
 

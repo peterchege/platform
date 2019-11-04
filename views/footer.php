@@ -20,7 +20,7 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><i class="ion-ios-arrow-right"></i> <a href="career.php">Careers</a></li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.php">CSR</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="csr.php?<?php echo  randomstring(900); ?>&csr.php?page=1&<?php echo  randomstring(900); ?>">CSR</a></li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="media_centre_video.php">Media Centre </a>
                         </li>
                         <li><i class="ion-ios-arrow-right"></i> <a href="trailblazer.php">Trail Blazers</a></li>
@@ -54,16 +54,12 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>BUY NOW</h4>
                     <ul>
-                        <li><i class="ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
-                                target="_target">Travel cover</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_target">Travel cover</a></li>
 
-                        <li><i class=" ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/auth" target="_target">Marine Open
+                        <li><i class=" ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/auth" target="_target">Marine Open
                                 Cover</a>
                         </li>
-                        <li><i class=" ion-ios-arrow-right"></i> <a
-                                href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
+                        <li><i class=" ion-ios-arrow-right"></i> <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" target="_target">Marine
                                 Single Transit </a></li>
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                         calc_domestic_package.php" target="_target"> Home cover ( Domestic
@@ -83,14 +79,10 @@
                     </p>
                     <br>
                     <div class="social-links">
-                        <a href="https://twitter.com/APAInsurance" target="_blank" class="twitter"><i
-                                class="fab fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/APAInsuranceLtd/" target="_blank" class="facebook"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/apainsuranceke/" target="_blank""class=" instagram"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/apa-insurance-limited/" target="_blank"
-                            class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/APAInsurance" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/APAInsuranceLtd/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/apainsuranceke/" target="_blank""class=" instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/apa-insurance-limited/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
