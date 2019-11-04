@@ -376,9 +376,7 @@ require_once 'inc/functions.php';
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 
