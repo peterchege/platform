@@ -324,7 +324,7 @@
                     <form class="form-container" id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
                         <h3 for="inputAddress" class="comp-detail">COMPANY DETAILS</h3>
                         <div class="container">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name"> Name of Organisation/company</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name"
@@ -365,25 +365,58 @@
                                     <input name="population_staff" type="text" class="form-control value"
                                         id="population_staff" value="" required>
                                 </div>
-                            </div>
-
-                            <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="54">
-                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                                <input type="hidden" id="type" name="type" value="request assistance">
-
-                            </div>
-                            <div class="row book-btn">
-                                <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                            class="fas fa-paper-plane"></i> </button>
+                            </div> -->
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="occupation">Company</label>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
+                                </div>
+
+                            </div>
+
                         </div>
-                    </form>
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="54">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="type" name="type" value="request assistance">
+
+                        </div>
+                        <div class="row book-btn">
+                            <div class="col-md-12">
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                        class="fas fa-paper-plane"></i> </button>
+                            </div>
+                        </div>
                 </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
