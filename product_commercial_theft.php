@@ -56,10 +56,10 @@
                             <div class="job-description text-center">
 
                                 <h2>Theft Cover</h2>
-                                <P class="text-justify">This covers loss or damage as a result of visible forcible and violent breaking into or out of the premises or any attempt thereat.
-                                    Mandatory warranties: Watchman warranty, Safe and Books clause
+                                <P class="text-justify">Burglary or theft insurance policy provides indemnity against loss or damage of insured property resulting from theft accompanied by visible, forcible and violent entry into, or exit out of the insured premises.
+                                    This insurance covers assets such as buildings, plant and machinery, stock, office equipment, furniture, fixtures and fittings
                                 </P>
-                                
+
                                 <br><br><br>
                                 <div class="row">
                                     <div class="col-md-4">
