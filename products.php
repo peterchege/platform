@@ -131,7 +131,7 @@
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
+                            contents whilst in the house and ...
 
                         </p>
                         <!-- button click -->
@@ -186,8 +186,8 @@
                             <h2>Golfers Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">Golfers cover protects your equipment against accidental damage or loss.
+                            The cover also covers you in hole-in-one as well as public....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -211,8 +211,7 @@
                             <h2> Motor Cycle Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops and livestock are your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the event...
                         </p>
                         <br>
                         <!-- button click -->
@@ -292,8 +291,8 @@
                             <h2>Pet Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and
+                            disease, Epidemics, Euthanasia on advice of...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

@@ -41,7 +41,8 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
 
                         <li class="nav-item">
@@ -67,47 +68,66 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Loss destruction or damage to the property described in the schedule or any part there of directly
+                                        <h2>Loss destruction or damage to the property described in the schedule or any
+                                            part there of directly
                                             by any of the undermentioned perils:-</h2>
                                         <li>
-                                            <p2><b> FIRE, LIGHTNING, EXPLOSION</b> but excluding loss or damage to boilers, economizer or other vessels, machinery or
-                                                apparatus in which pressure is used, or their contents resulting from their explosion.</p2>
+                                            <p2><b> FIRE, LIGHTNING, EXPLOSION</b> but excluding loss or damage to
+                                                boilers, economizer or other vessels, machinery or
+                                                apparatus in which pressure is used, or their contents resulting from
+                                                their explosion.</p2>
                                         </li><br>
                                         <li>
                                             <p2> EARTHQUAKE</p2>
                                         </li><br>
                                         <li>
-                                            <p2> STORM AND TEMPEST, FLOOD, BURSTING OR OVERFLOWING OF WATER TANKS, APPARATUS OR PIPES
+                                            <p2> STORM AND TEMPEST, FLOOD, BURSTING OR OVERFLOWING OF WATER TANKS,
+                                                APPARATUS OR PIPES
                                                 ( excluding the first Kshs. 500/- of each and every claim).</p2>
                                         </li><br>
                                         <li>
-                                            <p2>AIRCRAFT AND OTHER AERIAL DEVICES AND/OR ARTICLES DROPPED THEREFROM.</p2>
+                                            <p2>AIRCRAFT AND OTHER AERIAL DEVICES AND/OR ARTICLES DROPPED THEREFROM.
+                                            </p2>
                                         </li><br>
                                         <li>
-                                            <p2><b>IMPACT</b> with any of the said building insured under this Policy and/or any walls, gates and fences around and
-                                                pertaining thereto by any road vehicles, horses or cattle not belonging to or under the control of the Insured,
-                                                his agent or servant thereto by any road vehicles, horses or cattle not belonging to or under the control of
+                                            <p2><b>IMPACT</b> with any of the said building insured under this Policy
+                                                and/or any walls, gates and fences around and
+                                                pertaining thereto by any road vehicles, horses or cattle not belonging
+                                                to or under the control of the Insured,
+                                                his agent or servant thereto by any road vehicles, horses or cattle not
+                                                belonging to or under the control of
                                                 the Insured, his agent or servant.</p2>
                                         </li><br>
                                         <li>
                                             <p2>SUBTERRANEAN FIRE.</p2>
                                         </li><br>
                                         <li>
-                                            <p2>RIOT AND STRIKE which for the purpose of this insurance shall mean:-</p2>
+                                            <p2>RIOT AND STRIKE which for the purpose of this insurance shall mean:-
+                                            </p2>
                                             <ol>
-                                                <li>The Act of any person taking part together with others in any disturbances of the public peace
-                                                    (whether in connection with a strike or lock-out or not) not being directly or indirectly connected
+                                                <li>The Act of any person taking part together with others in any
+                                                    disturbances of the public peace
+                                                    (whether in connection with a strike or lock-out or not) not being
+                                                    directly or indirectly connected
                                                     with any of the following occurrences, namely:-
                                                 </li>
-                                                <li>The Act of any person taking part together with others in any disturbances of the public peace
-                                                    (whether in connection with a strike or lock-out or not) not being directly or indirectly connected
+                                                <li>The Act of any person taking part together with others in any
+                                                    disturbances of the public peace
+                                                    (whether in connection with a strike or lock-out or not) not being
+                                                    directly or indirectly connected
                                                     with any of the following occurrences, namely:-
                                                     <ol>
-                                                        <li>War, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not),
+                                                        <li>War, invasion, act of foreign enemy, hostilities or warlike
+                                                            operations (whether war be declared or not),
                                                             civil war,</li>
-                                                        <li>Mutiny, civil commotion assuming the proportions of or amounting to a popular rising, military rising, insurrection,
-                                                            rebellion, revolution, military or usurped power, or any act of any person acting on behalf of or in connection with
-                                                            any organization with activities directed towards the overthrow by force of government de jure or de facto to the influencing
+                                                        <li>Mutiny, civil commotion assuming the proportions of or
+                                                            amounting to a popular rising, military rising,
+                                                            insurrection,
+                                                            rebellion, revolution, military or usurped power, or any act
+                                                            of any person acting on behalf of or in connection with
+                                                            any organization with activities directed towards the
+                                                            overthrow by force of government de jure or de facto to the
+                                                            influencing
                                                             of it by terrorism or violence
                                                         </li>
                                                     </ol>
@@ -381,7 +401,7 @@
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name"
@@ -420,6 +440,40 @@
                                         </option>
                                     </select>
                                 </div>
+                            </div>
+
+                        </div> -->
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="occupation">Company</label>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
+                                </div>
+
                             </div>
 
                         </div>

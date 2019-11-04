@@ -264,7 +264,7 @@
                 <br>
                 <hr>
 
-                <div class="row text-center pos-btn">
+                <!-- <div class="row text-center pos-btn">
                     <div class="col-6 btn-assist">
                         <a href="http://apatest.dev">
                             <button id="save_quote" class="btn btn-quote">
@@ -277,7 +277,7 @@
                             Request Assistance
                         </button>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row text-center">
                     <div class="col-12 btn-red">

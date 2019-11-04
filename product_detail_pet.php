@@ -41,7 +41,7 @@
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">EXCLUSIONS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
@@ -56,59 +56,34 @@
                             <div class="job-description text-center">
 
                                 <h2>PET COVER </h2>
-                                <P class="text-justify">The policy provides cover to homeowners against accidental loss
-                                    or damage to their property caused by the following perils: Fire & lightning,
-                                    explosion, earthquake,
-                                    storm & tempest, riot & strike, malicious damage, theft, bursting and overflowing of
-                                    water tanks, apparatus, pipes and impact by road vehicles and animals, objects
-                                    falling from aircraft or aerial device.
+                                <P class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and
+                                    disease, Epidemics, Euthanasia on advice of a qualified vet doctor.
                                 </P>
-                                <P class="text-justify">This being a package policy, it caters for different insurable
-                                    interests in private homes;</p>
+                                <P class="text-justify"><b>What is covered ?</b> Any animal kept not for economic gain but for the owner’s comfort,
+                                    companionship and /or sentimental value. For example:
+                                    Security Dogs, cats, rabbits, among others</p>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Our main products features include:</h2>
-                                        <p> a.) Building Section</p>
-                                        <p2>
-                                            This section covers a private dwelling house including domestic
-                                            outbuildings, walls, gates and fences, all on the same premise or flat.
-                                        </p2>
+                                        <h2>The insurance will pay the owner of the animal should the animal die in any
+                                            of the following circumstances:</h2>
+                                        <ol>
+                                            <li>Accidental death caused by lightening, internal and external injuries, windstorm, snake
+                                                bite ,electrocution or flooding etc</li>
+                                            <li>Illness or disease</li>
+                                            <li>Widespread outbreak of an infectious disease affecting many animals at the same time in a region.</li>
+                                            <li>Where your animal is in a great deal of pain and there is no chance of a favourable outcome, the pet
+                                                can be put to sleep on advice of a qualified veterinary surgeon to prevent suffering</li>
 
-                                        <hr>
-                                        <p>b.) Contents Section </p>
-                                        <p2>The section caters for furniture, household goods, and personal effects of
-                                            every description,
-                                            the property of the insured or any member of his family normally residing
-                                            with him, fixtures
-                                            & fittings, the insured’s own or for which he is legally responsible, not
-                                            being the
-                                            landlord’s fixtures and fittings
-                                        </p2>
-                                        <hr>
-                                        <p>C.) All Risks Section</p>
-                                        <p2>This section provides cover in respect to specified portable and valuable
-                                            items,
-                                            which are carried outside the house. Items under this section would include
-                                            jewellery, watches, laptops, mobile phones
-                                        </p2>
-                                        <hr>
-                                        <p>d.) WIBA Section </p>
-                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and
-                                            drivers in respect of injury,
-                                            death or disease arising out of and in the course of employment.
-                                            The cover is mandatory for all employers as per the Work Injury Benefit Act
-                                            (WIBA).
-                                        </p2>
-                                        <hr>
-                                        <p>e.) Owners’/Occupiers’ Liability Section </p>
-                                        <p2>This section covers liabilities as a result of death or injury to third
-                                            parties and damage to third party
-                                            property whilst at the private dwelling house due to the negligence of the
-                                            owner or occupier.
-                                        </p2>
+                                        </ol>
 
-                                        <br><br><br><br>
+                                        <p>Straying and Theft risks</p>
+                                        <p2>Where a pet leaves its home and cannot be traced and is presumed dead after a defined period. </p2>
+                                        <p>Medical Cover (optional)</p>
+                                        <p2>This is an optional benefit loaded to the basic cover and covers Medical expenses incurred as a result
+                                            of illness and/or accident where treatment is carried out by a qualified veterinary surgeon. </p2>
+
+                                        <br><br> <br><br>
 
                                         <div class="row">
                                             <div class="col-md-4">
@@ -134,39 +109,28 @@
 
                         </div>
 
-                        <!-- FEATURES -->
+                        <!-- EXCLUSION -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Our main products features include:</h2><br>
+                                        <ol><br><br>
+                                            <li> Destruction of pet as a result of failure to comply with compliance the requirements of any Statute, order of Government
+                                                Department or Local Authority.</li>
+                                            <li>Loss or death as a result of lack of or inappropriate vaccination
+                                                programs
+                                            </li>
+                                            <li>Consequential loss or loss of use. </li>
+                                            <li>eterinary reports costs, valuation costs, vaccination costs, de-
+                                                worming and general animal care costs
+                                            </li>
+                                            <li>Culling </li>
+                                            <li>Disease contracted prior to commencement of cover
+                                            </li>
+                                        </ol>
 
-                                        <ol>
-                                            <li> BUILDING </li>
-                                            <li>CONTENTS</li>
-                                            <li>ALLRISK </li>
-                                            <li>WIBA </li>
-                                            <li>OWNER'S/ OCCUPIER'S LIABILITY</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>This is a combined policy that can be be taken out either by a tenant or a
-                                            home owner.<br>
-                                            The cover is a combination of both Material Damage & liabilities Liabilities
-                                            cover. In this regard the following key perils are included:
-                                            :</h3>
-                                        <ol>
-                                            <li>Fire & Special perils </li>
-                                            <li>Explosion, Riot & Strike </li>
-                                            <li>Impact damage by vehicles or animals </li>
-                                            <li>Burglary & theft </li>
-                                            <li>Accidental breakage of fragile items </li>
-                                            <li>Injury to domestic servants </li>
-                                            <li>Liability to occupiers or owners </li>
-                                        </ol>
-                                        <br>
-                                        <hr>
-                                        <br>
+                                        <br> <br>
                                     </div>
 
                                 </div>
