@@ -40,10 +40,8 @@ require_once 'inc/functions.php';
         }
         $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY id desc LIMIT $showFrom,5 ");
     } else {
-        // $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT 0,3 ");
         echo "<script>window.location.href = 'media_centre_video.php?page=1'</script>";
     }
-    //$mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY date_added desc "); //old
     //pagination
 
     $queryPagination = $db->query("SELECT COUNT(*) FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ");
@@ -122,7 +120,7 @@ require_once 'inc/functions.php';
                             <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page - 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&laquo;</a></li>
                         <?php endif; ?>
                         <?php for ($i = 1; $i <= $postPerPage; $i++) : ?>
-                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="media_centre_video.php??<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
+                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
                         <?php endfor; ?>
                         <?php if (isset($page) && ($page + 1) <= $postPerPage) : ?>
                             <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&raquo;</a></li>
