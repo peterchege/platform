@@ -296,13 +296,15 @@
                             in an accident, burnt, stolen ...
                         </p>
                         <!-- button click -->
+                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_cycle" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
-                                <a href="product_detail_cycle.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_cycle.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
 
                         </div>
