@@ -178,7 +178,8 @@
                             <h2 class="text-center">Goods In Transit (GIT)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Loss or damage to merchandise and goods incidental to the Insured's business
+                        <p class="text-justify">Loss or damage to merchandise and goods incidental to the Insured's
+                            business
                             the property of the Insured or held by the Insured in trust or...
                         </p>
                         <!-- button click -->
@@ -243,7 +244,8 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
+                                    class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -344,7 +346,8 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items described
+                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items
+                            described
                             in the schedule including the cost of temporary boarding up where necessary ...
                         </p>
                         <!-- button click -->
@@ -397,7 +400,8 @@
                             <h2 class="text-center">Theft Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or damage 
+                        <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or
+                            damage
                             of insured property resulting from theft accompanied by ....
 
                         </p>
@@ -492,7 +496,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_ch" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_group_life" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -717,7 +721,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_last_expense.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_last_expense.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -756,7 +761,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
