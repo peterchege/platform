@@ -97,6 +97,7 @@
     .trail-back::before {
         height: 210%;
         width: 100%;
+    }
 }
 
 .back-chatter{
@@ -105,7 +106,6 @@
      -moz-box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 0.3);
      box-shadow: 0px 0px 10px 6px rgba(226, 226, 226, 0.3);
 }
-
 .charter3 p  {
     font-family: 'Oswald',
         sans-serif;
