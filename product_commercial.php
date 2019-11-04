@@ -717,7 +717,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_last_expense" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
