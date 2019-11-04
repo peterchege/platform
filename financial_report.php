@@ -54,7 +54,7 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/fin_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
