@@ -3981,9 +3981,10 @@ COMMERCIAL COVER
             </div>
         </div>
     </div>
-</div><!-- ===================================== Group Life LEAD FORM  ===================================== -->
+</div>
+<!-- ===================================== Microinsurance LEAD FORM  ===================================== -->
 
-<div id="modal-full_group_life" class="uk-modal-full" uk-modal>
+<div id="modal-full_micro" class="uk-modal-full" uk-modal>
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
