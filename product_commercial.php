@@ -397,8 +397,8 @@
                             <h2 class="text-center">Theft Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This covers loss or damage as a result of visible forcible and violent breaking into or out of the premises or any attempt thereat.
-                            Mandatory...
+                        <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or damage 
+                            of insured property resulting from theft accompanied by ....
 
                         </p>
                         <!-- button click -->
