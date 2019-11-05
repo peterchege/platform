@@ -496,7 +496,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
+                                            class="fas fa-paper-plane"></button>
                                 </div>
                             </div>
                         </div>
