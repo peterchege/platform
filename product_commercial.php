@@ -299,7 +299,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_cycle" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full_motor_cycle" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6  prod-lf">
