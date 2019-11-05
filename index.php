@@ -37,7 +37,7 @@ require_once 'inc/functions.php';
     <div class="banner-home">
         <div class="content-camp">
             <h2>
-                ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY 
+                ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY
             </h2>
         </div>
 
