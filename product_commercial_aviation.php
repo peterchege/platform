@@ -38,12 +38,12 @@
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -354,15 +354,14 @@
 
                             </div>
 
-                        </div>session_status
+                        </div>
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="35">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                    ASSISTANCE
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT
                                 </button>
                             </div>
                         </div>
