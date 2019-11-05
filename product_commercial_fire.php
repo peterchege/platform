@@ -150,12 +150,11 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <<<<<<< HEAD <a href="#" class="btn btn-dark"
-                                                        data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
-                                                        =======
-                                                        <a href="#" class="btn btn-dark" data-target="#modal-full"
-                                                            uk-toggle>I Need Assistance</a>
-                                                        >>>>>>> b86b0ff531fc4b7bce620256dc4a978e04f5183f
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
+
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -262,11 +261,7 @@
                                     If you would like further explanation or assistance about how Fire insurance
                                     products can help protect your business, please click <b>I Need Assistance</b>.
                                 </p>
-                                <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
-                                    such as the claim form, proposal form etc.
-                                </p><br> <br>
+                                <br>
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
@@ -497,17 +492,16 @@
                             <div class="row book-btn">
                                 <div class="col-md-12">
                                     <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                            class="fas fa-paper-plane"></button>
-                                </div>
+                                            class="fas fa-paper-plane"> </i></button> </div>
                             </div>
                         </div>
                     </form>
-
                 </div>
             </div>
         </div>
     </div>
-    <!-- ===================================== REQUEST ASSISTANCE  ===================================== -->
+    <!--=====================================REQUEST
+                                                ASSISTANCE=====================================-->
 
     <div id="modal-full_r" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -520,7 +514,8 @@
 
 
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL
+                            DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
@@ -562,8 +557,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST
+                                        ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
