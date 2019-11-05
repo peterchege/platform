@@ -336,7 +336,7 @@
                                     <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full1"
                                             uk-toggle="target: #modal-close-outside">
-                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                            <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -500,55 +500,53 @@
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
                                     <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
                                         data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location"
                                         placeholder="Nairobi" value="" required>
                                 </div>
-                                <div class=" form-group col-md-12">
-                                    <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company"
-                                        placeholder="Company" value="" required>
+                                <div class="form-group col-md-12">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
-
                             </div>
 
-                        </div>
-
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="7">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="type" name="type" value="request assistance">
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                        class="fas fa-paper-plane"></i>
-                                </button>
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="33">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="request assistance">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
                             </div>
                         </div>
+                    </form>
+
                 </div>
-                </form>
-
             </div>
         </div>
-    </div>
     </div>
 
 
