@@ -321,12 +321,12 @@
                                     If you would like further assistance explanation or assistance about this insurance
                                     product, please click I <b>Need Assistance.</b>
                                 </p>
-                                <p>
+                                <!-- <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
                                     such as the claim form, proposal form etc.
                                 </p>
-                                <br><br> <br>
+                                <br><br> <br> -->
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center " data-target="#modal-full" uk-toggle>
