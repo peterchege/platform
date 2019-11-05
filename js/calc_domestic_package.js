@@ -145,6 +145,7 @@ $(document).ready(function () {
                             confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
                             confirmButtonAriaLabel: 'Thumbs up, great!',
                         });
+                        form.trigger('reset');
                     } else {
                         //error sweet alert
                         swal.fire({
