@@ -81,7 +81,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-dark" data-target="#modal-full" uk-toggle>I
+                                                <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
                                                     Need Assistance</a>
                                             </div>
                                         </div>
@@ -405,8 +405,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                        ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
+                                    </button>
                                 </div>
                             </div>
                         </div>
