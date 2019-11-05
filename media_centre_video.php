@@ -38,7 +38,7 @@ require_once 'inc/functions.php';
         } else {
             $showFrom = ($page * 5) - 5;
         }
-        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY id desc LIMIT $showFrom,5 ");
+        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'Media Centre' AND status = 1 ORDER BY id desc LIMIT $showFrom,6 ");
     } else {
         echo "<script>window.location.href = 'media_centre_video.php?page=1'</script>";
     }

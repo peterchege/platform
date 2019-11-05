@@ -38,7 +38,7 @@ require_once 'inc/functions.php';
         } else {
             $showFrom = ($page * 5) - 5;
         }
-        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT $showFrom,5 ");
+        $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT $showFrom,6 ");
     } else {
         // $mediaC = $db->query("SELECT * FROM media_centre_posts WHERE category = 'CSR' AND status = 1 ORDER BY id desc LIMIT 0,3 ");
         echo "<script>window.location.href = 'csr.php?page=1'</script>";
@@ -152,7 +152,7 @@ require_once 'inc/functions.php';
                                         ?>
                                 </p>
                                 <div class="btn-read">
-                                    <a href=csr_detail.php?<?php echo  randomstring(900); ?>&post=<?php echo  $post['id']; ?>&<?php echo  randomstring(100) ?>" class="btn btn-primary"> Read more</a>
+                                    <a href=csr_detail.php?<?php echo  randomstring(100); ?>&post=<?php echo  $post['id']; ?>&<?php echo  randomstring(100) ?>" class="btn btn-primary"> Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -162,13 +162,13 @@ require_once 'inc/functions.php';
                 <nav>
                     <ul class="pagination pull-left pagination-lg ">
                         <?php if (isset($page) && $page > 1) : ?>
-                            <li class="page-item"><a href="csr.php?<?php echo  randomstring(900); ?>&page=<?php echo $page - 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&laquo;</a></li>
+                            <li class="page-item"><a href="csr.php?<?php echo  randomstring(100); ?>&page=<?php echo $page - 1 ?>&<?php echo  randomstring(100); ?>" class="class-link">&laquo;</a></li>
                         <?php endif; ?>
                         <?php for ($i = 1; $i <= $postPerPage; $i++) : ?>
-                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="csr.php??<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
+                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="csr.php??<?php echo  randomstring(100); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(100); ?>">Page<?php echo $i; ?></a></li>
                         <?php endfor; ?>
                         <?php if (isset($page) && ($page + 1) <= $postPerPage) : ?>
-                            <li class="page-item"><a href="csr.php?<?php echo  randomstring(900); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&raquo;</a></li>
+                            <li class="page-item"><a href="csr.php?<?php echo  randomstring(100); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(100); ?>" class="class-link">&raquo;</a></li>
                         <?php endif; ?>
                     </ul>
                 </nav>
