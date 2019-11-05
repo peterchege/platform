@@ -133,7 +133,7 @@
                                                 </div> -->
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
