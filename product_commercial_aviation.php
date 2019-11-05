@@ -164,11 +164,11 @@
                                     If you would like further explanation or assistance about Aviation insurance,
                                     please click <b>I Need Assistance</b>.
                                 </p>
-                                <p>
+                                <!-- <p>
                                     <b> Download forms</b> will give you access to any relevant documents for Aviation
                                     insurance,
                                     such as the claim form, proposal form etc.
-                                </p><br> <br>
+                                </p><br> <br> -->
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
@@ -178,8 +178,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
-                                                uk-toggle="target: #modal-close-outside"> Download Forms </a>
+                                            <!-- <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Forms </a> -->
                                         </div>
                                     </div>
                                     <div class="col-md-4">
