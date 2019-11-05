@@ -2229,8 +2229,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                    ASSISTANCE</button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
                             </div>
                         </div>
                     </div>
@@ -2341,8 +2340,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">REQUEST
-                                    ASSISTANCE</button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT</button>
                             </div>
                         </div>
                     </div>
