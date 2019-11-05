@@ -37,7 +37,7 @@ require_once 'inc/functions.php';
     <div class="banner-home">
         <div class="content-camp">
             <h2>
-                ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY 
+                ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY
             </h2>
         </div>
 
@@ -65,7 +65,7 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <a href="calc_domestic_package.php">
+                    <a href="#">
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
