@@ -65,7 +65,7 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <a href="#">
+                    <a href="calc_domestic_package.php">
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-home"></i>
                             <p>Domestic Package</p>
