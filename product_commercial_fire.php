@@ -40,10 +40,10 @@
                                 aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#profile" role="tab"
                                 aria-controls="contact" aria-selected="false">FEATURES / BENEFITS </a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
@@ -150,8 +150,12 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
-                                                        uk-toggle>I Need Assistance</a>
+                                                    <<<<<<< HEAD <a href="#" class="btn btn-dark"
+                                                        data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                        =======
+                                                        <a href="#" class="btn btn-dark" data-target="#modal-full"
+                                                            uk-toggle>I Need Assistance</a>
+                                                        >>>>>>> b86b0ff531fc4b7bce620256dc4a978e04f5183f
                                                 </div>
                                             </div>
                                         </div>
