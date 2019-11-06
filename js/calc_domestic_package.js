@@ -63,7 +63,7 @@ $(document).ready(function () {
             //training levy(0.2%) and policyHolders fund(0.25%) and stamp duty(40)
             total = premium + (0.002 * premium) + (0.0025 * premium) + 40;
             if (total) {
-                var data = $('#form').serialize();
+                //var data = $('#form').serialize();
                 $('html,body').animate({
                     scrollTop: $('.box-container1').offset().top - 200
                 }, 1000);
