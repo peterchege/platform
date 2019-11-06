@@ -66,10 +66,10 @@
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/apa_2018_new" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -93,10 +93,10 @@
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2017" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/apa_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -152,10 +152,10 @@
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/life_2018" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/life_2018" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -182,7 +182,7 @@
                                         <a href="digital/financial_report/life_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -209,7 +209,7 @@
                                         <a href="digital/financial_report/life_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
