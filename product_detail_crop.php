@@ -39,16 +39,20 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -60,7 +64,8 @@
                             <div class="job-description text-center">
 
                                 <h2> CROP COVER </h2>
-                                <P class="text-justify">Your crops is your source of income and guaranteeing their safety
+                                <P class="text-justify">Your crops is your source of income and guaranteeing their
+                                    safety
                                     should bring you ultimate happiness.
                                 </P>
                                 <hr>
@@ -70,21 +75,27 @@
                                         <!-- Single Animal Cover -->
                                         <p>1.) Multi-Peril Crop Insurance (MPCI)</p>
                                         <p2>A seasonal cover against physical loss or damage to growing crop directly
-                                            caused by assorted natural calamities such as Drought, Uncontrollable Pests &
-                                            Diseases, Hailstone Damage, Flooding, Fire, Lightning, Earthquake, Explosion,
+                                            caused by assorted natural calamities such as Drought, Uncontrollable Pests
+                                            &
+                                            Diseases, Hailstone Damage, Flooding, Fire, Lightning, Earthquake,
+                                            Explosion,
                                             Frost and Windstorm.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            In this we cover all sorts of crops in a single strand of large or small farms.
-                                            The claim payable is determined by a qualified loss assessor who inspects and
+                                            In this we cover all sorts of crops in a single strand of large or small
+                                            farms.
+                                            The claim payable is determined by a qualified loss assessor who inspects
+                                            and
                                             scientifically quantifies the magnitude of loss.
 
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for all kinds of crops irrespective the farm size, cover form any form of
-                                            loss associated with nature, stability, improved financial management and comfort
+                                            Cover for all kinds of crops irrespective the farm size, cover form any form
+                                            of
+                                            loss associated with nature, stability, improved financial management and
+                                            comfort
                                             in knowing there is a safety net for unexpected loss and associated costs.
                                         </p2>
                                         <!-- END Single Animal Cover -->
@@ -92,7 +103,8 @@
                                         <!-- Poultry insurance -->
                                         <p>2.) Named-Peril Crop Insurance (NPCI) </p>
                                         <p2>In this we offer cover all sorts of crops in ether small or large farms.
-                                            The claim payable is determined by a qualified loss assessor who inspects and
+                                            The claim payable is determined by a qualified loss assessor who inspects
+                                            and
                                             scientifically quantifies the magnitude of loss.
 
                                         </p2>
@@ -110,7 +122,8 @@
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
                                             Cover for all kinds of crops irrespective the farm size, stability, improved
-                                            financial management and comfort in knowing there is a safety net for unexpected
+                                            financial management and comfort in knowing there is a safety net for
+                                            unexpected
                                             loss and associated costs
 
                                         </p2>
@@ -124,69 +137,88 @@
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            This is cover steel structured greenhouses only irrespective of size. The indemnity
-                                            is based on the actual loss as assessed and quantified by our appointed loss assessors
+                                            This is cover steel structured greenhouses only irrespective of size. The
+                                            indemnity
+                                            is based on the actual loss as assessed and quantified by our appointed loss
+                                            assessors
                                             less deductibles.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for all kinds of crops, assured stability, improved financial management and
-                                            comfort in knowing there is a safety net for unexpected loss and associated costs.
+                                            Cover for all kinds of crops, assured stability, improved financial
+                                            management and
+                                            comfort in knowing there is a safety net for unexpected loss and associated
+                                            costs.
                                         </p2>
                                         <!-- END OF Dogs and Pet Insurance -->
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
                                         <p>4.) Forest Insurance</p>
-                                        <p2>This is cover for commercial tree farms, fruit orchards, natural forests and tree
+                                        <p2>This is cover for commercial tree farms, fruit orchards, natural forests and
+                                            tree
                                             nurseries against; fire, lightning, windstorm, flooding, hail etc.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            The tree value is evaluated by a forest ranger or a qualified specialist and agreed
-                                            before cover. The claim payable is determined by a qualified loss assessor who inspects
+                                            The tree value is evaluated by a forest ranger or a qualified specialist and
+                                            agreed
+                                            before cover. The claim payable is determined by a qualified loss assessor
+                                            who inspects
                                             and scientifically quantifies the magnitude of loss less deductibles.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for all kinds of commercial and aesthetic trees, assured stability, improved
-                                            financial management and peace in knowing there is a safety net for unexpected loss
+                                            Cover for all kinds of commercial and aesthetic trees, assured stability,
+                                            improved
+                                            financial management and peace in knowing there is a safety net for
+                                            unexpected loss
                                             and associated costs
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
                                         <p>5.) Area Yield Index Insurance (AYII)</p>
-                                        <p2>A seasonal cover for crop yield shortfall below the historical average yield in a
+                                        <p2>A seasonal cover for crop yield shortfall below the historical average yield
+                                            in a
                                             unit area of insurance (UAI).
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            It can only be for a particular crop within a defined area of homogenous production.
-                                            Payout is based on a crop cutting exercises results done at the end of the harvesting period.
+                                            It can only be for a particular crop within a defined area of homogenous
+                                            production.
+                                            Payout is based on a crop cutting exercises results done at the end of the
+                                            harvesting period.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for all kinds of crops, assured stability of many farmers in one location, affordable,
-                                            improved financial management and peace in knowing there is a safety net for unexpected loss
+                                            Cover for all kinds of crops, assured stability of many farmers in one
+                                            location, affordable,
+                                            improved financial management and peace in knowing there is a safety net for
+                                            unexpected loss
                                             and associated costs.
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
                                         <p>6.)Weather Index Insurance (WII) </p>
-                                        <p2>A seasonal cover for loss or damage to growing crops directly caused by deficit or excesses
+                                        <p2>A seasonal cover for loss or damage to growing crops directly caused by
+                                            deficit or excesses
                                             in weather conditions such as temperature, sunlight, wind speed or rainfall.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            It can only be for a particular crop within a defined area of homogenous weather patterns.
-                                            Payout based on actual weather measurement at the reference weather station or satellite in
+                                            It can only be for a particular crop within a defined area of homogenous
+                                            weather patterns.
+                                            Payout based on actual weather measurement at the reference weather station
+                                            or satellite in
                                             relation to effects at any stage of a crop growth cycle.
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for many farmers at once, assured stability, affordable, easy claim process,
-                                            improved financial management and peace in knowing there is a safety net for unexpected
+                                            Cover for many farmers at once, assured stability, affordable, easy claim
+                                            process,
+                                            improved financial management and peace in knowing there is a safety net for
+                                            unexpected
                                             loss and associated costs.
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
@@ -199,12 +231,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
-                                                    <a href="#" class="btn btn-danger"> Download Forms </a>
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
+                                                    <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r"
+                                                    uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -238,16 +272,22 @@
                                         <ol>
                                             <li>In this we cover all sorts of crops in a single strand of large or
                                                 small farms. The claim payable is determined by a qualified loss
-                                                assessor who inspects and scientifically quantifies the magnitude of loss.
+                                                assessor who inspects and scientifically quantifies the magnitude of
+                                                loss.
                                             </li><br>
                                             <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days
-                                                to 1½ years. This cover Indemnifies on the insured’s bird’s death due to;
-                                                uncontrollable diseases and Accidents. The cover can be extended to cover
-                                                Transit Risk as well as Theft. Threshold for the cover is a Minimum premium
-                                                of 5,000 Kenya shillings. The policy covers the maximum capacity of birds
+                                                to 1½ years. This cover Indemnifies on the insured’s bird’s death due
+                                                to;
+                                                uncontrollable diseases and Accidents. The cover can be extended to
+                                                cover
+                                                Transit Risk as well as Theft. Threshold for the cover is a Minimum
+                                                premium
+                                                of 5,000 Kenya shillings. The policy covers the maximum capacity of
+                                                birds
                                                 that a farmer’s structure can hold.
                                             </li><br>
-                                            <li>This is cover steel structured greenhouses only irrespective of size. The
+                                            <li>This is cover steel structured greenhouses only irrespective of size.
+                                                The
                                                 indemnity is based on the actual loss as assessed and quantified by our
                                                 appointed loss assessors less deductibles.
                                             </li><br>
@@ -261,8 +301,10 @@
                                                 the end of the harvesting period.
                                             </li><br>
                                             <li>It can only be for a particular crop within a defined area of homogenous
-                                                weather patterns. Payout based on actual weather measurement at the reference
-                                                weather station or satellite in relation to effects at any stage of a crop
+                                                weather patterns. Payout based on actual weather measurement at the
+                                                reference
+                                                weather station or satellite in relation to effects at any stage of a
+                                                crop
                                                 growth cycle.
                                             </li>
                                         </ol>
@@ -288,22 +330,32 @@
                                 <ol>
                                     <li>Cover for all kinds of crops irrespective the farm size, cover form any
                                         form of loss associated with nature, stability, improved financial management
-                                        and comfort in knowing there is a safety net for unexpected loss and associated costs.
+                                        and comfort in knowing there is a safety net for unexpected loss and associated
+                                        costs.
                                     </li><br>
-                                    <li>Cover for all kinds of crops irrespective the farm size, stability, improved financial
-                                        management and comfort in knowing there is a safety net for unexpected loss and associated costs
+                                    <li>Cover for all kinds of crops irrespective the farm size, stability, improved
+                                        financial
+                                        management and comfort in knowing there is a safety net for unexpected loss and
+                                        associated costs
                                     </li><br>
-                                    <li>Cover for all kinds of crops, assured stability, improved financial management and comfort in knowing
+                                    <li>Cover for all kinds of crops, assured stability, improved financial management
+                                        and comfort in knowing
                                         there is a safety net for unexpected loss and associated costs.
                                     </li><br>
-                                    <li>Cover for all kinds of commercial and aesthetic trees, assured stability, improved financial
-                                        management and peace in knowing there is a safety net for unexpected loss and associated costs
+                                    <li>Cover for all kinds of commercial and aesthetic trees, assured stability,
+                                        improved financial
+                                        management and peace in knowing there is a safety net for unexpected loss and
+                                        associated costs
                                     </li><br>
-                                    <li>Cover for all kinds of crops, assured stability of many farmers in one location, affordable, improved
-                                        financial management and peace in knowing there is a safety net for unexpected loss and associated costs.
+                                    <li>Cover for all kinds of crops, assured stability of many farmers in one location,
+                                        affordable, improved
+                                        financial management and peace in knowing there is a safety net for unexpected
+                                        loss and associated costs.
                                     </li><br>
-                                    <li>Cover for many farmers at once, assured stability, affordable, easy claim process, improved
-                                        financial management and peace in knowing there is a safety net for unexpected loss and associated costs.
+                                    <li>Cover for many farmers at once, assured stability, affordable, easy claim
+                                        process, improved
+                                        financial management and peace in knowing there is a safety net for unexpected
+                                        loss and associated costs.
                                     </li>
                                 </ol>
                                 <br>
@@ -327,11 +379,11 @@
                                     If you would like further assistance explanation or assistance about this insurance
                                     product, please click I <b>Need Assistance.</b>
                                 </p>
-                                <p>
+                                <!-- <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
                                     such as the claim form, proposal form etc.
-                                </p><br> <br>
+                                </p><br> <br> -->
                                 <div class="row">
                                     <div class="col-4">
                                         <div class="load-more text-center" data-target="#modal-full" uk-toggle>
@@ -339,8 +391,9 @@
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
-                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
+                                            <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                         </div>
                                     </div>
                                     <div class="col-4">
@@ -371,14 +424,15 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
                                     <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
@@ -421,10 +475,52 @@
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="42">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div> -->
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                </div>
                             </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="occupation">Company</label>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="container">
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="37">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -441,7 +537,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -452,22 +549,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -481,7 +585,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

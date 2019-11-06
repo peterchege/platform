@@ -26,34 +26,34 @@
 
         <div class="row ">
             <div class="col-md-6 box-container">
-                <form id="form">
+                <form method="POST" action="<?php $_SERVER['PHP_SELF'] ?>" id="form">
                     <div class="container forn-container error-margin" id="form-container">
                         <h2 class="text-center">Premium Information</h2>
                         <hr>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="company_name">Name</label>
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Full Name" value="" required>
+                                <label for="full_name">Name</label>
+                                <input name="full_name" id="full_name" type="text" class="form-control" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputAddress2">Phone Number</label>
-                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="" required>
+                                <label for="phone">Phone Number</label>
+                                <input name="phone" id="phone" type="tel" class="form-control" placeholder="07XX XXX 537" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="inputAddress">Email Address</label>
+                                <label for="email">Email Address</label>
                                 <input name="email" id="email" type="email" class="form-control" placeholder="example@gmail.com" value="" required>
                             </div>
                             <div class=" form-group col-md-6">
-                                <label for="inputAddress2">Location</label>
+                                <label for="location">Location</label>
                                 <input name="location" id="location" type="text" class="form-control" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="inputAddress">Property</label>
+                                <label for="propery">Property</label>
                                 <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="owner" name="owner" value="owner">Owner</option>
@@ -78,7 +78,7 @@
                             </div>
 
                             <div class="form-group col-md-6" id="text">
-                                <input name="building_amount" id="building_amount" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled>
+                                <input name="building" id="building" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled>
                             </div>
                         </div>
 
@@ -86,12 +86,12 @@
                         <script>
                             function myFunction_build() {
                                 if (build_check.checked == true) {
-                                    document.getElementById("building_amount").disabled = false;
-                                    document.getElementById("building_amount").value = '';
+                                    document.getElementById("building").disabled = false;
+                                    document.getElementById("building").value = '';
 
                                 } else {
-                                    document.getElementById("building_amount").disabled = true;
-                                    document.getElementById("building_amount").value = '';
+                                    document.getElementById("building").disabled = true;
+                                    document.getElementById("building").value = '';
 
 
                                 }
@@ -114,7 +114,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="content_amount" id="content_amount" type="text" class="form-control number-amount" placeholder="Contents Total Value" value="" disabled>
+                                <input name="content" id="content" type="text" class="form-control number-amount" placeholder="Contents Total Value" value="" disabled>
                             </div>
                         </div>
 
@@ -122,11 +122,11 @@
                         <script>
                             function myFunction_content() {
                                 if (content_check.checked == true) {
-                                    document.getElementById("content_amount").disabled = false;
-                                    document.getElementById("content_amount").value = '';
+                                    document.getElementById("content").disabled = false;
+                                    document.getElementById("content").value = '';
                                 } else {
-                                    document.getElementById("content_amount").disabled = true;
-                                    document.getElementById("content_amount").value = '';
+                                    document.getElementById("content").disabled = true;
+                                    document.getElementById("content").value = '';
                                 }
                             }
                         </script>
@@ -147,7 +147,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="risk_amount" id="risk_amount" type="text" class="form-control number-amount" placeholder="All Risk Total value" disabled>
+                                <input name="allrisk" id="allrisk" type="text" class="form-control number-amount" placeholder="All Risk Total value" disabled>
 
                             </div>
                         </div>
@@ -157,11 +157,11 @@
                         <script>
                             function myFunction_risk() {
                                 if (risk_check.checked == true) {
-                                    document.getElementById("risk_amount").disabled = false;
-                                    document.getElementById("risk_amount").value = '';
+                                    document.getElementById("allrisk").disabled = false;
+                                    document.getElementById("allrisk").value = '';
                                 } else {
-                                    document.getElementById("risk_amount").disabled = true;
-                                    document.getElementById("risk_amount").value = '';
+                                    document.getElementById("allrisk").disabled = true;
+                                    document.getElementById("allrisk").value = '';
                                 }
                             }
                         </script>
@@ -182,7 +182,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <input name="domestic_amount" id="domestic_amount" type="text" class="form-control number-amount" placeholder="Total Annual Salary" disabled>
+                                <input name="domestic" id="domestic" type="text" class="form-control number-amount" placeholder="Total Annual Salary" disabled>
                             </div>
                         </div>
 
@@ -190,11 +190,11 @@
                         <script>
                             function myFunction_domestic() {
                                 if (domestic_check.checked == true) {
-                                    document.getElementById("domestic_amount").disabled = false;
-                                    document.getElementById("domestic_amount").value = '';
+                                    document.getElementById("domestic").disabled = false;
+                                    document.getElementById("domestic").value = '';
                                 } else {
-                                    document.getElementById("domestic_amount").disabled = true;
-                                    document.getElementById("domestic_amount").value = '';
+                                    document.getElementById("domestic").disabled = true;
+                                    document.getElementById("domestic").value = '';
                                 }
                             }
                         </script>
@@ -205,7 +205,7 @@
                             <div class="form-group col-md-6 ">
                                 <div class="row check-cn">
                                     <div class="col-2 check-bx">
-                                        <input class="form-check-input" type="checkbox" id="liability" onclick="myFunction_liability()">
+                                        <input class="form-check-input" type="checkbox" id="liabilityc" onclick="myFunction_liability()">
                                     </div>
                                     <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1" data-target="#modal-center4" uk-toggle>
@@ -218,18 +218,18 @@
 
                             <div class="form-group col-md-6">
                                 <label for="inputAddress">Declare Amount</label>
-                                <input name="liability_amount" id="liability_amount" type="text" class="form-control number-amount" placeholder="500,000" disabled>
+                                <input name="liability" id="liability" type="text" class="form-control number-amount" placeholder="500,000" disabled>
                             </div>
                         </div>
 
                         <script>
                             function myFunction_liability() {
-                                if (liability.checked == true) {
-                                    document.getElementById("liability_amount").disabled = false;
-                                    document.getElementById("liability_amount").value = '';
+                                if (liabilityc.checked == true) {
+                                    document.getElementById("liability").disabled = false;
+                                    document.getElementById("liability").value = '';
                                 } else {
-                                    document.getElementById("liability_amount").disabled = true;
-                                    document.getElementById("liability_amount").value = '';
+                                    document.getElementById("liability").disabled = true;
+                                    document.getElementById("liability").value = '';
                                 }
                             }
                         </script>
@@ -281,7 +281,7 @@
 
                 <div class="row text-center">
                     <div class="col-12 btn-red">
-                        <button id="buy_now" class="btn">
+                        <button name="buy_now" id="buy_now" class="btn">
                             BUY NOW
                         </button>
                     </div>
@@ -371,7 +371,7 @@
             <div class="modal-cont">
                 <h2>LIABILITY COVER</h2>
                 <hr>
-                <p>This section covers liabilities as a result of death or injury to third parties and damage to third party 
+                <p>This section covers liabilities as a result of death or injury to third parties and damage to third party
                     property whilst at the private dwelling house due to the negligence of the owner or occupier.
 
                 </p>
