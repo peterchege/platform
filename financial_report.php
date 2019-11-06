@@ -109,7 +109,7 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/apa_2016.jpg">
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
@@ -120,7 +120,7 @@
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text">Read more <i class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/apa_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
                                         <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
