@@ -102,13 +102,12 @@
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2017"
-                                            class="uk-button uk-button-text my-text">Read more <i
+                                        <a href="digital/financial_report/apa_2018_new"
+                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
                                                 class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2018 APA Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
                                                 class="fas fa-download"></i></a>
                                     </div>
                                 </div>
@@ -206,12 +205,11 @@
                                 <div class="row">
                                     <div class="c0l-6">
                                         <a href="digital/financial_report/apa_2017"
-                                            class="uk-button uk-button-text my-text">Read more <i
+                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
                                                 class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Life Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
                                                 class="fas fa-download"></i></a>
                                     </div>
                                 </div>
@@ -276,12 +274,11 @@
                                 <div class="row">
                                     <div class="c0l-6">
                                         <a href="digital/financial_report/life_2018"
-                                            class="uk-button uk-button-text my-text">Read more <i
+                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
                                                 class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2015 APA Life Annual Report and Financial Statements.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
                                                 class="fas fa-download"></i></a>
                                     </div>
                                 </div>
@@ -309,12 +306,11 @@
                                 <div class="row">
                                     <div class="c0l-6">
                                         <a href="digital/financial_report/life_2017"
-                                            class="uk-button uk-button-text my-text">Read more <i
+                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
                                                 class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2015 APA General Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
                                                 class="fas fa-download"></i></a>
                                     </div>
                                 </div>
