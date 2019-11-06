@@ -47,111 +47,7 @@
 
         <section>
             <div class="container">
-
                 <!-- APA INSURANCE FINANCIAL REPORTS -->
-
-                <div class="row text-left">
-
-                    <div class="col card-fin">
-                        <div class="uk-card uk-card-default ">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                    <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/fin_1.jpg">
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2019</b></time></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-footer">
-                                <div class="row">
-                                    <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2018"
-                                            class="uk-button uk-button-text my-text">Read more <i
-                                                class="fas fa-eye"></i></a>
-                                    </div>
-                                    <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2019 APA Life Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
-                                                class="fas fa-download"></i></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col card-fin">
-                        <div class="uk-card uk-card-default ">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                    <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/apa_2017.jpg">
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-footer">
-                                <div class="row">
-                                    <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2018_new"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
-                                    </div>
-                                    <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
-                                                class="fas fa-download"></i></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col card-fin">
-                        <div class="uk-card uk-card-default ">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                    <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/apa_2016.jpg">
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-footer">
-                                <div class="row">
-                                    <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2016"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
-                                    </div>
-                                    <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2017 APA Life Annual Report and Financial Statements.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
-                                                class="fas fa-download"></i></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- APA INSURANCE FINANCIAL REPORTS -->
-
                 <div class="row text-left">
 
                     <div class="col card-fin">
@@ -163,22 +59,17 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2018"
-                                            class="uk-button uk-button-text my-text">Read more <i
-                                                class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/apa_2018_new" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2017 APA Insurance Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
-                                                class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -191,59 +82,48 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/apa_2017.jpg">
-                                    </div>
-                                    <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="uk-card-footer">
-                                <div class="row">
-                                    <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2017"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
-                                    </div>
-                                    <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
-                                                class="fas fa-download"></i></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col card-fin">
-                        <div class="uk-card uk-card-default ">
-                            <div class="uk-card-header">
-                                <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                    <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/apa_2016.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/apa_2017.jpg">
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/apa_2016"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/apa_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Insurance Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
-                                                class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col card-fin">
+                        <div class="uk-card uk-card-default ">
+                            <div class="uk-card-header">
+                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/apa_2016.jpg">
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="uk-card-footer">
+                                <div class="row">
+                                    <div class="c0l-6">
+                                        <a href="digital/financial_report/apa_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
+                                    </div>
+                                    <div class="c0l-6">
+                                        <a href="#" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -265,21 +145,17 @@
                                     </div>
                                     <div class="uk-width-expand">
                                         <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2015</b></time></p>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/life_2018_new"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/life_2018_new" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
-                                                class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -292,26 +168,21 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/life_2017.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/life_2017.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2015</b></time></p>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/life_2017"
-                                            class="uk-button uk-button-text my-text" target="_blank">Read more <i
-                                                class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/life_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i
-                                                class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -324,26 +195,21 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/mmf_1.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/life_2016.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2013</b></time></p>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA LIFE</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="uk-card-footer">
                                 <div class="row">
                                     <div class="c0l-6">
-                                        <a href="digital/financial_report/mmf_2016"
-                                            class="uk-button uk-button-text my-text">Read more <i
-                                                class="fas fa-eye"></i></a>
+                                        <a href="digital/financial_report/life_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2013 APA Insurance Kenya Annual Report.pdf"
-                                            class="uk-button uk-button-text my-text">Download <i
-                                                class="fas fa-download"></i></a>
+                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -352,8 +218,8 @@
                     </div>
 
                 </div>
-                <!--
-                APOLLO ASSET MANAGMENT FINANCIAL REPORT
+
+                <!-- APOLLO ASSET MANAGMENT FINANCIAL REPORT -->
                 <div class="row text-left">
 
                     <div class="col card-fin">
@@ -364,9 +230,8 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/mmf_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APA INSURANCE</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2010</b></time></p>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
                             </div>
@@ -389,14 +254,11 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/asset_2017.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_2017.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET
-                                            MANAGMENT</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
                                     </div>
                                 </div>
                             </div>
@@ -419,14 +281,11 @@
                             <div class="uk-card-header">
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
-                                        <img class="uk-border-circle1" width="100" height="50"
-                                            src="img/doc/asset_1.jpg">
+                                        <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET
-                                            MANAGMENT</h3>
-                                        <p class="uk-text-meta uk-margin-remove-top"><time
-                                                datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
                                     </div>
                                 </div>
                             </div>
@@ -445,7 +304,7 @@
                     </div>
 
                 </div>
--->
+
             </div>
             <br>
 
@@ -465,8 +324,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -476,26 +334,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -510,16 +364,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -565,8 +417,7 @@
                 To help us process your claim faster,
                 please download and complete the claim form and prepare the following documentation:
                 <ol>
-                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)
-                    </li>
+                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
                     <li>Police Abstract</li>
                     <li>Copy of Driving License</li>
                     <li>Copy of the Log Book </li>
@@ -583,8 +434,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim3.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -594,26 +444,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -628,16 +474,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -672,8 +516,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/claim4.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -683,26 +526,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -717,16 +556,14 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="registration_number">Vehicle Registarion Number </label>
-                                    <input name="registration_number" type="text" class="form-control"
-                                        id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                    <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
-                                        required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
                                 </div>
                             </div>
 
@@ -772,8 +609,7 @@
                 To help us process your claim faster,
                 please download and complete the claim form and prepare the following documentation:
                 <ol>
-                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)
-                    </li>
+                    <li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li>
                     <li>Police Abstract</li>
                     <li>Copy of Driving License</li>
                     <li>Copy of the Log Book </li>
@@ -785,55 +621,55 @@
     <?php require_once('inc/scripts.php'); ?>
     <script src="js/parsley.min.js"></script>
     <script>
-    $(document).ready(function() {
-        $('.form').parsley();
-        $('.form').on('submit', function(e) {
-            e.preventDefault();
-            var form = $(this);
-            $.ajax({
-                type: "POST",
-                url: "ajax/claims.php?request=motor_claim",
-                data: new FormData(this),
-                dataType: 'json',
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function() {
-                    $('button[name=request]').attr('disabled', true);
-                },
-                success: function(response) {
-                    if (response.status == 1) {
-                        form[0].reset();
-                        $(".uk-close-large").click()
-                        swal.fire({
-                            title: 'Submitted successfully.',
-                            type: 'success',
-                            html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
-                            showCloseButton: true,
-                            showCancelButton: false,
-                            allowOutsideClick: false,
-                            focusConfirm: false,
-                            confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
-                            confirmButtonAriaLabel: 'Thumbs up, great!',
-                        });
-                    } else if (response.status == 0) {
-                        Swal.fire({
-                            type: 'error',
-                            title: response.message,
-                            //text: 'Something went wrong!',
-                        })
-                    } else {
-                        Swal.fire({
-                            type: 'error',
-                            title: 'An error occurred!',
-                            //text: 'Something went wrong!',
-                        })
+        $(document).ready(function() {
+            $('.form').parsley();
+            $('.form').on('submit', function(e) {
+                e.preventDefault();
+                var form = $(this);
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/claims.php?request=motor_claim",
+                    data: new FormData(this),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData: false,
+                    beforeSend: function() {
+                        $('button[name=request]').attr('disabled', true);
+                    },
+                    success: function(response) {
+                        if (response.status == 1) {
+                            form[0].reset();
+                            $(".uk-close-large").click()
+                            swal.fire({
+                                title: 'Submitted successfully.',
+                                type: 'success',
+                                html: '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:  <ol class="text-left"><li>Claim form (<a href="pdf/claim/motor_claim_form.pdf">Click here to download</a>)</li><li>Police Abstract</li><li>Copy of Driving License</li><li>Copy of the Log Book </li><li>Detailed statement and sketch of the circumstances of the accident</li></ol></p>',
+                                showCloseButton: true,
+                                showCancelButton: false,
+                                allowOutsideClick: false,
+                                focusConfirm: false,
+                                confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                                confirmButtonAriaLabel: 'Thumbs up, great!',
+                            });
+                        } else if (response.status == 0) {
+                            Swal.fire({
+                                type: 'error',
+                                title: response.message,
+                                //text: 'Something went wrong!',
+                            })
+                        } else {
+                            Swal.fire({
+                                type: 'error',
+                                title: 'An error occurred!',
+                                //text: 'Something went wrong!',
+                            })
+                        }
+                        $('button[name=request]').attr('disabled', false);
                     }
-                    $('button[name=request]').attr('disabled', false);
-                }
+                });
             });
         });
-    });
     </script>
 
 </body>
