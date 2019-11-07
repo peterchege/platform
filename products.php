@@ -342,8 +342,9 @@
                             <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Living a healthy stress-free life is every person's dream. A healthy
+                            family is a happy family. This is why we have medical insurance...
+
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
