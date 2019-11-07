@@ -67,7 +67,7 @@
                                 <P class="text-justify"><b>What is covered ?</b> Any animal kept not for economic gain
                                     but the owner’s comfort,
                                     companionship and/or sentimental value. For example Security Dogs, cats, rabbits,
-                                    among others</p>
+                                    among others.</p>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
@@ -75,8 +75,8 @@
                                             of the following circumstances:</h2>
                                         <ol>
                                             <li>Accidental death caused by lightning, internal and external injuries,
-                                                windstorm, snake bite, electrocution, flood, etc</li>
-                                            <li>Illness or disease</li>
+                                                windstorm, snake bite, electrocution, flood, etc.</li>
+                                            <li>Illness or disease.</li>
                                             <li>A widespread outbreak of an infectious disease affecting many animals at
                                                 the same time in a region.</li>
                                             <li>Where your animal is in a great deal of pain and there is no chance of a

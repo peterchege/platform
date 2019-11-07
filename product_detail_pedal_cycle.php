@@ -132,10 +132,10 @@
                                     If you would like further explanation or assistance about this insurance product,
                                     please click <b>I Need Assistance.</b>
                                 </p>
-                                <p>
+                                <!-- <p>
                                     <b> Download forms</b>will give you access to any relevant documents for this
                                     insurance product, such as the claim form, proposal form, etc.
-                                </p>
+                                </p> -->
                                 <br><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -146,7 +146,7 @@
                                     <div class="col-md-4">
                                         <div class="load-more text-center " data-target="#modal-full1"
                                             uk-toggle="target: #modal-close-outside">
-                                            <a href="#" class="btn btn-danger"> Download Forms </a>
+                                            <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                         </div>
                                     </div>
                                     <div class="col-md-4">
