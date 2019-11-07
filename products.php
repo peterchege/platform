@@ -577,7 +577,7 @@
                         <br>
                         <p class="text-justify">This policy has been designed to enable one have a pure
                             life cover
-                            that can be used as security on a loan. This policy can be used ...
+                            that can be used as security on a loan. This policy can be used...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
