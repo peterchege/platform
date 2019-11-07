@@ -36,13 +36,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -54,23 +57,14 @@
                             <div class="job-description text-justify">
 
                                 <h2 class="text-center"> Mortgage Protection </h2>
-                                <P class="text-justify">These are employer sponsored arrangements, set up under
-                                    irrevocable trust. Upon being set up the scheme
-                                    is a separate legal entity. The principle objective of setting up an Occupational
-                                    Retirement Benefits Scheme is to provide for
-                                    employees upon their retirement or for their dependents on the unfortunate demise of
-                                    an employee.
+                                <P class="text-justify">Group life schemes offer mortgage protection arranged on a
+                                    yearly renewable or single premium basis for lenders to specifically protect the
+                                    families of the deceased mortgagor from the risk of the lender reselling their home
+                                    in the event of the untimely death or disability of the breadwinner. This cover
+                                    provides the same benefit as for credit life.
                                 </P>
-                                <P class="text-justify">As an employer, you need to be able to attract and retain high
-                                    caliber staff. One of the ways in which several leading
-                                    organizations do this is through the establishment of an Occupational Retirement
-                                    Benefits Scheme.
-                                </P>
-                                <p>
-                                    Your occupational retirement schemes can either be:
-                                </p>
-                                <li>a defined contribution scheme, or</li>
-                                <li>a defined benefit scheme.</li>
+
+
 
 
                                 <br><br><br><br>
@@ -84,7 +78,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -98,46 +93,85 @@
 
                         </div>
 
-                        <!-- FEATURES -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <br><br>
-                                        <p2>With the defined contribution scheme, which has proven to be very popular in
-                                            the East African region, the amount or rate of
-                                            contribution is determined at the start of the scheme.</p2>
-                                        <br><br>
+                                        <h2>Riders are benefits</h2>
+                                        <P2 class="text-justify"> that complement your plan and offer additional
+                                            benefits
+                                            at a relatively low
+                                            cost. The riders include:</p2> <br>
+                                        <h2>Total and Permanent Disability:</h2>
+                                        <P2 class="text-justify"> Where an amount
+                                            equal to the death
+                                            benefit
+                                            sum assured will be paid to you in the event that you become
+                                            permanently
+                                            and
+                                            totally disabled as a result of illness or accident.</p2><br>
+                                        <h2>Critical Illness: </h2>
+                                        <P2 class="text-justify">If a member contracts a specified critical
+                                            illness
+                                            for the time (the first diagnosis). The specified illnesses are
+                                            cancer, kidney failure, Paraplegia, heart attack for the first time
+                                            in their life, Stroke, Coronary artery bypass surgery and major
+                                            organ transplant. 30% of the accepted group life sum assured subject
+                                            to an upper limit range of between Kshs. 1 to Kshs. 12 million will
+                                            be payable. On subsequent death 70% or 100% will be payable to the
+                                            next of kin depending on whether the benefit is stand-alone or
+                                            accelerated.
+                                        </p2> <br>
+                                        <h2>Group Disability Income Insurance:</h2>
+                                        <P2 class="text-justify">This rider Compensates for
+                                            lost
+                                            income
+                                            during the disability period. The employer chooses the maximum
+                                            period
+                                            for
+                                            disability benefit payment either 2years, 5years or up to normal
+                                            retirement
+                                            age.
+                                        </p2><br>
 
-                                        <p2>At the time of retirement, the overall benefit is determined by the total
-                                            amount of contributions and the accrued
-                                            interest earned on the contributions.</p2>
-                                        <br><br>
+                                        <h2>Temporary Total Disability: </h2>
+                                        <P2 class="text-justify">This benefit is payable if a member
+                                            becomes wholly but temporarily incapacitated by bodily injury
+                                            following his usual occupation hence unable to earn an income. The
+                                            benefit payable is the actual weekly earnings for periods ranging
+                                            between 1 to 2 years.
+                                        </p2> <br>
+                                        <h2>Medical Reimbursement:</h2>
+                                        <P2 class="text-justify">This rider compensates for medical bills
+                                            spent
+                                            by the insured up to the agreed limit. </p2> <br>
                                     </div>
-
                                 </div>
                             </div>
-
-                        </div>
-
-
-                        <!-- HOW DO I START -->
+                        </div> <!-- HOW DO I START -->
 
                         <div class="tab-pane fade" id="start" role="tabpanel" aria-labelledby="contact-tab">
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product
+                                    would cost
+                                    you, or if you are interested in purchasing this insurance
+                                    product,
+                                    please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
+                                    If you would like further assistance explanation or assistance
+                                    about
+                                    this insurance
                                     product, please click I <b>Need Assistance.</b>
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
+                                    <b> Download forms</b> will give you access to any relevant
+                                    documents for this
                                     insurance product,
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
@@ -150,7 +184,10 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download
+                                                Form
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -233,7 +270,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/house.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/house.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -241,22 +279,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -270,7 +315,8 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                        class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -288,7 +334,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -299,22 +346,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -329,7 +383,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">
+                                        REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

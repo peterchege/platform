@@ -607,7 +607,7 @@
                         <br>
                         <p class="text-justify">We’ll help you think differently about retirement – more optimistic
                             about tomorrow
-                            and confident about taking ...
+                            and confident about taking...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -632,9 +632,9 @@
                             <h2 class="text-center">Mortgage Protection</h2>
                         </div>
                         <br>
-                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable
-                            trust.
-                            Upon being set up the scheme is a separate legal entity...
+                        <p class="text-justify">This cover protects the families of the mortgagor from the risk of the
+                            lender reselling their home in the event of the untimely death or disability of the
+                            breadwinner...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
