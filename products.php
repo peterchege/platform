@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
     <?php include 'views/head_links.php'; ?>
@@ -111,7 +112,8 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
+                                    class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -161,7 +163,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We cover accidental death or disablement to the insured and offers
-                            compensation payable to the insured or to his legal representative ....
+                            compensation payable to the insured or his/her legal representative ....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -186,8 +188,8 @@
                             <h2>Golfers Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Golfers cover protects your equipment against accidental damage or loss.
-                            The cover also covers you in hole-in-one as well as public....
+                        <p class="text-justify">The APA Golfers will cover you and your equipment against loss, damage,
+                            theft, and accidents....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -211,7 +213,8 @@
                             <h2> Motor Cycle Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the event...
+                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the
+                            event...
                         </p>
                         <br>
                         <!-- button click -->
@@ -291,7 +294,8 @@
                             <h2>Pet Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and
+                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to;
+                            Accidents, Illness and
                             disease, Epidemics, Euthanasia on advice of...
                         </p>
                         <!-- button click -->
@@ -613,7 +617,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -628,7 +633,8 @@
                             <h2 class="text-center">Mortgage Protection</h2>
                         </div>
                         <br>
-                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable trust.
+                        <p class="text-justify">These are employer sponsored arrangements, set up under irrevocable
+                            trust.
                             Upon being set up the scheme is a separate legal entity...
                         </p>
                         <!-- button click -->
@@ -638,7 +644,8 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_morgage_protection.php"
+                                    class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -676,12 +683,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
     </script>
     <script>
-        $('.type-pet').multiselect({
-            nonSelectedText: 'Select pet type',
-            enableFiltering: false,
-            enableCaseInsensitiveFiltering: false,
-            buttonWidth: '100%'
-        });
+    $('.type-pet').multiselect({
+        nonSelectedText: 'Select pet type',
+        enableFiltering: false,
+        enableCaseInsensitiveFiltering: false,
+        buttonWidth: '100%'
+    });
     </script>
 </body>
 
