@@ -379,7 +379,7 @@
                         <p>Motor Cover Claim form</p>
                         <hr>
                         <a href="pdf/claim/motor_claim_form.pdf">
-                            <p class=" download">Dowload <i class="fas fa-download"></i>
+                            <p class=" download">Download <i class="fas fa-download"></i>
                             </p>
                         </a>
                 </div>
@@ -392,7 +392,7 @@
                         <p>Windscreen Claim form</p>
                         <hr>
                         <a href="pdf/claim/Windscreen CLM_FRM.pdf">
-                            <p class="download">Dowload <i class="fas fa-download"></i></p>
+                            <p class="download">Download <i class="fas fa-download"></i></p>
                         </a>
                 </div>
 
