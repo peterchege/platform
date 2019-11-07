@@ -213,8 +213,8 @@
                             <h2> Motor Cycle Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against financial loss in the
-                            event...
+                        <p class="text-justify">APA Motorcycle insurance covers you and your motorcycle against loss,
+                            theft, physical damage, bodily damage....
                         </p>
                         <br>
                         <!-- button click -->
