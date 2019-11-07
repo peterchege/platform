@@ -200,10 +200,11 @@
                                 <table class="uk-table uk-table-hover uk-table-divider">
                                     <thead class="head-text">
                                         <tr>
-                                            <th>Extra Benefits</th>
-                                            <th>Third-party only (TPO)</th>
-                                            <th>Third-party Fire & Theft (TPF & T)</th>
-                                            <th>Comprehensive </th>
+
+                                            <th class="text-left">Extra Benefits</th>
+                                            <th class="text-left">Third-party only (TPO)</th>
+                                            <th class="text-left">Third-party Fire & Theft (TPF & T)</th>
+                                            <th class="text-left">Comprehensive </th>
                                         </tr>
                                     </thead>
                                     <tbody <tr>
