@@ -94,11 +94,13 @@
                                         <p2>This section provides cover in respect to specified portable and valuable
                                             items,
                                             which are carried outside the house. Items under this section would include
-                                            jewellery, watches, laptops, mobile phones
+                                            jewelry, watches, laptops, mobile phones
                                         </p2>
                                         <hr>
                                         <p>d.) WIBA Section </p>
-                                        <p2>This covers domestic servants such as house helps, watchmen, gardeners and
+                                        <p2>This policy covers domestic servants such as house helps, watchmen,
+                                            gardeners
+                                            and
                                             drivers in respect of injury,
                                             death or disease arising out of and in the course of employment.
                                             The cover is mandatory for all employers as per the Work Injury Benefit Act
@@ -155,19 +157,19 @@
                                             <li>OWNER'S/ OCCUPIER'S LIABILITY</li>
                                         </ol>
                                         <hr>
-                                        <h3>This is a combined policy that can be be taken out either by a tenant or a
-                                            home owner.<br>
+                                        <h3>It is a package of insurance policies that provides cover against risks
+                                            present in your private dwelling. <br>
                                             The cover is a combination of both Material Damage & liabilities Liabilities
                                             cover. In this regard the following key perils are included:
                                             :</h3>
                                         <ol>
-                                            <li>Fire & Special perils </li>
-                                            <li>Explosion, Riot & Strike </li>
-                                            <li>Impact damage by vehicles or animals </li>
-                                            <li>Burglary & theft </li>
-                                            <li>Accidental breakage of fragile items </li>
-                                            <li>Injury to domestic servants </li>
-                                            <li>Liability to occupiers or owners </li>
+                                            <li>Fire & Special perils.</li>
+                                            <li>Explosion, Riot & Strike. </li>
+                                            <li>Impact damage by vehicles or animals. </li>
+                                            <li>Burglary & theft. </li>
+                                            <li>Accidental breakage of fragile items. </li>
+                                            <li>Injury to domestic servants. </li>
+                                            <li>Liability to occupiers or owners. </li>
                                         </ol>
                                         <br>
                                         <hr>
@@ -185,18 +187,18 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product would cost you, or
+                                    if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further assistance about this insurance product, please click I
+                                    <b>Need Assistance.</b>
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
-                                    such as the claim form, proposal form etc.
+                                    such as the claim form, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
