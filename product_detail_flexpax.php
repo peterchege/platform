@@ -276,7 +276,7 @@
                         <p>Flexpac Claim <br>form</p>
                         <hr>
                         <a href="pdf/claim/GPA CLAIM FORM.pdf">
-                            <p class="download">Dowload <i class="fas fa-download"></i></p>
+                            <p class="download">Download <i class="fas fa-download"></i></p>
                         </a>
                 </div>
 
