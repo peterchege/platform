@@ -438,7 +438,7 @@
                         </div>
                         <br>
                         <p class="text-justify">What is a better start to realizing your dreams for the future than
-                            by having a lump sum payment at a predetermined date? Whether it’s travelling ....
+                            by having a lump sum payment at a predetermined date? Whether it’s....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
