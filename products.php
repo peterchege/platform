@@ -79,9 +79,9 @@
                             <h2 class="text-center">Motor Private Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">Motor insurance cover protects the insured against loss in the event
+                            that the motor vehicle insured is involved
+                            in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -133,7 +133,7 @@
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and ...
+                            contents whilst in the house and...
 
                         </p>
                         <!-- button click -->
@@ -163,7 +163,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We cover accidental death or disablement to the insured and offers
-                            compensation payable to the insured or his/her legal representative ....
+                            compensation payable to the insured or his/her legal representative....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -244,7 +244,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We also provide a student’s personal accident
-                            cover to individuals, schools and organized groups on reasonable ...
+                            cover to individuals, schools and organized groups on reasonable...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -268,9 +268,8 @@
                             <h2> Pedal Cycle Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Our Bicycle Insurance will provide you
-                            with cover for theft and accidental damage or breakdown of
-                            your pedal cycle plus public liability cover ...
+                        <p class="text-justify">Our Bicycle Insurance Cover will protect you againist theft and
+                            accidental damage or breakdown of your pedal cycle plus public liability cover...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -294,9 +293,8 @@
                             <h2>Pet Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to;
-                            Accidents, Illness and
-                            disease, Epidemics, Euthanasia on advice of...
+                        <p class="text-justify">Pet Insurance offers basic cover for loss/death of insured animals due
+                            to; accident, disease, epidemics or euthanasia on advice of...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -344,8 +342,9 @@
                             <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Living a healthy stress-free life is every person's dream. A healthy
+                            family is a happy family. This is why we have medical insurance...
+
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

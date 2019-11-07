@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
     <?php include 'views/head_links.php'; ?>
 
@@ -38,13 +39,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">EXCLUSIONS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">EXCLUSIONS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -56,32 +60,38 @@
                             <div class="job-description text-center">
 
                                 <h2>PET COVER </h2>
-                                <P class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to; Accidents, Illness and
-                                    disease, Epidemics, Euthanasia on advice of a qualified vet doctor.
+                                <P class="text-justify">Pet Insurance offers basic cover for loss/death of insured
+                                    animals due to; accident, disease, epidemics or euthanasia on advice of a qualified
+                                    vet doctor.
                                 </P>
-                                <P class="text-justify"><b>What is covered ?</b> Any animal kept not for economic gain but for the owner’s comfort,
-                                    companionship and /or sentimental value. For example:
-                                    Security Dogs, cats, rabbits, among others</p>
+                                <P class="text-justify"><b>What is covered ?</b> Any animal kept not for economic gain
+                                    but the owner’s comfort,
+                                    companionship and/or sentimental value. For example Security Dogs, cats, rabbits,
+                                    among others</p>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>The insurance will pay the owner of the animal should the animal die in any
                                             of the following circumstances:</h2>
                                         <ol>
-                                            <li>Accidental death caused by lightening, internal and external injuries, windstorm, snake
-                                                bite ,electrocution or flooding etc</li>
+                                            <li>Accidental death caused by lightning, internal and external injuries,
+                                                windstorm, snake bite, electrocution, flood, etc</li>
                                             <li>Illness or disease</li>
-                                            <li>Widespread outbreak of an infectious disease affecting many animals at the same time in a region.</li>
-                                            <li>Where your animal is in a great deal of pain and there is no chance of a favourable outcome, the pet
-                                                can be put to sleep on advice of a qualified veterinary surgeon to prevent suffering</li>
+                                            <li>A widespread outbreak of an infectious disease affecting many animals at
+                                                the same time in a region.</li>
+                                            <li>Where your animal is in a great deal of pain and there is no chance of a
+                                                favorable outcome, the pet can be put to sleep on the advice of a
+                                                qualified veterinary surgeon to prevent suffering.</li>
 
                                         </ol>
 
                                         <p>Straying and Theft risks</p>
-                                        <p2>Where a pet leaves its home and cannot be traced and is presumed dead after a defined period. </p2>
+                                        <p2>Where a pet leaves its home and cannot be traced and is presumed dead after
+                                            a defined period. </p2>
                                         <p>Medical Cover (optional)</p>
-                                        <p2>This is an optional benefit loaded to the basic cover and covers Medical expenses incurred as a result
-                                            of illness and/or accident where treatment is carried out by a qualified veterinary surgeon. </p2>
+                                        <p2>This is an optional benefit loaded to the basic cover and covers Medical
+                                            expenses incurred as a result of illness and/or accident where treatment is
+                                            carried out by a qualified veterinary surgeon.</p2>
 
                                         <br><br> <br><br>
 
@@ -92,12 +102,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r"
+                                                    uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -116,17 +128,18 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <ol><br><br>
-                                            <li> Destruction of pet as a result of failure to comply with compliance the requirements of any Statute, order of Government
-                                                Department or Local Authority.</li>
+                                            <li> Destruction of a pet as a result of failure to comply with compliance
+                                                with the requirements of any Statute, order of Government Department or
+                                                Local Authority.</li>
                                             <li>Loss or death as a result of lack of or inappropriate vaccination
-                                                programs
+                                                programs.
                                             </li>
                                             <li>Consequential loss or loss of use. </li>
-                                            <li>eterinary reports costs, valuation costs, vaccination costs, de-
-                                                worming and general animal care costs
+                                            <li>veterinary reports costs, valuation costs, vaccination costs, deworming
+                                                and general animal care costs.
                                             </li>
-                                            <li>Culling </li>
-                                            <li>Disease contracted prior to commencement of cover
+                                            <li>Culling.</li>
+                                            <li>Disease contracted prior to commencement of cover.
                                             </li>
                                         </ol>
 
@@ -146,18 +159,16 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product would cost you, or
+                                    if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
-                                </p>
+                                    If you would like further explanation or assistance about this insurance product,
+                                    please click <b>I Need Assistance.</b> </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
-                                    such as the claim form, proposal form etc.
+                                    <b> Download forms</b>will give you access to any relevant documents for this
+                                    insurance product, such as the claim form, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -166,7 +177,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
@@ -250,7 +262,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -260,22 +273,29 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 254 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -289,7 +309,8 @@
                             <div class="row ">
                                 <div class="form-group col-md-12 pet-count">
                                     <label for="type">Type of Pet</label>
-                                    <select id="type" name="type[]" class="form-control type-pet" data-target="section" required multiple>
+                                    <select id="type" name="type[]" class="form-control type-pet" data-target="section"
+                                        required multiple>
                                         <option value="Dog">Dog </option>
                                         <option value="Cat">Cat </option>
                                         <option value="Other">Other</option>
@@ -297,14 +318,16 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Number of Pets</label>
-                                    <input name="number" type="text" class="form-control value" id="number" placeholder="10" value="" required>
+                                    <input name="number" type="text" class="form-control value" id="number"
+                                        placeholder="10" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value"> Value of Pets (Kshs)</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="400,000" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value"
+                                        placeholder="400,000" value="" required>
                                 </div>
 
                             </div>
@@ -314,7 +337,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +355,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -342,22 +367,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -372,7 +404,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -393,12 +426,12 @@
     </script>
     <script src="js/parsley.min.js"></script>
     <script>
-        $('.type-pet').multiselect({
-            nonSelectedText: 'Select pet type',
-            enableFiltering: false,
-            enableCaseInsensitiveFiltering: false,
-            buttonWidth: '100%'
-        });
+    $('.type-pet').multiselect({
+        nonSelectedText: 'Select pet type',
+        enableFiltering: false,
+        enableCaseInsensitiveFiltering: false,
+        buttonWidth: '100%'
+    });
     </script>
     <script src="js/lead.js"></script>
 </body>
