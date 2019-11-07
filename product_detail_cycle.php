@@ -158,27 +158,27 @@
                                             <li>BIM BAMBA</li>
                                         </ol>
                                         <hr>
-                                        <h3>The coverprovides the following benefits. This include:</h3>
+                                        <h3>The cover provides the following benefits. This include:</h3>
                                         <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                            <li>Third party liability cover for bodily injury or property damage as a
+                                            <li>Accidental Impact damage including overturning and collision. </li>
+                                            <li>Accidental Fire damage.</li>
+                                            <li>Theft/partial theft cover. </li>
+                                            <li>Third-party liability cover for bodily injury & property damage.</li>
+                                            <li>Windscreen cover.</li>
+                                            <li>Entertainment system cover. </li>
+                                            <li>Emergency Medical expense cover.</li>
+                                            <li>Courtesy car/ loss of use cover.</li>
+                                            <li>Excess protector.</li>
+                                            <li>Political Violence & Terrorism cover.</li>
+                                            <li>Third-party liability cover for bodily injury or property damage as a
                                                 result
-                                                of your vehicle being involved in an accident</li>
+                                                of your vehicle being involved in an accident.</li>
                                             <li>Accidental Fire damage in the event your vehicle catches fire and is
-                                                destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
+                                                destroyed.</li>
+                                            <li>Theft cover as a result of your vehicle being stolen.</li>
+                                            <li>Bodily injury.</li>
+                                            <li>Property damage.</li>
+                                            <li>Theft cover as a result of your vehicle being stolen.</li>
                                         </ol>
                                         <br>
                                         <hr>
@@ -201,10 +201,10 @@
                                 <table class="uk-table uk-table-hover uk-table-divider">
                                     <thead class="head-text">
                                         <tr>
-                                            <th>Extra Benefits</th>
-                                            <th>Third party only (TPO)</th>
-                                            <th>Third party Fire & Theft (TPF & T)</th>
-                                            <th>Comprehensive </th>
+                                            <th class="text-left"> Extra Benefits</th>
+                                            <th class="text-left">Third party only (TPO)</th>
+                                            <th class="text-left">Third party Fire & Theft (TPF & T)</th>
+                                            <th class="text-left">Comprehensive </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -229,13 +229,14 @@
                                                 Excess Protector</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 2,000.00</td>
+                                            <td>Charged at 0.25% of the insured value with a minimum of Kshs. 2,000.00
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Accidental & Theft Excess Protector</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.5% of insured value with a minimum of Kshs. 5,000.00
+                                            <td>Charged at 0.5% of the insured value with a minimum of Kshs. 5,000.00
                                                 Subject to the vehicle being fitted with Antitheft device</td>
                                         </tr>
                                         <tr>
@@ -250,7 +251,8 @@
                                             <td>Political Violence & Terrorism cover</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.25% of insured value with a minimum of Kshs. 1,500.00</td>
+                                            <td>Charged at 0.25% of the insured value with a minimum of Kshs. 1,500.00
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Towing/Recovery Expenses</td>
@@ -287,7 +289,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Third Party Property Damage Limit</td>
+                                            <td>Third-Party Property Damage Limit</td>
                                             <td>Up to Kshs. 20 million</td>
                                             <td>Up to Kshs. 20 million</td>
                                             <td>Up to Kshs. 20 million</td>
@@ -299,7 +301,7 @@
                                             <td>Per Passenger KShs. 4 million<br><br>
                                                 -Per event Kshs. 20 million </td>
                                             <td>Per Passenger KShs. 4 million<br><br>
-                                                Per event Kshs. 20 millionn</td>
+                                                Per event Kshs. 20 million</td>
                                         </tr>
                                     </tbody>
                                 </table>
