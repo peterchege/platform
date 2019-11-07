@@ -79,9 +79,9 @@
                             <h2 class="text-center">Motor Private Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">Motor insurance cover protects the insured against loss in the event
+                            that the motor vehicle insured is involved
+                            in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -133,7 +133,7 @@
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and ...
+                            contents whilst in the house and...
 
                         </p>
                         <!-- button click -->
@@ -163,7 +163,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We cover accidental death or disablement to the insured and offers
-                            compensation payable to the insured or his/her legal representative ....
+                            compensation payable to the insured or his/her legal representative....
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

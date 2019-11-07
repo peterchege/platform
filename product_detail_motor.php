@@ -62,7 +62,7 @@
                             <div class="job-description text-center">
 
                                 <h2>MOTOR PRIVATE COVER </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against financial
+                                <P class="text-justify">Motor insurance cover protects the insured against
                                     loss if the motor vehicle insured is involved in an accident, burnt, stolen and
                                     third party liability arising from use of the insured motor vehicle.</P>
                                 <hr>
