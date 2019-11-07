@@ -378,7 +378,7 @@
                         <hr>
                         <p>Motor Cover Claim form</p>
                         <hr>
-                        <a href="pdf/claim/motor_claim_form.pdf">
+                        <a href="pdf/claim/motor_claim_form.pdf" target="_blank">
                             <p class=" download">Download <i class="fas fa-download"></i>
                             </p>
                         </a>
@@ -391,7 +391,7 @@
                         <hr>
                         <p>Windscreen Claim form</p>
                         <hr>
-                        <a href="pdf/claim/Windscreen CLM_FRM.pdf">
+                        <a href="pdf/claim/Windscreen CLM_FRM.pdf" target="_blank">
                             <p class="download">Download <i class="fas fa-download"></i></p>
                         </a>
                 </div>
