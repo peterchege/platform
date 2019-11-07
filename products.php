@@ -244,7 +244,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We also provide a student’s personal accident
-                            cover to individuals, schools and organized groups on reasonable ...
+                            cover to individuals, schools and organized groups on reasonable...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
