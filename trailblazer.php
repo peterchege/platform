@@ -103,7 +103,7 @@
                         <div class="uk-card-footer">
                             <div class="row">
                                 <div class="c0l-6">
-                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read
+                                    <a href="digital/trailblazer/may_2017_new" class="uk-button uk-button-text my-text" target="_blank">Read
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
