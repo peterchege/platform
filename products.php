@@ -268,9 +268,8 @@
                             <h2> Pedal Cycle Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Our Bicycle Insurance will provide you
-                            with cover for theft and accidental damage or breakdown of
-                            your pedal cycle plus public liability cover ...
+                        <p class="text-justify">Our Bicycle Insurance Cover will protect you againist theft and
+                            accidental damage or breakdown of your pedal cycle plus public liability cover...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

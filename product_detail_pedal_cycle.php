@@ -37,14 +37,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -56,30 +59,27 @@
                             <div class="job-description text-center">
 
                                 <h2>PEDAL CYCLE COVER </h2>
-                                <P class="text-justify">Our Bicycle Insurance will provide you with cover for theft and
-                                    accidental damage or breakdown of your pedal cycle
-                                    plus public liability cover while you use your pedal cycle – allowing you to go out
-                                    and enjoy areas like the Cornish Way knowing that
-                                    you are covered if the worse happens.</P>
-                                <P class="text-justify">We aim to provide straight-forward insurance products at
-                                    affordable prices. Whether you use your pedal cycle to
-                                    commute to work, shop or as a leisure activity; our insurance product is designed
-                                    with you in mind.</P>
+                                <P class="text-justify">Our Bicycle Insurance will cover you against theft and
+                                    accidental damage or breakdown of your pedal cycle plus public liability cover while
+                                    you use your pedal cycle – allowing you to go out and enjoy knowing that you are
+                                    covered if the worse happens.</P>
+                                <P class="text-justify">We aim to provide straightforward insurance products at
+                                    affordable prices. Whether you use your pedal cycle to commute to work, shop or as a
+                                    leisure activity; our insurance product is designed with you in mind.</P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <p> LOSS OR DAMAGE to any pedal cycle described in the schedule here to caused
+                                        <p> LOSS OR DAMAGE to any pedal cycle described in the schedule hereto caused
                                             by:-</p>
 
                                         <ol>
-                                            <li>Fire, lightning explosion thunderbolt earthquake storm tempest or flood
-                                                - including
-                                                tyres accessories and fittings on the cycle.</li>
-                                            <li>Burglary, housebreaking or theft - excluding tyres accessories and
+                                            <li>Fire, lightning explosion thunderbolt earthquake storm tempest or flood.
+                                            </li>
+                                            <li>Burglary, housebreaking or theft - excluding tires accessories and
                                                 fittings unless stolen with the cycle.</li>
-                                            <li>Accidental or malicious means - excluding tyres accessories and
-                                                fitting unless damaged at the same time as the cycle and the
-                                                damage to the cycle is covered by this Policy. </li>
+                                            <li>Accidental or malicious means - excluding tires accessories and fitting
+                                                unless damaged at the same time as the cycle and the damage to the cycle
+                                                is covered by this Policy. </li>
 
                                         </ol>
 
@@ -99,7 +99,8 @@
                                                 </div> -->
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r"
+                                                    uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -123,18 +124,17 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product would cost you, or
+                                    if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about this insurance product,
+                                    please click <b>I Need Assistance.</b>
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
-                                    such as the claim form, proposal form etc.
+                                    <b> Download forms</b>will give you access to any relevant documents for this
+                                    insurance product, such as the claim form, proposal form, etc.
                                 </p>
                                 <br><br> <br>
                                 <div class="row">
@@ -144,7 +144,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
@@ -227,7 +228,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/bicycle.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/bicycle.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -237,22 +239,27 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 214 xxx" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 214 xxx" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -264,18 +271,21 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="make">Bicycle Make</label>
-                                    <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
+                                    <input name="make" type="text" class="form-control" id="make" placeholder=""
+                                        value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="model">Bicycle Model</label>
-                                    <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
+                                    <input name="model" type="text" class="form-control" id="model" placeholder=""
+                                        value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Bicycle Value (Kshs)</label>
-                                    <input name="value" type="text" class="form-control" id="value" placeholder="20,000" value="" required>
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="20,000"
+                                        value="" required>
                                 </div>
                             </div>
                             <div style="display: none">
@@ -284,7 +294,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -302,7 +313,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -312,22 +324,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -342,7 +361,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

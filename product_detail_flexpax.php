@@ -192,7 +192,7 @@
                                 </p>
                                 <p>
                                     If you would like further explanation or assistance about this insurance product,
-                                    please click <b>Need Assistance.</b>
+                                    please click <b>I Need Assistance.</b>
                                 </p>
                                 <p>
                                     <b> Download forms</b>will give you access to any relevant documents for this
