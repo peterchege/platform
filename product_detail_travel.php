@@ -726,7 +726,7 @@
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
                     </a>
                 </div>
 
