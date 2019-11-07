@@ -49,7 +49,7 @@
 
     <section class="trail-back">
         <div class="container">
-            <div class="row text-left">
+            <div class="row text-left wow fadeInUp" data-wow-delay="0.15s">
 
                 <div class="col-md-4 card-fin">
                     <div class="uk-card uk-card-default ">
@@ -144,7 +144,7 @@
 
 
             </div>
-            <div class="row text-left">
+            <div class="row text-left wow fadeInUp" data-wow-delay="0.3s">
 
                 <div class="col-md-4 card-fin">
                     <div class="uk-card uk-card-default ">
