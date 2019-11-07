@@ -70,12 +70,12 @@
                                     <div class="text-justify">
                                         <h2>TYPES OF AVIATION INSURANCE PRODUCTS</h2>
                                         <p>Airport/Products Risks:</p>
-                                        <li><b>Component Part Manufacturers</b></li>
+                                        <!-- <li><b>Component Part Manufacturers</b></li>
                                         <p2>Covers the legal liability arising from the supply of component parts or
                                             services used in the supply or maintenance of aircraft. This does not apply
                                             to manufacturers of whole airframes or engines.
                                         </p2>
-                                        <br><br>
+                                        <br><br> -->
 
                                         <li><b>Airport liability</b></li>
                                         <p2>Covers all sizes of airports - from a private strip with 20 movements a
@@ -94,12 +94,12 @@
                                         </p2>
                                         <br><br>
 
-                                        <li><b>Contractors Liability</b></li>
+                                        <!-- <li><b>Contractors Liability</b></li>
                                         <p2>Covers the liability to contractors arising out of the building work at airports.
                                             Insurance coverage will tend to be limited to the period of the contract and can
                                             vary from small scale projects to extremely large projects.
                                         </p2>
-                                        <br><br>
+                                        <br><br> -->
 
                                         <li><b>Refuelling Liability</b></li>
                                         <p2>Covers the legal liability for bodily injury, property damage (and can be extended to
@@ -108,21 +108,33 @@
                                         </p2>
                                         <br><br>
 
-                                        <li><b>Ground Handling Liability</b></li>
+                                        <!-- <li><b>Ground Handling Liability</b></li>
                                         <p2>Covers the legal liability arising out of the supply of ground based services at airports</p2>
-                                        <br><br>
+                                        <br><br> -->
 
-                                        <li><b>Air show Liability</b></li>
+                                        <!-- <li><b>Air show Liability</b></li>
                                         <p2>Covers the airshow organizer's premises liability to spectators and can include car parking,
                                             catering, ground handling and control towers</p2>
-                                        <br><br>
-                                        <li><b>Airport Security</b></li>
+                                        <br><br> -->
+                                        <!-- <li><b>Airport Security</b></li>
                                         <p2>Covers the liability arising out of the supply of security services at airports</p2>
-                                        <br><br>
+                                        <br><br> -->
                                         <li><b>Airside Premises Liability</b></li>
                                         <p2>Covers the legal liability arising out of the use of vehicles at airports.</p2>
                                         <br><br>
 
+                                        <p>Aircraft Risk</p>
+                                        <li><b> Aviation Hull & Liability</b></li>
+                                        <p2>Aviation Hull and Liability Insurance cover for any type of aircraft, from glider to commercial
+                                            airliner. It is specifically designed to protect against loss or damage to your aircraft; and
+                                            against third party or passenger liability arising from an accident.</p2>
+                                        <br><br>
+
+                                        <li><b> Hanger Keepers</b></li>
+                                        <p2>Hangar keepers insurance is a specialized type of liability coverage created for owners of
+                                            airplane hangars who allow third-parties to keep their planes in their care. For example,
+                                            an FBO who offers parking and storage services to clients faces liability risks if a client’s
+                                            airplane is damaged while it is being kept in his hangar.</p2>
 
 
                                     </div>
