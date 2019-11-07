@@ -48,7 +48,7 @@
         <section>
             <div class="container">
                 <!-- APA INSURANCE FINANCIAL REPORTS -->
-                <div class="row text-left">
+                <div class="row text-left wow fadeInUp" data-wow-delay="0.1s">
 
                     <div class="col card-fin">
                         <div class="uk-card uk-card-default ">
@@ -134,7 +134,7 @@
                 </div>
 
                 <!-- APA LIFE FINANCIAL REPORT -->
-                <div class="row text-left">
+                <div class="row text-left wow fadeInUp" data-wow-delay="0.2s">
 
                     <div class="col card-fin">
                         <div class="uk-card uk-card-default ">
@@ -220,7 +220,7 @@
                 </div>
 
                 <!-- APOLLO ASSET MANAGMENT FINANCIAL REPORT -->
-                <div class="row text-left">
+                <div class="row text-left wow fadeInUp" data-wow-delay="0.2s">
 
                     <div class="col card-fin">
                         <div class="uk-card uk-card-default ">

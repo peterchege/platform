@@ -36,20 +36,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false">BENEFITS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -75,49 +71,72 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
-                                        <p> Comprehensive Insurance Cover</p>
-                                        <p2>This cover takes care of a wide range of risks that a motorist may suffer in
-                                            the process of using his vehicle while carrying his
-                                            own goods. The main cover features are as follows;</p2>
-                                        <ol>
-                                            <li>Accidental Impact damage including overturning and collision </li>
-                                            <li>Accidental Fire damage</li>
-                                            <li>Theft/partial theft cover </li>
-                                            <li>Third party liability cover for bodily injury & property damage</li>
-                                            <li>Windscreen cover</li>
-                                            <li>Entertainment system cover </li>
-                                            <li>Emergency Medical expense cover</li>
-                                            <li>Courtesy car/ loss of use cover</li>
-                                            <li>Excess protector</li>
-                                            <li>Political Violence & Terrorism cover</li>
-                                        </ol>
-                                        <hr>
-                                        <p>Third Party, Fire, and Theft</p>
-                                        <p2>This policy covers the insured against three main risks;</p2>
-                                        <ol>
-                                            <li>Third party liability cover for bodily injury or property damage as a
-                                                result
-                                                of your vehicle being involved in an accident</li>
-                                            <li>Accidental Fire damage in the event your vehicle catches fire and is
-                                                destroyed</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-
-                                        </ol>
+                                        <p> MOTOR COMMERCIAL OWN GOODS:</p>
+                                        <p2>This is a comprehensive cover that protects the vehicles used by your business
+                                            for commercial purposes. This includes, but is not limited to minibuses, trucks,
+                                            tractors and fleets of vehicles. Our policy has three levels of cover from which
+                                            you can choose from. Third Party Only, Third Party Fire & Theft and Comprehensive.
+                                        </p2>
 
                                         <hr>
-                                        <p>Third Party Insurance Cover</p>
-                                        <p2>It is the minimum legal cover that every car owner must have in order to be
-                                            legally on the road.
-                                            The cover protects a vehicle owner from liabilities that may arise from
-                                            third parties in the event of an accident.
-                                            Third party liability relates to;</p2>
-                                        <ol>
-                                            <li>Bodily injury</li>
-                                            <li>Property damage</li>
-                                            <li>Theft cover as a result of your vehicle being stolen</li>
-                                        </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any
-                                            repair costs are met by the insured himself.</p2>
+                                        <p>GENERAL CARTAGE:</p>
+                                        <p2>This insurance offers protection to the insured against third party’s death, bodily
+                                            injury and/or property damage as well as loss/ damage to your vehicle due to accidental
+                                            fire, theft or an accident. Vehicles under the general cartage category are vehicles
+                                            used in transportation of the goods of the insured and/or other parties.</p2>
+
+                                        <hr>
+                                        <p>GENERAL CARTAGE TANKERS:</p>
+                                        <p2>It provides comprehensive commercial vehicle insurance to individual, businesses and
+                                            transporters against accidental loss or damage for your tanker specifically used for
+                                            the carriage of petroleum products including legal liability to third parties. You
+                                            can cover a fleet or an individual tanker.</p2>
+                                        <hr>
+
+                                        <p>MOTOR ADVANTAGE</p>
+                                        <p2>This policy provides cover against accidental loss or damage to insured motor vehicles
+                                            and/or death, bodily injury or loss or damage to property of third parties arising out
+                                            of use of motor vehicles owned and/or operated by the insured for hire and reward and
+                                            the carriage of goods in connection with the insured’s business..</p2>
+                                        <hr>
+
+                                        <p>MOTOR COMMERCIAL SPECIAL TYPES (Agricultural & Forestry):</p>
+                                        <p2>This is an insurance cover that protects the vehicles used for special purposes. This
+                                            includes, but is not limited Agricultural and Forestry Vehicles (Tractors, Harvestors Etc).
+                                            Our policy has three levels of cover from which you can choose from. Third Party Only,
+                                            Third Party Fire & Theft and Comprehensive.</p2>
+                                        <hr>
+                                        <p>MOTOR PSV PRIVATE HIRE (Chauffeur Driven):</p>
+                                        <p2>The cover is given for vehicles used for private hire which are chauffeur driven.</p2>
+                                        <hr>
+
+                                        <p>MOTOR PSV TAXIS (Chauffeur Driven):</p>
+                                        <p2>This covers passenger service vehicle and offer protection against accidental damage,
+                                            fire, theft, third party liability and passenger liability. The vehicle must be fully
+                                            compliant with the PSV rules.</p2>
+                                        <hr>
+
+                                        <p>MOTOR CONTINGENT LIABILITY:</p>
+                                        <p2>A Contingent Liability policy helps to provide indemnity against the liability which may
+                                            be incurred by the employer or firm from the negligent driving of the employee or the owner
+                                            of the vehicle. This policy applies in instances where an insured is liable for a vehicle
+                                            being used on their behalf or even a vehicle which they may not own or have any direct
+                                            control over (such as an employee using their personal vehicle on company business) or if
+                                            they have to hire a vehicle with a driver.</p2>
+                                        <hr>
+
+                                        <p>MOTOR COMMERCIAL INSTITUTIONAL VEHICLES:</p>
+                                        <p2>Covers accidental loss or damage to insured motor vehicles and/or death, bodily injury or
+                                            loss or damage to property of third parties arising out of use of motor vehicles owned and/or
+                                            operated by the insured. Covers institutions that use their vehicles for their own business purposes.</p2>
+                                        <hr>
+
+                                        <p>MOTOR COMMERCIAL DRIVING SCHOOL VEHICLES:</p>
+                                        <p2>This is a comprehensive cover that protects the vehicles used by your driving school business for
+                                            commercial purposes. This includes, but is not limited to minibuses, trucks, tractors and fleets
+                                            of vehicles. Our policy has three levels of cover from which you can choose from. Third Party Only,
+                                            Third Party Fire & Theft and Comprehensive</p2>
+
                                         <br><br><br><br>
 
                                         <div class="row">
@@ -127,14 +146,12 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1"
-                                                    uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r"
-                                                    uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -155,11 +172,16 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>COMPREHENSIVE </li>
-                                            <li>3RD PARTY ONLY</li>
-                                            <li>3RD PARTY & THEFT </li>
-                                            <li>NAMED DRIVER </li>
-                                            <li>BIMA BAMBA</li>
+                                            <li>MOTOR COMMERCIAL OWN GOODS </li>
+                                            <li>GENERAL CARTAGE</li>
+                                            <li>GENERAL CARTAGE TANKERS </li>
+                                            <li>MOTOR ADVANTAGE</li>
+                                            <li>MOTOR COMMERCIAL SPECIAL TYPES (Agricultural & Forestry)</li>
+                                            <li>MOTOR PSV PRIVATE HIRE (Chauffeur Driven)</li>
+                                            <li>MOTOR PSV TAXIS (Chauffeur Driven)</li>
+                                            <li>MOTOR CONTINGENT LIABILITY</li>
+                                            <li>MOTOR COMMERCIAL INSTITUTIONAL VEHICLES</li>
+                                            <li>MOTOR COMMERCIAL DRIVING SCHOOL VEHICLES</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover provides the following benefits. This include:</h3>
@@ -338,8 +360,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="load-more text-center " data-target="#modal-full1"
-                                            uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
@@ -419,8 +440,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -493,32 +513,26 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company"
-                                        placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -532,8 +546,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -552,8 +565,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -564,29 +576,22 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="07xx 245 xxx" value=""
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="john@example.com" value="" required data-parsley-type="email"
-                                        data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -601,8 +606,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
