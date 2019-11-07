@@ -184,7 +184,7 @@
                                     <img class="uk-border-circle1" width="100" height="50" src="img/doc/3.jpg">
                                 </div>
                                 <div class="uk-width-expand">
-                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">July 2016</h3>
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">December 2016</h3>
                                     <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
                                             Make Record
                                             Insurance Payouts for Livestock Herders Facing..</time></p>
@@ -194,7 +194,7 @@
                         <div class="uk-card-footer">
                             <div class="row">
                                 <div class="c0l-6">
-                                    <a href="digital/trailblazer/july_2016_new" class="uk-button uk-button-text my-text">Read
+                                    <a href="digital/trailblazer/dec_2016_new" class="uk-button uk-button-text my-text" target="_blank">Read
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
