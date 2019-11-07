@@ -245,7 +245,7 @@
                         <hr>
                         <p>Aviation Claim <br> form</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Dowload <i class="fas fa-download"></p>
                     </a>
                 </div>
 
@@ -372,7 +372,7 @@
                         <div class="row book-btn">
                             <div class="col-md-12">
                                 <button type="submit" name="request" class="btn btn-primary">SUBMIT
-                                    <i class="fas fa-paper-plane"> </button>
+                                    <i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                 </div>
@@ -439,8 +439,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE 
+                                        <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
