@@ -293,9 +293,8 @@
                             <h2>Pet Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This offers a Basic cover for loss/dearth of insured animal due to;
-                            Accidents, Illness and
-                            disease, Epidemics, Euthanasia on advice of...
+                        <p class="text-justify">Pet Insurance offers basic cover for loss/death of insured animals due
+                            to; accident, disease, epidemics or euthanasia on advice of...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
