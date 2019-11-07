@@ -372,19 +372,16 @@
                         <div class="row book-btn">
                             <div class="col-md-12">
                                 <button type="submit" name="request" class="btn btn-primary">SUBMIT
-                                    <i class="fas fa-paper-plane"></i> </button>
-                            </div>
+                                    <i class="fas fa-paper-plane"></i> </button> </div>
                         </div>
                 </div>
                 </form>
-
-
             </div>
         </div>
     </div>
     </div>
-
-    <!-- ===================================== REQUEST ASSISTANCE  ===================================== -->
+    <!--=====================================REQUEST
+                                            ASSISTANCE=====================================-->
 
     <div id="modal-full_r" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -397,7 +394,8 @@
 
 
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
+                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS
+                        </h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
@@ -439,7 +437,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE 
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE
                                         <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
