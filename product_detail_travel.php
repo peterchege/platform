@@ -77,7 +77,7 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <!-- <h2>Who Can be Covered?</h2> -->
-                                        <p> Who Can be covered?</p>
+                                        <p> Who can be covered?</p>
                                         <ol>
                                             <li> Any person between the age of six months and 80 years.</li>
                                             <li> A traveler within and outside Kenya.</li>
@@ -85,15 +85,15 @@
                                             <li>Persons on business trips.</li>
                                         </ol>
                                         <hr>
-                                        <p> Who Can be covered?</p>
+                                        <p> Who can be covered?</p>
                                         <ol>
                                             <li>You have comprehensive coverage against local and international travel
                                                 risks
-                                                and hazards anywhere in the world
+                                                and hazards anywhere in the world.
                                             </li>
                                             <li> You are covered from the time you leave your usual place of residence
                                                 or
-                                                business until your return for a period of up to 180 days
+                                                business until your return for a period of up to 180 days.
                                             </li>
 
                                         </ol>
@@ -101,8 +101,8 @@
                                         <p>24 Hour Assistance</p>
                                         <p2>You will have access to 24 hours assistance in any emergency including:</p2>
                                         <ol>
-                                            <li> Rescue and Evacuation in the event of an accident or illness</li>
-                                            <li> Emergency Medical Treatment</li>
+                                            <li> Rescue and Evacuation in the event of an accident or illness.</li>
+                                            <li> Emergency Medical Treatment.</li>
                                         </ol>
 
                                         <br><br><br><br>
@@ -144,7 +144,7 @@
 
                                         <!-- Personal Accident -->
                                         <h2>Personal accident</h2>
-                                        <p2> You and/or your beneficiaries will recieve compensation should you be
+                                        <p2> You and/or your beneficiaries will receive compensation should you be
                                             involved
                                             in an accident that results in:
                                         </p2>
@@ -159,9 +159,10 @@
                                         <p2> You will have your expenses arising directly out of the following covered:
                                         </p2>
                                         <ol>
-                                            <li> Evacuation or repatriation following accidental injury or illness </li>
-                                            <li> Emergency Dental Care</li>
-                                            <li> Follow-up treatment</li>
+                                            <li> Evacuation or repatriation following accidental injury or illness.
+                                            </li>
+                                            <li> Emergency Dental Care.</li>
+                                            <li> Follow-up treatment.</li>
                                         </ol>
                                         <hr>
                                         <!-- PERSONAL LIABILITY -->
@@ -169,31 +170,31 @@
                                         <p2> You are covered should you be found to be legally liable in the event of:
                                         </p2>
                                         <ol>
-                                            <li> Accidental damage to property belonging to a third party </li>
-                                            <li> Accidental loss or damage to property belonging to a third party</li>
+                                            <li> Accidental damage to property belonging to a third party. </li>
+                                            <li> Accidental loss or damage to property belonging to a third party.</li>
                                         </ol>
                                         <hr>
                                         <!-- TRAVEL DELAY/ MISSED DEPARTURE -->
                                         <h2>Travel delay/ missed departure</h2>
                                         <p2> You will be compensated for eventual delay of booked flights, including
-                                            accommodation
+                                            accommodation.
                                         </p2>
                                         <hr>
                                         <!-- HIJACK -->
                                         <h2> Hijack </h2>
-                                        <p2> In the event that you cannot reach your destination as a result of a
+                                        <p2> If you cannot reach your destination as a result of a
                                             hijacking,
                                             the cover compensates USD 100 for each full 24 hour period up to a maximum
                                             of 10 days
-                                            or USD 500
+                                            or USD 500.
                                         </p2>
                                         <hr>
                                         <!-- LOSS OF BAGGAGE & DOCUMENTS -->
                                         <h2> Loss of baggage & documents </h2>
                                         <ol>
                                             <li>You are covered for loss of passport or essential documents while
-                                                travelling</li>
-                                            <li> Loss or damage to checked baggage or personal effects</li>
+                                                traveling.</li>
+                                            <li> Loss or damage to checked baggage or personal effects.</li>
                                         </ol>
                                         <hr>
                                         <br>
