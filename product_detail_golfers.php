@@ -105,7 +105,7 @@
                                         <p>Section IV - Personal Accidents</p>
                                         <p2>If the Insured shall sustain accidental bodily injury caused by violent
                                             external and
-                                            visible means whilst playing golf course then; the Company will pay,</p2>
+                                            visible means whilst playing golf course then; the Company will pay.</p2>
                                         <p>Section V - Hole-in-one</p>
                                         <p2>The Company will reimburse the Insured expenses incurred not exceeding
                                             KSh. 20,000 should the
