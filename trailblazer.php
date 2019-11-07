@@ -116,6 +116,41 @@
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
                                 <div class="uk-width-auto">
+                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
+                                </div>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">February 2016</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
+                                            Make Record
+                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer">
+                            <div class="row">
+                                <div class="c0l-6">
+                                    <a href="digital/trailblazer/feb_2016_new" class="uk-button uk-button-text my-text" target="_blank">Read
+                                        more <i class="fas fa-eye"></i></a>
+                                </div>
+                                <div class="c0l-6">
+                                    <a href="pdf/trailblazer/February 2016.pdf" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row text-left">
+
+                <div class="col-md-4 card-fin">
+                    <div class="uk-card uk-card-default ">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
                                     <img class="uk-border-circle1" width="100" height="50" src="img/doc/2.jpg">
                                 </div>
                                 <div class="uk-width-expand">
@@ -129,7 +164,7 @@
                         <div class="uk-card-footer">
                             <div class="row">
                                 <div class="c0l-6">
-                                    <a href="digital/trailblazer/july_2016_new" class="uk-button uk-button-text my-text">Read
+                                    <a href="digital/trailblazer/july_2016_new" class="uk-button uk-button-text my-text" target="_blank">Read
                                         more <i class="fas fa-eye"></i></a>
                                 </div>
                                 <div class="c0l-6">
@@ -140,9 +175,6 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="row text-left">
 
                 <div class="col-md-4 card-fin">
                     <div class="uk-card uk-card-default ">
@@ -174,35 +206,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 card-fin">
-                    <div class="uk-card uk-card-default ">
-                        <div class="uk-card-header">
-                            <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                <div class="uk-width-auto">
-                                    <img class="uk-border-circle1" width="100" height="50" src="img/doc/1.jpg">
-                                </div>
-                                <div class="uk-width-expand">
-                                    <h3 class="uk-card-title uk-margin-remove-bottom my-custom">February 2016</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
-                                            Make Record
-                                            Insurance Payouts for Livestock Herders Facing..</time></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="uk-card-footer">
-                            <div class="row">
-                                <div class="c0l-6">
-                                    <a href="digital/samples/april_2018" class="uk-button uk-button-text my-text">Read
-                                        more <i class="fas fa-eye"></i></a>
-                                </div>
-                                <div class="c0l-6">
-                                    <a href="pdf/trailblazer/February 2016.pdf" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
 
                 <div class="offset-4">
 
