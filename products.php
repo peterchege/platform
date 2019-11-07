@@ -368,8 +368,8 @@
                             <h2> Family Health Cover <br>(Afya Nafuu) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">APA's Afya Nafuu pays for hospitalization expenses arising out of an
+                            illness or accident for you and your family. Why not see more for yourself here...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
