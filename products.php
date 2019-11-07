@@ -438,7 +438,7 @@
                         </div>
                         <br>
                         <p class="text-justify">What is a better start to realizing your dreams for the future than
-                            by having a lump sum payment at a predetermined date? Whether it’s....
+                            by having a lump sum payment at a predetermined date? Whether it’s...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -491,8 +491,8 @@
                         </div>
                         <br>
                         <p class="text-justify">We work hard now to ensure the futures of our
-                            little ones remain bright. A great education is a best foundation
-                            to a good life, ensure that your child gets....
+                            little ones remain bright. A great education is th best foundation
+                            for a good life, ensure that your child gets...
 
                         </p>
                         <!-- button click -->
