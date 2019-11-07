@@ -550,7 +550,7 @@
                         <br>
                         <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps
                             cushion
-                            yourself and your loved ones with lump sum payable within 48 hours provided....
+                            yourself and your loved ones with lump sum payable within 48 hours provided...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

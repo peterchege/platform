@@ -92,12 +92,12 @@
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
                                         <ol>
-                                            <li>The premiums will be a single premium rate for all ages</li>
-                                            <li>The premiums will be paid annually or monthly</li>
+                                            <li>The premiums will be a single premium rate for all ages.</li>
+                                            <li>The premiums will be paid annually or monthly.</li>
                                         </ol>
                                         <p> b) Policy Terms</p>
                                         <ol>
-                                            <li>The policy term is for 5 Years</li>
+                                            <li>The policy term is for 5 Years.</li>
 
                                         </ol>
                                         <br><br><br><br>
