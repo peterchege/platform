@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -53,15 +56,15 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
-
+                                e
                                 <h2> Education Plan (APA Elimu) </h2>
                                 <P class="text-justify">We work hard now to ensure the futures of our little ones remain
-                                    bright. A great education is a best foundation
-                                    to a good life, ensure that your child gets this chance through the elimu policy.
+                                    bright. A great education is th best foundation
+                                    for a good life, ensure that your child gets this chance through the elimu policy.
                                 </P>
                                 <P class="text-justify">Our policy enables you to build a fund over a period of time,
                                     making suitable provision for your child’s school
-                                    fees requirements as when they are required. It also ensures that the child’s fee
+                                    fees requirements as to when they are required. It also ensures that the child’s fee
                                     required is available even in the untimely death
                                     of the policyholder during the term of the policy.
                                 </P>
@@ -83,7 +86,7 @@
                                         <p> Flexible premiums</p>
                                         <p2>The sum assured and premiums are determined at onset and they remain fixed
                                             throughout the term of the policy.
-                                            You can however increase your premiums or sum assured at your policy
+                                            You can, however, increase your premiums or sum assured at your policy
                                             anniversary.
                                         </p2>
                                         <p> Flexible term</p>
@@ -112,7 +115,8 @@
                                         <p> b) Terms</p>
                                         <ol>
                                             <li>The policy term ranges from 5 to 20 Years</li>
-                                            <li>Premium will be payable for the policy term selected or until death of
+                                            <li>Premium will be payable for the policy term selected or until the death
+                                                of
                                                 the life assured if it occurs within the</li>
 
                                         </ol>
@@ -121,17 +125,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -173,9 +181,9 @@
                                         <ol>
                                             <li>100% of the sum assured is paid immediately</li>
                                             <li>Premiums are waived</li>
-                                            <li>At the end of the term of the policy 100% of the sum assured plus
+                                            <li>At the end of the term of the policy, 100% of the sum assured plus
                                                 accrued
-                                                bonus (simple reversionary bonus) and terminal bonus is paid.</li>
+                                                bonus (simple reversionary bonus) and the terminal bonus is paid.</li>
                                         </ol>
                                         <hr>
                                         <p> Rider Benefits</p>
@@ -183,10 +191,10 @@
                                             available; </p2>
                                         <ol>
                                             <li><b>Total and Permanent Disability</b></li>
-                                            <p2>On total and permanent disability due to an accident an amount equal to
+                                            <p2>On total and permanent disability due to an accident, an amount equal to
                                                 the basic sum
                                                 assured will become payable in equal monthly installments over a period
-                                                of 24 months form the
+                                                of 24 months from the
                                                 date of the accident. The disability referred to must be such that there
                                                 is neither then or
                                                 at any time thereafter any work, occupation or profession that the life
@@ -195,7 +203,7 @@
                                             </p2>
                                             <br><br>
                                             <li><b>Accidental Death</b></li>
-                                            <p2>On death due to an accident an amount equal to the basic sum assured
+                                            <p2>On death, due to an accident, an amount equal to the basic sum assured
                                                 will become payable.
                                                 This is in addition to the main benefit.
                                             </p2>
@@ -214,7 +222,7 @@
                                             </p2>
                                             <br><br>
                                             <li><b>Critical Illness rider </b></li>
-                                            <p2>In the event of first diagnosis of a specified critical illness an
+                                            <p2>In the event of the first diagnosis of a specified critical illness, an
                                                 amount equal to 30% of the sum
                                                 assured is payable to the life assured up to a maximum of Kes. 300,000.
                                                 Includes: Cancer, Stroke,
@@ -228,7 +236,7 @@
                                                 e.g. introduction of new technology
                                                 or re-organization of the business by the employer, future premiums will
                                                 be waived off up to a maximum of
-                                                6 monthly installments. This will cease, if the assured secures
+                                                6 monthly installments. This will cease if the assured secures
                                                 employment before the end of 6 months
                                             </p2>
                                         </ol>
@@ -265,18 +273,17 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product would cost you, or
+                                    if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    If you would like further explanation or assistance about this insurance product,
+                                    please <b>I Need Assistance.</b>
                                 </p>
                                 <p>
-                                    <b> Download forms</b> will give you access to any relevant documents for this
-                                    insurance product,
-                                    such as the claim form, proposal form etc.
+                                    <b> Download forms</b>will give you access to any relevant documents for this
+                                    insurance product, such as the bronchure, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -287,7 +294,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -370,7 +378,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/educate.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/educate.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -378,22 +387,29 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=" 07xx 254 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder=" 07xx 254 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -408,12 +424,14 @@
                                 <div class="form-group col-md-6">
                                     <label for="period">Period/Length to be Covered</label>
 
-                                    <input id="period" name="period" class="form-control" type="text" placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
+                                    <input id="period" name="period" class="form-control" type="text"
+                                        placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
 
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of Cover</label>
-                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 3,000,000 )" data-parsley-pattern="^.{7,}$" required>
+                                    <input name="value" type="text" class="form-control value" id="value"
+                                        placeholder="( Minimum Ksh 3,000,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -443,7 +461,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -462,7 +481,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -473,22 +493,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -503,7 +530,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
