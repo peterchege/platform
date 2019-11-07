@@ -161,14 +161,14 @@
                                         <ol>
                                             <li>Accidental impact damage including overturning and collision. </li>
                                             <li>Accidental fire damage.</li>
-                                            <li>Theft/partial theft cover </li>
+                                            <li>Theft/partial theft cover. </li>
                                             <li>Third-party liability cover for bodily injury & property damage.</li>
                                             <li>Windscreen cover.</li>
                                             <li>Entertainment system cover. </li>
                                             <li>Emergency medical expense cover.</li>
                                             <li>Courtesy car/ loss of use cover.</li>
                                             <li>Excess protector.</li>
-                                            <li>Political Violence & Terrorism cover</li>
+                                            <li>Political Violence & Terrorism cover.</li>
                                             <li>Third-party liability cover for bodily injury or property damage as a
                                                 result
                                                 of your vehicle being involved in an accident.</li>
@@ -326,7 +326,7 @@
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for motor
                                     insurance,
-                                    such as the claim form, proposal form etc.
+                                    such as the claim form etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">

@@ -87,14 +87,14 @@
                                             with him, fixtures
                                             & fittings, the insured’s own or for which he is legally responsible, not
                                             being the
-                                            landlord’s fixtures and fittings
+                                            landlord’s fixtures and fittings.
                                         </p2>
                                         <hr>
                                         <p>C.) All Risks Section</p>
                                         <p2>This section provides cover in respect to specified portable and valuable
                                             items,
                                             which are carried outside the house. Items under this section would include
-                                            jewelry, watches, laptops, mobile phones
+                                            jewelry, watches, laptops, mobile phones.
                                         </p2>
                                         <hr>
                                         <p>d.) WIBA Section </p>
@@ -195,11 +195,11 @@
                                     If you would like further assistance about this insurance product, please click I
                                     <b>Need Assistance.</b>
                                 </p>
-                                <p>
+                                <!-- <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
                                     such as the claim form, proposal form, etc.
-                                </p><br> <br>
+                                </p><br> <br> -->
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center " data-target="#modal-full" uk-toggle>

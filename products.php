@@ -163,7 +163,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We cover accidental death or disablement to the insured and offers
-                            compensation payable to the insured or his/her legal representative....
+                            compensation payable to the insured or his/her legal representative...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -189,7 +189,7 @@
                         </div>
                         <br>
                         <p class="text-justify">The APA Golfers will cover you and your equipment against loss, damage,
-                            theft, and accidents....
+                            theft, and accidents...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -214,7 +214,7 @@
                         </div>
                         <br>
                         <p class="text-justify">APA Motorcycle insurance covers you and your motorcycle against loss,
-                            theft, physical damage, bodily damage....
+                            theft, physical damage, bodily damage...
                         </p>
                         <br>
                         <!-- button click -->
@@ -523,7 +523,7 @@
                         <br>
                         <p class="text-justify">When facing a medical emergency, the last thing you
                             want to worry about is the financial burden. APA Life understands that
-                            the only thing ...
+                            the only thing...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
