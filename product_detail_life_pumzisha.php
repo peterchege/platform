@@ -36,16 +36,19 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -63,7 +66,7 @@
                                 </P>
                                 <P class="text-justify">Upon the death of a loved one, most people consider a dignified
                                     funeral
-                                    a non-negotiable expense. Because they tend to be very costly, and may come at a
+                                    a non-negotiable expense. Because they tend to be very costly and may come at a
                                     time when
                                     they are not expected, it is often difficult to manage the financial burden of a
                                     funeral.
@@ -80,7 +83,7 @@
                                             funeral plan
                                             to cover most, if not all, funeral expenses in the event of an unexpected
                                             death so as to:<br><br>
-                                            <li>Minimize the financial impact of an unexpected death on the surviving
+                                            <li>Minimize the financial impact of unexpected death on the surviving
                                                 members of your family.</li>
                                             <li>Ensure the surviving members of your family go through a smooth
                                                 transition during this difficult period.</li>
@@ -114,17 +117,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -149,7 +156,7 @@
                                             policy schedule will be payable as long as the policy is active on
                                             the occurrence of the insured event</p2><br>
                                         <p2>Three sum assured options are available: 500,000/-, 300,000/-,
-                                            200,000/- 100,000/-, 70,000/- and 50,000/-</p2>
+                                            200,000/- 100,000/-, 70,000/- and 50,000/-.</p2>
                                         <hr>
                                         <p>Accidental Death Benefits</p>
                                         <p2>In the event death of the main life assured as a result of an accident,
@@ -178,13 +185,13 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
-                                    you, or if you are interested in purchasing this insurance product, please click
+                                <p>If you are interested in learning how much this insurance product would cost you, or
+                                    if you are interested in purchasing this insurance product, please click
+
                                     <b>Get Cover</b>.
                                 </p>
-                                <p>
-                                    If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                <p>will give you access to any relevant documents for this insurance product, such as
+                                    the claim form, proposal form, etc.<b>I Need Assistance.</b>
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
@@ -200,7 +207,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -284,7 +292,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -292,22 +301,29 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 254 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 254 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@gmail.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -321,7 +337,8 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="period">Period/Length to be Covered</label>
-                                    <input name="period" type="text" class="form-control" id="period" min="5" max="20" placeholder="( 5-20 yrs )" value="" required>
+                                    <input name="period" type="text" class="form-control" id="period" min="5" max="20"
+                                        placeholder="( 5-20 yrs )" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of cover</label>
@@ -364,7 +381,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -383,7 +401,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -394,22 +413,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -424,7 +450,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
