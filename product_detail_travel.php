@@ -215,7 +215,7 @@
                                 <p>SCHEDULE OF COMPENSATION</p>
                                 <p2>The schedule of compensation applicable under each section of this policy for each
                                     insured during each period of
-                                    travel </p2>
+                                    travel. </p2>
                                 <!-- TABLE -->
 
                                 <table class="uk-table uk-table-hover uk-table-divider">
@@ -666,13 +666,13 @@
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
-                                    If you would like further assistance explanation or assistance about this insurance
+                                    If you would like further explanation or assistance about this insurance
                                     product, please click I <b>Need Assistance.</b>
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
-                                    such as the claim form, proposal form etc.
+                                    such as the claim form, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
