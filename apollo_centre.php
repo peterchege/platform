@@ -361,9 +361,7 @@
                         <h2>SECURE </h2>
                         <hr>
                         <p>
-                            The firm is backed by a strong financial base. Getting into partnership with Swiss Re
-                            provides
-                            for a strong financial backing that enables us deliver on our brand promise.
+                            Our facility is highly secured with 24 hours surveillance and gaurds
                         </p>
 
                     </div>
@@ -375,9 +373,7 @@
                         <h2>AMPLE PARKING</h2>
                         <hr>
                         <p>
-                            Our products and services are well known and respected in the market. We have built our
-                            reputation
-                            through hardwork and good service.
+                            We have a parking space for over 100 vehicles
                         </p>
 
                     </div>
@@ -389,9 +385,8 @@
                         <h2>CENTRAL LOCATION</h2>
                         <hr>
                         <p>
-                            The customer is the focus of our attention. Each account is assigned to a Relationship
-                            Officer
-                            who ensures that personal and professional service is given.
+                           We are at the hearth of westlands, close to public transport terminuses
+                           and on the newly built dual carriageway
                         </p>
 
                     </div>
