@@ -155,7 +155,7 @@
                                             <li>3RD PARTY ONLY</li>
                                             <li>3RD PARTY & THEFT </li>
                                             <li>NAMED DRIVER </li>
-                                            <li>BIM BAMBA</li>
+                                            <li>BIMA BAMBA</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover provides the following benefits. This include:</h3>
