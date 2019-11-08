@@ -129,7 +129,7 @@
                                                 <div class="card-body">
                                                     <h3 class="card-title">Diagnostics</h3>
                                                     <p>All prescribed laboratory tests, X-rays, Ultrasounds, MRI and CT
-                                                        Scans</p>
+                                                        Scans.</p>
                                                 </div>
                                             </div>
 
@@ -146,11 +146,11 @@
                                             dental/reconstructive surgery among many more others.</p2>
                                         <p>Optional Benefits:</p>
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>Outpatient cover.</li>
+                                            <li>Maternity cover. </li>
+                                            <li>Dental & Optical Cover. </li>
+                                            <li>Last expense cover. </li>
+                                            <li>Personal Accident Benefit Cover.</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
@@ -158,19 +158,19 @@
                                             <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
                                                 including
                                                 related
-                                                conditions
+                                                conditions.
                                             </li>
-                                            <li>Countrywide Provider Network
+                                            <li>Countrywide Provider Network.
                                             </li>
-                                            <li>Overseas inpatient referrals covered on credit under-listed hospitals
+                                            <li>Overseas inpatient referrals covered on credit under-listed hospitals.
                                             </li>
-                                            <li>Cover for inpatient dental and optical treatment
+                                            <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit
+                                            <li>Post hospitalization benefit.
                                             </li>
-                                            <li>Funeral expenses benefit
+                                            <li>Funeral expenses benefit.
                                             </li>
-                                            <li>Free Personal Accident benefit for Principle member
+                                            <li>Free Personal Accident benefit for Principle member.
                                             </li>
                                         </ol>
 
@@ -245,11 +245,11 @@
                                             dental/reconstructive surgery among many more others.</p2>
                                         <p>Optional Benefits:</p>
                                         <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
+                                            <li>Outpatient cover.</li>
+                                            <li>Maternity cover. </li>
+                                            <li>Dental & Optical Cover. </li>
+                                            <li>Last expense cover. </li>
+                                            <li>Personal Accident Benefit Cover.</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
@@ -257,19 +257,19 @@
                                             <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
                                                 including
                                                 related
-                                                conditions
+                                                conditions.
                                             </li>
-                                            <li>Countrywide Provider Network
+                                            <li>Countrywide Provider Network.
                                             </li>
-                                            <li>Overseas inpatient referrals covered on credit under-listed hospitals
+                                            <li>Overseas inpatient referrals covered on credit under-listed hospitals.
                                             </li>
-                                            <li>Cover for inpatient dental and optical treatment
+                                            <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit
+                                            <li>Post hospitalization benefit.
                                             </li>
-                                            <li>Funeral expenses benefit
+                                            <li>Funeral expenses benefit.
                                             </li>
-                                            <li>Free Personal Accident benefit for Principle member
+                                            <li>Free Personal Accident benefit for Principle member.
                                             </li>
                                         </ol>
 
