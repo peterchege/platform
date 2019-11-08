@@ -56,7 +56,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
-                                e
+                            
                                 <h2> Education Plan (APA Elimu) </h2>
                                 <P class="text-justify">We work hard now to ensure the futures of our little ones remain
                                     bright. A great education is th best foundation
