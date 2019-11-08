@@ -52,8 +52,8 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private
                                                 Motor</a></li>
-                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
-                                                Cycle</a></li>
+                                        <!-- <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
+                                                Cycle</a></li> -->
                                         <li><a href="product_detail_pedal_cycle.php"><i class="fas fa-bicycle"></i>
                                                 Pedal Cycle</a></li>
                                         <li><a href="product_detail_travel.php"><i class="fas fa-plane-departure"></i>
