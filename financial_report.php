@@ -219,7 +219,7 @@
 
                 </div>
 
-                <!-- APOLLO ASSET MANAGMENT FINANCIAL REPORT -->
+                <!-- APOLLO ASSET MANAGEMENT FINANCIAL REPORT -->
                 <div class="row text-left wow fadeInUp" data-wow-delay="0.2s">
 
                     <div class="col card-fin">
@@ -230,7 +230,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/mmf_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
@@ -257,7 +257,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_2017.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
                                     </div>
                                 </div>
@@ -284,7 +284,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
                                     </div>
                                 </div>

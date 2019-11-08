@@ -47,9 +47,9 @@
             <li class="nav-item active">
                 <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">DOWNLOADS</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 
@@ -230,7 +230,7 @@
                     <p class="text-justify">
                         Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
                         services industry. Amos has a Master of Science degree in Economics from Eastern College in Philadelphia, USA and
-                        is also a graduate of Daystar University. He also has had trainings in Fundamentals of Investing, Anti-Money Laundering,
+                        is also a graduate of Daystar University. He also has had training in Fundamentals of Investing, Anti-Money Laundering,
                         and Bond Trading.egies, and create assets and realise investment opportunities
                         existing in-country and emerging markets.
 
@@ -284,11 +284,11 @@
                         Senior Accountant
                     </h2>
                     <p class="text-justify">
-                        John Paul is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya, 
-                        graduate of Moi University Bachelors of Business Management(Accounting) with more than 9 years of professional 
-                        experience in auditing and management accounting, and currently pursuing his final exams in Certified Investment 
-                        Financial Analysis (CIFA). He also has enrolled as a student under Chartered Institute for Securities Investment 
-                        (CISI) where he has had trainings in Fundamentals of Investing; fixed income instruments trading.
+                        John Paul is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya,
+                        graduate of Moi University Bachelors of Business Management(Accounting) with more than 9 years of professional
+                        experience in auditing and management accounting, and currently pursuing his final exams in Certified Investment
+                        Financial Analysis (CIFA). He also has enrolled as a student under Chartered Institute for Securities Investment
+                        (CISI) where he has had training in Fundamentals of Investing; fixed income instruments trading.
 
                     </p>
                 </div>

@@ -45,8 +45,7 @@
                 <a class="nav-link" href="leadership.php">LEADERSHIP</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link dropdown-toggle" href="management_group.php" id="navbarDropdownMenuLink"
-                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
+                <a class="nav-link dropdown-toggle" href="management_group.php" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MANAGMENT</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                 </div>
@@ -219,8 +218,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/keval.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/keval.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Keval Shah
@@ -248,8 +246,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/apa3/Maria.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/apa3/Maria.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Maria Simiyu
@@ -265,7 +262,7 @@
                         Counselling Psychology from USIU-A and a Bachelor of Education degree from Kenyatta University. 
                         She is also a member of the Institute of Human Resource Management (IHRM) as well as
                         Toastmasters
-                        International.  She regularly gives of her time towards mentoring young people and actively
+                        International.  She regularly gives off her time towards mentoring young people and actively
                         participates
                         in this through two organisations – Precious Sisters & Global Give Back Circle.
 
@@ -281,8 +278,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/james.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/james.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         James Nyakomitta
@@ -315,8 +311,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/chris.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/chris.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Chris Ngala
@@ -347,8 +342,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/benjamin.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/benjamin.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Benjamin Otieno
@@ -361,7 +355,7 @@
                         insurance industries
                         having worked on various risk management and strategy assignments. He holds a bachelor’s degree
                         in mathematics
-                        and computer science and an MSc in information systems. He is a member of the Global Association
+                        and computer science and a MSc in information systems. He is a member of the Global Association
                         of Risk Professionals
                         (GARP) and Information Systems Audit and Control Association (ISACA).
                     </p>
@@ -376,8 +370,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/judy.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/judy.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Judith Bogonko Juma
@@ -403,8 +396,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/jackie.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/jackie.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Jackie Tonui
@@ -431,8 +423,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/charlse.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/charlse.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Charles Wambua
@@ -460,8 +451,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/janette.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/janette.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Janette Awidhi
@@ -478,7 +468,9 @@
             </div>
         </div>
     </div>
-
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
     <?php
     require_once 'inc/scripts.php';
     ?>
