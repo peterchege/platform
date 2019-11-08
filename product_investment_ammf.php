@@ -69,12 +69,12 @@
                                             reasonable rate of interest while preserving capital and offering liquidity.
                                             The fund is suitable for investors seeking an alternative to a fixed bank
                                             deposit. The minimum lump sum investment is KES. 10,000 and additional
-                                            top ups of KES.2,000 can be made thereafter . Regular voluntary top upscan
+                                            top ups of KES. 2,000 can be made thereafter . Regular voluntary top ups can
                                             be made by cheque, direct cash deposit, direct debit order or standing
                                             order.
                                         </p2><br><br>
                                         <p2>The principal investments in this is fund are short term (usually less than
-                                            1year) instruments like bank deposits, commercial papers and Government
+                                            1 year) instruments like bank deposits, commercial papers and Government
                                             treasury bills.
                                         </p2>
                                         <br><br><br><br>

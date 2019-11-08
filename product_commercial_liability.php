@@ -55,8 +55,8 @@
                             <div class="job-description text-center">
 
                                 <h2>Liability Cover</h2>
-                                <P class="text-justify">Liability Cover is a critical for those who maybe held liabe for
-                                    injuries to others or in the event that the insured party damaages someone else's
+                                <P class="text-justify">Liability Cover is a critical for those who maybe held liable for
+                                    injuries to others or in the event that the insured party damages someone else's
                                     property
                                     and is considered to be at fault
                                 </P>

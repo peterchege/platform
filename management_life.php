@@ -217,7 +217,7 @@
                         </h5>
 
                         <p>
-                            Mr. Makena is the National <br> ales Manager for APA Life. <br>He spent the last 22...
+                            Mr. Makena is the National <br> sales Manager for APA Life. <br>He spent the last 22...
                         </p>
                         <button class="btn btn-primary reto" data-target="#modal-full9" uk-toggle>Read more</button>
                     </div>
@@ -321,9 +321,9 @@
                     </h2>
                     <p class="text-justify">
                         Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance Company.  
-                        She has 7 years’ experience in the Life Assurance industry both in Operations and Actuarial. 
-                        Harriet has a Bachelor’s of Science degree in Actuarial Science from the University of Nairobi and 
-                        is also a former member of the Institute and Faculty of Actuaries. She also has had trainings in Underwriting, 
+                        She has 7 years’ experience in the Life Assurance industry both in Operations and Actuarial.
+                        Harriet has a Bachelor’s of Science degree in Actuarial Science from the University of Nairobi and
+                        is also a former member of the Institute and Faculty of Actuaries. She also has training in Underwriting,
                         Reinsurance and Leadership.
                     </p>
                 </div>
@@ -473,7 +473,7 @@
                         National Sales Manager
                     </h2>
                     <p class="text-justify">
-                        Mr. Makena is the National ales Manager for APA Life. He spent the last 22 years working in the insurance industry and is a member of CIM.
+                        Mr. Makena is the National sales Manager for APA Life. He spent the last 22 years working in the insurance industry and is a member of CIM.
                         <br>
                         His responsibilities at APA Life include growing Individual Life business through recruitment training and development of the agency sales force. He holds a Bachelors (B.Sc Mathematics) from Kenyatta University.
 
