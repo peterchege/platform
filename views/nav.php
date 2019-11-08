@@ -98,7 +98,7 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="product_detail_life_imarika.php"><i class="fas fa-piggy-bank"></i>
+                                        <li><a href="product_detail_life_Imarika.php"><i class="fas fa-piggy-bank"></i>
                                                 Fixed Savings Plan (Imarika)</a></li>
                                         <li><a href="product_detail_life_akiba_halisi.php"><i class="fas fa-money-check"></i> Anticipated Savings Plan (Akiba
                                                 Halisi)</a></li>
