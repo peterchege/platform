@@ -102,10 +102,10 @@
                                         <p> a) Premiums</p>
                                         <p2>This is determined by:</p2>
                                         <ol>
-                                            <li>Life assured’s age</li>
-                                            <li>Frequency of premium payment</li>
-                                            <li>level of cover selected</li>
-                                            <li>Term of the policy</li>
+                                            <li>Life assured’s age.</li>
+                                            <li>Frequency of premium payment.</li>
+                                            <li>level of cover selected.</li>
+                                            <li>Term of the policy.</li>
                                         </ol>
                                         <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually
                                             and the modes of payment include
@@ -118,9 +118,9 @@
                                         <p> b) Terms</p>
                                         <ol>
                                             <li>The policy term ranges from 6, 9, 12,15 and 18 Years</li>
-                                            <li>Premium will be payable for the policy term selected or untilthe death
+                                            <li>Premium will be payable for the policy term selected or until the death
                                                 of
-                                                the life assured if it occurs within the</li>
+                                                the life assured if it occurs within the term.</li>
 
                                         </ol>
                                         <br><br><br><br>
@@ -165,10 +165,10 @@
                                         <p> Survival Benefits</p>
                                         <p2>On survival of the Policyholder up to :</p2>
                                         <ol>
-                                            <li>100% of the sum assured plus </li>
+                                            <li>100% of the sum assured plus. </li>
                                             <li>Simple reversionary Bonus: computed as a percentage of the sum assured
-                                                (4%) </li>
-                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%) </li>
+                                                (4%). </li>
+                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%). </li>
                                         </ol>
                                         <hr>
                                         <p> Death Benefits</p>
@@ -222,7 +222,7 @@
                                                 Includes: Cancer, Stroke,
                                                 Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary, Artery
                                                 Disease, Major Organ Transplant, e.g.
-                                                Kidney transplant
+                                                Kidney transplant.
                                             </p2>
                                             <br><br>
                                             <li><b>Retrenchment rider </b></li>
@@ -231,7 +231,7 @@
                                                 or re-organization of the business by the employer, future premiums will
                                                 be waived off up to a maximum of
                                                 6 monthly installments. This will cease if the assured secures
-                                                employment before the end of 6 months
+                                                employment before the end of 6 months.
                                             </p2>
                                         </ol>
                                         <hr>
@@ -240,10 +240,10 @@
                                         <p2>The policy will acquire paid up and surrender values after payment of at
                                             least 3 full years’ premium. </p2>
                                         <p>Loans </p>
-                                        <p2>Loans will also be available within the surrender value of the policy </p2>
+                                        <p2>Loans will also be available within the surrender value of the policy. </p2>
                                         <p>Tax benefit </p>
                                         <p2>By law, a 15% insurance relief will be granted to the policyholder up to a
-                                            maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.) </p2>
+                                            maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.). </p2>
                                         <br>
                                     </div>
 

@@ -101,8 +101,8 @@
                                         <p> a) Premiums</p>
                                         <ol>
                                             <li>The premiums will be based on age bands (18-23,24-29,30-34,35-39 and so
-                                                on)</li>
-                                            <li>The premiums will be paid monthly or annually</li>
+                                                on).</li>
+                                            <li>The premiums will be paid monthly or annually.</li>
                                             <li>The premium is payable up to the end of the term of the policy or on
                                                 earlier death.</li>
                                             <li>Extra premiums will be charged for any additional member.</li>
@@ -154,7 +154,7 @@
                                         <p> Death Benefits</p>
                                         <p2>A lump-sum benefit equal to 100% of the sum assured stated in the
                                             policy schedule will be payable as long as the policy is active on
-                                            the occurrence of the insured event</p2><br>
+                                            the occurrence of the insured event.</p2><br>
                                         <p2>Three sum assured options are available: 500,000/-, 300,000/-,
                                             200,000/- 100,000/-, 70,000/- and 50,000/-.</p2>
                                         <hr>
@@ -250,7 +250,7 @@
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
 
                     </a>
                 </div>
@@ -263,7 +263,7 @@
                         <hr>
                         <p>Pumzisha Proposal Form</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
 
                     </a>
                 </div>
@@ -276,7 +276,7 @@
                         <hr>
                         <p>Pumzisha Claim form</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
                     </a>
                 </div>
 

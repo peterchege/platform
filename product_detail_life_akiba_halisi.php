@@ -36,13 +36,16 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -81,10 +84,10 @@
                                         <p> a) Premiums</p>
                                         <p2>This is determined by:</p2>
                                         <ol>
-                                            <li>Life assured’s age</li>
-                                            <li>Frequency of premium payment</li>
-                                            <li>level of cover selected</li>
-                                            <li>Term of the policy</li>
+                                            <li>Life assured’s age.</li>
+                                            <li>Frequency of premium payment.</li>
+                                            <li>level of cover selected.</li>
+                                            <li>Term of the policy.</li>
                                         </ol>
                                         <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually
                                             and the modes of payment include
@@ -96,9 +99,9 @@
                                             death.</p2>
                                         <p> b) Terms</p>
                                         <ol>
-                                            <li>The policy term ranges from 6, 9, 12,15 and 18 Years</li>
+                                            <li>The policy term ranges from 6, 9, 12,15 and 18 Years.</li>
                                             <li>Premium will be payable for the policy term selected or until death of
-                                                the life assured if it occurs within the</li>
+                                                the life assured if it occurs within the term.</li>
 
                                         </ol>
                                         <br><br><br><br>
@@ -106,17 +109,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -139,12 +146,12 @@
                                         <p> Survival Benefits</p>
                                         <p2>On survival of the Policyholder up to :</p2>
                                         <ol>
-                                            <li>1/3 of the policy term- 15% of the Sum Assured </li>
-                                            <li>2/3 of the policy term- 25% of the Sum Assured </li>
-                                            <li>the end of the policy term - 60% of the Sum Assured plus</li>
-                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured
+                                            <li>1/3 of the policy term- 15% of the Sum Assured. </li>
+                                            <li>2/3 of the policy term- 25% of the Sum Assured. </li>
+                                            <li>the end of the policy term - 60% of the Sum Assured plus.</li>
+                                            <li>Simple reversionary Bonus: computed as a percentage of the sum assured.
                                             </li>
-                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%)</li>
+                                            <li>Terminal bonus: computed as a percentage of the sum assured (50%).</li>
                                         </ol>
                                         <hr>
                                         <p> Death Benefits</p>
@@ -198,7 +205,7 @@
                                                 Includes: Cancer, Stroke,
                                                 Heart Attack, Kidney Failure, Paraplegia or Paralysis, Coronary, Artery
                                                 Disease, Major Organ Transplant, e.g.
-                                                Kidney transplant
+                                                Kidney transplant.
                                             </p2>
                                             <br><br>
                                             <li><b>Retrenchment rider </b></li>
@@ -207,7 +214,7 @@
                                                 or re-organization of the business by the employer, future premiums will
                                                 be waived off up to a maximum of
                                                 6 monthly installments. This will cease, if the assured secures
-                                                employment before the end of 6 months
+                                                employment before the end of 6 months.
                                             </p2>
                                         </ol>
                                         <hr>
@@ -216,10 +223,10 @@
                                         <p2>The policy will acquire paid up and surrender values after payment of at
                                             least 3 full years’ premium. </p2>
                                         <p>Loans </p>
-                                        <p2>Loans will also be available within the surrender value of the policy </p2>
+                                        <p2>Loans will also be available within the surrender value of the policy. </p2>
                                         <p>Tax benefit </p>
                                         <p2>By law, a 15% insurance relief will be granted to the policyholder up to a
-                                            maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.) </p2>
+                                            maximum of Kes. 5,000 p.m. (Kes. 60,000 p.a.). </p2>
                                         <br>
                                     </div>
 
@@ -248,12 +255,12 @@
                                 </p>
                                 <p>
                                     If you would like further assistance explanation or assistance about this insurance
-                                    product, please click I <b>Need Assistance.</b>
+                                    product, please click <b> I Need Assistance.</b>
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for this
                                     insurance product,
-                                    such as the claim form, proposal form etc.
+                                    such as the claim form, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -264,7 +271,8 @@
                                     </div>
                                     <div class="col-md-4">
                                         <div class="load-more text-center">
-                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                            <a href="#" class="btn btn-danger" data-target="#modal-close-outside"
+                                                uk-toggle="target: #modal-close-outside"> Download Form </a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -347,7 +355,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/saving2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/saving2.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -355,22 +364,26 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -396,7 +409,8 @@
 
                                 <div class="form-group col-md-6">
                                     <label for="value">Value of Cover</label>
-                                    <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                    <input name="value" type="text" class="form-control value" id="value"
+                                        placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -427,7 +441,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -446,7 +461,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -457,22 +473,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -487,7 +510,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
