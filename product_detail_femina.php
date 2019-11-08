@@ -79,16 +79,16 @@
                                         <h2>Facts about breast/ cervical cancer :</h2>
 
                                         <ol>
-                                            <li> Anybody can get breast/ cervical cancer </li>
-                                            <li> It affects women and men of all ages, race and social classes </li>
-                                            <li> There are no known causes of breast cancer </li>
+                                            <li> Anybody can get breast/ cervical cancer. </li>
+                                            <li> It affects women and men of all ages, race and social classes. </li>
+                                            <li> There are no known causes of breast cancer. </li>
                                             <li> Having one or more of the risk factors associated with breast/ cervical
-                                                cancer does not necessarily mean one will develop the disease </li>
-                                            <li>Men do get breast cancer</li>
-                                            <li>Mastectomy does not affect a woman’s sexuality</li>
-                                            <li>Breast cancer is curable if detected early</li>
+                                                cancer does not necessarily mean one will develop the disease. </li>
+                                            <li>Men do get breast cancer.</li>
+                                            <li>Mastectomy does not affect a woman’s sexuality.</li>
+                                            <li>Breast cancer is curable if detected early.</li>
                                             <li>Surgery for removal of cancerous lumps does NOT
-                                                lead to fatality</li>
+                                                lead to fatality.</li>
                                         </ol>
 
                                         </ol><br>
