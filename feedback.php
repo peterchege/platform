@@ -102,7 +102,7 @@
                                     </div> -->
                                     <div class="row book-btn">
                                         <div class="col-md-12">
-                                            <button type="submit" name="request" class="btn btn-primary"> Send Message &nbsp;<i class="fas fa-paper-plane"></i>
+                                            <button type="submit" name="request" id="feedback" class="btn btn-primary"> Send Message &nbsp;<i class="fas fa-paper-plane"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -129,6 +129,14 @@
     ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/lead.js"></script>
+    <!-- ckeditor -->
+    <script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('feedback', {
+            height: 300,
+            filebrowserUploadUrl: "upload.php"
+        });
+    </script>
 </body>
 
 </html>

@@ -55,6 +55,7 @@ $(document).ready(function () {
 
     $('.form-feedback').parsley();
     $('.form-feedback').on('submit', function (e) {
+        var form = $(this);
         var form_data = new FormData(this);
         var buttonClicked = $(this).find('button[name=request]');
         e.preventDefault();
@@ -81,6 +82,7 @@ $(document).ready(function () {
                         confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
                         confirmButtonAriaLabel: 'Thumbs up, great!',
                     });
+                    form.trigger('reset');
                 } else {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
@@ -92,7 +94,7 @@ $(document).ready(function () {
                         confirmButtonText: 'Ok!',
                     });
                 }
-                buttonClicked.attr("disabled", false).html('Send Message' + '<i class="fas fa-paper-plane">');
+                buttonClicked.attr("disabled", false).html('Send Message' + '&nbsp;<i class="fas fa-paper-plane">');
             }
         });
     });
