@@ -71,8 +71,9 @@
                             <h2 class="text-center"> Aviation Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Physical damage insurance provided to cover loss or damage to the
-                            insured’s aircraft, while it is in motion, not in motion or for both...
+                        <p class="text-justify">APA Aviation insurance will provide coverage for hull losses or damage,
+                            liability for passenger injuries and third-party damage caused by aircraft
+                            accidents...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
