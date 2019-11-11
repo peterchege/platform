@@ -228,7 +228,7 @@
 
                 </div>
 
-                <div class="row space-up">
+                <div class="row ">
 
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
                         <div class="room-container img-Chyullu">
