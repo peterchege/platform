@@ -36,17 +36,15 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> FEATURES / BENEFITS </a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"> FEATURES / BENEFITS </a>
+                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -66,14 +64,36 @@
                                     the policy. The relevant proposal form has to be completed by the client and
                                     be submitted to the Insurers for proper assessment of risk.
                                 </P>
-                                <br><br>
+                                <hr>
                                 <div class="job-content">
-
+                                    <div class="text-justify">
+                                        <h2>Our main products include:</h2>
+                                        <p> BUSINESS COMBINED POLICY</p>
+                                        <p2>This is a combined peril policy which provides comprehensive insurance cover
+                                            against risks faced by entrepreneurs.
+                                        </p2>
+                                        <br><br>
+                                        <p2>The policy provides covers for the following risks:</p2>
+                                        <ol>
+                                            <li>Loss or damage to property including money</li>
+                                            <li>Loss of profits</li>
+                                            <li>Accidental bodily injuries to the entrepreneur and employees</li>
+                                            <li>Claims for bodily injury by accident or disease sustained by employees
+                                                in the course of employments as provided under Work Injury Benefits Act 2007.</li>
+                                        </ol>
+                                        <p2>The policy provides covers for the following risks:</p2>
+                                        <ol>
+                                            <li>Business premises: Shops</li>
+                                            <li>Offices</li>
+                                            <li>Restaurants</li>
+                                            <li>SME: Light industries</li>
+                                        </ol>
+                                    </div>
+                                    <br><br>
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="load-more text-center ">
-                                                <a href="#" class="btn btn-primary" data-target="#modal-full"
-                                                    uk-toggle>Get Cover</a>
+                                                <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -97,81 +117,72 @@
                         <!-- FEATURES -->
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                            <!-- <div class="job-description text-center">
+                            <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
-                                        <p> Inpatient cover is the core cover.</p>
-                                        <p2>With this, one is covered for; Pre-existing, Chronic, Congenital, HIV/AIDS
-                                            related
-                                            conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
-                                        <p>Optional Benefits:</p>
-                                        <ol>
-                                            <li>Outpatient cover </li>
-                                            <li>Maternity cover </li>
-                                            <li>Dental & Optical Cover </li>
-                                            <li>Last expense cover </li>
-                                            <li>Personal Accident Benefit Cover</li>
-                                        </ol>
-                                        <hr>
-                                        <h3>The cover also provides for enhanced benefits. This include:</h3>
-                                        <ol>
-                                            <li>Cover for Pre-Existing, Chronic, Psychiatric, congenital and HIV/AIDS
-                                                including
-                                                related
-                                                conditions
-                                            </li>
-                                            <li>Country wide Provider Network
-                                            </li>
-                                            <li>Overseas inpatient referrals covered on credit under listed hospitals
-                                            </li>
-                                            <li>Cover for inpatient dental and optical treatment
-                                            </li>
-                                            <li>Post hospitalization benefit
-                                            </li>
-                                            <li>Funeral expenses benefit
-                                            </li>
-                                            <li>Free Personal Accident benefit for Principle member
-                                            </li>
-                                        </ol>
+                                        <p> Fire and Peril</p>
+                                        <p2>The section cover the risks of fire, lightning and explosion. The policy is enhanced
+                                            to cover additional perils such as earthquake, malicious damage, floods, riots and strike.
+                                        </p2>
+                                        <p>Fire Consequential Loss</p>
+                                        <p2>The section cover the Loss of Profits, Increase in Wages and Auditors’ fee as a result of
+                                            Business Interruption arising from the risk of Fire.
+                                        </p2>
+                                        <p>Political Violence & Terrorism</p>
+                                        <p2>Loss or damage caused by unlawful use of violence against the government or civilians for
+                                            political reasons, civil commotion, sabotage and Terrorism
+                                        </p2>
+                                        <p>Burglary</p>
+                                        <p2>This covers loss or damage as a result of visible forcible and violent breaking into or out
+                                            of the premises or any attempt thereat.
+                                            Mandatory warranties: Watchman warranty, Safe and Books clause
+                                        </p2>
+                                        <p>All Risk</p>
+                                        <p2>This covers loss or damage (except as excluded in the policy) to specified items of personal or delicate nature.
+                                            It includes accidental loss and has a worldwide territorial scope.
+                                            It includes items such as Laptops, Computers, Cameras, TVs, Mobile phones, Watches, Jewelry, Microscopes,
+                                            Typewriters, Medical equipment, Tablets, Ipods etc.
+                                        </p2>
+                                        <p>Goods in Transit</p>
+                                        <p2>This provides cover for loss or damage to various types of goods caused by fire, theft,
+                                            or accidental means while in transit by road, rail or any inland waterway within the
+                                            geographical area set out in the policy. Cover extends to include temporary storage or
+                                            housing of the vehicle in the ordinary course of transit.
+                                        </p2>
+                                        <p>Money</p>
+                                        <p2>The section covers loss of money (or theft by third parties not employees) as specified either while in
+                                            transit or premises during or out of business hours. It also covers damage to safes and / or strong rooms.
+                                            Mandatory Warranty: Escort warranty, Key clause, Secret clause
+                                        </p2>
+                                        <p>Fidelity Guarantee</p>
+                                        <p2>The section covers loss of stocks or money by any act of fraud or dishonesty by any insured employee
+                                            during the policy period of guarantee.
+                                        </p2>
+                                        <p>Personal Accident / Group Personal Accident</p>
+                                        <p2>This will provide monetary payments in the event of bodily injury sustained by the insured and / or his employees.
+                                            The injury must be caused by violent, accidental, external and visible means subject to the insured limits.
+                                            The policy offers benefits under the following categories: Death, Permanent Total Disability,
+                                            Temporary Total Disability, Medical expenses, Funeral expenses.
+                                        </p2>
+                                        <p>Work Injury Benefit Act</p>
+                                        <p2>The policy covers claims for bodily injuries sustained by accident or diseases to employees arising out of
+                                            and in the course of employment as provided under the Work Injury Benefits Act 2007.
+                                        </p2>
+                                        <p>Employers’ Liability</p>
+                                        <p2>This will cover the employer against legal liability under common law for damages and claimants costs
+                                            related to bodily injury by accident or diseases and directly related to negligence or breach of common law.
+                                        </p2>
+                                        <p>Public Liability</p>
+                                        <p2>This will cover the entrepreneur from legal liability claims which arise out of his / her negligent 
+                                            acts. Such claims may be in respect of: Bodily injury or accidental death, Loss or damage to property, Legal expenses.
+                                        </p2>
 
-                                        <hr>
-                                        <h3>Who is eligible for the cover?</h3>
-                                        <ol>
-                                            <li>Adults between the age of 18 years and 75 years.
-                                            </li>
-                                            <li>Children between the age of 1 month and 17 years.
-                                            </li>
 
-                                        </ol><br>
-                                        <hr>
-                                        <h3>Maternity Cover</h3>
-                                        <p2>Children bring us happiness and blessings. As we prepared for our new bundle
-                                            of joy, it
-                                            is
-                                            best that we cater for the mother’s health and conditions pre birth. This is
-                                            why we have
-                                            a
-                                            Maternity Cover that caters for:</p2>
-                                        <ol>
-                                            <li>Normal delivery including professional fees, labour and recovery wards
-                                                for all
-                                                plans.
-                                            </li>
-                                            <li>Costs of delivery, and other related ailments and complications
-                                                including ectopic
-                                                pregnancies, miscarriage, etc.
-                                            </li>
-                                            <li>Caesarean section delivery including professional fees, labour and
-                                                recovery wards.
-                                            </li>
-
-                                        </ol><br>
                                     </div>
 
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
 
@@ -328,8 +339,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -367,32 +377,26 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company"
-                                        placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -407,8 +411,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                            class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -425,8 +428,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -437,29 +439,22 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="07xx 232 xxx" value=""
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="john@example.com" value="" required data-parsley-type="email"
-                                        data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -473,8 +468,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

@@ -102,7 +102,7 @@
 
                                         <p>MOTOR COMMERCIAL SPECIAL TYPES (Agricultural & Forestry):</p>
                                         <p2>This is an insurance cover that protects the vehicles used for special purposes. This
-                                            includes, but is not limited Agricultural and Forestry Vehicles (Tractors, Harvestors Etc).
+                                            includes, but is not limited Agricultural and Forestry Vehicles (Tractors, Harvesters Etc).
                                             Our policy has three levels of cover from which you can choose from. Third Party Only,
                                             Third Party Fire & Theft and Comprehensive.</p2>
                                         <hr>
