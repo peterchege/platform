@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 07/11/2019 18:37:11
+ Date: 11/11/2019 14:40:02
 */
 
 SET NAMES utf8mb4;
@@ -173,13 +173,14 @@ CREATE TABLE `apa_job_internship_applications`  (
   `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `file` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of apa_job_internship_applications
 -- ----------------------------
 INSERT INTO `apa_job_internship_applications` VALUES (1, 'QBsQZpUiF', 'John', 'Doe', 'p@gmail.com', '071223333', 'p@gmail.com-QBsQZpUiF-July 2016 issue.pdf');
 INSERT INTO `apa_job_internship_applications` VALUES (2, 'BFKV1PNlpa', 'John', 'Doe', 'anthonbaru@gmail.com', '071223333', 'anthonbaru@gmail.com-BFKV1PNlpa-Apollo Unit Trust Investment Application Form.PDF');
+INSERT INTO `apa_job_internship_applications` VALUES (3, 'obVHThR2BW', 'Jane', 'Doe', 'janedoe@gmail.com', '0712365478', 'janedoe@gmail.com-obVHThR2BW-APA Trailblazer 2017.pdf');
 
 -- ----------------------------
 -- Table structure for apa_job_posts
@@ -602,6 +603,23 @@ INSERT INTO `claims_reports` VALUES (111, 'John Doe', '0712345678', 'johndoe@gma
 INSERT INTO `claims_reports` VALUES (112, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Machakos', '', 'you', 43, 14, 'livestock', '2019-10-30 16:56:23.000000');
 INSERT INTO `claims_reports` VALUES (113, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'ty', 6, 14, 'windscreen', '2019-10-30 17:29:22.000000');
 INSERT INTO `claims_reports` VALUES (114, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Machakos', '', 'hit and run', 6, 14, 'personal accident', '2019-10-30 19:20:06.000000');
+
+-- ----------------------------
+-- Table structure for feedback
+-- ----------------------------
+DROP TABLE IF EXISTS `feedback`;
+CREATE TABLE `feedback`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `extension` int(6) NOT NULL,
+  `branch` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `department` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `created_at` datetime(6) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -1189,7 +1207,7 @@ CREATE TABLE `products_leads`  (
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 207 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 211 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products_leads
@@ -1246,6 +1264,8 @@ INSERT INTO `products_leads` VALUES (203, 26, 14, 'Jane Doe', 'janedoe@gmail.com
 INSERT INTO `products_leads` VALUES (204, 11, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Kabete', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-04 15:34:24.000000', '0');
 INSERT INTO `products_leads` VALUES (205, 45, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-04 16:02:24.000000', '0');
 INSERT INTO `products_leads` VALUES (206, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '55 - 59', 0, '', '2019-11-04 16:07:49.000000', '0');
+INSERT INTO `products_leads` VALUES (207, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'tyu', '2019-11-11 09:56:18.000000', '0');
+INSERT INTO `products_leads` VALUES (208, 6, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', 'honda', 'Royce', '20000', '1227', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-11 12:44:17.000000', '0');
 
 -- ----------------------------
 -- Table structure for ref_jobs

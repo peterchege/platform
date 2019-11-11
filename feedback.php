@@ -54,7 +54,7 @@
                         <div class="content-info2">
                             <h2>DROP US A LINE ! </h2>
 
-                            <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
+                            <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-feedback">
                                 <div class="form-algn"><br><br>
                                     <div class="row">
                                         <div class="form-group col-md-4">
@@ -73,23 +73,24 @@
 
                                     <div class="row">
                                         <div class="form-group col-md-4">
+                                            <label for="email">Email Address</label>
+                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required>
+                                        </div>
+                                        <div class="form-group col-md-4">
                                             <label for="branch">Branch </label>
-                                            <input name="branch" type="text" class="form-control" id="branch" placeholder="" value="">
+                                            <input name="branch" type="text" class="form-control" id="branch" placeholder="" value="" required>
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="department">Department</label>
-                                            <input name="department" type="email" class="form-control" id="department" placeholder="" value="">
+                                            <input name="department" type="text" class="form-control" id="department" placeholder="" value="" required>
                                         </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="email">Email Address</label>
-                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="">
-                                        </div>
+
                                     </div>
 
                                     <div class="row">
                                         <div class="form-group col-md-12">
                                             <label for="feedback">Message / FeedBack</label>
-                                            <textarea name="feedback" class="form-control" id="feedback" rows="3.5"></textarea>
+                                            <textarea name="feedback" class="form-control" id="feedback" rows="3.5" required></textarea>
                                         </div>
 
                                     </div>

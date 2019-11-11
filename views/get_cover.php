@@ -9,8 +9,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -20,29 +19,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
-                                    placeholder=" 07xx 532 xxx" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder=" 07xx 532 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -56,26 +48,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="make">Vehicle Make</label>
-                                <input name="make" type="text" class="form-control" id="make" placeholder="Toyota"
-                                    value="" required>
+                                <input name="make" type="text" class="form-control" id="make" placeholder="Toyota" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="model">Vehicle Model</label>
-                                <input name="model" type="text" class="form-control" id="model" placeholder="Crown"
-                                    value="" required>
+                                <input name="model" type="text" class="form-control" id="model" placeholder="Crown" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="value">Vehicle Value (Kshs)</label>
-                                <input name="value" type="text" class="form-control" id="value" placeholder=" 1,200,000"
-                                    value="" required>
+                                <input name="value" type="text" class="form-control" id="value" placeholder=" 1,200,000" value="" required>
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="inputAddress2">Year of Manufacture</label>
-                                <input name="yom" type="number" class="form-control" id="yom" placeholder="2019"
-                                    value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
+                                <input name="yom" type="number" class="form-control" id="yom" placeholder="2019" value="" required data-parsley-pattern="^\d{4}$" data-parsley-trigger="keyup">
                             </div>
                         </div>
                         <div style="display: none">
@@ -84,8 +72,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -103,8 +90,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -114,24 +100,18 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
-                                    placeholder="07xx 514 xxx" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="07xx 514 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
 
                         </div>
@@ -144,21 +124,18 @@ PERSONAL COVER
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="depature_date">Departure Date</label>
-                                    <input name="depature_date" type="date" class="form-control" id="depature_date"
-                                        value="" required>
+                                    <input name="depature_date" type="date" class="form-control" id="depature_date" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="return_date">Return Date</label>
-                                    <input name="return_date" type="date" class="form-control" id="return_date"
-                                        placeholder="" value="" required>
+                                    <input name="return_date" type="date" class="form-control" id="return_date" placeholder="" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="destination">Destination</label>
-                                    <input name="destination" type="text" class="form-control" id="destination" value=""
-                                        required>
+                                    <input name="destination" type="text" class="form-control" id="destination" value="" required>
                                 </div>
 
                             </div>
@@ -170,8 +147,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -189,8 +165,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/domestic.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/domestic.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -200,29 +175,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="John doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
-                                    placeholder="07xx 234 xxx" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="07xx 234 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -236,8 +204,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="property">Property status</label>
-                                <select id="property" name="property" class="form-control selectFilter"
-                                    data-target="section" required>
+                                <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="owner" name="owner" value="owner">Owner</option>
                                     <option data-ref="tenant" name="tenant" value="tenant">Occupant (Tenant)</option>
@@ -245,8 +212,7 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="inputAddress2">Covers</label>
-                                <select id="cover" name="cover" class="form-control selectFilter" data-target="section"
-                                    required>
+                                <select id="cover" name="cover" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="owner" name="all_covers" value="All Covers"> All Covers </option>
                                     <option data-ref="owner" name="building" value="Building"> Building </option>
@@ -261,8 +227,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="value"> Value (Kshs)</label>
-                                <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000"
-                                    value="">
+                                <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" value="">
                             </div>
 
                         </div>
@@ -272,8 +237,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                             </div>
                         </div>
                     </div>
@@ -290,8 +254,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/accident4.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/accident4.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -302,27 +265,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -334,8 +292,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -352,8 +309,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -363,27 +319,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -397,13 +348,11 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="value">Equipment Value</label>
-                                <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000"
-                                    required value="">
+                                <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" required value="">
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="inputAddress2">Occupation</label>
-                                <select id="occupation" name="occupation" class="form-control selectFilter"
-                                    data-target="section" required>
+                                <select id="occupation" name="occupation" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option data-ref="owner" name="owner" value="Casual Golfer"> Casual Golfer
                                     </option>
@@ -419,8 +368,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i> </button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                     </div>
@@ -436,8 +384,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('img/motorcycle.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/motorcycle.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -454,7 +401,7 @@ PERSONAL COVER
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="07xx 214 xxx" value="" required>
                             </div>
                         </div>
@@ -500,32 +447,26 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -537,8 +478,7 @@ PERSONAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                    class="fas fa-paper-plane"></i></button>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                         </div>
                     </div>
             </div>
@@ -555,8 +495,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/personal.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/personal.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -566,28 +505,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 583 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 583 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -599,8 +532,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -616,8 +548,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/bicycle.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/bicycle.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -627,28 +558,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 214 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 214 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -660,21 +585,18 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="make">Bicycle Make</label>
-                                <input name="make" type="text" class="form-control" id="make" placeholder="" value=""
-                                    required>
+                                <input name="make" type="text" class="form-control" id="make" placeholder="" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="model">Bicycle Model</label>
-                                <input name="model" type="text" class="form-control" id="model" placeholder="" value=""
-                                    required>
+                                <input name="model" type="text" class="form-control" id="model" placeholder="" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="value">Bicycle Value (Kshs)</label>
-                                <input name="value" type="text" class="form-control" id="value" placeholder="20,000"
-                                    value="" required>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="20,000" value="" required>
                             </div>
                         </div>
                         <div style="display: none">
@@ -683,8 +605,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -702,8 +623,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -713,28 +633,22 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -748,8 +662,7 @@ PERSONAL COVER
                         <div class="row ">
                             <div class="form-group col-md-12 pet-count">
                                 <label for="type">Type of Pet</label>
-                                <select id="type" name="type[]" class="form-control type-pet" data-target="section"
-                                    required multiple>
+                                <select id="type" name="type[]" class="form-control type-pet" data-target="section" required multiple>
                                     <option value="Dog">Dog </option>
                                     <option value="Cat">Cat </option>
                                     <option value="Other">Other</option>
@@ -757,16 +670,14 @@ PERSONAL COVER
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="inputAddress2">Number of Pets</label>
-                                <input name="number" type="text" class="form-control value" id="number" placeholder="10"
-                                    value="" required>
+                                <input name="number" type="text" class="form-control value" id="number" placeholder="10" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="value"> Value of Pets (Kshs)</label>
-                                <input name="value" type="text" class="form-control" id="value" placeholder="400,000"
-                                    value="" required>
+                                <input name="value" type="text" class="form-control" id="value" placeholder="400,000" value="" required>
                             </div>
 
                         </div>
@@ -776,8 +687,7 @@ PERSONAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -799,8 +709,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -810,29 +719,22 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
-                                    placeholder="07xx 343 xx7" value="" required>
+                                <input name="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -846,8 +748,7 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inpatient"> Inpatient Benefit (Kshs)</label>
-                                <select id="inpatient" name="inpatient" class="form-control selectFilter"
-                                    data-target="section" required>
+                                <select id="inpatient" name="inpatient" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option value="10000000">Kshs 10,000,000 </option>
                                     <option value="5000000">Kshs 5,000,000 </option>
@@ -879,8 +780,7 @@ HEALTH COVER
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="number">Number of Children (Age < 20)</label> <input name="number"
-                                        type="number" class="form-control" id="number" placeholder="3" value="">
+                                <label for="number">Number of Children (Age < 20)</label> <input name="number" type="number" class="form-control" id="number" placeholder="3" value="">
                             </div>
                         </div>
 
@@ -891,8 +791,7 @@ HEALTH COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -908,8 +807,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form class="form-container" id="form-jp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
@@ -918,28 +816,22 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -950,8 +842,7 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="inpatient"> Inpatient Benefit (Kshs)</label>
-                                <select id="inpatient" name="inpatient" class="form-control selectFilter"
-                                    data-target="section" required>
+                                <select id="inpatient" name="inpatient" class="form-control selectFilter" data-target="section" required>
                                     <option value="-1" selected disabled>Choose...</option>
                                     <option value="2000000">Kshs 2,000,000 </option>
                                     <option value="1000000">Kshs 1,000,000 </option>
@@ -984,9 +875,7 @@ HEALTH COVER
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="number">Number of Children (Age < 20)</label> <input name="number"
-                                        type="number" class="form-control" id="number" placeholder="3" value=""
-                                        required>
+                                <label for="number">Number of Children (Age < 20)</label> <input name="number" type="number" class="form-control" id="number" placeholder="3" value="" required>
                             </div>
                         </div>
 
@@ -997,8 +886,7 @@ HEALTH COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -1014,8 +902,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/assurance.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/assurance.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -1026,28 +913,22 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 343 xx7" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1082,8 +963,7 @@ HEALTH COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -1103,8 +983,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1112,27 +991,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1147,14 +1021,12 @@ INDIVIDUAL LIFE COVER
                             <div class="form-group col-md-6">
                                 <label for="period">Period/Length to be Covered</label>
 
-                                <input id="period" name="period" class="form-control" type="text"
-                                    placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
+                                <input id="period" name="period" class="form-control" type="text" placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
 
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
-                                <input name="value" type="text" class="form-control value" id="value"
-                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                             </div>
                         </div>
                         <div class="row">
@@ -1185,8 +1057,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1205,8 +1076,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving2.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/saving2.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1214,27 +1084,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1260,8 +1125,7 @@ INDIVIDUAL LIFE COVER
 
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
-                                <input name="value" type="text" class="form-control value" id="value"
-                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                             </div>
                         </div>
                         <div class="row">
@@ -1292,8 +1156,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1313,8 +1176,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/educate.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/educate.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1322,28 +1184,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder=" 07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder=" 07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1358,14 +1214,12 @@ INDIVIDUAL LIFE COVER
                             <div class="form-group col-md-6">
                                 <label for="period">Period/Length to be Covered</label>
 
-                                <input id="period" name="period" class="form-control" type="text"
-                                    placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
+                                <input id="period" name="period" class="form-control" type="text" placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
 
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
-                                <input name="value" type="text" class="form-control value" id="value"
-                                    placeholder="( Minimum Ksh 3,000,000 )" data-parsley-pattern="^.{7,}$" required>
+                                <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 3,000,000 )" data-parsley-pattern="^.{7,}$" required>
                             </div>
                         </div>
                         <div class="row">
@@ -1396,8 +1250,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1416,8 +1269,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1425,28 +1277,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1486,8 +1332,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1506,8 +1351,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/funeral.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1515,28 +1359,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1550,8 +1388,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="period">Period/Length to be Covered</label>
-                                <input name="period" type="text" class="form-control" id="period"
-                                    placeholder="( 5-20 yrs )" value="" min="5" max="20" required>
+                                <input name="period" type="text" class="form-control" id="period" placeholder="( 5-20 yrs )" value="" min="5" max="20" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="cover">Value of Cover</label>
@@ -1594,8 +1431,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1614,8 +1450,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/life.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/life.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1623,28 +1458,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1659,13 +1488,11 @@ INDIVIDUAL LIFE COVER
                             <div class="form-group col-md-6">
                                 <label for="period">Period/Length to be Covered</label>
 
-                                <input id="period" name="period" class="form-control" type="text"
-                                    placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
+                                <input id="period" name="period" class="form-control" type="text" placeholder="( 5 - 20 yrs )" value="" min="5" max="20" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="value">Value of Cover</label>
-                                <input name="value" type="text" class="form-control value" id="value"
-                                    placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
+                                <input name="value" type="text" class="form-control value" id="value" placeholder="( Minimum Ksh 100,000 )" data-parsley-pattern="^.{7,}$" required>
                             </div>
                         </div>
                         <div class="row">
@@ -1696,8 +1523,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1716,8 +1542,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -1726,28 +1551,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-6">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1804,8 +1623,7 @@ INDIVIDUAL LIFE COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -1824,8 +1642,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/house.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/house.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1833,28 +1650,22 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 245 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 245 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@example.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -1868,8 +1679,7 @@ INDIVIDUAL LIFE COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                    class="fas fa-paper-plane"></i>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                             </button>
                         </div>
                     </div>
@@ -1891,8 +1701,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/aviation.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1906,7 +1715,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -1976,32 +1785,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2013,8 +1816,7 @@ COMMERCIAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                    class="fas fa-paper-plane"></i>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i>
                             </button>
                         </div>
                     </div>
@@ -2033,8 +1835,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2050,7 +1851,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -2090,32 +1891,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2128,8 +1923,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -2146,8 +1940,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/engineer.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/engineer.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2163,7 +1956,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="" value="" required>
                             </div>
                         </div>
@@ -2191,32 +1984,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2230,8 +2017,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -2248,8 +2034,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2265,7 +2050,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -2303,32 +2088,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2342,8 +2121,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -2360,9 +2138,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('img/transport.jpg'); background-size: cover; background-position:right;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/transport.jpg'); background-size: cover; background-position:right;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2378,7 +2154,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="" value="" required>
                             </div>
                         </div>
@@ -2411,32 +2187,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2450,8 +2220,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i
-                                        class="fas fa-paper-plane"></i> </button>
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                     </div>
@@ -2468,8 +2237,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/liability.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/liability.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -2486,7 +2254,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -2514,32 +2282,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2553,8 +2315,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i
-                                        class="fas fa-paper-plane"></i> </button>
+                                <button type="submit" name="request" class="btn btn-primary"> SUBMIT <i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                     </div>
@@ -2571,8 +2332,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -2587,7 +2347,7 @@ COMMERCIAL COVER
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
                                     placeholder="07xx 424 xxx"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" value="" required>
                             </div>
                         </div>
@@ -2641,32 +2401,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2699,8 +2453,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('img/miscellaneous.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/miscellaneous.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -2718,7 +2471,7 @@ COMMERCIAL COVER
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
                                     placeholder="Mobile Number" value=""
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" required>
                             </div>
                         </div>
@@ -2746,32 +2499,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2785,8 +2532,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -2803,8 +2549,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/package.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2821,7 +2566,7 @@ COMMERCIAL COVER
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
                                     placeholder="Mobile Number" value=""
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" required>
                             </div>
                         </div>
@@ -2849,32 +2594,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2888,8 +2627,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -2906,8 +2644,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -2922,7 +2659,7 @@ COMMERCIAL COVER
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
                                     placeholder="Mobile Number" value=""
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" required>
                             </div>
                         </div>
@@ -2949,32 +2686,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -2988,8 +2719,7 @@ COMMERCIAL COVER
 
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -3006,8 +2736,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/wiba.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3023,7 +2752,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
                                     placeholder="Mobile Number" value="" required>
                             </div>
@@ -3051,32 +2780,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -3090,8 +2813,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -3108,8 +2830,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3125,7 +2846,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number of contact person</label>
                                 <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
                                     placeholder="" value="" required>
                             </div>
@@ -3177,32 +2898,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -3214,8 +2929,7 @@ COMMERCIAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                    class="fas fa-paper-plane"></i></button>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i></button>
                         </div>
                     </div>
             </div>
@@ -3231,8 +2945,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3248,7 +2961,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
                                     placeholder="" value="" required>
                             </div>
@@ -3295,32 +3008,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -3333,8 +3040,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -3351,8 +3057,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/sheep.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/sheep.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3368,7 +3073,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
                                     placeholder="0712345678" value="" required>
                             </div>
@@ -3418,32 +3123,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -3474,8 +3173,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/credit.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3491,7 +3189,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number of contact person</label>
                                 <input name="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" type="tel" class="form-control" id="phone"
                                     placeholder="" value="" required>
                             </div>
@@ -3527,32 +3225,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -3564,8 +3256,7 @@ COMMERCIAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                    class="fas fa-paper-plane"></i> </button>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
                         </div>
                     </div>
             </div>
@@ -3579,8 +3270,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3589,32 +3279,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                         </div>
                         <div class="row">
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -3689,8 +3373,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3699,32 +3382,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                         </div>
                         <div class="row">
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -3781,8 +3458,7 @@ COMMERCIAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                    class="fas fa-paper-plane"></i>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                             </button>
                         </div>
                     </div>
@@ -3799,8 +3475,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;"
-                uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3809,32 +3484,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    placeholder="john@gmail.com" value="" required data-parsley-type="email"
-                                    data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                         </div>
                         <div class="row">
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                         </div>
 
@@ -3891,8 +3560,7 @@ COMMERCIAL COVER
                     </div>
                     <div class="row book-btn">
                         <div class="col-md-12">
-                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                    class="fas fa-paper-plane"></i>
+                            <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
                             </button>
                         </div>
                     </div>
@@ -3910,8 +3578,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/group.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/group.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3927,7 +3594,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -3965,32 +3632,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -4004,8 +3665,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -4021,8 +3681,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/micro.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/micro.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -4038,7 +3697,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -4076,32 +3735,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -4115,8 +3768,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -4132,8 +3784,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/deposit.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/deposit.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -4149,7 +3800,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -4187,32 +3838,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -4226,8 +3871,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -4243,8 +3887,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover"
-                style="background-image: url('img/group_last_expense.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover" style="background-image: url('img/group_last_expense.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -4260,7 +3903,7 @@ COMMERCIAL COVER
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
                                 <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
                                     data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
@@ -4298,32 +3941,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -4337,8 +3974,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                        class="fas fa-paper-plane"></i></button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </div>
@@ -4354,8 +3990,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;"
-                uk-height-viewport></div>
+            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
@@ -4364,32 +3999,26 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="Full Name" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
-                                <input name="phone" type="tel" class="form-control" id="phone"
-                                    data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                    data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="email">Email Address</label>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                    value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="location">Location</label>
-                                <input name="location" type="text" class="form-control" id="location"
-                                    placeholder="Nairobi" value="" required>
+                                <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                             </div>
                             <div class=" form-group col-md-12">
                                 <label for="occupation">Company</label>
-                                <input name="company" type="text" class="form-control" id="company"
-                                    placeholder="Company" value="" required>
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
                             </div>
 
                         </div>
@@ -4403,8 +4032,7 @@ COMMERCIAL COVER
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
-                                        class="fas fa-paper-plane"></i> </button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                     </div>
