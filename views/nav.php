@@ -292,6 +292,19 @@
                         </div>
                     </li>
 
+                    <!-- ON MOBILE VIEW -->
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="career.php"> Career</a>
+                    </li>
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="career.php"> Make a claim</a>
+                    </li>
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="contact_us.php">Contact us</a>
+                    </li>
+
+                    <!--END ON MOBILE VIEW -->
+
                     <!-- BRANCHES -->
                     <li class="list-down">
                         <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
@@ -329,8 +342,10 @@
                     </li>
 
                     <li>
-                        <a class="logo1" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                        <a class="logo1 uk-visible@m" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
                     </li>
+
+
 
                 </ul>
 

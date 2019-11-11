@@ -26,6 +26,12 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+@media (max-width: 575.98px) {
+    .uk-navbar-nav1 .list-down {
+        display: block;
+       
+    }
+}
 
 
 .uk-navbar-nav1 li a{
@@ -38,6 +44,13 @@
     padding-bottom: 15px;
     border-bottom: 3.5px solid #0C4DA2;
     
+}
+@media (max-width: 575.98px) {
+    .uk-navbar-nav1 li a:hover{
+        color: #EE2328;
+        padding-bottom: 5px;
+        border-bottom: 1.5px solid #fff;
+    }
 }
 
 .uk-navbar-nav1 .back-color {
