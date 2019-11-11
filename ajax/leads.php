@@ -73,11 +73,47 @@ switch ($_GET['mode']) {
         } else if ($insert) {
             echo 'success';
         } else {
-            echo 'success';
+            echo 'error';
         }
 
         break;
+    case 'feedback':
+        sleep(1);
+        $response = array(
+            'message' => 'An error occured',
+            'status' => 0
+        );
+        if (
+            empty($_POST['full_name']) || !isset($_POST['full_name']) ||
+            empty($_POST['phone']) || !isset($_POST['phone']) ||
+            empty($_POST['email']) || !isset($_POST['email']) ||
+            empty($_POST['branch']) || !isset($_POST['branch']) ||
+            empty($_POST['department']) || !isset($_POST['department']) ||
+            empty($_POST['feedback']) || !isset($_POST['feedback'])
+        ) {
+            $response['message'] = 'Please fill all of the required fields!';
+        } else {
+            $created_at = date('Y-m-d H:i:s');
+            $full_name = filter_var(mysqli_real_escape_string($db, ($_POST['full_name'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $extension = filter_var(mysqli_real_escape_string($db, ($_POST['extension'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $email = filter_var(mysqli_real_escape_string($db, ($_POST['email'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $feedback = filter_var(mysqli_real_escape_string($db, ($_POST['feedback'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`department`,`email`,`feedback`,`created_at`)
+                                                        VALUES('$full_name','$phone','$extension','$branch','$department','$email','$feedback','$created_at') ");
+            if ($insert) {
+                $response['message'] = 'Thank you for your response!';
+                $response['status'] = 1;
+            } else {
+                $response['message'] = 'An error occurred: ' . mysqli_error($db);
+            }
+        }
 
+        echo json_encode($response);
+        break;
     default:
         # code...
         break;

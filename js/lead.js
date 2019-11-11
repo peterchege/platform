@@ -60,14 +60,39 @@ $(document).ready(function () {
         e.preventDefault();
         $.ajax({
             type: "POST",
-            url: "ajax?request=feedback",
+            url: "ajax/leads.php?mode=feedback",
             data: new FormData(this),
-            dataType: "text",
+            dataType: "json",
+            processData: false,
+            cache: false,
+            contentType: false,
             beforeSend: function () {
                 buttonClicked.attr("disabled", true).html('Processing');
             },
             success: function (response) {
-
+                if (response.status == 1) {
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESS</h3>',
+                        html: '<p >' + response.message + '</p>',
+                        type: 'success',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
+                        confirmButtonAriaLabel: 'Thumbs up, great!',
+                    });
+                } else {
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p>An error occurred. Please try again.</p>',
+                        type: 'error',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: 'Ok!',
+                    });
+                }
+                buttonClicked.attr("disabled", false).html('Send Message' + '<i class="fas fa-paper-plane">');
             }
         });
     });
