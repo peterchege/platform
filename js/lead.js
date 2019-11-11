@@ -7,6 +7,7 @@ $(document).ready(function () {
     $('.form-container').on('submit', function (e) {
         e.preventDefault();
         var buttonClicked = $(this).find('button[name=request]');
+        var buttonClickedText = $(this).find('button[name=request]').text(); //check this for any errors incurred while submitting lead forms
         var buttonText = $(this).find('input[name=buttonText]').val();
         // alert($(this).position().top);
         $.ajax({
@@ -47,7 +48,7 @@ $(document).ready(function () {
                     });
 
                 }
-                buttonClicked.attr("disabled", false).html(buttonText + '<i class="fas fa-paper-plane">');
+                buttonClicked.attr("disabled", false).html(buttonClickedText + '<i class="fas fa-paper-plane">');
             }
         });
 
