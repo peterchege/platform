@@ -23,7 +23,7 @@
                     <li class="list-down">
                         <a href="products.php#personal">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private
