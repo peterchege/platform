@@ -37,16 +37,12 @@ require_once 'inc/sessions.php';
             echo successMessage();
             ?>
             <br>
-            <h1>INTERNSHIP APPLICATION</h1>
-            <div class="under-line img5">
+            <h1>Request Callback</h1>
+            <div class="under-line img7">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer text-left"> Apollo Group, our most valuable assets are our employees. We
-                pride
-                ourselves in creating experience, delivering results and adding value to all stakeholders.
-
-                We advocate for equal employment opportunities to all persons regardless of age, color, nationality,
-                race, religion, gender and marital status.
+            <p class="container content-offer text-left"> Schedule a call on the form below and one fo our customer service
+                agent will get back to you shortly.
             </p>
 
         </div>
@@ -54,7 +50,7 @@ require_once 'inc/sessions.php';
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 intern-register">
+            <div class="col-md-6 Call-back">
 
             </div>
 
@@ -79,20 +75,37 @@ require_once 'inc/sessions.php';
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input name="email" type="email" class="form-control" id="email" aria-describedby="" placeholder="e.g john@gmail.com" required>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input name="email" type="email" class="form-control" id="email" aria-describedby="" placeholder="e.g john@gmail.com" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Date</label>
+                                    <input name="date" type="date" class="form-control" id="email" aria-describedby="" placeholder="e.g john@gmail.com" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phone">Time</label>
+                                    <input name="Time" type="time" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="resume">Attach document (Cv / Resume )</label>
-                            <input name="resume" type="file" class="form-control-file" id="resume" required>
-                        </div>
+
 
                         <div class="customer-btn">
                             <div class="row">
