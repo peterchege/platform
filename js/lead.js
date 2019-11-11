@@ -61,8 +61,8 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             url: "ajax?request=feedback",
-            data: form_data,
-            dataType: "json",
+            data: new FormData(this),
+            dataType: "text",
             beforeSend: function () {
                 buttonClicked.attr("disabled", true).html('Processing');
             },
@@ -71,6 +71,7 @@ $(document).ready(function () {
             }
         });
     });
+
     $('#value, .value').keyup(function (event) {
         // skip for arrow keys
         if (event.which >= 37 && event.which <= 40) return;

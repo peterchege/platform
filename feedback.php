@@ -54,7 +54,7 @@
                         <div class="content-info2">
                             <h2>DROP US A LINE ! </h2>
 
-                            <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form-feedback">
+                            <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-feedback">
                                 <div class="form-algn"><br><br>
                                     <div class="row">
                                         <div class="form-group col-md-4">
