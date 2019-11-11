@@ -17,7 +17,8 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
 
@@ -83,8 +84,8 @@ require_once 'inc/functions.php';
 
             <p class="container text-justify content-offer wow fadeInUp" data-wow-delay="0.1s">
                 Apollo Asset Management Company is an asset management firm focused exclusively on meeting
-                the needs of institutional investors like pension schemes, collective investment funds, saccos,
-                institutions and individual high-net worth investors and their families. We are a 100% owned subsidiary
+                the needs of institutional investors like pension schemes, collective investment funds, SACCOs,
+                institutions, and individual high-net-worth investors and their families. We are a 100% owned subsidiary
                 of Apollo Investments Limited, one of Kenya’s leading Insurance and property Management Company.
             </p>
 
@@ -376,7 +377,9 @@ require_once 'inc/functions.php';
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 

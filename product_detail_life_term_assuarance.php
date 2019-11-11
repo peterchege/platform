@@ -59,13 +59,13 @@
                                 <h2> Life Cover (Term Assurance)</h2>
                                 <P class="text-justify">This policy has been designed to enable one to have a
                                     pure life
-                                    cover that can be used as security on a loan
+                                    cover that can be used as security on a loan.
                                 </P>
                                 <P class="text-justify">This policy can be used by an organization that needs to offer a
                                     life cover to the key persons in the company, such that in the
                                     event of the death of the key person, the company is compensated.
                                 </P>
-                                <P class="text-justify">This policy provides an inheritance for dependents </P>
+                                <P class="text-justify">This policy provides an inheritance for dependents. </P>
 
                                 <P class="text-justify">The premium will be payable for the policy term selected (capped
                                     at 20 years)
@@ -85,18 +85,19 @@
                                             include:<br><br>
                                             <li><b>Accidental Death Benefit -</b> Where an additional amount equal to
                                                 the sum assured will be paid in
-                                                the event that you die as a result of an accident </li>
+                                                the event that you die as a result of an accident. </li>
                                             <li><b>Total & Permanent Disability -</b> Where an amount equal to the sum
                                                 assured will be paid to you over a period of 24 months in
-                                                the event that you become disabled as a result of an accident or illness
+                                                the event that you become disabled as a result of an accident or
+                                                illness.
                                             </li>
                                             <li><b>Waiver of Premiums -</b> In the event that you become totally and
                                                 permanently disabled, all future premiums will be
-                                                waived and the policy will remain in force </li>
+                                                waived and the policy will remain in force. </li>
                                             <li><b>Accident Hospitalization Benefit -</b>In the event that you or the
                                                 beneficiary child are hospitalized as a result of an accident,
                                                 APA would reimburse the inpatient medical costs incurred, subject to 60%
-                                                of the policy sum assured to a maximum of KShs. 500,000 </li>
+                                                of the policy sum assured to a maximum of KShs. 500,000. </li>
                                             <li><b>Retrenchment Rider -</b> This rider enables the life assured keep
                                                 the policy in force in the event that he/she is retrenched
                                                 during the period of the policy.</li>
@@ -111,8 +112,8 @@
                                         <h2>Product Specification </h2>
                                         <p> a) Premiums</p>
                                         <ol>
-                                            <li>Life assured’s age</li>
-                                            <li>Frequency of premium payment </li>
+                                            <li>Life assured’s age.</li>
+                                            <li>Frequency of premium payment. </li>
                                             <li>level of cover selected.</li>
                                             <li>Term of the policy.</li>
                                         </ol>
@@ -221,7 +222,7 @@
                                             300,000.
                                             Includes: Cancer, Stroke, Heart Attack, Kidney Failure, Paraplegia or
                                             Paralysis, Coronary,
-                                            Artery Disease, Major Organ Transplant, e.g. Kidney transplant
+                                            Artery Disease, Major Organ Transplant, e.g. Kidney transplant.
                                         </p2>
 
                                         <p> 6. Retrenchment rider </>
@@ -232,7 +233,7 @@
                                             premiums will be
                                             waived off up to a maximum of 6 monthly installments. This will cease if
                                             the assured secures
-                                            employment before the end of 6 months
+                                            employment before the end of 6 months.
                                         </p2>
                                         <hr>
                                         <h2 class="text-center">Additional benefits :</h2>
@@ -325,7 +326,7 @@
                         <hr>
                         <p>Product features & benefits</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
 
 
 
@@ -340,7 +341,7 @@
                         <hr>
                         <p>Term Assuarance proposal Form</p>
                         <hr>
-                        <p class="download">Dowload <i class="fas fa-download"></i></p>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
 
                     </a>
                 </div>

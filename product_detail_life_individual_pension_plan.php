@@ -77,23 +77,23 @@
                                         <li>
                                             <p2>Member’s contributions and accumulated earnings are guaranteed against
                                                 impairment by investment loss
-                                                at a Minimum guaranteed interest of 4%
+                                                at a Minimum guaranteed interest of 4%.
                                             </p2>
                                         </li><br>
                                         <li>
-                                            <p2>Offers Bonus returns in addition to guaranteed interest </p2>
+                                            <p2>Offers Bonus returns in addition to guaranteed interest. </p2>
                                         </li><br>
                                         <li>
-                                            <p2>Investments risk borne by APA thus no risk to member </p2>
+                                            <p2>Investments risk borne by APA thus no risk to member.</p2>
                                         </li><br>
                                         <li>
-                                            <p2>Flexibility of contribution and withdrawal</p2>
+                                            <p2>Flexibility of contribution and withdrawal.</p2>
                                         </li><br>
                                         <li>
-                                            <p2>Collateral for mortgage on up to 60% of member’s fund</p2>
+                                            <p2>Collateral for mortgage on up to 60% of member’s fund.</p2>
                                         </li><br>
                                         <li>
-                                            <p2>Offers no costs of joining or administering the fund</p2>
+                                            <p2>Offers no costs of joining or administering the fund.</p2>
                                         </li>
 
 
