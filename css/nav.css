@@ -26,13 +26,16 @@
     margin: 0 auto;
     padding: 0 10px;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
     .uk-navbar-nav1 .list-down {
-        display: block;
-       
+        display: block;   
     }
 }
-
+/* @media (max-width: 575.98px) {
+    .uk-navbar-nav1 .list-down {
+        display: block;
+    }
+} */
 
 .uk-navbar-nav1 li a{
     text-decoration: none;

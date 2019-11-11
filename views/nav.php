@@ -342,7 +342,7 @@
                     </li>
 
                     <li>
-                        <a class="logo1 uk-visible@m" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                        <a class="logo1 uk-visible@l" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
                     </li>
 
 
