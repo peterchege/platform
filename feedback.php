@@ -59,30 +59,30 @@
                                     <div class="row">
                                         <div class="form-group col-md-4">
                                             <label for="full_name">Full Name</label>
-                                            <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" value="" required>
+                                            <input name="full_name" type="text" class="form-control" id="full_name" placeholder="" required>
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="phone">Mobile Number</label>
-                                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="" value="" required>
+                                            <input name="phone" type="tel" class="form-control" id="phone" placeholder="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="extension">Extension number</label>
-                                            <input name="extension" type="tel" class="form-control" id="extension" placeholder="" value="">
+                                            <input name="extension" type="tel" class="form-control" id="extension" placeholder="">
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="form-group col-md-4">
                                             <label for="email">Email Address</label>
-                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="" required>
+                                            <input name="email" type="email" class="form-control" id="email" placeholder="" required>
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="branch">Branch </label>
-                                            <input name="branch" type="text" class="form-control" id="branch" placeholder="" value="" required>
+                                            <input name="branch" type="text" class="form-control" id="branch" placeholder="" required>
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="department">Department</label>
-                                            <input name="department" type="text" class="form-control" id="department" placeholder="" value="" required>
+                                            <input name="department" type="text" class="form-control" id="department" placeholder="" required>
                                         </div>
 
                                     </div>
@@ -102,7 +102,7 @@
                                     </div> -->
                                     <div class="row book-btn">
                                         <div class="col-md-12">
-                                            <button type="submit" name="request" class="btn btn-primary"><i class="fas fa-paper-plane"></i> &nbsp; Send message
+                                            <button type="submit" name="request" id="feedback" class="btn btn-primary"> Send Message &nbsp;<i class="fas fa-paper-plane"></i>
                                             </button>
                                         </div>
                                     </div>
@@ -129,6 +129,14 @@
     ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/lead.js"></script>
+    <!-- ckeditor -->
+    <script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('feedback', {
+            height: 300,
+            filebrowserUploadUrl: "upload.php"
+        });
+    </script>
 </body>
 
 </html>

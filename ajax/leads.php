@@ -20,10 +20,7 @@ switch ($_GET['mode']) {
         $value = ((isset($_POST['value'])) ? filter_var(mysqli_real_escape_string($db, $_POST['value']), FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_STRIP_HIGH) : 0);
         $yom = ((isset($_POST['yom'])) ? filter_var(mysqli_real_escape_string($db, $_POST['yom']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
         $more_info = ((isset($_POST['more_info'])) ? filter_var(mysqli_real_escape_string($db, $_POST['more_info']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
-        //travel
-        $depature_date = ((isset($_POST['depature_date'])) ? filter_var(mysqli_real_escape_string($db, $_POST['depature_date']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '0000-00-00');
-        $return_date = ((isset($_POST['return_date'])) ? filter_var(mysqli_real_escape_string($db, $_POST['return_date']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '0000-00-00');
-        $destination = ((isset($_POST['destination'])) ? filter_var(mysqli_real_escape_string($db, $_POST['destination']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
+
         //domestic
         $property = ((isset($_POST['property'])) ? filter_var(mysqli_real_escape_string($db, $_POST['property']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
         $cover = ((isset($_POST['cover'])) ? filter_var(mysqli_real_escape_string($db, $_POST['cover']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
@@ -65,19 +62,55 @@ switch ($_GET['mode']) {
         //company
         $company = ((isset($_POST['company'])) ? filter_var(mysqli_real_escape_string($db, $_POST['company']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : 0);
 
-        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`depature_date`,`return_date`,`destination`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`,`period`,`age`,`inpatient`,`message`,`company`)
-                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$depature_date','$return_date','$destination','$created_at','$property','$cover','$occupation','$type','$number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details','$period','$age','$inpatient','$message','$company')");
+        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`destination`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`,`period`,`age`,`inpatient`,`message`,`company`)
+                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$destination','$created_at','$property','$cover','$occupation','$type','$number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details','$period','$age','$inpatient','$message','$company')");
 
         if (!$insert) {
             echo mysqli_error($db);
         } else if ($insert) {
             echo 'success';
         } else {
-            echo 'success';
+            echo 'error';
         }
 
         break;
+    case 'feedback':
+        sleep(1);
+        $response = array(
+            'message' => 'An error occured',
+            'status' => 0
+        );
+        if (
+            empty($_POST['full_name']) || !isset($_POST['full_name']) ||
+            empty($_POST['phone']) || !isset($_POST['phone']) ||
+            empty($_POST['email']) || !isset($_POST['email']) ||
+            empty($_POST['branch']) || !isset($_POST['branch']) ||
+            empty($_POST['department']) || !isset($_POST['department']) ||
+            empty($_POST['feedback']) || !isset($_POST['feedback'])
+        ) {
+            $response['message'] = 'Please fill all of the required fields!';
+        } else {
+            $created_at = date('Y-m-d H:i:s');
+            $full_name = filter_var(mysqli_real_escape_string($db, ($_POST['full_name'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $extension = filter_var(mysqli_real_escape_string($db, ($_POST['extension'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $email = filter_var(mysqli_real_escape_string($db, ($_POST['email'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $feedback = filter_var(mysqli_real_escape_string($db, ($_POST['feedback'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`department`,`email`,`feedback`,`created_at`)
+                                                        VALUES('$full_name','$phone','$extension','$branch','$department','$email','$feedback','$created_at') ");
+            if ($insert) {
+                $response['message'] = 'Thank you for your response!';
+                $response['status'] = 1;
+            } else {
+                $response['message'] = 'An error occurred: ' . mysqli_error($db);
+            }
+        }
 
+        echo json_encode($response);
+        break;
     default:
         # code...
         break;
