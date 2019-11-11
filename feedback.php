@@ -73,6 +73,10 @@
 
                                     <div class="row">
                                         <div class="form-group col-md-4">
+                                            <label for="email">Email Address</label>
+                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="">
+                                        </div>
+                                        <div class="form-group col-md-4">
                                             <label for="branch">Branch </label>
                                             <input name="branch" type="text" class="form-control" id="branch" placeholder="" value="">
                                         </div>
@@ -80,10 +84,7 @@
                                             <label for="department">Department</label>
                                             <input name="department" type="email" class="form-control" id="department" placeholder="" value="">
                                         </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="email">Email Address</label>
-                                            <input name="email" type="email" class="form-control" id="email" placeholder="" value="">
-                                        </div>
+
                                     </div>
 
                                     <div class="row">
