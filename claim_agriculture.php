@@ -96,27 +96,27 @@
                         <div class="product-box we claim-crop">
                             <a href="claim_report_agri_crop.php">
                                 <div class=" color-overlay"></div>
-                        <div class="wrapper">
+                                <div class="wrapper">
 
-                            <div class="content">
-                                <h3>Crop Claim </h3>
-                                <br>
-                                <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                    for the costs of a funeral and related expenses.</p>
-                            </div>
+                                    <div class="content">
+                                        <h3>Crop Claim </h3>
+                                        <br>
+                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
+                                            for the costs of a funeral and related expenses.</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        </a>
                     </div>
+
+                    <div class="offset-4">
+
+                    </div>
+
                 </div>
-
-                <div class="offset-4">
-
-                </div>
-
             </div>
+            <br>
         </div>
-        <br>
-    </div>
 
     </div>
 
@@ -211,7 +211,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
