@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
     <?php include 'views/head_links.php'; ?>
@@ -31,7 +30,7 @@
     <!--==========================
     Intro Section
     ============================-->
-    <div class="banner-product">
+    <div class="banner-product ">
 
     </div>
     <div class="cover-line">
@@ -112,8 +111,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -124,7 +122,7 @@
                     </div>
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-4">
+                        <div class="box-container-img prod-4 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -205,7 +203,7 @@
                     </div>
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-10">
+                        <div class="box-container-img prod-10 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -260,7 +258,7 @@
                     </div>
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-11">
+                        <div class="box-container-img prod-11 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -334,7 +332,7 @@
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-7">
+                        <div class="box-container-img prod-7 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -482,7 +480,7 @@
                     </div>
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img life-3">
+                        <div class="box-container-img life-3 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -597,7 +595,7 @@
                 <!-- NEW ROW3 OF PRODUCTS -->
                 <div class="row row-product1">
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img life-7">
+                        <div class="box-container-img life-7 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
@@ -616,8 +614,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_individual_pension_plan.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -643,8 +640,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_life_morgage_protection.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -682,12 +678,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
     </script>
     <script>
-    $('.type-pet').multiselect({
-        nonSelectedText: 'Select pet type',
-        enableFiltering: false,
-        enableCaseInsensitiveFiltering: false,
-        buttonWidth: '100%'
-    });
+        $('.type-pet').multiselect({
+            nonSelectedText: 'Select pet type',
+            enableFiltering: false,
+            enableCaseInsensitiveFiltering: false,
+            buttonWidth: '100%'
+        });
     </script>
 </body>
 

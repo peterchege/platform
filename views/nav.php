@@ -23,7 +23,7 @@
                     <li class="list-down">
                         <a href="products.php#personal">PERSONAL & HEALTH</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private
@@ -70,7 +70,7 @@
                     <li class="list-down">
                         <a href="products.php#life">LIFE ASSURANCE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -104,7 +104,7 @@
                     <li class="list-down">
                         <a href="product_commercial.php">COMMERCIAL</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-4 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -166,7 +166,7 @@
                     <li class="list-down">
                         <a href="product_investment.php">INVESTMENT</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-left" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-1 text-left uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_investment_abf.php"><i class="fas fa-balance-scale"></i>
@@ -187,7 +187,7 @@
                     <li class="list-down">
                         <a href="apollo_centre.php">CONFERENCE FACILITIES</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -229,7 +229,7 @@
                     <li class="list-down">
                         <a href="about_us.php">ABOUT US</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="companies.php"><i class="fas fa-building"></i> Companies </a></li>
@@ -259,7 +259,7 @@
                     <li class="list-down">
                         <a href="portals.php">CUSTOMER CENTRE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 " uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -292,6 +292,19 @@
                         </div>
                     </li>
 
+                    <!-- ON MOBILE VIEW -->
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="career.php"> Career</a>
+                    </li>
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="career.php"> Make a claim</a>
+                    </li>
+                    <li class="list-down">
+                        <a class="uk-hidden@m col-sm-12" href="contact_us.php">Contact us</a>
+                    </li>
+
+                    <!--END ON MOBILE VIEW -->
+
                     <!-- BRANCHES -->
                     <li class="list-down">
                         <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
@@ -299,7 +312,7 @@
 
 
                             <!--    changed uk-child-width to 1-3 and added 2 divs and ul  -->
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 text-center" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 text-center uk-visible@m" uk-grid>
 
 
                                 <div>
@@ -329,8 +342,10 @@
                     </li>
 
                     <li>
-                        <a class="logo1" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
+                        <a class="logo1 uk-visible@l" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>
                     </li>
+
+
 
                 </ul>
 
