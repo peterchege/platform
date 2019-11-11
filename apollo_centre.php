@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css">
+    <link rel="stylesheet" href="css/product.css">
 
     <?php include 'views/head_links.php'; ?>
 
@@ -79,7 +80,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-10 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-10 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
                             <ul class="uk-slider-items uk-grid">
@@ -130,7 +131,7 @@
 
                 <div class="row">
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="room-container img-shimba">
+                        <div class="room-container img-shimba box-reshape">
                             <div class="color-overlay-apollo">
                             </div>
 
@@ -149,11 +150,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="shimba">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_shimba.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -181,11 +182,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="chyullu">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_chyullu.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -194,7 +195,7 @@
                     </div>
 
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="room-container img-Cherengani">
+                        <div class="room-container img-Cherengani box-reshape">
                             <div class="color-overlay-apollo">
                             </div>
 
@@ -213,11 +214,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="cherengani">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_cherengani.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -250,11 +251,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="ngong">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_shimba.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -282,11 +283,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="taita">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_taita.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -314,11 +315,11 @@
                         </div>
 
                         <div class="row apollo-btn text-right">
-                            <div class="col-md-6">
+                            <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="entertainment">
                             </div>
-                            <div class="col-md-6 text-left">
+                            <div class="col-6 text-left">
                                 <a href="apollo_centre_entertainment.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
@@ -385,8 +386,8 @@
                         <h2>CENTRAL LOCATION</h2>
                         <hr>
                         <p>
-                           We are at the hearth of westlands, close to public transport terminuses
-                           and on the newly built dual carriageway
+                            We are at the hearth of westlands, close to public transport terminuses
+                            and on the newly built dual carriageway
                         </p>
 
                     </div>
