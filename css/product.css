@@ -338,6 +338,26 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.header-feedback {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-feedback::before {
+    content: '';
+    position: absolute;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 60px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 
 .jamii-background {
     background-image: url(../images/weare.jpg);
@@ -366,6 +386,9 @@
 
 .apollo-center {
     background-image: url(../img/company.jpg);
+}
+.feedback-apa {
+    background-image: url(../img/feedback.jpg);
 }
 
 /* LIFE PRODUCTS DETAILS BACKGROUND IMAGE*/
