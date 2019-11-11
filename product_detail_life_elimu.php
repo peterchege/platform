@@ -53,97 +53,93 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                             <div class="job-description text-center">
-<<<<<<< HEAD
-                            
-=======
+                                <<<<<<< HEAD=======>>>>>>> 7fa02f871a8bc970ba10d791d7da49832c362cf3
+                                    <h2> Education Plan (APA Elimu) </h2>
+                                    <P class="text-justify">We work hard now to ensure the futures of our little ones remain
+                                        bright. A great education is the best foundation
+                                        for a good life, ensure that your child gets this chance through the elimu policy.
+                                    </P>
+                                    <P class="text-justify">Our policy enables you to build a fund over a period of time,
+                                        making suitable provision for your child’s school
+                                        fees requirements as to when they are required. It also ensures that the child’s fee
+                                        required is available even in the untimely death
+                                        of the policyholder during the term of the policy.
+                                    </P>
+                                    <P class="text-justify">The premium will be payable for the policy term selected (capped
+                                        at 20 years) or until the death of the life
+                                        assured if it occurs within the term.
+                                    </p>
+                                    <P class="text-justify">The minimum and maximum ages at entry are 18 years and 65 years
+                                        respectively. The maximum maturity age is 70 years.
+                                    </p>
+                                    <hr>
+                                    <div class="job-content">
+                                        <div class="text-justify">
+                                            <h2>Why the Elimu cover? </h2>
+                                            <p> Financial Security</p>
+                                            <p2>This plan allows for a disciplined, systematic and easy way to save for your
+                                                child’s financial education needs.
+                                            </p2>
+                                            <p> Flexible premiums</p>
+                                            <p2>The sum assured and premiums are determined at onset and they remain fixed
+                                                throughout the term of the policy.
+                                                You can, however, increase your premiums or sum assured at your policy
+                                                anniversary.
+                                            </p2>
+                                            <p> Flexible term</p>
+                                            <p2>The plan also has a (saving period) which ranges from 5 to 20 years, which
+                                                will be chosen by you, and this will depend on when you require the funds.
+                                            </p2>
 
->>>>>>> 7fa02f871a8bc970ba10d791d7da49832c362cf3
-                                <h2> Education Plan (APA Elimu) </h2>
-                                <P class="text-justify">We work hard now to ensure the futures of our little ones remain
-                                    bright. A great education is the best foundation
-                                    for a good life, ensure that your child gets this chance through the elimu policy.
-                                </P>
-                                <P class="text-justify">Our policy enables you to build a fund over a period of time,
-                                    making suitable provision for your child’s school
-                                    fees requirements as to when they are required. It also ensures that the child’s fee
-                                    required is available even in the untimely death
-                                    of the policyholder during the term of the policy.
-                                </P>
-                                <P class="text-justify">The premium will be payable for the policy term selected (capped
-                                    at 20 years) or until the death of the life
-                                    assured if it occurs within the term.
-                                </p>
-                                <P class="text-justify">The minimum and maximum ages at entry are 18 years and 65 years
-                                    respectively. The maximum maturity age is 70 years.
-                                </p>
-                                <hr>
-                                <div class="job-content">
-                                    <div class="text-justify">
-                                        <h2>Why the Elimu cover? </h2>
-                                        <p> Financial Security</p>
-                                        <p2>This plan allows for a disciplined, systematic and easy way to save for your
-                                            child’s financial education needs.
-                                        </p2>
-                                        <p> Flexible premiums</p>
-                                        <p2>The sum assured and premiums are determined at onset and they remain fixed
-                                            throughout the term of the policy.
-                                            You can, however, increase your premiums or sum assured at your policy
-                                            anniversary.
-                                        </p2>
-                                        <p> Flexible term</p>
-                                        <p2>The plan also has a (saving period) which ranges from 5 to 20 years, which
-                                            will be chosen by you, and this will depend on when you require the funds.
-                                        </p2>
+                                            <hr>
+                                            <h2>Product Specification </h2>
+                                            <p> a) Premiums</p>
+                                            <p2>This is determined by:</p2>
+                                            <ol>
+                                                <li>Life assured’s age.</li>
+                                                <li>Frequency of premium payment.</li>
+                                                <li>level of cover selected.</li>
+                                                <li>Term of the policy.</li>
+                                            </ol>
+                                            <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually
+                                                and the modes of payment include
+                                                Standing Order, Cheque, and Direct Debit Authority, M-Pesa or Salary Check
+                                                off.
+                                            </p2>
+                                            <br>
+                                            <p2>The premium is payable up to the end of the term of the policy or on earlier
+                                                death.</p2>
+                                            <p> b) Terms</p>
+                                            <ol>
+                                                <li>The policy term ranges from 5 to 20 Years.</li>
+                                                <li>Premium will be payable for the policy term selected or until the death
+                                                    of
+                                                    the life assured if it occurs within the term.</li>
 
-                                        <hr>
-                                        <h2>Product Specification </h2>
-                                        <p> a) Premiums</p>
-                                        <p2>This is determined by:</p2>
-                                        <ol>
-                                            <li>Life assured’s age.</li>
-                                            <li>Frequency of premium payment.</li>
-                                            <li>level of cover selected.</li>
-                                            <li>Term of the policy.</li>
-                                        </ol>
-                                        <p2>The premiums can be paid on a monthly, quarterly, semi-annually or annually
-                                            and the modes of payment include
-                                            Standing Order, Cheque, and Direct Debit Authority, M-Pesa or Salary Check
-                                            off.
-                                        </p2>
-                                        <br>
-                                        <p2>The premium is payable up to the end of the term of the policy or on earlier
-                                            death.</p2>
-                                        <p> b) Terms</p>
-                                        <ol>
-                                            <li>The policy term ranges from 5 to 20 Years.</li>
-                                            <li>Premium will be payable for the policy term selected or until the death
-                                                of
-                                                the life assured if it occurs within the term.</li>
+                                            </ol>
+                                            <br><br><br><br>
 
-                                        </ol>
-                                        <br><br><br><br>
-
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="load-more text-center ">
+                                                        <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                <div class="col-md-4">
+                                                    <div class="load-more text-center">
+                                                        <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
-                                                        Need Assistance</a>
+                                                <div class="col-md-4">
+                                                    <div class="load-more text-center ">
+                                                        <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                            Need Assistance</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                </div>
+                                    </div>
                             </div>
 
                         </div>
@@ -386,7 +382,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=" 07xx 254 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder=" 07xx 254 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
@@ -481,7 +477,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 

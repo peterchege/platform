@@ -37,16 +37,13 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false">FEATURES / BENEFIT</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFIT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
-                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -126,14 +123,12 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1"
-                                                    uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r"
-                                                    uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -208,8 +203,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="load-more text-center " data-target="#modal-full1"
-                                            uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
@@ -292,8 +286,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -303,28 +296,22 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="Mobile Number" value=""
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
-                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -338,13 +325,11 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="value">Equipment Value</label>
-                                    <input name="value" type="text" class="form-control" id="value"
-                                        placeholder="1,400,000" required value="">
+                                    <input name="value" type="text" class="form-control" id="value" placeholder="1,400,000" required value="">
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="inputAddress2">Occupation</label>
-                                    <select id="occupation" name="occupation" class="form-control selectFilter"
-                                        data-target="section" required>
+                                    <select id="occupation" name="occupation" class="form-control selectFilter" data-target="section" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option data-ref="owner" name="owner" value="Casual Golfer"> Casual Golfer
                                         </option>
@@ -360,8 +345,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
-                                            class="fas fa-paper-plane"></i> </button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
                                 </div>
                             </div>
                         </div>
@@ -377,8 +361,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover"
-                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -389,29 +372,22 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name"
-                                        placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone"
-                                        placeholder="07xx 245 xxx" value=""
-                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
-                                        data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email"
-                                        placeholder="john@example.com" value="" required data-parsley-type="email"
-                                        data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location"
-                                        placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -426,8 +402,7 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
-                                            class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
