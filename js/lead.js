@@ -53,7 +53,24 @@ $(document).ready(function () {
 
     });
 
+    $('.form-feedback').parsley();
+    $('.form-feedback').on('submit', function (e) {
+        var form_data = new FormData(this);
+        var buttonClicked = $(this).find('button[name=request]');
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "ajax?request=feedback",
+            data: form_data,
+            dataType: "json",
+            beforeSend: function () {
+                buttonClicked.attr("disabled", true).html('Processing');
+            },
+            success: function (response) {
 
+            }
+        });
+    });
     $('#value, .value').keyup(function (event) {
         // skip for arrow keys
         if (event.which >= 37 && event.which <= 40) return;
