@@ -14,31 +14,7 @@
         </div>
 
 
-        <!-- <nav id="nav-menu-container">
-            <ul class="nav-menu ">
-                <li class="menu-active"><a href="#">PERSONAL & HEALTH</a>
-                    
-                </li>
-                <li><a href="#">LIFE </a></li>
-                <li><a href="career.php">INVESTMENT</a></li>
-                <li><a href="csr.php">COMMERCIAL</a></li>
-                <li><a href="about_us.php">CONFERENCE FACILITIES</a></li>
-                <li><a href="about_us.php">ABOUT US</a></li>
-                <li><a href="about_us.php">CUSTOMER CENTRE</a></li>
-            </ul>
-
-            <div id="flags">
-                <a href="#"><img src="img/kenya.png" alt="APA KENYA"></a>
-                <a href="#"><img src="img/uganda.png" alt="APA UGANDA"></a>
-            </div>
-            <a class="logo1" href="#"><img src="images/Apollo.jpg" width="100" height="auto" alt="" title="" /></a>
-        </nav> -->
-
-
         <nav class="navbar1 navbar-expand-lg navbar-light" id="nav-menu-container">
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse1" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
 
             <div class="collapse1 navbar-collapse" id="navbarSupportedContent">
                 <ul class="uk-navbar-nav1 ">
@@ -290,7 +266,7 @@
                                         <li><a href="contact_us.php#branch"><i class="fas fa-code-branch"></i> Branch
                                                 Locations</a></li>
                                         <li><a href="contact_us.php"><i class="fas fa-star"></i>Feedback</a></li>
-                                        <li><a href="#"><i class="fas fa-headset"></i> Request a Callback</a>
+                                        <li><a href="callback.php"><i class="fas fa-headset"></i> Request a Callback</a>
                                         </li>
                                     </ul>
                                 </div>
