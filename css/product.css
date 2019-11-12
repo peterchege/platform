@@ -34,6 +34,13 @@
     -moz-box-shadow: 0px -1px 22px 2px rgba(0, 0, 0, 0.33);
     box-shadow: 0px -1px 22px 2px rgba(0, 0, 0, 0.33);
 }
+
+@media (max-width: 575.98px) {
+    .box-reshape {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
 .box-container-img1 {
     width: 90%;
     height: 200px;
@@ -71,6 +78,7 @@
 .prod-4 {
     background-image: url(../img/domestic.jpg);
 }
+
 .prod-5 {
     background-image: url(../images/auto.jpg);
 }
@@ -79,6 +87,7 @@
 }
 .prod-7 {
     background-image: url(../images/weare.jpg);
+    
 }
 .prod-8 {
     background-image: url(../img/assurance.jpg);
