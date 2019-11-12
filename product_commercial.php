@@ -154,7 +154,7 @@
                         </div>
                         <br>
                         <p class="text-justify">This policy will indemnify the insured against the loss of or
-                            damage to the property insured arising from fire as well as ...
+                            damage to the property insured arising from fire as well as...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
