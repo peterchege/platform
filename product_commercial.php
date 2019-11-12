@@ -264,9 +264,8 @@
                             <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">Motor insurance cover protects the insured against financial loss if the
+                            motor vehicle insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -293,7 +292,7 @@
                         <br>
                         <p class="text-justify">Motor insurance cover protects the insured against
                             financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                            in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <!-- button click -->
