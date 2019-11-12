@@ -84,6 +84,25 @@ $(document).ready(function () {
                         confirmButtonAriaLabel: 'Thumbs up, great!',
                     });
                     form.trigger('reset');
+
+                    function CKupdate() {
+                        for (instance in CKEDITOR.instances) {
+                            CKEDITOR.instances[instance].updateElement();
+                            CKEDITOR.instances[instance].setData('');
+                        }
+                    }
+                    CKupdate();
+
+                } else if (response.status == 0) {
+                    swal.fire({
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
+                        html: '<p>' + response.message + '</p>',
+                        type: 'error',
+                        allowOutsideClick: false,
+                        showCloseButton: true,
+                        focusConfirm: false,
+                        confirmButtonText: 'Ok!',
+                    });
                 } else {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
@@ -95,7 +114,10 @@ $(document).ready(function () {
                         confirmButtonText: 'Ok!',
                     });
                 }
+
+
                 buttonClicked.attr("disabled", false).html('Send Message' + '&nbsp;<i class="fas fa-paper-plane">');
+
             }
         });
     });
