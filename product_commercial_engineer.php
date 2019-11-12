@@ -59,7 +59,7 @@
                                 <h2>Engineering Cover </h2>
                                 <P class="text-justify">APA Engineering insurance covers a wide
                                     range of engineering-related risks. This insurance protects against risks associated
-                                    with working of any machinery, plant or equipment.
+                                    with working with any machinery, plant or equipment.
                                 </P>
                                 <br>
                                 <div class="job-content">
