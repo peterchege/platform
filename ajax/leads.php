@@ -98,7 +98,32 @@ switch ($_GET['mode']) {
             $email = filter_var(mysqli_real_escape_string($db, ($_POST['email'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-            $feedback = filter_var(mysqli_real_escape_string($db, ($_POST['feedback'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $feedback = sanitize($_POST['feedback']);
+
+            // if (isset($_FILES)) {
+            //     $photoFullName = $_FILES['image']['name'];
+            //     $filetype = $_FILES['image']['type'];
+            //     $photoFullNameExploded = explode('.', $photoFullName);
+            //     $photoName = $photoFullNameExploded[0];
+            //     $photoName = md5($photoName);
+            //     $photoExt = end($photoFullNameExploded);
+            //     $fullPhotoName = $photoName . '.' . $photoExt;
+
+            //     $photoUploadPath = 'documents/feedback/';
+            //     $tmp_loc = $_FILES['image']['tmp_name'];
+
+            //     if (rootD() == '/var/www/html') {
+            //         $targetUrl = '/APA-INSURANCE/documents/feedback/';
+            //     } elseif (rootD() == 'C:/xampp/htdocs') {
+            //         $targetUrl = '/apainsurance/documents/feedback/';
+            //     }
+
+            //     $target = $_SERVER['DOCUMENT_ROOT'] . $targetUrl . $fullPhotoName;
+            //     $pathandNameOfFile = $photoUploadPath . $fullPhotoName;
+            // }
+
+
+
             $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`department`,`email`,`feedback`,`created_at`)
                                                         VALUES('$full_name','$phone','$extension','$branch','$department','$email','$feedback','$created_at') ");
             if ($insert) {

@@ -134,7 +134,7 @@
     <script>
         CKEDITOR.replace('feedback', {
             height: 300,
-            filebrowserUploadUrl: "upload.php"
+            filebrowserUploadUrl: "ajax/upload.php"
         });
     </script>
 </body>
