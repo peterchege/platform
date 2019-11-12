@@ -346,9 +346,8 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items
-                            described
-                            in the schedule including the cost of temporary boarding up where necessary ...
+                        <p class="text-justify">The cover is designed for buildings with Plate glass windows, doors,
+                            glass panels, and showcases...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
