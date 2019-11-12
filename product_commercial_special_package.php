@@ -87,10 +87,10 @@
                                         </ol>
                                         <p2>The policy provides covers for the following risks:</p2>
                                         <ol>
-                                            <li>Business premises: Shops</li>
-                                            <li>Offices</li>
-                                            <li>Restaurants</li>
-                                            <li>SME: Light industries</li>
+                                            <li>Business premises: Shops.</li>
+                                            <li>Offices.</li>
+                                            <li>Restaurants.</li>
+                                            <li>SME: Light industries.</li>
                                         </ol>
                                     </div>
                                     <br><br>
