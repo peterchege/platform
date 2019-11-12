@@ -9,7 +9,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -90,7 +90,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('images/travell.jpg'); background-size: cover; " uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -165,7 +165,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/domestic.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/domestic.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -254,7 +254,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/accident4.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/accident4.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -309,7 +309,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/golf1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -384,7 +384,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/motorcycle.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/motorcycle.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -495,7 +495,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/personal.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/personal.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -548,7 +548,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/bicycle.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/bicycle.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -623,7 +623,7 @@ PERSONAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/pet1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -709,7 +709,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('images/affection.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -807,7 +807,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/dadbaby.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form class="form-container" id="form-jp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
@@ -902,7 +902,7 @@ HEALTH COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/assurance.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/assurance.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -983,7 +983,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1076,7 +1076,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving2.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/saving2.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1176,7 +1176,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/educate.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/educate.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1269,7 +1269,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1351,7 +1351,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/funeral.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1450,7 +1450,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/life.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/life.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1542,7 +1542,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/last_expense.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -1642,7 +1642,7 @@ INDIVIDUAL LIFE COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/house.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/house.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1701,7 +1701,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -1835,7 +1835,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -1940,7 +1940,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/engineer.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/engineer.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2034,7 +2034,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2138,7 +2138,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/transport.jpg'); background-size: cover; background-position:right;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/transport.jpg'); background-size: cover; background-position:right;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2237,7 +2237,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/liability.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/liability.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -2332,7 +2332,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/motor1.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -2453,7 +2453,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/miscellaneous.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/miscellaneous.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -2549,7 +2549,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/package.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2644,7 +2644,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/theft.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/theft.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>
                     <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
@@ -2736,7 +2736,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2830,7 +2830,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -2945,7 +2945,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3057,7 +3057,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/sheep.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/sheep.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3173,7 +3173,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/credit.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3270,7 +3270,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3373,7 +3373,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3475,7 +3475,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/saving3.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
@@ -3578,7 +3578,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/group.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/group.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3681,7 +3681,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/micro.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/micro.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3784,7 +3784,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/deposit.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/deposit.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
 
@@ -3887,7 +3887,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/group_last_expense.jpg'); background-size: cover;" uk-height-viewport>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/group_last_expense.jpg'); background-size: cover;" uk-height-viewport>
             </div>
             <div class="uk-padding-large">
 
@@ -3990,7 +3990,7 @@ COMMERCIAL COVER
     <div class="uk-modal-dialog">
         <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-            <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
+            <div class="uk-background-cover uk-visible@m" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
             <div class="uk-padding-large">
 
                 <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container"><br><br>

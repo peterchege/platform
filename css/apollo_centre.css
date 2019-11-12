@@ -11,8 +11,14 @@
 	font-family: trebuchet;
 }
 
-.room-wrapper {
-	margin: 5% auto;
+.space-up .room-wrapper {
+	margin:0px auto 5% auto;
+}
+/* phones and mobile view */
+@media (max-width: 575.98px) {
+	.room-container {
+		margin: 10% auto;
+	}
 }
 
 .room-container {
@@ -24,7 +30,15 @@
 	-moz-box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
 	box-shadow: 7px 8px 20px 3px rgba(0, 0, 0, 0.53);
 }
-
+/* large device */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.room-container {
+		margin: 10% auto;
+		width: 70%;
+		height: 350px;
+		
+	}
+}
 .color-overlay-apollo {
 	width: 100%;
 	height: 250px;
@@ -124,8 +138,8 @@
 	box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
 
-.space-up .room-wrapper {
-	margin-top: -40px;
+ .room-wrapper {
+	margin-top: 10px;
 }
 
 /*--------------------------------------------------------------

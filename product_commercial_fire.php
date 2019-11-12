@@ -36,7 +36,8 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
                         <!-- <li class="nav-item">
@@ -45,7 +46,8 @@
                         </li> -->
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -59,7 +61,8 @@
                                 <h2> Fire & Perils Cover </h2>
                                 <P class="text-justify">This policy will indemnify the insured against the loss of or
                                     damage to the property insured arising from fire as well as from allied perils
-                                    such as earthquake, explosion, Riot and strike, malicious damage, Special perils A-H
+                                    such as earthquake, explosion, riot and strike, malicious damage, Special perils
+                                    A-H,
                                     etc.
                                 </P>
 
@@ -67,7 +70,7 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Loss destruction or damage to the property described in the schedule or any
-                                            part there of directly
+                                            part thereof directly
                                             by any of the undermentioned perils:-</h2>
                                         <li>
                                             <p2><b> FIRE, LIGHTNING, EXPLOSION</b> but excluding loss or damage to
@@ -81,7 +84,7 @@
                                         <li>
                                             <p2> STORM AND TEMPEST, FLOOD, BURSTING OR OVERFLOWING OF WATER TANKS,
                                                 APPARATUS OR PIPES
-                                                ( excluding the first Kshs. 500/- of each and every claim).</p2>
+                                                ( excluding the first Kshs. 500/- of each claim).</p2>
                                         </li><br>
                                         <li>
                                             <p2>AIRCRAFT AND OTHER AERIAL DEVICES AND/OR ARTICLES DROPPED THEREFROM.
@@ -100,7 +103,7 @@
                                             <p2>SUBTERRANEAN FIRE.</p2>
                                         </li><br>
                                         <li>
-                                            <p2>RIOT AND STRIKE which for the purpose of this insurance shall mean:-
+                                            <p2>RIOT AND STRIKE which for this insurance shall mean:-
                                             </p2>
                                             <ol>
                                                 <li>The Act of any person taking part together with others in any
@@ -115,7 +118,8 @@
                                                     directly or indirectly connected
                                                     with any of the following occurrences, namely:-
                                                     <ol>
-                                                        <li>War, invasion, act of foreign enemy, hostilities or warlike
+                                                        <li>War, invasion, an act of foreign enemy, hostilities or
+                                                            warlike
                                                             operations (whether war be declared or not),
                                                             civil war,</li>
                                                         <li>Mutiny, civil commotion assuming the proportions of or
@@ -126,7 +130,7 @@
                                                             any organization with activities directed towards the
                                                             overthrow by force of government de jure or de facto to the
                                                             influencing
-                                                            of it by terrorism or violence
+                                                            of it by terrorism or violence.
                                                         </li>
                                                     </ol>
                                                 </li>
@@ -137,7 +141,8 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -147,7 +152,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
 
 
 
@@ -389,7 +395,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/fire.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -441,26 +448,32 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -480,7 +493,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT<i class="fas fa-paper-plane"> </i></button> </div>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT<i
+                                            class="fas fa-paper-plane"> </i></button> </div>
                             </div>
                         </div>
                     </form>
@@ -488,14 +502,14 @@
             </div>
         </div>
     </div>
-    <!--=====================================REQUEST
-                                                ASSISTANCE=====================================-->
+    <!--=====================================REQUEST ASSISTANCE=====================================-->
 
     <div id="modal-full_r" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -507,22 +521,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>

@@ -123,9 +123,8 @@
                             <h2 class="text-center"> Engineering Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy indemnifies the Insured
-                            against any sums for which the Insured becomes legally
-                            liable as a direct result of any negligent act, error ...
+                        <p class="text-justify">APA Engineering insurance covers a wide
+                            range of engineering-related risks. This insurance protects against risks associated with...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -155,7 +154,7 @@
                         </div>
                         <br>
                         <p class="text-justify">This policy will indemnify the insured against the loss of or
-                            damage to the property insured arising from fire as well as ...
+                            damage to the property insured arising from fire as well as...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -239,7 +238,7 @@
                         </div>
                         <br>
                         <p class="text-justify">APA Marine is a comprehensive insurance policy that covers goods,
-                            freight and other interests against loss or damage whilst being transported by rail, ...
+                            freight and other interests against loss or damage whilst being transported by rail...
 
                         </p>
                         <!-- button click -->
