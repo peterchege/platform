@@ -264,8 +264,8 @@
                             <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against financial loss if the
-                            motor vehicle insured is involved in an accident, burnt, stolen...
+                        <p class="text-justify">This insurance covers the insured against loss if the motor vehicle
+                            insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -290,9 +290,8 @@
                             <h2 class="text-center">Motor Cycle (PSV) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen...
+                        <p class="text-justify">APA Motorcycle insurance covers the insured against
+                            loss, if the motorcycle insured, is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <!-- button click -->
