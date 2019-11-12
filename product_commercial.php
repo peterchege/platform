@@ -264,9 +264,8 @@
                             <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">This insurance covers the insured against loss if the motor vehicle
+                            insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -291,9 +290,8 @@
                             <h2 class="text-center">Motor Cycle (PSV) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">APA Motorcycle insurance covers the insured against
+                            loss, if the motorcycle insured, is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <!-- button click -->
@@ -348,9 +346,8 @@
                             <h2 class="text-center"> Plate Glass Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Cover is in respect of breakage of fixed glass and/or other items
-                            described
-                            in the schedule including the cost of temporary boarding up where necessary ...
+                        <p class="text-justify">The cover is designed for buildings with Plate glass windows, doors,
+                            glass panels, and showcases...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
