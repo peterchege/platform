@@ -6,10 +6,16 @@ $(document).ready(function () {
 
     $('.form-container').on('submit', function (e) {
         e.preventDefault();
+        var form = $(this);
         var buttonClicked = $(this).find('button[name=request]');
         var buttonClickedText = $(this).find('button[name=request]').text(); //check this for any errors incurred while submitting lead forms
         var buttonText = $(this).find('input[name=buttonText]').val();
         // alert($(this).position().top);
+        if ($('#type').val() == 'callback') {
+            var swresponse = '<p class="text-left" >Thank you for your interest. One of our customer care agents will contact you.</p>';
+        } else {
+            var swresponse = '<p class="text-left" >Thank you for your interest in our product. One of our customer care agents will contact you.</p>';
+        }
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
@@ -25,7 +31,7 @@ $(document).ready(function () {
                 if (response == 'success') {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESS</h3>',
-                        html: '<p class="text-left" >Thank you for your interest in our product. One of our customer care agents will contact you.</p>',
+                        html: swresponse,
                         type: 'success',
                         allowOutsideClick: false,
                         showCloseButton: true,
@@ -33,7 +39,7 @@ $(document).ready(function () {
                         confirmButtonText: '<i class="fa fa-thumbs-up"></i> Ok!',
                         confirmButtonAriaLabel: 'Thumbs up, great!',
                     });
-                    $('#form,#form-mp,#form-jp,#form-tl,#form-cl,#form-ll,#form-dp').trigger('reset');
+                    form.trigger('reset');
                     $(".uk-close-large").click()
 
                 } else {

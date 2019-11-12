@@ -59,11 +59,14 @@ switch ($_GET['mode']) {
         $message = ((isset($_POST['message'])) ? filter_var(mysqli_real_escape_string($db, $_POST['message']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
         //afya
         $inpatient = ((isset($_POST['inpatient'])) ? filter_var(mysqli_real_escape_string($db, $_POST['inpatient']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH) : 0);
-        //company
+        //company motor trade
         $company = ((isset($_POST['company'])) ? filter_var(mysqli_real_escape_string($db, $_POST['company']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : 0);
 
-        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`,`period`,`age`,`inpatient`,`message`,`company`)
-                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$created_at','$property','$cover','$occupation','$type','$number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details','$period','$age','$inpatient','$message','$company')");
+        //callback date and time fields
+        $date = ((isset($_POST['date'])) ? filter_var(mysqli_real_escape_string($db, $_POST['date']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '1979-01-01');
+        $time = ((isset($_POST['time'])) ? filter_var(mysqli_real_escape_string($db, $_POST['time']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '01:01:01');
+        $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`,`period`,`age`,`inpatient`,`message`,`company`,`date`,`time`)
+                                            VALUES('$product_id','$product_category_id','$full_name','$email','$phone','$location','$make','$model','$value','$yom','$more_info','$created_at','$property','$cover','$occupation','$type','$number','$population_staff','$max_take_off_weight','$geographical_scope','$pilot_details','$period','$age','$inpatient','$message','$company','$date','$time')");
 
         if (!$insert) {
             echo mysqli_error($db);
@@ -99,30 +102,6 @@ switch ($_GET['mode']) {
             $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $feedback = sanitize($_POST['feedback']);
-
-            // if (isset($_FILES)) {
-            //     $photoFullName = $_FILES['image']['name'];
-            //     $filetype = $_FILES['image']['type'];
-            //     $photoFullNameExploded = explode('.', $photoFullName);
-            //     $photoName = $photoFullNameExploded[0];
-            //     $photoName = md5($photoName);
-            //     $photoExt = end($photoFullNameExploded);
-            //     $fullPhotoName = $photoName . '.' . $photoExt;
-
-            //     $photoUploadPath = 'documents/feedback/';
-            //     $tmp_loc = $_FILES['image']['tmp_name'];
-
-            //     if (rootD() == '/var/www/html') {
-            //         $targetUrl = '/APA-INSURANCE/documents/feedback/';
-            //     } elseif (rootD() == 'C:/xampp/htdocs') {
-            //         $targetUrl = '/apainsurance/documents/feedback/';
-            //     }
-
-            //     $target = $_SERVER['DOCUMENT_ROOT'] . $targetUrl . $fullPhotoName;
-            //     $pathandNameOfFile = $photoUploadPath . $fullPhotoName;
-            // }
-
-
 
             $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`department`,`email`,`feedback`,`created_at`)
                                                         VALUES('$full_name','$phone','$extension','$branch','$department','$email','$feedback','$created_at') ");
