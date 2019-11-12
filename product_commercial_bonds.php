@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> OVERVIEW </a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true"> OVERVIEW </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bonds" role="tab" aria-controls="bonds" aria-selected="false"> FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bonds" role="tab"
+                                aria-controls="bonds" aria-selected="false"> FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -59,9 +62,8 @@
                                     seal whereby the person or persons
                                     entering into it bind themselves to pay
                                     to some other person or body a specified
-                                    sum of money, known as Penalty if the
-                                    bond, if any of the conditions of the bond
-                                    are not performed
+                                    sum of money, known as Penalty if any of the conditions of the bond
+                                    are not performed.
 
                                 </P>
 
@@ -75,7 +77,7 @@
                                         </p2>
                                         <br><br>
                                         <p2>Bonds are an inexpensive way to protect the public interest and assure
-                                            contracts are completed on time, for the agreed upon price.
+                                            contracts are completed on time, for the agreed-upon price.
                                         </p2>
                                         <hr>
                                         <h2>Type of Bonds</h2>
@@ -88,59 +90,60 @@
                                         </p2>
                                         <p> Advance Payment Bond </p>
                                         <p2>This is a down payment given to the principal by the obligee to ensure
-                                            that he will perform his obligation as mentioned in the contract. Advance
+                                            that he will perform his obligation as mentioned in the contract. An advance
                                             payment bond guarantees the obligee to complete his contract as per the
                                             agreement covering loss only when the principal cannot be able to refund
                                             the amount given by the obligee.
                                         </p2>
                                         <p> Performance Bonds </p>
                                         <p2>A performance bond is a surety bond issued by an insurance company or a
-                                            bank to guarantee satisfactory completion of a project by a principal.
+                                            bank to guarantee the satisfactory completion of a project by a principal.
                                             If the principal fails to perform according to the specifications laid
                                             out by the contract (most often due to the bankruptcy of the principal)
                                             the client (obligee) is guaranteed compensation for any monetary loss up
                                             to the amount of the performance bond.
                                         </p2>
                                         <p> Work Permits/Security Bond </p>
-                                        <p2>This is a legal authorization which allows a person to take employment in
-                                            instances where a person is given permission to work in a country where
+                                        <p2>This is a legal authorization that allows a person to take employment in
+                                            instances where a person is permitted to work in a country where
                                             one does not hold citizenship.
                                         </p2><br><br>
                                         <p2>The first surety should be the firm employing such a person and the second
                                             surety is the Ins Co. It is the responsibility of the first surety to write
                                             to immigration when such persons leave the organization for the bond to be
-                                            cancelled. It is renewable in Kenya after every two years.
+                                            canceled. It is renewable in Kenya every two years.
                                         </p2>
                                         <p> Customs Bonds </p>
                                         <p2>This is a guarantee from a
                                             surety to the Government that the Principal will
-                                            faithfully abide by all Laws and regulations governing
+                                            faithfully abide by all laws and regulations governing
                                             the payment of Customs revenue together with the
                                             proper carrying on of business in dutiable articles.
                                             There are two classes of Bonds namely;
                                             <ol>
                                                 <li>
                                                     <b>Particular bonds</b> - These are executed to
-                                                    cover one specific transaction
+                                                    cover one specific transaction.
                                                 </li>
                                                 <li>
                                                     <b>General Bonds </b>- These are executed to cover
-                                                    a number of transactions over an unspecified
-                                                    period of time.
+                                                    several transactions over an unspecified
+                                                    period.
 
                                                 </li>
                                             </ol>
                                         </p2>
-                                        <p> Validity of Customs Bonds </p>
+                                        <p> The validity of Customs Bonds </p>
                                         <p2>Customs bonds do not expire. They are valid from the time of proper
                                             execution up to the time of bond discharge by the parties to the bond.
                                             Read Section 108 of the EAC Customs mgt Act and 109 on bond enforcement.
                                         </p2>
                                         <p> Financial Guarantee </p>
-                                        <p2>This is a first demand indemnity bond that is backed by an insurer in order
-                                            to guarantee an obligee that principal and interest payments will be made.
-                                            The guarantee provides additional level of comfort that the investment will
-                                            be repaid in the event that principal would not be able to fulfill the
+                                        <p2>This is a first demand indemnity bond that is backed by an insurer to
+                                            guarantee an obligee that principal and interest payments will be made.
+                                            The guarantee provides an additional level of comfort that the investment
+                                            will
+                                            be repaid if the principal would not be able to fulfill the
                                             contractual
                                             obligation to make timely payments.
                                         </p2>
@@ -149,7 +152,8 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -161,7 +165,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I
                                                         Need Assistance</a>
                                                 </div>
                                             </div>
@@ -183,18 +188,18 @@
                                         To The Principals/Obligors</h2>
                                     <br>
                                     <ol class="text-left">
-                                        <li>Liquidity of funds</li>
-                                        <li>Multiple Projects</li>
-                                        <li>Convenince</li>
+                                        <li>Liquidity of funds.</li>
+                                        <li>Multiple Projects.</li>
+                                        <li>Convenience.</li>
                                     </ol>
 
                                     <h2>Benefits and Advantages of Bonds
                                         To The Owners/Obligees</h2>
                                     <br>
                                     <ol class="text-left">
-                                        <li>Faster Commercial Transaction</li>
-                                        <li>Guarantee from a third party</li>
-                                        <li>Economic activity</li>
+                                        <li>Faster Commercial Transaction.</li>
+                                        <li>Guarantee from a third party.</li>
+                                        <li>Economic activity.</li>
                                     </ol>
 
                                     <!-- TABLE OF BENEFITS OUTPATIENT -->
@@ -223,7 +228,7 @@
                                             <tr>
                                                 <td>CB(1A)</td>
                                                 <td>Delivery of project goods entered provisionally
-                                                    prior to payment of duty
+                                                    before payment of duty
                                                 </td>
                                                 <td>PB Only</td>
                                                 <td>90 Days</td>
@@ -263,7 +268,7 @@
                                             </tr>
                                             <tr>
                                                 <td>CB 7</td>
-                                                <td>Shipment of goods prior to entry – goods are shipped and <br>
+                                                <td>Shipment of goods forebeentry – goods are shipped and <br>
                                                     documentation is done later
                                                 </td>
                                                 <td>PB Only</td>
@@ -329,7 +334,7 @@
                                             </tr>
                                             <tr>
                                                 <td>EB 1</td>
-                                                <td>Bond for payment of Excise duties</td>
+                                                <td>Bond for hetpayment of Excise duties</td>
                                                 <td>GB Only </td>
                                                 <td>3 years </td>
                                             </tr>
@@ -366,7 +371,7 @@
                             <div class="job-description text-left">
                                 <br>
                                 <p>If you are interested in learning how much Bonds insurance would cost
-                                    you, or if you are interested in purchasing Bonds insurance, please click
+                                    you, or if you are interested in purchasing bond insurance, please click
                                     <b>Get Cover</b>.
                                 </p>
                                 <p>
@@ -474,7 +479,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/bonds.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -529,26 +535,32 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -561,7 +573,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -578,7 +591,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -589,22 +603,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 245 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -619,7 +640,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

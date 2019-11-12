@@ -123,9 +123,8 @@
                             <h2 class="text-center"> Engineering Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy indemnifies the Insured
-                            against any sums for which the Insured becomes legally
-                            liable as a direct result of any negligent act, error ...
+                        <p class="text-justify">APA Engineering insurance covers a wide
+                            range of engineering-related risks. This insurance protects against risks associated with...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
