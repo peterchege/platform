@@ -132,7 +132,7 @@ require_once 'inc/functions.php';
 
             <div class="container">
                 <div class="row row-product1 small-opt">
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-2">
                             <div class="overlay">
                             </div>
@@ -158,7 +158,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-7 box-reshape">
                             <div class="overlay">
                             </div>
@@ -183,7 +183,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-4 box-reshape">
                             <div class="overlay">
                             </div>
@@ -210,10 +210,11 @@ require_once 'inc/functions.php';
 
                 </div>
 
+
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1">
 
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-1">
                             <div class="overlay">
                             </div>
@@ -239,7 +240,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-5">
                             <div class="overlay">
                             </div>
@@ -265,7 +266,7 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod  wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-6">
                             <div class="overlay">
                             </div>
