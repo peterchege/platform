@@ -101,10 +101,9 @@
                                         <hr>
                                         <!-- Poultry insurance -->
                                         <p>2.) Named-Peril Crop Insurance (NPCI) </p>
-                                        <p2>In this we offer cover all sorts of crops in ether small or large farms.
+                                        <p2>In this, we offer to cover all sorts of crops in ether small or large farms.
                                             The claim payable is determined by a qualified loss assessor who inspects
-                                            and
-                                            scientifically quantifies the magnitude of loss.
+                                            and scientifically quantifies the magnitude of the loss.
 
                                         </p2>
                                         <br><br>
@@ -123,17 +122,13 @@
                                             Cover for all kinds of crops irrespective the farm size, stability, improved
                                             financial management and comfort in knowing there is a safety net for
                                             unexpected
-                                            loss and associated costs
+                                            loss and associated costs.
 
                                         </p2>
                                         <!-- END OF Poultry insurance -->
                                         <hr>
                                         <!-- Dogs and Pet Insurance -->
-                                        <p>3.) Greenhouse Insurance</p>
-                                        <p2>This offers a Basic cover for loss/dearth of insured animal due to;
-                                            Accidents, Illness and disease, Epidemics, Euthanasia
-                                            on advice of a qualified vet doctor.
-                                        </p2>
+
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
                                             This is cover steel structured greenhouses only irrespective of size. The
@@ -171,7 +166,7 @@
                                             improved
                                             financial management and peace in knowing there is a safety net for
                                             unexpected loss
-                                            and associated costs
+                                            and associated costs.
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
@@ -271,7 +266,7 @@
                                         <ol>
                                             <li>In this we cover all sorts of crops in a single strand of large or
                                                 small farms. The claim payable is determined by a qualified loss
-                                                assessor who inspects and scientifically quantifies the magnitude of
+                                                assessor who inspects and scientifically quantifies the magnitude of the
                                                 loss.
                                             </li><br>
                                             <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days
@@ -285,7 +280,7 @@
                                                 birds
                                                 that a farmer’s structure can hold.
                                             </li><br>
-                                            <li>This is cover steel structured greenhouses only irrespective of size.
+                                            <li>This is cover steel-structured greenhouses only irrespective of size.
                                                 The
                                                 indemnity is based on the actual loss as assessed and quantified by our
                                                 appointed loss assessors less deductibles.
@@ -327,7 +322,7 @@
 
                                 <!-- TABLE -->
 
-                                <h2 class="text-center">The benefit include:</h2><br>
+                                <h2 class="text-center">The benefit includes:</h2><br>
                                 <ol>
                                     <li>Cover for all kinds of crops irrespective the farm size, cover form any
                                         form of loss associated with nature, stability, improved financial management
@@ -337,16 +332,16 @@
                                     <li>Cover for all kinds of crops irrespective the farm size, stability, improved
                                         financial
                                         management and comfort in knowing there is a safety net for unexpected loss and
-                                        associated costs
+                                        associated costs.
                                     </li><br>
-                                    <li>Cover for all kinds of crops, assured stability, improved financial management
+                                    <li>Cover for all kinds of crops assured stability, improved financial management
                                         and comfort in knowing
                                         there is a safety net for unexpected loss and associated costs.
                                     </li><br>
                                     <li>Cover for all kinds of commercial and aesthetic trees, assured stability,
                                         improved financial
                                         management and peace in knowing there is a safety net for unexpected loss and
-                                        associated costs
+                                        associated costs.
                                     </li><br>
                                     <li>Cover for all kinds of crops, assured stability of many farmers in one location,
                                         affordable, improved
