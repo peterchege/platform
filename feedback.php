@@ -80,10 +80,10 @@
                                             <label for="branch">Branch </label>
                                             <input name="branch" type="text" class="form-control" id="branch" placeholder="" required>
                                         </div>
-                                        <div class="form-group col-md-4">
+                                        <!-- <div class="form-group col-md-4">
                                             <label for="department">Department</label>
                                             <input name="department" type="text" class="form-control" id="department" placeholder="" required>
-                                        </div>
+                                        </div> -->
 
                                     </div>
 

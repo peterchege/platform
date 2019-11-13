@@ -88,7 +88,6 @@ switch ($_GET['mode']) {
             empty($_POST['phone']) || !isset($_POST['phone']) ||
             empty($_POST['email']) || !isset($_POST['email']) ||
             empty($_POST['branch']) || !isset($_POST['branch']) ||
-            empty($_POST['department']) || !isset($_POST['department']) ||
             empty($_POST['feedback']) || !isset($_POST['feedback'])
         ) {
             $response['message'] = 'Please fill all of the required fields!';
@@ -100,11 +99,11 @@ switch ($_GET['mode']) {
             $extension = filter_var(mysqli_real_escape_string($db, ($_POST['extension'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, ($_POST['email'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-            $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            // $department = filter_var(mysqli_real_escape_string($db, ($_POST['department'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $feedback = sanitize($_POST['feedback']);
 
-            $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`department`,`email`,`feedback`,`created_at`)
-                                                        VALUES('$full_name','$phone','$extension','$branch','$department','$email','$feedback','$created_at') ");
+            $insert = mysqli_query($db, "INSERT INTO feedback(`full_name`,`phone`,`extension`,`branch`,`email`,`feedback`,`created_at`)
+                                                        VALUES('$full_name','$phone','$extension','$branch','$email','$feedback','$created_at') ");
             if ($insert) {
                 $response['message'] = 'Thank you for your response!';
                 $response['status'] = 1;
