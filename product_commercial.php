@@ -431,9 +431,8 @@
                             <h2 class="text-center"> Workman's Compensation</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
+                        <p class="text-justify">This policy covers the employees of the Insured whilst on duty and
+                            engaged in the execution of the Insured’s business &/or any project...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
