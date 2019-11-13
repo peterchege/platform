@@ -151,7 +151,7 @@
                                             to specialists, pharmacy and dressings Cover will be on the credit facility
                                             basis with our providers and on 80% reimbursement.</p2>
                                         <p>Dental:</p>
-                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
+                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000.</li>
                                         <li>This provides for: Cost of fillings, X-rays, Extractions including surgical
                                             extraction together with anesthetics fees.</li>
                                         <p>Optical:</p>

@@ -530,8 +530,8 @@
                             <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops is your source of
-                            income and guaranteeing their safety should bring you ultimate happiness...
+                        <p class="text-justify">Crop insurance indemnifies you against the loss of crop due to natural
+                            disasters, such as hail, drought, and floods...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
