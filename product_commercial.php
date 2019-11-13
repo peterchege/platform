@@ -401,7 +401,7 @@
                         <br>
                         <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or
                             damage
-                            of insured property resulting from theft accompanied by ....
+                            of insured property resulting from theft...
 
                         </p>
                         <!-- button click -->
@@ -431,9 +431,8 @@
                             <h2 class="text-center"> Workman's Compensation</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
+                        <p class="text-justify">This policy covers the employees of the Insured whilst on duty and
+                            engaged in the execution of the Insured’s business &/or any project...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
