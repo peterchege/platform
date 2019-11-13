@@ -401,7 +401,7 @@
                         <br>
                         <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or
                             damage
-                            of insured property resulting from theft accompanied by ....
+                            of insured property resulting from theft...
 
                         </p>
                         <!-- button click -->

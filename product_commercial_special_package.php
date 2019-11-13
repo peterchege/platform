@@ -127,20 +127,21 @@
                                     <div class="text-justify">
                                         <h2 class="text-center">Main Features include:</h2><br>
                                         <p> Fire and Peril</p>
-                                        <p2>The section cover the risks of fire, lightning and explosion. The policy is
+                                        <p2>The section covers the risks of fire, lightning, and explosion. The policy
+                                            is
                                             enhanced
-                                            to cover additional perils such as earthquake, malicious damage, floods,
-                                            riots and strike.
+                                            to cover additional perils such as earthquakes, malicious damage, floods,
+                                            riots, and strike.
                                         </p2>
                                         <p>Fire Consequential Loss</p>
-                                        <p2>The section cover the Loss of Profits, Increase in Wages and Auditors’ fee
+                                        <p2>The section covers the Loss of Profits, Increase in Wages and Auditors’ fee
                                             as a result of
                                             Business Interruption arising from the risk of Fire.
                                         </p2>
                                         <p>Political Violence & Terrorism</p>
                                         <p2>Loss or damage caused by unlawful use of violence against the government or
                                             civilians for
-                                            political reasons, civil commotion, sabotage and Terrorism.
+                                            political reasons, civil commotion, sabotage, and Terrorism.
                                         </p2>
                                         <p>Burglary</p>
                                         <p2>This covers loss or damage as a result of visible forcible and violent
