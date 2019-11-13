@@ -208,11 +208,11 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                </div>
+                <!-- </div> -->
 
 
                 <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
+                <!-- <div class="row row-product1"> -->
 
                     <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-1">

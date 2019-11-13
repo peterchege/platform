@@ -302,14 +302,17 @@ a:focus {
 @media (max-width: 575.98px) {
     .banner-home {
         margin-top: 65px;
-        width: 100%;
-        height: 60vh;
+        height: 55vh;
         background-image: url(../img/pip.jpg);
-        background-size: cover;
         background-position: left;
         background-repeat: no-repeat;
     }
-    
+
+    .banner-home::before {
+        background-color: rgba(0, 0, 0, 0.45);
+        margin-top: 65px;
+        height: 55vh;
+    }
 
     .banner-home .content-camp h2 {
         font-size: 15px;
@@ -351,8 +354,8 @@ a:focus {
        margin-top: 50%;
    }
 
-   .prod{
-       margin: 7% auto;
+   .small-opt .prod{
+       margin: 10% auto;
    }
 
 
@@ -367,13 +370,10 @@ a:focus {
         background-image: url(../img/pip.jpg);
         background-size: cover;
         background-position: left;
-        background-repeat: no-repeat;
     }
 
     .banner-home::before {
-        content: '';
         background-color: rgba(0, 0, 0, 0.45);
-        position: absolute;
         margin-top: 65px;
         height: 60vh;
 
@@ -381,9 +381,6 @@ a:focus {
 
     .banner-home .content-camp h2 {
         font-size: 22px;
-        font-weight: 500;
-        padding: 10% 5%;
-        width: 50%;
     }
 
     .banner-home .box-quote {
@@ -404,7 +401,6 @@ a:focus {
     }
 
     .banner-home .quick-link {
-        position: absolute;
         top: 19%;
         right: 0%;
     }
@@ -420,9 +416,10 @@ a:focus {
         margin-top: 10%;
     }
 
-    .prod {
-        margin: 7% auto;
+    .small-opt .prod {
+        margin: 10% auto;
     }
+
 
 
 }
