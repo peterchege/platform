@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -66,18 +69,18 @@
                                     <div class="text-justify">
                                         <h2>Our main products include:</h2>
                                         <p> Optional Riders:</p>
-                                        <li>A fully insured outpatient scheme</li>
-                                        <li>A fully insured Dental and optical cover</li>
-                                        <li>A fully insured Maternity Cover</li>
-                                        <li>Last/Funeral expense cover</li>
-                                        <li>Excess of Loss Cover</li>
+                                        <li>A fully insured outpatient scheme.</li>
+                                        <li>A fully insured Dental and optical cover.</li>
+                                        <li>A fully insured Maternity Cover.</li>
+                                        <li>Last/Funeral expense cover.</li>
+                                        <li>Excess of Loss Cover.</li>
                                         <p>Enhanced benefits:</p>
                                         <ol>
-                                            <li>Cover for Pre-existing and chronic conditions </li>
-                                            <li>Opportunistic infections of HIV conditions</li>
+                                            <li>Cover for Pre-existing and chronic conditions. </li>
+                                            <li>Opportunistic infections of HIV conditions.</li>
                                         </ol>
                                         <p>Other benefits offered at a fee:</p>
-                                        <p2>Fund management / Scheme administration only</p2>
+                                        <p2>Fund management / Scheme administration only.</p2>
                                         <hr>
                                         <h2>Structure of Cover</h2>
                                         <p> Cover can be either on a:</p>
@@ -101,17 +104,21 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-danger" data-target="#modal-close-outside" uk-toggle="target: #modal-close-outside"> Download Form </a>
+                                                    <a href="#" class="btn btn-danger"
+                                                        data-target="#modal-close-outside"
+                                                        uk-toggle="target: #modal-close-outside"> Download Form </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -134,32 +141,33 @@
                                             doctor’s bills, anesthetist’s bills, operating theatre fees,
                                             ICU expenses, day surgery, physiotherapy pharmacy, laboratory and
                                             investigations reasonably incurred by an insured member.
-                                            Local road and air evacuation is also included. This cover will be on credit
+                                            Local road and air evacuation are also included. This cover will be on
+                                            credit
                                             facility with our providers.</p2>
 
-                                        <p>Outpatient: Limit of cover offered: Kshs. 30,000 to 300,000</p>
+                                        <p>Outpatient: Limit of cover offered: Kshs. 30,000 to 300,000.</p>
                                         <p2>Outpatient cover provides for medically necessary consultation fees,
                                             investigatory procedures (laboratory & radiology), and referral
-                                            to specialists, pharmacy and dressings Cover will be on credit facility
+                                            to specialists, pharmacy and dressings Cover will be on the credit facility
                                             basis with our providers and on 80% reimbursement.</p2>
                                         <p>Dental:</p>
                                         <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
                                         <li>This provides for: Cost of fillings, X-rays, Extractions including surgical
-                                            extraction together with anesthetics fees</li>
+                                            extraction together with anesthetics fees.</li>
                                         <p>Optical:</p>
-                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000</li>
+                                        <li>Limit of cover offered: Kshs. 10,000 to 30,000.</li>
                                         <li>This provides for the cost of eyeglasses and eye testing.</li>
                                         <hr>
                                         <p>Maternity:</p>
                                         <p2>This benefit shall cover Delivery fees, consultation and treatment for both
                                             mother and child only during the period of confinement
-                                            in hospital.
+                                            in the hospital.
                                         </p2><br><br>
                                         <p2>Costs for miscarriages and abortions may be covered, provided they are
                                             certified by a gynecologist as being necessary
                                             to save the life of the mother.
                                         </p2><br><br>
-                                        <p2>This benefit is only available to staff/spouse </p2>
+                                        <p2>This benefit is only available to staff/spouse. </p2>
                                         <hr>
                                         <h2>At APA Health, we:</h2>
                                         <ol>
@@ -195,14 +203,14 @@
                                 </p>
                                 <p>
                                     If you would like further explanation or assistance about how Health insurance can
-                                    add value to your organisation,
+                                    add value to your organization,
                                     please click <b>I Need Assistance</b>.
                                 </p>
                                 <p>
                                     <b> Download forms</b> will give you access to any relevant documents for Corporate
                                     Health
                                     insurance,
-                                    such as the claim form, proposal form etc.
+                                    such as the claim form, proposal form, etc.
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
@@ -334,7 +342,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/health.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -345,26 +354,32 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -383,7 +398,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +415,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -410,22 +427,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -439,7 +463,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

@@ -487,9 +487,9 @@
                             <h2 class="text-center"> Corporate Health</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Insurance offers flexible tailor made corporate products
-                            for groups with ten (10) or more employees. The main benefit is a fully insured
-                            in-patient scheme ...
+                        <p class="text-justify">
+                            APA Insurance offers flexible tailor made corporate products for groups with ten (10) or
+                            more employees. The main benefit is a fully insured...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
