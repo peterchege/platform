@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 11/11/2019 14:40:02
+ Date: 12/11/2019 16:19:43
 */
 
 SET NAMES utf8mb4;
@@ -610,16 +610,39 @@ INSERT INTO `claims_reports` VALUES (114, 'John Doe', '0712345678', 'johndoe@gma
 DROP TABLE IF EXISTS `feedback`;
 CREATE TABLE `feedback`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `full_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `extension` int(6) NOT NULL,
   `branch` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `department` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
+  `feedback` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `created_at` datetime(6) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 20 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of feedback
+-- ----------------------------
+INSERT INTO `feedback` VALUES (1, 'full_name', 'phone', 0, 'branch', 'department', 'email', 'feedback', '0000-00-00 00:00:00.000000');
+INSERT INTO `feedback` VALUES (2, '', '', 0, '', '', '', '', '2019-11-11 15:26:39.000000');
+INSERT INTO `feedback` VALUES (3, '', '', 0, '', '', '', '', '2019-11-11 15:28:16.000000');
+INSERT INTO `feedback` VALUES (4, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', 'tyuio', '2019-11-11 15:29:09.000000');
+INSERT INTO `feedback` VALUES (5, 'Jane Doe', '0712365478', 345678, 'Nanyuki', ' Business Development', 'janedoe@gmail.com', 'uio', '2019-11-11 15:32:28.000000');
+INSERT INTO `feedback` VALUES (6, 'John Doe', '0712345678', 345678, 'Machakos', 'ICT', 'johndoe@gmail.com', 'yuio', '2019-11-11 15:33:16.000000');
+INSERT INTO `feedback` VALUES (7, 'Jane Doe', '0712365478', 5412654, 'Machakos', 'Customer Care', 'janedoe@gmail.com', 'yuio', '2019-11-11 15:34:16.000000');
+INSERT INTO `feedback` VALUES (8, 'John Doe', '0712345678', 345678, 'Nanyuki', 'Business Development', 'johndoe@gmail.com', 'op', '2019-11-11 15:41:16.000000');
+INSERT INTO `feedback` VALUES (9, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', 'rooy', '2019-11-11 16:26:52.000000');
+INSERT INTO `feedback` VALUES (10, 'Jane Doe', '0712365478', 345678, 'Machakos', 'Finance', 'janedoe@gmail.com', 't', '2019-11-11 16:28:11.000000');
+INSERT INTO `feedback` VALUES (11, 'John Doe', '0712345678', 345678, 'Machakos', 'Customer Care', 'johndoe@gmail.com', 'rtyyi', '2019-11-11 16:29:53.000000');
+INSERT INTO `feedback` VALUES (12, 'Jane Doe', '0712365478', 345678, 'Machakos', 'Finance', 'janedoe@gmail.com', 'The site is cool but improve on:\r\n\r\n\r\n	this\r\n	that\r\n	this\r\n\r\n', '2019-11-11 18:38:27.000000');
+INSERT INTO `feedback` VALUES (13, 'Jane Doe', '0712365478', 1234, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:04.000000');
+INSERT INTO `feedback` VALUES (14, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:53.000000');
+INSERT INTO `feedback` VALUES (15, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', '&lt;p&gt;y&lt;/p&gt;', '2019-11-11 19:14:14.000000');
+INSERT INTO `feedback` VALUES (16, 'Jane Doe', '0712365478', 345678, 'Machakos', 'ICT', 'janedoe@gmail.com', '&lt;p&gt;nickdlfja;lkdjf&lt;/p&gt;', '2019-11-11 19:15:05.000000');
+INSERT INTO `feedback` VALUES (17, 'name', '0712345678', 6588564, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:18:35.000000');
+INSERT INTO `feedback` VALUES (18, 'name', '0712345678', 6588564, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:19:45.000000');
+INSERT INTO `feedback` VALUES (19, 'Jane Doe', '0712365478', 0, 'Machakos', 'ICT', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 14:10:40.000000');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -1184,9 +1207,6 @@ CREATE TABLE `products_leads`  (
   `value` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `yom` varchar(8) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `more_info` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
-  `depature_date` date NULL DEFAULT NULL,
-  `return_date` date NULL DEFAULT NULL,
-  `destination` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `property` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `covers` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `occupation` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT '',
@@ -1200,72 +1220,16 @@ CREATE TABLE `products_leads`  (
   `age` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `inpatient` int(255) NULL DEFAULT NULL,
   `message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
-  `created_at` datetime(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `company` varchar(1000) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
+  `date` date NULL DEFAULT NULL,
+  `time` time(0) NULL DEFAULT NULL,
+  `created_at` datetime(6) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `leads_product_id`(`leads_product_id`) USING BTREE,
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 211 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
-
--- ----------------------------
--- Records of products_leads
--- ----------------------------
-INSERT INTO `products_leads` VALUES (155, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 10, 0, 0, '', 0, 0.00, '65 - 69', 1000000, NULL, '2019-10-29 19:19:28.000000', NULL);
-INSERT INTO `products_leads` VALUES (156, 22, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '3', '', '70000', '', '', '0000-00-00', '0000-00-00', '', '', '50 - 54', '', '', 0, 0, 0, '', 0, 0.00, '', 0, NULL, '2019-10-29 19:20:29.000000', NULL);
-INSERT INTO `products_leads` VALUES (157, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '0', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', 'Building', '', '', 0, 0, 0, '', 0, 0.00, '30 - 34', 0, NULL, '2019-10-29 19:45:39.000000', NULL);
-INSERT INTO `products_leads` VALUES (158, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '35 - 39', 1000000, NULL, '2019-10-29 20:32:37.000000', NULL);
-INSERT INTO `products_leads` VALUES (159, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '30 - 34', 5000000, NULL, '2019-10-29 21:01:35.000000', NULL);
-INSERT INTO `products_leads` VALUES (160, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, NULL, '2019-10-29 21:02:42.000000', NULL);
-INSERT INTO `products_leads` VALUES (161, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, NULL, '2019-10-29 21:05:15.000000', NULL);
-INSERT INTO `products_leads` VALUES (162, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 21:13:45.000000', NULL);
-INSERT INTO `products_leads` VALUES (163, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, 'tyu', '2019-10-29 21:14:00.000000', NULL);
-INSERT INTO `products_leads` VALUES (164, 42, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '78', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Area Yield Index', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 21:30:07.000000', NULL);
-INSERT INTO `products_leads` VALUES (165, 42, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '5', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Index-based Weather', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:02:51.000000', NULL);
-INSERT INTO `products_leads` VALUES (166, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 2, 0, 0, '', 0, 0.00, '24 - 25', 500000, '', '2019-10-29 22:06:06.000000', NULL);
-INSERT INTO `products_leads` VALUES (167, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:06:56.000000', NULL);
-INSERT INTO `products_leads` VALUES (168, 22, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:11:36.000000', NULL);
-INSERT INTO `products_leads` VALUES (169, 22, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '50000', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 20.00, '60 - 64', 0, '', '2019-10-29 22:16:18.000000', NULL);
-INSERT INTO `products_leads` VALUES (170, 6, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:30:48.000000', NULL);
-INSERT INTO `products_leads` VALUES (171, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:35:33.000000', NULL);
-INSERT INTO `products_leads` VALUES (172, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 4, 0, 0, '', 0, 0.00, '24 - 25', 2000000, '', '2019-10-29 22:40:23.000000', NULL);
-INSERT INTO `products_leads` VALUES (173, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 3, 0, 0, '', 0, 0.00, '18 - 23', 2000000, '', '2019-10-29 22:45:34.000000', NULL);
-INSERT INTO `products_leads` VALUES (174, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'tyuu', '2019-10-29 22:45:57.000000', NULL);
-INSERT INTO `products_leads` VALUES (175, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'tyuu', '2019-10-29 22:45:57.000000', NULL);
-INSERT INTO `products_leads` VALUES (176, 16, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'tyui', '2019-10-29 22:47:41.000000', NULL);
-INSERT INTO `products_leads` VALUES (177, 16, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '30 - 34', 0, '', '2019-10-29 22:47:53.000000', NULL);
-INSERT INTO `products_leads` VALUES (178, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:51:04.000000', NULL);
-INSERT INTO `products_leads` VALUES (179, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 22:53:11.000000', NULL);
-INSERT INTO `products_leads` VALUES (180, 15, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 1, 0, 0, '', 0, 0.00, '65 - 69', 1000000, '', '2019-10-29 22:55:49.000000', NULL);
-INSERT INTO `products_leads` VALUES (181, 40, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Seremala Inc', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 200, 0, '', 0, 0.00, '', 0, '', '2019-10-29 23:09:42.000000', NULL);
-INSERT INTO `products_leads` VALUES (182, 33, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', 'owner', '', 'Clerk', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-29 23:22:42.000000', NULL);
-INSERT INTO `products_leads` VALUES (183, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, 'ty', '2019-10-30 09:47:01.000000', NULL);
-INSERT INTO `products_leads` VALUES (184, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 09:47:51.000000', NULL);
-INSERT INTO `products_leads` VALUES (185, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Kabete', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 10:03:53.000000', NULL);
-INSERT INTO `products_leads` VALUES (186, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, 'ty', '2019-10-30 10:09:18.000000', NULL);
-INSERT INTO `products_leads` VALUES (187, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '', '', '8000000', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 12.00, '50 - 54', 0, '', '2019-10-30 10:11:59.000000', NULL);
-INSERT INTO `products_leads` VALUES (188, 31, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', 'Clerk', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 14:43:44.000000', NULL);
-INSERT INTO `products_leads` VALUES (189, 54, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Seremala Inc', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 200, 0, '', 0, 0.00, '', 0, '', '2019-10-30 14:53:35.000000', NULL);
-INSERT INTO `products_leads` VALUES (190, 26, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 14:53:53.000000', NULL);
-INSERT INTO `products_leads` VALUES (191, 33, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', 'Clerk', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 19:37:02.000000', NULL);
-INSERT INTO `products_leads` VALUES (192, 33, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', 'Clerk', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 19:38:47.000000', NULL);
-INSERT INTO `products_leads` VALUES (193, 33, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', 'Clerk', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 19:48:16.000000', NULL);
-INSERT INTO `products_leads` VALUES (194, 33, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Nairobi', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', 'Clerk', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-10-30 19:52:06.000000', NULL);
-INSERT INTO `products_leads` VALUES (195, 35, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', '', 'honda', 'Royce', '8000000', '2015', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 800, 'cOMMERCIAL', 2000, 0.00, '', 0, '', '2019-10-30 20:04:06.000000', NULL);
-INSERT INTO `products_leads` VALUES (196, 35, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 't', '2019-10-30 20:05:00.000000', NULL);
-INSERT INTO `products_leads` VALUES (197, 35, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', '', 'honda', 'civic', '8000000', '2015', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 800, 'cOMMERCIAL', 2000, 0.00, '', 0, '', '2019-10-30 20:05:34.000000', NULL);
-INSERT INTO `products_leads` VALUES (198, 35, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'ty', '2019-10-31 11:26:01.000000', NULL);
-INSERT INTO `products_leads` VALUES (199, 24, 14, 'john doe', 'j@p.co', '0712345678', 'Kakamega', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-02 19:16:28.000000', '0');
-INSERT INTO `products_leads` VALUES (200, 24, 14, 'john doe', 'tony@gmail.com', '0712345678', 'Kakamega', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-02 19:32:00.000000', '0');
-INSERT INTO `products_leads` VALUES (201, 24, 14, 'john doe', 'tony@gmail.com', '0712345678', 'Kakamega', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '24 - 25', 0, '', '2019-11-02 19:32:23.000000', '0');
-INSERT INTO `products_leads` VALUES (202, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', 'Building', '', '', 0, 0, 0, '', 0, 0.00, '55 - 59', 0, '', '2019-11-04 08:55:11.000000', '0');
-INSERT INTO `products_leads` VALUES (203, 26, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Machakos', 'honda', 'Royce', '8000000', '1203', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-04 14:30:52.000000', '0');
-INSERT INTO `products_leads` VALUES (204, 11, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Kabete', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-04 15:34:24.000000', '0');
-INSERT INTO `products_leads` VALUES (205, 45, 14, 'Jane Doe', 'janedoe@gmail.com', '712365478', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-04 16:02:24.000000', '0');
-INSERT INTO `products_leads` VALUES (206, 24, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '55 - 59', 0, '', '2019-11-04 16:07:49.000000', '0');
-INSERT INTO `products_leads` VALUES (207, 14, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '0000-00-00', '0000-00-00', '', '', '', '', 'request assistance', 0, 0, 0, '', 0, 0.00, '', 0, 'tyu', '2019-11-11 09:56:18.000000', '0');
-INSERT INTO `products_leads` VALUES (208, 6, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', 'honda', 'Royce', '20000', '1227', '', '0000-00-00', '0000-00-00', '', '', '', '', 'Contact Us', 0, 0, 0, '', 0, 0.00, '', 0, '', '2019-11-11 12:44:17.000000', '0');
+) ENGINE = InnoDB AUTO_INCREMENT = 228 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Table structure for ref_jobs

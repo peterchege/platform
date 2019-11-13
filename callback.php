@@ -57,20 +57,13 @@ require_once 'inc/sessions.php';
             <div class="col-md-6">
                 <div class="customer-login1">
                     <h2> Fill in the following form :</h2>
-                    <form id="internship_form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="customer-form intern-form">
+                    <form id="internship_form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="form-container">
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="first_name">First Name</label>
-                                    <input name="first_name" type="text" class="form-control" id="first_name" aria-describedby="" placeholder="e.g john" required>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="last_name">Last Name</label>
-                                    <input name="last_name" type="text" class="form-control" id="last_name" aria-describedby="" placeholder="e.g doe" required>
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" aria-describedby="" placeholder="e.g john" required>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +78,7 @@ require_once 'inc/sessions.php';
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="phone">Phone Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
                         </div>
@@ -93,23 +86,25 @@ require_once 'inc/sessions.php';
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="email">Date</label>
-                                    <input name="date" type="date" class="form-control" id="email" aria-describedby="" placeholder="e.g john@gmail.com" required>
+                                    <label for="date">Date</label>
+                                    <input name="date" type="date" class="form-control" id="date" aria-describedby="" placeholder="e.g john@gmail.com" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="phone">Time</label>
-                                    <input name="Time" type="time" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
+                                    <input name="time" type="time" class="form-control" id="time" placeholder="0712 xxx xxx" required>
                                 </div>
                             </div>
                         </div>
-
-
-
+                        <div style="display: none">
+                            <input type="hidden" id="product_id" name="product_id" value="50">
+                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="type" name="type" value="callback">
+                        </div>
                         <div class="customer-btn">
                             <div class="row">
-                                <button id="submit_internship_form" type="submit" class="btn btn-primary submit_internship_form">Submit</button>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i> </button>
                             </div>
                         </div>
                     </form>
@@ -130,47 +125,7 @@ require_once 'inc/sessions.php';
     require_once 'inc/scripts.php';
     ?>
     <script src="js/parsley.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('#internship_form').parsley();
-            $('#internship_form').on('submit', function(e) {
-                e.preventDefault();
-                $.ajax({
-                    type: "POST",
-                    url: "ajax/hr.php?request=internship_application",
-                    data: new FormData(this),
-                    dataType: "text",
-                    processData: false,
-                    cache: false,
-                    contentType: false,
-                    beforeSend: function() {
-                        $('.submit_internship_form').attr("disabled", "disabled");
-                        // $('#fupForm').css("opacity", ".5");
-                    },
-                    success: function(response) {
-                        if (response == 'success') {
-                            $('#internship_form')[0].reset();
-                            Swal.fire({
-                                title: 'Your request has been sent successfully.',
-                                type: response,
-                                allowOutsideClick: true,
-                                showConfirmButton: true
-                            });
-                        } else {
-                            swal.fire({
-                                title: response,
-                                type: 'error',
-                                allowOutsideClick: false
-                            });
-                        }
-                        // $('#fupForm').css("opacity", "");
-                        $(".submit_internship_form").removeAttr("disabled");
-                    }
-                });
-            })
-        });
-    </script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>

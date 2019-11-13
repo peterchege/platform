@@ -41,6 +41,16 @@
         background-repeat: no-repeat;
     }
 }
+
+/* TABLET VIEW */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .box-container-img {
+        width: 80%;
+        /* height: 300px; */
+    }
+}
+
+
 .box-container-img1 {
     width: 90%;
     height: 200px;
