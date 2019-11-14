@@ -11,7 +11,7 @@
  Target Server Version : 100139
  File Encoding         : 65001
 
- Date: 12/11/2019 16:19:43
+ Date: 13/11/2019 10:10:07
 */
 
 SET NAMES utf8mb4;
@@ -614,7 +614,6 @@ CREATE TABLE `feedback`  (
   `phone` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `extension` int(6) NOT NULL,
   `branch` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
-  `department` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL,
   `feedback` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `created_at` datetime(6) NOT NULL,
@@ -624,25 +623,25 @@ CREATE TABLE `feedback`  (
 -- ----------------------------
 -- Records of feedback
 -- ----------------------------
-INSERT INTO `feedback` VALUES (1, 'full_name', 'phone', 0, 'branch', 'department', 'email', 'feedback', '0000-00-00 00:00:00.000000');
-INSERT INTO `feedback` VALUES (2, '', '', 0, '', '', '', '', '2019-11-11 15:26:39.000000');
-INSERT INTO `feedback` VALUES (3, '', '', 0, '', '', '', '', '2019-11-11 15:28:16.000000');
-INSERT INTO `feedback` VALUES (4, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', 'tyuio', '2019-11-11 15:29:09.000000');
-INSERT INTO `feedback` VALUES (5, 'Jane Doe', '0712365478', 345678, 'Nanyuki', ' Business Development', 'janedoe@gmail.com', 'uio', '2019-11-11 15:32:28.000000');
-INSERT INTO `feedback` VALUES (6, 'John Doe', '0712345678', 345678, 'Machakos', 'ICT', 'johndoe@gmail.com', 'yuio', '2019-11-11 15:33:16.000000');
-INSERT INTO `feedback` VALUES (7, 'Jane Doe', '0712365478', 5412654, 'Machakos', 'Customer Care', 'janedoe@gmail.com', 'yuio', '2019-11-11 15:34:16.000000');
-INSERT INTO `feedback` VALUES (8, 'John Doe', '0712345678', 345678, 'Nanyuki', 'Business Development', 'johndoe@gmail.com', 'op', '2019-11-11 15:41:16.000000');
-INSERT INTO `feedback` VALUES (9, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', 'rooy', '2019-11-11 16:26:52.000000');
-INSERT INTO `feedback` VALUES (10, 'Jane Doe', '0712365478', 345678, 'Machakos', 'Finance', 'janedoe@gmail.com', 't', '2019-11-11 16:28:11.000000');
-INSERT INTO `feedback` VALUES (11, 'John Doe', '0712345678', 345678, 'Machakos', 'Customer Care', 'johndoe@gmail.com', 'rtyyi', '2019-11-11 16:29:53.000000');
-INSERT INTO `feedback` VALUES (12, 'Jane Doe', '0712365478', 345678, 'Machakos', 'Finance', 'janedoe@gmail.com', 'The site is cool but improve on:\r\n\r\n\r\n	this\r\n	that\r\n	this\r\n\r\n', '2019-11-11 18:38:27.000000');
-INSERT INTO `feedback` VALUES (13, 'Jane Doe', '0712365478', 1234, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:04.000000');
-INSERT INTO `feedback` VALUES (14, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:53.000000');
-INSERT INTO `feedback` VALUES (15, 'John Doe', '0712345678', 345678, 'Machakos', 'Finance', 'johndoe@gmail.com', '&lt;p&gt;y&lt;/p&gt;', '2019-11-11 19:14:14.000000');
-INSERT INTO `feedback` VALUES (16, 'Jane Doe', '0712365478', 345678, 'Machakos', 'ICT', 'janedoe@gmail.com', '&lt;p&gt;nickdlfja;lkdjf&lt;/p&gt;', '2019-11-11 19:15:05.000000');
-INSERT INTO `feedback` VALUES (17, 'name', '0712345678', 6588564, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:18:35.000000');
-INSERT INTO `feedback` VALUES (18, 'name', '0712345678', 6588564, 'Machakos', 'Finance', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:19:45.000000');
-INSERT INTO `feedback` VALUES (19, 'Jane Doe', '0712365478', 0, 'Machakos', 'ICT', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 14:10:40.000000');
+INSERT INTO `feedback` VALUES (1, 'full_name', 'phone', 0, 'branch', 'email', 'feedback', '0000-00-00 00:00:00.000000');
+INSERT INTO `feedback` VALUES (2, '', '', 0, '', '', '', '2019-11-11 15:26:39.000000');
+INSERT INTO `feedback` VALUES (3, '', '', 0, '', '', '', '2019-11-11 15:28:16.000000');
+INSERT INTO `feedback` VALUES (4, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', 'tyuio', '2019-11-11 15:29:09.000000');
+INSERT INTO `feedback` VALUES (5, 'Jane Doe', '0712365478', 345678, 'Nanyuki', 'janedoe@gmail.com', 'uio', '2019-11-11 15:32:28.000000');
+INSERT INTO `feedback` VALUES (6, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', 'yuio', '2019-11-11 15:33:16.000000');
+INSERT INTO `feedback` VALUES (7, 'Jane Doe', '0712365478', 5412654, 'Machakos', 'janedoe@gmail.com', 'yuio', '2019-11-11 15:34:16.000000');
+INSERT INTO `feedback` VALUES (8, 'John Doe', '0712345678', 345678, 'Nanyuki', 'johndoe@gmail.com', 'op', '2019-11-11 15:41:16.000000');
+INSERT INTO `feedback` VALUES (9, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', 'rooy', '2019-11-11 16:26:52.000000');
+INSERT INTO `feedback` VALUES (10, 'Jane Doe', '0712365478', 345678, 'Machakos', 'janedoe@gmail.com', 't', '2019-11-11 16:28:11.000000');
+INSERT INTO `feedback` VALUES (11, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', 'rtyyi', '2019-11-11 16:29:53.000000');
+INSERT INTO `feedback` VALUES (12, 'Jane Doe', '0712365478', 345678, 'Machakos', 'janedoe@gmail.com', 'The site is cool but improve on:\r\n\r\n\r\n	this\r\n	that\r\n	this\r\n\r\n', '2019-11-11 18:38:27.000000');
+INSERT INTO `feedback` VALUES (13, 'Jane Doe', '0712365478', 1234, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:04.000000');
+INSERT INTO `feedback` VALUES (14, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', '&lt;p&gt;this this&lt;/p&gt;', '2019-11-11 19:01:53.000000');
+INSERT INTO `feedback` VALUES (15, 'John Doe', '0712345678', 345678, 'Machakos', 'johndoe@gmail.com', '&lt;p&gt;y&lt;/p&gt;', '2019-11-11 19:14:14.000000');
+INSERT INTO `feedback` VALUES (16, 'Jane Doe', '0712365478', 345678, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;nickdlfja;lkdjf&lt;/p&gt;', '2019-11-11 19:15:05.000000');
+INSERT INTO `feedback` VALUES (17, 'name', '0712345678', 6588564, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:18:35.000000');
+INSERT INTO `feedback` VALUES (18, 'name', '0712345678', 6588564, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:19:45.000000');
+INSERT INTO `feedback` VALUES (19, 'Jane Doe', '0712365478', 0, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 14:10:40.000000');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -1229,7 +1228,15 @@ CREATE TABLE `products_leads`  (
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 228 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 232 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+
+-- ----------------------------
+-- Records of products_leads
+-- ----------------------------
+INSERT INTO `products_leads` VALUES (228, 50, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-12', '08:08:00', '2019-11-12 16:21:38.000000');
+INSERT INTO `products_leads` VALUES (229, 50, 14, 'Jane Doe', 'janedoe@gmail.com', '0712365478', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-12', '08:08:00', '2019-11-12 16:22:55.000000');
+INSERT INTO `products_leads` VALUES (230, 50, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-12', '22:00:00', '2019-11-12 16:23:14.000000');
+INSERT INTO `products_leads` VALUES (231, 35, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', 'Seremala Inc', '1979-01-01', '01:01:01', '2019-11-12 16:23:53.000000');
 
 -- ----------------------------
 -- Table structure for ref_jobs
