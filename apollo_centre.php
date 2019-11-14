@@ -66,7 +66,7 @@
 
             <h1 class="text-left  wow fadeInUp" data-wow-delay="0.1s">OUR ROOMS</h1>
 
-            <p class="text-left wow fadeInUp" data-wow-delay="0.1s">Apollo Centre conference suites comprises of meeting
+            <p class="text-left wow fadeInUp" data-wow-delay="0.1s">Apollo Centre conference suites comprise of meeting
                 rooms of 8 guests,
                 10 guests and an executive boardroom that holds 18 guests. A state of the art auditorium with a modern
                 sitting capacity of
@@ -81,7 +81,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-10 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                            uk-slider="center: true">
 
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
@@ -118,8 +119,10 @@
                                 </li>
                             </ul>
 
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
 
                         </div>
                     </div>
@@ -142,16 +145,16 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our world class boardroom provides the perfect
-                                meeting place for executive meetings. With a capacity of up to 18 persons,
-                                it is equipped with an extra large LCD screen & teleconferencing facilities,
-                                guaranteeing both comfort and privacy.
+                            <p>Our world-class boardroom provides the perfect meeting place for executive meetings. With
+                                a capacity of up to 18 persons, it is equipped with an extra-large LCD screen &
+                                teleconferencing facilities, guaranteeing both comfort and privacy.
                             </p>
                         </div>
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="shimba">
                             </div>
                             <div class="col-6 text-left">
@@ -183,7 +186,8 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="chyullu">
                             </div>
                             <div class="col-6 text-left">
@@ -215,7 +219,8 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="cherengani">
                             </div>
                             <div class="col-6 text-left">
@@ -252,7 +257,8 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="ngong">
                             </div>
                             <div class="col-6 text-left">
@@ -284,7 +290,8 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="taita">
                             </div>
                             <div class="col-6 text-left">
@@ -316,7 +323,8 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
+                                    uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="entertainment">
                             </div>
                             <div class="col-6 text-left">
@@ -348,8 +356,8 @@
             <div class="col-10">
                 <p class="wow fadeInUp" data-wow-delay="0.1s">
                     With generous space all around, we will give you all the space you need with every room opening up
-                    into a large balcony.
-                    Additionally you can access ample parking space that’s convenient and secure.
+                    onto a large balcony. Additionally, you can access an ample parking space that’s convenient and
+                    secure.
                 </p>
             </div>
         </div>
@@ -362,7 +370,7 @@
                         <h2>SECURE </h2>
                         <hr>
                         <p>
-                            Our facility is highly secured with 24 hours surveillance and gaurds
+                            Our facility is highly secured with 24 hours surveillance and guards.
                         </p>
 
                     </div>
@@ -374,7 +382,7 @@
                         <h2>AMPLE PARKING</h2>
                         <hr>
                         <p>
-                            We have a parking space for over 100 vehicles
+                            We have a parking space for over 100 vehicles.
                         </p>
 
                     </div>
@@ -386,8 +394,8 @@
                         <h2>CENTRAL LOCATION</h2>
                         <hr>
                         <p>
-                            We are at the hearth of westlands, close to public transport terminuses
-                            and on the newly built dual carriageway
+                            We are at the heart of westlands, close to public transport terminuses
+                            and on the newly built dual carriageway.
                         </p>
 
                     </div>
