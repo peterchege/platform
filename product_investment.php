@@ -50,12 +50,11 @@ require_once 'inc/functions.php';
                         What Is Investment?
                     </h2>
                     <p>
-                        An investment is an asset or item acquired with the goal of generating income
-                        or appreciation. In an economic sense, an investment is the purchase of goods
-                        that are not consumed today but are used in the future to create wealth.
-                        In finance, an investment is a monetary asset purchased with the idea that
-                        the asset will provide income in the future or will later be sold at a higher
-                        price for a profit.
+                        An investment is an asset or item acquired to generate income or appreciation. In an economic
+                        sense, an investment is the purchase of goods that are not consumed today but are used in the
+                        future to create wealth. In finance, an investment is a monetary asset purchased with the idea
+                        that the asset will provide income in the future or will later be sold at a higher price for a
+                        profit.
                     </p>
                     <a href="#modal-media-youtube" class="btn btn-primary" uk-toggle> Watch Video</a>
                 </div>
@@ -83,10 +82,10 @@ require_once 'inc/functions.php';
             </div>
 
             <p class="container text-justify content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Apollo Asset Management Company is an asset management firm focused exclusively on meeting
-                the needs of institutional investors like pension schemes, collective investment funds, SACCOs,
-                institutions, and individual high-net-worth investors and their families. We are a 100% owned subsidiary
-                of Apollo Investments Limited, one of Kenya’s leading Insurance and property Management Company.
+                Apollo Asset Management Company is an asset management firm focused exclusively on meeting the needs of
+                institutional investors like pension schemes, collective investment funds, SACCOs, institutions, and
+                individual high-net-worth investors and their families. We are a 100% owned subsidiary of Apollo
+                Investments Limited, one of Kenya’s leading Insurance and Property Management Company.
             </p>
 
             <div class="container-fliud">
@@ -114,7 +113,7 @@ require_once 'inc/functions.php';
                             <p>
                                 Armed with the best investment ideas, AAMC seeks to capitalize on the best investment
                                 opportunities,
-                                long-dated and short-term across the fixed income spectrum
+                                long-dated and short-term across the fixed income spectrum.
                             </p>
 
                         </div>
@@ -156,11 +155,11 @@ require_once 'inc/functions.php';
                             We approach this investment strategy with three objectives:
                         </p>
                         <ol>
-                            <li>Identify Changing Market Conditions<br> <b> ->Intelligence backed by Research</b></li>
+                            <li>Identify Changing Market Conditions.<br> <b> ->Intelligence backed by Research.</b></li>
                             <li>Adjust asset allocations to seek maximum risk-adjusted returns based on changing market
-                                conditions<br> <b> ->Proactive approach</b></li>
+                                conditions.<br> <b> ->Proactive approach.</b></li>
                             <li>Within each asset class, select the most attractive securities based on fundamentals and
-                                valuations <br> <b> ->Focus on returns/yield.</b></li>
+                                valuations. <br> <b> ->Focus on returns/yield.</b></li>
                         </ol>
                     </div>
                 </div>
@@ -189,8 +188,8 @@ require_once 'inc/functions.php';
                             <h2 class="text-center"> Apollo Balanced Fund</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a short to medium term investment product that aims
-                            to give a reasonable rate of interest while preserving capital and offering liquidity...
+                        <p class="text-justify">This is a short to a medium-term investment product that aims to give a
+                            reasonable rate of interest while preserving capital and offering liquidity...
                         </p>
                         <br>
                         <!-- button click -->
@@ -238,22 +237,20 @@ require_once 'inc/functions.php';
                             <h2 class="text-center">Apollo Money Market Fund </h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a short to medium term investment product that
-                            aims to give a reasonable rate of interest while preserving capital and offering
-                            liquidity....
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
-                            </div>
+                        <p class="text-justify">This is short to a medium-term investment product that aims to give a
+                            reasonable rate of interest while preserving capital and offering liquidity...
+                            <!-- button click -->
+                            <div class="row prod-btn">
+                                <div class="col-6 text-center">
+                                    <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
+                                </div>
 
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
-                                    More</a>
-                            </div>
+                                <div class="col-6 text-left prod-lf">
+                                    <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
+                                        More</a>
+                                </div>
 
-                        </div>
+                            </div>
                     </div>
 
                 </div>
@@ -318,7 +315,7 @@ require_once 'inc/functions.php';
                                     <li>Investment returns that are explainable,
                                         definable and seek to be repeated
                                     </li>
-                                    <li>Adherence to well defined processes</li>
+                                    <li>Adherence to well-defined processes</li>
                                     <li>Quality controls and transparency</li>
                                 </ul>
                             </td>
@@ -328,7 +325,7 @@ require_once 'inc/functions.php';
                             <td>
                                 <ul>
                                     <li>Portfolios that support the risk-return
-                                        trade off that clients’ seek, and an
+                                        trade-off that clients’ seek, and an
                                         understanding of what drives returns over time
                                     </li>
                                     <li>Transparent processes supported by Technology</li>

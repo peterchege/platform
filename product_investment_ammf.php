@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">CHARGES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">CHARGES</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -55,9 +58,8 @@
                             <div class="job-description text-center">
 
                                 <h2> Apollo Money Market Fund </h2>
-                                <P class="text-justify">This is a short to medium term investment product that aims to
-                                    give a reasonable rate of interest while preserving
-                                    capital and offering liquidity.
+                                <P class="text-justify">This is short to a medium-term investment product that aims to
+                                    give a reasonable rate of interest while preserving capital and offering liquidity.
                                 </P>
 
 
@@ -65,15 +67,16 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Why the Apollo Money Market Fund? (Features) </h2>
-                                        <p2>This is a short to medium term investment product that aims to give a
+                                        <p2>This is short to a medium-term investment product that aims to give a
                                             reasonable rate of interest while preserving capital and offering liquidity.
                                             The fund is suitable for investors seeking an alternative to a fixed bank
                                             deposit. The minimum lump sum investment is KES. 10,000 and additional
-                                            top ups of KES. 2,000 can be made thereafter . Regular voluntary top ups can
+                                            top-ups of KES. 2,000 can be made thereafter. Regular voluntary top-ups can
                                             be made by cheque, direct cash deposit, direct debit order or standing
                                             order.
                                         </p2><br><br>
-                                        <p2>The principal investments in this is fund are short term (usually less than
+                                        <p2>
+                                            The principal investments in this are fund is short term (usually less than
                                             1 year) instruments like bank deposits, commercial papers and Government
                                             treasury bills.
                                         </p2>
@@ -86,7 +89,8 @@
                                                 </div>
                                             </div>
                                             <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
@@ -191,7 +195,9 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/claaim_investment2.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/claaim_investment2.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -201,22 +207,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="john doe"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 343 xx7" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 343 xx7" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                             </div>
 
@@ -227,7 +240,8 @@
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i>
+                                <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                        class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
