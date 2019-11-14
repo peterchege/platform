@@ -141,9 +141,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Private Insurance</h2>
                         </div>
                         <br><br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved
-                            in an accident, burnt, stolen ...
+                        <p class="text-justify">Motor insurance cover protects the insured against loss in the event
+                            that the motor vehicle insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -167,8 +166,8 @@ require_once 'inc/functions.php';
                             <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every person's dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">Living a healthy stress-free life is every person's dream. A healthy
+                            family is a happy family. This is why we have medical insurance...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -193,19 +192,19 @@ require_once 'inc/functions.php';
                         </div>
                         <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and outside the house...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href="#modal-full6" class="btn btn-primary" uk-toggle>Get Cover</a>
-                            </div>
+                            contents whilst in the house and...
+                            <!-- button click -->
+                            <div class="row prod-btn">
+                                <div class="col-6">
+                                    <a href="#modal-full6" class="btn btn-primary" uk-toggle>Get Cover</a>
+                                </div>
 
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_domestic.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
+                                <div class="col-6 text-left prod-lf">
+                                    <a href="product_detail_domestic.php" class="btn btn-primary prod-grey">Read
+                                        More</a>
+                                </div>
 
-                        </div>
+                            </div>
                     </div>
 
                     <!-- </div> -->
@@ -249,8 +248,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor insurance cover protects the insured against
-                            financial loss in the event that the motor vehicle insured is involved in an accident...
+                        <p class="text-justify">This insurance covers the insured against loss if the motor vehicle
+                            insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -275,7 +274,7 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your livestock are your source of income and guaranteeing
+                        <p class="text-justify">Your livestock is your source of income and guaranteeing
                             their safety should bring you ultimate happiness...
                         </p>
                         <!-- button click -->
