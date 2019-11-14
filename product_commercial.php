@@ -244,8 +244,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -401,7 +400,7 @@
                         <br>
                         <p class="text-justify">Burglary or theft insurance policy provides indemnity against loss or
                             damage
-                            of insured property resulting from theft accompanied by ....
+                            of insured property resulting from theft...
 
                         </p>
                         <!-- button click -->
@@ -431,9 +430,8 @@
                             <h2 class="text-center"> Workman's Compensation</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This policy covers the employees
-                            of the Insured whilst on duty and engaged in the execution
-                            of the Insured’s business &/or any project undertaken...
+                        <p class="text-justify">This policy covers the employees of the Insured whilst on duty and
+                            engaged in the execution of the Insured’s business &/or any project...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -488,9 +486,9 @@
                             <h2 class="text-center"> Corporate Health</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA Insurance offers flexible tailor made corporate products
-                            for groups with ten (10) or more employees. The main benefit is a fully insured
-                            in-patient scheme ...
+                        <p class="text-justify">
+                            APA Insurance offers flexible tailor made corporate products for groups with ten (10) or
+                            more employees. The main benefit is a fully insured...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -531,8 +529,8 @@
                             <h2 class="text-center"> Crop Cover <br> (Agriculture)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your crops is your source of
-                            income and guaranteeing their safety should bring you ultimate happiness...
+                        <p class="text-justify">Crop insurance indemnifies you against the loss of crop due to natural
+                            disasters, such as hail, drought, and floods...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -651,8 +649,8 @@
                             <h2 class="text-center"> Micro Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">APA’s Micro & Inclusive Insurance product offerings are innovative and affordable. 
+                            We position ourselves as Kenya’s innovative one stop...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -720,8 +718,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_last_expense.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_last_expense.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -760,8 +757,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">

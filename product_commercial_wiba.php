@@ -36,14 +36,17 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab" aria-controls="outpatient" aria-selected="false">FEATURES / BENEFITS </a>
+                            <a class="nav-link" id="outpatient-tab" data-toggle="tab" href="#outpatient" role="tab"
+                                aria-controls="outpatient" aria-selected="false">FEATURES / BENEFITS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -59,9 +62,9 @@
                                     and engaged in the execution of the Insured’s business &/or any project undertaken
                                     by the Insured, against accidental bodily injury, disablement or death.
                                 </P>
-                                <P class="text-justify">Compensation is payable in accordance with the provisions of
-                                    the WIBA Act 2007. The maximum benefit is set at 96 months’ salary. The Wiba plus
-                                    policy cover in addition to the above also extends coverage to 24 hours.
+                                <P class="text-justify">Compensation is payable under the provisions of WIBA Act 2007.
+                                    The maximum benefit is set at 96 months’ salary. The Wiba plus policy cover in
+                                    addition to the above also extends coverage to 24 hours.
                                 </P>
                                 <hr>
                                 <div class="job-content">
@@ -80,15 +83,15 @@
                                         </p2>
                                         <br><br>
                                         <p2>
-                                            The compensation payable is in accordance with WIBA Act 2007
+                                            The compensation is payable under WIBA Act 2007.
                                         </p2>
                                         <p> Benefits to the company </p>
                                         <ol>
                                             <li><b>Death –</b> Compensation is equivalent to a maximum of 8 Years
-                                                earnings or 96 Months earning</li><br>
+                                                earnings or 96 Months earning.</li><br>
                                             <li><b>Permanent Total Disability - </b>Compensation is equivalent to a
                                                 maximum of 8 Years earnings
-                                                or 96 Months earning </li><br>
+                                                or 96 Months earning. </li><br>
                                             <li><b>Temporary Total Disability -</b> Compensation is equivalent to weekly
                                                 earnings up to a maximum of 52 Weeks.
                                             </li><br>
@@ -97,13 +100,13 @@
                                                 the insured may opt for an upper limit. </li><br>
                                             <li><b>Funeral/Last expense cover -</b> The policy provides for a free cover
                                                 limit up to Kshs. 30,00/- per employee.
-                                                However, the insured may opt for an upper limit</li>
+                                                However, the insured may opt for an upper limit.</li>
                                         </ol>
                                         <hr>
                                         <h2>Group Personal Accident</h2>
                                         <p2>
-                                            We live in an era when people do activities in groups from travelling
-                                            together, to living
+                                            We live in an era when people do activities in groups from traveling
+                                            together to living
                                             together and this is why in line with current lifestyles it is best we also
                                             cater for groups.
                                         </p2>
@@ -111,7 +114,7 @@
                                         <p2>
                                             These policies cover accidental death or incapacitation to the insured.
                                             Compensation
-                                            will be payable to the insured or to his/her legal representative in
+                                            will be payable to the insured or his/her legal representative in
                                             accordance with
                                             the sum insured and scale of compensation agreed and specified in the policy
                                             schedule.
@@ -120,7 +123,7 @@
                                         <p2>
                                             The age requirements for this policy are that the holder should be above 15
                                             years and
-                                            below 65 years. Policy can be given to individuals or Group of individuals.
+                                            below 65 years. Policy can be given to individuals or group of individuals.
                                         </p2>
                                         <br><br>
                                         <p2>
@@ -138,7 +141,8 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-primary" data-target="#modal-full" uk-toggle>Get Cover</a>
+                                                    <a href="#" class="btn btn-primary" data-target="#modal-full"
+                                                        uk-toggle>Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -148,7 +152,8 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r" uk-toggle>I Need Assistance</a>
+                                                    <a href="#" class="btn btn-dark" data-target="#modal-full_r"
+                                                        uk-toggle>I Need Assistance</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -169,10 +174,10 @@
                                     <p> Benefits to the company </p>
                                     <ol>
                                         <li><b>Death –</b> Compensation is equivalent to a maximum of 8 Years earnings
-                                            or 96 Months earning</li><br>
+                                            or 96 Months earning.</li><br>
                                         <li><b>Permanent Total Disability - </b>Compensation is equivalent to a maximum
                                             of 8 Years earnings
-                                            or 96 Months earning </li><br>
+                                            or 96 Months earning. </li><br>
                                         <li><b>Temporary Total Disability -</b> Compensation is equivalent to weekly
                                             earnings up to a maximum of 52 Weeks.
                                         </li><br>
@@ -181,7 +186,7 @@
                                             the insured may opt for an upper limit. </li><br>
                                         <li><b>Funeral/Last expense cover -</b> The policy provides for a free cover
                                             limit up to Kshs. 30,00/- per employee.
-                                            However, the insured may opt for an upper limit</li>
+                                            However, the insured may opt for an upper limit.</li>
                                     </ol>
 
                                 </div>
@@ -341,7 +346,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/wiba.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -378,26 +384,32 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -412,7 +424,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -429,7 +442,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -440,22 +454,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -469,7 +490,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>

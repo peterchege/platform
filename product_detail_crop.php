@@ -39,16 +39,20 @@
                 <div class="overview-nav">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">FEATURES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">BENEFITS</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">BENEFITS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab"
+                                aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
                     </ul>
@@ -60,9 +64,10 @@
                             <div class="job-description text-center">
 
                                 <h2> CROP COVER </h2>
-                                <P class="text-justify">Your crops is your source of income and guaranteeing their
-                                    safety
-                                    should bring you ultimate happiness.
+                                <P class="text-justify">Crop insurance indemnifies you against the loss of crop due to
+                                    natural disasters, such as hail, drought, and floods.At APA we ensure your
+                                    Ultimate.
+                                    happiness.
                                 </P>
                                 <hr>
                                 <div class="job-content">
@@ -79,11 +84,9 @@
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
-                                            In this we cover all sorts of crops in a single strand of large or small
-                                            farms.
-                                            The claim payable is determined by a qualified loss assessor who inspects
-                                            and
-                                            scientifically quantifies the magnitude of loss.
+                                            In this, we cover all sorts of crops in a single strand of large or small
+                                            farms. The claim payable is determined by a qualified loss assessor who
+                                            inspects and scientifically quantifies the magnitude of the loss.
 
                                         </p2>
                                         <br><br>
@@ -98,10 +101,9 @@
                                         <hr>
                                         <!-- Poultry insurance -->
                                         <p>2.) Named-Peril Crop Insurance (NPCI) </p>
-                                        <p2>In this we offer cover all sorts of crops in ether small or large farms.
+                                        <p2>In this, we offer to cover all sorts of crops in ether small or large farms.
                                             The claim payable is determined by a qualified loss assessor who inspects
-                                            and
-                                            scientifically quantifies the magnitude of loss.
+                                            and scientifically quantifies the magnitude of the loss.
 
                                         </p2>
                                         <br><br>
@@ -120,17 +122,13 @@
                                             Cover for all kinds of crops irrespective the farm size, stability, improved
                                             financial management and comfort in knowing there is a safety net for
                                             unexpected
-                                            loss and associated costs
+                                            loss and associated costs.
 
                                         </p2>
                                         <!-- END OF Poultry insurance -->
                                         <hr>
                                         <!-- Dogs and Pet Insurance -->
-                                        <p>3.) Greenhouse Insurance</p>
-                                        <p2>This offers a Basic cover for loss/dearth of insured animal due to;
-                                            Accidents, Illness and disease, Epidemics, Euthanasia
-                                            on advice of a qualified vet doctor.
-                                        </p2>
+
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
                                             This is cover steel structured greenhouses only irrespective of size. The
@@ -168,7 +166,7 @@
                                             improved
                                             financial management and peace in knowing there is a safety net for
                                             unexpected loss
-                                            and associated costs
+                                            and associated costs.
                                         </p2>
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
@@ -227,12 +225,14 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                                <div class="load-more text-center " data-target="#modal-full1"
+                                                    uk-toggle="target: #modal-close-outside">
                                                     <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
+                                                <div class="load-more text-center " data-target="#modal-full_r"
+                                                    uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -266,7 +266,7 @@
                                         <ol>
                                             <li>In this we cover all sorts of crops in a single strand of large or
                                                 small farms. The claim payable is determined by a qualified loss
-                                                assessor who inspects and scientifically quantifies the magnitude of
+                                                assessor who inspects and scientifically quantifies the magnitude of the
                                                 loss.
                                             </li><br>
                                             <li>The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days
@@ -280,7 +280,7 @@
                                                 birds
                                                 that a farmer’s structure can hold.
                                             </li><br>
-                                            <li>This is cover steel structured greenhouses only irrespective of size.
+                                            <li>This is cover steel-structured greenhouses only irrespective of size.
                                                 The
                                                 indemnity is based on the actual loss as assessed and quantified by our
                                                 appointed loss assessors less deductibles.
@@ -290,11 +290,13 @@
                                                 loss assessor who inspects and scientifically quantifies the magnitude
                                                 of loss less deductibles.
                                             </li><br>
-                                            <li>It can only be for a particular crop within a defined area of homogeneous
+                                            <li>It can only be for a particular crop within a defined area of
+                                                homogeneous
                                                 production. Payout is based on a crop cutting exercises results done at
                                                 the end of the harvesting period.
                                             </li><br>
-                                            <li>It can only be for a particular crop within a defined area of homogeneous
+                                            <li>It can only be for a particular crop within a defined area of
+                                                homogeneous
                                                 weather patterns. Payout based on actual weather measurement at the
                                                 reference
                                                 weather station or satellite in relation to effects at any stage of a
@@ -320,7 +322,7 @@
 
                                 <!-- TABLE -->
 
-                                <h2 class="text-center">The benefit include:</h2><br>
+                                <h2 class="text-center">The benefit includes:</h2><br>
                                 <ol>
                                     <li>Cover for all kinds of crops irrespective the farm size, cover form any
                                         form of loss associated with nature, stability, improved financial management
@@ -330,16 +332,16 @@
                                     <li>Cover for all kinds of crops irrespective the farm size, stability, improved
                                         financial
                                         management and comfort in knowing there is a safety net for unexpected loss and
-                                        associated costs
+                                        associated costs.
                                     </li><br>
-                                    <li>Cover for all kinds of crops, assured stability, improved financial management
+                                    <li>Cover for all kinds of crops assured stability, improved financial management
                                         and comfort in knowing
                                         there is a safety net for unexpected loss and associated costs.
                                     </li><br>
                                     <li>Cover for all kinds of commercial and aesthetic trees, assured stability,
                                         improved financial
                                         management and peace in knowing there is a safety net for unexpected loss and
-                                        associated costs
+                                        associated costs.
                                     </li><br>
                                     <li>Cover for all kinds of crops, assured stability of many farmers in one location,
                                         affordable, improved
@@ -385,7 +387,8 @@
                                         </div>
                                     </div>
                                     <div class="col-4">
-                                        <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
+                                        <div class="load-more text-center " data-target="#modal-full1"
+                                            uk-toggle="target: #modal-close-outside">
                                             <!-- <a href="#" class="btn btn-danger"> Download Forms </a> -->
                                         </div>
                                     </div>
@@ -417,7 +420,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/crop.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -471,26 +475,32 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" placeholder="Mobile Number" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="occupation">Company</label>
-                                    <input name="company" type="text" class="form-control" id="company" placeholder="Company" value="" required>
+                                    <input name="company" type="text" class="form-control" id="company"
+                                        placeholder="Company" value="" required>
                                 </div>
 
                             </div>
@@ -505,7 +515,8 @@
 
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT <i
+                                            class="fas fa-paper-plane"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -522,7 +533,8 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
                 </div>
                 <div class="uk-padding-large">
 
@@ -533,22 +545,29 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="john doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 232 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="07xx 232 xxx" value=""
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email"
+                                        placeholder="john@example.com" value="" required data-parsley-type="email"
+                                        data-parsley-trigger="keyup">
                                 </div>
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="message">Message</label>
@@ -562,7 +581,8 @@
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i
+                                            class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
