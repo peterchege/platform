@@ -465,7 +465,7 @@ a:focus {
     }
 
     .banner-home .quick-link {
-        top: 19%;
+        top: 10%;
         right: 0%;
     }
 
@@ -477,13 +477,12 @@ a:focus {
     }
 
     .small-opt {
-        /* margin-top: 10%; */
+        margin-top: 10%;
     }
 
     .small-opt .prod {
-        margin: 10% auto;
+        margin: 5% auto;
     }
-
 
 
 }
