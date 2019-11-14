@@ -244,8 +244,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
-                                    class="btn btn-primary">Get Cover</a>
+                                <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -650,8 +649,8 @@
                             <h2 class="text-center"> Micro Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Living a healthy stress free life is every persons dream. A
-                            healthy family is a happy family. This is why we have medical insurance..
+                        <p class="text-justify">APA’s Micro & Inclusive Insurance product offerings are innovative and affordable. 
+                            We position ourselves as Kenya’s innovative one stop...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -719,8 +718,7 @@
                             </div>
 
                             <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_group_last_expense.php"
-                                    class="btn btn-primary prod-grey">Read More</a>
+                                <a href="product_commercial_group_last_expense.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
@@ -759,8 +757,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
