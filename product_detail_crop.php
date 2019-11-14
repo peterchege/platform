@@ -253,16 +253,16 @@
                                         <h2 class="text-center">Our main products include:</h2><br>
 
                                         <ol>
-                                            <li>Multi-Peril Crop Insurance (MPCI) </li>
-                                            <li>Named-Peril Crop Insurance (NPCI)</li>
-                                            <li>Greenhouse Insurance</li>
-                                            <li>Forest Insurance </li>
-                                            <li>Area Yield Index Insurance (AYII) </li>
-                                            <li>Weather Index Insurance (WII)</li>
+                                            <li>Multi-Peril Crop Insurance (MPCI). </li>
+                                            <li>Named-Peril Crop Insurance (NPCI).</li>
+                                            <li>Greenhouse Insurance.</li>
+                                            <li>Forest Insurance. </li>
+                                            <li>Area Yield Index Insurance (AYII). </li>
+                                            <li>Weather Index Insurance (WII).</li>
 
                                         </ol>
                                         <hr>
-                                        <h3>The cover provides the following features. This include:</h3>
+                                        <h3>The cover provides the following features:</h3>
                                         <ol>
                                             <li>In this we cover all sorts of crops in a single strand of large or
                                                 small farms. The claim payable is determined by a qualified loss
