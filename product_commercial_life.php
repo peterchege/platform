@@ -512,7 +512,7 @@
                             </div>
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="37">
+                                <input type="hidden" id="product_id" name="product_id" value="41">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                                 <input type="hidden" id="type" name="type" value="request assistance">
                             </div>

@@ -763,7 +763,7 @@ HEALTH COVER
                                 <label for="age"> Your Age category</label>
                                 <select id="age" name="age" class="form-control" required>
                                     <option value="-1" selected disabled>Select your age range...</option>
-                                    <option value="18 - 23"> 20 - 24 yrs</option>
+                                    <option value="20 - 24"> 20 - 24 yrs</option>
                                     <option value="24 - 25"> 25 - 29 yrs</option>
                                     <option value="30 - 34"> 30 - 34 yrs</option>
                                     <option value="35 - 39"> 35 - 39 yrs</option>
@@ -858,7 +858,7 @@ HEALTH COVER
                                 <label for="age"> Your Age category</label>
                                 <select id="age" name="age" class="form-control" required>
                                     <option value="-1" selected disabled>Select your age range...</option>
-                                    <option value="18 - 23"> 20 - 24 yrs</option>
+                                    <option value="20 - 24"> 20 - 24 yrs</option>
                                     <option value="24 - 25"> 25 - 29 yrs</option>
                                     <option value="30 - 34"> 30 - 34 yrs</option>
                                     <option value="35 - 39"> 35 - 39 yrs</option>
@@ -955,8 +955,6 @@ HEALTH COVER
                                 </select>
                             </div>
                         </div>
-
-
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="16">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
@@ -1411,6 +1409,7 @@ INDIVIDUAL LIFE COVER
                                     <option value="-1" selected disabled>Select your age range...</option>
                                     <option value="18 - 23"> 18 - 23 </option>
                                     <option value="24 - 25"> 24 - 25 </option>
+                                    <option value="26 - 29"> 24 - 25 </option>
                                     <option value="30 - 34"> 30 - 34 </option>
                                     <option value="35 - 39"> 35 - 39 </option>
                                     <option value="40 - 44"> 40 - 44 </option>
