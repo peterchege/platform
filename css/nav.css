@@ -94,3 +94,21 @@
     padding-right: 10px;
     font-size: 15px;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .uk-navbar-nav1 {
+        margin-left: -20%;
+        font-size: 11px;
+    }
+
+    #flags{
+        margin-left: -70%;
+        width: 30px;
+    }
+
+    .uk-navbar-nav1 li a {
+        font-size: 11px;
+    }
+
+
+}
