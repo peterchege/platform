@@ -48,7 +48,7 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
+                for both our clients and their loved ones. Built on commitment, integrity and innovation, we have risen
                 to become one of the leading Financial Service Groups in East Africa. The Apollo Group has 6 companies;
                 APA Insurance, APA Life, APA Uganda, Apollo Asset Management, Gordon Court (Apollo Centre) and Reliance
                 Insurance, Tanzania.
@@ -66,7 +66,7 @@
                         <img src="images/icon/icon6.png" alt="mission">
                         <h2> MISSION</h2>
                         <p>
-                            We put smiles on the faces of our stakeholders
+                            We put smiles on the faces of our stakeholders.
                         </p>
                     </div>
                     <br>
@@ -91,7 +91,7 @@
                     <div class="col-md-3 ">
                         <img src="images/icon/icon9.png" alt="mission">
                         <h2> BRAND PROMISE</h2>
-                        <p> Insuring Happiness
+                        <p> Insuring Happiness.
                         </p>
                     </div>
                     <br>
@@ -119,7 +119,7 @@
                                     <h1>1981</h1>
                                 </div>
                                 <p class="text-center">
-                                    Apollo branch established in Nairobi
+                                    Apollo branch established in Nairobi.
                                 </p>
                             </div>
                         </li>
@@ -130,7 +130,7 @@
                                     <h1>1982</h1>
                                 </div>
                                 <p class="text-center">
-                                    Gordon Court purchased as a specialist property development company
+                                    Gordon Court purchased as a specialist property development company.
                                 </p>
                             </div>
                         </li>
@@ -142,7 +142,7 @@
                                 </div>
                                 <p class="text-center">
                                     APA Insurance Kenya formed after the merger of the general business of
-                                    Apollo Company and Pan africa Insurance
+                                    Apollo Company and Pan africa Insurance.
                                 </p>
                             </div>
                         </li>
@@ -166,7 +166,8 @@
                                     <h1>2010</h1>
                                 </div>
                                 <p class="text-center">
-                                    Apollo Insurance separates its Life Insurance business to from Apollo Life Assurance Limited.
+                                    Apollo Insurance separates its Life Insurance business to from Apollo Life Assurance
+                                    Limited.
                                 </p>
                             </div>
                         </li>
@@ -183,8 +184,10 @@
                         </li>
                     </ul>
 
-                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                        uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                        uk-slider-item="next"></a>
 
                 </div>
 
@@ -216,7 +219,8 @@
 
                                     <div class="content">
                                         <h3>COMPANIES</h3>
-                                        <p>Living a healthy stress free life is every persons dream. A healthy family is a happy
+                                        <p>Living a healthy stress free life is every persons dream. A healthy family is
+                                            a happy
                                             family.</p>
                                     </div>
                                 </div>
@@ -249,7 +253,7 @@
                                     <div class="content">
                                         <h3>MEDIA CENTRE</h3>
                                         <p>Sail your goods across different regions with no worry.
-                                            This cover is crafted for both individuals and corporates
+                                            This cover is crafted for both individuals and corporates.
                                     </div>
                                 </div>
                             </a>
@@ -263,7 +267,8 @@
                                 <div class="wrapper">
                                     <div class="content">
                                         <h3>CSR</h3>
-                                        <p>Your crops and livestock are your source of income and guaranteeing their safety
+                                        <p>Your crops and livestock are your source of income and guaranteeing their
+                                            safety
                                             should
                                             bring you ultimate happiness.</p>
                                     </div>
@@ -292,7 +297,8 @@
         <div class="row">
             <div class="col-10">
                 <p>
-                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we are
+                    At Apollo Group, we are committed to the continuous improvement of our service to you, ensuring we
+                    are
                     always ready to listen, help and advise you.
                 </p>
             </div>
@@ -304,7 +310,8 @@
         <div class="row">
             <div class="col-10">
                 <p>
-                    We will acknowledge/respond to your queries received from various platforms within the timelines listed below:
+                    We will acknowledge/respond to your queries received from various platforms within the timelines
+                    listed below:
                 </p>
             </div>
         </div>
@@ -317,7 +324,7 @@
                         <h2>Email queries</h2>
                         <hr>
                         <p>
-                            Response Time<br> is Within 24 hours
+                            Response Time<br> is Within 24 hours.
                         </p>
 
                     </div>
@@ -329,7 +336,7 @@
                         <h2>Letters </h2>
                         <hr>
                         <p>
-                            Response Time<br> is Within 3 working days
+                            Response Time<br> is Within 3 working days.
                         </p>
 
                     </div>
@@ -343,7 +350,7 @@
                         <h2>Phone Calls </h2>
                         <hr>
                         <p>
-                            Immediately where possible, <br>within 24 hours in case of need<br> for further engagement
+                            Immediately where possible, <br>within 24 hours in case of need<br> for further engagement.
                         </p>
 
                     </div>
@@ -355,7 +362,7 @@
                         <h2>Website & Social<br> media</h2>
                         <hr>
                         <p>
-                            Response Time<br> Within 1 hour
+                            Response Time<br> Within 1 hour.
                         </p>
 
                     </div>
@@ -367,7 +374,7 @@
                         <h2>Walk in clients</h2>
                         <hr>
                         <p>
-                            Response Time<br> Within 15 minutesrs
+                            Response Time<br> Within 15 minutesrs.
                         </p>
 
                     </div>
@@ -389,20 +396,24 @@
                 <div class="col-md-6">
                     <ul>
                         <li>
-                            We will ensure our staff are trained to provide you with all the information you need to select
+                            We will ensure our staff are trained to provide you with all the information you need to
+                            select
                             the insurance cover that best meets your requirements.
                         </li>
                         <li>
-                            We will provide a quotation within 1 day of receipt of all information for straightforward policies
+                            We will provide a quotation within 1 day of receipt of all information for straightforward
+                            policies
                             and within communicated timelines for tenders.
 
                         </li>
                         <li>
-                            We will have a dedicated staff member to assist you through the underwriting/claims management/ asset
+                            We will have a dedicated staff member to assist you through the underwriting/claims
+                            management/ asset
                             management process and any other stage of your interaction with us.
                         </li>
                         <li>
-                            We will ensure our staff are trained to provide you with all the information you need to select
+                            We will ensure our staff are trained to provide you with all the information you need to
+                            select
                             the insurance cover that best meets your requirements.
                         </li>
                     </ul>
@@ -411,11 +422,13 @@
                 <div class="col-md-6">
                     <ul>
                         <li>
-                            We will ensure our staff are trained to provide you with all the information you need to select
+                            We will ensure our staff are trained to provide you with all the information you need to
+                            select
                             the insurance cover that best meets your requirements.
                         </li>
                         <li>
-                            We will ensure our staff are trained to provide you with all the information you need to select
+                            We will ensure our staff are trained to provide you with all the information you need to
+                            select
                             the insurance cover that best meets your requirements.
                         </li>
                     </ul>
@@ -424,16 +437,16 @@
                     </p>
                     <ul class="customer-request">
                         <li>
-                            Treat our staff professionally in all engagements with them
+                            Treat our staff professionally in all engagements with them.
                         </li>
                         <li>
-                            Provide us with all relevant information and documents to lodge a complete application
+                            Provide us with all relevant information and documents to lodge a complete application.
                         </li>
                         <li>
-                            Keep us updated of any changes that might affect your policy
+                            Keep us updated of any changes that might affect your policy.
                         </li>
                         <li>
-                            We appreciate that you will always give us true facts
+                            We appreciate that you will always give us true facts.
                         </li>
                     </ul>
 
@@ -451,7 +464,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -482,11 +496,14 @@
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
 
@@ -508,11 +525,14 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
 </body>

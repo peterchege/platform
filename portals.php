@@ -49,7 +49,7 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
+                for both our clients and their loved ones. Built on commitment, integrity and innovation, we have risen
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
         </div>
@@ -69,12 +69,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>CLIENT PORTAL</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=4075068781031176&_afrWindowMode=0&_adf.ctrl-state=er99dn14v_4" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=4075068781031176&_afrWindowMode=0&_adf.ctrl-state=er99dn14v_4"
+                                class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -87,12 +85,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>MARINE SINGLE TRANSIT</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
+                                class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -105,12 +101,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>TRAVEL PORTAL</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
+                                class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -126,12 +120,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>MARINE OPEN COVER</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/auth" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth" class="btn btn-primary">OPEN
+                                PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -144,12 +136,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>MOTOR PORTAL</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
+                                class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -162,12 +152,10 @@
                         </div>
                         <div class="content-portal text-center">
                             <h3>INTERMIDIARY PORTAL</h3>
-                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                sit inventore
-                                eius quo
-                                quidem fuga labore blanditiis soluta iste quidem fuga labore blanditiis soluta iste
+                            <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT"
+                                class="btn btn-primary">OPEN PORTAL</a>
                             </p>
                         </div>
                     </div>
@@ -189,7 +177,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
