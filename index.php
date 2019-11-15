@@ -100,7 +100,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="callback.php">
                     <button class="btn btn-primary">
-                       Request a Callback
+                        Request a Callback
                     </button>
                 </a>
             </div>
@@ -108,7 +108,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="contact_us.php">
                     <button class="btn btn-primary">
-                       Contact Us
+                        Contact Us
                     </button>
                 </a>
             </div>
@@ -199,8 +199,9 @@ require_once 'inc/functions.php';
                             <h2>Home Insurance <br> (Domestic Package) </h2>
                         </div>
                         <br>
-                        <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
-                            contents whilst in the house and...
+                        <p class="text-justify">The policy provides cover to homeowners against
+                            accidental loss or damage to their property caused by the following
+                            perils: Fire & lightning...
                             <!-- button click -->
                             <div class="row prod-btn">
                                 <div class="col-6">
@@ -230,9 +231,8 @@ require_once 'inc/functions.php';
                             <h2>Travel Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
-                            Globetrotter
-                            policy will ensure you will have nothing to worry about...
+                        <p class="text-justify">raveling around the globe and exploring the wonders of the world has
+                            become easier. Whether on business or pleasure you require some ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -256,8 +256,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">This insurance covers the insured against loss if the motor vehicle
-                            insured is involved in an accident, burnt, stolen...
+                        <p class="text-justify">APA Motorcycle insurance covers you and your motorcycle against
+                            loss, theft, physical damage, bodily damage and liabilities that ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -282,8 +282,9 @@ require_once 'inc/functions.php';
                             <h2> Livestock Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Your livestock is your source of income and guaranteeing
-                            their safety should bring you ultimate happiness...
+                        <p class="text-justify">Your livestock is your source of income and guaranteeing their safety
+                            should bring you ultimate happiness...
+                            <br><br>
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

@@ -361,8 +361,6 @@
                                     <select id="type" name="type" class="form-control" required>
                                         <option value="-1" selected disabled>Choose...</option>
                                         <option value="Single Animal Cover">Single Animal Cover</option>
-                                        <option value="Poultry insurance">Poultry insurance</option>
-                                        <!-- <option value="Dogs and Pet Insurance">Dogs and Pet Insurance</option> -->
                                         <option value="Bloodstock/Horse Insurance">Bloodstock/Horse Insurance</option>
                                     </select>
                                 </div>
