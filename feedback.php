@@ -72,11 +72,11 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="form-group col-md-4">
+                                        <div class="form-group col-md-6">
                                             <label for="email">Email Address</label>
                                             <input name="email" type="email" class="form-control" id="email" placeholder="" required>
                                         </div>
-                                        <div class="form-group col-md-4">
+                                        <div class="form-group col-md-6">
                                             <label for="branch">Branch </label>
                                             <input name="branch" type="text" class="form-control" id="branch" placeholder="" required>
                                         </div>
