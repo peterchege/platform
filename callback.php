@@ -87,13 +87,13 @@ require_once 'inc/sessions.php';
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="date">Date</label>
-                                    <input name="date" type="date" class="form-control" id="date" aria-describedby="" placeholder="e.g john@gmail.com" required>
+                                    <input name="date" type="date" class="form-control" id="date" aria-describedby="" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="phone">Time</label>
-                                    <input name="time" type="time" class="form-control" id="time" placeholder="0712 xxx xxx" required>
+                                    <input name="time" type="time" class="form-control" id="time" required>
                                 </div>
                             </div>
                         </div>
