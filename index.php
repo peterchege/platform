@@ -84,7 +84,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="claim.php">
                     <button class="btn btn-primary">
-                        MAKE A CLAIM
+                        Make a Claim
                     </button>
                 </a>
             </div>
@@ -92,7 +92,15 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="portals.php">
                     <button class="btn btn-primary">
-                        ONLINE SERVICES
+                        Online Services
+                    </button>
+                </a>
+            </div>
+
+            <div class="col-12">
+                <a href="callback.php">
+                    <button class="btn btn-primary">
+                       Request a Callback
                     </button>
                 </a>
             </div>
@@ -100,7 +108,7 @@ require_once 'inc/functions.php';
             <div class="col-12">
                 <a href="contact_us.php">
                     <button class="btn btn-primary">
-                        CONTACT US
+                       Contact Us
                     </button>
                 </a>
             </div>

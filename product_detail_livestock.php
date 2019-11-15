@@ -92,33 +92,9 @@
                                         </p2>
                                         <!-- END Single Animal Cover -->
                                         <hr>
-                                        <!-- Poultry insurance -->
-                                        <p>2.) Poultry insurance</p>
-                                        <p2>This is a mortality cover for domesticated bird birds kept under a
-                                            controlled environment.
-
-                                        </p2>
-                                        <br><br>
-                                        <p2><b><i>Features:</i></b><br>
-                                            The cover is given to Broilers of 0 days to 8 weeks and Layers of 0 days to
-                                            1½ years. This cover Indemnifies on the insured’s
-                                            bird’s death due to; uncontrollable diseases and Accidents. The cover can be
-                                            extended to cover Transit Risk as well as Theft.
-                                            Threshold for the cover is a Minimum premium of 5,000 Kenya shillings. The
-                                            policy covers the maximum capacity of birds that a
-                                            farmer’s structure can hold.
-
-                                        </p2>
-                                        <br><br>
-                                        <p2><b><i>Benefits:</i></b><br>
-                                            Easy claim process, assured stability, loan collateral, affordable, improved
-                                            financial management and peace in knowing
-                                            there is a safety net for unexpected loss and associated costs
-                                        </p2>
-                                        <!-- END OF Poultry insurance -->
-                                        <hr>
+                                       
                                         <!-- Bloodstock/Horse Insurance -->
-                                        <p>4.) Bloodstock/Horse Insurance</p>
+                                        <p>2.) Bloodstock/Horse Insurance</p>
                                         <p2>Our bloodstock product covers mortality of the insured racing or polo horse
                                             as a result of accidents and medical expenses
                                             as a result of accidental injuries.
@@ -177,8 +153,6 @@
 
                                         <ol>
                                             <li>Single Animal Cover </li>
-                                            <li>Poultry insurance</li>
-                                            <li>Dogs and Pet Insurance </li>
                                             <li>Bloodstock/Horse Insurance </li>
                                         </ol>
                                         <hr>
