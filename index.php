@@ -190,30 +190,31 @@ require_once 'inc/functions.php';
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="box-container-img prod-4 box-reshape">
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-3 box-reshape">
                             <div class="overlay">
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2>Home Insurance <br> (Domestic Package) </h2>
+                            <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
                         </div>
                         <br>
-                        <p class="text-justify">The policy provides cover to homeowners against
-                            accidental loss or damage to their property caused by the following
-                            perils: Fire & lightning...
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6">
-                                    <a href="#modal-full6" class="btn btn-primary" uk-toggle>Get Cover</a>
-                                </div>
+                        <p class="text-justify">We work hard now to ensure the futures of our
+                            little ones remain bright. A great education is th best foundation
+                            for a good life, ensure that your child gets...
 
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_domestic.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_elimu" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_elimu.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
                     </div>
 
                     <!-- </div> -->
@@ -899,7 +900,7 @@ require_once 'inc/functions.php';
         </div>
     </div>
 
-
+    <?php include 'views/get_cover.php'; ?>
 
 
     <!-- loading scripts -->
