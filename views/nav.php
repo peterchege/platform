@@ -69,7 +69,7 @@
                     <li class="list-down">
                         <a href="products.php#life">LIFE ASSURANCE</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 uk-visible@m" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -85,13 +85,22 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-
                                         <li><a href="product_detail_life_pumzisha.php"><i class="fas fa-file-invoice-dollar"></i> Funeral Expenses Cover
                                                 (Pumzisha)</a></li>
                                         <li><a href="product_detail_life_term_assuarance.php"><i class="fas fa-heartbeat"></i> Life Cover (Term Assurance)</a></li>
                                         <li><a href="product_detail_life_individual_pension_plan.php"><i class="fas fa-user-shield"></i> Individual Pension Plan (IPP)</a>
                                         </li>
                                         <li><a href="product_detail_life_morgage_protection.php"><i class="fas fa-home"></i> Mortgage Protection</a></li>
+
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li><a href="product_commercial_credit.php"><i class="fas fa-users"></i> Group Credit Life</a></li>
+                                        <li><a href="product_commercial_life.php"><i class="fas fa-hand-holding-heart"></i> Group Life</a></li>
+                                        <li><a href="product_commercial_group_deposit.php"><i class="fas fa-file-invoice-dollar"></i> Group Deposit Insurance</a>
+                                        </li>
+                                        <li><a href="product_commercial_group_last_expense.php"><i class="fas fa-table"></i> Group Last Expense</a></li>
                                     </ul>
                                 </div>
 
