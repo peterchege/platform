@@ -65,6 +65,9 @@ $(document).ready(function () {
         var form = $(this);
         var form_data = new FormData(this);
         var buttonClicked = $(this).find('button[name=request]');
+        for (instance in CKEDITOR.instances) {
+            CKEDITOR.instances[instance].updateElement();
+        }
         e.preventDefault();
         $.ajax({
             type: "POST",
@@ -98,7 +101,6 @@ $(document).ready(function () {
                         }
                     }
                     CKupdate();
-
                 } else if (response.status == 0) {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >ERROR</h3>',
