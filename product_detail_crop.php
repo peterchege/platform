@@ -194,7 +194,7 @@
                                         <!-- END OF Bloodstock/Horse Insurance -->
                                         <hr>
                                         <!-- Bloodstock/Horse Insurance -->
-                                        <p>6.)Weather Index Insurance (WII) </p>
+                                        <p>6.) Weather Index Insurance (WII) </p>
                                         <p2>A seasonal cover for loss or damage to growing crops directly caused by
                                             deficit or excesses
                                             in weather conditions such as temperature, sunlight, wind speed or rainfall.
