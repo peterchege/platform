@@ -217,7 +217,7 @@ switch ($_GET['request']) {
             'message' => 'Form submission failed, please try again.'
         );
 
-        if (!isset($_POST['full_name']) || empty($_POST['full_name'] ||
+        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location']) ||
@@ -225,7 +225,7 @@ switch ($_GET['request']) {
             !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
             !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type']))) {
+            !isset($_POST['motor_claim_type'])) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -783,7 +783,7 @@ switch ($_GET['request']) {
             'message' => 'Form submission failed, please try again.'
         );
 
-        if (!isset($_POST['full_name']) || empty($_POST['full_name'] ||
+        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location']) ||
@@ -791,7 +791,7 @@ switch ($_GET['request']) {
             !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
             !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type']))) {
+            !isset($_POST['motor_claim_type'])) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -1604,7 +1604,7 @@ switch ($_GET['request']) {
             'status' => 0,
             'message' => 'Form submission failed, please try again.'
         );
-        if (!isset($_POST['full_name']) || empty($_POST['full_name'] ||
+        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location']) ||
@@ -1612,7 +1612,7 @@ switch ($_GET['request']) {
             !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
             !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type']))) {
+            !isset($_POST['motor_claim_type'])) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');

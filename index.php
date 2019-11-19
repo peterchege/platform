@@ -383,7 +383,7 @@ require_once 'inc/functions.php';
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
-   
+
     <?php include 'views/get_cover.php'; ?>
 
 
