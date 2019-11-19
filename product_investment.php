@@ -17,8 +17,7 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
 
@@ -213,9 +212,9 @@ require_once 'inc/functions.php';
                         </div>
                         <br>
                         <p class="text-justify">This fund aims to generate long-term capital growth through
-                            investment in quoted equities and by investing in a diversified range of e stocks across
-                            several sectors....
+                            investment in quoted equities and by investing in a diversified range of e stocks....
                         </p>
+                        <br>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
@@ -239,18 +238,21 @@ require_once 'inc/functions.php';
                         <br>
                         <p class="text-justify">This is short to a medium-term investment product that aims to give a
                             reasonable rate of interest while preserving capital and offering liquidity...
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
+                        </p>
+                        <br>
 
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -374,9 +376,7 @@ require_once 'inc/functions.php';
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
         <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
             <button class="uk-modal-close-outside" type="button" uk-close></button>
-            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <iframe width="949" height="534" src="https://www.youtube.com/embed/ltFgk8tsqws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 

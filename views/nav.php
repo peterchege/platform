@@ -156,7 +156,6 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_commercial_health.php"><i class="fas fa-first-aid"></i>
                                                 Health Corporate</a>
-                                        <li><a href="product_commercial.php#group_life"><i class="fas fa-hand-holding-heart"></i> Commercial Life</a>
                                         <li><a href="product_detail_crop.php"><i class="fas fa-cookie"></i> Crop
                                                 Cover</a>
                                         <li><a href="product_detail_livestock.php"><i class="fas fa-hippo"></i>

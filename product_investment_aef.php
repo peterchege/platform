@@ -83,18 +83,18 @@
                                         <br><br><br><br>
 
                                         <div class="row">
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center" data-target="#modal-full" uk-toggle>
                                                     <a href="#" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
-                                                <div class="load-more text-center " data-target="#modal-full" uk-toggle>
+                                            <div class="col-md-4">
+                                                <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
                                                 </div>
                                             </div>
@@ -161,18 +161,18 @@
                                     such as the claim form, proposal form etc.
                                 </p><br> <br>
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full" uk-toggle>
                                             <a href="#" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center ">
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center" data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
+                                    <div class="col-md-4">
+                                        <div class="load-more text-center" data-target="#modal-full_r" uk-toggle>
                                             <a href="#" class="btn btn-dark">I Need Assistance</a>
                                         </div>
                                     </div>
@@ -241,14 +241,6 @@
             </div>
         </div>
     </div>
-    </div>
-
-    <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
-    <!-- #footer -->
-
-
-    <!-- ===================================== DOWNLOAD FORM FOR COMPREHENSIVE ===================================== -->
 
     <!-- ===================================== MODALS FOR DOWNLOADS ===================================== -->
     <!-- This is the modal with the outside close button -->
@@ -261,108 +253,83 @@
                 <!-- Claim Form -->
                 <div class="col-md-3 box-download">
                     <a href="">
-                        <h2> <i class="fas fa-file-pdf"></i>
-                            <Bronchure/h2> <hr>
-                                <p>Download Brochure</p>
-                                <hr>
-                                <a href="pdf/brochure/Apollo Unit Trust Funds Brochure  - Final.pdf">
-                                    <p class=" download">Dowload <i class="fas fa-download"></i>
-                                    </p>
-                                </a>
+                        <h2> <i class="fas fa-file-pdf"></i> Bronchure </h2>
+                        <hr>
+                        <p>Download Brochure</p>
+                        <hr>
+                        <a href="pdf/brochure/Apollo Unit Trust Funds Brochure  - Final.pdf">
+                            <p class=" download">Dowload <i class="fas fa-download"></i>
+                            </p>
+                        </a>
                 </div>
-            </div> <br>
+            </div>
+            <br>
 
         </div>
     </div>
 
-    <!-- ===================================== LEAD FORM FOR COMPREHENSIVE ===================================== -->
+    <!-- ===================================== REQUEST ASSISTANCE FOR COMPREHENSIVE ===================================== -->
 
-    <div id="modal-full" class="uk-modal-full" uk-modal>
+    <div id="modal-full_r" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('images/motor.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/call_center.jpg'); background-size: cover;" uk-height-viewport>
+                </div>
                 <div class="uk-padding-large">
 
 
-                    <!-- <form class="form-container">
+                    <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Full Name</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Full Name" value="">
+                                <div class="form-group col-md-12">
+                                    <label for="full_name">Full Name</label>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="inputAddress2" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="inputAddress" placeholder="Email" value="">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="">
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">VEHICLE DETAILS</h3>
-                        </div>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Make</label>
-                                    <input name="company_name" type="text" class="form-control" id="inputAddress" placeholder="Toyota" value="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress2">Vehicle Model</label>
-                                    <input name="text" type="text" class="form-control" id="inputAddress2" placeholder="Crown" value="">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputAddress">Vehicle Value (Kshs)</label>
-                                    <input name="number" type="Vehicle_value" class="form-control" id="inputAddress" placeholder="1,400,000" value="">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="inputAddress2">Year of Manufacture</label>
-                                    <input name="capacity" type="number" class="form-control" id="inputAddress2" placeholder="2019" value="">
+                                <div class="form-group col-md-12">
+                                    <label for="phone">Mobile Number</label>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="07xx 245 xxx" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="inputAddress">More Information</label>
-                                    <textarea name="more_information" class="form-control"></textarea>
+                                    <label for="email">Email Address</label>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="john@example.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                </div>
+                                <div class=" form-group col-md-12">
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                                 </div>
                             </div>
 
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="45">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="type" name="type" value="request assistance">
+                            </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button class="btn btn-primary">REQUEST ASSISTANCE</button>
+                                    <button type="submit" name="request" class="btn btn-primary"> REQUEST ASSISTANCE <i class="fas fa-paper-plane"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-                    </form> -->
+                    </form>
 
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
     <?php
     require_once 'inc/scripts.php';
