@@ -78,8 +78,8 @@
 
 /* LEADERSHIP */
 
-.lead-img{
-    margin: 5% auto 8% auto;
+.leader-img {
+    margin: 5% auto 5% auto;
 }
 .leader-img .img{
     border-radius: 10px;
@@ -93,7 +93,7 @@
 .leader-img P{
     text-align: left;
     padding: 7px 20px;
-    height: 85px;
+    /* height: 85px; */
 }
 
 .title-name{
@@ -124,6 +124,20 @@
     margin-left: 6%;
 }
 
+@media (max-width: 575.98px) {
+   .leader-img {
+       margin: 10% auto;
+   }
+   .title-name {
+       margin-top: -30%;
+       padding-left: 20%;
+   }
+   .leader-img P {
+       text-align: left;
+       padding: 7% 15%;
+   }
+
+}
 
 /* SUB MENU */
 

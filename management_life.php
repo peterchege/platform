@@ -107,7 +107,10 @@
                         <p>
                             Catherine holds a Bachelor of Education – Science, from the Kenyatta University...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
+                        <div class="col-12">
+                            <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
+                        </div>
+
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -133,7 +136,10 @@
                         <p>
                             Harriet Aleke is the Individual Life Operations Team Leader at APA Life Assurance...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
+                        <div class="col-12">
+                            <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
+                        </div>
+
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -146,7 +152,10 @@
                         <p>
                             Bernard Kinyanjui serves as the Head of Corporate Business and has 17 years...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
+                        <div class="col-12">
+                            <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -176,7 +185,10 @@
                         <p>
                             James Njagi is the Business Development Manager and has 7 years of...
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
+                        <div class="col-12">
+                            <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
+                        </div>
+
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -189,7 +201,10 @@
                         <p>
                             Mark Mumo is the Group Life Business Development Manager and has 7 years..
                         </p>
-                        <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
+                        <div class="col-12">
+                            <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
+                        </div>
+
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
@@ -271,7 +286,7 @@
                     <p class="text-justify">
                         Catherine holds a Bachelor of Education – Science, from the Kenyatta University, and a CII Diploma.
                         She also has Actuarial Studies background and currently pursuing Senior Management Leadership
-                        Programme at Strathmore Business School. She has 18 years’ experience in the Kenyan Insurance industry.
+                        Programme at Strathmore Business School. She has 20 year's experience in the Kenyan Insurance industry.
                     </p>
                 </div>
             </div>
