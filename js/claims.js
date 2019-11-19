@@ -9,6 +9,7 @@ $(document).ready(function () {
             data: new FormData(this),
             dataType: 'JSON',
             processData: false,
+            cache: false,
             contentType: false,
             beforeSend: function () {
                 $('.btn').attr("disabled", true).html('Processing');
@@ -57,6 +58,7 @@ $(document).ready(function () {
             data: new FormData(this),
             dataType: 'JSON',
             processData: false,
+            cache: false,
             contentType: false,
             beforeSend: function () {
                 $('.btn').attr("disabled", true).html('Processing');
@@ -105,6 +107,7 @@ $(document).ready(function () {
             data: new FormData(this),
             dataType: 'JSON',
             processData: false,
+            cache: false,
             contentType: false,
             beforeSend: function () {
                 $('.btn').attr("disabled", true).html('Processing');
