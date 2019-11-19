@@ -338,6 +338,14 @@
     background-position: top;
 }
 
+.header-image12 {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* PRODUCTS DETAILS BACKGROUND IMAGES */
 
 .header-image1 {
