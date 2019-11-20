@@ -72,8 +72,7 @@
                         </div>
                         <br>
                         <p class="text-justify">APA Aviation insurance will provide coverage for hull losses or damage,
-                            liability for passenger injuries and third-party damage caused by aircraft
-                            accidents...
+                            liability for passenger injuries and third-party damage caused by...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -263,8 +262,8 @@
                             <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">This insurance covers the insured against loss if the motor vehicle
-                            insured is involved in an accident, burnt, stolen...
+                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance covers damages to your 
+                            motor vehicle following an accident, fire, ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

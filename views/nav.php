@@ -125,12 +125,13 @@
                                                 Engineering</a></li>
                                         <li><a href="product_commercial_fire.php"><i class="fas fa-fire"></i> Fire &
                                                 Perils </a></li>
-                                        <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-
+                                        
+                                    <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                         <li><a href="product_commercial_liability.php"><i class="fas fa-house-damage"></i> Liability </a></li>
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
@@ -143,8 +144,8 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i>
-                                                Plate Glass </a></li>
+                                        <!-- <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i>
+                                                Plate Glass </a></li> -->
                                         <li><a href="product_commercial_special_package.php"><i class="fas fa-dolly-flatbed"></i></i> Specially Pre-Packaged Covers </a>
                                         </li>
                                         <li><a href="product_commercial_theft.php"><i class="fas fa-user-secret"></i>
