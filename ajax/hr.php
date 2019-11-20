@@ -5,10 +5,10 @@ require_once '../inc/functions.php';
 switch ($_GET['request']) {
     case 'internship_application':
         sleep(1);
-        $first_name = $_POST['first_name'];
-        $last_name = $_POST['last_name'];
-        $email = $_POST['email'];
-        $phone = $_POST['phone'];
+        $first_name = sanitize($_POST['first_name']);
+        $last_name = sanitize($_POST['last_name']);
+        $email = sanitize($_POST['email']);
+        $phone = sanitize($_POST['phone']);
         if (empty($first_name || $last_name || $email || $phone)) {
             $errors[] = 'All fields required';
             echo 'All fields required';

@@ -1,3 +1,19 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : localhost
+ Source Server Type    : MariaDB
+ Source Server Version : 100139
+ Source Host           : localhost:3306
+ Source Schema         : apa
+
+ Target Server Type    : MariaDB
+ Target Server Version : 100139
+ File Encoding         : 65001
+
+ Date: 19/11/2019 17:52:15
+*/
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -499,7 +515,7 @@ CREATE TABLE `claims_reports`  (
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `claim product id`(`product_id`) USING BTREE,
   CONSTRAINT `claim product id` FOREIGN KEY (`product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 115 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 116 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of claims_reports
@@ -587,6 +603,7 @@ INSERT INTO `claims_reports` VALUES (111, 'John Doe', '0712345678', 'johndoe@gma
 INSERT INTO `claims_reports` VALUES (112, 'Jane Doe', '712365478', 'janedoe@gmail.com', 'Machakos', '', 'you', 43, 14, 'livestock', '2019-10-30 16:56:23.000000');
 INSERT INTO `claims_reports` VALUES (113, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Nairobi', 'KBC 123J', 'ty', 6, 14, 'windscreen', '2019-10-30 17:29:22.000000');
 INSERT INTO `claims_reports` VALUES (114, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Machakos', '', 'hit and run', 6, 14, 'personal accident', '2019-10-30 19:20:06.000000');
+INSERT INTO `claims_reports` VALUES (115, 'John Doe', '0712345678', 'johndoe@gmail.com', 'Machakos', 'KBC 123J', 'Hit and run', 6, 14, 'accident', '2019-11-19 17:45:34.000000');
 
 -- ----------------------------
 -- Table structure for feedback
@@ -602,7 +619,7 @@ CREATE TABLE `feedback`  (
   `feedback` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL,
   `created_at` datetime(6) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 20 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 23 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of feedback
@@ -626,6 +643,9 @@ INSERT INTO `feedback` VALUES (16, 'Jane Doe', '0712365478', 345678, 'Machakos',
 INSERT INTO `feedback` VALUES (17, 'name', '0712345678', 6588564, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:18:35.000000');
 INSERT INTO `feedback` VALUES (18, 'name', '0712345678', 6588564, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 12:19:45.000000');
 INSERT INTO `feedback` VALUES (19, 'Jane Doe', '0712365478', 0, 'Machakos', 'janedoe@gmail.com', '&lt;p&gt;Make it look like this please&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/apainsurance/documents/feedback/406707486.jpg&quot; style=&quot;height:246px; width:400px&quot; /&gt;&lt;/p&gt;', '2019-11-12 14:10:40.000000');
+INSERT INTO `feedback` VALUES (20, 'John Doe', '0712345678', 1234, 'Nanyuki', 'johndoe@gmail.com', '&lt;p&gt;NIce&lt;/p&gt;', '2019-11-19 10:01:01.000000');
+INSERT INTO `feedback` VALUES (21, 'John Doe', '0712345678', 1234, 'Nanyuki', 'johndoe@gmail.com', '&lt;p&gt;fghkl;&lt;/p&gt;', '2019-11-19 10:08:06.000000');
+INSERT INTO `feedback` VALUES (22, 'John Doe', '0712345678', 1234, 'Nanyuki', 'johndoe@gmail.com', '&lt;p&gt;tyuio&lt;/p&gt;', '2019-11-19 10:08:58.000000');
 
 -- ----------------------------
 -- Table structure for hr_jobs_users
@@ -1212,7 +1232,7 @@ CREATE TABLE `products_leads`  (
   INDEX `leads_product_category_id`(`leads_product_category_id`) USING BTREE,
   CONSTRAINT `products_leads_ibfk_1` FOREIGN KEY (`leads_product_id`) REFERENCES `products` (`product_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   CONSTRAINT `products_leads_ibfk_2` FOREIGN KEY (`leads_product_category_id`) REFERENCES `products_categories` (`category_id`) ON DELETE RESTRICT ON UPDATE RESTRICT
-) ENGINE = InnoDB AUTO_INCREMENT = 232 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
+) ENGINE = InnoDB AUTO_INCREMENT = 233 CHARACTER SET = utf8 COLLATE = utf8_unicode_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
 -- Records of products_leads
@@ -1221,6 +1241,7 @@ INSERT INTO `products_leads` VALUES (228, 50, 14, 'John Doe', 'johndoe@gmail.com
 INSERT INTO `products_leads` VALUES (229, 50, 14, 'Jane Doe', 'janedoe@gmail.com', '0712365478', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-12', '08:08:00', '2019-11-12 16:22:55.000000');
 INSERT INTO `products_leads` VALUES (230, 50, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-12', '22:00:00', '2019-11-12 16:23:14.000000');
 INSERT INTO `products_leads` VALUES (231, 35, 14, 'John Doe', 'johndoe@gmail.com', '0712345678', 'Machakos', '', '', '0', '', '', '', '', '', '', 0, 0, 0, '', 0, 0.00, '', 0, '', 'Seremala Inc', '1979-01-01', '01:01:01', '2019-11-12 16:23:53.000000');
+INSERT INTO `products_leads` VALUES (232, 50, 14, 'Jane Doe', 'janedoe@gmail.com', '0782345678', '', '', '', '0', '', '', '', '', '', 'callback', 0, 0, 0, '', 0, 0.00, '', 0, '', '0', '2019-11-15', '11:11:00', '2019-11-15 16:50:34.000000');
 
 -- ----------------------------
 -- Table structure for ref_jobs
