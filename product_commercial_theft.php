@@ -62,6 +62,19 @@
                                     This insurance covers assets such as buildings, plant and machinery, stock, office
                                     equipment, furniture, fixtures and fittings
                                 </P>
+                                <hr>
+
+                                <div class="job-content">
+                                    <div class="text-justify">
+                                        <h2>Our Main products include:</h2>
+                                        <p>1. Theft</p>
+                                        <p>2. Burglary</p>
+                                        <p>3. Fidelity Guarantee</p>
+                                        <p>4. All risk</p>
+                                        <p>5. Asset all risk</p>
+
+                                    </div>
+                                </div>
 
                                 <br><br><br>
                                 <div class="row">

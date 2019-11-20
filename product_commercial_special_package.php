@@ -67,14 +67,14 @@
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>1. Our main products include:</h2>
-                                        <p> 2. WIBA Compliant Group Life</p>
-                                        <p> 3. School Combined</p>
-                                        <p> 4. Tour Operators Combined</p>
-                                        <p> 5. Bankers Blanket</p>
-                                        <p> 6. Stock Floater (F,T,GIT)</p>
+                                        <h2> Our main products include:</h2>
+                                        <p> 1. WIBA Compliant Group Life</p>
+                                        <p> 2. School Combined</p>
+                                        <p> 3. Tour Operators Combined</p>
+                                        <p> 4. Bankers Blanket</p>
+                                        <p> 5. Stock Floater (F,T,GIT)</p>
                                         <hr>
-                                        <p> 7. Office And Business Combined</p>
+                                        <p> 6. Office And Business Combined</p>
                                         <p2>This is a combined peril policy that provides comprehensive insurance cover
                                             against risks faced by entrepreneurs.
                                         </p2>

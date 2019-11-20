@@ -62,7 +62,7 @@
 
                 <!-- NEW ROW 1 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-7">
                             <div class="overlay">
                             </div>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-11">
                             <div class="overlay">
                             </div>
@@ -113,7 +113,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-13">
                             <div class="overlay">
                             </div>
@@ -138,12 +138,10 @@
 
                         </div>
                     </div>
-                </div>
 
 
-                <!-- NEW ROW 2 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
+                    <!-- NEW ROW 2 OF PRODUCTS -->
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-10">
                             <div class="overlay">
                             </div>
@@ -168,7 +166,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-14">
                             <div class="overlay">
                             </div>
@@ -195,7 +193,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-5">
                             <div class="overlay">
                             </div>
@@ -221,13 +219,10 @@
 
                         </div>
                     </div>
-                </div>
 
-                <!-- NEW ROW 3 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- NEW ROW 3 OF PRODUCTS -->
 
-
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-8">
                             <div class="overlay">
                             </div>
@@ -253,7 +248,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-2">
                             <div class="overlay">
                             </div>
@@ -262,7 +257,7 @@
                             <h2 class="text-center">Motor Commercial Cover </h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance covers damages to your 
+                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance covers damages to your
                             motor vehicle following an accident, fire, ...
                         </p>
                         <!-- button click -->
@@ -280,7 +275,7 @@
                     </div>
 
                     <!-- WIBA -->
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-9">
                             <div class="overlay">
                             </div>
@@ -330,10 +325,8 @@
 
                         </div>
                     </div> -->
-                </div>
 
-                <!-- NEW ROW 4 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- NEW ROW 4 OF PRODUCTS -->
                     <!-- replace with motor trade -->
                     <!-- <div class="col-md-4 prod">
                         <div class="box-container-img com-2">
@@ -385,7 +378,7 @@
                         </div>
                     </div> -->
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-12">
                             <div class="overlay">
                             </div>
@@ -412,7 +405,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-6">
                             <div class="overlay">
                             </div>
@@ -468,7 +461,7 @@
                 <!-- NEW ROW 5.1 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-1">
                             <div class="overlay">
                             </div>
@@ -494,7 +487,7 @@
                         </div>
                     </div>
 
-                    <div class="offset-8">
+                    <div class="offset-md-8">
                     </div>
 
                 </div>
@@ -514,7 +507,7 @@
                 <!-- NEW ROW 1 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-17">
                             <div class="overlay">
                             </div>
@@ -539,7 +532,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img prod-6">
                             <div class="overlay">
                             </div>
@@ -584,7 +577,7 @@
 
                 <!-- NEW ROW 6 OF PRODUCTS -->
                 <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-4">
                             <div class="overlay">
                             </div>
@@ -609,7 +602,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-3">
                             <div class="overlay">
                             </div>
@@ -635,7 +628,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-18">
                             <div class="overlay">
                             </div>
@@ -660,14 +653,8 @@
                         </div>
                     </div>
 
-
-                </div>
-
-                <!-- NEW ROW 7 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-
-
-                    <div class="col-md-4 prod">
+                    <!-- NEW ROW 7 OF PRODUCTS -->
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-19">
                             <div class="overlay">
                             </div>
@@ -693,7 +680,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod">
+                    <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-20">
                             <div class="overlay">
                             </div>
