@@ -127,7 +127,7 @@
                             <div class="job-description text-center">
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2 class="text-center">Main Features include:</h2><br>
+                                        <h2 class="text-center">Main Features for Office And Business Combined include:</h2><br>
                                         <p> Fire and Peril</p>
                                         <p2>The section covers the risks of fire, lightning, and explosion. The policy
                                             is
