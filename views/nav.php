@@ -27,21 +27,22 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private
                                                 Motor</a></li>
-                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
-                                                Cycle</a></li>
+                                        <!-- <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
+                                                Cycle</a></li> -->
                                         <li><a href="product_detail_pedal_cycle.php"><i class="fas fa-bicycle"></i>
                                                 Pedal Cycle</a></li>
                                         <li><a href="product_detail_travel.php"><i class="fas fa-plane-departure"></i>
                                                 Travel Insurance</a></li>
+                                        <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
+                                                (Domestic Package)</a></li>
 
                                     </ul>
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">PERSONAL COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
-                                        <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
-                                                (Domestic Package)</a></li>
+
+                                        <!-- <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
+                                                (Domestic Package)</a></li> -->
                                         <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
                                         <li><a href="product_detail_personal_accident.php"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
                                         <li><a href="product_detail_golfers.php"><i class="fas fa-golf-ball"></i>

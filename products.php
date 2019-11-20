@@ -178,6 +178,31 @@
                     </div>
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-14">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2> Enhanced Personal Accident <br> (Flexpac) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">We also provide a student’s personal accident
+                            cover to individuals, schools and organized groups on reasonable...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_flex" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_flexpax.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-9">
                             <div class="overlay">
                             </div>
@@ -202,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-10 box-reshape">
                             <div class="overlay">
                             </div>
@@ -215,7 +240,6 @@
                             theft, physical damage, bodily damage...
                         </p>
                         <br>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href="#modal-full_motor_cycle" uk-toggle class="btn btn-primary">Get Cover</a>
@@ -226,13 +250,13 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- NEW ROW OF PRODUCTS -->
                 <div class="row row-product1 text-center">
 
-                    <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-14">
                             <div class="overlay">
                             </div>
@@ -244,7 +268,6 @@
                         <p class="text-justify">We also provide a student’s personal accident
                             cover to individuals, schools and organized groups on reasonable...
                         </p>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href="#modal-full_flex" uk-toggle class="btn btn-primary">Get Cover</a>
@@ -255,7 +278,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-11 box-reshape">
@@ -305,6 +328,10 @@
                             </div>
 
                         </div>
+                    </div>
+
+                    <div class="offset-4">
+                        
                     </div>
 
                 </div>
