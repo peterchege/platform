@@ -135,9 +135,9 @@
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
                                         <li><a href="product_detail_motor_commercial.php"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
-                                        <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
-                                                Cycle (PSV) </a></li>
-                                        <li><a href="product_commercial_motor_trade.php"><i class="fas fa-globe-africa"></i> Motor Trade </a></li>
+                                        <!-- <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
+                                                Cycle (PSV) </a></li> -->
+                                        <!-- <li><a href="product_commercial_motor_trade.php"><i class="fas fa-globe-africa"></i> Motor Trade </a></li> -->
                                     </ul>
                                 </div>
                                 <div>

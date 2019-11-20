@@ -279,8 +279,34 @@
 
                         </div>
                     </div>
-                    <!-- replace with cycle -->
+
+                    <!-- WIBA -->
                     <div class="col-md-4 prod">
+                        <div class="box-container-img com-9">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Workman's Compensation</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy covers the employees of the Insured whilst on duty and
+                            engaged in the execution of the Insured’s business &/or any project...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_wiba" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- replace with cycle -->
+                    <!-- <div class="col-md-4 prod">
                         <div class="box-container-img prod-10">
                             <div class="overlay">
                             </div>
@@ -292,8 +318,7 @@
                         <p class="text-justify">APA Motorcycle insurance covers the insured against
                             loss, if the motorcycle insured, is involved in an accident, burnt, stolen...
                         </p>
-                        <!-- button click -->
-                        <!-- button click -->
+                       
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href="#modal-full_motor_cycle" uk-toggle class="btn btn-primary">Get Cover</a>
@@ -305,7 +330,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- NEW ROW 4 OF PRODUCTS -->
@@ -336,7 +361,7 @@
                         </div>
                     </div> -->
 
-                    <div class="col-md-4 prod">
+                    <!-- <div class="col-md-4 prod">
                         <div class="box-container-img com-16">
                             <div class="overlay">
                             </div>
@@ -348,7 +373,6 @@
                         <p class="text-justify">The cover is designed for buildings with Plate glass windows, doors,
                             glass panels, and showcases...
                         </p>
-                        <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
                                 <a href="#modal-full_plate" uk-toggle class="btn btn-primary">Get Cover</a>
@@ -360,7 +384,7 @@
                             </div>
 
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-4 prod">
                         <div class="box-container-img com-12">
@@ -416,39 +440,7 @@
                         </div>
                     </div>
 
-                </div>
-
-                <!-- NEW ROW 5 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
-
-                    <div class="col-md-4 prod">
-                        <div class="box-container-img com-9">
-                            <div class="overlay">
-                            </div>
-                        </div>
-                        <div class="head-container">
-                            <h2 class="text-center"> Workman's Compensation</h2>
-                        </div>
-                        <br>
-                        <p class="text-justify">This policy covers the employees of the Insured whilst on duty and
-                            engaged in the execution of the Insured’s business &/or any project...
-                        </p>
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6 text-center">
-                                <a href="#modal-full_wiba" uk-toggle class="btn btn-primary">Get Cover</a>
-                            </div>
-
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_commercial_wiba.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="offset-8">
-
-                    </div>
+                    <div class="offset-4"></div>
 
                 </div>
 
@@ -503,7 +495,7 @@
                         </div>
                     </div>
 
-                    <div class="offset-8">                  
+                    <div class="offset-8">
                     </div>
 
                 </div>
@@ -573,7 +565,7 @@
                         </div>
                     </div>
 
-    
+
                 </div>
             </div>
         </div>
@@ -653,7 +645,7 @@
                             <h2 class="text-center"> Micro Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">APA’s Micro & Inclusive Insurance product offerings are innovative and affordable. 
+                        <p class="text-justify">APA’s Micro & Inclusive Insurance product offerings are innovative and affordable.
                             We position ourselves as Kenya’s innovative one stop...
                         </p>
                         <!-- button click -->
