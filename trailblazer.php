@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row text-left wow fadeInUp" data-wow-delay="0.15s">
 
-                <div class="col-md-4 card-fin">
+                <div class="col-md-6 col-lg-4 card-fin">
                     <div class="uk-card uk-card-default ">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 card-fin">
+                <div class="col-md-6 col-lg-4 card-fin">
                     <div class="uk-card uk-card-default ">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 card-fin">
+                <div class="col-md-6 col-lg-4 card-fin">
                     <div class="uk-card uk-card-default ">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -143,10 +143,10 @@
 
 
 
-            </div>
-            <div class="row text-left wow fadeInUp" data-wow-delay="0.3s">
+            <!-- </div>
+            <div class="row text-left wow fadeInUp" data-wow-delay="0.3s"> -->
 
-                <div class="col-md-4 card-fin">
+                <div class="col-md-6 col-lg-4 card-fin">
                     <div class="uk-card uk-card-default ">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 card-fin">
+                <div class="col-md-6 col-lg-4 card-fin">
                     <div class="uk-card uk-card-default ">
                         <div class="uk-card-header">
                             <div class="uk-grid-small uk-flex-middle" uk-grid>
