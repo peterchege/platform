@@ -252,7 +252,7 @@
 
                     <!-- NEW ROW OF PRODUCTS -->
 
-                        <!-- <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-14">
                             <div class="overlay">
                             </div>
@@ -276,438 +276,433 @@
                         </div>
                     </div> -->
 
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img prod-11 box-reshape">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2> Pedal Cycle Cover </h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">Our Bicycle Insurance Cover will protect you againist theft and
-                                accidental damage or breakdown of your pedal cycle plus public liability cover...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_pedal" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_pedal_cycle.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-11 box-reshape">
+                            <div class="overlay">
                             </div>
                         </div>
-
-                        <div class="col-md-4  prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img prod-13">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2>Pet Cover</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">Pet Insurance offers basic cover for loss/death of insured animals due
-                                to; accident, disease, epidemics or euthanasia on advice of...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_pet" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_pet.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
-                            </div>
+                        <div class="head-container">
+                            <h2> Pedal Cycle Cover </h2>
                         </div>
+                        <br>
+                        <p class="text-justify">Our Bicycle Insurance Cover will protect you againist theft and
+                            accidental damage or breakdown of your pedal cycle plus public liability cover...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_pedal" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
 
-                        <div class="offset-4">
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_pedal_cycle.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
 
                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4  prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-13">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2>Pet Cover</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Pet Insurance offers basic cover for loss/death of insured animals due
+                            to; accident, disease, epidemics or euthanasia on advice of...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_pet" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_pet.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="offset-4">
 
                     </div>
 
                 </div>
-                <br>
 
-                <!-- <div class="load-more text-center">
+            </div>
+            <br>
+
+            <!-- <div class="load-more text-center">
                 <a href="#" class="btn btn-primary">LOAD MORE</a>
             </div> -->
 
-            </div>
         </div>
+    </div>
 
 
-        <!-- ===================================== HEALTH COVER ===================================== -->
+    <!-- ===================================== HEALTH COVER ===================================== -->
 
-        <div class="container-fluid23">
-            <div class="product-new text-left">
+    <div class="container-fluid23">
+        <div class="product-new text-left">
 
-                <h1>HEALTH COVER</h1>
+            <h1>HEALTH COVER</h1>
 
-                <div class="container">
+            <div class="container">
 
-                    <!-- NEW ROW OF PRODUCTS -->
-                    <div class="row row-product1">
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img prod-7 box-reshape">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container text-center">
-                                <h2> Family Health Cover <br> (Jamii Plus)</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">Living a healthy stress-free life is every person's dream. A healthy
-                                family is a happy family. This is why we have medical insurance...
-
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_jamii" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
+                <!-- NEW ROW OF PRODUCTS -->
+                <div class="row row-product1">
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-7 box-reshape">
+                            <div class="overlay">
                             </div>
                         </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img prod-3">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container text-center">
-                                <h2> Family Health Cover <br>(Afya Nafuu) </h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">APA's Afya Nafuu pays for hospitalization expenses arising out of an
-                                illness or accident for you and your family. Why not see more for yourself here...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_afya" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_afyanafuu.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
-                            </div>
+                        <div class="head-container text-center">
+                            <h2> Family Health Cover <br> (Jamii Plus)</h2>
                         </div>
+                        <br>
+                        <p class="text-justify">Living a healthy stress-free life is every person's dream. A healthy
+                            family is a happy family. This is why we have medical insurance...
 
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img prod-8">
-                                <div class="overlay">
-                                </div>
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_jamii" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="head-container  text-center">
-                                <h2> Cancer Care <br>(Femina) </h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">There are two common threats to women’s lives today – Breast Cancer and
-                                Cervical Cancer. In most cases, these two are rarely diagnosed...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_femina" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
 
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_femina.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_jamii.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-3">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container text-center">
+                            <h2> Family Health Cover <br>(Afya Nafuu) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">APA's Afya Nafuu pays for hospitalization expenses arising out of an
+                            illness or accident for you and your family. Why not see more for yourself here...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_afya" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_afyanafuu.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img prod-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container  text-center">
+                            <h2> Cancer Care <br>(Femina) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">There are two common threats to women’s lives today – Breast Cancer and
+                            Cervical Cancer. In most cases, these two are rarely diagnosed...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_femina" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_femina.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Anchor to the Life cover from navbar -->
-        <div id="life" class="anchor"></div>
-        <!-- End of anchor -->
+    <!-- Anchor to the Life cover from navbar -->
+    <div id="life" class="anchor"></div>
+    <!-- End of anchor -->
 
 
-        <!-- =====================================LIFE ASSURANCE PRODUCTS ===================================== -->
+    <!-- =====================================LIFE ASSURANCE PRODUCTS ===================================== -->
 
-        <div class="container-fluid23">
-            <div class="product product-new text-left">
+    <div class="container-fluid23">
+        <div class="product product-new text-left">
 
-                <h1>LIFE COVER</h1>
+            <h1>LIFE COVER</h1>
 
-                <div class="container">
+            <div class="container">
 
-                    <div class="row row-product1">
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-2">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">What is a better start to realizing your dreams for the future than
-                                by having a lump sum payment at a predetermined date? Whether it’s...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_imarika" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6  prod-lf">
-                                    <a href="product_detail_life_imarika.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
+                <div class="row row-product1">
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-2">
+                            <div class="overlay">
                             </div>
                         </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-1">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a
-                                period of time and allows
-                                you to have access to his fund at specified times to enable you...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_akiba" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_akiba_halisi.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
-                            </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Fixed Saving plan <br> (Imarika)</h2>
                         </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-3 box-reshape">
-                                <div class="overlay">
-                                </div>
+                        <br>
+                        <p class="text-justify">What is a better start to realizing your dreams for the future than
+                            by having a lump sum payment at a predetermined date? Whether it’s...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_imarika" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="head-container">
-                                <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
+
+                            <div class="col-6  prod-lf">
+                                <a href="product_detail_life_imarika.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
-                            <br>
-                            <p class="text-justify">We work hard now to ensure the futures of our
-                                little ones remain bright. A great education is th best foundation
-                                for a good life, ensure that your child gets...
 
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_elimu" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_elimu.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- NEW ROW2 OF PRODUCTS -->
-                    <div class="row row-product1">
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-4">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center"> Hospitalization Loss of income <br> (HosiCare)</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">When facing a medical emergency, the last thing you
-                                want to worry about is the financial burden. APA Life understands that
-                                the only thing...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_hosicare" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_hosicare.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-5">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps
-                                cushion
-                                yourself and your loved ones with lump sum payable within 48 hours provided...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_pumzisha" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_pumzisha.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-6">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center"> Life Cover <br> (Term Assurance)</h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">This policy has been designed to enable one have a pure
-                                life cover
-                                that can be used as security on a loan. This policy can be used...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_assurance" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_term_assuarance.php" class="btn btn-primary prod-grey">Read
-                                        More</a>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
 
-                    <!-- NEW ROW3 OF PRODUCTS -->
-                    <div class="row row-product1">
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-7 box-reshape">
-                                <div class="overlay">
-                                </div>
-                            </div>
-                            <div class="head-container">
-                                <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
-                            </div>
-                            <br>
-                            <p class="text-justify">We’ll help you think differently about retirement – more optimistic
-                                about tomorrow
-                                and confident about taking...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_pension" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
-
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
-
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-1">
+                            <div class="overlay">
                             </div>
                         </div>
-
-                        <div class="col-md-4 prod wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="box-container-img life-8">
-                                <div class="overlay">
-                                </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Anticipated Savings <br> (Akiba Halisi) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Akiba halisi has been designed to enable you to build a fund over a
+                            period of time and allows
+                            you to have access to his fund at specified times to enable you...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_akiba" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
-                            <div class="head-container">
-                                <h2 class="text-center">Mortgage Protection</h2>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_akiba_halisi.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
                             </div>
-                            <br>
-                            <p class="text-justify">This cover protects the families of the mortgagor from the risk of the
-                                lender reselling their home in the event of the untimely death or disability of the
-                                breadwinner...
-                            </p>
-                            <!-- button click -->
-                            <div class="row prod-btn">
-                                <div class="col-6 text-center">
-                                    <a href="#modal-full_morgage" uk-toggle class="btn btn-primary">Get Cover</a>
-                                </div>
 
-                                <div class="col-6 text-left prod-lf">
-                                    <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
-                                </div>
+                        </div>
+                    </div>
 
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-3 box-reshape">
+                            <div class="overlay">
                             </div>
                         </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Education Plan <br> (APA Elimu)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">We work hard now to ensure the futures of our
+                            little ones remain bright. A great education is th best foundation
+                            for a good life, ensure that your child gets...
 
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_elimu" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_elimu.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                <!-- NEW ROW2 OF PRODUCTS -->
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-4">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Hospitalization Loss of income <br> (HosiCare)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">When facing a medical emergency, the last thing you
+                            want to worry about is the financial burden. APA Life understands that
+                            the only thing...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_hosicare" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_hosicare.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-5">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Funeral Expense Cover<br> (Pumzisha)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">Death is a traumatic event, however making plans ahead of time helps
+                            cushion
+                            yourself and your loved ones with lump sum payable within 48 hours provided...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_pumzisha" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_pumzisha.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-6">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Life Cover <br> (Term Assurance)</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This policy has been designed to enable one have a pure
+                            life cover
+                            that can be used as security on a loan. This policy can be used...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_assurance" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_term_assuarance.php" class="btn btn-primary prod-grey">Read
+                                    More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                <!-- NEW ROW3 OF PRODUCTS -->
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-7 box-reshape">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Individual Pension Plan<br> (IPP) </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">We’ll help you think differently about retirement – more optimistic
+                            about tomorrow
+                            and confident about taking...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_pension" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_individual_pension_plan.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="box-container-img life-8">
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Mortgage Protection</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This cover protects the families of the mortgagor from the risk of the
+                            lender reselling their home in the event of the untimely death or disability of the
+                            breadwinner...
+                        </p>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="#modal-full_morgage" uk-toggle class="btn btn-primary">Get Cover</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_detail_life_morgage_protection.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
-                <br>
 
-                <!-- <div class="load-more text-center">
+            </div>
+            <br>
+
+            <!-- <div class="load-more text-center">
                 <a href="#" class="btn btn-primary">LOAD MORE</a>
             </div> -->
 
 
-            </div>
         </div>
+    </div>
 
 
-        <!-- =====================================FOOTER===================================== -->
-        <?php include 'views/footer.php'; ?>
-        <!-- #footer -->
+    <!-- =====================================FOOTER===================================== -->
+    <?php include 'views/footer.php'; ?>
+    <!-- #footer -->
 
 
-        <!-- ===================================== LEAD FORMS ===================================== -->
-        <?php include 'views/get_cover.php'; ?>
-        <!-- #end of lead forms -->
+    <!-- ===================================== LEAD FORMS ===================================== -->
+    <?php include 'views/get_cover.php'; ?>
+    <!-- #end of lead forms -->
 
-        <?php
-        require_once 'inc/scripts.php';
-        ?>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
 
-        <script src="js/parsley.min.js"></script>
-        <script src="js/lead.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
-        </script>
-        <script>
-            $('.type-pet').multiselect({
-                nonSelectedText: 'Select pet type',
-                enableFiltering: false,
-                enableCaseInsensitiveFiltering: false,
-                buttonWidth: '100%'
-            });
-        </script>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js">
+    </script>
+    <script>
+        $('.type-pet').multiselect({
+            nonSelectedText: 'Select pet type',
+            enableFiltering: false,
+            enableCaseInsensitiveFiltering: false,
+            buttonWidth: '100%'
+        });
+    </script>
 </body>
 
 </html>
