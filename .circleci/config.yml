@@ -14,7 +14,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # Using the RAM variation mitigates I/O contention
       # for database intensive operations.
-      # - image: circleci/mysql:5.7-ram
+      - image: circleci/mysql:5.7-ram
       #
       # - image: redis:2.8.19
 
@@ -25,14 +25,14 @@ jobs:
       - run: sudo docker-php-ext-install zip
 
       # Download and cache dependencies
-      - restore_cache:
-          keys:
-            # "composer.lock" can be used if it is committed to the repo
-            - v1-dependencies-{{ checksum "composer.json" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+      # - restore_cache:
+      #     keys:
+      #       # "composer.lock" can be used if it is committed to the repo
+      #       - v1-dependencies-{{ checksum "composer.json" }}
+      #       # fallback to using the latest cache if no exact match is found
+      #       - v1-dependencies-
 
-      - run: composer install -n --prefer-dist
+      # - run: composer install -n --prefer-dist
 
       - save_cache:
           key: v1-dependencies-{{ checksum "composer.json" }}
@@ -54,5 +54,5 @@ jobs:
 
       # run tests with phpunit or codecept
       #- run: ./vendor/bin/phpunit
-      - run: ./vendor/bin/codecept build
-      - run: ./vendor/bin/codecept run
+      # - run: ./vendor/bin/codecept build
+      # - run: ./vendor/bin/codecept run
