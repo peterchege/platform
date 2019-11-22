@@ -26,8 +26,6 @@
 <link href="asset/fontawesome-free-5.7.2-web/css/solid.css" rel="stylesheet">
 
 
-
-
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -40,13 +38,6 @@
 <!-- UIkit css -->
 <link rel="stylesheet" href="css/uikit.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-
-
-<!-- chatbot -->
-
-
-<link href="https://snatchbot.me/sdk/webchat.css" rel="stylesheet" type="text/css">
-<script src="https://snatchbot.me/sdk/webchat.min.js"></script>
 
 <!-- GOOGLE ANALYTICS -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
