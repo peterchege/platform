@@ -96,7 +96,7 @@
                                         <a href="digital/financial_report/apa_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2017 APA Insurance Kenya Annual Report and Financial Statements"
+                                        <a href="pdf/financial/ke/2017 APA Insurance Kenya Annual Report and Financial Statements.pdf"
                                         class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@
                                         <a href="digital/financial_report/apa_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements.pdf" class="uk-button uk-button-text my-text">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -156,7 +156,7 @@
                                         <a href="digital/financial_report/life_2018_new" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2018 APA Life Kenya Annual Report and Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -183,7 +183,7 @@
                                         <a href="digital/financial_report/life_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2017 APA Life Kenya Annual Report and Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -210,7 +210,7 @@
                                         <a href="digital/financial_report/life_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 APA Life Kenya Annual Report and Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -242,7 +242,7 @@
                                         <a href="digital/financial_report/mmf_2018" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -269,7 +269,7 @@
                                         <a href="digital/financial_report/mmf_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -296,7 +296,7 @@
                                         <a href="digital/financial_report/mmf_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="#" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
