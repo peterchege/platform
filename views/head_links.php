@@ -52,3 +52,6 @@
 
     gtag('config', 'UA-151247905-1');
 </script>
+
+<!-- vue js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
