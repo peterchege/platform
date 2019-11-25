@@ -9,7 +9,6 @@
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/financial.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
     <?php include 'views/head_links.php'; ?>
@@ -60,9 +59,8 @@
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2018</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
-                                            Make Record
-                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                    <p class="uk-text-meta uk-margin-remove-top paragraph-text-size"><time datetime="2016-04-01T19:00">We always put our customers first,
+                                            that's why the judges picked us first.</time></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +88,7 @@
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom my-custom">April 2017</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
+                                    <p class="uk-text-meta uk-margin-remove-top paragraph-text-size"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
                                             Make Record
                                             Insurance Payouts for Livestock Herders Facing..</time></p>
                                 </div>
@@ -120,9 +118,8 @@
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom my-custom">February 2016</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
-                                            Make Record
-                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                    <p class="uk-text-meta uk-margin-remove-top paragraph-text-size"><time datetime="2016-04-01T19:00">APA Consistent in its success : 
+                                        "These accollades are a testament to the hard work and dedication of everyone at APA" </time></p>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +140,7 @@
 
 
 
-            <!-- </div>
+                <!-- </div>
             <div class="row text-left wow fadeInUp" data-wow-delay="0.3s"> -->
 
                 <div class="col-md-6 col-lg-4 card-fin">
@@ -155,9 +152,9 @@
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom my-custom">July 2016</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
-                                            Make Record
-                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                    <p class="uk-text-meta uk-margin-remove-top paragraph-text-size"><time datetime="2016-04-01T19:00">APA will collaborate with other insurance companies and
+                                        insurance intermediaries to rapidly develop and nurture this market ...
+                                    </time></p>
                                 </div>
                             </div>
                         </div>
@@ -185,9 +182,9 @@
                                 </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom my-custom">December 2016</h3>
-                                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Government of Kenya Partners with Insurers to
-                                            Make Record
-                                            Insurance Payouts for Livestock Herders Facing..</time></p>
+                                    <p class="uk-text-meta uk-margin-remove-top paragraph-text-size"><time datetime="2016-04-01T19:00">APA sales manager's the first in africa to be awarded
+                                        the insurance industry's top qualification
+                                    </time></p>
                                 </div>
                             </div>
                         </div>
