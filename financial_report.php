@@ -225,7 +225,7 @@
 
                     <div class="col-md-6 col-lg-4 card-fin">
                         <div class="uk-card uk-card-default ">
-                            <div class="uk-card-header">
+                            <div class="uk-card-header"> 
                                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                                     <div class="uk-width-auto">
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/mmf_1.jpg">
