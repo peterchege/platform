@@ -231,7 +231,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/mmf_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET UNIT TRUST</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2018</b></time></p>
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@
                                         <a href="digital/financial_report/mmf_2018" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2018 Apollo Asset Management Unit Trust Abridged Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -258,7 +258,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_2017.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET UNIT TRUST</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2017</b></time></p>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@
                                         <a href="digital/financial_report/mmf_2017" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2017 Apollo Asset Management Unit Trust Abridged Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
@@ -285,7 +285,7 @@
                                         <img class="uk-border-circle1" width="100" height="50" src="img/doc/asset_1.jpg">
                                     </div>
                                     <div class="uk-width-expand">
-                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET MANAGEMENT</h3>
+                                        <h3 class="uk-card-title uk-margin-remove-bottom my-custom">APOLLO ASSET UNIT TRUST</h3>
                                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Financial year for <b>2016</b></time></p>
                                     </div>
                                 </div>
@@ -296,7 +296,7 @@
                                         <a href="digital/financial_report/mmf_2016" class="uk-button uk-button-text my-text" target="_blank">Read more <i class="fas fa-eye"></i></a>
                                     </div>
                                     <div class="c0l-6">
-                                        <a href="pdf/financial/ke/2016 APA Insurance Kenya Annual Report and Financial Statements" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
+                                        <a href="pdf/financial/ke/2016 Apollo Asset Management Unit Trust Abridged Financial Statements.pdf" class="uk-button uk-button-text my-text" target="_blank">Download <i class="fas fa-download"></i></a>
                                     </div>
                                 </div>
 
