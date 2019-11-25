@@ -81,8 +81,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-10 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
-                            uk-slider="center: true">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
@@ -119,10 +118,8 @@
                                 </li>
                             </ul>
 
-                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
-                                uk-slidenav-previous uk-slider-item="previous"></a>
-                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
-                                uk-slidenav-next uk-slider-item="next"></a>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
                         </div>
                     </div>
@@ -153,8 +150,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="shimba">
                             </div>
                             <div class="col-6 text-left">
@@ -186,8 +182,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="chyullu">
                             </div>
                             <div class="col-6 text-left">
@@ -219,8 +214,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="cherengani">
                             </div>
                             <div class="col-6 text-left">
@@ -257,8 +251,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="ngong">
                             </div>
                             <div class="col-6 text-left">
@@ -290,8 +283,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="taita">
                             </div>
                             <div class="col-6 text-left">
@@ -323,8 +315,7 @@
 
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
-                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full"
-                                    uk-toggle>BOOK NOW</button>
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
                                 <input type="hidden" name="roomd" value="entertainment">
                             </div>
                             <div class="col-6 text-left">
@@ -337,6 +328,7 @@
                 </div>
 
             </div>
+            <br><br>
 
         </div>
 
