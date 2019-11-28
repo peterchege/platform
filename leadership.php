@@ -99,7 +99,7 @@
                         </h5>
 
                         <p>
-                            Daniel Ndonye brings to the Board vast experience. He is alumnus of the Alliance...
+                            Daniel Ndonye brings to the Board vast experience. He is an alumnus of the Alliance...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
@@ -112,7 +112,7 @@
                         </h5>
 
                         <p>
-                            M’Mukindia has had a varied and dynamic career over 35 years of working experien...
+                            M’Mukindia has had a varied and dynamic career over 35 years of working experiene...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>

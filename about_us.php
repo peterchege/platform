@@ -74,7 +74,7 @@
                     <div class="col-md-3 ">
                         <img src="images/icon/icon7.png" alt="mission">
                         <h2> VISION</h2>
-                        <p class>We are the regions most respected Group creating and protecting wealth.
+                        <p class>We are the region's most respected Group creating and protecting wealth.
                         </p>
                     </div>
                     <br>
@@ -141,8 +141,7 @@
                                     <h1>2003</h1>
                                 </div>
                                 <p class="text-center">
-                                    APA Insurance Kenya formed after the merger of the general business of
-                                    Apollo Company and Pan africa Insurance.
+                                    APA Insurance Kenya formed after the merger of the general business of Apollo Company and Pan African Insurance.
                                 </p>
                             </div>
                         </li>
@@ -444,7 +443,7 @@
                             Keep us updated of any changes that might affect your policy.
                         </li>
                         <li>
-                            We appreciate that you will always give us true facts.
+                            We appreciate that you will always give us facts.
                         </li>
                     </ul>
 

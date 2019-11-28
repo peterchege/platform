@@ -57,7 +57,7 @@
                             <div class="job-description text-center">
 
                                 <h2> MOTOR COMMERCIAL COVER </h2>
-                                <P class="text-justify">Motor Comprehensive Insurance is also known as Own Damage
+                                <P class="text-justify">Motor Commercial Insurance is also known as Own Damage
                                     Insurance
                                     covers damages to your motor vehicle following an
                                     accident, fire, flood or malicious damage. It also covers the theft of the vehicle
