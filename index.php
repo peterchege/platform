@@ -200,7 +200,7 @@ require_once 'inc/functions.php';
                         </div>
                         <br>
                         <p class="text-justify">We work hard now to ensure the futures of our
-                            little ones remain bright. A great education is th best foundation
+                            little ones remain bright. A great education is the best foundation
                             for a good life, ensure that your child gets...
 
                         </p>
@@ -257,7 +257,7 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance 
+                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance
                             covers damages to your motor vehicle following an accident...
                         </p>
                         <!-- button click -->
