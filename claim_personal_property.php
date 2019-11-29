@@ -51,13 +51,7 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Claims can sometimes be a
-                headache, but not with us. In the case of an unfortunate event, we will hold your hand and
-                walk with you through the claims process.
-                In case of a claim, all you have to do is provide details
-                about the incident and we’ll take it from there. We will
-                advise you on the required documentation depending on
-                the nature of the claim.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Claims can sometimes be a headache, but not with us. In the case of an unfortunate event, we will hold your hand and walk with you through the claims process. All you have to do is provide details about the incident and we’ll take it from there. We will advise you on the required documentation depending on the nature of your claim.
             </p>
         </div>
     </div>
