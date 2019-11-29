@@ -115,7 +115,7 @@
                                     <div class="content">
                                         <h3>Theft</h3>
                                         <br>
-                                        <p> This claim Cover theft of vehicle</p>
+                                        <p> This claim Cover theft of vehicle.</p>
                                     </div>
                                 </div>
                             </a>

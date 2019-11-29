@@ -49,13 +49,6 @@ require_once 'inc/functions.php';
     $totalPosts = array_shift($rowPagination);
     $postPerPage = $totalPosts / 5;
     $postPerPage = ceil($postPerPage);
-
-    //determining banner path
-    if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
-        $banner_path = 'http://localhost/cms';
-    } else {
-        $banner_path = 'http://63.33.193.137/dev/site/cms';
-    }
     ?>
     <div class="vida">
         <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
@@ -79,7 +72,7 @@ require_once 'inc/functions.php';
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">Welcome to Apollo Investments Limited.
                 Since our founding in 1977, our mission has been to provide
                 present and future peace of mind to the East African market and, in turn, enhance the quality of life
-                for both our clients and their loved ones.Built on commitment, integrity and innovation, we have risen
+                for both our clients and their loved ones. Built on commitment, integrity and innovation, we have risen
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
         </div>
@@ -98,7 +91,7 @@ require_once 'inc/functions.php';
                     <!-- new design for media post -->
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
                         <div class="col-md-4 post">
-                            <div class="img-container" style=" background-image:url(<?php echo $banner_path . '/' . $post['image'];  ?>);">
+                            <div class="img-container" style=" background-image:url(<?php echo 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
                             </div>
                             <div class="box-info">
                                 <h2><?php echo ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?>

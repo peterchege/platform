@@ -117,7 +117,7 @@
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
                         <h2>Head Office</h2>
-                        <p>Location: apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Location: Apollo Centre, Ring Road Parklands, Westlands</p>
                         <p>Tel: +254 (0) 20 364 1000</p>
                         <p>info@apainsurance.org</p>
                         <hr>
@@ -128,7 +128,7 @@
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
                         <h2>City Centre</h2>
-                        <p>Location: 3rd foor, Barclays Plaza, Loita Street, Nairobi</p>
+                        <p>Location: 3rd Floor, Barclays Plaza, Loita Street, Nairobi</p>
                         <p>Tel: 020-2862000</p>
                         <p>info@apainsurance.org</p>
                         <hr>
@@ -138,7 +138,7 @@
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
                         <h2>Thika Branch</h2>
-                        <p>Location: 5th floor, Zuri Centre, Kenyatta Highway</p>
+                        <p>Location: 5th Floor, Zuri Centre, Kenyatta Highway</p>
                         <p>Tel:+254 (0) 67 222 0196 </p>
                         <p>apa.thika@apainsurance.org</p>
                         <hr>
@@ -164,7 +164,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Nakuru Branch</h2>
-                    <p>Location: Giddo Plaza, HarvesterRoad, Nakuru</p>
+                    <p>Location: Giddo Plaza, Harvester Road, Nakuru</p>
                     <p>Tel: 051-2213412/6</p>
                     <p></p>apa.nakuru@apainsurance.org</p>
                     <hr>
@@ -174,7 +174,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Kisii Branch</h2>
-                    <p>location: Mocha Place, Kisii-Kisumu Highway</p>
+                    <p>Location: Mocha Place, Kisii-Kisumu Highway</p>
                     <p>Tel: 058 203 1773| 020 286 2327</p>
                     <p>apa.kisii@apainsurance.org</p>
 
@@ -196,7 +196,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Naivasha Branch</h2>
-                    <p>location: 1st floor,Eagle Center, Mbari Kaniu Road</p>
+                    <p>Location: 1st Floor,Eagle Center, Mbari Kaniu Road</p>
                     <p>Tel: 050 202 0086 | 020 086 2353</p>
                     <P>apa.naivasha@apainsurance.org</P>
                     <hr>
@@ -211,7 +211,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Meru Branch</h2>
-                    <p>location: 2nd Floor, Hart Towers, off Meru Highway</p>
+                    <p>Location: 2nd Floor, Hart Towers, off Meru Highway</p>
                     <p>Tel: +254 (0) 74 31821</p>
                     <p>apa.meru@apainsurance.org</p>
                     <hr>
@@ -232,7 +232,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Machakos Branch</h2>
-                    <p>location: ABC Imani Plaza, Ngei Road, Machakos</p>
+                    <p>Location: ABC Imani Plaza, Ngei Road, Machakos</p>
                     <p>Tel: +254 (0)44 21455</p>
                     <p>apa.machakos@apainsurance.org</p>
                     <hr>
@@ -242,7 +242,7 @@
             <div class="col-md-3 ">
                 <div class="office-branch branch">
                     <h2>Nyeri Branch</h2>
-                    <p>location: Peak Business Centre, Nyeri</p>
+                    <p>Location: Peak Business Centre, Nyeri</p>
                     <p>Tel: 061-2030332</p>
                     <p>apa.nyeri@apainsurance.org</p>
                     <hr>
@@ -256,7 +256,7 @@
             <div class="col-md-4 ">
                 <div class="office-branch branch">
                     <h2>Kisumu Branch</h2>
-                    <p>location:TuffFoam Plaza, Milimani, Achieng Oneko Rd</p>
+                    <p>Location:TuffFoam Plaza, Milimani, Achieng Oneko Rd</p>
                     <p>Tel: +254 (0) 20 216 2908</p>
                     <p>apa.kisumu@apainsurance.org</p>
                     <hr>

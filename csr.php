@@ -121,7 +121,7 @@ require_once 'inc/functions.php';
                         support</li>
                     <li>Our vision is the initiative is that this initiative will increase accessibility to clean water
                     </li>
-                    <li>Our vision with this initiative is to give the Kenyan people the opportunity to transform their
+                    <li>Our vision with this initiative is to give Kenyans the opportunity to transform their
                         own lives; and
                         emphasises the need, for people, to have access to the opportunities they need to succeed in.
                     </li>
