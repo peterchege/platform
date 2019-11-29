@@ -66,8 +66,7 @@
             <div class="col-md-6">
                 <img class="img-fluid" src="images/intern.jpg">
                 <h2 class="text-center">EXPERIENCED PROFESSIONALS</h2>
-                <p> You are an experienced professional and looking to broaden your capability and learning take a look
-                    at our open jobs and apply.
+                <p> You are an experienced professional and looking to broaden your capability and learning, take a look at our open jobs and apply.
                 </p><br>
                 <div class="load-more text-center">
                     <a href="jobpage.php" class="btn btn-primary">EXPLORE NOW</a>
