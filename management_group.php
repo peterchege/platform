@@ -188,7 +188,11 @@
                         <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="offset-5">
+
+                    </div>
+
+                    <!-- <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src=" img/apa4/jackie.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Jackie Tonui<br>
@@ -199,7 +203,7 @@
                             Jackie Tonui is the Head of Corporate Communications and has six years in...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
-                    </div>
+                    </div> -->
 
                 </div>
 
