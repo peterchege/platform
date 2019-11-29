@@ -198,8 +198,8 @@ a:focus {
     background-image: url(../img/group/heads.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 1%;
+    background-position: top;
+    margin-top: 3.2%;
 
 }
 
