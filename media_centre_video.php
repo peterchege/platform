@@ -14,7 +14,14 @@ require_once 'inc/functions.php';
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/media.css" media="screen">
 
-    <?php include 'views/head_links.php'; ?>
+    <?php
+    require_once 'views/head_links.php';
+    if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
+        $banner_path = 'http://localhost/cms';
+    } else {
+        $banner_path = 'http://63.33.193.137/dev/site/cms';
+    }
+    ?>
 
 </head>
 
@@ -91,7 +98,7 @@ require_once 'inc/functions.php';
                     <!-- new design for media post -->
                     <?php while ($post = mysqli_fetch_assoc($mediaC)) : ?>
                         <div class="col-md-4 post">
-                            <div class="img-container" style=" background-image:url(<?php echo 'http://' . 'localhost/cms/' . $post['image'];  ?>);">
+                            <div class="img-container" style=" background-image:url(<?php echo $banner_path . '/' . $post['image'];  ?>);">
                             </div>
                             <div class="box-info">
                                 <h2><?php echo ((strlen($post['title']) > 40) ? substr($post['title'], 0, 40) . '... ' : $post['title']); ?>
