@@ -55,7 +55,7 @@
                 enjoy private meeting
                 place within a commercial building with generous space, spacious balconies opening to every room and
                 ample parking space.
-                The rooms are a hide away for all business and social meetings with exclusivity and convenience for
+                The rooms are a hideaway for all business and social meetings with exclusivity and convenience for
                 executive individuals,
                 corporate and groups.
             </p>

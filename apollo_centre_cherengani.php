@@ -50,13 +50,7 @@
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites,
-                enjoy private meeting
-                place within a commercial building with generous space, spacious balconies opening to every room and
-                ample parking space.
-                The rooms are a hide away for all business and social meetings with exclusivity and convenience for
-                executive individuals,
-                corporate and groups.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting place within a commercial building with generous space, spacious balconies opening to every room and ample parking space. The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals, corporate and groups.
             </p>
             <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
                 <div class="col-md-12 ">
