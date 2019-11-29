@@ -77,7 +77,7 @@
                                     <div class="content">
                                         <h3>Property Damage </h3>
                                         <br>
-                                        <p> In the event of hospitalization of the main member or a family member</p>
+                                        <p>Typically in the event, you damage someone's property such as a building, fence or a car we will cover the cost of repair.</p>
                                     </div>
                                 </div>
                             </a>
@@ -110,8 +110,7 @@
                                     <div class="content">
                                         <h3>Personal Accident</h3>
                                         <br>
-                                        <p>Upon death, this claim will ensure that cash is available immediately to pay
-                                            for the costs of a funeral and related expenses.</p>
+                                        <p>If you become disabled; unable to work; such as loss of eyesight or hearing, etc. You will be compensated either in one lump sum or monthly to supplement missed income.</p>
                                     </div>
                                 </div>
                             </a>
