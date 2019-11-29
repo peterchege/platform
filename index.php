@@ -232,9 +232,9 @@ require_once 'inc/functions.php';
                             <h2>Travel Insurance</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Travelling around the globe and exploring the wonders of the world has
-                            become easier. Whether on business or pleasure you require some ...
-                        </p>
+                        <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
+                            Globetrotter
+                            policy will ensure you will have nothing to worry about...
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6">
@@ -257,8 +257,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Commercial Cover</h2>
                         </div>
                         <br>
-                        <p class="text-justify">Motor Comprehensive Insurance is also known as Own Damage Insurance
-                            covers damages to your motor vehicle following an accident...
+                        <p class="text-justify">APA Motor Commercial Insurance covers you and your motor vehicle against
+                            loss, theft, physical damage, bodily damage and liabilities that ...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">

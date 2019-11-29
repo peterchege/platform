@@ -125,7 +125,7 @@
                         </h5>
 
                         <p>
-                            Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist ...
+                            Maria Simiyu has worked in the HR field for over 16 years mainly as an HR generalist...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full10" uk-toggle>Read more</button>
                     </div>

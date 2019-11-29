@@ -512,7 +512,7 @@
                         </div>
                         <br>
                         <p class="text-justify">We work hard now to ensure the futures of our
-                            little ones remain bright. A great education is th best foundation
+                            little ones remain bright. A great education is the best foundation
                             for a good life, ensure that your child gets...
 
                         </p>
