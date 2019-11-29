@@ -117,7 +117,7 @@
                 <div class="col-md-3 ">
                     <div class="office-branch head-office">
                         <h2>Head Office</h2>
-                        <p>Location: apollo centre, Ring Road Parklands, westlands</p>
+                        <p>Location: Apollo Centre, Ring Road Parklands, westlands</p>
                         <p>Tel: +254 (0) 20 364 1000</p>
                         <p>info@apainsurance.org</p>
                         <hr>
