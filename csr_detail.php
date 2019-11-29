@@ -24,7 +24,14 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     <title>APA INSURANCE</title>
     <link rel="stylesheet" href="css/media_detail.css" />
     <link rel="stylesheet" href="css/career.css" />
-    <?php include 'views/head_links.php'; ?>
+    <?php
+    require 'views/head_links.php';
+    if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
+        $banner_path = 'http://localhost/cms';
+    } else {
+        $banner_path = 'http://63.33.193.137/dev/site/cms';
+    }
+    ?>
 
 </head>
 
@@ -38,7 +45,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
 
     <!-- ===================================== JOB DESCRIPTION ===================================== -->
     <div class="container-fluid212">
-        <div style="background-image: url('<?php echo  'http://' . 'localhost/cms/' . $full_post['image']; ?>');" class="header-image header-image1">
+        <div style="background-image: url('<?php echo  $banner_path . '/' .  $full_post['image']; ?>');" class="header-image header-image1">
         </div>
         <div class="line-media">
             <img src="images/line.png" alt="">
