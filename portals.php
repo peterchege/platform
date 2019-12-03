@@ -6,7 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Portals - APA Insurance</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Apollo Centre conference suites comprise of meeting 
+    rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
+    <meta name="keywords" content="apollo centre,apollo center, conference facilities, investment , investment products,  
+    Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Conference faciclities for meetings." />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/portal.css" />
 
 
@@ -71,8 +86,7 @@
                             <h3>CLIENT PORTAL</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=4075068781031176&_afrWindowMode=0&_adf.ctrl-state=er99dn14v_4"
-                                class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/TurnQuestAgent/faces/index.jspx?_afrLoop=4075068781031176&_afrWindowMode=0&_adf.ctrl-state=er99dn14v_4" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -87,8 +101,7 @@
                             <h3>MARINE SINGLE TRANSIT</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"
-                                class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -103,8 +116,7 @@
                             <h3>TRAVEL PORTAL</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"
-                                class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -138,8 +150,7 @@
                             <h3>MOTOR PORTAL</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4"
-                                class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/motor/quote/4" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -154,8 +165,7 @@
                             <h3>INTERMIDIARY PORTAL</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT"
-                                class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/auth?userType=AGENT" class="btn btn-primary">OPEN PORTAL</a>
                             </p>
                         </div>
                     </div>
@@ -177,8 +187,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
