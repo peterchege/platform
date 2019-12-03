@@ -6,7 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title> Contact us - APA Insurance</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Welcome to Apollo Investments Limited. Since our 
+    founding in 1977, our mission has been to provide present and future peace of mind 
+    to the East African market and, in turn, enhance the quality of life for both our clients 
+    and their loved ones">
+    <meta name="keywords" content="apa insurances contact, apa contacts, apa branch, apa branches,  
+    apa location , apa feedbacks, apa telephone ,apa mobile number, apa email ">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/about_us.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="contact centre." />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/contact.css" />
