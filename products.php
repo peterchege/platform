@@ -137,7 +137,7 @@
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full_dp" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="calc_domestic_package.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -529,7 +529,7 @@
                         </div>
                     </div>
 
-                <!-- NEW ROW2 OF PRODUCTS -->
+                    <!-- NEW ROW2 OF PRODUCTS -->
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img life-4">
                             <div class="overlay">
@@ -611,7 +611,7 @@
                         </div>
                     </div>
 
-                <!-- NEW ROW3 OF PRODUCTS -->
+                    <!-- NEW ROW3 OF PRODUCTS -->
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img life-7 box-reshape">
                             <div class="overlay">
