@@ -6,8 +6,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title> Products - APA Insurance</title>
 
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
+    motor cover, domestic package, health insurance,personal accident cover ">
+    <meta name="keywords" content="insurance cover,apa products, apa insurance limited, 
+    buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/products.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="get a cover today" />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+    
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">

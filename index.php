@@ -20,10 +20,11 @@ require_once 'inc/functions.php';
     <meta name="keywords" content="insurance cover,apa insurance kenya, apa insurance limited, 
     buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
     <meta name="author" content="">
+
     <!-- FACEBOOK MEATADATA -->
     <meta property="og:url"                content="https://www.apainsurance.org/" />
     <meta property="og:type"               content="Homepage" />
-    <meta property="og:title"              content="APA Insurance" />
+    <meta property="og:title"              content="APA Insurance, APA Insurance Kenya, APA Insurance Limitted" />
     <meta property="og:description"        content="Welcome to apa insurance, the biggest insurer in east africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
@@ -37,7 +38,7 @@ require_once 'inc/functions.php';
     <?php include 'views/head_links.php'; ?>
 
 </head>
-
+ 
 <body>
 
     <!--==========================
