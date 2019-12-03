@@ -6,7 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>About us - APA INSURANCE</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Welcome to Apollo Investments Limited. Since our 
+    founding in 1977, our mission has been to provide present and future peace of mind 
+    to the East African market and, in turn, enhance the quality of life for both our clients 
+    and their loved ones">
+    <meta name="keywords" content="apa insurances, apa leadership, who is apa insurance, apa media center,  
+    apa media , apa csr, apa company,apa customer service charter">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/about_us.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="who we are." />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/about.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
