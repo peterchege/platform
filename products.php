@@ -10,8 +10,8 @@
 
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
-    motor cover, domestic package, health insurance,personal accident cover ">
-    <meta name="keywords" content="insurance cover,apa products, apa insurance limited, 
+    motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
+    <meta name="keywords" content="insurance cover,apa products, apa insurance limited,Life insurance, personal cover,  
     buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
     <meta name="author" content="">
 
