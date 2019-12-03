@@ -10,8 +10,13 @@ require_once 'inc/functions.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>APA INSURANCE</title>
+    <meta name="description" content="Welcome to apa insurance, the biggest insurer in east africa.
+    You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most ">
+    <meta name="keywords" content="insurance cover,apa insurance kenya, apa insurance limited, 
+    buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
+    <meta name="author" content="">
+    <title>APA INSURANCE : Ensuring happiness</title>
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
@@ -235,17 +240,17 @@ require_once 'inc/functions.php';
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
                             Globetrotter
                             policy will ensure you will have nothing to worry about...
-                        <!-- button click -->
-                        <div class="row prod-btn">
-                            <div class="col-6">
-                                <a href="#modal-full_travel" class="btn btn-primary" uk-toggle>Get Cover</a>
-                            </div>
+                            <!-- button click -->
+                            <div class="row prod-btn">
+                                <div class="col-6">
+                                    <a href="#modal-full_travel" class="btn btn-primary" uk-toggle>Get Cover</a>
+                                </div>
 
-                            <div class="col-6 text-left prod-lf">
-                                <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
-                            </div>
+                                <div class="col-6 text-left prod-lf">
+                                    <a href="product_detail_travel.php" class="btn btn-primary prod-grey">Read More</a>
+                                </div>
 
-                        </div>
+                            </div>
                     </div>
 
                     <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
