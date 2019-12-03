@@ -216,9 +216,9 @@
 
                                     <div class="content">
                                         <h3>COMPANIES</h3>
-                                        <p>Living a healthy stress free life is every persons dream. A healthy family is
+                                        <!-- <p>Living a healthy stress free life is every persons dream. A healthy family is
                                             a happy
-                                            family.</p>
+                                            family.</p> -->
                                     </div>
                                 </div>
                             </a>
@@ -233,8 +233,8 @@
                                 <div class="wrapper">
                                     <div class="content">
                                         <h3>PRODUCTS</h3>
-                                        <p>Explore wild possibilities and adventures unbothered!
-                                            Whether you are headed for a business trip or a trip of a lifetime.</p>
+                                        <!-- <p>Explore wild possibilities and adventures unbothered!
+                                            Whether you are headed for a business trip or a trip of a lifetime.</p> -->
                                     </div>
                                 </div>
                             </a>
@@ -249,8 +249,9 @@
                                 <div class="wrapper">
                                     <div class="content">
                                         <h3>MEDIA CENTRE</h3>
-                                        <p>Sail your goods across different regions with no worry.
+                                        <!-- <p>Sail your goods across different regions with no worry.
                                             This cover is crafted for both individuals and corporates.
+                                            </p> -->
                                     </div>
                                 </div>
                             </a>
@@ -264,10 +265,11 @@
                                 <div class="wrapper">
                                     <div class="content">
                                         <h3>CSR</h3>
-                                        <p>Your crops and livestock are your source of income and guaranteeing their
+                                        <!-- <p>Your crops and livestock are your source of income and guaranteeing their
                                             safety
                                             should
-                                            bring you ultimate happiness.</p>
+                                            bring you ultimate happiness.
+                                        </p> -->
                                     </div>
                                 </div>
                             </a>
