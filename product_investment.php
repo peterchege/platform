@@ -11,16 +11,28 @@ require_once 'inc/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>APOLLO ASSET MANAGMENT</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
+    motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
+    <meta name="keywords" content="apollo asset managment,apollo asset products, apollo asset managment limited, investment , investment products,  
+    Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/product_investment.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="get a cover today" />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/media.css" media="screen">
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
-
-
-
 
 
     <?php include 'views/head_links.php'; ?>

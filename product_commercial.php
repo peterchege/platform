@@ -22,6 +22,7 @@
     <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
 
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
