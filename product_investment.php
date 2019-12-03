@@ -22,7 +22,7 @@ require_once 'inc/functions.php';
     <!-- FACEBOOK MEATADATA -->
     <meta property="og:url" content="https://www.apainsurance.org/product_investment.php" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="get a cover today" />
+    <meta property="og:title" content="what is investment" />
     <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
 

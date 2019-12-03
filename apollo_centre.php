@@ -6,7 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Confrence Facilities - apollo centre</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Apollo Centre conference suites comprise of meeting 
+    rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
+    <meta name="keywords" content="apollo centre,apollo center, conference facilities, investment , investment products,  
+    Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Conference faciclities for meetings." />
+    <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css">
