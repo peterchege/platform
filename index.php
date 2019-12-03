@@ -12,10 +12,7 @@ require_once 'inc/functions.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <title>APA INSURANCE : Ensuring happiness</title>
-    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
-    <link rel="stylesheet" href="css/modal.css" media="screen">
-    <link rel="stylesheet" href="css/product.css" media="screen">
-    <link rel="stylesheet" href="css/parsley.css" media="screen">
+    
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Welcome to apa insurance, the biggest insurer in east africa.
     You can now purchase insurance, service your policies and report a claim online. 
@@ -30,6 +27,12 @@ require_once 'inc/functions.php';
     <meta property="og:description"        content="Welcome to apa insurance, the biggest insurer in east africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/modal.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
 
