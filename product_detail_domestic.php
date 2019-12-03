@@ -115,8 +115,8 @@
 
                                         <div class="row">
                                             <div class="col-md-4">
-                                                <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                                    <a href="#" class="btn btn-primary">Get Cover</a>
+                                                <div class="load-more text-center">
+                                                    <a href="calc_domestic_package.php" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
