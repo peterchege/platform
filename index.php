@@ -10,17 +10,26 @@ require_once 'inc/functions.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>APA INSURANCE : Ensuring happiness</title>
+    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/modal.css" media="screen">
+    <link rel="stylesheet" href="css/product.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Welcome to apa insurance, the biggest insurer in east africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most ">
     <meta name="keywords" content="insurance cover,apa insurance kenya, apa insurance limited, 
     buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
     <meta name="author" content="">
-    <title>APA INSURANCE : Ensuring happiness</title>
-    <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
-    <link rel="stylesheet" href="css/modal.css" media="screen">
-    <link rel="stylesheet" href="css/product.css" media="screen">
-    <link rel="stylesheet" href="css/parsley.css" media="screen">
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url"                content="https://www.apainsurance.org/" />
+    <meta property="og:type"               content="Homepage" />
+    <meta property="og:title"              content="APA Insurance" />
+    <meta property="og:description"        content="Welcome to apa insurance, the biggest insurer in east africa.
+    You can now purchase insurance, service your policies and report a claim online. 
+    This gives you more time to do the things that you love most" />
 
     <?php include 'views/head_links.php'; ?>
 
