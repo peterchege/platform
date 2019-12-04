@@ -48,7 +48,7 @@
                 <a class="nav-link" href="management_group.php">MANAGEMENT</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">DOWNLOADS</a>
+                <a class="nav-link" href="financial_report.php">FINANCIAL REPORTS</a>
             </li>
         </ul>
     </div>
