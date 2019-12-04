@@ -21,7 +21,7 @@
     <meta property="og:title" content="get a cover today" />
     <meta property="og:description" content=" You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
-    
+
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/modal.css" media="screen">
@@ -83,7 +83,7 @@
 
             <div class="container">
 
-                <div class="row row-product1 text-center">
+                <div class="row row-product1 text-center products-repsonive">
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-2">
                             <div class="overlay">
@@ -368,7 +368,7 @@
             <div class="container">
 
                 <!-- NEW ROW OF PRODUCTS -->
-                <div class="row row-product1">
+                <div class="row row-product1 products-repsonive">
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-7 box-reshape">
                             <div class="overlay">
@@ -457,13 +457,13 @@
     <!-- =====================================LIFE ASSURANCE PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new text-left">
+        <div class="product product-new text-left ">
 
             <h1>LIFE COVER</h1>
 
             <div class="container">
 
-                <div class="row row-product1">
+                <div class="row row-product1 products-repsonive">
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img life-2">
                             <div class="overlay">

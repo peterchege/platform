@@ -8,7 +8,7 @@
 
     <title>Commercial Products - APA INSURANCE</title>
 
-     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
     motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
     <meta name="keywords" content="insurance cover,apa products, apa insurance limited,Life insurance, personal cover,  
@@ -76,7 +76,7 @@
             <div class="container">
 
                 <!-- NEW ROW 1 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row row-product1 wow fadeInUp products-repsonive" data-wow-delay="0.1s">
                     <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-7">
                             <div class="overlay">
@@ -474,7 +474,7 @@
             <div class="container">
 
                 <!-- NEW ROW 5.1 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row row-product1 wow fadeInUp products-repsonive" data-wow-delay="0.1s">
 
                     <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-1">
@@ -520,7 +520,7 @@
             <div class="container">
 
                 <!-- NEW ROW 1 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row row-product1 wow fadeInUp products-repsonive" data-wow-delay="0.1s">
 
                     <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-17">
@@ -591,7 +591,7 @@
             <div class="container">
 
                 <!-- NEW ROW 6 OF PRODUCTS -->
-                <div class="row row-product1 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row row-product1 wow fadeInUp products-repsonive" data-wow-delay="0.1s">
                     <div class="col-md-6 col-lg-4 prod">
                         <div class="box-container-img com-4">
                             <div class="overlay">
