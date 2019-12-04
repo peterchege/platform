@@ -380,3 +380,11 @@ p1{
     position: relative;
     margin-top: -15%; 
 }
+
+.image-career{
+    margin: 5% auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/career/jobs.png);
+    background-size: cover;
+}

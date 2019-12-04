@@ -79,6 +79,19 @@
                 <div class="row lead-img">
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/board/daniel.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Daniel Ndonye<br>
+                            <small>Chairman, Apollo Investments Ltd</small>
+                        </h5>
+
+                        <p>
+                            Daniel Ndonye brings to the Board vast experience. He is an alumnus of the Alliance...
+                        </p>
+                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/ashok.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Ashok Shah<br>
@@ -91,18 +104,6 @@
                         <button class="btn btn-primary" data-target="#modal-full" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/board/daniel.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Daniel Ndonye<br>
-                            <small>Chairman, Apollo Investments Ltd</small>
-                        </h5>
-
-                        <p>
-                            Daniel Ndonye brings to the Board vast experience. He is an alumnus of the Alliance...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
-                    </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/mary.jpg" class="img" alt="">
@@ -226,8 +227,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1ashok.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1ashok.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Ashok Shah
@@ -259,8 +259,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1daniel.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1daniel.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Daniel Ndonye
@@ -286,8 +285,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1mary.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1mary.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Mary Kimotho
@@ -313,8 +311,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1richard.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1richard.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Richard Ashley
@@ -344,8 +341,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1pratul.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1pratul.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Pratul Shah
@@ -373,8 +369,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1smshah.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1smshah.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         S M Shah
@@ -406,8 +401,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1pjshah.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1pjshah.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         PJ Shah
@@ -433,8 +427,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1piyush.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1piyush.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Piyush Shah
@@ -460,8 +453,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/1reto.jpg');"
-                    uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/board/1reto.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
                         Reto Schnarwiler

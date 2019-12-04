@@ -102,7 +102,8 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                     </div><br><br>
                 <?php endwhile; ?>
             <?php else : ?>
-                <p>Currently, there are no job vacancies.</p>
+                <!-- <p>Currently, there are no job vacancies.</p> -->
+                <div class="image-career"></div>
             <?php endif ?>
         </div>
 

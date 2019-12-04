@@ -11,7 +11,7 @@ require_once 'inc/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>APA INSURANCE : Ensuring happiness</title>
+    <title>APA INSURANCE : Insuring Happiness</title>
     
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Welcome to apa insurance, the biggest insurer in east africa.
