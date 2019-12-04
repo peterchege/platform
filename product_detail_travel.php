@@ -711,10 +711,20 @@
 
                 <!-- Browsure form -->
                 <div class="col-md-3 box-download">
-                    <a href="pdf/brochure/TRAVEL Brochure.pdf" target="_blank">
+                    <a href="pdf/brochure/Globetrotter Brochure.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Brochure</h2>
                         <hr>
                         <p>Product features & benefits</p>
+                        <hr>
+                        <p class="download">Download <i class="fas fa-download"></i></p>
+                    </a>
+                </div>
+                                <!-- Browsure form -->
+                                <div class="col-md-3 box-download">
+                    <a href="pdf/proposal/Travel Proposal Form.pdf" target="_blank">
+                        <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
+                        <hr>
+                        <p>Travel Proposal form</p>
                         <hr>
                         <p class="download">Download <i class="fas fa-download"></i></p>
                     </a>
