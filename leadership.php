@@ -226,7 +226,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/ashok.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1ashok.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -259,7 +259,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/daniel.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1daniel.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -286,7 +286,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/mary.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1mary.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -313,7 +313,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/richard.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1richard.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -344,7 +344,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/pratul.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1pratul.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -373,7 +373,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/smshah.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1smshah.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -406,7 +406,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/pjshah.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1pjshah.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -433,7 +433,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/piyush.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1piyush.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
@@ -460,7 +460,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/board/reto.jpg');"
+                <div class="uk-background-cover" style="background-image: url('img/board/1reto.jpg');"
                     uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
