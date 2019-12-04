@@ -6,8 +6,9 @@ switch ($_GET['request']) {
         sleep(1);
         $response = array(
             'status' => 0,
-            'message' => 'Form submission failed, please try again.'
+            'message' => ''
         );
+
         if (
             !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
@@ -42,8 +43,36 @@ switch ($_GET['request']) {
                 $feed = $db->query($query);
 
                 if ($feed) {
-                    $response['message'] = 'Submitted successfully.';
-                    $response['status'] = 1;
+                    //mailing claim report
+                    require_once '../mailer/PHPMailer.php';
+                    require_once '../mailer/SMTP.php';
+                    $subject =$claim_type. ' claim reported';
+
+                    $mail = new PHPMailer;
+                    $mail->IsSMTP();
+                    $mail->isHTML(true);
+                    $mail->Host = 'smtp.gmail.com';
+                    $mail->SMTPSecure = 'ssl';
+                    $mail->Port = 465;
+                    $mail->SMTPAuth = true;
+                    $mail->Username = 'anthonybaru@gmail.com';
+                    $mail->Password = 'Tony8604';
+
+
+                    $mail->setFrom($email, 'APA CLAIMS');
+                    $mail->AddAddress('anthonybaru@gmail.com', 'Tony');
+                    $mail->addBCC('scarletjasmine3@gmail.com');
+                    // $mail -> AddCC($_POST['email'], $_POST['name']);
+                    $mail->AddReplyTo($email, $full_name);
+                    $mail->Subject = $subject;
+                    $mail->Body = $claim_event;
+                    if ($mail->Send()) {
+                        $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                        $response['status'] = 1;
+                    } else {
+                        $reponse['message'] = 'Something went wrong! ' . $mail->ErrorInfo;
+                        $response['status'] = 0;
+                    }
                 } else {
                     $response['message'] = 'An error occured.' . mysqli_error($db);
                     $response['status'] = 0;
@@ -91,7 +120,6 @@ switch ($_GET['request']) {
                 $status = 0;
                 exit;
             } else {
-
                 $claim_id = randomstring(10);
 
                 $life_claim_type = '';
@@ -234,19 +262,19 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : NULL);
+            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_hospital_cash'])) {
                 $form =  'claim_form_hospital_cash';
-            } else if (isset($_FILES['claim_form_last_expense'])) {
+            } elseif (isset($_FILES['claim_form_last_expense'])) {
                 $form = 'claim_form_last_expense';
-            } else if (isset($_FILES['claim_form_critical_illness'])) {
+            } elseif (isset($_FILES['claim_form_critical_illness'])) {
                 $form = 'claim_form_critical_illness';
-            } else if (isset($_FILES['claim_form_death_claim'])) {
+            } elseif (isset($_FILES['claim_form_death_claim'])) {
                 $form = 'claim_form_death_claim';
-            } else if (isset($_FILES['policy_document_maturity'])) {
+            } elseif (isset($_FILES['policy_document_maturity'])) {
                 $form = 'policy_document_maturity';
-            } else if (isset($_FILES['policy_document_partial_maturity'])) {
+            } elseif (isset($_FILES['policy_document_partial_maturity'])) {
                 $form = 'policy_document_partial_maturity';
             } else {
                 $form = 'invalid selection';
@@ -1598,6 +1626,7 @@ switch ($_GET['request']) {
             } //specify form case
         }
 
+        // no break
     case 'life_personal_property_claim':
         sleep(1);
         $response = array(
