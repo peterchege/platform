@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>APA LIFE MANAGMENT</title>
     <link rel="stylesheet" href="css/companies.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
