@@ -85,21 +85,27 @@ require_once 'inc/functions.php';
         <div class="quick-link text-right">
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    HOMEPAGE
-                </button>
+                <a href="index.php">
+                    <button class="btn btn-primary">
+                        HOMEPAGE
+                    </button>
+                </a>
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    SELF SERVICE LOGIN
-                </button>
+                <a href="portals.php">
+                    <button class="btn btn-primary">
+                        SELF SERVICE LOGIN
+                    </button>
+                </a>
             </div>
 
             <div class="col-12">
-                <button class="btn btn-primary">
-                    CONTACT US
-                </button>
+                <a href="contact_us.php">
+                    <button class="btn btn-primary">
+                        CONTACT US
+                    </button>
+                </a>
             </div>
 
         </div>
