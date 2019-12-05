@@ -141,7 +141,7 @@ require_once 'inc/sessions.php';
     <script src="js/bootstrap-datepicker.min.js"> </script>
     <script>
         $('#date').datepicker({
-            format: "dd/mm/yyyy",
+            format: "dd-mm-yyyy",
             daysOfWeekDisabled: "0,6",
             autoclose: true,
             startDate: "today",
