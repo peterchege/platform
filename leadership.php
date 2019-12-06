@@ -109,7 +109,7 @@
                         <img src="img/board/mary.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Mary Kimotho<br>
-                            <small>Chairman, APA Insurance</small>
+                            <small>Director</small>
                         </h5>
 
                         <p>
