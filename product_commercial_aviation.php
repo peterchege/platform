@@ -6,8 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
-    <link rel="stylesheet" href="css/product.css" />
+    <title>Aviation - APA INSURANCE</title>
+
+<!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+<meta name="description" content="get an aviation quote. some of our products are: travel insurance, 
+motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
+<meta name="keywords" content="aviation insurance cover,apa aviation products, apa insurance aviation ,aviation insurance,  
+buy aviation insurance cover, buy aviation cover online, aviation cover quotation, aviation insurance online quotation ,apa aviation services">
+<meta name="author" content="">
+
+<!-- FACEBOOK MEATADATA -->
+<meta property="og:url" content="https://www.apainsurance.org/product_commercial_aviation.php" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="get a cover today" />
+<meta property="og:description" content=" You can now purchase aviation insurance, service your aviation policies and report a claim online. 
+This gives you more time to do the things that you love most" />
+<link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
