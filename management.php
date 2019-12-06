@@ -49,18 +49,13 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
                 </div>
-
-
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="financial_report.php">FINANCIAL REPORTS</a>
             </li>
         </ul>
     </div>
-
-
     <!-- SUB NAV -->
-
     <div class="sub-nav">
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -133,7 +128,7 @@
                         <img src="img/managment/parul-khimasia1.jpg" class="img parul-img" alt="">
                         <h5 class="title-name">
                             Parul Khimasia<br>
-                            <small>Chief Business Development Officer</small>
+                            <small>Chief Operating Officer</small>
                         </h5>
 
                         <p>
@@ -236,7 +231,6 @@
                             Charles Wambua<br>
                             <small>Head of Microinsurance & Agribusiness</small>
                         </h5>
-
                         <p>
                             Charles holds a Bachelors degree in Education, a Masters degree in...
                         </p>
@@ -336,7 +330,7 @@
                         Parul Khimasia
                     </h1>
                     <h2 class="small-head">
-                        Chief Business Development Officer
+                    Chief Operating Officer
                     </h2>
                     <p class="text-justify">
                         Parul Khimasia holds a Bachelor’s degree in Management Science from the University of Manchester Institute of Science and Technology (UMIST).
