@@ -60,7 +60,7 @@
                                 <div class="row">
                                     <!-- COVER LIMIT -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Choose your cover Limit</label>
+                                        <label for="propery">Choose your cover Limit :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> DAZZLE - Kshs 10,0000,000 </option>
@@ -72,7 +72,7 @@
                                     </div>
                                     <!-- PRINCIPLE MEMBER AGE -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Principle (you) member Age</label>
+                                        <label for="propery">Principle (you) member Age :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> 21 - 40 years </option>
@@ -86,7 +86,7 @@
                                     </div>
                                     <!-- SPOUSE MEMBER AGE -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Spouse member Age</label>
+                                        <label for="propery">Spouse member Age :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> 21 - 40 years </option>
@@ -100,7 +100,7 @@
                                     </div>
                                     <!-- CHILD MEMBER AGE -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Child member Age</label>
+                                        <label for="propery">Child 1 member Age :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> 0 - 4 years </option>
@@ -110,14 +110,16 @@
 
                                         </select>
                                     </div>
+
+                                    
                                 </div>
                             </div>
 
                             <div class="form-group col-md-6" id="text">
                                 <!-- <input name="building" id="building" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled> -->
-                                <table class="uk-table uk-table-striped">
+                                <table class="uk-table uk-table-striped calc">
                                     <thead>
-                                        <tr>
+                                        <tr class="calc_head">
                                             <th>MEMBERS</th>
                                             <th>ANNUAL OF COMPUTED</th>
                                         </tr>
@@ -143,8 +145,9 @@
                                 </table>
                             </div>
                         </div>
+                        <hr>
 
-
+                        <br><br>
 
                         <div class="row row-section owner tenant">
                             <div class="form-group col-md-6 btn-cal">

@@ -254,3 +254,10 @@
     /* font-size: 24px; */
     text-align: center;
 }
+
+/* JAMII PLUS CALCULATOR */
+
+.calc .calc_head th {
+    color: #C80D10;
+    font-weight: 500;
+}
