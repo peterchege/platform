@@ -114,7 +114,33 @@
                             </div>
 
                             <div class="form-group col-md-6" id="text">
-                                <input name="building" id="building" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled>
+                                <!-- <input name="building" id="building" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled> -->
+                                <table class="uk-table uk-table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>MEMBERS</th>
+                                            <th>ANNUAL OF COMPUTED</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Principle :</td>
+                                            <td>Kshs 51,744</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spouse: </td>
+                                            <td>Kshs 41,395</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Child 1: </td>
+                                            <td>Kshs 30,276</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Child 2: </td>
+                                            <td>Kshs 30,276</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
 
