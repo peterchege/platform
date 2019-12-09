@@ -75,12 +75,12 @@
                                         <label for="propery">Principle (you) member Age</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
-                                            <option data-ref="" name="" value=""> 21-40 years </option>
-                                            <option data-ref="" name="" value=""> 41-54 years </option>
-                                            <option data-ref="" name="" value=""> 55-65 years </option>
-                                            <option data-ref="" name="" value=""> 66-70 years </option>
-                                            <option data-ref="" name="" value=""> 71-75 years </option>
-                                            <option data-ref="" name="" value=""> 76-80 years </option>
+                                            <option data-ref="" name="" value=""> 21 - 40 years </option>
+                                            <option data-ref="" name="" value=""> 41 - 54 years </option>
+                                            <option data-ref="" name="" value=""> 55 - 65 years </option>
+                                            <option data-ref="" name="" value=""> 66 - 70 years </option>
+                                            <option data-ref="" name="" value=""> 71 - 75 years </option>
+                                            <option data-ref="" name="" value=""> 76 - 80 years </option>
 
                                         </select>
                                     </div>
@@ -89,12 +89,24 @@
                                         <label for="propery">Spouse member Age</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
-                                            <option data-ref="" name="" value=""> 21-40 years </option>
-                                            <option data-ref="" name="" value=""> 41-54 years </option>
-                                            <option data-ref="" name="" value=""> 55-65 years </option>
-                                            <option data-ref="" name="" value=""> 66-70 years </option>
-                                            <option data-ref="" name="" value=""> 71-75 years </option>
-                                            <option data-ref="" name="" value=""> 76-80 years </option>
+                                            <option data-ref="" name="" value=""> 21 - 40 years </option>
+                                            <option data-ref="" name="" value=""> 41 - 54 years </option>
+                                            <option data-ref="" name="" value=""> 55 - 65 years </option>
+                                            <option data-ref="" name="" value=""> 66 - 70 years </option>
+                                            <option data-ref="" name="" value=""> 71 - 75 years </option>
+                                            <option data-ref="" name="" value=""> 76 - 80 years </option>
+
+                                        </select>
+                                    </div>
+                                    <!-- CHILD MEMBER AGE -->
+                                    <div class="form-group col-12">
+                                        <label for="propery">Child member Age</label>
+                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                            <option value="-1" selected disabled>Choose...</option>
+                                            <option data-ref="" name="" value=""> 0 - 4 years </option>
+                                            <option data-ref="" name="" value=""> 5 - 10 years </option>
+                                            <option data-ref="" name="" value=""> 11 - 15 years </option>
+                                            <option data-ref="" name="" value=""> 16 - 20 years </option>
 
                                         </select>
                                     </div>
