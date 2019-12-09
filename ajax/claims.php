@@ -6,7 +6,7 @@ switch ($_GET['request']) {
         sleep(1);
         $response = array(
             'status' => 0,
-            'message' => ''
+            'message' => 'An error occurred!'
         );
 
         if (
@@ -43,36 +43,39 @@ switch ($_GET['request']) {
                 $feed = $db->query($query);
 
                 if ($feed) {
-                    //mailing claim report
-                    require_once '../mailer/PHPMailer.php';
-                    require_once '../mailer/SMTP.php';
-                    $subject =$claim_type. ' claim reported';
+                    //to be removed in place of emails
+                    $response['message'] = 'success';
+                    $response['status'] = 1;
+                // //mailing claim report
+                    // require_once '../mailer/PHPMailer.php';
+                    // require_once '../mailer/SMTP.php';
+                    // $subject =$claim_type. ' claim reported';
 
-                    $mail = new PHPMailer;
-                    $mail->IsSMTP();
-                    $mail->isHTML(true);
-                    $mail->Host = 'smtp.gmail.com';
-                    $mail->SMTPSecure = 'ssl';
-                    $mail->Port = 465;
-                    $mail->SMTPAuth = true;
-                    $mail->Username = 'anthonybaru@gmail.com';
-                    $mail->Password = 'Tony8604';
+                    // $mail = new PHPMailer;
+                    // $mail->IsSMTP();
+                    // $mail->isHTML(true);
+                    // $mail->Host = 'smtp.gmail.com';
+                    // $mail->SMTPSecure = 'ssl';
+                    // $mail->Port = 465;
+                    // $mail->SMTPAuth = true;
+                    // $mail->Username = 'anthonybaru@gmail.com';
+                    // $mail->Password = 'Tony3954';
 
 
-                    $mail->setFrom($email, 'APA CLAIMS');
-                    $mail->AddAddress('anthonybaru@gmail.com', 'Tony');
-                    $mail->addBCC('scarletjasmine3@gmail.com');
-                    // $mail -> AddCC($_POST['email'], $_POST['name']);
-                    $mail->AddReplyTo($email, $full_name);
-                    $mail->Subject = $subject;
-                    $mail->Body = $claim_event;
-                    if ($mail->Send()) {
-                        $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
-                        $response['status'] = 1;
-                    } else {
-                        $reponse['message'] = 'Something went wrong! ' . $mail->ErrorInfo;
-                        $response['status'] = 0;
-                    }
+                    // $mail->setFrom($email, 'APA CLAIMS');
+                    // $mail->AddAddress('anthonybaru@gmail.com', 'Tony');
+                    // $mail->addBCC('scarletjasmine3@gmail.com');
+                    // // $mail -> AddCC($_POST['email'], $_POST['name']);
+                    // $mail->AddReplyTo($email, $full_name);
+                    // $mail->Subject = $subject;
+                    // $mail->Body = $claim_event;
+                    // if ($mail->Send()) {
+                    //     $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                    //     $response['status'] = 1;
+                    // } else {
+                    //     $reponse['message'] = 'Something went wrong! ' . $mail->ErrorInfo;
+                    //     $response['status'] = 0;
+                    // }
                 } else {
                     $response['message'] = 'An error occured.' . mysqli_error($db);
                     $response['status'] = 0;
