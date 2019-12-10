@@ -2,8 +2,11 @@
 /public/hot
 /public/storage
 documents/claims/*
+!documents/claims/.keep
 documents/feedback/*
+!documents/feedback/.keep
 documents/internship/*
+!documents/internship/.keep
 
 /storage/*.key
 # /vendor
