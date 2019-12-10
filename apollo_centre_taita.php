@@ -6,7 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Boardroom (Taita Hills 10-12px) - Apollo Centre</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Our training room can hold 30 guests on U-shape set up
+     and 44 guests in a classroom setup, the room is ideal for corporate training, promotional
+      training and interactive training. It can also be divided into two rooms for discussion groups.">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_taita.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Boardroom (Taita Hills 10-12px) - Apollo Centre" />
+    <meta property="og:description" content=" Our training room can hold 30 guests on U-shape set up 
+    and 44 guests in a classroom setup, the room is ideal for corporate training, promotional training 
+    and interactive training. It can also be divided into two rooms for discussion groups." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">

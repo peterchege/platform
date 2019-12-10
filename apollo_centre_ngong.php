@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Boardroom (Ngong Hills) - Apollo centre</title>
+    <title>Boardroom (Ngong Hills 8px) - Apollo centre</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Perfect for more personal meetings, this room provides smaller groups with 
     an intimate atmosphere. Equipped with an LCD screen for presenting groundbreaking ideas for discussion.">
