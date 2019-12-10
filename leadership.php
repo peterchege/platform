@@ -294,12 +294,7 @@
                         DIRECTOR
                     </h2>
                     <p>
-                        Daniel Ndonye brings to the Board vast experience.
-                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the
-                        University of Nairobi.
-                        He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the
-                        Institute of Certified
-                        Public Accountants of Kenya and the Institute of Certified Public Secretaries of Kenya.</p>
+                    M’Mukindia has had a varied and dynamic career over 35 years of working experience.</p>
                 </div>
             </div>
         </div>
