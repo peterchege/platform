@@ -179,7 +179,7 @@
                         <img src="img/apa4/judy.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Judith Bogonko Juma<br>
-                            <small>Head of Customer Service</small>
+                            <small>Head of Customer Experience & Innovation</small>
                         </h5>
 
                         <p>
@@ -380,7 +380,7 @@
                         Judith Bogonko Juma
                     </h1>
                     <h2 class="small-head">
-                        Head of Customer Service
+                        Head of Customer Experience & Innovation
                     </h2>
                     <p class="text-justify">
                         Judith Bogonko Juma is the head of customer service, and has 8 years of experience in the
