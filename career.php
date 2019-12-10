@@ -12,8 +12,8 @@
     We pride ourselves in creating experience, delivering results and adding value to all stakeholders. 
     We advocate for equal employment opportunities to all persons regardless of age, color, nationality, 
     race, religion, gender and marital status.">
-    <meta name="keywords" content="Building Section,Contents Section,All Risks Section, investment , WIBA Section,  
-    get quote, Home insurance quote, generate quote,">
+    <meta name="keywords" content="apa insurance careers,experienced professionals, internship , job opportunities,  
+    job vacancies, career">
     <meta name="author" content="">
 
     <!-- FACEBOOK MEATADATA -->
