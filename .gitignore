@@ -1,8 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
-/documents/claims/*
-/documents/feedback/*
+documents/claims/*
+documents/feedback/*
 documents/internship/*
 
 /storage/*.key
