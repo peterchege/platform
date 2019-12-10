@@ -19,7 +19,8 @@
     <meta property="og:title" content="Auditorium - Apollo centre" />
     <meta property="og:description" content=" Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
     It has a high definition projector with a surround sound system suitable for audio/ visual presentations or training." />
-    
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">

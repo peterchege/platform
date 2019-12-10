@@ -19,6 +19,8 @@
     <meta property="og:title" content="Entertainment Area - Apollo centre" />
     <meta property="og:description" content=" The entertainment area has a sitting capacity of 80 guests
      with dining tables, 100 guests in a classroom setup & 150 guests in a cocktail setup." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">

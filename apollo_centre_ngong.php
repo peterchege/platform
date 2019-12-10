@@ -6,7 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Boardroom (Ngong Hills) - Apollo centre</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Perfect for more personal meetings, this room provides smaller groups with 
+    an intimate atmosphere. Equipped with an LCD screen for presenting groundbreaking ideas for discussion.">
+    <meta name="keywords" content="Boardroom  , apollo centre, apollo center, conference facilities">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_entertainment.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Boardroom (Ngong Hills) - Apollo centre" />
+    <meta property="og:description" content=" Perfect for more personal meetings, this room provides smaller groups with 
+    an intimate atmosphere. Equipped with an LCD screen for presenting groundbreaking ideas for discussion." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
