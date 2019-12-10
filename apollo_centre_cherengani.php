@@ -6,7 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Training Room - Apollo Centre</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Apollo Centre conference suites comprise of meeting 
+    rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
+    <meta name="keywords" content="apollo centre,apollo center, conference facilities, investment , investment products,  
+    Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_cherengani.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Training Room." />
+    <meta property="og:description" content=" At Apollo centre conference suites, enjoy private meeting place within a 
+    commercial building with generous space, spacious balconies opening to every room and ample parking space. The rooms 
+    are a hide away for all business and social meetings with exclusivity and convenience for executive individuals, 
+    corporate and groups." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
