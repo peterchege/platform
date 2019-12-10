@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Training Room - Apollo Centre</title>
+    <title>Training Room (Cheregani Hills) - Apollo Centre</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Apollo Centre conference suites comprise of meeting 
     rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">

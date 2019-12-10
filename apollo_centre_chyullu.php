@@ -6,7 +6,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title> Auditorium - Apollo Centre </title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
+    It has a high definition projector with a surround sound system suitable for audio/ visual presentations or training.">
+    <meta name="keywords" content="Auditorium , apollo centre,apollo center, conference facilities">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_chyullu.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Auditorium" />
+    <meta property="og:description" content=" Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
+    It has a high definition projector with a surround sound system suitable for audio/ visual presentations or training." />
+    
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
