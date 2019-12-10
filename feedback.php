@@ -130,7 +130,7 @@
     <script src="js/parsley.min.js"></script>
     <script src="js/lead.js"></script>
     <!-- ckeditor -->
-    <script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
     <script>
         CKEDITOR.replace('feedback', {
             height: 300,

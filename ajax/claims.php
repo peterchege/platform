@@ -251,12 +251,13 @@ switch ($_GET['request']) {
         if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
-            !isset($_POST['location']) || empty($_POST['location']) ||
-            !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
-            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
-            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
-            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type'])) {
+            !isset($_POST['location']) || empty($_POST['location'])
+            // ||!isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
+            // !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            // !isset($_POST['motor_claim_type'])
+            ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -373,6 +374,7 @@ switch ($_GET['request']) {
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -459,6 +461,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -558,6 +561,7 @@ switch ($_GET['request']) {
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -670,6 +674,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_death_claim_file_name',' $national_id_file_name','$policy_document_file_name','$post_mortem_report_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -737,6 +742,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name',' $national_id_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -788,6 +794,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -817,12 +824,13 @@ switch ($_GET['request']) {
         if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
-            !isset($_POST['location']) || empty($_POST['location']) ||
-            !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
-            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
-            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
-            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type'])) {
+            !isset($_POST['location']) || empty($_POST['location'])
+            // || !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
+            // !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            // !isset($_POST['motor_claim_type'])
+            ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -925,6 +933,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1024,6 +1033,7 @@ switch ($_GET['request']) {
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_group_life_benefit_file_name',' $national_id_file_name','$post_mortem_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1127,6 +1137,7 @@ switch ($_GET['request']) {
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1227,6 +1238,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1338,6 +1350,7 @@ switch ($_GET['request']) {
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$notification_letter_permanent_total_disability_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1491,6 +1504,7 @@ switch ($_GET['request']) {
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$dosh_one_two_file_name','$dosh_four_file_name',' $national_id_file_name','$medical_bill_file_name','$payslips_file_name','$police_abstract_file_name','$sick_off_sheets_file_name','$witness_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1616,6 +1630,7 @@ switch ($_GET['request']) {
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$credit_death_certificate_file_name','$burial_permit_file_name',' $national_id_file_name','$loan_application_and_agreement_file_name','$loan_repayment_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1639,12 +1654,13 @@ switch ($_GET['request']) {
         if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
-            !isset($_POST['location']) || empty($_POST['location']) ||
-            !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
-            !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
-            !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
-            !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            !isset($_POST['motor_claim_type'])) {
+            !isset($_POST['location']) || empty($_POST['location'])
+            // || !isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
+            // !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
+            // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
+            // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
+            // !isset($_POST['motor_claim_type'])
+            ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -1762,6 +1778,7 @@ switch ($_GET['request']) {
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_property_damage_file_name',' $police_abstract_file_name','$invoice_file_name','$detailed_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1829,6 +1846,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$dosh_one_two_property_damage_file_name',' $dosh_four_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1882,6 +1900,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -1982,6 +2001,7 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
@@ -2138,6 +2158,7 @@ switch ($_GET['request']) {
                                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$personal_accident_claim_form_file_name',' $detailed_statement_file_name','$payslips_file_name','$national_id_file_name','$sick_sheet_file_name','$medical_bill_file_name','$discharge_summary_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
+                                $response['status']=1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                                 //  mysqli_error($db);
