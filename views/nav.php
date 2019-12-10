@@ -130,8 +130,8 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        
-                                    <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
+
+                                        <li><a href="product_commercial_goods_in_transit.php"><i class="fas fa-truck-loading"></i> Good in Transit (GIT)</a></li>
                                         <li><a href="product_commercial_liability.php"><i class="fas fa-house-damage"></i> Liability </a></li>
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
@@ -144,8 +144,6 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <!-- <li><a href="product_commercial_glass_plate.php"><i class="fas fa-bars"></i>
-                                                Plate Glass </a></li> -->
                                         <li><a href="product_commercial_special_package.php"><i class="fas fa-dolly-flatbed"></i></i> Specially Pre-Packaged Covers </a>
                                         </li>
                                         <li><a href="product_commercial_theft.php"><i class="fas fa-user-secret"></i>
@@ -302,18 +300,17 @@
                     </li>
 
                     <!-- ON MOBILE VIEW -->
-                    <li class="list-down">
-                        <a class="uk-hidden@m col-sm-12" href="career.php"> Career</a>
+                    <li class="list-down uk-hidden@m">
+                        <a class=" col-sm-12" href="career.php"> Career</a>
                     </li>
-                    <li class="list-down">
-                        <a class="uk-hidden@m col-sm-12" href="career.php"> Make a claim</a>
+                    <li class="list-down uk-hidden@m">
+                        <a class=" col-sm-12" href="career.php"> Make a claim</a>
                     </li>
-                    <li class="list-down">
-                        <a class="uk-hidden@m col-sm-12" href="contact_us.php">Contact us</a>
+                    <li class="list-down uk-hidden@m">
+                        <a class=" col-sm-12" href="contact_us.php">Contact us</a>
                     </li>
 
                     <!--END ON MOBILE VIEW -->
-
                     <!-- BRANCHES -->
                     <li class="list-down">
                         <a href="index.php"><img id="flags" src="img/kenya.png" class="rounded" width="35" height="auto" alt="APA KENYA"> <i class="far fa-caret-square-down"></i> </a>
@@ -322,8 +319,6 @@
 
                             <!--    changed uk-child-width to 1-3 and added 2 divs and ul  -->
                             <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 text-center uk-visible@m" uk-grid>
-
-
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -344,6 +339,9 @@
                             </div>
                         </div>
                     </li>
+
+
+
 
                     <li>
                         <a class="logo1 uk-visible@l" href="about_us.php"><img src="images/Apollo.png" width="120" height="auto" alt="" title="" /></a>

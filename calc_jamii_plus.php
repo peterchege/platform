@@ -72,7 +72,7 @@
                                     </div>
                                     <!-- PRINCIPLE MEMBER AGE -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Principle (you) member Age :</label>
+                                        <label for="propery">Principal (you) member Age :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> 21 - 40 years </option>
@@ -111,7 +111,7 @@
                                         </select>
                                     </div>
 
-                                    
+
                                 </div>
                             </div>
 
@@ -126,20 +126,20 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Principle :</td>
-                                            <td>Kshs 51,744</td>
+                                            <td>Principal :</td>
+                                            <td class="calc_value">Kshs 51,744</td>
                                         </tr>
                                         <tr>
-                                            <td>Spouse: </td>
-                                            <td>Kshs 41,395</td>
+                                            <td>Spouse : </td>
+                                            <td class="calc_value">Kshs 41,395</td>
                                         </tr>
                                         <tr>
-                                            <td>Child 1: </td>
-                                            <td>Kshs 30,276</td>
+                                            <td>Child 1 : </td>
+                                            <td class="calc_value">Kshs 30,276</td>
                                         </tr>
                                         <tr>
-                                            <td>Child 2: </td>
-                                            <td>Kshs 30,276</td>
+                                            <td>Child 2 : </td>
+                                            <td class="calc_value">Kshs 30,276</td>
                                         </tr>
                                     </tbody>
                                 </table>
