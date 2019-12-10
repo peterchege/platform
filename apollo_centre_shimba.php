@@ -6,7 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Boardroom (Shimba Hills) - Apollo Centre</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Our world-class boardroom provides the perfect meeting 
+    place for executive meetings. With a capacity of up to 18 persons, it is equipped with 
+    an extra-large LCD screen & teleconferencing facilities, guaranteeing both comfort and privacy.">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_shimba.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Boardroom (Shimba Hills) - Apollo centre" />
+    <meta property="og:description" content=" Our world-class boardroom provides the perfect meeting 
+    place for executive meetings. With a capacity of up to 18 persons, it is equipped with an extra-large
+    LCD screen & teleconferencing facilities, guaranteeing both comfort and privacy." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/companies.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
