@@ -158,7 +158,7 @@ require_once 'inc/functions.php';
             <div class="objective wow fadeInUp" data-wow-delay="0.1s">
 
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 invest-copy">
                         <h1>Investment Approach and Style</h1>
                         <p>At Apollo Asset Management, our investment philosophy is hinged on a flexible investment
                             strategy, allowing portfolio managers to seek the most attractive total return opportunities
@@ -293,7 +293,7 @@ require_once 'inc/functions.php';
                             <th class="text-table-head text-center">POTENTIAL CLIENT BENEFIT</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="copy-color">
                         <tr>
                             <td>Wealth of Experience</td>
                             <td>
