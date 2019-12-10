@@ -53,7 +53,7 @@ switch ($_GET['request']) {
                     if ($insert) {
                         echo "success";
                     } else {
-                        echo "An error occured please try again.";
+                        echo "An error occurred please try again.";
                     }
                 } else {
                     echo 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 mb';
