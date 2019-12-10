@@ -70,6 +70,14 @@ a {
     font-family: 'Oswald', sans-serif;
 }
 
+.color-blue {
+    color: #0D345F;
+}
+
+.color-red {
+    color: #C80D10;
+}
+
 a:hover,
 a:active,
 a:focus {
