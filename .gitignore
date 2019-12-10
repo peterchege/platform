@@ -3,7 +3,7 @@
 /public/storage
 /documents/claims/*
 /documents/feedback/*
-/documents/internship/*
+# /documents/internship/*
 
 /storage/*.key
 # /vendor
