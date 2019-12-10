@@ -6,9 +6,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Home Insurance calculator (Domestic package) - Apa insurance</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="The policy provides cover to homeowners against accidental
+     loss or damage to their property caused by the following perils: Fire & lightning, explosion,
+     earthquake, storm & tempest, riot & strike, malicious damage, theft, bursting and overflowing
+     of water tanks, apparatus, pipes and impact by road vehicles and animals, objects falling 
+     from aircraft or aerial device.">
+    <meta name="keywords" content="Building Section,Contents Section,All Risks Section, investment , WIBA Section,  
+    get quote, Home insurance quote, generate quote,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/calc_domestic_package.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Home Insurance calculator (Domestic package) - Apa insurance" />
+    <meta property="og:description" content=" The policy provides cover to homeowners against accidental
+     loss or damage to their property caused by the following perils: Fire & lightning, explosion,
+     earthquake, storm & tempest, riot & strike, malicious damage, theft, bursting and overflowing
+     of water tanks, apparatus, pipes and impact by road vehicles and animals, objects falling 
+     from aircraft or aerial device." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/calculator.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
+
 
     <?php include 'views/head_links.php'; ?>
 
