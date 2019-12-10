@@ -16,7 +16,7 @@
     <!-- FACEBOOK MEATADATA -->
     <meta property="og:url" content="https://www.apainsurance.org/apollo_centre_chyullu.php" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Auditorium" />
+    <meta property="og:title" content="Auditorium - Apollo centre" />
     <meta property="og:description" content=" Our auditorium can hold up to 40 people & is equipped with state of the art equipment.
     It has a high definition projector with a surround sound system suitable for audio/ visual presentations or training." />
     
