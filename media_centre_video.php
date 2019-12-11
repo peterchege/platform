@@ -73,12 +73,12 @@ require_once 'inc/functions.php';
     $postPerPage = $totalPosts / 5;
     $postPerPage = ceil($postPerPage);
     ?>
-    <div class="vida">
+    <!-- <div class="vida">
         <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
     </div>
     <div class="cover-line1">
         <img src="images/line.png" alt="">
-    </div>
+    </div> -->
 
 
     <!-- #intro -->
@@ -86,6 +86,7 @@ require_once 'inc/functions.php';
 
 
     <div class="container">
+        <br> <br> <br>
         <div class="apollo">
             <h1>MEDIA CENTRE</h1>
             <div class="under-line img8">
