@@ -11,7 +11,23 @@ require_once 'inc/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Media Centre - APA Insurance</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="Ashok Shah, The Apollo Group CEO (centre right) and 
+    Vinod Bharatan, CEO, APA Insurance (centre left) are accompanied by colleagues from The 
+    Apollo Group at this year’s Think Business Annual Insurance Awards 2019.">
+    <meta name="keywords" content="apa media centre, media center, media centre, apa blog, apa announcement">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/media_centre_video.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Media Centre - APA Insurance" />
+    <meta property="og:description" content=" Ashok Shah, The Apollo Group CEO (centre right) and 
+    Vinod Bharatan, CEO, APA Insurance (centre left) are accompanied by colleagues from The 
+    Apollo Group at this year’s Think Business Annual Insurance Awards 2019.." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/media.css" media="screen">
 
     <?php
