@@ -89,6 +89,15 @@ body p {
     -moz-box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
     box-shadow: 7px 7px 10px -2px rgba(95, 99, 104, 0.6);
 }
+
+.pagin-design {
+    border-radius: 50%;
+    width: 30%;
+    margin: 0 auto;
+    /* background-color: #0C4DA2; */
+}
+
+
 /* MOBILE VIEW & SMALL DEVICES*/
 @media (max-width: 575.98px) {
     .video-frame iframe {
@@ -104,6 +113,9 @@ body p {
     }
     .post .box-info p {
         font-size: small;
+    }
+    .pagin-design {
+        width: 70%;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -121,6 +133,8 @@ body p {
         font-size: small;
     }
 }
+
+
 
 /* CSR */
 

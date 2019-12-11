@@ -95,8 +95,7 @@ require_once 'inc/functions.php';
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
             <div class="video-frame">
-                <iframe src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" 
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
         </div>
@@ -139,15 +138,15 @@ require_once 'inc/functions.php';
                     <?php endwhile; ?>
                 </div>
                 <nav>
-                    <ul class="pagination pull-left pagination-lg ">
+                    <ul class="pagination pull-left pagination-lg pagin-design">
                         <?php if (isset($page) && $page > 1) : ?>
                             <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page - 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&laquo;</a></li>
                         <?php endif; ?>
                         <?php for ($i = 1; $i <= $postPerPage; $i++) : ?>
-                            <li class="page-item <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
+                            <li class="page-item pagin-design <?php if (isset($page) && $i == $page) echo 'active'; ?>"><a class="page-link" href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $i; ?>&?<?php echo  randomstring(900); ?>">Page<?php echo $i; ?></a></li>
                         <?php endfor; ?>
                         <?php if (isset($page) && ($page + 1) <= $postPerPage) : ?>
-                            <li class="page-item"><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&raquo;</a></li>
+                            <li class="page-item "><a href="media_centre_video.php?<?php echo  randomstring(900); ?>&page=<?php echo $page + 1 ?>&<?php echo  randomstring(900); ?>" class="class-link">&raquo;</a></li>
                         <?php endif; ?>
                     </ul>
                 </nav>
