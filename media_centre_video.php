@@ -99,6 +99,11 @@ require_once 'inc/functions.php';
                 for both our clients and their loved ones. Built on commitment, integrity and innovation, we have risen
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
+            <div class="video-frame">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
         </div>
     </div>
 
