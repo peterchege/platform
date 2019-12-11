@@ -94,7 +94,7 @@ require_once 'inc/functions.php';
                 for both our clients and their loved ones. Built on commitment, integrity and innovation, we have risen
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
-            <div class="video-frame">
+            <div class="video-frame wow fadeInUp" data-wow-delay="0.2s">
                 <iframe src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
@@ -104,7 +104,7 @@ require_once 'inc/functions.php';
     <!-- ===================================== PRODUCTS ===================================== -->
 
     <div class="container-fluid23">
-        <div class="product product-new ">
+        <div class="product product-new wow fadeInUp" data-wow-delay="0.1s">
             <div class="header text-left">
                 <h1>OUR STORIES</h1>
             </div>
