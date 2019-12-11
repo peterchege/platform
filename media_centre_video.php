@@ -73,12 +73,7 @@ require_once 'inc/functions.php';
     $postPerPage = $totalPosts / 5;
     $postPerPage = ceil($postPerPage);
     ?>
-    <!-- <div class="vida">
-        <video src="media/happy.mp4" loop playsinline uk-video="autoplay: inview"></video>
-    </div>
-    <div class="cover-line1">
-        <img src="images/line.png" alt="">
-    </div> -->
+
 
 
     <!-- #intro -->
@@ -100,7 +95,7 @@ require_once 'inc/functions.php';
                 to become one of the leading Financial Service Groups in East Africa.
             </p>
             <div class="video-frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" 
+                <iframe src="https://www.youtube.com/embed/4sa006eSDZo" frameborder="0" 
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
