@@ -127,7 +127,7 @@
                                     <div class="col-2 check-bx">
                                         <input class="form-check-input" type="checkbox" id="content_check" onclick="myFunction_content()">
                                     </div>
-                                    <div class=" col-10">
+                                    <div class="col-10">
                                         <label class="form-check-label" for="gridCheck1" data-target="#modal-center1" uk-toggle>
                                             Contents Cover ( NOTE: We only insure brick material ... <i class="fas fa-info-circle"></i>
                                         </label>
