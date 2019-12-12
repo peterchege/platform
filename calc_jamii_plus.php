@@ -146,6 +146,7 @@
                                 </table>
                             </div>
                         </div>
+                        <!-- OUTPATIENT SECTION -->
                         <hr>
                         <h2>OUTPATIENT BENEFIT</h2>
                         <div class="row row-section ">
@@ -159,7 +160,7 @@
                                             <option data-ref="" name="" value=""> Kshs 50,000.00 </option>
                                             <option data-ref="" name="" value=""> Kshs 75,000.00 </option>
                                             <option data-ref="" name="" value=""> Kshs 150,000.00 </option>
-                                           
+
                                         </select>
                                     </div>
                                     <!-- PRINCIPLE MEMBER AGE -->
