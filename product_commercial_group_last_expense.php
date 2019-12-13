@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
+    <link rel="stylesheet" href="css/parsley.css" media="screen">
     <?php include 'views/head_links.php'; ?>
 
 </head>
@@ -443,6 +444,8 @@
     <?php
     require_once 'inc/scripts.php';
     ?>
+    <script src=" js/parsley.min.js"> </script>
+    <script src="js/lead.js"></script>
 </body>
 
 </html>
