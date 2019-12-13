@@ -166,3 +166,12 @@
     font-size: 25px;
 
 }
+
+/* TERMS & CONDITIONS */
+
+.app-terms h2{
+    color: #0C4DA2;
+    font-family: 'Oswald',
+    sans-serif;
+    text-align: start;
+}
