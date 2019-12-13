@@ -128,19 +128,19 @@
                                     <tbody>
                                         <tr>
                                             <td>Principal :</td>
-                                            <td class="calc_value">Kshs 51,744</td>
+                                            <td class="calc_value principal">Kshs 51,744</td>
                                         </tr>
                                         <tr>
                                             <td>Spouse : </td>
-                                            <td class="calc_value">Kshs 41,395</td>
+                                            <td class="calc_value spouse">Kshs 41,395</td>
                                         </tr>
                                         <tr>
                                             <td>Child 1 : </td>
-                                            <td class="calc_value">Kshs 30,276</td>
+                                            <td class="calc_value child1">Kshs 30,276</td>
                                         </tr>
                                         <tr>
                                             <td>Child 2 : </td>
-                                            <td class="calc_value">Kshs 30,276</td>
+                                            <td class="calc_value child2">Kshs 30,276</td>
                                         </tr>
                                     </tbody>
                                 </table>
