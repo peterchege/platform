@@ -179,3 +179,17 @@
 .app-terms ul li{
     color: #0D345F;
 }
+
+.terms-table tr th{
+     color: #0C4DA2;
+     font-family: 'Oswald',
+     sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+}
+
+.terms-table tbody tr td {
+    color: #0D345F;  
+    font-size: 15px;
+    width: 100px;
+}

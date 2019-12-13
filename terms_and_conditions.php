@@ -88,30 +88,122 @@
                     journeys you track on the App, as further described below. </li><br>
                 <li class="wow fadeInUp " data-wow-delay="0.1s"><b>Profile Data</b> includes your username or similar identifier and password (which may be your
                     APA username and password and wish to use those login details). </li><br>
-                <li class="wow fadeInUp " data-wow-delay="0.1s"><b>Usage Data</b> includes information about how you use the App and other APA products and services, 
+                <li class="wow fadeInUp " data-wow-delay="0.1s"><b>Usage Data</b> includes information about how you use the App and other APA products and services,
                     as well as device type, the amount of time you use the App and your use of the App’s features. </li><br>
-                <li class="wow fadeInUp " data-wow-delay="0.1s"><b>Marketing and Communications Data</b> includes your preferences in receiving marketing from us and our 
-                    third parties and your communication preferences.  </li>
+                <li class="wow fadeInUp " data-wow-delay="0.1s"><b>Marketing and Communications Data</b> includes your preferences in receiving marketing from us and our
+                    third parties and your communication preferences. </li>
             </ul>
 
             <!-- How is Your Personal Data Collected  -->
-            <h2 class="wow fadeInUp" data-wow-delay="0.1s"> How is Your Personal Data Collected  </h2>
+            <h2 class="wow fadeInUp" data-wow-delay="0.1s"> How is Your Personal Data Collected </h2>
             <p class="content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-               We use different methods to collect data from and about you including through: 
+                We use different methods to collect data from and about you including through:
             </p>
             <p class="content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
-               <b>Direct interactions.</b> You may give us your Identity, Contact Data and Marketing and Communications Data by completing text fields on the App or 
-               submitting picture footage). This includes personal data you provide when you: 
+                <b>Direct interactions.</b> You may give us your Identity, Contact Data and Marketing and Communications Data by completing text fields on the App or
+                submitting picture footage). This includes personal data you provide when you:
             </p>
             <ul class="text-justify">
                 <li class="wow fadeInUp" data-wow-delay="0.1s">Register for the App or submit login details on the App if you are already registered with APA; </li>
-                <li class="wow fadeInUp " data-wow-delay="0.1s">Obtain a quotation for and/or purchase our products or services;  </li>
-                <li class="wow fadeInUp " data-wow-delay="0.1s">Make a claim following an accident;  </li>
+                <li class="wow fadeInUp " data-wow-delay="0.1s">Obtain a quotation for and/or purchase our products or services; </li>
+                <li class="wow fadeInUp " data-wow-delay="0.1s">Make a claim following an accident; </li>
                 <li class="wow fadeInUp " data-wow-delay="0.1s">Submit picture footage to us for the purpose of making a claim (as further described below);</li>
                 <li class="wow fadeInUp " data-wow-delay="0.1s">Give us some feedback. </li>
             </ul>
-            
 
+            <!-- Automated Technologies or Interactions -->
+            <h2 class="wow fadeInUp" data-wow-delay="0.1s">Automated Technologies or Interactions </h2>
+            <ul class="text-justify">
+                <li class="wow fadeInUp" data-wow-delay="0.1s">As you interact with the App, we may automatically collect Profile Data, Usage Data and Technical Data.
+                    We collect this personal data by using cookies, server logs, diagnostic information, communications logs and other similar technologies. </li><br>
+                <li class="wow fadeInUp " data-wow-delay="0.1s">We will only process your location data where we have your explicit consent to do so. You will also have
+                    the option via your device’s settings to withdraw such consent at any time. </li>
+            </ul>
+
+
+            <!-- Purposes for Which We Will Use Your Personal Data -->
+
+            <h2 class="wow fadeInUp" data-wow-delay="0.1s">Purposes for Which We Will Use Your Personal Data </h2>
+            <p class="content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
+                We have set out below, in a table format, a description of all the ways we plan to use your personal data, and which of the legal bases we rely on to do so.
+                We have also identified what our legitimate interests are where appropriate.
+            </p>
+            <p class="content-offer wow fadeInUp text-left" data-wow-delay="0.1s">
+                Note that we may process your personal data for more than one lawful ground depending on the specific purpose for which we are using your data. Please contact
+                us using the details below if you need details about the specific legal ground we are relying on to process your personal data where more than one ground has
+                been set out in the table below.
+            </p>
+            <div class="terms-table wow fadeInUp" data-wow-delay="0.1s">
+                <table class="uk-table uk-table-striped">
+                    <thead>
+                        <tr>
+                            <th>Purpose/Activity</th>
+                            <th>Type of data</th>
+                            <th>Lawful basis for processing including basis of legitimate interest</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-left">
+                        <tr>
+                            <td>To register you as an App user </td>
+                            <td>(a) Identity (b) Contact (c) Profile </td>
+                            <td>Performance of a contract with you </td>
+                        </tr>
+                        <tr>
+                            <td>To provide you with an insurance quotation and related administration for offering
+                                renewal, pricing <br>(a) and statistical purposes and crime prevention </td>
+                            <td>(a) Identity (b) Contact (c) Technical </td>
+                            <td>a) Performance of a contract with you<br>
+                                (b) Necessary to comply with a legal obligation<br>
+                                (c) Explicit consent from you (where the processing involves your location data for
+                                the purposes of giving you a driver score and an insurance quotation as a result) </td>
+                        </tr>
+                        <tr>
+                            <td>To deal with claims submitted by you </td>
+                            <td>(a) Identity
+                                (b) Contact</td>
+                            <td>Performance of a contract with you </td>
+                        </tr>
+                        <tr>
+                            <td>To manage our relationship with you which will include:<br>
+                                (a) Notifying you about changes to our terms or privacy policy<br>
+                                (b) Asking you to leave a review or take a survey (if applicable)
+                            </td>
+                            <td>(a) Identity
+                                (b) Contact
+                                (c) Profile
+                                (d) Marketing and Communications
+                            </td>
+                            <td>(a) Performance of a contract with you<br>
+                                (b) Necessary to comply with a legal obligation<br>
+                                (c) Necessary for our legitimate interests (to keep our records updated and to study how customers use our products/services) </td>
+                        </tr>
+                        <tr>
+                            <td>To manage our relationship with you which will include:<br>
+                                (a) Notifying you about changes to our terms or privacy policy<br>
+                                (b) Asking you to leave a review or take a survey (if applicable)
+                            </td>
+                            <td>(a) Identity
+                                (b) Contact
+                                (c) Profile
+                                (d) Marketing and Communications
+                            </td>
+                            <td>(a) Performance of a contract with you<br>
+                                (b) Necessary to comply with a legal obligation<br>
+                                (c) Necessary for our legitimate interests (to keep our records updated and to study how customers use our products/services) </td>
+                        </tr>
+                        <tr>
+                            <td>To administer and protect our business and the App (including troubleshooting, data analysis, testing,
+                                system maintenance, support, reporting and hosting of data)
+                            </td>
+                            <td>(a) Identity (b) Contact (c) Technical (d) Usage
+                            </td>
+                            <td>(a) Necessary for our legitimate interests (for running our business, provision of administration and IT services, 
+                                network security, to prevent fraud and in the context of a business reorganisation or group restructuring exercise)
+                                (b) Necessary to comply with a legal obligation </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     </div>
