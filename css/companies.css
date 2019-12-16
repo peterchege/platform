@@ -93,7 +93,6 @@
 .leader-img P{
     text-align: left;
     padding: 7px 20px;
-    /* height: 85px; */
 }
 
 .title-name{
@@ -192,4 +191,10 @@
     color: #0D345F;  
     font-size: 15px;
     width: 100px;
+}
+
+@media (max-width: 575.98px) {
+.img6 {
+    width: 100%;
+}
 }
