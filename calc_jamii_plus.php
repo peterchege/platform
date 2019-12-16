@@ -327,29 +327,52 @@
             <div class="col-md-3 box-container1 left-side">
                 <h2>TOTAL AMOUNT <br>(Kshs)</h2>
                 <div class="box-amount total">
-                    <p></p>
+                    <p>100,000</p>
                 </div>
                 <br>
                 <hr>
                 <div class="row">
-                    <div class="col-10">
-                        <h2>Total Inpatien Benefit :</h2>
-                        <p>Kshs 40,000</p>
+                    <div class="col-10 result">
+                        <h3>Charges:</h3>
+                        <ul>
+                            <li>
+                                <h2>Total Inpatient Benefit :<span class="result_value"> Kshs 40,000</span></h2>
+                            </li>
+                            <li>
+                                <h2>Total Outpatient Benefit :<span class="result_value"> Kshs 37,168</span></h2>
+                            </li>
+                            <li>
+                                <h2>Total Maternity cover :<span class="result_value"> Kshs 20,000</span></h2>
+                            </li>
+                            <li>
+                                <h2>Total Dental Cover :<span class="result_value"> Kshs 6,000</span></h2>
+                            </li>
+                            <li>
+                                <h2>Total Optical Cover :<span class="result_value"> Kshs 3,440</span></h2>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
                 <br>
-                <div class="rate text-center ">
+                <!-- <div class="rate text-center ">
                     <p> For more information you can contact us on<br> Tel - 0202862777</br></p>
-                </div>
+                </div> -->
                 <br>
                 <hr>
 
                 <div class="row text-center">
+                    <div class="col-12 btn-quote">
+                        <button name="buy_now" id="buy_now" class="btn">
+                            Generate PDF QUOTE
+                        </button>
+                    </div>
                     <div class="col-12 btn-red">
                         <button name="buy_now" id="buy_now" class="btn">
                             BUY NOW
                         </button>
                     </div>
+
                 </div>
                 <br>
 
