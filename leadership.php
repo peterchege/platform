@@ -105,7 +105,7 @@
                     </div>
 
 
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/mary.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Mary Kimotho<br>
@@ -116,7 +116,7 @@
                             M’Mukindia has had a varied and dynamic career over 35 years of working experiene...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
-                    </div>
+                    </div> -->
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/richard.jpg" class="img" alt="">
@@ -131,10 +131,6 @@
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
 
-                </div>
-
-                <div class="row lead-img">
-
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/pratul.jpg" class="img" alt="">
                         <h5 class="title-name">
@@ -147,6 +143,23 @@
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
                     </div>
+
+                </div>
+
+                <div class="row lead-img">
+
+                    <!-- <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/board/pratul.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Pratul Shah<br>
+                            <small>Company Secretary</small>
+                        </h5>
+
+                        <p>
+                            Pratul Shah is a Chartered Certified Accountant and a Certified Public...
+                        </p>
+                        <button class="btn btn-primary" data-target="#modal-full4" uk-toggle>Read more</button>
+                    </div> -->
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src=" img/board/smshah.jpg" class="img" alt="">
@@ -186,12 +199,7 @@
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full7" uk-toggle>Read more</button>
                     </div>
-
-                </div>
-
-                <div class="row lead-img text-left">
-
-                    <div class="col-md-12 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/board/reto.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Reto Schnarwiler<br>
@@ -203,6 +211,24 @@
                         </p>
                         <button class="btn btn-primary reto" data-target="#modal-full8" uk-toggle>Read more</button>
                     </div>
+
+
+                </div>
+
+                <div class="row lead-img text-left">
+
+                    <!-- <div class="col-md-12 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/board/reto.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Reto Schnarwiler<br>
+                            <small>Director</small>
+                        </h5>
+
+                        <p>
+                            Reto Schnarwiler leads Swiss<br> Re’s public sector business<br> in EMEA Americas; and ...
+                        </p>
+                        <button class="btn btn-primary reto" data-target="#modal-full8" uk-toggle>Read more</button>
+                    </div> -->
 
                 </div>
 
@@ -294,7 +320,7 @@
                         DIRECTOR
                     </h2>
                     <p>
-                    M’Mukindia has had a varied and dynamic career over 35 years of working experience.</p>
+                        M’Mukindia has had a varied and dynamic career over 35 years of working experience.</p>
                 </div>
             </div>
         </div>
