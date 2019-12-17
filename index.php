@@ -256,7 +256,7 @@ require_once 'inc/functions.php';
                             <!-- button click -->
                             <div class="row prod-btn">
                                 <div class="col-6">
-                                    <a href="#modal-full_travel" class="btn btn-primary" uk-toggle>Get Cover</a>
+                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary" >Get Cover</a>
                                 </div>
 
                                 <div class="col-6 text-left prod-lf">
