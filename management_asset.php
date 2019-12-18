@@ -122,19 +122,6 @@
                     </div>
 
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="img/apa4/solo.jpg" class="img" alt="">
-                        <h5 class="title-name">
-                            Solomon Maoga<br>
-                            <small>Investment Executive</small>
-                        </h5>
-
-                        <p>
-                            Solomon Maonga is the Investment Executive at Apollo Asset Management...
-                        </p>
-                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
-                    </div>
-
-                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/passport2/jp.jpg" class="img" alt="">
                         <h5 class="title-name">
                             John Paul<br>
@@ -145,6 +132,19 @@
                             John Paul is the Senior Accountant at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
+                    </div>
+
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src="img/apa4/solo.jpg" class="img" alt="">
+                        <h5 class="title-name">
+                            Solomon Maoga<br>
+                            <small>Investment Executive</small>
+                        </h5>
+
+                        <p>
+                            Solomon Maonga is the Investment Executive at Apollo Asset Management...
+                        </p>
+                        <button class="btn btn-primary" data-target="#modal-full2" uk-toggle>Read more</button>
                     </div>
 
 
