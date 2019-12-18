@@ -13,7 +13,7 @@
     to the East African market and, in turn, enhance the quality of life for both our clients 
     and their loved ones">
     <meta name="keywords" content="apa insurances, apa leadership, who is apa insurance, apa media center,  
-    apa media , apa csr, apa company,apa customer service charter">
+    apa media, apa media centre, apa csr, apa company, apa customer service charter">
     <meta name="author" content="">
 
     <!-- FACEBOOK MEATADATA -->
@@ -98,7 +98,7 @@
 
                     <div class="col-md-3 ">
                         <img src="images/icon/icon8.png" alt="mission">
-                        <h2> CORE VALUE</h2>
+                        <h2> CORE VALUES</h2>
                         <p>
                             Humility, Leadership, Tireless, Trailblazing, Insightful, Integrity, No-Nonsense.
                         </p>
@@ -158,7 +158,7 @@
                                     <h1>2003</h1>
                                 </div>
                                 <p class="text-center">
-                                    APA Insurance Kenya formed after the merger of the general business of Apollo Company and Pan African Insurance.
+                                    APA Insurance Kenya formed after the merger of the general insurance businesses of Apollo Insurance Company and Pan Africa Insurance.
                                 </p>
                             </div>
                         </li>
@@ -169,8 +169,8 @@
                                     <h1>2009</h1>
                                 </div>
                                 <p class="text-justify">
-                                    Gordon Court- Completes the construction of Apollo Centre which becomes
-                                    the group headquaters. Apa Insurance (Uganda)
+                                    Gordon Court - Completes the construction of Apollo Centre which becomes
+                                    the Group headquaters. APA Insurance (Uganda)
                                     A specialist General Insurance provider in Uganda commenced operations.
                                 </p>
                             </div>
@@ -182,7 +182,7 @@
                                     <h1>2010</h1>
                                 </div>
                                 <p class="text-center">
-                                    Apollo Insurance separates its Life Insurance business to from Apollo Life Assurance
+                                    Apollo Insurance separates its Life Insurance business to Apollo Life Assurance
                                     Limited.
                                 </p>
                             </div>
@@ -194,7 +194,7 @@
                                     <h1>2013</h1>
                                 </div>
                                 <p class="text-center">
-                                    Apollo life assurance LTD rebrands to APA Life Assurance Limited
+                                    Apollo Life Assurance Ltd rebrands to APA Life Assurance Limited.
                                 </p>
                             </div>
                         </li>
@@ -375,7 +375,7 @@
                 <div class="col-md-4">
                     <div class="charter">
                         <img src="images/icon/icon3.png" alt="">
-                        <h2>Website & Social<br> media</h2>
+                        <h2>Website & Social<br> Media</h2>
                         <hr>
                         <p>
                             Response Time<br> Within 1 hour.
@@ -390,7 +390,7 @@
                         <h2>Walk in clients</h2>
                         <hr>
                         <p>
-                            Response Time<br> Within 15 minutesrs.
+                            Response Time<br> Within 15 minutes.
                         </p>
 
                     </div>
@@ -442,11 +442,7 @@
                             select
                             the insurance cover that best meets your requirements.
                         </li>
-                        <li>
-                            We will ensure our staff are trained to provide you with all the information you need to
-                            select
-                            the insurance cover that best meets your requirements.
-                        </li>
+                        
                     </ul>
                     <p>
                         Our Request to you:
@@ -462,7 +458,7 @@
                             Keep us updated of any changes that might affect your policy.
                         </li>
                         <li>
-                            We appreciate that you will always give us facts.
+                            We appreciate that you will always give us true facts.
                         </li>
                     </ul>
 
