@@ -58,7 +58,7 @@
                             <div class="job-description text-center">
 
                                 <h2>MOTOR PRIVATE COVER </h2>
-                                <P class="text-justify">Motor insurance cover protects the insured against
+                                <P class="text-justify">Motor insurance protects the insured against
                                     loss if the motor vehicle insured is involved in an accident, burnt, stolen and
                                     third party liability arising from use of the insured motor vehicle.</P>
                                 <hr>
@@ -67,12 +67,11 @@
                                         <h2>Our main products include:</h2>
                                         <p> Comprehensive Insurance Cover</p>
                                         <p2>This cover takes care of a wide range of risks that a motorist may suffer in
-                                            the process of using his vehicle while carrying his
-                                            own goods. The main cover features are as follows;</p2>
+                                            the process of using his/her vehicle. The main cover features are as follows;</p2>
                                         <ol>
                                             <li>Accidental Impact damage including overturning and collision.</li>
                                             <li>Accidental Fire damage.</li>
-                                            <li>Theft/partial theft cover.</li>
+                                            <li>Theft/partial Theft cover.</li>
                                             <li>Third-party liability cover for bodily injury & property damage.</li>
                                             <li>Windscreen cover.</li>
                                             <li>Entertainment system cover.</li>
@@ -82,11 +81,11 @@
                                             <li>Political Violence & Terrorism cover.</li>
                                         </ol>
                                         <hr>
-                                        <p>Third-Party, Fire, and Theft</p>
+                                        <p>Third-Party, Fire and Theft</p>
                                         <p2>This policy covers the insured against three main risks;</p2>
                                         <ol>
                                             <li>Third-party liability cover for bodily injury or property damage as a
-                                                result.
+                                                result
                                                 of your vehicle being involved in an accident.</li>
                                             <li>Accidental Fire damage in the event your vehicle catches fire and is
                                                 destroyed.</li>
@@ -100,13 +99,13 @@
                                             legally on the road.
                                             The cover protects a vehicle owner from liabilities that may arise from
                                             third parties in the event of an accident.
-                                            Third-party liability relates to;</p2>
+                                            Third-party liability relates to:</p2>
                                         <ol>
                                             <li> Bodily injury.</li>
                                             <li>Property damage.</li>
                                             <li>Theft cover as a result of your vehicle being stolen.</li>
                                         </ol>
-                                        <p2>This cover does not protect the car owner from personal liabilities and any
+                                        <p2>This cover does not protect the car owner from personal liabilities - any
                                             repair costs are met by the insured himself.</p2>
                                         <br><br><br><br>
 
@@ -151,7 +150,7 @@
                                             <li>BIMA BAMBA</li>
                                         </ol>
                                         <hr>
-                                        <h3>The cover provides the following benefits. This include:</h3>
+                                        <h3>The cover provides the following benefits:</h3>
                                         <ol>
                                             <li>Accidental impact damage including overturning and collision. </li>
                                             <li>Accidental fire damage.</li>
@@ -171,7 +170,7 @@
                                             <li>Theft cover as a result of your vehicle being stolen.</li>
                                             <li>Bodily injury.</li>
                                             <li>Property damage.</li>
-                                            <li>Theft cover as a result of your vehicle being stolen.</li>
+                                            
                                         </ol>
                                         <br>
                                         <hr>
@@ -222,15 +221,15 @@
                                                 Excess Protector</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.25% of the insured value with a minimum of Kshs. 2,000.00
+                                            <td>Charged at 0.25% of the insured vehicle value with a minimum of Kshs. 2,000.00
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Accidental & Theft Excess Protector</td>
+                                            <td>Accidental Damage & Theft Excess Protector</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.5% the of insured value with a minimum of Kshs. 5,000.00
-                                                Subject to the vehicle being fitted with Antitheft device</td>
+                                            <td>Charged at 0.5% the of insured vehicle value with a minimum of Kshs. 5,000.00
+                                                Subject to the vehicle being fitted with an Anti-theft device</td>
                                         </tr>
                                         <tr>
                                             <td>Loss of Use/ Courtesy Car</td>
@@ -238,13 +237,13 @@
                                             <td>N/A</td>
                                             <td>10 Days cover at Kshs. 3,000.00<br>
                                                 20 Days Cover at Kshs. 5,000.00<br>
-                                                Subject to time excess of three (3) </td>
+                                                Subject to time excess of three (3) days </td>
                                         </tr>
                                         <tr>
                                             <td>Political Violence & Terrorism cover</td>
                                             <td>N/A</td>
                                             <td>N/A</td>
-                                            <td>Charged at 0.25% of the insured value with a minimum of Kshs. 1,500.00
+                                            <td>Charged at 0.25% of the insured vehicle value with a minimum of Kshs. 1,500.00
                                             </td>
                                         </tr>
                                         <tr>
@@ -268,13 +267,13 @@
                                             <td>Free cover up to Kshs. 20,000.00</td>
                                         </tr>
                                         <tr>
-                                            <td>Third Part Persons</td>
+                                            <td>Third Party Persons</td>
                                             <td>- Any one person <br>Kshs. 3 Million<br><br>
-                                                -Any One Event Kshs. 20 Million
+                                                - Any One Event Kshs. 20 Million
                                             </td>
                                             <td>
                                                 - Any one person<br> Kshs. 3 Million <br><br>
-                                                -Any One Event Kshs. 20 Million
+                                                - Any One Event Kshs. 20 Million
                                             </td>
                                             <td>
                                                 - Any one person Kshs. 3 Million<br><br>
@@ -369,7 +368,7 @@
                     <a href="">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
-                        <p>Motor Cover Claim form</p>
+                        <p>Motor Insurance Claim form</p>
                         <hr>
                         <a href="pdf/claim/motor_claim_form.pdf" target="_blank">
                             <p class=" download">Download <i class="fas fa-download"></i>
