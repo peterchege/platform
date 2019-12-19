@@ -91,7 +91,7 @@
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                APA has become the largest insurance firm in Kenya and the most innovative in product offering.
+                APA has become the largest insurance firms in Kenya and the most innovative in product offerings.
                 APA Insurance underwrites General Insurance risks such as Motor, Agriculture, Marine, and Micro
                 Insurance.
                 We also underwrite Individual and Family Health Insurance.
@@ -166,7 +166,7 @@
                         <img src="img/apa4/benjamin.jpg" class="img" alt="">
                         <h5 class="title-name">
                             Benjamin Otieno<br>
-                            <small>Group Risk manager</small>
+                            <small>Group Risk Manager</small>
                         </h5>
 
                         <p>
@@ -183,7 +183,7 @@
                         </h5>
 
                         <p>
-                            Judith Bogonko Juma is the head of customer service, and has 8 years of...
+                            Judith Bogonko Juma is the Head of Customer Service, and has 8 years of...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
                     </div>
@@ -260,13 +260,13 @@
                     </h2>
                     <p class="text-justify">
                         Maria Simiyu has worked in the HR field for over 16 years mainly as a HR generalist in the
-                        financial and professional services, telecommunications and aviation sectors.  She is passionate
+                        financial and professional services, telecommunications and aviation sectors. She is passionate
                         about people and strongly believes that each employee has value to offer the organisation and as
-                        such should be developed to their highest capabilities and potential.  She holds a Masters in
+                        such should be developed to their highest capabilities and potential. She holds a Masters in
                         Counselling Psychology from USIU-A and a Bachelor of Education degree from Kenyatta University. 
                         She is also a member of the Institute of Human Resource Management (IHRM) as well as
                         Toastmasters
-                        International.  She regularly gives off her time towards mentoring young people and actively
+                        International. She regularly gives off her time towards mentoring young people and actively
                         participates
                         in this through two organisations – Precious Sisters & Global Give Back Circle.
 
@@ -293,13 +293,13 @@
                     <p class="text-justify">
                         James is an experienced Information & Communication Technology professional with extensive
                         background
-                        in planning, organizing and implementing Information communication and related Technologies that
+                        in planning, organising and implementing Information Communication and related Technologies that
                         support
                         business operations. He holds a Masters degree in Business Administration and is a graduate of
                         Computer
                         Science. James has served in various ICT leadership roles for the past 14 years in both
                         Insurance and
-                        Banking sectors, with continued success in meeting business / operational goals. He is a member
+                        Banking sectors, with continued success in meeting business/operational goals. He is a member
                         of
                         Information Systems Audit and Control Association (ISACA).
 
@@ -328,7 +328,7 @@
                         Audit professions.
                         He is a member of the Institute of Certified Public Accountants of Kenya and the Information
                         Systems and Control
-                        Association. Prior to joining the Apollo Group, he held similar positions at the Jubilee
+                        Association. Prior to joining the Apollo Group, he held similar positions at Jubilee
                         Holdings and NIC Bank.
                         He also worked in various capacities at Commercial Bank of Africa Limited. He is a member of the
                         Institute of
@@ -352,14 +352,14 @@
                         Benjamin Otieno
                     </h1>
                     <h2 class="small-head">
-                        Group Risk manager
+                        Group Risk Manager
                     </h2>
                     <p class="text-justify">
                         Benjamin has an experience spanning over 15 years in banking, development financing and
                         insurance industries
                         having worked on various risk management and strategy assignments. He holds a bachelor’s degree
-                        in mathematics
-                        and computer science and a MSc in information systems. He is a member of the Global Association
+                        in Mathematics
+                        and Computer Science and a MSc in Information Systems. He is a member of the Global Association
                         of Risk Professionals
                         (GARP) and Information Systems Audit and Control Association (ISACA).
                     </p>
@@ -383,11 +383,11 @@
                         Head of Customer Experience & Innovation
                     </h2>
                     <p class="text-justify">
-                        Judith Bogonko Juma is the head of customer service, and has 8 years of experience in the
+                        Judith Bogonko Juma is the Head of Customer Service, and has 8 years of experience in the
                         insurance industry.
-                        She holds a Bachelor’s degree in Actuarial Science from JKUAT, a postgraduate degree in project
-                        management
-                        from KIM and an MBA from Daystar University. She is currently pursuing ACII certification
+                        She holds a Bachelor’s degree in Actuarial Science from JKUAT, a postgraduate degree in Project
+                        Management
+                        from KIM and an MBA from Daystar University. She is currently pursuing ACII certification.
                     </p>
                 </div>
             </div>

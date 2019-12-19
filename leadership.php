@@ -66,8 +66,8 @@
             </div>
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Welcome to Apollo Investments Limited. The flagship company, APA Insurance, was formed
-                after the merger of the general businesses of Apollo Insurance Company and Pan Africa Insurance.
+                Welcome to Apollo Investments Limited (AIL). The flagship company, APA Insurance, was formed
+                after the merger of the general insurance businesses of Apollo Insurance Company and Pan Africa Insurance.
                 With a combined experience of over 100 years.
             </p>
         </div>
@@ -182,7 +182,7 @@
                         </h5>
 
                         <p>
-                            PJ Shah is a director of Apollo investments, having sat on the board...
+                            PJ Shah is a director of Apollo Investments, having sat on the board...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full6" uk-toggle>Read more</button>
                     </div>
@@ -294,8 +294,8 @@
                         Chairman, Apollo Investments Ltd
                     </h2>
                     <p>
-                        Daniel Ndonye brings to the Board vast experience.
-                        He is alumnus of the Alliance High School and holds a Bachelor of Commerce degree from the
+                        Daniel Ndonye brings vast experience to the Board.
+                        He is an alumni of the Alliance High School and holds a Bachelor of Commerce degree from the
                         University of Nairobi.
                         He is also a Fellow of the Institute of Chartered Accountants in England and Wales, the
                         Institute of Certified
@@ -346,7 +346,7 @@
                         He was the Chief Executive of Old Mutual Asset Managers (Kenya) and Managing Director of Kestrel
                         Capital (EA) Limited,
                         having previously worked for Peat Marwick, Cayman Islands, Arthur Andersen & Company and
-                        Prudential Corporation Plc in London.
+                        Prudential Corporation PLC in London.
                         He was also the founding Chairman of Fund Managers Association of Kenya and previously served as
                         a member of Market Leaders Forum, Central Bank of Kenya.
                         Other Directorships include: APA Life Assurance Ltd, Apollo Investments Ltd, ARM Cement Ltd,
@@ -376,7 +376,7 @@
                         services sectors, on strategic planning and restructuring.
                         He has vast experience in Corporate Finance, which includes transaction advice on mergers,
                         acquisitions/disposals and raising capital through private placements,
-                        public offers and a debt funding.Pratul is a non-executive board member of Car & General (K)
+                        public offers and a debt funding. Pratul is a non-executive board member of Car & General (K)
                         Limited, Coastal Bottlers Limited, Bank One Limited – Mauritius, Reliance Insurance Company
                         (Tanzania) Limited and I&M Bank (Tanzania) Limited.</p>
                 </div>
@@ -430,7 +430,7 @@
                     <h2 class="small-head">
                         Director
                     </h2>
-                    <p>PJ Shah is a director of Apollo investments, having sat on the board since the inception of APA
+                    <p>PJ Shah is a director of Apollo Investments, having sat on the board since the inception of APA
                         insurance
                         in 1978. He has over 35 years in the insurance industry and has vast business interests. PJ is
                         an active
@@ -460,7 +460,7 @@
                         experience in
                         both these fields. He is an active angel investor and is a non-executive director of different
                         companies.
-                        Piyush draws his experience from firms both in Kenya and in the United Kingdom
+                        Piyush draws his experience from firms both in Kenya and in the United Kingdom.
                     </p>
 
                 </div>
@@ -484,10 +484,10 @@
                     </h2>
                     <p>Reto Schnarwiler leads Swiss Re’s public sector business in EMEA; Americas; and the company’s
                         microinsurance activities.
-                        He’s a member of the board of directors at responsibility Investments AG, Switzerland and APA
+                        He’s a member of the board of directors at Responsibility Investments AG, Switzerland and APA
                         Insurance, APA Life and
-                        Apollo Investments, Kenya. With Swiss Re since 1996, he holds a degree in business
-                        administration from University of
+                        Apollo Investments, Kenya. Having been with Swiss Re since 1996, he holds a degree in Business
+                        Administration from University of
                         St. Gallen (lic.oec. HSG), an MBA in Financial Services & Insurance from Leuven-Vlerick Business
                         School in Belgium,
                         University of Nyenrode and University of St. Gallen in Switzerland.
