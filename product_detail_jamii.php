@@ -162,7 +162,7 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit.
+                                            <li>Post hospitalisation benefit.
                                             </li>
                                             <li>Funeral expenses benefit.
                                             </li>
@@ -193,7 +193,7 @@
                                                 including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Cesarean section delivery including professional fees, labor and
+                                            <li>Cesarean section delivery including professional fees, labour and
                                                 recovery wards.
                                             </li>
 
@@ -256,7 +256,7 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit.
+                                            <li>Post hospitalisation benefit.
                                             </li>
                                             <li>Funeral expenses benefit.
                                             </li>
@@ -291,7 +291,7 @@
                                                 including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Caesarean section delivery including professional fees, labor and
+                                            <li>Caesarean section delivery including professional fees, labour and
                                                 recovery wards.
                                             </li>
 
@@ -424,7 +424,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Post-Hospitalization Treatment- reimbursement only
+                                                <td>Post-hospitalisation Treatment- reimbursement only
                                                     limited to the first 3 weeks after discharge</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -786,7 +786,7 @@
                     <a href="pdf/claim/Dental Preauthorisation Claim Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
-                        <p>Dental authorization</p>
+                        <p>Dental authorisation</p>
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>

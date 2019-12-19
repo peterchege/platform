@@ -104,7 +104,7 @@
                                             to the amount of the performance bond.
                                         </p2>
                                         <p> Work Permits/Security Bond </p>
-                                        <p2>This is a legal authorization that allows a person to take employment in
+                                        <p2>This is a legal authorisation that allows a person to take employment in
                                             instances where a person is permitted to work in a country where
                                             one does not hold citizenship.
                                         </p2><br><br>

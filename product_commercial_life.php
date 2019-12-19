@@ -58,7 +58,7 @@
                                 <h2>Group Life </h2>
                                 <P class="text-justify">Group Life insurance is a benefit offered by an employer or
                                     an aggregator of diverse segments of the population for reasons other than insurance
-                                    (like an association or labor organization) to its workers or members. Such
+                                    (like an association or labour organization) to its workers or members. Such
                                     organizations are called the sponsor of the group life scheme. Group life insurance
                                     is typically offered as part of employee / membership benefit package.</P>
 
@@ -324,7 +324,7 @@
                     <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
-                        <p>Dental authorization</p>
+                        <p>Dental authorisation</p>
                         <hr>
                         <p>Dowload</p>
                     </a> -->

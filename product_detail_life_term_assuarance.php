@@ -91,7 +91,7 @@
                                             <li><b>Waiver of Premiums -</b> In the event that you become totally and
                                                 permanently disabled, all future premiums will be
                                                 waived and the policy will remain in force. </li>
-                                            <li><b>Accident Hospitalization Benefit -</b>In the event that you or the
+                                            <li><b>Accident hospitalisation Benefit -</b>In the event that you or the
                                                 beneficiary child are hospitalized as a result of an accident,
                                                 APA would reimburse the inpatient medical costs incurred, subject to 60%
                                                 of the policy sum assured to a maximum of KShs. 500,000. </li>
@@ -201,7 +201,7 @@
                                         </p2>
 
                                         <p> 4. Medical Reimbursement Rider </p>
-                                        <p2>In case of an accident leading to the injury and hospitalization of the life
+                                        <p2>In case of an accident leading to the injury and hospitalisation of the life
                                             assured,
                                             the in-patient medical expenses incurred will be reimbursed subject to a
                                             maximum of 60%

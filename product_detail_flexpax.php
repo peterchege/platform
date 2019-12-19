@@ -38,9 +38,9 @@
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
-                        <li class="nav-item">
+               <!--         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FEATURES / BENEFITS</a>
-                        </li>
+                        </li>  -->
                         <li class="nav-item">
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
@@ -128,7 +128,7 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment
                                             </li>
-                                            <li>Post hospitalization benefit
+                                            <li>Post hospitalisation benefit
                                             </li>
                                             <li>Funeral expenses benefit
                                             </li>

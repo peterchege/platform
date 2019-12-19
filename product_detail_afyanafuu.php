@@ -143,14 +143,14 @@
                                         <p2>With this, one is covered for; Pre-existing, Chronic, Congenital,
                                             HIV/AIDS-related
                                             conditions, cancer treatment, organ transplant, lodger fees, accidental
-                                            dental/reconstructive surgery among many more others.</p2>
+                                            dental/reconstructive surgery among many more other treatments.</p2>
                                         <p>Optional Benefits:</p>
                                         <ol>
                                             <li>Outpatient cover.</li>
                                             <li>Maternity cover. </li>
                                             <li>Dental & Optical Cover. </li>
                                             <li>Last expense cover. </li>
-                                            <li>Personal Accident Benefit Cover.</li>
+                                            <li>Personal Accident cover.</li>
                                         </ol>
                                         <hr>
                                         <h3>The cover also provides for enhanced benefits. This include:</h3>
@@ -166,18 +166,18 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit.
+                                            <li>Post hospitalisation benefit.
                                             </li>
                                             <li>Funeral expenses benefit.
                                             </li>
-                                            <li>Free Personal Accident benefit for Principle member.
+                                            <li>Free Personal Accident benefit for the Principal member.
                                             </li>
                                         </ol>
 
                                         <hr>
                                         <h3>Who is eligible for the cover?</h3>
                                         <ol>
-                                            <li>Adults between the age of 18 years and 80 years.
+                                            <li>Adults between the age of 18 and 80 years.
                                             </li>
                                             <li>Children between the age of 1 month and 17 years.
                                             </li>
@@ -188,20 +188,20 @@
                                         <p2>Children bring us happiness and blessings. As we prepared for our new bundle
                                             of joy, it
                                             is
-                                            best that we cater to the mother’s health and conditions pre-birth. This is
+                                            best that we cater to the mother’s health and conditions prior to birth. This is
                                             why we have
                                             a
                                             Maternity Cover that caters for:</p2>
                                         <ol>
-                                            <li>Normal delivery including professional fees, labor and recovery wards
+                                            <li>Normal delivery including professional fees, labour and recovery wards
                                                 for all
                                                 plans.
                                             </li>
-                                            <li>Costs of delivery, and other related ailments and complications
+                                            <li>Cost of delivery, and other related ailments and complications
                                                 including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Cesarean section delivery including professional fees, labor and
+                                            <li>Cesarean section delivery including professional fees, labour and
                                                 recovery wards.
                                             </li>
 
@@ -265,7 +265,7 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment.
                                             </li>
-                                            <li>Post hospitalization benefit.
+                                            <li>Post hospitalisation benefit.
                                             </li>
                                             <li>Funeral expenses benefit.
                                             </li>
@@ -300,7 +300,7 @@
                                                 including ectopic
                                                 pregnancies, miscarriage, etc.
                                             </li>
-                                            <li>Cesarean section delivery including professional fees, labor and
+                                            <li>Cesarean section delivery including professional fees, labour and
                                                 recovery wards.
                                             </li>
 
@@ -400,8 +400,8 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Pre-existing / chronic conditions/HIV/AIDS/ Congenital
-                                                    conditions after 12 months of cover and on full disclosureat
+                                                <td>Pre-existing / chronic conditions/ HIV/AIDS / Congenital
+                                                    conditions after 12 months of cover and on full disclosure at
                                                     the time of joining</td>
                                                 <td> 300,000 </td>
                                                 <td> 250,000 </td>
@@ -433,7 +433,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Emergency dental/optical treatment following accident</td>
+                                                <td>Emergency dental/optical treatment following an accident</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -453,7 +453,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Post Hospitalization Treatment reimbursement only limited to the
+                                                <td>Post hospitalisation Treatment reimbursement only limited to the
                                                     first 2 weeks
                                                     after discharge</td>
                                                 <td> 25,000 </td>
@@ -465,7 +465,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Accommodation costs for 1 parent staying in hospital with insured
+                                                <td>Accommodation costs for 1 parent staying in hospital with an insured
                                                     child under
                                                     8 years.</td>
                                                 <td> Covered </td>
@@ -477,7 +477,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td>Day Care Surgery under General anaesthesia</td>
+                                                <td>Day Care Surgery under general anaesthesia</td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
                                                 <td> Covered </td>
@@ -756,7 +756,7 @@
                     <a href="pdf/claim/Dental Preauthorisation Claim Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Claim Form</h2>
                         <hr>
-                        <p>Dental authorization</p>
+                        <p>Dental authorisation</p>
                         <hr>
                         <p class="download">Dowload <i class="fas fa-download"></i></p>
                     </a>

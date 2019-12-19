@@ -65,17 +65,16 @@
 
                                 <h2> CROP COVER </h2>
                                 <P class="text-justify">Crop insurance indemnifies you against the loss of crop due to
-                                    natural disasters, such as hail, drought, and floods.At APA we ensure your
-                                    Ultimate.
-                                    happiness.
+                                    natural disasters, such as hail, drought, and floods. At APA we ensure your
+                                    ultimate happiness.
                                 </P>
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <h2>Under our Crop policy we cover:</h2>
                                         <!-- Single Animal Cover -->
-                                        <p>1.) Multi-Peril Crop Insurance (MPCI)</p>
-                                        <p2>A seasonal cover against physical loss or damage to growing crop directly
+                                        <p>1) Multi-Peril Crop Insurance (MPCI)</p>
+                                        <p2>A seasonal cover against physical loss or damage to growing crops directly
                                             caused by assorted natural calamities such as Drought, Uncontrollable Pests
                                             &
                                             Diseases, Hailstone Damage, Flooding, Fire, Lightning, Earthquake,
@@ -85,13 +84,13 @@
                                         <br><br>
                                         <p2><b><i>Features:</i></b><br>
                                             In this, we cover all sorts of crops in a single strand of large or small
-                                            farms. The claim payable is determined by a qualified loss assessor who
+                                            farms. The claim payable is determined by a qualified expert who
                                             inspects and scientifically quantifies the magnitude of the loss.
 
                                         </p2>
                                         <br><br>
                                         <p2><b><i>Benefits:</i></b><br>
-                                            Cover for all kinds of crops irrespective the farm size, cover form any form
+                                            Cover for all kinds of crops irrespective the farm size, cover from any form
                                             of
                                             loss associated with nature, stability, improved financial management and
                                             comfort
@@ -100,9 +99,9 @@
                                         <!-- END Single Animal Cover -->
                                         <hr>
                                         <!-- Poultry insurance -->
-                                        <p>2.) Named-Peril Crop Insurance (NPCI) </p>
-                                        <p2>In this, we offer to cover all sorts of crops in ether small or large farms.
-                                            The claim payable is determined by a qualified loss assessor who inspects
+                                        <p>2) Named-Peril Crop Insurance (NPCI) </p>
+                                        <p2>In this, we offer to cover all sorts of crops in small or large farms.
+                                            The claim payable is determined by a qualified expert who inspects
                                             and scientifically quantifies the magnitude of the loss.
 
                                         </p2>
