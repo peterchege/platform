@@ -234,8 +234,83 @@
                         </div>
 
                         <hr>
+                        <!-- DENTAL SECTION -->
+                        <h2>DENTAL COVER</h2>
+                        <div class="row row-section ">
+                            <div class="col-md-6 ">
+                                <div class="row">
+                                    <!-- PRINCIPLE MEMBER AGE -->
+                                    <div class="form-group col-12">
+                                        <label for="propery">Principal (you) Cover limit :</label>
+                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                            <option value="-1" selected disabled>Choose...</option>
+                                            <option data-ref="" name="" value=""> Kshs 10,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 20,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 30,000.00 </option>
 
-                        <!-- OUTPATIENT SECTION -->
+                                        </select>
+                                    </div>
+                                    <!-- SPOUSE MEMBER AGE -->
+                                    <div class="form-group col-12">
+                                        <label for="propery">Spouse cover limit :</label>
+                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                            <option value="-1" selected disabled>Choose...</option>
+                                            <option data-ref="" name="" value=""> Kshs 10,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 20,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 30,000.00 </option>
+
+                                        </select>
+                                    </div>
+                                    <!-- CHILD MEMBER AGE -->
+                                    <div class="form-group col-12">
+                                        <label for="propery">Child 1 member cover limit :</label>
+                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
+                                            <option value="-1" selected disabled>Choose...</option>
+                                            <option data-ref="" name="" value=""> Kshs 10,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 20,000.00 </option>
+                                            <option data-ref="" name="" value=""> Kshs 30,000.00 </option>
+
+                                        </select>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6" id="text">
+                                <!-- <input name="building" id="building" type="text" class="form-control number-amount" placeholder="Building value" value="" disabled> -->
+                                <table class="uk-table uk-table-striped calc">
+                                    <thead>
+                                        <tr class="calc_head">
+                                            <th>MEMBERS</th>
+                                            <th>ANNUAL OF COMPUTED</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Principal :</td>
+                                            <td class="calc_value">Kshs 51,744</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spouse : </td>
+                                            <td class="calc_value">Kshs 41,395</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Child 1 : </td>
+                                            <td class="calc_value">Kshs 30,276</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Child 2 : </td>
+                                            <td class="calc_value">Kshs 30,276</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <!-- OPTIONAL SECTION -->
                         <h2>OPTIONAL COVER</h2>
                         <div class="row row-section ">
                             <div class="col-md-6 ">
