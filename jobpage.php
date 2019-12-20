@@ -21,7 +21,21 @@ while ($check = mysqli_fetch_assoc($datequery)) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Job Page- APA INSURANCE</title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="We advocate for equal employment opportunities to all 
+    persons regardless of age, color, nationality, race, religion, gender and marital status.">
+    <meta name="keywords" content="apa careers,apa jobs, apa job description, apa job,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/jobpage.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Job Description." />
+    <meta property="og:description" content=" We advocate for equal employment opportunities to all 
+    persons regardless of age, color, nationality, race, religion, gender and marital status." />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/career.css" media="screen">
 
 
@@ -81,14 +95,14 @@ while ($check = mysqli_fetch_assoc($datequery)) {
                                         <hr>
                                         <p> Job description</p>
                                         <p2><?php //echo desanitize($job_description['job_short_description']);
-                                                    $job_short_description = desanitize($job_description['job_short_description']);
-                                                    $job_short_description = strip_tags($job_short_description);
-                                                    if (strlen($job_short_description) > 200) {
-                                                        echo $newpost = substr($job_short_description, 0, 200) . '... ';
-                                                    } else {
-                                                        echo $job_short_description;
-                                                    }
-                                                    ?>
+                                            $job_short_description = desanitize($job_description['job_short_description']);
+                                            $job_short_description = strip_tags($job_short_description);
+                                            if (strlen($job_short_description) > 200) {
+                                                echo $newpost = substr($job_short_description, 0, 200) . '... ';
+                                            } else {
+                                                echo $job_short_description;
+                                            }
+                                            ?>
                                         </p2>
                                     </div>
                                     <div class="col-md-4">
