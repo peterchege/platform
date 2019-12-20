@@ -123,7 +123,7 @@
                                             </li>
                                             <li>Cover for inpatient dental and optical treatment
                                             </li>
-                                            <li>Post hospitalization benefit
+                                            <li>Post hospitalisation benefit
                                             </li>
                                             <li>Funeral expenses benefit
                                             </li>
@@ -280,7 +280,7 @@
                     <!-- <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
-                        <p>Dental authorization</p>
+                        <p>Dental authorisation</p>
                         <hr>
                         <p>Dowload</p>
                     </a> -->

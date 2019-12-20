@@ -417,7 +417,7 @@
                     <a href="#">
                         <h2>Claim Form</h2>
                         <hr>
-                        <p>Dental authorization</p>
+                        <p>Dental authorisation</p>
                         <hr>
                         <p>Download</p>
                     </a>

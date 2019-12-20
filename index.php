@@ -14,18 +14,18 @@ require_once 'inc/functions.php';
     <title>APA INSURANCE : Insuring Happiness</title>
     
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
-    <meta name="description" content="Welcome to apa insurance, the biggest insurer in east africa.
+    <meta name="description" content="Welcome to APA Insurance, one of the largest insurers in East Africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most ">
-    <meta name="keywords" content="insurance cover,apa insurance kenya, apa insurance limited, 
-    buy insurance cover, buy cover online, cover quotation, insurance online quotation ,apa online services">
+    <meta name="keywords" content="insurance cover, apa insurance kenya, apa insurance limited, 
+    buy insurance cover, buy cover online, cover quotation, insurance online quotation, apa online services">
     <meta name="author" content="">
 
     <!-- FACEBOOK MEATADATA -->
     <meta property="og:url"                content="https://www.apainsurance.org/" />
     <meta property="og:type"               content="Homepage" />
-    <meta property="og:title"              content="APA Insurance, APA Insurance Kenya, APA Insurance Limitted" />
-    <meta property="og:description"        content="Welcome to apa insurance, the biggest insurer in east africa.
+    <meta property="og:title"              content="APA Insurance, APA Insurance Kenya, APA Insurance Limited" />
+    <meta property="og:description"        content="Welcome to APA Insurance, one of the largest insurers in East Africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
 
@@ -167,8 +167,8 @@ require_once 'inc/functions.php';
                             <h2>Motor Private Insurance</h2>
                         </div>
                         <br><br>
-                        <p class="text-justify">Motor insurance cover protects the insured against loss in the event
-                            that the motor vehicle insured is involved in an accident, burnt, stolen...
+                        <p class="text-justify">Motor insurance  protects you against loss in the event
+                            that your motor vehicle insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
@@ -298,7 +298,7 @@ require_once 'inc/functions.php';
                             </div>
                         </div>
                         <div class="head-container">
-                            <h2> Livestock Insurance</h2>
+                            <h2>Livestock Insurance</h2>
                         </div>
                         <br>
                         <p class="text-justify">Your livestock is your source of income and guaranteeing their safety
@@ -351,7 +351,7 @@ require_once 'inc/functions.php';
                             <h3>REQUEST ASSISTANCE</h3>
                             <P>
                                 We will acknowledge/respond to your queries received from various platforms within the
-                                timelines. We promise to respond to all your requests in a professional and timely
+                                timelines of our Customer Service Charter. We promise to respond to all your requests in a professional & timely
                                 manner.
                             </P>
                             <div class="load-more">

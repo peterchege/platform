@@ -53,14 +53,14 @@
 
                             <div class="job-description text-center">
 
-                                <h2> Hospitalization Loss of income (HosiCare) </h2>
+                                <h2> hospitalisation Loss of income (HosiCare) </h2>
                                 <P class="text-justify">When facing a medical emergency, the last thing you want to
                                     worry about is the financial burden. APA Life understands that
                                     the only thing you should think about is getting better – which is why we came up
                                     with Hosicare.
                                 </P>
                                 <P class="text-justify">Our Hospital Cash Insurance compensates you for lost income as a
-                                    result of hospitalization. The cash benefit is payable for
+                                    result of hospitalisation. The cash benefit is payable for
                                     each day spent in continuous admission in hospital as a result of illness or
                                     accident for medical treatment.
                                 </P>
@@ -77,9 +77,9 @@
                                         <h2>Why the Hosi cover? </h2>
                                         <p2>Hospital Cash Policy guards individuals and families against the trauma that
                                             they face because of increased financial burden during
-                                            hospitalization. In the event of the individual or a family member is
+                                            hospitalisation. In the event of the individual or a family member is
                                             hospitalized, this Hospital Cash policy provides cash benefit
-                                            of KShs. 1,000 for each day (24 hrs.) of hospitalization (maximum 52 days
+                                            of KShs. 1,000 for each day (24 hrs.) of hospitalisation (maximum 52 days
                                             per year) to meet incidental expenses. The amount can be used
                                             for expenses like relative's transport & food, medical bills, etc. that are
                                             not covered by regular policies.
@@ -133,7 +133,7 @@
                                         <h2 class="text-center">Our main products features include:</h2><br>
 
                                         <p> Hospital cash</p>
-                                        <p2>In the event of hospitalization of the main member or a family member,
+                                        <p2>In the event of hospitalisation of the main member or a family member,
                                             KShs. 1,000 will be payable per day for every consecutive day up to 15
                                             days per event and limited to 52 days in a year. Payments will accrue from
                                             the fourth consecutive day and will include the first three days.</p2>

@@ -202,7 +202,7 @@
                                             </p2>
                                             <br><br>
                                             <li><b>Medical Reimbursement Rider </b></li>
-                                            <p2>In case of an accident leading to the injury and hospitalization of the
+                                            <p2>In case of an accident leading to the injury and hospitalisation of the
                                                 life assured, the in-patient
                                                 medical expenses incurred will be reimbursed subject to a maximum of 60%
                                                 of the policy sum assured

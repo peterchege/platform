@@ -83,7 +83,7 @@
                                     <div class="content">
                                         <h3>Hospital Cash claim </h3>
                                         <br>
-                                        <p> In the event of hospitalization of the main member or a family member</p>
+                                        <p> In the event of hospitalisation of the main member or a family member</p>
                                     </div>
                                 </div>
                             </a>
