@@ -39,7 +39,19 @@ if ($job_desc['job_id'] !== $job_token) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title><?= strtoupper(desanitize($job_desc['job_title'])); ?> - APA Insurance </title>
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content=" <?= html_entity_decode($job_desc['job_short_description']); ?>">
+    <meta name="keywords" content="apa careers,apa jobs, apa job description, apa job,">
+    <meta name="author" content="">
+
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/job_description.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Job Description." />
+    <meta property="og:description" content="  <?= html_entity_decode($job_desc['job_short_description']); ?>" />
+
+    <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/career.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
@@ -83,9 +95,9 @@ if ($job_desc['job_id'] !== $job_token) {
                         <?php if ($job_desc['salary'] > 0) : ?>
                             <li><b>Salary:</b><span>
                                     <?php
-                                        $salo = desanitize($job_desc['salary']);
-                                        echo money($salo);
-                                        ?>
+                                    $salo = desanitize($job_desc['salary']);
+                                    echo money($salo);
+                                    ?>
                                 </span>
                             </li>
                             <br>

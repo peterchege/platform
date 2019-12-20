@@ -61,7 +61,7 @@
                                 <div class="row">
                                     <!-- COVER LIMIT -->
                                     <div class="form-group col-12">
-                                        <label for="propery">Choose your cover Limit :</label>
+                                        <label for="propery">Choose your cover Limit For your family :</label>
                                         <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
                                             <option value="-1" selected disabled>Choose...</option>
                                             <option data-ref="" name="" value=""> DAZZLE - Kshs 10,0000,000 </option>
