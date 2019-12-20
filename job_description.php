@@ -80,7 +80,7 @@ if ($job_desc['job_id'] !== $job_token) {
         </div>
         <div class="row ">
             <div class="col-10 job-box">
-                <div class="job-description text-center">
+                <div class="job-description text-justify">
                     <h2><?= strtoupper(desanitize($job_desc['job_title'])); ?></h2>
                     <hr>
                     <ul class="text-left">
