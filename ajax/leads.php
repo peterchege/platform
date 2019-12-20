@@ -102,7 +102,7 @@ switch ($_GET['mode']) {
             $full_name = filter_var(mysqli_real_escape_string($db, ($_POST['full_name'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, ($_POST['phone'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
-            $extension = filter_var(mysqli_real_escape_string($db, ($_POST['extension'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $extension = filter_var(mysqli_real_escape_string($db, ($_POST['extension'])), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, ($_POST['email'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $branch = filter_var(mysqli_real_escape_string($db, ($_POST['branch'])), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $feedback = sanitize($_POST['feedback']);
