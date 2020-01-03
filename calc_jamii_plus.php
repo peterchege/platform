@@ -386,7 +386,7 @@
                         <hr>
 
                         <!-- OPTIONAL SECTION -->
-                        <h2>OPTIONAL COVER</h2>
+                        <h2>MATERNITY COVER</h2>
                         <div class="row row-section ">
                             <div class="col-md-6 ">
                                 <div class="row">
@@ -401,29 +401,6 @@
 
                                         </select>
                                     </div>
-                                    <!-- DENTAL COVER LIMIT -->
-                                    <div class="form-group col-12">
-                                        <label for="propery">Choose your Dental cover Limit :</label>
-                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
-                                            <option value="-1" selected disabled>Choose...</option>
-                                            <option data-ref="" name="" value=""> Kshs 10,000.00 </option>
-                                            <option data-ref="" name="" value=""> Kshs 20,000.00 </option>
-                                            <option data-ref="" name="" value=""> Kshs 30,000.00 </option>
-
-                                        </select>
-                                    </div>
-                                    <!-- OPTICAL COVER LIMIT -->
-                                    <div class="form-group col-12">
-                                        <label for="propery">Choose your Optical cover Limit :</label>
-                                        <select id="property" name="property" class="form-control selectFilter" data-target="section" required>
-                                            <option value="-1" selected disabled>Choose...</option>
-                                            <option data-ref="" name="" value=""> Kshs 10,000.00 </option>
-                                            <option data-ref="" name="" value=""> Kshs 20,000.00 </option>
-                                            <option data-ref="" name="" value=""> Kshs 30,000.00 </option>
-
-                                        </select>
-                                    </div>
-
                                 </div>
                             </div>
 
@@ -440,14 +417,7 @@
                                             <td>Maternity : </td>
                                             <td class="calc_value">Kshs 41,395</td>
                                         </tr>
-                                        <tr>
-                                            <td>Dental : </td>
-                                            <td class="calc_value">Kshs 41,395</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Optical : </td>
-                                            <td class="calc_value">Kshs 41,395</td>
-                                        </tr>
+                                    
 
                                     </tbody>
                                 </table>
