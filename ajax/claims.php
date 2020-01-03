@@ -47,29 +47,14 @@ switch ($_GET['request']) {
                     // $response['message'] = 'success';
                     // $response['status'] = 1;
                     //mailing claim report
-                    require_once '../mailer/PHPMailer.php';
-                    require_once '../mailer/SMTP.php';
-                    $subject =ucwords($claim_type. ' claim reported on '.$created_at);
+                    $subject =ucwords($claim_type. ' claim reported on '.pretty_date($created_at));
+                    $businessEmail ='peterchege442@gmail.com';
+                    $businessFullName='Peter Chege';
+                    $clientEmail = $email;
+                    $clientFullName= $full_name;
+                    $body = 'CLAIM EVENT: '. $claim_event;
 
-                    $mail = new PHPMailer;
-                    $mail->IsSMTP();
-                    $mail->isHTML(true);
-                    $mail->Host = 'mail.apainsurance.org';
-                    // $mail->SMTPSecure = 'ssl';
-                    $mail->Port = 25;
-                    // $mail->SMTPAuth = true;
-                    $mail->Username = 'apa.website@apollo.co.ke';
-                    $mail->Password = 'Apa321$321';
-
-
-                    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-                    $mail->AddAddress($email, $full_name);
-                    $mail->addBCC('anthonybaru@gmail.com');
-                    // $mail -> AddCC($_POST['email'], $_POST['name']);
-                    $mail->AddReplyTo($email, $full_name);
-                    $mail->Subject = $subject;
-                    $mail->Body ='CLAIM EVENT: '. $claim_event;
-                    if ($mail->Send()) {
+                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)) {
                         $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                         $response['status'] = 1;
                     } else {
