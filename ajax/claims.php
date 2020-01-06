@@ -43,9 +43,7 @@ switch ($_GET['request']) {
                 $feed = $db->query($query);
 
                 if ($feed) {
-                    // //to be removed in place of emails
-                    // $response['message'] = 'success';
-                    // $response['status'] = 1;
+        
                     //mailing claim report
                     $subject =ucwords($claim_type. ' claim reported on '.pretty_date($created_at));
                     $businessEmail ='peterchege442@gmail.com';
@@ -163,9 +161,6 @@ switch ($_GET['request']) {
                 $detailed_statement_file_ext = explode('.', $detailed_statement_file_name);
                 $detailed_statement_file_ext = end($detailed_statement_file_ext);
                 $detailed_statement_file_ext = strtolower($detailed_statement_file_ext);
-
-
-
 
                 $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
 

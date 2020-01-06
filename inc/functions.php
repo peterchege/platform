@@ -154,14 +154,6 @@ function user_destination()
 }
 
 // social media where user is coming from
-// function user_direction_social_media()
-// {
-//     if (isset($_SESSION['social_apply'])) {
-//         return $_SESSION['social_apply'];
-//     }
-// }
-
-// social media where user is coming from
 function user_destination_social_media()
 {
     if (isset($_SESSION['social_apply'])) {
