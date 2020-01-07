@@ -10,9 +10,9 @@ require_once 'inc/functions.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <title>APA INSURANCE : Insuring Happiness</title>
-    
+
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Welcome to APA Insurance, one of the largest insurers in East Africa.
     You can now purchase insurance, service your policies and report a claim online. 
@@ -22,10 +22,10 @@ require_once 'inc/functions.php';
     <meta name="author" content="">
 
     <!-- FACEBOOK MEATADATA -->
-    <meta property="og:url"                content="https://www.apainsurance.org/" />
-    <meta property="og:type"               content="Homepage" />
-    <meta property="og:title"              content="APA Insurance, APA Insurance Kenya, APA Insurance Limited" />
-    <meta property="og:description"        content="Welcome to APA Insurance, one of the largest insurers in East Africa.
+    <meta property="og:url" content="https://www.apainsurance.org/" />
+    <meta property="og:type" content="Homepage" />
+    <meta property="og:title" content="APA Insurance, APA Insurance Kenya, APA Insurance Limited" />
+    <meta property="og:description" content="Welcome to APA Insurance, one of the largest insurers in East Africa.
     You can now purchase insurance, service your policies and report a claim online. 
     This gives you more time to do the things that you love most" />
 
@@ -38,7 +38,7 @@ require_once 'inc/functions.php';
     <?php include 'views/head_links.php'; ?>
 
 </head>
- 
+
 <body>
 
     <!--==========================
@@ -76,7 +76,7 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                    <a href="maintenance.php">
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-plane-departure"></i>
                             <p>Travel Insurance</p>
@@ -167,7 +167,7 @@ require_once 'inc/functions.php';
                             <h2>Motor Private Insurance</h2>
                         </div>
                         <br><br>
-                        <p class="text-justify">Motor insurance  protects you against loss in the event
+                        <p class="text-justify">Motor insurance protects you against loss in the event
                             that your motor vehicle insured is involved in an accident, burnt, stolen...
                         </p>
                         <!-- button click -->
@@ -256,7 +256,7 @@ require_once 'inc/functions.php';
                             <!-- button click -->
                             <div class="row prod-btn">
                                 <div class="col-6">
-                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary" >Get Cover</a>
+                                    <a href="maintenance.php" class="btn btn-primary">Get Cover</a>
                                 </div>
 
                                 <div class="col-6 text-left prod-lf">
