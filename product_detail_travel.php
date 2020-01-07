@@ -105,7 +105,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary">Get Cover</a>
+                                                    <a href="maintenance.php" target="_blank" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -669,7 +669,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary">Get Cover</a>
+                                            <a href="maintenance.php" target="_blank" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -719,8 +719,8 @@
                         <p class="download">Download <i class="fas fa-download"></i></p>
                     </a>
                 </div>
-                                <!-- Browsure form -->
-                                <div class="col-md-3 box-download">
+                <!-- Browsure form -->
+                <div class="col-md-3 box-download">
                     <a href="pdf/proposal/Travel Proposal Form.pdf" target="_blank">
                         <h2> <i class="fas fa-file-pdf"></i> Proposal</h2>
                         <hr>
