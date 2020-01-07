@@ -58,7 +58,7 @@
 
                     <div class="col-md-6">
                         <div class="customer-login1">
-                            <h2> Fill in the following form :</h2>
+                            <h2> Provide us with the following details :</h2>
                             <form id="internship_form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="customer-form intern-form">
 
                                 <div class="row text-left">
