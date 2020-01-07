@@ -59,20 +59,13 @@
                     <div class="col-md-6">
                         <div class="customer-login1">
                             <h2> Provide us with the following details :</h2>
-                            <form id="internship_form" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="customer-form intern-form">
+                            <form id="maintenance" method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" enctype="multipart/form-data" class="customer-form intern-form">
 
                                 <div class="row text-left">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="first_name">First Name</label>
-                                            <input name="first_name" type="text" class="form-control" id="first_name" aria-describedby="" placeholder="e.g john" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="last_name">Last Name</label>
-                                            <input name="last_name" type="text" class="form-control" id="last_name" aria-describedby="" placeholder="e.g doe" required>
+                                            <label for="full_name">Full Name</label>
+                                            <input name="full_name" type="text" class="form-control" id="full_name" aria-describedby="" placeholder="e.g john" required>
                                         </div>
                                     </div>
                                 </div>
@@ -87,10 +80,13 @@
                                     <input name="phone" type="tel" class="form-control" id="phone" placeholder="0712 xxx xxx" required>
                                 </div>
 
-
+                                <div style="display: none">
+                                    <input type="hidden" id="product_id" name="product_id" value="9">
+                                    <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                </div>
                                 <div class="customer-btn">
                                     <div class="row">
-                                        <button id="submit_internship_form" type="submit" class="btn btn-primary submit_internship_form">Submit</button>
+                                        <button id="maintenance_submt" type="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -110,49 +106,11 @@
 
 
 
-    <!-- Optional JavaScript -->
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-    <script>
-        DecoupledEditor.create(document.querySelector('#editor'))
-            .then(editor => {
-                const toolbarContainer = document.querySelector('#toolbar-container');
-
-                toolbarContainer.appendChild(editor.ui.view.toolbar.element);
-            })
-            .catch(error => {
-                console.error(error);
-            });
-
-
-
-
-        ClassicEditor
-            .create(document.querySelector('#editor1'), {
-                ckfinder: {
-                    uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json',
-                },
-                toolbar: ['ckfinder', 'imageUpload', '|', 'heading', '|', 'bold', 'italic', '|', 'undo', 'redo']
-            })
-            .catch(error => {
-                console.error(error);
-            });
-    </script>
+    <?php
+    require_once 'inc/scripts.php';
+    ?>
+    <script src="js/parsley.min.js"></script>
+    <script src="js/lead.js"></script>
 
 </body>
 
