@@ -107,9 +107,6 @@ switch ($_GET['request']) {
                 exit;
             } else {
                 $claim_id = randomstring(10);
-
-                $life_claim_type = '';
-
                 // completed form
                 $claim_form_motor_file_name = $_FILES['claim_form_motor']['name'];
                 $claim_form_motor_file_size = $_FILES['claim_form_motor']['size'];
@@ -205,8 +202,59 @@ switch ($_GET['request']) {
                         $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`detailed_statement`,`created_at`) 
                                             VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at')  ");
                         if ($insert) {
-                            $response['message'] = 'success';
-                            $response['status'] = 1;
+                            // mailing claims documents
+                            $subject =ucwords($motor_claim_type. ' claim reported on '.pretty_date($created_at));
+                            $businessEmail ='peterchege442@gmail.com';
+                            $businessFullName='Peter Chege';
+                            $clientEmail = $email;
+                            $clientFullName= $full_name;
+                            $body = 'Find attached the documents for claim: ';
+
+                            $documents = array(
+                                'claim form' => $claim_form_motor_file_path,
+                                'police abstract' => $police_abstract_file_path,
+                                'driving license' => $driving_license_file_path,
+                                'log book' => $log_book_file_path,
+                                'detailed statement' => $detailed_statement_file_path
+                            );
+
+
+                            //mailing claim report
+                            require_once '../mailer/PHPMailer.php';
+                            require_once '../mailer/SMTP.php';
+
+
+                            $mail = new PHPMailer;
+                            $mail->IsSMTP();
+                            $mail->isHTML(true);
+                            $mail->Host = 'mail.apainsurance.org';
+                            // $mail->SMTPSecure = 'ssl';
+                            $mail->Port = 25;
+                            // $mail->SMTPAuth = true;
+                            $mail->Username = 'apa.website@apollo.co.ke';
+                            $mail->Password = 'Apa321$321';
+
+
+                            $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+                            $mail->AddAddress($businessEmail, $businessFullName);
+                            $mail->addBCC('anthonybaru@gmail.com');
+                            // $mail -> AddCC($_POST['email'], $_POST['name']);
+                            $mail->AddReplyTo($clientEmail, $clientFullName);
+                            //$mail->addAttachment($claim_form_motor_file_path);
+                            //looping throught the available documents
+                            // foreach ($documents as $key => $document) {
+                            //     echo $key.'  '.$document.'<hr>';
+        
+                            //     $mail->addAttachment($document, $key);
+                            // }
+                            // claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents)
+                            if ($mail->send()) {
+                                $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                                $response['status'] = 1;
+                            } else {
+                                $reponse['message'] = 'Something went wrong! ';
+                                $response['status'] = 0;
+                            }
                         } else {
                             $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
                             //  mysqli_error($db);

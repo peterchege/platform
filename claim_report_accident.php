@@ -276,8 +276,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="detailed_statement">Attach document : Picture of the accident
-                                        scene</label>
+                                    <label for="detailed_statement">Attach document : Detailed statement of accident</label>
                                     <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
                                 </div>
                             </div>
