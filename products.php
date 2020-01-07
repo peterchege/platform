@@ -103,7 +103,7 @@
                                 <a href="#modal-full_motor" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
-                            <div class="col-6  prod-lf">
+                            <div class="col-6 text-left  prod-lf">
                                 <a href="product_detail_motor.php" class="btn btn-primary prod-grey">Read More</a>
                             </div>
 
@@ -121,12 +121,12 @@
                         <br>
                         <p class="text-justify">Whether you are headed for a business trip or a trip of a lifetime, our
                             Globetrotter
-                            policy will ensure you will have nothing to worry about...
+                            policy will ensure you...
                         </p>
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
+                                <a href="maintenance.php" class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -144,7 +144,6 @@
                         <div class="head-container">
                             <h2 class="text-center">Home Insurance <br> (Domestic Package)</h2>
                         </div>
-                        <br>
                         <p class="text-justify">This is a combined policy for homeowners. It covers the building itself,
                             contents whilst in the house and...
 
@@ -198,7 +197,6 @@
                         <div class="head-container">
                             <h2> Enhanced Personal Accident <br> (Flexpac) </h2>
                         </div>
-                        <br>
                         <p class="text-justify">This is a combined Personal Accident policy. It offers
                             compensation payable to the insured or his/her legal representative...
                         </p>
