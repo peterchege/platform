@@ -84,7 +84,7 @@ function randomstring($len)
 //function to format dates
 function pretty_date($date)
 {
-    return date("M d, Y h:i A", strtotime($date));
+    return date("M d, Y h:i:s A", strtotime($date));
 }
 
 //reduce string size
@@ -201,6 +201,54 @@ function claim_report(
     $mail->addBCC('anthonybaru@gmail.com');
     // $mail -> AddCC($_POST['email'], $_POST['name']);
     $mail->AddReplyTo($clientEmail, $clientFullName);
+    $mail->Subject = $subject;
+    $mail->Body =$body;
+    if ($mail->Send()) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// claim life email
+function claim_motor(
+    $subject,
+    $businessEmail,
+    $businessFullName,
+    $clientEmail,
+    $clientFullName,
+    $body,
+    $documents
+) {
+    //mailing claim report
+    require_once '../mailer/PHPMailer.php';
+    require_once '../mailer/SMTP.php';
+
+
+    $mail = new PHPMailer;
+    $mail->IsSMTP();
+    $mail->isHTML(true);
+    $mail->Host = 'mail.apainsurance.org';
+    // $mail->SMTPSecure = 'ssl';
+    $mail->Port = 25;
+    // $mail->SMTPAuth = true;
+    $mail->Username = 'apa.website@apollo.co.ke';
+    $mail->Password = 'Apa321$321';
+
+
+    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+    $mail->AddAddress($businessEmail, $businessFullName);
+    $mail->addBCC('anthonybaru@gmail.com');
+    // $mail -> AddCC($_POST['email'], $_POST['name']);
+    $mail->AddReplyTo($clientEmail, $clientFullName);
+
+    //looping throught the available documents
+    foreach ($documents as $key => $document) {
+        echo $key;
+        
+        //$mail->addAttachment($document, $key) ;
+    }
+    exit('extracting details');
     $mail->Subject = $subject;
     $mail->Body =$body;
     if ($mail->Send()) {
