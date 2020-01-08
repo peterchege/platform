@@ -52,15 +52,15 @@ switch ($_GET['request']) {
                     $clientFullName= $full_name;
                     $body = 'CLAIM EVENT: '. $claim_event;
 
-                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)) {
+                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {
                         $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                         $response['status'] = 1;
                     } else {
-                        $reponse['message'] = 'Something went wrong! ' . $mail->ErrorInfo;
+                        $reponse['message'] = claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body);
                         $response['status'] = 0;
                     }
                 } else {
-                    $response['message'] = 'An error occured.' . mysqli_error($db);
+                    $response['message'] = 'An error occurred.' . mysqli_error($db);
                     $response['status'] = 0;
                 }
             }
@@ -73,7 +73,7 @@ switch ($_GET['request']) {
         sleep(1);
         $response = array(
             'status' => 0,
-            'message' => 'Form submission failed, please try again.'
+            'message' => 'An error occurred! Please try again later.'
         );
         if (
             !isset($_POST['full_name']) || empty($_POST['full_name']) ||
@@ -178,11 +178,11 @@ switch ($_GET['request']) {
                 }
 
                 if (empty($errors) == true) {
-                    $claim_form_motor_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_motor_file_name;
-                    $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-                    $driving_license_file_name = $email . '-----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
-                    $log_book_file_name = $email . '-----' . $claim_id . '----' . 'log_book' . '----' . $log_book_file_name;
-                    $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+                    $claim_form_motor_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_motor_file_name;
+                    $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                    $driving_license_file_name = $email . '----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
+                    $log_book_file_name = $email . '----' . $claim_id . '----' . 'log_book' . '----' . $log_book_file_name;
+                    $detailed_statement_file_name = $email . '----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
 
                     $claim_form_motor_file_path =  "../documents/claims/" . $claim_form_motor_file_name;
                     $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
@@ -203,52 +203,23 @@ switch ($_GET['request']) {
                                             VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at')  ");
                         if ($insert) {
                             // mailing claims documents
-                            $subject =ucwords($motor_claim_type. ' claim reported on '.pretty_date($created_at));
+                            $subject =ucwords($motor_claim_type. ' claim documents submitted on '.pretty_date($created_at));
                             $businessEmail ='peterchege442@gmail.com';
                             $businessFullName='Peter Chege';
                             $clientEmail = $email;
                             $clientFullName= $full_name;
-                            $body = 'Find attached the documents for claim: ';
+                            $body = 'Find attached the documents for claim: '.$claim_id.' reported by '.$clientFullName;
 
                             $documents = array(
-                                'claim form' => $claim_form_motor_file_path,
-                                'police abstract' => $police_abstract_file_path,
-                                'driving license' => $driving_license_file_path,
-                                'log book' => $log_book_file_path,
-                                'detailed statement' => $detailed_statement_file_path
+                                $claim_form_motor_file_name => $claim_form_motor_file_path,
+                                $police_abstract_file_name => $police_abstract_file_path,
+                                $driving_license_file_name => $driving_license_file_path,
+                                $log_book_file_name => $log_book_file_path,
+                                $detailed_statement_file_name => $detailed_statement_file_path
                             );
 
-
                             //mailing claim report
-                            require_once '../mailer/PHPMailer.php';
-                            require_once '../mailer/SMTP.php';
-
-
-                            $mail = new PHPMailer;
-                            $mail->IsSMTP();
-                            $mail->isHTML(true);
-                            $mail->Host = 'mail.apainsurance.org';
-                            // $mail->SMTPSecure = 'ssl';
-                            $mail->Port = 25;
-                            // $mail->SMTPAuth = true;
-                            $mail->Username = 'apa.website@apollo.co.ke';
-                            $mail->Password = 'Apa321$321';
-
-
-                            $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-                            $mail->AddAddress($businessEmail, $businessFullName);
-                            $mail->addBCC('anthonybaru@gmail.com');
-                            // $mail -> AddCC($_POST['email'], $_POST['name']);
-                            $mail->AddReplyTo($clientEmail, $clientFullName);
-                            //$mail->addAttachment($claim_form_motor_file_path);
-                            //looping throught the available documents
-                            // foreach ($documents as $key => $document) {
-                            //     echo $key.'  '.$document.'<hr>';
-        
-                            //     $mail->addAttachment($document, $key);
-                            // }
-                            // claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents)
-                            if ($mail->send()) {
+                            if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents)) {
                                 $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                                 $response['status'] = 1;
                             } else {
@@ -380,10 +351,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_hospital_cash_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $hospital_discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
-                        $invoice_file_name = $email . '-----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
+                        $claim_form_hospital_cash_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $hospital_discharge_summary_file_name = $email . '----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
+                        $invoice_file_name = $email . '----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
 
                         $claim_form_hospital_cash_file_path =  "../documents/claims/" . $claim_form_hospital_cash_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -470,9 +441,9 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_last_expense_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
+                        $claim_form_last_expense_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $original_burial_permit_file_name = $email . '----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
 
                         $claim_form_last_expense_file_path =  "../documents/claims/" . $claim_form_last_expense_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -567,10 +538,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_critical_illness_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $claim_form_critical_illness_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $medical_report_file_name = $email . '----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
                         $claim_form_critical_illness_file_path =  "../documents/claims/" . $claim_form_critical_illness_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -677,11 +648,11 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_death_claim_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_death_claim_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'original burial permit' . '----' . $original_burial_permit_file_name;
-                        $policy_document_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_file_name;
-                        $post_mortem_report_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
+                        $claim_form_death_claim_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_death_claim_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $original_burial_permit_file_name = $email . '----' . $claim_id . '----' . 'original burial permit' . '----' . $original_burial_permit_file_name;
+                        $policy_document_file_name = $email . '----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_file_name;
+                        $post_mortem_report_file_name = $email . '----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
 
                         $claim_form_death_claim_file_path =  "../documents/claims/" . $claim_form_death_claim_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -755,8 +726,8 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
+                        $policy_document_maturity_file_name = $email . '----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
 
 
                         $policy_document_maturity_file_path =  "../documents/claims/" . $policy_document_maturity_file_name;
@@ -813,7 +784,7 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $policy_document_maturity_file_name = $email . '-----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
+                        $policy_document_maturity_file_name = $email . '----' . $claim_id . '----' . 'policy document' . '----' . $policy_document_maturity_file_name;
 
                         $policy_document_maturity_file_path =  "../documents/claims/" . $policy_document_maturity_file_name;
 
@@ -942,9 +913,9 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_last_expense_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $original_burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
+                        $claim_form_last_expense_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_last_expense_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $original_burial_permit_file_name = $email . '----' . $claim_id . '----' . 'Original Burial Permit' . '----' . $original_burial_permit_file_name;
 
                         $claim_form_last_expense_file_path =  "../documents/claims/" . $claim_form_last_expense_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -1039,10 +1010,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_group_life_benefit_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_group_life_benefit_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $post_mortem_report_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $claim_form_group_life_benefit_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_group_life_benefit_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $post_mortem_report_file_name = $email . '----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_report_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
                         $claim_form_group_life_benefit_file_path =  "../documents/claims/" . $claim_form_group_life_benefit_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -1143,10 +1114,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_critical_illness_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $claim_form_critical_illness_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_critical_illness_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $medical_report_file_name = $email . '----' . $claim_id . '----' . 'medical report' . '----' . $medical_report_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
 
                         $claim_form_critical_illness_file_path =  "../documents/claims/" . $claim_form_critical_illness_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -1244,10 +1215,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_hospital_cash_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $hospital_discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
-                        $invoice_file_name = $email . '-----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
+                        $claim_form_hospital_cash_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_hospital_cash_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $hospital_discharge_summary_file_name = $email . '----' . $claim_id . '----' . 'hospital discharge summary' . '----' . $hospital_discharge_summary_file_name;
+                        $invoice_file_name = $email . '----' . $claim_id . '----' . 'invoice' . '----' . $invoice_file_name;
 
                         $claim_form_hospital_cash_file_path =  "../documents/claims/" . $claim_form_hospital_cash_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -1355,11 +1326,11 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $notification_letter_permanent_total_disability_file_name = $email . '-----' . $claim_id . '----' . 'notification letter' . '----' . $notification_letter_permanent_total_disability_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $medical_report_file_name = $email . '-----' . $claim_id . '----' . 'medical examination report' . '----' . $medical_report_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
-                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $notification_letter_permanent_total_disability_file_name = $email . '----' . $claim_id . '----' . 'notification letter' . '----' . $notification_letter_permanent_total_disability_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $medical_report_file_name = $email . '----' . $claim_id . '----' . 'medical examination report' . '----' . $medical_report_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
 
                         $notification_letter_permanent_total_disability_file_path =  "../documents/claims/" . $notification_letter_permanent_total_disability_file_name;
                         $national_id_file_path =  "../documents/claims/" . $national_id_file_name;
@@ -1500,14 +1471,14 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $dosh_one_two_file_name = $email . '-----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $dosh_one_two_file_name;
-                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $dosh_four_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
-                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-                        $sick_off_sheets_file_name = $email . '-----' . $claim_id . '----' . 'sick off sheets' . '----' . $sick_off_sheets_file_name;
-                        $witness_statement_file_name = $email . '-----' . $claim_id . '----' . 'witness statement' . '----' . $witness_statement_file_name;
+                        $dosh_one_two_file_name = $email . '----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $dosh_one_two_file_name;
+                        $dosh_four_file_name = $email . '----' . $claim_id . '----' . 'dosh 4' . '----' . $dosh_four_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $medical_bill_file_name = $email . '----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslips' . '----' . $payslips_file_name;
+                        $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $sick_off_sheets_file_name = $email . '----' . $claim_id . '----' . 'sick off sheets' . '----' . $sick_off_sheets_file_name;
+                        $witness_statement_file_name = $email . '----' . $claim_id . '----' . 'witness statement' . '----' . $witness_statement_file_name;
 
                         $dosh_one_two_file_path =  "../documents/claims/" . $dosh_one_two_file_name;
                         $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
@@ -1630,12 +1601,12 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $credit_death_certificate_file_name = $email . '-----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $credit_death_certificate_file_name;
-                        $burial_permit_file_name = $email . '-----' . $claim_id . '----' . 'dosh 4' . '----' . $burial_permit_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
-                        $loan_application_and_agreement_file_name = $email . '-----' . $claim_id . '----' . 'loan application and agreement' . '----' . $loan_application_and_agreement_file_name;
-                        $loan_repayment_file_name = $email . '-----' . $claim_id . '----' . 'loan_repayment' . '----' . $loan_repayment_file_name;
-                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $credit_death_certificate_file_name = $email . '----' . $claim_id . '----' . 'dosh part 1 and 2' . '----' . $credit_death_certificate_file_name;
+                        $burial_permit_file_name = $email . '----' . $claim_id . '----' . 'dosh 4' . '----' . $burial_permit_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id passport' . '----' . $national_id_file_name;
+                        $loan_application_and_agreement_file_name = $email . '----' . $claim_id . '----' . 'loan application and agreement' . '----' . $loan_application_and_agreement_file_name;
+                        $loan_repayment_file_name = $email . '----' . $claim_id . '----' . 'loan_repayment' . '----' . $loan_repayment_file_name;
+                        $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
 
                         $credit_death_certificate_file_path =  "../documents/claims/" . $credit_death_certificate_file_name;
                         $burial_permit_file_path =  "../documents/claims/" . $burial_permit_file_name;
@@ -1784,10 +1755,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_property_damage_file_name;
-                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
-                        $invoice_file_name = $email . '-----' . $claim_id . '----' . 'proforma invoice' . '----' . $invoice_file_name;
-                        $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+                        $claim_form_property_damage_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_property_damage_file_name;
+                        $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $invoice_file_name = $email . '----' . $claim_id . '----' . 'proforma invoice' . '----' . $invoice_file_name;
+                        $detailed_statement_file_name = $email . '----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
 
                         $claim_form_property_damage_file_path =  "../documents/claims/" . $claim_form_property_damage_file_name;
                         $police_abstract_file_path =  "../documents/claims/" . $police_abstract_file_name;
@@ -1858,8 +1829,8 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $dosh_one_two_property_damage_file_name = $email . '-----' . $claim_id . '----' . 'dosh one and two completed form' . '----' . $dosh_one_two_property_damage_file_name;
-                        $dosh_four_file_name = $email . '-----' . $claim_id . '----' . 'dosh four' . '----' . $dosh_four_file_name;
+                        $dosh_one_two_property_damage_file_name = $email . '----' . $claim_id . '----' . 'dosh one and two completed form' . '----' . $dosh_one_two_property_damage_file_name;
+                        $dosh_four_file_name = $email . '----' . $claim_id . '----' . 'dosh four' . '----' . $dosh_four_file_name;
 
                         $dosh_one_two_property_damage_file_path =  "../documents/claims/" . $dosh_one_two_property_damage_file_name;
                         $dosh_four_file_path =  "../documents/claims/" . $dosh_four_file_name;
@@ -1915,7 +1886,7 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_crop_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_crop_file_name;
+                        $claim_form_crop_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_crop_file_name;
 
                         $claim_form_crop_file_path =  "../documents/claims/" . $claim_form_crop_file_name;
 
@@ -2007,10 +1978,10 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $claim_form_livestock_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_livestock_file_name;
-                        $post_mortem_file_name = $email . '-----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_file_name;
-                        $vet_loss_certificate_file_name = $email . '-----' . $claim_id . '----' . 'vet loss certificate' . '----' . $vet_loss_certificate_file_name;
-                        $dead_livestock_photo_file_name = $email . '-----' . $claim_id . '----' . 'dead livestock photo' . '----' . $dead_livestock_photo_file_name;
+                        $claim_form_livestock_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_livestock_file_name;
+                        $post_mortem_file_name = $email . '----' . $claim_id . '----' . 'post mortem report' . '----' . $post_mortem_file_name;
+                        $vet_loss_certificate_file_name = $email . '----' . $claim_id . '----' . 'vet loss certificate' . '----' . $vet_loss_certificate_file_name;
+                        $dead_livestock_photo_file_name = $email . '----' . $claim_id . '----' . 'dead livestock photo' . '----' . $dead_livestock_photo_file_name;
 
                         $claim_form_livestock_file_path =  "../documents/claims/" . $claim_form_livestock_file_name;
                         $post_mortem_file_path =  "../documents/claims/" . $post_mortem_file_name;
@@ -2152,14 +2123,14 @@ switch ($_GET['request']) {
                     }
 
                     if (empty($errors) == true) {
-                        $personal_accident_claim_form_file_name = $email . '-----' . $claim_id . '----' . 'completed form' . '----' . $personal_accident_claim_form_file_name;
-                        $detailed_statement_file_name = $email . '-----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
-                        $payslips_file_name = $email . '-----' . $claim_id . '----' . 'payslip' . '----' . $payslips_file_name;
-                        $national_id_file_name = $email . '-----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
-                        $sick_sheet_file_name = $email . '-----' . $claim_id . '----' . 'sick sheet' . '----' . $sick_sheet_file_name;
-                        $medical_bill_file_name = $email . '-----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
-                        $discharge_summary_file_name = $email . '-----' . $claim_id . '----' . 'discharge summary' . '----' . $discharge_summary_file_name;
-                        $police_abstract_file_name = $email . '-----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
+                        $personal_accident_claim_form_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $personal_accident_claim_form_file_name;
+                        $detailed_statement_file_name = $email . '----' . $claim_id . '----' . 'detailed statement' . '----' . $detailed_statement_file_name;
+                        $payslips_file_name = $email . '----' . $claim_id . '----' . 'payslip' . '----' . $payslips_file_name;
+                        $national_id_file_name = $email . '----' . $claim_id . '----' . 'national id' . '----' . $national_id_file_name;
+                        $sick_sheet_file_name = $email . '----' . $claim_id . '----' . 'sick sheet' . '----' . $sick_sheet_file_name;
+                        $medical_bill_file_name = $email . '----' . $claim_id . '----' . 'medical bill' . '----' . $medical_bill_file_name;
+                        $discharge_summary_file_name = $email . '----' . $claim_id . '----' . 'discharge summary' . '----' . $discharge_summary_file_name;
+                        $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
 
                         $personal_accident_claim_form_file_path =  "../documents/claims/" . $personal_accident_claim_form_file_name;
                         $detailed_statement_file_path =  "../documents/claims/" . $detailed_statement_file_name;

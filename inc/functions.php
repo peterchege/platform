@@ -203,10 +203,10 @@ function claim_report(
     $mail->AddReplyTo($clientEmail, $clientFullName);
     $mail->Subject = $subject;
     $mail->Body =$body;
-    if ($mail->Send()) {
-        return true;
+    if ($mail->send()) {
+        return 1;
     } else {
-        return false;
+        return $mail->ErrorInfo;
     }
 }
 
@@ -242,15 +242,15 @@ function claim_motor(
     // $mail -> AddCC($_POST['email'], $_POST['name']);
     $mail->AddReplyTo($clientEmail, $clientFullName);
 
-    //looping throught the available documents
-    foreach ($documents as $key => $document) {
-        echo $key;
-        
-        //$mail->addAttachment($document, $key) ;
-    }
-    exit('extracting details');
     $mail->Subject = $subject;
     $mail->Body =$body;
+    //looping through the available documents
+    foreach ($documents as $key => $document) {
+        // echo $key.'  '.$document.'<hr>';
+        // exit('docs test');
+        $mail->addAttachment($document, $key);
+    }
+
     if ($mail->Send()) {
         return true;
     } else {
