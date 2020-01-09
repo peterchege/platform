@@ -52,7 +52,39 @@ switch ($_GET['request']) {
                     $clientFullName= $full_name;
                     $body = 'CLAIM EVENT: '. $claim_event;
 
-                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {
+
+                    //mailing claim report
+                    require_once '../mailer/PHPMailer.php';
+                    require_once '../mailer/SMTP.php';
+
+
+                    $mail = new PHPMailer;
+                    $mail->IsSMTP();
+                    $mail->isHTML(true);
+                    $mail->SMTPDebug=2;
+                    $mail->Host = 'mail.apainsurance.org';
+                    // $mail->SMTPSecure = 'ssl';
+                    $mail->Port = 25;
+                    // $mail->SMTPAuth = true;
+                    $mail->Username = 'apa.website@apollo.co.ke';
+                    $mail->Password = 'Apa321$321';
+
+
+                    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+                    $mail->AddAddress($businessEmail, $businessFullName);
+                    $mail->addBCC('anthonybaru@gmail.com');
+                    // $mail -> AddCC($_POST['email'], $_POST['name']);
+                    $mail->AddReplyTo($clientEmail, $clientFullName);
+                    $mail->Subject = $subject;
+                    $mail->Body =$body;
+                    if ($mail->send()) {
+                        return 1;
+                    } else {
+                        return $mail->ErrorInfo;
+                    }
+
+                    // if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {
+                    if ($feed) {
                         $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                         $response['status'] = 1;
                     } else {
