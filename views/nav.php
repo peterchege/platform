@@ -27,8 +27,6 @@
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
                                         <li><a href="product_detail_motor.php"><i class="fas fa-car"></i> Private
                                                 Motor</a></li>
-                                        <!-- <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
-                                                Cycle</a></li> -->
                                         <li><a href="product_detail_pedal_cycle.php"><i class="fas fa-bicycle"></i>
                                                 Pedal Cycle</a></li>
                                         <li><a href="product_detail_travel.php"><i class="fas fa-plane-departure"></i>
@@ -40,9 +38,6 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-
-                                        <!-- <li><a href="product_detail_domestic.php"><i class="fas fa-home"></i> Home Cover
-                                                (Domestic Package)</a></li> -->
                                         <li><a href="product_detail_pet.php"><i class="fas fa-cat"></i> Pet</a></li>
                                         <li><a href="product_detail_personal_accident.php"><i class="fas fa-user-injured"></i> Personal Accident</a></li>
                                         <li><a href="product_detail_golfers.php"><i class="fas fa-golf-ball"></i>
@@ -51,15 +46,12 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">HEALTH COVER :</li>
-                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="product_detail_jamii.php"><i class="fas fa-users"></i> Enhanced Family
                                                 Health Cover (Jamii Plus)</a></li>
                                         <li><a href="product_detail_afyanafuu.php"><i class="fas fa-users"></i> Family
                                                 Health Cover (Afya Nafuu)</a></li>
                                         <li><a href="product_detail_femina.php"><i class="fas fa-female"></i> Cancer
                                                 Care (Femina)</a></li>
-                                        <!-- <li><a href="#"><i class="fas fa-user-injured"></i> ER Card </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -136,9 +128,6 @@
                                         <li><a href="product_commercial_marine.php"><i class="fas fa-ship"></i>
                                                 Marine</a></li>
                                         <li><a href="product_detail_motor_commercial.php"><i class="fas fa-car-side"></i> Motor Commercial</a></li>
-                                        <!-- <li><a href="product_detail_cycle.php"><i class="fas fa-motorcycle"></i> Motor
-                                                Cycle (PSV) </a></li> -->
-                                        <!-- <li><a href="product_commercial_motor_trade.php"><i class="fas fa-globe-africa"></i> Motor Trade </a></li> -->
                                     </ul>
                                 </div>
                                 <div>
@@ -212,8 +201,6 @@
                                 </div>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
-                                        <!-- <li class="uk-nav-header ">ROOMS:</li>
-                                        <li class="uk-nav-divider"></li> -->
                                         <li><a href="apollo_centre_chyullu.php"><i class="fas fa-hotel"></i> Chyullu
                                                 Hills
                                                 -
@@ -353,17 +340,7 @@
 
             </div>
         </nav>
-
-
-
-        <!-- #nav-menu-container-->
-
     </div>
 
-    <!-- APOLLO GROUP LOGO -->
-    <!-- <div id="logo1" class="pull-right1"> -->
-
-    <!-- </div> -->
 </header>
 
-<!-- #header -->
