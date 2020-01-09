@@ -209,7 +209,7 @@ switch ($_GET['request']) {
                     $errors[] = 0;
                 }
 
-                if (empty($errors)) {
+                if (empty($errors) == true) {
                     $claim_form_motor_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_motor_file_name;
                     $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
                     $driving_license_file_name = $email . '----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
