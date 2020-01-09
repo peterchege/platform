@@ -43,14 +43,14 @@ switch ($_GET['request']) {
                 $feed = $db->query($query);
 
                 if ($feed) {
-        
+
                     //mailing claim report
-                    $subject =ucwords($claim_type. ' claim reported on '.pretty_date($created_at));
-                    $businessEmail ='peterchege442@gmail.com';
-                    $businessFullName='Peter Chege';
+                    $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at));
+                    $businessEmail = 'peterchege442@gmail.com';
+                    $businessFullName = 'Peter Chege';
                     $clientEmail = $email;
-                    $clientFullName= $full_name;
-                    $body = 'CLAIM EVENT: '. $claim_event;
+                    $clientFullName = $full_name;
+                    $body = 'CLAIM EVENT: ' . $claim_event;
 
 
                     //mailing claim report
@@ -61,7 +61,8 @@ switch ($_GET['request']) {
                     $mail = new PHPMailer;
                     $mail->IsSMTP();
                     $mail->isHTML(true);
-                    $mail->SMTPDebug=2;
+                    $mail->SMTPDebug = 2;
+                    $mail->SMTPAuth = false;
                     $mail->Host = 'mail.apainsurance.org';
                     // $mail->SMTPSecure = 'ssl';
                     $mail->Port = 25;
@@ -69,14 +70,13 @@ switch ($_GET['request']) {
                     $mail->Username = 'apa.website@apollo.co.ke';
                     $mail->Password = 'Apa321$321';
 
-
                     $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
                     $mail->AddAddress($businessEmail, $businessFullName);
                     $mail->addBCC('anthonybaru@gmail.com');
                     // $mail -> AddCC($_POST['email'], $_POST['name']);
                     $mail->AddReplyTo($clientEmail, $clientFullName);
                     $mail->Subject = $subject;
-                    $mail->Body =$body;
+                    $mail->Body = $body;
                     if ($mail->send()) {
                         return 1;
                     } else {
@@ -209,7 +209,7 @@ switch ($_GET['request']) {
                     $errors[] = 0;
                 }
 
-                if (empty($errors) == true) {
+                if (empty($errors)) {
                     $claim_form_motor_file_name = $email . '----' . $claim_id . '----' . 'completed form' . '----' . $claim_form_motor_file_name;
                     $police_abstract_file_name = $email . '----' . $claim_id . '----' . 'police abstract' . '----' . $police_abstract_file_name;
                     $driving_license_file_name = $email . '----' . $claim_id . '----' . 'driving license' . '----' . $driving_license_file_name;
@@ -235,12 +235,12 @@ switch ($_GET['request']) {
                                             VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at')  ");
                         if ($insert) {
                             // mailing claims documents
-                            $subject =ucwords($motor_claim_type. ' claim documents submitted on '.pretty_date($created_at));
-                            $businessEmail ='peterchege442@gmail.com';
-                            $businessFullName='Peter Chege';
+                            $subject = ucwords($motor_claim_type. ' claim documents submitted on ' . pretty_date($created_at));
+                            $businessEmail = 'peterchege442@gmail.com';
+                            $businessFullName = 'Peter Chege';
                             $clientEmail = $email;
-                            $clientFullName= $full_name;
-                            $body = 'Find attached the documents for claim: '.$claim_id.' reported by '.$clientFullName;
+                            $clientFullName = $full_name;
+                            $body = 'Find attached the documents for claim: ' . $claim_id. ' reported by ' . $clientFullName;
 
                             $documents = array(
                                 $claim_form_motor_file_name => $claim_form_motor_file_path,
@@ -279,7 +279,8 @@ switch ($_GET['request']) {
             'message' => 'Form submission failed, please try again.'
         );
 
-        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location'])
@@ -288,7 +289,7 @@ switch ($_GET['request']) {
             // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
             // !isset($_POST['motor_claim_type'])
-            ) {
+        ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -405,10 +406,9 @@ switch ($_GET['request']) {
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -492,10 +492,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -592,10 +591,9 @@ switch ($_GET['request']) {
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -705,10 +703,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_death_claim_file_name',' $national_id_file_name','$policy_document_file_name','$post_mortem_report_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -773,10 +770,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name',' $national_id_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -825,10 +821,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$policy_document_maturity_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -852,7 +847,8 @@ switch ($_GET['request']) {
             'message' => 'Form submission failed, please try again.'
         );
 
-        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location'])
@@ -861,7 +857,7 @@ switch ($_GET['request']) {
             // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
             // !isset($_POST['motor_claim_type'])
-            ) {
+        ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -964,10 +960,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_last_expense_file_name',' $national_id_file_name','$original_burial_permit_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1064,10 +1059,9 @@ switch ($_GET['request']) {
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_group_life_benefit_file_name',' $national_id_file_name','$post_mortem_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1168,10 +1162,9 @@ switch ($_GET['request']) {
                             VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_critical_illness_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1269,10 +1262,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$claim_form_hospital_cash_file_name',' $national_id_file_name','$hospital_discharge_summary_file_name','$invoice_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1381,10 +1373,9 @@ switch ($_GET['request']) {
                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$notification_letter_permanent_total_disability_file_name',' $national_id_file_name','$medical_report_file_name','$payslips_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1535,10 +1526,9 @@ switch ($_GET['request']) {
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$dosh_one_two_file_name','$dosh_four_file_name',' $national_id_file_name','$medical_bill_file_name','$payslips_file_name','$police_abstract_file_name','$sick_off_sheets_file_name','$witness_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1661,10 +1651,9 @@ switch ($_GET['request']) {
                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$life_claim_type','$credit_death_certificate_file_name','$burial_permit_file_name',' $national_id_file_name','$loan_application_and_agreement_file_name','$loan_repayment_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = 'An error occurred. Please try again! ' . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1682,7 +1671,8 @@ switch ($_GET['request']) {
             'status' => 0,
             'message' => 'Form submission failed, please try again.'
         );
-        if (!isset($_POST['full_name']) || empty($_POST['full_name']) ||
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location'])
@@ -1691,7 +1681,7 @@ switch ($_GET['request']) {
             // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
             // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
             // !isset($_POST['motor_claim_type'])
-            ) {
+        ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
             $created_at = date('Y-m-d H:i:s');
@@ -1809,10 +1799,9 @@ switch ($_GET['request']) {
                                                 VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_property_damage_file_name',' $police_abstract_file_name','$invoice_file_name','$detailed_statement_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1877,10 +1866,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$dosh_one_two_property_damage_file_name',' $dosh_four_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -1931,10 +1919,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_crop_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -2032,10 +2019,9 @@ switch ($_GET['request']) {
                                                     VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$claim_form_livestock_file_name',' $post_mortem_file_name','$vet_loss_certificate_file_name','$dead_livestock_photo_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
@@ -2189,10 +2175,9 @@ switch ($_GET['request']) {
                                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$personal_property_claim_type','$personal_accident_claim_form_file_name',' $detailed_statement_file_name','$payslips_file_name','$national_id_file_name','$sick_sheet_file_name','$medical_bill_file_name','$discharge_summary_file_name','$police_abstract_file_name','$created_at')  ");
                             if ($insert) {
                                 $response['message'] = 'success';
-                                $response['status']=1;
+                                $response['status'] = 1;
                             } else {
                                 $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                                //  mysqli_error($db);
                             }
                         } else {
                             $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
