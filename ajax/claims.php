@@ -30,6 +30,8 @@ switch ($_GET['request']) {
             $product_id = sanitize($_POST['product_id']);
             $product_category_id = sanitize($_POST['product_category_id']);
             $claim_type = sanitize($_POST['claim_type']);
+            $bemail = sanitize($_POST['bemail']);
+            $bname = sanitize($_POST['bname']);
             $created_at = date('Y-m-d H:i:s');
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -46,12 +48,13 @@ switch ($_GET['request']) {
                     
 
                     //mailing claim report
-                    $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at));
-                    $businessEmail = 'peterchege442@gmail.com';
-                    $businessFullName = 'Peter Chege';
+                    $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at).' by '.$full_name);
+                    $businessEmail = $bemail;
+                    $businessFullName = $bname;
                     $clientEmail = $email;
                     $clientFullName = $full_name;
-                    $body = 'CLAIM EVENT: ' . $claim_event;
+                    $body = $full_name.' just reported a claim with the following details: <br><br>';
+                    $body .= 'Claim Event: ' . $claim_event.'<br>Phone number: '. $phone.'<br>Location: '.$location;
 
 
                     //mailing claim report
@@ -77,7 +80,6 @@ switch ($_GET['request']) {
                         $mail->AddAddress($businessEmail, $businessFullName);
                         $mail->addBCC('anthonybaru@gmail.com');
                         $mail->addBCC('gilbert.njoroge@apollo.co.ke');
-                        //$mail -> AddCC($_POST['email'], $_POST['name']);
                         $mail->AddReplyTo($clientEmail, $clientFullName);
                         $mail->Subject = $subject;
                         $mail->Body = $body;
