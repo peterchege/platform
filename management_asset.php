@@ -111,12 +111,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/apa4/kosgei.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Amos Kosgei<br>
+                            Amos Kosgey<br>
                             <small>Portfolio Manager</small>
                         </h5>
 
                         <p>
-                            Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company...
+                            Amos Kosgey is the Portfolio Manager at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
@@ -124,12 +124,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/passport2/jp.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            John Paul<br>
+                            Johnpaul Barasa<br>
                             <small>Senior Accountant </small>
                         </h5>
 
                         <p>
-                            John Paul is the Senior Accountant at Apollo Asset Management Company...
+                            Johnpaul Barasa is the Senior Accountant at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/apa4/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Solomon Maoga<br>
+                            Solomon Maonga<br>
                             <small>Investment Executive</small>
                         </h5>
 
@@ -222,13 +222,13 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/kosgei.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Amos Kosgei
+                        Amos Kosgey
                     </h1>
                     <h2 class="small-head">
                         Portfolio Manager
                     </h2>
                     <p class="text-justify">
-                        Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
+                        Amos Kosgey is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
                         services industry. Amos has a Master of Science degree in Economics from Eastern College in Philadelphia, USA and
                         is also a graduate of Daystar University. He also has had training in Fundamentals of Investing, Anti-Money Laundering,
                         and Bond Trading.egies, and create assets and realise investment opportunities
@@ -249,7 +249,7 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/solo.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Solomon Maoga
+                        Solomon Maonga
                     </h1>
                     <h2 class="small-head">
                         Investment Executive
@@ -278,13 +278,13 @@
                 <div class="uk-background-cover" style="background-image: url('img/passport2/jp.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        John Paul
+                        Johnpaul Barasa
                     </h1>
                     <h2 class="small-head">
                         Senior Accountant
                     </h2>
                     <p class="text-justify">
-                        John Paul is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya,
+                        Johnpaul Barasa is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya,
                         graduate of Moi University Bachelors of Business Management(Accounting) with more than 9 years of professional
                         experience in auditing and management accounting, and currently pursuing his final exams in Certified Investment
                         Financial Analysis (CIFA). He also has enrolled as a student under Chartered Institute for Securities Investment
