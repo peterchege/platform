@@ -111,12 +111,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/apa4/kosgei.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Amos Kosgei<br>
+                            Amos Kosgey<br>
                             <small>Portfolio Manager</small>
                         </h5>
 
                         <p>
-                            Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company...
+                            Amos Kosgey is the Portfolio Manager at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full1" uk-toggle>Read more</button>
                     </div>
@@ -137,7 +137,7 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/apa4/solo.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Solomon Maoga<br>
+                            Solomon Maonga<br>
                             <small>Investment Executive</small>
                         </h5>
 
@@ -222,13 +222,13 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/kosgei.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Amos Kosgei
+                        Amos Kosgey
                     </h1>
                     <h2 class="small-head">
                         Portfolio Manager
                     </h2>
                     <p class="text-justify">
-                        Amos Kosgei is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
+                        Amos Kosgey is the Portfolio Manager at Apollo Asset Management Company. He has 12 years experience in the financial
                         services industry. Amos has a Master of Science degree in Economics from Eastern College in Philadelphia, USA and
                         is also a graduate of Daystar University. He also has had training in Fundamentals of Investing, Anti-Money Laundering,
                         and Bond Trading.egies, and create assets and realise investment opportunities
@@ -249,7 +249,7 @@
                 <div class="uk-background-cover" style="background-image: url('img/managment/solo.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Solomon Maoga
+                        Solomon Maonga
                     </h1>
                     <h2 class="small-head">
                         Investment Executive
