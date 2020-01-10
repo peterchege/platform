@@ -167,7 +167,8 @@
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             <input type="hidden" id="accident" name="claim_type" value="property damage">
-
+                            <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
+                            <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -296,7 +297,7 @@
         </div>
     </div>
 
-    <?php require_once('inc/scripts.php'); ?>
+    <?php require_once 'inc/scripts.php'; ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 
