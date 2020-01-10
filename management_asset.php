@@ -124,12 +124,12 @@
                     <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
                         <img src="img/passport2/jp.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            John Paul<br>
+                            Johnpaul Barasa<br>
                             <small>Senior Accountant </small>
                         </h5>
 
                         <p>
-                            John Paul is the Senior Accountant at Apollo Asset Management Company...
+                            Johnpaul Barasa is the Senior Accountant at Apollo Asset Management Company...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full3" uk-toggle>Read more</button>
                     </div>
@@ -278,13 +278,13 @@
                 <div class="uk-background-cover" style="background-image: url('img/passport2/jp.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        John Paul
+                        Johnpaul Barasa
                     </h1>
                     <h2 class="small-head">
                         Senior Accountant
                     </h2>
                     <p class="text-justify">
-                        John Paul is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya,
+                        Johnpaul Barasa is the Senior Accountant at Apollo Asset Management Company, Certified Public Accountant of Kenya,
                         graduate of Moi University Bachelors of Business Management(Accounting) with more than 9 years of professional
                         experience in auditing and management accounting, and currently pursuing his final exams in Certified Investment
                         Financial Analysis (CIFA). He also has enrolled as a student under Chartered Institute for Securities Investment
