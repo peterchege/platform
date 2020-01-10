@@ -35,7 +35,7 @@ $(document).ready(function () {
                     $(".uk-close-large").click();
                 } else {
                     swal.fire({
-                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESSFULLY RECEIVED</h3>',
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >Error</h3>',
                         html: '<p class="text-left" >' + response.message + '</p>',
                         type: 'error',
                         allowOutsideClick: false,
@@ -133,7 +133,7 @@ $(document).ready(function () {
                     $(".uk-close-large").click();
                 } else {
                     swal.fire({
-                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESSFULLY RECEIVED</h3>',
+                        title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >Error</h3>',
                         html: '<p class="text-left" >' + response.message + '</p>',
                         type: 'error',
                         allowOutsideClick: false,
