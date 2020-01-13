@@ -76,7 +76,7 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="product-box we life-4">
-                            <a href="#modal-full1" uk-toggle>
+                            <a href="claim_report_life_hosicash.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
 
