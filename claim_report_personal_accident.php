@@ -153,6 +153,10 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
+                                <div class="form-group col-md-12">
+                                    <label for="date_of_lose">Date Of Loss </label>
+                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
@@ -209,13 +213,17 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-4">
                                     <label for="email">Email Address</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-6">
+                                <div class=" form-group col-md-4">
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="date_of_lose">Date Of Loss </label>
+                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 

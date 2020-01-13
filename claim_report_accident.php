@@ -169,7 +169,7 @@
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="date_of_lose">Date Of Lose </label>
+                                    <label for="date_of_lose">Date Of Loss </label>
                                     <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
