@@ -1,6 +1,8 @@
 <?php
 require_once '../inc/db.php';
 require_once '../inc/functions.php';
+require_once '../inc/mails.php';
+
 switch ($_GET['request']) {
     case 'claim_report':
         sleep(1);
@@ -32,6 +34,11 @@ switch ($_GET['request']) {
             $claim_type = sanitize($_POST['claim_type']);
             $bemail = sanitize($_POST['bemail']);
             $bname = sanitize($_POST['bname']);
+            if(isset($_POST['date_of_loss'])){
+            $date_of_loss =strtotime(sanitize($_POST['date_of_loss']));          
+            $date_of_loss = date('Y-m-d',$date_of_loss);
+            }
+            
             $created_at = date('Y-m-d H:i:s');
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -51,13 +58,13 @@ switch ($_GET['request']) {
                     $body .= 'Email address: '. $email.'<br>';
                     $body .= 'Location: '.$location.'<br>';
                     $body .= 'Vehicle registration number: '.$registration_number.'<br>';
+                    $body .= 'Date of Loss: '.pretty_date2($date_of_loss) . '<br>';
                     $body .= 'Claim Event: ' . $claim_event;
 
-                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {
-                        
+                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {                        
                          // insert to db
-                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`) 
-                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at')  ";
+                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`,`date_of_loss`) 
+                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at','$date_of_loss')  ";
                 $feed = $db->query($query);
                         $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                         $response['status'] = 1;
@@ -73,10 +80,6 @@ switch ($_GET['request']) {
 
     case 'motor_claim_upload':
         sleep(1);
-        $response = array(
-            'status' => 0,
-            'message' => 'An error occurred! Please try again later.'
-        );
         if (
             !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||

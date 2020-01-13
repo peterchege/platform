@@ -81,10 +81,15 @@ function randomstring($len)
     return $string;
 }
 
-//function to format dates
+//function to format dates and time
 function pretty_date($date)
 {
     return date("M d, Y h:i:s A", strtotime($date));
+}
+//function to format dates
+function pretty_date2($date)
+{
+    return date("M d, Y", strtotime($date));
 }
 
 //reduce string size
@@ -168,103 +173,4 @@ function user_destination_social_media()
 function rootD()
 {
     return $_SERVER['DOCUMENT_ROOT'];
-}
-
-
-// claim report email
-function claim_report(
-    $subject,
-    $businessEmail,
-    $businessFullName,
-    $clientEmail,
-    $clientFullName,
-    $body
-) {
-    $response = array(
-        $message = 'Error',$status=0
-    );
-    //mailing claim report
-    require_once '../mailer/PHPMailer.php';
-    require_once '../mailer/SMTP.php';
-    $mail = new PHPMailer(true);
-    try {
-        $mail->IsSMTP();
-        $mail->isHTML(true);
-        $mail->SMTPDebug = 0;
-        $mail->Debugoutput='echo';
-        $mail->Host = 'mail.apainsurance.ke';
-        //$mail->SMTPSecure = 'ssl';
-        $mail->Port = 25;
-        //$mail->SMTPAuth = false;
-        $mail->Username = 'apa.website@apollo.co.ke';
-        $mail->Password = 'Apa321$321';
-    
-    
-        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-        $mail->AddAddress($businessEmail, $businessFullName);
-        $mail->addBCC('anthonybaru@gmail.com');
-        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
-        $mail->AddReplyTo($clientEmail, $clientFullName);
-        $mail->Subject = $subject;
-        $mail->Body = $body;
-        
-        if ($mail->send()) {
-            return 1;
-        }
-    } catch (Exception $e) {
-        return strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
-    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
-        return $e->getMessage(); //Boring error messages from anything else!
-    }
-}
-
-// claim life email
-function claim_motor(
-    $subject,
-    $businessEmail,
-    $businessFullName,
-    $clientEmail,
-    $clientFullName,
-    $body,
-    $documents
-) {
-    $mail = new PHPMailer(true);
-    try {
-        $mail->IsSMTP();
-        $mail->isHTML(true);
-        $mail->SMTPDebug = 0;
-        $mail->Debugoutput = 'echo';
-        $mail->Host = 'mail.apainsurance.ke';
-        //$mail->SMTPSecure = 'ssl';
-        $mail->Port = 25;
-        //$mail->SMTPAuth = false;
-        $mail->Username = 'apa.website@apollo.co.ke';
-        $mail->Password = 'Apa321$321';
-
-
-        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-        $mail->AddAddress($businessEmail, $businessFullName);
-        $mail->addBCC('anthonybaru@gmail.com');
-        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
-        $mail->AddReplyTo($clientEmail, $clientFullName);
-        $mail->Subject = $subject;
-        $mail->Body = $body;
-
-        //looping through the available documents
-        foreach ($documents as $key => $document) {
-            // echo $key.'  '.$document.'<hr>';
-            // exit('docs test');
-            $mail->addAttachment($document, $key);
-        }
-
-        $mail->send();
-        $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
-        $response['status'] = 1;
-    } catch (Exception $e) {
-        $response['message'] = 'An error occurred: ' . strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
-        $response['status'] = 0;
-    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
-        $response['message'] = 'An error occurred: ' . $e->getMessage(); //Boring error messages from anything else!
-        $response['status'] = 0;
-    }
 }
