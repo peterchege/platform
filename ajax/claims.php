@@ -38,66 +38,33 @@ switch ($_GET['request']) {
                 $response['message'] = 'Please enter a valid email.';
                 $status = 0;
                 exit;
-            } else {
-                // insert to db
-                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`) 
-                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at')  ";
-                $feed = $db->query($query);
-
-                if ($feed) {
-                    
-
+            } else {     
                     //mailing claim report
                     $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at).' by '.$full_name);
-                    $businessEmail = $bemail;
+                    $businessEmail = 'anthonybaru@gmail.com';
                     $businessFullName = $bname;
                     $clientEmail = $email;
                     $clientFullName = $full_name;
+
                     $body = $full_name.' just reported a claim with the following details: <br><br>';
-                    $body .= 'Claim Event: ' . $claim_event.'<br>Phone number: '. $phone.'<br>Location: '.$location;
+                    $body .= 'Mobile number: '. $phone.'<br>';
+                    $body .= 'Email address: '. $email.'<br>';
+                    $body .= 'Location: '.$location.'<br>';
+                    $body .= 'Vehicle registration number: '.$registration_number.'<br>';
+                    $body .= 'Claim Event: ' . $claim_event;
 
-
-                    //mailing claim report
-                    require_once '../mailer/PHPMailer.php';
-                    require_once '../mailer/SMTP.php';
-
-
-                    $mail = new PHPMailer(true);
-                    try{
-                        $mail->IsSMTP();
-                        $mail->isHTML(true);
-                        $mail->SMTPDebug = 0;
-                        $mail->Debugoutput='echo';
-                        $mail->Host = 'mail.apainsurance.ke';
-                        //$mail->SMTPSecure = 'ssl';
-                        $mail->Port = 25;
-                        //$mail->SMTPAuth = false;
-                        $mail->Username = 'apa.website@apollo.co.ke';
-                        $mail->Password = 'Apa321$321';
-    
-    
-                        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-                        $mail->AddAddress($businessEmail, $businessFullName);
-                        $mail->addBCC('anthonybaru@gmail.com');
-                        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
-                        $mail->AddReplyTo($clientEmail, $clientFullName);
-                        $mail->Subject = $subject;
-                        $mail->Body = $body;
-                        $mail->send();
-                            $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
-                            $response['status'] = 1;
-                    }catch (Exception $e) {
-                        $response['message'] = 'An error occurred: ' . strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
-                        $response['status'] = 0;
-                    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
-                        $response['message'] = 'An error occurred: ' . $e->getMessage(); //Boring error messages from anything else!
+                    if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body)==1) {
+                        
+                         // insert to db
+                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`) 
+                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at')  ";
+                $feed = $db->query($query);
+                        $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                        $response['status'] = 1;
+                    } else {
+                        $response['message'] = 'An error occurred. Please try again!';
                         $response['status'] = 0;
                     }
-                
-                } else {
-                    $response['message'] = 'An error occurred.' . mysqli_error($db);
-                    $response['status'] = 0;
-                }
             }
         }
         //return response

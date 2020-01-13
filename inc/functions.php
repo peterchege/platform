@@ -180,33 +180,41 @@ function claim_report(
     $clientFullName,
     $body
 ) {
+    $response = array(
+        $message = 'Error',$status=0
+    );
     //mailing claim report
     require_once '../mailer/PHPMailer.php';
     require_once '../mailer/SMTP.php';
-
-
-    $mail = new PHPMailer;
-    $mail->IsSMTP();
-    $mail->isHTML(true);
-    $mail->Host = 'mail.apainsurance.org';
-    // $mail->SMTPSecure = 'ssl';
-    $mail->Port = 25;
-    // $mail->SMTPAuth = true;
-    $mail->Username = 'apa.website@apollo.co.ke';
-    $mail->Password = 'Apa321$321';
-
-
-    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-    $mail->AddAddress($businessEmail, $businessFullName);
-    $mail->addBCC('anthonybaru@gmail.com');
-    // $mail -> AddCC($_POST['email'], $_POST['name']);
-    $mail->AddReplyTo($clientEmail, $clientFullName);
-    $mail->Subject = $subject;
-    $mail->Body =$body;
-    if ($mail->send()) {
-        return 1;
-    } else {
-        return $mail->ErrorInfo;
+    $mail = new PHPMailer(true);
+    try {
+        $mail->IsSMTP();
+        $mail->isHTML(true);
+        $mail->SMTPDebug = 0;
+        $mail->Debugoutput='echo';
+        $mail->Host = 'mail.apainsurance.ke';
+        //$mail->SMTPSecure = 'ssl';
+        $mail->Port = 25;
+        //$mail->SMTPAuth = false;
+        $mail->Username = 'apa.website@apollo.co.ke';
+        $mail->Password = 'Apa321$321';
+    
+    
+        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+        $mail->AddAddress($businessEmail, $businessFullName);
+        $mail->addBCC('anthonybaru@gmail.com');
+        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
+        $mail->AddReplyTo($clientEmail, $clientFullName);
+        $mail->Subject = $subject;
+        $mail->Body = $body;
+        
+        if ($mail->send()) {
+            return 1;
+        }
+    } catch (Exception $e) {
+        return strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
+    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
+        return $e->getMessage(); //Boring error messages from anything else!
     }
 }
 
@@ -220,40 +228,43 @@ function claim_motor(
     $body,
     $documents
 ) {
-    //mailing claim report
-    require_once '../mailer/PHPMailer.php';
-    require_once '../mailer/SMTP.php';
+    $mail = new PHPMailer(true);
+    try {
+        $mail->IsSMTP();
+        $mail->isHTML(true);
+        $mail->SMTPDebug = 0;
+        $mail->Debugoutput = 'echo';
+        $mail->Host = 'mail.apainsurance.ke';
+        //$mail->SMTPSecure = 'ssl';
+        $mail->Port = 25;
+        //$mail->SMTPAuth = false;
+        $mail->Username = 'apa.website@apollo.co.ke';
+        $mail->Password = 'Apa321$321';
 
 
-    $mail = new PHPMailer;
-    $mail->IsSMTP();
-    $mail->isHTML(true);
-    $mail->Host = 'mail.apainsurance.org';
-    // $mail->SMTPSecure = 'ssl';
-    $mail->Port = 25;
-    // $mail->SMTPAuth = true;
-    $mail->Username = 'apa.website@apollo.co.ke';
-    $mail->Password = 'Apa321$321';
+        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+        $mail->AddAddress($businessEmail, $businessFullName);
+        $mail->addBCC('anthonybaru@gmail.com');
+        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
+        $mail->AddReplyTo($clientEmail, $clientFullName);
+        $mail->Subject = $subject;
+        $mail->Body = $body;
 
+        //looping through the available documents
+        foreach ($documents as $key => $document) {
+            // echo $key.'  '.$document.'<hr>';
+            // exit('docs test');
+            $mail->addAttachment($document, $key);
+        }
 
-    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-    $mail->AddAddress($businessEmail, $businessFullName);
-    $mail->addBCC('anthonybaru@gmail.com');
-    // $mail -> AddCC($_POST['email'], $_POST['name']);
-    $mail->AddReplyTo($clientEmail, $clientFullName);
-
-    $mail->Subject = $subject;
-    $mail->Body =$body;
-    //looping through the available documents
-    foreach ($documents as $key => $document) {
-        // echo $key.'  '.$document.'<hr>';
-        // exit('docs test');
-        $mail->addAttachment($document, $key);
-    }
-
-    if ($mail->Send()) {
-        return true;
-    } else {
-        return false;
+        $mail->send();
+        $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+        $response['status'] = 1;
+    } catch (Exception $e) {
+        $response['message'] = 'An error occurred: ' . strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
+        $response['status'] = 0;
+    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
+        $response['message'] = 'An error occurred: ' . $e->getMessage(); //Boring error messages from anything else!
+        $response['status'] = 0;
     }
 }
