@@ -170,9 +170,13 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="registration_number">Vehicle Registarion Number </label>
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="date_of_lose">Date Of Lose </label>
+                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
@@ -235,14 +239,19 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-4">
                                     <label for="email">Email Address</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-6">
+                                <div class=" form-group col-md-4">
                                     <label for="registration_number">Vehicle Registarion Number</label>
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123J" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
                                 </div>
+                                <div class="form-group col-md-4">
+                                    <label for="date_of_lose">Date Of Lose </label>
+                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                </div>
+
                             </div>
 
                         </div>
