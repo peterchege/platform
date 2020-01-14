@@ -27,7 +27,7 @@ switch ($_GET['request']) {
             $phone = sanitize($_POST['phone']);
             $email = sanitize($_POST['email']);
             $location = sanitize($_POST['location']);
-            $registration_number = ((isset($_POST['registration_number'])) ? sanitize($_POST['registration_number']) : null);
+            $registration_number = ((isset($_POST['registration_number'])) ?sanitize($_POST['registration_number']) : null);
             $claim_event = sanitize($_POST['claim_event']);
             $product_id = sanitize($_POST['product_id']);
             $product_category_id = sanitize($_POST['product_category_id']);
@@ -245,7 +245,7 @@ switch ($_GET['request']) {
                             $response['status'] = 0;
                         }
                     } else {
-                        $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        $response['message'] = 'An error occurred while uploading file. Make sure file is valid and less than 5 MB!';
                     }
                 }
             }
@@ -280,7 +280,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_hospital_cash'])) {
                 $form =  'claim_form_hospital_cash';
@@ -848,7 +848,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_last_expense'])) {
                 $form =  'claim_form_last_expense';
@@ -1672,7 +1672,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_property_damage'])) {
                 $form =  'claim_form_property_damage';
