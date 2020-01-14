@@ -81,10 +81,15 @@ function randomstring($len)
     return $string;
 }
 
-//function to format dates
+//function to format dates and time
 function pretty_date($date)
 {
     return date("M d, Y h:i:s A", strtotime($date));
+}
+//function to format dates
+function pretty_date2($date)
+{
+    return date("M d, Y", strtotime($date));
 }
 
 //reduce string size
@@ -168,92 +173,4 @@ function user_destination_social_media()
 function rootD()
 {
     return $_SERVER['DOCUMENT_ROOT'];
-}
-
-
-// claim report email
-function claim_report(
-    $subject,
-    $businessEmail,
-    $businessFullName,
-    $clientEmail,
-    $clientFullName,
-    $body
-) {
-    //mailing claim report
-    require_once '../mailer/PHPMailer.php';
-    require_once '../mailer/SMTP.php';
-
-
-    $mail = new PHPMailer;
-    $mail->IsSMTP();
-    $mail->isHTML(true);
-    $mail->Host = 'mail.apainsurance.org';
-    // $mail->SMTPSecure = 'ssl';
-    $mail->Port = 25;
-    // $mail->SMTPAuth = true;
-    $mail->Username = 'apa.website@apollo.co.ke';
-    $mail->Password = 'Apa321$321';
-
-
-    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-    $mail->AddAddress($businessEmail, $businessFullName);
-    $mail->addBCC('anthonybaru@gmail.com');
-    // $mail -> AddCC($_POST['email'], $_POST['name']);
-    $mail->AddReplyTo($clientEmail, $clientFullName);
-    $mail->Subject = $subject;
-    $mail->Body =$body;
-    if ($mail->send()) {
-        return 1;
-    } else {
-        return $mail->ErrorInfo;
-    }
-}
-
-// claim life email
-function claim_motor(
-    $subject,
-    $businessEmail,
-    $businessFullName,
-    $clientEmail,
-    $clientFullName,
-    $body,
-    $documents
-) {
-    //mailing claim report
-    require_once '../mailer/PHPMailer.php';
-    require_once '../mailer/SMTP.php';
-
-
-    $mail = new PHPMailer;
-    $mail->IsSMTP();
-    $mail->isHTML(true);
-    $mail->Host = 'mail.apainsurance.org';
-    // $mail->SMTPSecure = 'ssl';
-    $mail->Port = 25;
-    // $mail->SMTPAuth = true;
-    $mail->Username = 'apa.website@apollo.co.ke';
-    $mail->Password = 'Apa321$321';
-
-
-    $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-    $mail->AddAddress($businessEmail, $businessFullName);
-    $mail->addBCC('anthonybaru@gmail.com');
-    // $mail -> AddCC($_POST['email'], $_POST['name']);
-    $mail->AddReplyTo($clientEmail, $clientFullName);
-
-    $mail->Subject = $subject;
-    $mail->Body =$body;
-    //looping through the available documents
-    foreach ($documents as $key => $document) {
-        // echo $key.'  '.$document.'<hr>';
-        // exit('docs test');
-        $mail->addAttachment($document, $key);
-    }
-
-    if ($mail->Send()) {
-        return true;
-    } else {
-        return false;
-    }
 }

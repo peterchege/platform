@@ -1,6 +1,8 @@
 <?php
 require_once '../inc/db.php';
 require_once '../inc/functions.php';
+require_once '../inc/mails.php';
+
 switch ($_GET['request']) {
     case 'claim_report':
         sleep(1);
@@ -25,13 +27,20 @@ switch ($_GET['request']) {
             $phone = sanitize($_POST['phone']);
             $email = sanitize($_POST['email']);
             $location = sanitize($_POST['location']);
-            $registration_number = ((isset($_POST['registration_number'])) ? sanitize($_POST['registration_number']) : null);
+            $registration_number = ((isset($_POST['registration_number'])) ?sanitize($_POST['registration_number']) : null);
             $claim_event = sanitize($_POST['claim_event']);
             $product_id = sanitize($_POST['product_id']);
             $product_category_id = sanitize($_POST['product_category_id']);
             $claim_type = sanitize($_POST['claim_type']);
             $bemail = sanitize($_POST['bemail']);
             $bname = sanitize($_POST['bname']);
+            if (isset($_POST['date_of_loss'])) {
+                $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
+                $date_of_loss = date('Y-m-d', $date_of_loss);
+            } else {
+                $date_of_loss = '';
+            }
+
             $created_at = date('Y-m-d H:i:s');
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -39,63 +48,30 @@ switch ($_GET['request']) {
                 $status = 0;
                 exit;
             } else {
-                // insert to db
-                $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`) 
-                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at')  ";
-                $feed = $db->query($query);
+                //mailing claim report
+                $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at) . ' by ' . $full_name);
+                $businessEmail = 'anthonybaru@gmail.com';
+                $businessFullName = $bname;
+                $clientEmail = $email;
+                $clientFullName = $full_name;
 
-                if ($feed) {
-                    
+                $body = $full_name . ' just reported a claim with the following details: <br><br>';
+                $body .= 'Mobile number: ' . $phone . '<br>';
+                $body .= 'Email address: ' . $email . '<br>';
+                $body .= 'Location: ' . $location . '<br>';
+                $body .= 'Vehicle registration number: ' . $registration_number . '<br>';
+                $body .= 'Date of Loss: ' . pretty_date2($date_of_loss) . '<br>';
+                $body .= 'Claim Event: ' . $claim_event;
 
-                    //mailing claim report
-                    $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at).' by '.$full_name);
-                    $businessEmail = $bemail;
-                    $businessFullName = $bname;
-                    $clientEmail = $email;
-                    $clientFullName = $full_name;
-                    $body = $full_name.' just reported a claim with the following details: <br><br>';
-                    $body .= 'Claim Event: ' . $claim_event.'<br>Phone number: '. $phone.'<br>Location: '.$location;
-
-
-                    //mailing claim report
-                    require_once '../mailer/PHPMailer.php';
-                    require_once '../mailer/SMTP.php';
-
-
-                    $mail = new PHPMailer(true);
-                    try{
-                        $mail->IsSMTP();
-                        $mail->isHTML(true);
-                        $mail->SMTPDebug = 0;
-                        $mail->Debugoutput='echo';
-                        $mail->Host = 'mail.apainsurance.ke';
-                        //$mail->SMTPSecure = 'ssl';
-                        $mail->Port = 25;
-                        //$mail->SMTPAuth = false;
-                        $mail->Username = 'apa.website@apollo.co.ke';
-                        $mail->Password = 'Apa321$321';
-    
-    
-                        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
-                        $mail->AddAddress($businessEmail, $businessFullName);
-                        $mail->addBCC('anthonybaru@gmail.com');
-                        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
-                        $mail->AddReplyTo($clientEmail, $clientFullName);
-                        $mail->Subject = $subject;
-                        $mail->Body = $body;
-                        $mail->send();
-                            $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
-                            $response['status'] = 1;
-                    }catch (Exception $e) {
-                        $response['message'] = 'An error occurred: ' . strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
-                        $response['status'] = 0;
-                    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
-                        $response['message'] = 'An error occurred: ' . $e->getMessage(); //Boring error messages from anything else!
-                        $response['status'] = 0;
-                    }
-                
+                if (claim_report($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body) == 1) {
+                    // insert to db
+                    $query = "INSERT INTO claims_reports(`full_name`,`phone`,`email`,`location`,`registration_number`,`claim_event`,`product_id`,`product_category_id`,`claim_type`,`created_at`,`date_of_loss`) 
+                                            VALUES( '$full_name', '$phone', '$email', '$location', '$registration_number', '$claim_event', '$product_id', '$product_category_id', '$claim_type', '$created_at','$date_of_loss')  ";
+                    $feed = $db->query($query);
+                    $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                    $response['status'] = 1;
                 } else {
-                    $response['message'] = 'An error occurred.' . mysqli_error($db);
+                    $response['message'] = 'An error occurred. Please try again!';
                     $response['status'] = 0;
                 }
             }
@@ -106,10 +82,6 @@ switch ($_GET['request']) {
 
     case 'motor_claim_upload':
         sleep(1);
-        $response = array(
-            'status' => 0,
-            'message' => 'An error occurred! Please try again later.'
-        );
         if (
             !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
@@ -134,6 +106,14 @@ switch ($_GET['request']) {
             $product_id = sanitize($_POST['product_id']);
             $product_category_id = sanitize($_POST['product_category_id']);
             $motor_claim_type = sanitize($_POST['motor_claim_type']);
+            $bemail = sanitize($_POST['bemail']);
+            $bname = sanitize($_POST['bname']);
+            if (isset($_POST['date_of_loss'])) {
+                $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
+                $date_of_loss = date('Y-m-d', $date_of_loss);
+            } else {
+                $date_of_loss = '';
+            }
             $created_at = date('Y-m-d H:i:s');
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -234,39 +214,38 @@ switch ($_GET['request']) {
                         move_uploaded_file($log_book_file_tmp, $log_book_file_path) &&
                         move_uploaded_file($detailed_statement_file_tmp, $detailed_statement_file_path)
                     ) {
-                        $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`detailed_statement`,`created_at`) 
-                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at')  ");
-                        if ($insert) {
-                            // mailing claims documents
-                            $subject = ucwords($motor_claim_type. ' claim documents submitted on ' . pretty_date($created_at));
-                            $businessEmail = 'peterchege442@gmail.com';
-                            $businessFullName = 'Peter Chege';
-                            $clientEmail = $email;
-                            $clientFullName = $full_name;
-                            $body = 'Find attached the documents for claim: ' . $claim_id. ' reported by ' . $clientFullName;
 
-                            $documents = array(
-                                $claim_form_motor_file_name => $claim_form_motor_file_path,
-                                $police_abstract_file_name => $police_abstract_file_path,
-                                $driving_license_file_name => $driving_license_file_path,
-                                $log_book_file_name => $log_book_file_path,
-                                $detailed_statement_file_name => $detailed_statement_file_path
-                            );
+                        // mailing claims documents
+                        $subject = ucwords($motor_claim_type . ' claim documents submitted on ' . pretty_date($created_at));
+                        $businessEmail = 'anthonybaru@gmail.com';
+                        $businessFullName = 'Anthony Baru';
+                        $clientEmail = $email;
+                        $clientFullName = $full_name;
+                        $body = $clientFullName . ' has submitted documents for a claim. Details are as follows: <br><br>';
+                        $body .= 'Mobile number: ' . $phone . '<br>';
+                        $body .= 'Email address: ' . $email . '<br>';
+                        $body .= 'Vehicle registration number: ' . $registration_number . '<br>';
+                        $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
+                        $documents = array(
+                            $claim_form_motor_file_name => $claim_form_motor_file_path,
+                            $police_abstract_file_name => $police_abstract_file_path,
+                            $driving_license_file_name => $driving_license_file_path,
+                            $log_book_file_name => $log_book_file_path,
+                            $detailed_statement_file_name => $detailed_statement_file_path
+                        );
 
-                            //mailing claim report
-                            if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents)) {
-                                $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
-                                $response['status'] = 1;
-                            } else {
-                                $reponse['message'] = 'Something went wrong! ';
-                                $response['status'] = 0;
-                            }
+                        //mailing claim report
+                        if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                            $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`detailed_statement`,`created_at`,`date_of_loss`) 
+                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$claim_form_motor_file_name',' $police_abstract_file_name','$driving_license_file_name','$log_book_file_name','$product_id','$product_category_id','$detailed_statement_file_name','$created_at','$date_of_loss')  ");
+                            $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                            $response['status'] = 1;
                         } else {
-                            $response['message'] = "An error occurred. Please try again! " . mysqli_error($db);
-                            //  mysqli_error($db);
+                            $reponse['message'] = 'An error occurred. Please try again!';
+                            $response['status'] = 0;
                         }
                     } else {
-                        $response['message'] = 'An error occurred while uploading the file. Make sure it\'s a valid file and it\'s less than 5 MB!';
+                        $response['message'] = 'An error occurred while uploading file. Make sure file is valid and less than 5 MB!';
                     }
                 }
             }
@@ -301,7 +280,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_hospital_cash'])) {
                 $form =  'claim_form_hospital_cash';
@@ -869,7 +848,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_last_expense'])) {
                 $form =  'claim_form_last_expense';
@@ -1693,7 +1672,7 @@ switch ($_GET['request']) {
             $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
             $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
-            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $location = ((isset($_POST['location'])) ?filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             if (isset($_FILES['claim_form_property_damage'])) {
                 $form =  'claim_form_property_damage';
