@@ -126,7 +126,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/partial.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -153,16 +153,7 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
-                                <!-- <div class="form-group col-md-12">
-                                    <label for="date_of_lose">Date Of Loss </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
-                                </div> -->
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
-                                </div>
+                                
                             </div>
 
                         </div>
@@ -194,7 +185,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/maturity.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/partial.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -233,15 +224,8 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="national_id">Attach document : National Identity or Passport</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="policy_document_maturity">Attach document : Your policy document</label>
-                                    <input name="policy_document_maturity" type="file" class="form-control-file" id="policy_document_maturity" required>
+                                    <label for="policy_document_partial_maturity">Attach document : Your policy document</label>
+                                    <input name="policy_document_partial_maturity" type="file" class="form-control-file" id="policy_document_partial_maturity" required>
                                 </div>
                             </div>
 
