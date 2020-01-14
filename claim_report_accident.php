@@ -169,13 +169,8 @@
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-<<<<<<< HEAD
                                     <label for="date_of_loss">Date Of Loss </label>
                                     <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g 2019-12-21" value="" required>
-=======
-                                    <label for="date_of_lose">Date Of Loss </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
->>>>>>> c0f738675a5b9c59650db1f6e7866481baa3f69b
                                 </div>
                             </div>
 
