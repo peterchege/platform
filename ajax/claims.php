@@ -119,7 +119,6 @@ switch ($_GET['request']) {
             if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
                 $response['message'] = 'Please enter a valid email.';
                 $status = 0;
-                exit;
             } else {
                 $claim_id = randomstring(10);
                 // completed form
@@ -241,7 +240,7 @@ switch ($_GET['request']) {
                             $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                             $response['status'] = 1;
                         } else {
-                            $reponse['message'] = 'An error occurred. Please try again!';
+                            $response['message'] = 'An error occurred. Please try again!';
                             $response['status'] = 0;
                         }
                     } else {
