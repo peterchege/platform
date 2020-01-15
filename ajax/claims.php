@@ -34,12 +34,13 @@ switch ($_GET['request']) {
             $claim_type = sanitize($_POST['claim_type']);
             $bemail = sanitize($_POST['bemail']);
             $bname = sanitize($_POST['bname']);
-            if (isset($_POST['date_of_loss'])) {
+
+            if (isset($_POST['date_of_loss'])):
                 $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
                 $date_of_loss = date('Y-m-d', $date_of_loss);
-            } else {
+            else:
                 $date_of_loss = '';
-            }
+            endif;
 
             $created_at = date('Y-m-d H:i:s');
 
@@ -92,12 +93,13 @@ switch ($_GET['request']) {
         $motor_claim_type = sanitize($_POST['motor_claim_type']);
         $bemail = sanitize($_POST['bemail']);
         $bname = sanitize($_POST['bname']);
-        if (isset($_POST['date_of_loss'])) {
+
+        if (isset($_POST['date_of_loss'])):
             $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
             $date_of_loss = date('Y-m-d', $date_of_loss);
-        } else {
+        else:
             $date_of_loss = 'no date';
-        }
+        endif;
 
         $created_at = date('Y-m-d H:i:s');
 
@@ -239,11 +241,7 @@ switch ($_GET['request']) {
             !isset($_POST['phone']) || empty($_POST['phone']) ||
             !isset($_POST['email']) || empty($_POST['email']) ||
             !isset($_POST['location']) || empty($_POST['location'])
-            // ||!isset($_POST['registration_number']) || !isset($_POST['registration_number']) ||
-            // !isset($_POST['claim_event']) || empty($_POST['claim_event']) ||
-            // !isset($_POST['product_id']) ||  empty($_POST['product_id']) ||
-            // !isset($_POST['product_category_id']) || empty($_POST['product_category_id']) ||
-            // !isset($_POST['motor_claim_type'])
+            
         ) {
             $response['message'] = 'Please enter all required fields.';
         } else {
