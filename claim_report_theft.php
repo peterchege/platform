@@ -191,7 +191,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="windscreen" name="claim_type" value="theft">
+                            <input type="hidden" id="claim_type" name="claim_type" value="theft">
                             <input type="hidden" id="bemail" name="bemail" value="claims.motor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Motor Claim">
                         </div>
@@ -204,7 +204,6 @@
                             </div>
                         </div>
                 </div>
-                <input type="hidden" class="form_pdf" name="form_pdf" value="windscreen">
                 </form>
 
             </div>
@@ -300,7 +299,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="theft">
+                            <input type="hidden" id="claim_type" name="claim_type" value="theft">
                             <input type="hidden" id="bemail" name="bemail" value="claims.motor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Motor Claim">
                         </div>

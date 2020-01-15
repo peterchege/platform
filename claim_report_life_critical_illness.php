@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -116,7 +116,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
@@ -130,7 +130,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -154,8 +154,8 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="date_of_lose">Date Of Loss </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                    <label for="date_of_loss">Date of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -168,9 +168,9 @@
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="21">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="accident" name="claim_type" value="property damage">
+                            <input type="hidden" id="claim_type" name="claim_type" value="critical illness">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -222,8 +222,8 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="date_of_lose">Date Of Loss </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                    <label for="date_of_loss">Date of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
 
@@ -238,36 +238,39 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_form_critical_illness">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="claim_form_critical_illness" type="file" class="form-control-file" id="claim_form_critical_illness" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="claim_form_critical_illness" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="national_id">Attach document : National Identity or Passport</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="medical_report">Attach document : All medical reports relevant to the claim</label>
-                                    <input name="medical_report" type="file" class="form-control-file" id="medical_report" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="medical_report" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="payslips">Attach document : Pay slips for at least 2 months</label>
-                                    <input name="payslips" type="file" class="form-control-file" id="payslips" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="payslips" required>
                                 </div>
                             </div>
 
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="21">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="claim_type" name="claim_type" value="critical illness">
+                            <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
+                            <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -304,7 +307,7 @@
         </div>
     </div>
 
-    <?php require_once 'inc/scripts.php'; ?>
+    <?php require_once 'inc/scripts.php';?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 

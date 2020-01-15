@@ -15,7 +15,7 @@ $(document).ready(function () {
                 $('.btn').attr("disabled", true).html('Processing');
             },
             success: function (response) {
-                if (response.message == 'success') {
+                if (response.status == 1) {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESSFULLY RECEIVED</h3>',
                         html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
@@ -150,7 +150,7 @@ $(document).ready(function () {
     $('.form').on('submit', function (e) {
         e.preventDefault();
         var form = $(this);
-        var pdf = $(this).find('input[type=hidden]:last').val();
+        var pdf = $(this).find('input[name="claim_type"]').val();
 
         if (pdf == 'windscreen') {
             var claim_form = 'pdf/claim/Windscreen CLM_FRM.pdf';
@@ -158,6 +158,18 @@ $(document).ready(function () {
             var claim_form = 'pdf/claim/motor_claim_form.pdf';
         } else if (pdf == 'theft') {
             var claim_form = 'pdf/claim/motor_claim_form.pdf';
+        } else if (pdf == 'hospital cash') {
+            var claim_form = '';
+        } else if (pdf == 'last expense') {
+            var claim_form = '';
+        } else if (pdf == 'critical illness') {
+            var claim_form = '';
+        } else if (pdf == 'death') {
+            var claim_form = '';
+        } else if (pdf == 'maturity') {
+            var claim_form = '';
+        } else if (pdf == 'partial maturity') {
+            var claim_form = '';
         } else {
             var claim_form = '';
         }
@@ -165,6 +177,42 @@ $(document).ready(function () {
         //sweet alert content
         var claim_type = $('input[name=claim_type]').val();
         switch (claim_type) {
+            case 'hospital cash':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
+            case 'last expense':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
+            case 'critical illness':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
+            case 'death':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
+            case 'maturity':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
+            case 'partial maturity':
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                    '<ol class="text-left">' +
+                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '</ol></p>';
+                break;
             case 'accident':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
