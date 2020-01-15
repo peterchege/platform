@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -122,7 +122,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
@@ -136,7 +136,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -175,8 +175,8 @@
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="e.g KBY 213" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="date_of_lose">Date Of Lose </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g 2019-12-21" value="" required>
                                 </div>
                             </div>
 
@@ -225,7 +225,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container motor-claim-upload">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container motor-claim-upload">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -249,8 +249,8 @@
                                     <input name="registration_number" type="text" class="form-control" id="registration_number" placeholder="KBQ 123J" value="" data-parsley-pattern="/^([A-z]{3}) *([0-9]{3})+([A-z]{1})$/im" data-parsley-trigger="keyup" required>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="date_of_lose">Date Of Lose </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose" placeholder="e.g KBY 213" value="" required>
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g 2019-12-21" value="" required>
                                 </div>
 
                             </div>
@@ -267,7 +267,7 @@
                                 <div class="form-group col-md-12">
                                     <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_motor" type="file" class="form-control-file" id="claim_form_motor" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="claim_form_motor" required>
                                 </div>
                             </div>
 
@@ -277,7 +277,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="detailed_statement">Attach document : Windscreen Photo</label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="windscreen" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="windscreen" required>
 
 
                                 </div>
@@ -286,30 +286,26 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="detailed_statement">Attach document : Vehicle Photo</label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="detailed_statement" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="police_abstract">Attach document : Police Abstract
                                         (Optional)</label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
-
-                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="vehicle">
-
-
-
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="6">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="windscreen">
                                 <input type="hidden" id="bemail" name="bemail" value="claims.motor@apainsurance.org">
                                 <input type="hidden" id="bname" name="bname" value="Motor Claim">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">INITIATE
+                                    <button type="submit" name="request_uploadd" ocaads="btn btn-primary">INITIATE
                                         CLAIM
                                     </button>
                                 </div>
@@ -347,7 +343,7 @@
                 </p>
             </div>
         </div>
-        <?php require_once('inc/scripts.php'); ?>
+        <?php require_once 'inc/scripts.php';?>
         <script src="js/parsley.min.js"></script>
         <script src="js/claims.js"> </script>
 

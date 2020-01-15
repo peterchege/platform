@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -116,7 +116,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
@@ -259,35 +259,35 @@
                                 <div class="form-group col-md-12">
                                     <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_motor" type="file" class="form-control-file" id="claim_form_motor" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="claim_form_motor" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="police_abstract">Attach document : Police Abstract </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="driving_license">Attach document : Driving license </label>
-                                    <input name="driving_license" type="file" class="form-control-file" id="driving_license" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="driving_license" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="log_book">Attach document : Log Book </label>
-                                    <input name="log_book" type="file" class="form-control-file" id="log_book" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="log_book" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="detailed_statement">Attach document : Detailed statement of accident</label>
-                                    <input name="detailed_statement" type="file" class="form-control-file" id="detailed_statement" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="detailed_statement" required>
                                 </div>
                             </div>
 
@@ -341,7 +341,7 @@
             </p>
         </div>
     </div>
-    <?php require_once('inc/scripts.php'); ?>
+    <?php require_once 'inc/scripts.php';?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js"></script>
 </body>
