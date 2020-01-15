@@ -250,7 +250,7 @@
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="date_of_loss">Date Of Loss </label>
-                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_losse placeholder=" e.g KBY 213" value="" required>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g 2019-12-21" value="" required>
                                 </div>
 
                             </div>
@@ -296,14 +296,10 @@
                                     <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
-
-                            <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="vehicle">
-
-
-
                             <div style="display: none">
                                 <input type="hidden" id="product_id" name="product_id" value="6">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                                <input type="hidden" id="motor_claim_type" name="motor_claim_type" value="windscreen">
                                 <input type="hidden" id="bemail" name="bemail" value="claims.motor@apainsurance.org">
                                 <input type="hidden" id="bname" name="bname" value="Motor Claim">
                             </div>

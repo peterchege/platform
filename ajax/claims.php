@@ -96,12 +96,27 @@ switch ($_GET['request']) {
             $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
             $date_of_loss = date('Y-m-d', $date_of_loss);
         } else {
-            $date_of_loss = '';
+            $date_of_loss = 'no date';
         }
+
         $created_at = date('Y-m-d H:i:s');
 
         $claim_id = randomstring(10);
-        $claimDocs = array('completed claim form', 'windscreen photo', 'vehicle photo', 'police abstract');
+
+        switch ($claim_type) {
+            case 'accident':
+                $claimDocs = array('completed form', 'police abstract', 'driving license', 'log book', 'detailed statement');
+                break;
+            case 'windscreen':
+                $claimDocs = array('completed form', 'windscreen photo', 'vehicle photo', 'police abstract');
+                break;
+            case 'theft':
+                $claimDocs = array('completed form', 'police abstract', 'driving license', 'log book', 'detailed statement');
+                break;
+            default:
+                # code...
+                break;
+        }
         $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
         $errors = array(
             'detail' => '',
@@ -183,8 +198,25 @@ switch ($_GET['request']) {
             //mailing claims documents
             if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                 $documentsKeys = array_keys($documents);
-                $insert = $db->query("INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`product_id`,`product_category_id`,`detailed_statement`,`created_at`,`date_of_loss`)
-                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$documentsKeys[0]',' $$documentsKeys[1]','$documentsKeys[2]','$documentsKeys[2]','$product_id','$product_category_id','$documentsKeys[2]','$created_at','$date_of_loss')  ");
+                switch ($claim_type) {
+                    case 'accident':
+                        $query = "INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`detailed_statement`,`product_id`,`product_category_id`,`created_at`,`date_of_loss`)
+                                        VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$documentsKeys[4]','$product_id','$product_category_id','$created_at','$date_of_loss')";
+                        break;
+                    case 'windscreen':
+                        $query = "INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`windscreen_photo`,`vehicle_photo`,`police_abstract`,`product_id`,`product_category_id`,`created_at`,`date_of_loss`)
+                                            VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$documentsKeys[0]',' $$documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$product_id','$product_category_id','$created_at','$date_of_loss')";
+                        break;
+                    case 'theft':
+                        $query = "INSERT INTO claims_motor_upload(`claim_id`,`full_name`,`phone`,`email`,`registration_number`,`motor_claim_type`,`completed_form`,`police_abstract`,`driving_license`,`log_book`,`detailed_statement`,`product_id`,`product_category_id`,`created_at`,`date_of_loss`)
+                                        VALUES('$claim_id','$full_name','$phone','$email','$registration_number','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$documentsKeys[4]','$product_id','$product_category_id','$created_at','$date_of_loss')";
+                        break;
+                    default:
+                        # code...
+                        break;
+                }
+
+                $insert = $db->query($query);
                 $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
                 $response['status'] = 1;
             } else {
@@ -192,8 +224,6 @@ switch ($_GET['request']) {
                 $response['status'] = 0;
             }
         }
-
-        //return response
         echo json_encode($response);
         break;
 
