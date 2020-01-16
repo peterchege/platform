@@ -47,8 +47,8 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>Group Life Claim</h1>
-            <div class="under-line img7">
+            <h1>Criticall Illness Claim</h1>
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -126,7 +126,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/group_life_claim.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -194,7 +194,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/group_life_claim.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/critical.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -213,17 +213,13 @@
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-4">
+                                <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
                                     <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-4">
+                                <div class=" form-group col-md-6">
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="date_of_loss">Date of Loss </label>
-                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
                                 </div>
                             </div>
 
@@ -237,29 +233,29 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_group_life_benefit">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="claim_form_group_life_benefit" type="file" class="form-control-file" id="claim_form_group_life_benefit" required>
+                                    <label for="claim_form_critical_illness">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_critical_illness" type="file" class="form-control-file" id="claim_form_critical_illness" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="national_id">Attach document : National Identity or Passport</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
+                                    <label for="medical_report">Attach document : All medical reports relevant to the claim</label>
+                                    <input name="medical_report" type="file" class="form-control-file" id="medical_report" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="payslips">Attach document : Copy of payslip for the last 2 Months</label>
+                                    <label for="payslips">Attach document : pay slips for the least 2 months</label>
                                     <input name="payslips" type="file" class="form-control-file" id="payslips" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="post_mortem_report">Attach document : Police Report & Post-mortem in case of death in accidental</label>
-                                    <input name="post_mortem_report" type="file" class="form-control-file" id="post_mortem_report" required>
+                                    <label for="national_id">Attach document : Copy of national ID card or valid passport </label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
