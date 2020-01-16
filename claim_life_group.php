@@ -145,7 +145,7 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-box we img-ptd">
-                            <a href="#modal-full5" uk-toggle>
+                            <a href="claim_report_life_group_permanent_disability.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
