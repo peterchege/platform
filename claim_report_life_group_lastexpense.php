@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Group Last-Expense - Claim Report APA Insurance</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/draft.css" media="screen">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php';?>
+    <?php include 'views/head_links.php'; ?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php';?>
+    <?php include 'views/nav.php'; ?>
     <!-- #header -->
 
     <!--==========================
@@ -47,8 +47,8 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>PERSONAL ACCIDENT</h1>
-            <div class="under-line img6">
+            <h1>Group Last Expense Claim</h1>
+            <div class="under-line img5">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -116,21 +116,21 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php';?>
+    <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
 
-    <!-- ===================================== REPORT PERSONAL ACCIDENT CLAIM ===================================== -->
+    <!-- ===================================== REPORT PROPERTY CLAIM ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/personal_accident.jpg'); background-size: cover; background-position: left;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -154,8 +154,8 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="date_of_loss">Date Of Loss </label>
-                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
+                                    <label for="date_of_loss">Date of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" placeholder="e.g KBY 213" value="" required>
                                 </div>
                             </div>
                             <div class="row">
@@ -168,9 +168,9 @@
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="12">
+                            <input type="hidden" id="product_id" name="product_id" value="22">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="claim_type" name="claim_type" value="personal accident">
+                            <input type="hidden" id="last expense" name="claim_type" value="last expense">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -188,19 +188,19 @@
         </div>
     </div>
 
-    <!-- ===================================== UPLOAD PERSONAL ACCIDENT CLAIM  ===================================== -->
+    <!-- ===================================== UPLOAD PROPERTY CLAIM  ===================================== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/personal_accident.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  life-group-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container-fluid">
+                        <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
@@ -233,68 +233,34 @@
                             <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
 
-                        <div class="container-fluid">
+                        <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="personal_accident_claim_form">Attach document : completed claim form <a href="pdf/claim/GPA CLAIM FORM.pdf" target="_blank">(click here to
-                                            download
-                                            a
-                                            claim
-                                            form)</a> </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="personal_accident_claim_form" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="detailed_statement">Attach document : Statements </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="detailed_statement" required>
+                                <div class="form-group col-md-12">
+                                    <label for="claim_form_last_expense">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
+                                    <input name="claim_form_last_expense" type="file" class="form-control-file" id="claim_form_last_expense" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="payslips">Attach document : Payslip </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="payslips" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="national_id">Attach document : National ID Card </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="national_id" required>
+                                <div class="form-group col-md-12">
+                                    <label for="national_id">Attach document : National Identity Card or Passport</label>
+                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="sick_sheet">Attach document : Sick Sheet<br> </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="sick_sheet" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="medical_bill">Attach document : Medical Bill  </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="medical_bill" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="discharge_summary">Attach document : Discharge Summary </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="discharge_summary" required>
-                                </div>
-
-                                <div class="form-group col-md-6">
-                                    <label for="police_abstract">Attach document : Police Abstract </label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
+                                <div class="form-group col-md-12">
+                                    <label for="original_burial_permit">Attach document : Scanned Copy of the Original Burial Permit</label>
+                                    <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
                                 </div>
                             </div>
 
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="12">
+                            <input type="hidden" id="product_id" name="product_id" value="6">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="claim_type" name="claim_type" value="personal accident">
-                            <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
-                            <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -310,7 +276,7 @@
         </div>
     </div>
 
-    <!-- ===================================== PERSONAL ACCIDENT CLAIM REMARKS ===================================== -->
+    <!-- ===================================== PROPERTY CLAIM REMARKS ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
@@ -326,12 +292,12 @@
                 <br><br>
                 For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286
                 2000.
-                Or send and email to claims@apainsurance.org
+                Or send and email to claims.motor@apainsurance.org
             </p>
         </div>
     </div>
 
-    <?php require_once 'inc/scripts.php';?>
+    <?php require_once 'inc/scripts.php'; ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 

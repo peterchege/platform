@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Death Claim - APA LIFE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/draft.css" media="screen">
@@ -161,9 +161,9 @@
                                         placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="date_of_lose">Date Of Loss </label>
-                                    <input name="date_of_lose" type="date" class="form-control" id="date_of_lose"
-                                        placeholder="e.g KBY 213" value="" required>
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss"
+                                         value="" required>
                                 </div>
                             </div>
                             <div class="row">
