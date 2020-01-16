@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Group Life Claims - APA INSURANCE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
@@ -76,7 +76,7 @@
 
                     <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="product-box we life-4">
-                            <a href="#modal-full1" uk-toggle>
+                            <a href="claim_report_life_group_lastexpense.php">
                                 <div class="color-overlay"></div>
                                 <div class="wrapper">
                                     <div class="content">
@@ -278,87 +278,7 @@
 
     <!-- ===================================== LAST EXPENSE CLAIM FORM  ===================================== -->
 
-    <div id="modal-full1" class="uk-modal-full" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
-            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/admited.jpg'); background-size: cover;" uk-height-viewport></div>
-                <div class="uk-padding-large">
-
-
-                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  life-group-claim-form">
-                        <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
-                        <div class="container">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
-                                </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                        <div class="form-group col-md-12">
-                            <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
-                        </div>
-
-                        <div class="container">
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="claim_form_last_expense">Attach document : Claim Form completed <a href="#">(click here to download a claim form)</a></label>
-                                    <input name="claim_form_last_expense" type="file" class="form-control-file" id="claim_form_last_expense" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="national_id">Attach document : National Identity Card or Passport</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="original_burial_permit">Attach document : Scanned Copy of the Original Burial Permit</label>
-                                    <input name="original_burial_permit" type="file" class="form-control-file" id="original_burial_permit" required>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
-                            <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                        </div>
-                        <div class="row book-btn">
-                            <div class="col-md-12">
-                                <button type="submit" name="request" class="btn btn-primary">INITIATE
-                                    CLAIM
-                                </button>
-                            </div>
-                        </div>
-                </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
+    
 
     <!-- ===================================== LAST EXPENSE CLAIM REMARKS ===================================== -->
 
