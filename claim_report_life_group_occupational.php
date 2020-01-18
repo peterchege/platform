@@ -47,7 +47,7 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>Permanent Total Disability</h1>
+            <h1> Occupatiional -PTD & TTD </h1>
             <div class="under-line img5">
                 <img src="images/line.png" alt="">
             </div>
@@ -126,7 +126,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/claim_life3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -194,7 +194,7 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/claim_life3.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
@@ -232,36 +232,45 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="notification_letter_permanent_total_disability">Attach document : Notification Letter</label>
-                                    <input name="notification_letter_permanent_total_disability" type="file" class="form-control-file" id="notification_letter_permanent_total_disability" required>
+                                <div class="form-group col-md-6">
+                                    <label for="dosh_one_two">Attach document : DOSH part I & II</label>
+                                    <input name="dosh_one_two" type="file" class="form-control-file" id="dosh_one_two" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="dosh_four">Attach document : DOSH/WIBA IV</label>
+                                    <input name="dosh_four" type="file" class="form-control-file" id="dosh_four" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="medical_report">Attach document : Provision of satisfaction medical examination report</label>
-                                    <input name="medical_report" type="file" class="form-control-file" id="medical_report" required>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="payslips">Attach document : Last 3 month pay-slip</label>
+                                <div class="form-group col-md-6">
+                                    <label for="payslips">Attach document : Pay slip for the month before the injury/Wage roll</label>
                                     <input name="payslips" type="file" class="form-control-file" id="payslips" required>
                                 </div>
+                                <div class="form-group col-md-6">
+                                    <label for="medical_bill">Attach document : original medical bill</label>
+                                    <input name="medical_bill" type="file" class="form-control-file" id="medical_bill" required>
+                                </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="national_id">Attach document : Copy of your national ID</label>
+                                <div class="form-group col-md-6">
+                                    <label for="sick_off_sheets">Attach document : Sick off sheets </label>
+                                    <input name="sick_off_sheets" type="file" class="form-control-file" id="sick_off_sheets" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="national_id">Attach document : Copy of National ID </label>
                                     <input name="national_id" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="police_abstract">Attach document : Copy of police abstract if disability is due to an accident </label>
+                                <div class="form-group col-md-6">
+                                    <label for="witness_statement">Attach document : Claimants /witness statement </label>
+                                    <input name="witness_statement" type="file" class="form-control-file" id="witness_statement" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="police_abstract">Attach document : Police abstract for RTA </label>
                                     <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
