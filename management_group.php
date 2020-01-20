@@ -196,7 +196,7 @@
                         </h5>
 
                         <p>
-                            She is a seasoned professional in communication and...
+                            Grace Nganga is a seasoned professional in communication and...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
                     </div>
