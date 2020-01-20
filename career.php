@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Careers - APA INSURANCE</title>
+    <title>Careers - Apa Insurance</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Apollo Group, our most valuable assets are our employees. 
     We pride ourselves in creating experience, delivering results and adding value to all stakeholders. 
