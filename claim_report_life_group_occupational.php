@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -116,7 +116,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
@@ -126,51 +126,75 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m"
+                    style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+
+
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
+
+
+
                                 <div class="form-group col-md-12">
+
+
+
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
+
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" value="" required>
+
                                 </div>
                             </div>
 
+
+
                             <div class="row">
                                 <div class="form-group col-md-12">
+
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
+
                                 <div class=" form-group col-md-12">
                                     <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
+
                                     <label for="date_of_loss">Date of Loss </label>
-                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss"
+                                        value="" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_event">Describe the Claim Event</label>
-                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4" required></textarea>
+                                    <textarea name="claim_event" class="form-control" id="claim_event" rows="4"
+                                        required></textarea>
                                 </div>
                             </div>
 
                         </div>
-
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="22">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="last expense" name="claim_type" value="last expense">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life occupational">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -178,108 +202,163 @@
                             <div class="col-md-12">
                                 <button type="submit" name="request" class="btn btn-primary">INITIATE
                                     CLAIM
+
                                 </button>
                             </div>
+
+
                         </div>
                 </div>
                 </form>
 
+
             </div>
         </div>
+
+
+
+
     </div>
 
-    <!-- ===================================== UPLOAD PROPERTY CLAIM  ===================================== -->
+
+    <!-- ===================================== UPLOAD PROPERTY CLAIM  ===========================
+
+
+                    ========== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/tempo.jpg'); background-size: cover;" uk-height-viewport></div>
+
+                <div class="uk-background-cover" style="background-image: url('img/tempo.jpg'); background-size: cover;"
+                    uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  life-group-claim-form">
+
+
+
+                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST"
+                        class="form-container  life-group-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
+
+
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="Full Name" value="" required>
+
+
+                                    <input name="full_name" type="text" class="form-control" id="full_name"
+                                        placeholder="Full Name" value="" required>
                                 </div>
                                 <div class="form-group col-md-6">
+
+
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
+
+                                    <input name="phone" type="tel" class="form-control" id="phone"
+                                        placeholder="Mobile Number"
+                                        data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$"
+                                        data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="form-group col-md-6">
+                                re <div cla="form-group col-md-6">
                                     <label for="email">Email Address</label>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="Email"
+                                        value="" required data-parsley-type="email" data-parsley-trigger="keyup">
                                 </div>
-                                <div class=" form-group col-md-6">
-                                    <label for="location">Location</label>
-                                    <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
-                                </div>
-                            </div>
 
+                                <div class=" form-group col-md-6">
+
+                                    <label for="location">Location</label>
+                                    <input name="location" type="text" class="form-control" id="location"
+                                        placeholder="Nairobi" value="" required>
+                                </div>
+
+
+
+                            </div>
+                            requir
                         </div>
                         <hr>
                         <div class="form-group col-md-12">
+
+
                             <h3 for="inputAddress">ATTACH THE FOLLOWING DOCUMENT</h3>
                         </div>
+
 
                         <div class="container">
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="dosh_one_two">Attach document : DOSH part I & II</label>
-                                    <input name="dosh_one_two" type="file" class="form-control-file" id="dosh_one_two" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="dosh_one_two" re
+                                        quired>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="dosh_four">Attach document : DOSH/WIBA IV</label>
-                                    <input name="dosh_four" type="file" class="form-control-file" id="dosh_four" required>
+
+                                    <input name="documents[]" type="file" class="form-control-file" id="dosh_four"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="row">
+
+
                                 <div class="form-group col-md-6">
-                                    <label for="payslips">Attach document : Pay slip for the month before the injury/Wage roll</label>
-                                    <input name="payslips" type="file" class="form-control-file" id="payslips" required>
+                                    <label for="payslips">Attach document : Pay slip for the month before the
+                                        injury/Wage roll</label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="payslips" requir
+                                        ed>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="medical_bill">Attach document : original medical bill</label>
-                                    <input name="medical_bill" type="file" class="form-control-file" id="medical_bill" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="medical_bill"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="sick_off_sheets">Attach document : Sick off sheets </label>
-                                    <input name="sick_off_sheets" type="file" class="form-control-file" id="sick_off_sheets" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="sick_off_sheets"
+                                        required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="national_id">Attach document : Copy of National ID </label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="national_id"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="witness_statement">Attach document : Claimants /witness statement </label>
-                                    <input name="witness_statement" type="file" class="form-control-file" id="witness_statement" required>
+                                    <label for="witness_statement">Attach document : Claimants /witness statement
+                                    </label>
+                                    <input name="documents[]" type="file" class="form-control-file"
+                                        id="witness_statement" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="police_abstract">Attach document : Police abstract for RTA </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract"
+                                        required>
                                 </div>
                             </div>
 
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life occupational">
+                            <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
+                            <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -315,7 +394,7 @@
         </div>
     </div>
 
-    <?php require_once 'inc/scripts.php'; ?>
+    <?php require_once 'inc/scripts.php';?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 

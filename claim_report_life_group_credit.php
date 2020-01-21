@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -116,7 +116,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
@@ -130,7 +130,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -168,9 +168,9 @@
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="22">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="last expense" name="claim_type" value="last expense">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life credit">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -234,41 +234,44 @@
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="credit_death_certificate">Attach document : Death Certificate</label>
-                                    <input name="credit_death_certificate" type="file" class="form-control-file" id="credit_death_certificate" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="credit_death_certificate" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="burial_permit">Attach document : Burial Permit</label>
-                                    <input name="burial_permit" type="file" class="form-control-file" id="burial_permit" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="burial_permit" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="national_id">Attach document : Copy of National ID Card or Passport</label>
-                                    <input name="national_id" type="file" class="form-control-file" id="national_id" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="national_id" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="loan_application_and_agreement">Attach document : Loan Application form and executed loan agreement</label>
-                                    <input name="loan_application_and_agreement" type="file" class="form-control-file" id="loan_application_and_agreement" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="loan_application_and_agreement" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <label for="loan_repayment">Attach document : Loan repayment statement </label>
-                                    <input name="loan_repayment" type="file" class="form-control-file" id="loan_repayment" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="loan_repayment" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="police_abstract">Attach document : Post morterm and police abstract if death is accidental </label>
-                                    <input name="police_abstract" type="file" class="form-control-file" id="police_abstract" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
 
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="6">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life credit">
+                            <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
+                            <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
                         <div class="row book-btn">
                             <div class="col-md-12">
@@ -305,7 +308,7 @@
         </div>
     </div>
 
-    <?php require_once 'inc/scripts.php'; ?>
+    <?php require_once 'inc/scripts.php';?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 

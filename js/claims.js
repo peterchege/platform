@@ -64,7 +64,7 @@ $(document).ready(function () {
                 $('.btn').attr("disabled", true).html('Processing');
             },
             success: function (response) {
-                if (response.message == 'success') {
+                if (response.status == 1) {
                     swal.fire({
                         title: '<h3 style="color:#0C4DA2; font-family: "Oswald", sans-serif; " >SUCCESSFULLY RECEIVED</h3>',
                         html: '<p class="text-left" >Thank you for providing us with details of your claim. One of our agents will contact you ' +
