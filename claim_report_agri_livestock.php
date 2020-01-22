@@ -221,6 +221,10 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
+                                <div class="form-group col-md-12">
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
+                                </div>
                             </div>
 
                         </div>
