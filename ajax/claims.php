@@ -217,7 +217,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'accident':
@@ -388,7 +388,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'hospital cash':
@@ -570,7 +570,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'group life last expense':
@@ -744,7 +744,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'property damage':
@@ -782,6 +782,7 @@ switch ($_GET['request']) {
             'status' => 0,
             'message' => 'Form submission failed, please try again.',
         );
+
         if (
             !isset($_POST['full_name']) || empty($_POST['full_name']) ||
             !isset($_POST['phone']) || empty($_POST['phone']) ||
@@ -790,6 +791,7 @@ switch ($_GET['request']) {
             !isset($_POST['claim_type']) || empty($_POST['claim_type'])
         ) {
             $response['message'] = 'Please enter all required fields.';
+            break;
         } else {
             $created_at = date('Y-m-d H:i:s');
             $product_id = filter_var(mysqli_real_escape_string($db, $_POST['product_id']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
@@ -810,16 +812,12 @@ switch ($_GET['request']) {
             $claim_id = randomstring(10);
 
             switch ($claim_type) {
-                case 'property damage':
-                    $claimDocs = array('completed form', 'police abstract', 'proforma invoice', 'detailed statement');
+                case 'livestock':
+                    $claimDocs = array('completed form', 'post mortem report', 'vet loss certificate', 'dead livestock photo');
                     break;
-                case 'wiba':
-                    $claimDocs = array('completed form-dosh 1 and 2', 'dosh 4');
+                case 'crop':
+                    $claimDocs = array('completed form');
                     break;
-                case 'personal accident':
-                    $claimDocs = array('completed form', 'detailed statement', 'payslips', 'id', 'sick sheet', 'medical bill', 'discharge summary', 'police abstract');
-                    break;
-
             }
             $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
             $errors = array(
@@ -901,20 +899,16 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
-                        case 'property damage':
-                            $query = "INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`police_abstract`,`proforma_invoice`,`detailed_statement`,`created_at`,`date_of_loss`)
+                        case 'livestock':
+                            $query = "INSERT INTO claims_agriculture_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem_report`,`vet_loss_certificate`,`livestock_photo`,`created_at`,`date_of_loss`)
                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$created_at','$date_of_loss') ";
                             break;
-                        case 'wiba':
-                            $query = "INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`dosh_one_two`,`dosh_four`,`created_at`,`date_of_loss`)
-                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$created_at','$date_of_loss') ";
-                            break;
-                        case 'personal accident':
-                            $query = "INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`,`date_of_loss`)
-                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$documentsKeys[4]','$documentsKeys[5]','$documentsKeys[6]','$documentsKeys[7]','$created_at','$date_of_loss') ";
+                        case 'crop':
+                            $query = "INSERT INTO claims_agriculture_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`,`date_of_loss`)
+                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]','$created_at','$date_of_loss') ";
                             break;
                     }
 
