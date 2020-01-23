@@ -217,7 +217,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'accident':
@@ -388,7 +388,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'hospital cash':
@@ -570,7 +570,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'group life last expense':
@@ -744,7 +744,7 @@ switch ($_GET['request']) {
                 $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
 
                 //mailing claims documents
-                if (claim_motor($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
                     $documentsKeys = array_keys($documents);
                     switch ($claim_type) {
                         case 'property damage':
@@ -758,6 +758,157 @@ switch ($_GET['request']) {
                         case 'personal accident':
                             $query = "INSERT INTO claims_personal_property_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`detailed_statement`,`payslips`,`national_id`,`sick_sheet`,`medical_bill`,`discharge_summary`,`police_abstract`,`created_at`,`date_of_loss`)
                                         VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$documentsKeys[4]','$documentsKeys[5]','$documentsKeys[6]','$documentsKeys[7]','$created_at','$date_of_loss') ";
+                            break;
+                    }
+
+                    $insert = $db->query($query);
+                    $response['message'] = 'Thanks. We\'ll get back to you as soon as we can.';
+                    $response['status'] = 1;
+                } else {
+                    $response['message'] = 'An error occurred while sending email. Please try again later!';
+                    $response['status'] = 0;
+                }
+            } else {
+                $response['message'] = $errors['detail'];
+                $response['status'] = 0;
+            }
+        }
+        echo json_encode($response);
+        break;
+
+    case 'agriculture_claim':
+        sleep(1);
+        $response = array(
+            'status' => 0,
+            'message' => 'Form submission failed, please try again.',
+        );
+
+        if (
+            !isset($_POST['full_name']) || empty($_POST['full_name']) ||
+            !isset($_POST['phone']) || empty($_POST['phone']) ||
+            !isset($_POST['email']) || empty($_POST['email']) ||
+            !isset($_POST['location']) || empty($_POST['location']) ||
+            !isset($_POST['claim_type']) || empty($_POST['claim_type'])
+        ) {
+            $response['message'] = 'Please enter all required fields.';
+            break;
+        } else {
+            $created_at = date('Y-m-d H:i:s');
+            $product_id = filter_var(mysqli_real_escape_string($db, $_POST['product_id']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+            $product_category_id = sanitize($_POST['product_category_id']);
+            $full_name = filter_var(mysqli_real_escape_string($db, $_POST['full_name']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+            $phone = filter_var(mysqli_real_escape_string($db, $_POST['phone']), FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_STRIP_HIGH);
+            $email = filter_var(mysqli_real_escape_string($db, $_POST['email']), FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_HIGH);
+            $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
+            $claim_type = sanitize($_POST['claim_type']);
+            $bemail = sanitize($_POST['bemail']);
+            $bname = sanitize($_POST['bname']);
+            if (isset($_POST['date_of_loss'])):
+                $date_of_loss = strtotime(sanitize($_POST['date_of_loss']));
+                $date_of_loss = date('Y-m-d', $date_of_loss);
+            else:
+                $date_of_loss = '';
+            endif;
+            $claim_id = randomstring(10);
+
+            switch ($claim_type) {
+                case 'livestock':
+                    $claimDocs = array('completed form', 'post mortem report', 'vet loss certificate', 'dead livestock photo');
+                    break;
+                case 'crop':
+                    $claimDocs = array('completed form');
+                    break;
+            }
+            $extensions = array("doc", "docx", "pdf", "jpg", "jpeg");
+            $errors = array(
+                'detail' => '',
+            );
+
+            function checkSize()
+        {
+                global $filesize;
+                foreach ($_FILES['documents']['name'] as $key => $value) {
+                    if ($filesize > 5242880):
+                        $return = 0;
+                        break;
+                    else:
+                        $return = 1;
+                    endif;
+                }
+                return $return;
+            }
+
+            function checkExt()
+        {
+                foreach ($_FILES['documents']['name'] as $key => $value) {
+                    global $extensions;
+                    $fileext = explode('.', $_FILES['documents']['name'][$key]);
+                    $fileext = end($fileext);
+                    $fileext = strtolower($fileext);
+                    if (!in_array($fileext, $extensions)):
+                        $return = 0;
+                        break;
+                    else:
+                        $return = 1;
+                    endif;
+                }
+                return $return;
+            }
+
+            foreach ($_FILES['documents']['name'] as $key => $document) {
+                $filename = $_FILES['documents']['name'][$key];
+                $filesize = $_FILES['documents']['size'][$key];
+                $filetempname = $_FILES['documents']['tmp_name'][$key];
+                $filetype = $_FILES['documents']['type'][$key];
+
+                $fileext = explode('.', $filename);
+                $fileext = end($fileext);
+                $fileext = strtolower($fileext);
+
+                if (checkExt() == 0) {
+                    $errors['detail'] = 'Invalid file(s)!. Only doc, docx, pdf, jpg and jpeg files are allowed.';
+                    break;
+                } else {
+                    if (checkSize() == 0) {
+                        $errors['detail'] = 'Files should be less than 5 MB each!';
+                        break;
+                    } else {
+                        $doc = $claimDocs[$key];
+                        $filename = $email . '----' . $claim_id . '----' . $doc . '----' . $filename;
+                        $filepath = "../documents/claims/" . $filename;
+                        if (move_uploaded_file($filetempname, $filepath)) {
+                            $documents[$filename] = $filepath;
+                            $errors['detail'] = 'uploadsuccess';
+                        } else {
+                            $errors['detail'] = 'uploadfail';
+                        }
+                    }
+                }
+            }
+
+            if ($errors['detail'] == 'uploadsuccess') {
+                // mailing claims documents
+                $subject = ucwords($claim_type . ' claim documents submitted on ' . pretty_date($created_at));
+                $businessEmail = 'anthonybaru@gmail.com';
+                $businessFullName = 'Anthony Baru';
+                $clientEmail = $email;
+                $clientFullName = $full_name;
+                $body = $clientFullName . ' has submitted documents for a claim. Details are as follows: <br><br>';
+                $body .= 'Mobile number: ' . $phone . '<br>';
+                $body .= 'Email address: ' . $email . '<br>';
+                $body .= 'Date of loss: ' . pretty_date2($date_of_loss) . '<br>';
+
+                //mailing claims documents
+                if (claim_upload_email($subject, $businessEmail, $businessFullName, $clientEmail, $clientFullName, $body, $documents) == 1) {
+                    $documentsKeys = array_keys($documents);
+                    switch ($claim_type) {
+                        case 'livestock':
+                            $query = "INSERT INTO claims_agriculture_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`post_mortem_report`,`vet_loss_certificate`,`livestock_photo`,`created_at`,`date_of_loss`)
+                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]',' $documentsKeys[1]','$documentsKeys[2]','$documentsKeys[3]','$created_at','$date_of_loss') ";
+                            break;
+                        case 'crop':
+                            $query = "INSERT INTO claims_agriculture_upload(`claim_id`,`full_name`,`phone`,`email`,`location`,`claim_type`,`completed_form`,`created_at`,`date_of_loss`)
+                                        VALUES('$claim_id','$full_name','$phone','$email','$location','$claim_type','$documentsKeys[0]','$created_at','$date_of_loss') ";
                             break;
                     }
 

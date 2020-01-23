@@ -8,7 +8,7 @@ function claim_report(
     $clientFullName,
     $body
 ) {
-   
+
     //mailing claim report
     require_once '../mailer/PHPMailer.php';
     require_once '../mailer/SMTP.php';
@@ -17,15 +17,14 @@ function claim_report(
         $mail->IsSMTP();
         $mail->isHTML(true);
         $mail->SMTPDebug = 0;
-        $mail->Debugoutput='echo';
+        $mail->Debugoutput = 'echo';
         $mail->Host = 'mail.apainsurance.ke';
         //$mail->SMTPSecure = 'ssl';
         $mail->Port = 25;
         //$mail->SMTPAuth = false;
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
-    
-    
+
         $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
@@ -33,7 +32,7 @@ function claim_report(
         $mail->AddReplyTo($clientEmail, $clientFullName);
         $mail->Subject = $subject;
         $mail->Body = $body;
-        
+
         if ($mail->send()) {
             return 1;
         }
@@ -45,7 +44,7 @@ function claim_report(
 }
 
 // claim life email
-function claim_motor(
+function claim_upload_email(
     $subject,
     $businessEmail,
     $businessFullName,
@@ -69,7 +68,6 @@ function claim_motor(
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
 
-
         $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
@@ -87,8 +85,8 @@ function claim_motor(
             return 1;
         }
     } catch (Exception $e) {
-                return strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
+        return strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
     } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
-                return $e->getMessage(); //Boring error messages from anything else!
+        return $e->getMessage(); //Boring error messages from anything else!
     }
 }
