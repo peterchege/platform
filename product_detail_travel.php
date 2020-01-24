@@ -105,7 +105,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="maintenance.php" target="_blank" class="btn btn-primary">Get Cover</a>
+                                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
