@@ -51,7 +51,7 @@ switch ($_GET['request']) {
             } else {
                 //mailing claim report
                 $subject = ucwords($claim_type . ' claim reported on ' . pretty_date($created_at) . ' by ' . $full_name);
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = $bname;
                 $clientEmail = $email;
                 $clientFullName = $full_name;
@@ -206,7 +206,7 @@ switch ($_GET['request']) {
             if ($errors['detail'] == 'uploadsuccess') {
                 // mailing claims documents
                 $subject = ucwords($motor_claim_type . ' claim documents submitted on ' . pretty_date($created_at));
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = 'Anthony Baru';
                 $clientEmail = $email;
                 $clientFullName = $full_name;
@@ -378,7 +378,7 @@ switch ($_GET['request']) {
             if ($errors['detail'] == 'uploadsuccess') {
                 // mailing claims documents
                 $subject = ucwords($claim_type . ' claim documents submitted on ' . pretty_date($created_at));
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = 'Anthony Baru';
                 $clientEmail = $email;
                 $clientFullName = $full_name;
@@ -560,7 +560,7 @@ switch ($_GET['request']) {
             if ($errors['detail'] == 'uploadsuccess') {
                 // mailing claims documents
                 $subject = ucwords($claim_type . ' claim documents submitted on ' . pretty_date($created_at));
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = 'Anthony Baru';
                 $clientEmail = $email;
                 $clientFullName = $full_name;
@@ -734,7 +734,7 @@ switch ($_GET['request']) {
             if ($errors['detail'] == 'uploadsuccess') {
                 // mailing claims documents
                 $subject = ucwords($claim_type . ' claim documents submitted on ' . pretty_date($created_at));
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = 'Anthony Baru';
                 $clientEmail = $email;
                 $clientFullName = $full_name;
@@ -889,7 +889,7 @@ switch ($_GET['request']) {
             if ($errors['detail'] == 'uploadsuccess') {
                 // mailing claims documents
                 $subject = ucwords($claim_type . ' claim documents submitted on ' . pretty_date($created_at));
-                $businessEmail = 'anthonybaru@gmail.com';
+                $businessEmail = $bemail;
                 $businessFullName = 'Anthony Baru';
                 $clientEmail = $email;
                 $clientFullName = $full_name;
