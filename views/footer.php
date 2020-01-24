@@ -38,10 +38,10 @@
                         <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                                 https://portal.apainsurance.org/GISPORTAL/" target="_target">Self Service login</a> -->
                         </li>
-                        <li><i class="ion-ios-arrow-right"></i> <a href="
+                        <!-- <li><i class="ion-ios-arrow-right"></i> <a href="
                         https://portal.apainsurance.org/GISPORTAL/auth" target="_target">APA Insurance Intermediary
                                 Portal</a>
-                        </li>
+                        </li> -->
                         <li><i class="ion-ios-arrow-right"></i> <a href="
                         https://portal.apainsurance.org/TurnQuestAgent/" target="_target">APA Life Intermediary
                                 Portal</a></li>
@@ -81,7 +81,7 @@
                     <div class="social-links">
                         <a href="https://twitter.com/APAInsurance" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.facebook.com/APAInsuranceLtd/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/apainsuranceke/" target="_blank""class=" instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/apainsuranceke/" target="_blank" class=" instagram"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/company/apa-insurance-limited/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
