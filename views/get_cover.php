@@ -19,7 +19,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -100,7 +100,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
@@ -396,7 +396,7 @@ PERSONAL COVER
                         <!-- <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
                                 <input name="full_name" type="text" class="form-control" id="full_name"
-                                    placeholder="john doe" value="" required>
+                                    placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -505,7 +505,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
@@ -558,7 +558,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -633,7 +633,7 @@ PERSONAL COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -719,7 +719,7 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="John Doe" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -816,7 +816,7 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="John Doe" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -913,7 +913,7 @@ HEALTH COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="john doe" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="John Doe" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
@@ -1182,7 +1182,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -1275,7 +1275,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -1357,7 +1357,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -1457,7 +1457,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -1550,7 +1550,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="phone">Mobile Number</label>
@@ -1649,7 +1649,7 @@ INDIVIDUAL LIFE COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="phone">Mobile Number</label>
@@ -3278,7 +3278,7 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                         </div>
                         <div class="row">
@@ -3381,7 +3381,7 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                         </div>
                         <div class="row">
@@ -3483,7 +3483,7 @@ COMMERCIAL COVER
                         <div class="row">
                             <div class="form-group col-md-12">
                                 <label for="full_name">Full Name</label>
-                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                             </div>
                         </div>
                         <div class="row">

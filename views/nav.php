@@ -276,7 +276,7 @@
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
-                                        <li><a href="maintenance.php"><i class="fas fa-user"></i> Travel Portal</a></li>
+                                        <li><a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1"><i class="fas fa-user"></i> Travel Portal</a></li>
                                         <li><a href="https://portal.apainsurance.org/GISPORTAL/auth"><i class="fas fa-ship"></i> Marine Open Cover</a></li>
                                         <li><a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2"><i class="fas fa-ship"></i> Marine Single Transit</a></li>
                                     </ul>

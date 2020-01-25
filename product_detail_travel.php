@@ -105,7 +105,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center ">
-                                                    <a href="maintenance.php" target="_blank" class="btn btn-primary">Get Cover</a>
+                                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -653,7 +653,7 @@
 
                             <div class="job-description text-left">
                                 <br>
-                                <p>If you are interested in learning how much this insurance product would cost
+                                <p>If you are interested in learning how much APA'S Globetrotter Insurance product would cost
                                     you, or if you are interested in purchasing this insurance product, please click
                                     <b>Get Cover</b>.
                                 </p>
@@ -669,7 +669,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center ">
-                                            <a href="maintenance.php" target="_blank" class="btn btn-primary">Get Cover</a>
+                                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" target="_blank" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -857,7 +857,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="full_name">Full Name</label>
-                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="john doe" value="" required>
+                                    <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="phone">Mobile Number</label>
