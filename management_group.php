@@ -402,7 +402,7 @@
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
                 <div class="uk-background-cover" style="background-image: url('img/managment/grace.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
-                    <h1>
+                    <h1> 
                         Grace Nganga
                     </h1>
                     <h2 class="small-head">
