@@ -265,12 +265,12 @@
 
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="sick_sheet">Attach document : Sick Sheet<br> (Optional)</label>
+                                    <label for="sick_sheet">Attach document : Sick Sheet<br> </label>
                                     <input name="documents[]" type="file" class="form-control-file" id="sick_sheet" required>
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <label for="medical_bill">Attach document : Medical Bill (Optional) </label>
+                                    <label for="medical_bill">Attach document : Medical Bill  </label>
                                     <input name="documents[]" type="file" class="form-control-file" id="medical_bill" required>
                                 </div>
                             </div>

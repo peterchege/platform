@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Apollo Group Heads - APA Insurance </title>
     <link rel="stylesheet" href="css/companies.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>
@@ -188,22 +188,22 @@
                         <button class="btn btn-primary" data-target="#modal-full14" uk-toggle>Read more</button>
                     </div>
 
-                    <div class="offset-5">
-
-                    </div>
-
-                    <!-- <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
-                        <img src=" img/apa4/jackie.jpg" class="img" alt="">
+                    <div class="col-md-3 leader-img wow fadeInUp" data-wow-delay="0.1s">
+                        <img src=" img/managment/grace.jpg" class="img" alt="">
                         <h5 class="title-name">
-                            Jackie Tonui<br>
+                            Grace Nganga<br>
                             <small>Head of Corporate Communications</small>
                         </h5>
 
                         <p>
-                            Jackie Tonui is the Head of Corporate Communications and has six years in...
+                            Grace Nganga is a seasoned professional in communication and...
                         </p>
                         <button class="btn btn-primary" data-target="#modal-full15" uk-toggle>Read more</button>
-                    </div> -->
+                    </div>
+
+                    <div class="offset-3">
+
+                    </div>
 
                 </div>
 
@@ -394,27 +394,26 @@
         </div>
     </div>
 
-    <!-- ===================================== Jackie Tonui ===================================== -->
+    <!-- ===================================== Grace Nganga ===================================== -->
 
     <div id="modal-full15" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/managment/jackie.jpg');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('img/managment/grace.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <h1>
-                        Jackie Tonui
+                        Grace Nganga
                     </h1>
                     <h2 class="small-head">
                         Head of Corporate Communications
                     </h2>
                     <p class="text-justify">
-                        Jackie Tonui is the Head of Corporate Communications and has six years in advertising and brand
-                        communications.
-                        She holds a bachelor’s degree in International Business Administration-Marketing from the United
-                        States International
-                        University and is currently pursuing a post graduate diploma from the Chartered Institute of
-                        Marketing.
+                        She is a seasoned professional in communication and marketing with over 10 years’ experience working
+                        for both local and multinational organizations. She holds a Bachelor’s Degree in Management from
+                        Southern Adventist University, a Master’s Degree in Marketing from University of Nairobi and a
+                        Postgraduate Diploma in Marketing from Kenya Institute of Management. She is a member of the
+                        Marketing Society of Kenya.
                     </p>
                 </div>
             </div>

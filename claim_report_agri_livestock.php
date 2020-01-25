@@ -153,6 +153,10 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
+                                <div class="form-group col-md-12">
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-12">
@@ -166,7 +170,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="43">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="livestock" name="claim_type" value="livestock">
+                            <input type="hidden" id="claim_type" name="claim_type" value="livestock">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -194,7 +198,7 @@
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container life-personal-property-claim-form">
+                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container agriculture-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -217,6 +221,10 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
+                                <div class="form-group col-md-12">
+                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
+                                </div>
                             </div>
 
                         </div>
@@ -232,28 +240,28 @@
                                     <label for="claim_form_livestock">Attach document : Claim Form completed <a href="pdf/claim/LIVESTOCK INSURANCE CLAIM FORM.pdf">(click
                                             here
                                             to download a claim form)</a></label>
-                                    <input name="claim_form_livestock" type="file" class="form-control-file" id="claim_form_livestock" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="claim_form_livestock" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="post_mortem">Attach document : Post Moterm Report</label>
-                                    <input name="post_mortem" type="file" class="form-control-file" id="post_mortem" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="post_mortem" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="vet_loss_certificate">Attach document : Vet Certificate of loss </label>
-                                    <input name="vet_loss_certificate" type="file" class="form-control-file" id="vet_loss_certificate" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="vet_loss_certificate" required>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="dead_livestock_photo">Attach document : Photo of the dead livestock </label>
-                                    <input name="dead_livestock_photo" type="file" class="form-control-file" id="dead_livestock_photo" required>
+                                    <input name="documents[]" type="file" class="form-control-file" id="dead_livestock_photo" required>
                                 </div>
                             </div>
 
@@ -262,6 +270,7 @@
                         <div style="display: none">
                             <input type="hidden" id="product_id" name="product_id" value="43">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            <input type="hidden" id="claim_type" name="claim_type" value="livestock">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -299,7 +308,7 @@
             </div>
         </div>
 
-        <?php require_once('inc/scripts.php'); ?>
+        <?php require_once 'inc/scripts.php'; ?>
         <script src="js/parsley.min.js"></script>
         <script src="js/claims.js">
 

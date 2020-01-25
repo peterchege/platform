@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Crop Claims - APA INSURANCE</title>
+    <title>Credit Life - APA LIFE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/draft.css" media="screen">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php'; ?>
+    <?php include 'views/head_links.php';?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php'; ?>
+    <?php include 'views/nav.php';?>
     <!-- #header -->
 
     <!--==========================
@@ -47,8 +47,8 @@
     <div class="container">
         <BR><BR>
         <div class="apollo">
-            <h1>CROP CLAIM</h1>
-            <div class="under-line img2">
+            <h1> Credit Life Claim</h1>
+            <div class="under-line img7">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -116,21 +116,21 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php'; ?>
+    <?php include 'views/footer.php';?>
     <!-- #footer -->
 
 
-    <!-- ===================================== REPORT CROP CLAIM ===================================== -->
+    <!-- ===================================== REPORT PROPERTY CLAIM ===================================== -->
 
     <div id="modal-full1" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/credit_life.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container form">
+                    <form id="form-mp" action="<?=$_SERVER['PHP_SELF'];?>" method="POST" class="form-container form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -154,7 +154,7 @@
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label for="date_of_loss">Date Of Loss </label>
+                                    <label for="date_of_loss">Date of Loss </label>
                                     <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
                                 </div>
                             </div>
@@ -166,10 +166,11 @@
                             </div>
 
                         </div>
+
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="42">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="claim_type" name="claim_type" value="crop">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life credit">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -187,18 +188,17 @@
         </div>
     </div>
 
-    <!-- ===================================== UPLOAD CROP CLAIM FORM  ===================================== -->
+    <!-- ===================================== UPLOAD PROPERTY CLAIM  ===================================== -->
 
     <div id="modal-full2" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('img/crop_dead.jpg'); background-size: cover;" uk-height-viewport>
-                </div>
+                <div class="uk-background-cover" style="background-image: url('img/credit_life.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
 
 
-                    <form id="form-mp" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container agriculture-claim-form">
+                    <form id="form-mp" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  life-group-claim-form">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>
                         <div class="container">
                             <div class="row">
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="phone">Mobile Number</label>
-                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" value="" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" required>
+                                    <input name="phone" type="tel" class="form-control" id="phone" placeholder="Mobile Number" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" value="" required>
                                 </div>
                             </div>
 
@@ -221,10 +221,6 @@
                                     <label for="location">Location</label>
                                     <input name="location" type="text" class="form-control" id="location" placeholder="Nairobi" value="" required>
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <label for="date_of_loss">Date Of Loss </label>
-                                    <input name="date_of_loss" type="date" class="form-control" id="date_of_loss" value="" required>
-                                </div>
                             </div>
 
                         </div>
@@ -236,19 +232,44 @@
                         <div class="container">
 
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <label for="claim_form_crop">Attach document : Claim Form completed <a href="PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
-                                            to download a claim form)</a></label>
-                                    <input name="documents[]" type="file" class="form-control-file" id="claim_form_crop" required>
+                                <div class="form-group col-md-6">
+                                    <label for="credit_death_certificate">Attach document : Death Certificate</label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="credit_death_certificate" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="burial_permit">Attach document : Burial Permit</label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="burial_permit" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="national_id">Attach document : Copy of National ID Card or Passport</label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="national_id" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="loan_application_and_agreement">Attach document : Loan Application form and executed loan agreement</label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="loan_application_and_agreement" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="loan_repayment">Attach document : Loan repayment statement </label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="loan_repayment" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="police_abstract">Attach document : Post morterm and police abstract if death is accidental </label>
+                                    <input name="documents[]" type="file" class="form-control-file" id="police_abstract" required>
                                 </div>
                             </div>
 
                         </div>
 
                         <div style="display: none">
-                            <input type="hidden" id="product_id" name="product_id" value="42">
+                            <input type="hidden" id="product_id" name="product_id" value="52">
                             <input type="hidden" id="product_category_id" name="product_category_id" value="14">
-                            <input type="hidden" id="claim_type" name="claim_type" value="crop">
+                            <input type="hidden" id="claim_type" name="claim_type" value="group life credit">
                             <input type="hidden" id="bemail" name="bemail" value="claims.nonmotor@apainsurance.org">
                             <input type="hidden" id="bname" name="bname" value="Non Motor Claim">
                         </div>
@@ -266,7 +287,7 @@
         </div>
     </div>
 
-    <!-- ===================================== CROP  CLAIM REMARKS ===================================== -->
+    <!-- ===================================== CLAIM REMARKS ===================================== -->
 
     <!-- This is the modal with the outside close button -->
     <div id="modal-close-outside" uk-modal>
@@ -282,12 +303,12 @@
                 <br><br>
                 For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286
                 2000.
-                Or send and email to claims@apainsurance.org
+                Or send and email to claims.motor@apainsurance.org
             </p>
         </div>
     </div>
 
-    <?php require_once 'inc/scripts.php'; ?>
+    <?php require_once 'inc/scripts.php';?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js">
 
