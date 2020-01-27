@@ -28,6 +28,9 @@ function claim_report(
         $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
+        $mail->addBCC('peter.chege@apollo.co.ke');
+        $mail->addBCC('irene.akubania@apollo.co.ke');
+        $mail->addBCC('juddy.tonui@apollo.co.ke');
         $mail->addBCC('gilbert.njoroge@apollo.co.ke');
         $mail->AddReplyTo($clientEmail, $clientFullName);
         $mail->Subject = $subject;
@@ -71,6 +74,9 @@ function claim_upload_email(
         $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
+        $mail->addBCC('peter.chege@apollo.co.ke');
+        $mail->addBCC('irene.akubania@apollo.co.ke');
+        $mail->addBCC('juddy.tonui@apollo.co.ke');
         $mail->addBCC('gilbert.njoroge@apollo.co.ke');
         $mail->AddReplyTo($clientEmail, $clientFullName);
         $mail->Subject = $subject;
