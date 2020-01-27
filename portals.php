@@ -116,7 +116,7 @@
                             <h3>TRAVEL PORTAL</h3>
                             <p class="text-justify">
                             </p>
-                            <a href="maintenance.php" class="btn btn-primary">OPEN PORTAL</a>
+                            <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">OPEN PORTAL</a>
                         </div>
                     </div>
                 </div>

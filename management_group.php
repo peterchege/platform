@@ -394,7 +394,7 @@
         </div>
     </div>
 
-    <!-- ===================================== Jackie Tonui ===================================== -->
+    <!-- ===================================== Grace Nganga ===================================== -->
 
     <div id="modal-full15" class="uk-modal-full" uk-modal>
         <div class="uk-modal-dialog">
@@ -402,8 +402,8 @@
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
                 <div class="uk-background-cover" style="background-image: url('img/managment/grace.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
-                    <h1>
-                        Grace Ngaga
+                    <h1> 
+                        Grace Nganga
                     </h1>
                     <h2 class="small-head">
                         Head of Corporate Communications

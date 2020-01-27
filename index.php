@@ -76,7 +76,7 @@ require_once 'inc/functions.php';
                         </div>
                     </a>
 
-                    <a href="maintenance.php">
+                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-plane-departure"></i>
                             <p>Travel Insurance</p>
@@ -256,7 +256,7 @@ require_once 'inc/functions.php';
                             <!-- button click -->
                             <div class="row prod-btn">
                                 <div class="col-6">
-                                    <a href="maintenance.php" class="btn btn-primary">Get Cover</a>
+                                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1" class="btn btn-primary">Get Cover</a>
                                 </div>
 
                                 <div class="col-6 text-left prod-lf">
