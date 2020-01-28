@@ -2122,8 +2122,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 .media-content img {
-    /* width: 400px; */
-    /* height: 200px; */
     width: 90%;
     border-radius: 10px;
     -webkit-box-shadow: 11px 8px 48px 0px rgba(0, 0, 0, 0.33);
@@ -2150,14 +2148,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* mine */
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
     .media-content img {}
 }
 
 @media (max-width: 575.98px) {
     .media-content img {}
 
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
