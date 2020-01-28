@@ -74,7 +74,7 @@
                         Apollo Centre, Ring Rd Parklands<br> Westlands
                         Nairobi – Kenya. <br>
                         Tel: O20 286 2000,<br>
-                        Phone: (+254) 70991277,<br>
+                        Phone: (+254) 0709 912 777,<br>
                         Email:</strong> info@apainsurance.org<br>
                     </p>
                     <br>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Regulated by IRA || Powered by APA ICT </div>
+                <div class="copyright"> Regulated by IRA || Powered by APA Digial Factory </div>
             </div>
 
             <div class="col-md-4">
