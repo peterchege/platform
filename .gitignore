@@ -4,6 +4,7 @@
 /documents/claims/*
 /documents/feedback/*
 /documents/internship/*
+/inc
 
 /storage/*.key
 # /vendor
