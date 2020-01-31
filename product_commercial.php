@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Commercial Products - APA INSURANCE</title>
+    <title>Commercial Products - APA Insurance</title>
 
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
