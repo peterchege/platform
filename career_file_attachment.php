@@ -3,7 +3,7 @@ require_once 'inc/db.php';
 require_once 'inc/sessions.php';
 require_once 'inc/functions.php';
 
-confirm_login_careers();
+// confirm_login_careers();
 ?>
 <!doctype html>
 <html lang="en">
