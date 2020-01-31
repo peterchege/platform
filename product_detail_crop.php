@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Crop Cover - APA Insurance</title>
 
     <?php include 'views/head_links.php'; ?>
     <link rel="stylesheet" href="css/product.css" />
