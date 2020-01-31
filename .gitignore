@@ -4,7 +4,7 @@
 /documents/claims/*
 /documents/feedback/*
 /documents/internship/*
-/inc
+db.php
 
 /storage/*.key
 # /vendor
