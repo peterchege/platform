@@ -82,7 +82,7 @@ function claim_upload_email(
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
 
-        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+        $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
         $mail->addBCC('peter.chege@apollo.co.ke');
