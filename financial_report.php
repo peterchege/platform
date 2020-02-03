@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Financial Reports - APA Insurance</title>
     <link rel="stylesheet" href="css/financial.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">

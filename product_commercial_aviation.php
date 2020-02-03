@@ -6,22 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Aviation - APA INSURANCE</title>
+    <title>Aviation Cover- APA Insurance </title>
 
-<!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
-<meta name="description" content="get an aviation quote. some of our products are: travel insurance, 
+    <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
+    <meta name="description" content="get an aviation quote. some of our products are: travel insurance, 
 motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
-<meta name="keywords" content="aviation insurance cover,apa aviation products, apa insurance aviation ,aviation insurance,  
+    <meta name="keywords" content="aviation insurance cover,apa aviation products, apa insurance aviation ,aviation insurance,  
 buy aviation insurance cover, buy aviation cover online, aviation cover quotation, aviation insurance online quotation ,apa aviation services">
-<meta name="author" content="">
+    <meta name="author" content="">
 
-<!-- FACEBOOK MEATADATA -->
-<meta property="og:url" content="https://www.apainsurance.org/product_commercial_aviation.php" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="get a cover today" />
-<meta property="og:description" content=" You can now purchase aviation insurance, service your aviation policies and report a claim online. 
+    <!-- FACEBOOK MEATADATA -->
+    <meta property="og:url" content="https://www.apainsurance.org/product_commercial_aviation.php" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="get a cover today" />
+    <meta property="og:description" content=" You can now purchase aviation insurance, service your aviation policies and report a claim online. 
 This gives you more time to do the things that you love most" />
-<link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/career.css" />
     <link rel="stylesheet" href="css/apollo_centre.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
@@ -355,8 +355,7 @@ This gives you more time to do the things that you love most" />
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-top" uk-grid>
-                <div class="uk-background-cover uk-visible@m" 
-                style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
+                <div class="uk-background-cover uk-visible@m" style="background-image: url('img/aviation.jpg'); background-size: cover;" uk-height-viewport></div>
                 <div class="uk-padding-large">
                     <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container">
                         <h3 for="inputAddress" class="comp-detail">PERSONAL DETAILS</h3>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Accident Claim | Motor Claim - APA INSURANCE</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/draft.css" media="screen">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/parsley.css" media="screen">
 
 
-    <?php include 'views/head_links.php';?>
+    <?php include 'views/head_links.php'; ?>
 
 </head>
 
@@ -24,7 +24,7 @@
     <!--==========================
     Header
     ============================-->
-    <?php include 'views/nav.php';?>
+    <?php include 'views/nav.php'; ?>
     <!-- #header -->
 
     <!--==========================
@@ -116,7 +116,7 @@
 
 
     <!-- =====================================FOOTER===================================== -->
-    <?php include 'views/footer.php';?>
+    <?php include 'views/footer.php'; ?>
     <!-- #footer -->
 
 
@@ -340,7 +340,7 @@
             </p>
         </div>
     </div>
-    <?php require_once 'inc/scripts.php';?>
+    <?php require_once 'inc/scripts.php'; ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/claims.js"></script>
 </body>

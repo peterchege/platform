@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Terms & Conditions</title>
+    <title>Terms & Conditions - APA Insurance</title>
     <link rel="stylesheet" href="css/companies.css" media="screen">
 
     <?php include 'views/head_links.php'; ?>

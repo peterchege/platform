@@ -21,7 +21,7 @@ while ($check = mysqli_fetch_assoc($datequery)) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Job Page- APA INSURANCE</title>
+    <title>Job Page - APA Insurance</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="We advocate for equal employment opportunities to all 
     persons regardless of age, color, nationality, race, religion, gender and marital status.">

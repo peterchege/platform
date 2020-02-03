@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Life Maturity - APA INSURANCE</title>
+    <title>Life Maturity - APA Life</title>
     <link rel="stylesheet" href="css/about.css" media="screen">
     <link rel="stylesheet" href="css/claim.css" media="screen">
     <link rel="stylesheet" href="css/draft.css" media="screen">

@@ -21,7 +21,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title><?php echo  $full_post['title'];  ?></title>
     <link rel="stylesheet" href="css/media_detail.css" />
     <link rel="stylesheet" href="css/career.css" />
     <?php
