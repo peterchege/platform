@@ -46,7 +46,7 @@ if (isset($_GET['post']) && !empty($_GET['post'])) {
     if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
         $banner_path = 'http://localhost/cms';
     } else {
-        $banner_path = 'http://63.33.193.137/dev/site/cms';
+        $banner_path = 'http://3.15.38.75/cms';
     }
     ?>
 

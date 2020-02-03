@@ -19,7 +19,7 @@ require_once 'inc/functions.php';
     if ($_SERVER['DOCUMENT_ROOT'] == 'C:/xampp/htdocs') {
         $banner_path = 'http://localhost/cms';
     } else {
-        $banner_path = 'http://63.33.193.137/dev/site/cms';
+        $banner_path = 'http://3.15.38.75/cms';
     }
     ?>
 
@@ -149,14 +149,14 @@ require_once 'inc/functions.php';
                                 </h2>
                                 <p class="text-left">
                                     <?php
-                                        $postfixed = desanitize($post['post']);
-                                        $postfixed = strip_tags($postfixed);
-                                        if (strlen($postfixed) > 200) {
-                                            echo $newpost = substr($postfixed, 0, 200) . '... ';
-                                        } else {
-                                            echo $postfixed;
-                                        }
-                                        ?>
+                                    $postfixed = desanitize($post['post']);
+                                    $postfixed = strip_tags($postfixed);
+                                    if (strlen($postfixed) > 200) {
+                                        echo $newpost = substr($postfixed, 0, 200) . '... ';
+                                    } else {
+                                        echo $postfixed;
+                                    }
+                                    ?>
                                 </p>
                                 <div class="btn-read">
                                     <a href=csr_detail.php?<?php echo  randomstring(100); ?>&post=<?php echo  $post['id']; ?>&<?php echo  randomstring(100) ?>" class="btn btn-primary"> Read more</a>
