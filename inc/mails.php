@@ -19,9 +19,8 @@ function claim_report(
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'echo';
         $mail->Host = 'mail.apainsurance.ke';
-        //$mail->SMTPSecure = 'ssl';
+
         $mail->Port = 25;
-        //$mail->SMTPAuth = false;
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
 
@@ -76,9 +75,8 @@ function claim_upload_email(
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'echo';
         $mail->Host = 'mail.apainsurance.ke';
-        //$mail->SMTPSecure = 'ssl';
+
         $mail->Port = 25;
-        //$mail->SMTPAuth = false;
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
 
@@ -110,6 +108,47 @@ function claim_upload_email(
         $mail->AddReplyTo('no-reply@apollo.co.ke', 'APA INSURANCE');
         $mail->Body = $bodyClient;
         $mail->Subject = $subjectClient;
+        if ($mail->send()) {
+            return 1;
+        }
+    } catch (Exception $e) {
+        return strip_tags($e->errorMessage()); //Pretty error messages from PHPMailer
+    } catch (\Exception $e) { //The leading slash means the Global PHP Exception class will be caught
+        return $e->getMessage(); //Boring error messages from anything else!
+    }
+}
+
+// claim report email
+function leads($clientFullName, $clientEmail)
+{
+    $subject = 'INFORMATION RECEIVED';
+    $body = 'Dear ' . $clientFullName . ',<br> 
+                Thank you for showing interest in our insurance solutions.  
+                As a leading financial services group, we offer an array of affordable tailor made insurance and investment solutions. 
+                Our customer experience executive will contact you shortly to expound on the cover selected.';
+    //mailing claim report
+    require_once '../mailer/PHPMailer.php';
+    require_once '../mailer/SMTP.php';
+    $mail = new PHPMailer(true);
+    try {
+        $mail->IsSMTP();
+        $mail->isHTML(true);
+        $mail->SMTPDebug = 0;
+        $mail->Debugoutput = 'echo';
+        $mail->Host = 'mail.apainsurance.ke';
+
+        $mail->Port = 25;
+        $mail->Username = 'apa.website@apollo.co.ke';
+        $mail->Password = 'Apa321$321';
+
+        $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
+        $mail->AddAddress($clientEmail, $clientFullName);
+        $mail->addBCC('anthonybaru@gmail.com');
+        $mail->addBCC('peter.chege@apollo.co.ke');
+        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
+        $mail->AddReplyTo('no-reply@apollo.co.ke', 'APA INSURANCE');
+        $mail->Subject = $subject;
+        $mail->Body = $body;
         if ($mail->send()) {
             return 1;
         }

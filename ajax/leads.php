@@ -1,6 +1,7 @@
 <?php
 require_once '../inc/db.php';
 require_once '../inc/functions.php';
+require_once '../inc/mails.php';
 
 switch ($_GET['mode']) {
     case 'lead':
@@ -68,7 +69,7 @@ switch ($_GET['mode']) {
             $parts = explode('-', $date);
             $date  = "$parts[2]-$parts[1]-$parts[0]";
         } else {
-            $date='1979-01-01';
+            $date = '1979-01-01';
         }
         $time = ((isset($_POST['time'])) ? filter_var(mysqli_real_escape_string($db, $_POST['time']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : '01:01:01');
         $insert = mysqli_query($db, "INSERT INTO products_leads(`leads_product_id`,`leads_product_category_id`,`name`,`email`,`mobile`,`location`,`make`,`model`,`value`,`yom`,`more_info`,`created_at`,`property`,`covers`,`occupation`,`type`,`number`,`population_staff`,`max_take_off_weight`,`geographical_scope`,`pilot_details`,`period`,`age`,`inpatient`,`message`,`company`,`date`,`time`)
@@ -78,6 +79,7 @@ switch ($_GET['mode']) {
             echo mysqli_error($db);
         } elseif ($insert) {
             echo 'success';
+            leads($full_name, $email);
         } else {
             echo 'error';
         }
