@@ -131,11 +131,11 @@ $(document).ready(function () {
     });
 
     $('#maintenance').parsley();
-    $('#maintenance').on('submit',function(e){
+    $('#maintenance').on('submit', function (e) {
         e.preventDefault();
-        var form=$(this);
-        var buttonClicked= $('#maintenance_submit');
-        var data= new FormData(this);
+        var form = $(this);
+        var buttonClicked = $('#maintenance_submit');
+        var data = new FormData(this);
         $.ajax({
             type: "POST",
             url: "ajax/leads.php?mode=lead",
@@ -176,7 +176,7 @@ $(document).ready(function () {
                 buttonClicked.attr("disabled", false).html('Submit');
             }
         });
-        
+
     });
 
     $('#value, .value').keyup(function (event) {

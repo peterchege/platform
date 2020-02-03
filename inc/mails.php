@@ -25,7 +25,7 @@ function claim_report(
         $mail->Username = 'apa.website@apollo.co.ke';
         $mail->Password = 'Apa321$321';
 
-        $mail->setFrom('apa.website@apollo.co.ke', 'APA CLAIMS');
+        $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
         $mail->AddAddress($businessEmail, $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
         $mail->addBCC('peter.chege@apollo.co.ke');
@@ -35,7 +35,18 @@ function claim_report(
         $mail->AddReplyTo($clientEmail, $clientFullName);
         $mail->Subject = $subject;
         $mail->Body = $body;
-
+        $mail->send();
+        $mail->ClearAddresses();
+        //client response
+        $subjectClient = 'CLAIM REPORT ACKNOWLEDGEMENT';
+        $bodyClient = 'Dear ' . $clientFullName . ',<br> 
+                We acknowledge receipt of your claim notification. 
+                Our claims officer will contact you shortly to guide you and advise you accordingly. 
+                Please do feel free to contact us via our contact centre number 0709912777 for more queries or clarification.';
+        $mail->AddAddress($clientEmail, $clientFullName);
+        $mail->AddReplyTo('no-reply@apollo.co.ke', 'APA INSURANCE');
+        $mail->Body = $bodyClient;
+        $mail->Subject = $subjectClient;
         if ($mail->send()) {
             return 1;
         }
@@ -86,7 +97,19 @@ function claim_upload_email(
         foreach ($documents as $key => $document) {
             $mail->addAttachment($document, $key);
         }
-
+        $mail->send();
+        $mail->ClearAddresses();
+        $mail->clearAttachments();
+        //client response
+        $subjectClient = 'CLAIM DOCUMENT UPLOAD ACKNOWLEDGEMENT';
+        $bodyClient = 'Dear ' . $clientFullName . ',<br> 
+                We acknowledge receipt of your claim documents. 
+                Our claims officer will contact you shortly to guide you and advise you accordingly. 
+                Please do feel free to contact us via our contact centre number 0709912777 for more queries or clarification.';
+        $mail->AddAddress($clientEmail, $clientFullName);
+        $mail->AddReplyTo('no-reply@apollo.co.ke', 'APA INSURANCE');
+        $mail->Body = $bodyClient;
+        $mail->Subject = $subjectClient;
         if ($mail->send()) {
             return 1;
         }
