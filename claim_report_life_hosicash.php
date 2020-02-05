@@ -237,7 +237,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_hospital_cash">Attach document : Completed Claim Form <a href="#">(click here to download a claim form)</a></label>
+                                    <label for="claim_form_hospital_cash">Attach document : Completed Claim Form <a href="pdf/claim/Hosicare- claim form.pdf" target="_blank">(click here to download a claim form)</a></label>
                                     <input name="documents[]" type="file" class="form-control-file" id="claim_form_hospital_cash" required>
                                 </div>
                             </div>

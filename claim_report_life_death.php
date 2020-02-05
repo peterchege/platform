@@ -256,7 +256,7 @@
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="claim_form_death_claim">Attach document : Claim Form completed <a
-                                            href="#">(click here to download a claim form)</a></label>
+                                            href="pdf/claim/Pumzisha Claim form.pdf" target="_blank">(click here to download a claim form)</a></label>
                                     <input name="documents[]" type="file" class="form-control-file"
                                         id="claim_form_death_claim" required>
                                 </div>

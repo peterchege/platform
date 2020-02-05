@@ -256,7 +256,7 @@
 
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/PROPERTY LOSS CLAIM FORM.pdf" target="_blank">(click here
+                                    <label for="claim_form_motor">Attach document : Claim Form completed <a href="pdf/claim/motor_claim_form.pdf" target="_blank">(click here
                                             to download a claim form)</a></label>
                                     <input name="documents[]" type="file" class="form-control-file" id="claim_form_motor" required>
                                 </div>
