@@ -61,7 +61,7 @@ jQuery(document).ready(function ($) {
                         title: 'SUCCESS',
                         html: '<p class="text-left" >Booking has been made successfully. ' +
                             'For inquires or assistance you can contact us with the following mobile number: (+254) 70991277, O20 286 2000. ' +
-                            'Or send an email to info@apainsurance.co.ke' +
+                            'Or send an email to info@apollocentre.org' +
                             '</p>',
                         type: 'success',
                         allowOutsideClick: false,

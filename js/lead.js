@@ -13,6 +13,8 @@ $(document).ready(function () {
         // alert($(this).position().top);
         if ($('#type').val() == 'callback') {
             var swresponse = '<p class="text-left" >Thank you for your interest. One of our customer care agents will contact you.</p>';
+        } else if ($('#type').val() == 'Contact Us') {
+            var swresponse = '<p class="text-left" >Thank you for contacting us. One of our customer care agents will engage you shortly.</p>';
         } else {
             var swresponse = '<p class="text-left" >Thank you for your interest in our product. One of our customer care agents will contact you.</p>';
         }
