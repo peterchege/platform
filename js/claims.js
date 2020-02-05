@@ -162,13 +162,13 @@ $(document).ready(function () {
         }
         //personal life claims 
         else if (pdf == 'hospital cash') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/Hosicare- claim form.pdf';
         } else if (pdf == 'last expense') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         } else if (pdf == 'critical illness') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';
         } else if (pdf == 'death') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/Pumzisha Claim form.pdf';
         } else if (pdf == 'maturity') {
             var claim_form = '';
         } else if (pdf == 'partial maturity') {
@@ -176,21 +176,21 @@ $(document).ready(function () {
         }
         //personal and property claim
         else if (pdf == 'property damage') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/PROPERTY DAMAGE CLAIM FORM.pdf';
         } else if (pdf == 'wiba') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/WIBA CLAIM FORM.pdf';
         } else if (pdf == 'personal accident') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/GPA CLAIM FORM.pdf';
         }
         //group life claims
         else if (pdf == 'group life last expense') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         } else if (pdf == 'group life critical illness') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';
         } else if (pdf == 'group life benefit') {
             var claim_form = '';
         } else if (pdf == 'group life hospital cash') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/Hosicare- claim form.pdf';
         } else if (pdf == 'group life total permanent disablility') {
             var claim_form = '';
         } else if (pdf == 'group life occupational') {
@@ -200,7 +200,7 @@ $(document).ready(function () {
         }
         //agriculture
         else if (pdf == 'livestock') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/LIVESTOCK INSURANCE CLAIM FORM.pdf';
         } else if (pdf == 'crop') {
             var claim_form = '';
         } else {
