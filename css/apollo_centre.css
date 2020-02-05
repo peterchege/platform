@@ -87,7 +87,10 @@
 	background-image: url(../images/chyullu/img2.jpg);
 	background-size: cover;
 }
-
+.img-ngong {
+	background-image: url(../images/ngong/img2.jpg);
+	background-size: cover;
+}
 .img-Cherengani {
 	background-image: url(../images/cherengani/img6.jpg);
 	background-size: cover;

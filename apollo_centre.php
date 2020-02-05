@@ -245,7 +245,7 @@
                 <div class="row ">
 
                     <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="room-container img-Chyullu">
+                        <div class="room-container img-ngong">
                             <div class="color-overlay-apollo">
                             </div>
 
@@ -270,7 +270,7 @@
                                 <input type="hidden" name="roomd" value="ngong">
                             </div>
                             <div class="col-6 text-left">
-                                <a href="apollo_centre_shimba.php">
+                                <a href="apollo_centre_ngong.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
                             </div>
