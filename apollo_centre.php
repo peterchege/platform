@@ -63,15 +63,15 @@
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo Centre conference suites,
-                enjoy private meetings
-                within a commercial building in the heart of bustling Westlands. Each suite boasts generous space,
-                opening out to spacious balconies
-                with ample secure parking. Tea & lunch are served in the balcony areas covered with sailing canopies for
-                a relaxed atmosphere.
-                Clients also have the option for self-catering. The suites are a hideaway for all business and social
-                meetings with exclusivity and convenience for executives, individuals,
-                corporates and groups.
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
+                At Apollo Centre conference suites, enjoy private meetings within a
+                commercial building in the heart of bustling Westlands. Each suite boasts
+                generous space, opening out to spacious balconies with ample secure parking.
+                Clients also have the option for self-catering. The suites are a hideaway
+                for all business and social meetings with exclusivity and convenience for
+                executives, individuals, corporates and groups. The suites are available for
+                hire on hourly or daily basis making it flexible and cost effective to the
+                users.
             </p>
         </div>
     </div>
@@ -220,10 +220,10 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our training room can hold 30 guests in a U-shape setup and 44 guests in a classroom
-                                setup.
-                                The room is ideal for corporate, promotional or interactive training.
-                                It can also be divided into two rooms for break-out sessions.
+                            <p>Our training room can hold 30 guests in a U-shape setup, 44 guests in a
+                                classroom setup and 80 guest in a theatre set - up . The room is ideal for
+                                corporate, promotional or interactive training. It can also be divided into
+                                two rooms for break-out sessions
                             </p>
                         </div>
 
@@ -289,10 +289,10 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Our training room can hold 30 guests on U-shape set up and 44 guests in a classroom
-                                setup,
-                                the room is ideal for corporate training, promotional training and interactive training.
-                                It can also be divided into two rooms for discussion groups.
+                            <p>With a capacity of 10 -12 persons Taita Hills has a generous space that
+                                maximizes natural light, the room opens to a balcony creating a more open
+                                area with guaranteed privacy. The boardroom is equipped with an LED screen
+                                for presentation and provide an atmosphere for the perfect business pitch.
                             </p>
                         </div>
 
@@ -322,9 +322,9 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>The entertainment area has a sitting capacity of 80 guests with dining tables, 100 guests
-                                in a
-                                classroom setup & 150 guests in a cocktail setup.
+                            <p>Hold your events at our entertainment area with a sitting capacity of 80
+                                guests with dining tables, 200 guests in a classroom set up and 150 guests
+                                in a cocktail setup.
                             </p>
                         </div>
 
