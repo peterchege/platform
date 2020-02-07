@@ -101,6 +101,11 @@
 }
 
 .img-Entertainment {
+	background-image: url(../images/Entertainment/main.jpg);
+	background-size: cover;
+}
+
+.img-terrace {
 	background-image: url(../images/Entertainment/img11.jpg);
 	background-size: cover;
 }

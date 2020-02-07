@@ -340,6 +340,41 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4 room-wrapper wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="room-container img-terrace">
+                            <div class="color-overlay-apollo">
+                            </div>
+
+                            <div class="content-centre">
+                                <h1>Terrace Area</h1>
+
+
+                            </div>
+                        </div>
+
+                        <div class="content-bottom text-justify">
+                            <p>Teas and Lunch is served in our balcony area covered with sailing canopies
+                                that exhibit both a business and a relaxed environment for the guests. The
+                                terrace can also be used for cocktail parties and small outdoor events.
+                            </p>
+                        </div>
+
+                        <div class="row apollo-btn text-right">
+                            <div class="col-6">
+                                <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
+                                <input type="hidden" name="roomd" value="entertainment">
+                            </div>
+                            <div class="col-6 text-left">
+                                <a href="apollo_centre_entertainment.php">
+                                    <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-8">
+
+                    </div>
                 </div>
 
             </div>
