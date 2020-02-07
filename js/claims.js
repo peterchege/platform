@@ -166,7 +166,7 @@ $(document).ready(function () {
         } else if (pdf == 'last expense') {
             var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         } else if (pdf == 'critical illness') {
-            var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';
+            var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';    ``
         } else if (pdf == 'death') {
             var claim_form = 'pdf/claim/Pumzisha Claim form.pdf';
         } else if (pdf == 'maturity') {
@@ -236,15 +236,15 @@ $(document).ready(function () {
                     '</ol></p>';
                 break;
             case 'maturity':
-                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br> To help us process your claim faster, please attach the following document:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '<li>Policy document</li>' +
                     '</ol></p>';
                 break;
             case 'partial maturity':
-                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please attach the following document:' +
                     '<ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    '<li>Policy document</li>' +
                     '</ol></p>';
                 break;
 
