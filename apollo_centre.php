@@ -366,7 +366,7 @@
                                 <input type="hidden" name="roomd" value="entertainment">
                             </div>
                             <div class="col-6 text-left">
-                                <a href="apollo_centre_entertainment.php">
+                                <a href="apollo_centre_terrace.php">
                                     <button class="btn btn-primary gallery-btn">VIEW GALLERY</button>
                                 </a>
                             </div>
