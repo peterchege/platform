@@ -21,18 +21,18 @@ function claim_report(
         $mail->Host = 'email-smtp.us-east-1.amazonaws.com';
         $mail->SMTPAuth   = true;
         $mail->SMTPSecure = 'tls';
-        $mail->SMTPDebug = 0;
+        $mail->SMTPDebug = 4;
         $mail->Port = 587;
         $mail->Username = 'AKIASLTVMANMB3TZTXW5';
         $mail->Password = 'BH/ES81HcJhcEJhze6HCZ9yJvSJEBeyH+zrWWTvatoMr';
 
         $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
-        $mail->AddAddress($businessEmail, $businessFullName);
+        $mail->AddAddress('anthonybaru@gmail.com', $businessFullName);
         $mail->addBCC('anthonybaru@gmail.com');
-        $mail->addBCC('peter.chege@apollo.co.ke');
-        $mail->addBCC('irene.akubania@apainsurance.org');
-        $mail->addBCC('juddy.tonui@apollo.co.ke');
-        $mail->addBCC('gilbert.njoroge@apollo.co.ke');
+        // $mail->addBCC('peter.chege@apollo.co.ke');
+        // $mail->addBCC('irene.akubania@apainsurance.org');
+        // $mail->addBCC('juddy.tonui@apollo.co.ke');
+        // $mail->addBCC('gilbert.njoroge@apollo.co.ke');
         $mail->AddReplyTo($clientEmail, $clientFullName);
         $mail->Subject = $subject;
         $mail->Body = $body;
@@ -76,13 +76,11 @@ function claim_upload_email(
         $mail->isHTML(true);
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'echo';
-        $mail->Host = 'email-smtp.us-east-1.amazonaws.com';
-        $mail->SMTPAuth   = true;
-        $mail->SMTPSecure = 'tls';
-        $mail->SMTPDebug = 0;
-        $mail->Port = 587;
-        $mail->Username = 'AKIASLTVMANMB3TZTXW5';
-        $mail->Password = 'BH/ES81HcJhcEJhze6HCZ9yJvSJEBeyH+zrWWTvatoMr';
+        $mail->Host = 'mail.apainsurance.ke';
+
+        $mail->Port = 25;
+        $mail->Username = 'apa.website@apollo.co.ke';
+        $mail->Password = 'Apa321$321';
 
         $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
         $mail->AddAddress($businessEmail, $businessFullName);
@@ -139,13 +137,11 @@ function leads($clientFullName, $clientEmail)
         $mail->isHTML(true);
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'echo';
-        $mail->Host = 'email-smtp.us-east-1.amazonaws.com';
-        $mail->SMTPAuth   = true;
-        $mail->SMTPSecure = 'tls';
-        $mail->SMTPDebug = 0;
-        $mail->Port = 587;
-        $mail->Username = 'AKIASLTVMANMB3TZTXW5';
-        $mail->Password = 'BH/ES81HcJhcEJhze6HCZ9yJvSJEBeyH+zrWWTvatoMr';
+        $mail->Host = 'mail.apainsurance.ke';
+
+        $mail->Port = 25;
+        $mail->Username = 'apa.website@apollo.co.ke';
+        $mail->Password = 'Apa321$321';
 
         $mail->setFrom('apa.website@apollo.co.ke', 'APA WEBSITE');
         $mail->AddAddress($clientEmail, $clientFullName);
