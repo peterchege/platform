@@ -106,7 +106,7 @@
 }
 
 .img-terrace {
-	background-image: url(../images/Entertainment/img11.jpg);
+	background-image: url(../images/terrace/img11.jpg);
 	background-size: cover;
 }
 
@@ -192,7 +192,7 @@
 	background-image: url(../images/entertainment/main.jpg);
 }
 .terrace-banner {
-	background-image: url(../images/entertainment/img3.jpg);
+	background-image: url(../images/terrace/img3.jpg);
 }
 
 .gallery-view {
@@ -324,6 +324,30 @@
 }
 .entertainment-view-6 {
 	background-image: url(../images/entertainment/img6.jpg);
+}
+/* TERRACE IMAGE */
+.terrace-view-1 {
+	background-image: url(../images/terrace/img2.jpg);
+}
+
+.terrace-view-2 {
+	background-image: url(../images/terrace/img1.jpg);
+}
+
+.terrace-view-3 {
+	background-image: url(../images/terrace/img3.jpg);
+}
+
+.terrace-view-4 {
+	background-image: url(../images/terrace/img4.jpg);
+}
+
+.terrace-view-5 {
+	background-image: url(../images/terrace/img5.jpg);
+}
+
+.terrace-view-6 {
+	background-image: url(../images/terrace/img6.jpg);
 }
 
 .gallery-view:hover {

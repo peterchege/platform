@@ -354,8 +354,8 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Teas and Lunch is served in our balcony area covered with sailing canopies
-                                that exhibit both a business and a relaxed environment for the guests. The
+                            <p>Tea and Lunch is served on our balcony area covered with sailing canopies
+                                that exhibit both a business and relaxed environment for the guests. The
                                 terrace can also be used for cocktail parties and small outdoor events.
                             </p>
                         </div>
