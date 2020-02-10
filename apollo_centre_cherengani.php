@@ -82,7 +82,7 @@
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
-                <a href="images/cherengani/img6.jpg" data-lightbox="photos">
+                <a href="images/cherengani/img7.jpg" data-lightbox="photos">
                     <div class="gallery-view cherengani-view-1"></div>
                 </a>
 
@@ -93,7 +93,7 @@
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/cherengani/img3.jpg" data-lightbox="photos">
+                <a href="images/cherengani/img8.jpg" data-lightbox="photos">
                     <div class="gallery-view cherengani-view-3"></div>
                 </a>
             </div>
