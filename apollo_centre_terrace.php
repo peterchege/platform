@@ -98,7 +98,7 @@
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                 <a href="images/terrace/img3.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-3"></div>
+                    <div class="gallery-view terrace-view-3"></div>
                 </a>
             </div>
         </div>
