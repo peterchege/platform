@@ -88,11 +88,11 @@
 	background-size: cover;
 }
 .img-ngong {
-	background-image: url(../images/ngong/img2.jpg);
+	background-image: url(../images/ngong/img5.jpg);
 	background-size: cover;
 }
 .img-Cherengani {
-	background-image: url(../images/cherengani/img6.jpg);
+	background-image: url(../images/cherengani/img1.jpg);
 	background-size: cover;
 }
 .img-taita {
@@ -106,7 +106,7 @@
 }
 
 .img-terrace {
-	background-image: url(../images/Entertainment/img11.jpg);
+	background-image: url(../images/terrace/img11.jpg);
 	background-size: cover;
 }
 
@@ -180,19 +180,19 @@
 	background-image: url(../images/taita/img1.jpg);
 }
 .ngong-banner {
-	background-image: url(../images/ngong/img1.jpg);
+	background-image: url(../images/ngong/img5.jpg);
 }
 .chyullu-banner {
 	background-image: url(../images/chyullu/img2.jpg);
 }
 .cherengani-banner {
-	background-image: url(../images/cherengani/img3.jpg);
+	background-image: url(../images/cherengani/img1.jpg);
 }
 .entertainment-banner {
 	background-image: url(../images/entertainment/main.jpg);
 }
 .terrace-banner {
-	background-image: url(../images/entertainment/img3.jpg);
+	background-image: url(../images/terrace/img3.jpg);
 }
 
 .gallery-view {
@@ -217,7 +217,7 @@
 	background-image: url(../images/shimba/img3.jpg);
 }
 .view-3 {
-	background-image: url(../images/shimba/img4.jpg);
+	background-image: url(../images/shimba/img10.jpg);
 }
 .view-4 {
 	background-image: url(../images/shimba/img1.jpg);
@@ -251,13 +251,13 @@
 
 /* CHERENGANI HILLS GALLERY IMAGE */
 .cherengani-view-1 {
-	background-image: url(../images/cherengani/img6.jpg);
+	background-image: url(../images/cherengani/img7.jpg);
 }
 .cherengani-view-2 {
 	background-image: url(../images/cherengani/img2.jpg);
 }
 .cherengani-view-3 {
-	background-image: url(../images/cherengani/img3.jpg);
+	background-image: url(../images/cherengani/img8.jpg);
 }
 .cherengani-view-4 {
 	background-image: url(../images/cherengani/img4.jpg);
@@ -324,6 +324,30 @@
 }
 .entertainment-view-6 {
 	background-image: url(../images/entertainment/img6.jpg);
+}
+/* TERRACE IMAGE */
+.terrace-view-1 {
+	background-image: url(../images/terrace/img2.jpg);
+}
+
+.terrace-view-2 {
+	background-image: url(../images/terrace/img1.jpg);
+}
+
+.terrace-view-3 {
+	background-image: url(../images/terrace/img3.jpg);
+}
+
+.terrace-view-4 {
+	background-image: url(../images/terrace/img4.jpg);
+}
+
+.terrace-view-5 {
+	background-image: url(../images/terrace/img5.jpg);
+}
+
+.terrace-view-6 {
+	background-image: url(../images/terrace/img6.jpg);
 }
 
 .gallery-view:hover {

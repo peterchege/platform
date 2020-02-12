@@ -86,36 +86,36 @@
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
-                <a href="images/entertainment/img2.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-1"></div>
+                <a href="images/terrace/img2.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-1"></div>
                 </a>
 
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/entertainment/img1.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-2"></div>
+                <a href="images/terrace/img1.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-2"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/entertainment/img3.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-3"></div>
+                <a href="images/terrace/img3.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-3"></div>
                 </a>
             </div>
         </div>
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/entertainment/img4.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-4"></div>
+                <a href="images/terrace/img4.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-4"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/entertainment/img5.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-5"></div>
+                <a href="images/terrace/img5.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-5"></div>
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.12s">
-                <a href="images/entertainment/img6.jpg" data-lightbox="photos">
-                    <div class="gallery-view entertainment-view-6"></div>
+                <a href="images/terrace/img6.jpg" data-lightbox="photos">
+                    <div class="gallery-view terrace-view-6"></div>
                 </a>
             </div>
         </div>

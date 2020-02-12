@@ -19,10 +19,7 @@
 
             </ul>
 
-            <!-- <div id="flags">
-                    <a href="#"><img src="img/kenya.png" alt="APA KENYA"></a>
-                    <a href="#"><img src="img/uganda.png" alt="APA UGANDA"></a>
-                </div> -->
+         
         </nav>
         <!-- #nav-menu-container -->
 

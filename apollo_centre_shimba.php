@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Boardroom (Shimba Hills) - Apollo Centre</title>
+    <title>Boardroom | Shimba Hills - Apollo Centre</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Our world-class boardroom provides the perfect meeting 
     place for executive meetings. With a capacity of up to 18 persons, it is equipped with 
@@ -84,7 +84,6 @@
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
                 <a href="images/shimba/img8.jpg" data-lightbox="photos">
-                    <!-- <img src="images/shimba/img5.jpg" alt="shimba" srcset=""> -->
                     <div class="gallery-view view-1"></div>
                 </a>
 
@@ -95,7 +94,7 @@
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/shimba/img4.jpg" data-lightbox="photos">
+                <a href="images/shimba/img10.jpg" data-lightbox="photos">
                     <div class="gallery-view view-3"></div>
                 </a>
             </div>

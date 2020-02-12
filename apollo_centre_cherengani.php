@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Training Room (Cheregani Hills) - Apollo Centre</title>
+    <title>Training Room | Cheregani Hills - Apollo Centre</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Apollo Centre conference suites comprise of meeting 
     rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
@@ -64,7 +64,7 @@
             <h1>CHERENGANI HILLS</h1>
             <input type="hidden" name="roomd" value="cherengani">
 
-            <div class="under-line img2">
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting place within a commercial building with generous space, spacious balconies opening to every room and ample parking space. The rooms are a hide away for all business and social meetings with exclusivity and convenience for executive individuals, corporate and groups.
@@ -82,7 +82,7 @@
         <div class="row gallery-container">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
 
-                <a href="images/cherengani/img6.jpg" data-lightbox="photos">
+                <a href="images/cherengani/img7.jpg" data-lightbox="photos">
                     <div class="gallery-view cherengani-view-1"></div>
                 </a>
 
@@ -93,7 +93,7 @@
                 </a>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                <a href="images/cherengani/img3.jpg" data-lightbox="photos">
+                <a href="images/cherengani/img8.jpg" data-lightbox="photos">
                     <div class="gallery-view cherengani-view-3"></div>
                 </a>
             </div>
