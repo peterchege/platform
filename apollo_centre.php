@@ -371,7 +371,7 @@
                         <div class="row apollo-btn text-right">
                             <div class="col-6">
                                 <button class="btn btn-primary apollo-centre-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>
-                                <input type="hidden" name="roomd" value="entertainment">
+                                <input type="hidden" name="roomd" value="terrace">
                             </div>
                             <div class="col-6 text-left">
                                 <a href="apollo_centre_terrace.php">

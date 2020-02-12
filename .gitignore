@@ -5,7 +5,8 @@
 /documents/feedback/*
 /documents/internship/*
 db.php
-
+mails.php
+apa.sql
 /storage/*.key
 # /vendor
 # .env

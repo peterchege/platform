@@ -20,6 +20,7 @@
                             <option value="4">Chyullu Hills (Auditorium 40pax)</option>
                             <option value="5">Cherengani Hills (Training Room)</option>
                             <option value="6">Entertainment Area</option>
+                            <option value="7">Terrace Area</option>
                         </select>
                     </div>
 

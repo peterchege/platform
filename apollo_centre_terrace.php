@@ -60,7 +60,7 @@
     <div class="container">
         <div class="apollo">
             <h1> TERRACE AREA</h1>
-            <input type="hidden" name="roomd" value="entertainment">
+            <input type="hidden" name="roomd" value="terrace">
 
             <div class="under-line img4">
                 <img src="images/line.png" alt="">
