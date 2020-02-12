@@ -100,7 +100,7 @@
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/shimba/img6.jpg" alt="">
+                                        <img src="images/shimba/img5.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Shimba Hills</h1>
                                         </div>
@@ -116,7 +116,7 @@
                                 </li>
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/cherengani/img4.jpg" alt="">
+                                        <img src="images/cherengani/img2.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Cherangani</h1>
                                         </div>
@@ -127,6 +127,14 @@
                                         <img src="images/Entertainment/img3.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Entertainment</h1>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="uk-width-3-4">
+                                    <div class="uk-panel">
+                                        <img src="images/terrace/img3.jpg" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                            <h1>Terrace Area</h1>
                                         </div>
                                     </div>
                                 </li>
@@ -353,7 +361,7 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Tea and Lunch is served on our balcony area covered with sailing canopies
+                            <p>Refreshment and Lunch is served on our balcony area covered with sailing canopies
                                 that exhibit both a business and relaxed environment for the guests. The
                                 terrace can also be used for cocktail parties and small outdoor events.
                             </p>
