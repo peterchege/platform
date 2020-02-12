@@ -65,8 +65,10 @@
             <div class="under-line img2">
                 <img src="images/line.png" alt="">
             </div>
-            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">At Apollo centre conference suites, enjoy private meeting place within a commercial building with generous space, spacious balconies opening to every room and ample parking space. The rooms are a hideaway for all business and social meetings with exclusivity and convenience for executive individuals, corporate and groups.
-            </p>
+            <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
+                With a capacity of 10 -12 persons Taita Hills has a generous space that maximizes natural light, 
+                the room opens to a balcony creating a more open area with guaranteed privacy. The boardroom is 
+                equipped with an LED screen for presentation and provide an atmosphere for the perfect business pitch. </p>
             <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
                 <div class="col-md-12 ">
                     <button class="btn btn-primary gallery-book" data-target="#modal-full" uk-toggle>BOOK NOW</button>

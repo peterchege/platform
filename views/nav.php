@@ -183,7 +183,7 @@
                     <li class="list-down">
                         <a href="apollo_centre.php">CONFERENCE FACILITIES</a>
                         <div class="uk-navbar-dropdown back-color" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-2 uk-visible@m" uk-grid>
+                            <div class="uk-navbar-dropdown-grid  uk-child-width-1-3 uk-visible@m" uk-grid>
                                 <div>
                                     <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
 
@@ -213,6 +213,12 @@
                                         <li><a href="apollo_centre_entertainment.php"><i class="fas fa-hotel"></i>
                                                 Entertainment Area</a>
                                         </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav head-navi">
+                                        <li><a href="apollo_centre_terrace.php"><i class="fas fa-hotel"></i> Terrace Area </a></li>
+                                       
                                     </ul>
                                 </div>
                             </div>
