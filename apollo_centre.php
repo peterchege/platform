@@ -124,7 +124,7 @@
                                 </li>
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/Entertainment/img3.jpg" alt="">
+                                        <img src="images/entertainment/img3.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Entertainment</h1>
                                         </div>
