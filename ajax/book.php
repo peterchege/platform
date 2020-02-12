@@ -69,7 +69,6 @@ switch ($_GET['request']) {
                 $response['message'] = 'Booking made successfully!';
                 $response['status'] = 1;
             } else {
-                echo '<div class="alert alert-danger">An error occurred. Please try again.</div>';
                 $response['message'] = 'An error occurred. Please try again!';
             }
             $db->close();
