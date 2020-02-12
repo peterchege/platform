@@ -10,8 +10,7 @@
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Apollo Centre conference suites comprise of meeting 
     rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
-    <meta name="keywords" content="apollo centre,apollo center, conference facilities, investment , investment products,  
-    Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
+    <meta name="keywords" content="apollo centre,apollo center, conference facilities">
     <meta name="author" content="">
 
     <!-- FACEBOOK MEATADATA -->

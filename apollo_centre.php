@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Confrence Facilities - Apollo Centre</title>
+    <title>Conference Facilities - Apollo Centre</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="Apollo Centre conference suites comprise of meeting 
     rooms of 8 guests, 10 guests and an executive boardroom that holds 18 guests.">
@@ -66,12 +66,11 @@
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 At Apollo Centre conference suites, enjoy private meetings within a
                 commercial building in the heart of bustling Westlands. Each suite boasts
-                generous space, opening out to spacious balconies with ample secure parking.
-                Clients also have the option for self-catering. The suites are a hideaway
+                generous space, opening out to spacious balconies. The suites are a hideaway
                 for all business and social meetings with exclusivity and convenience for
                 executives, individuals, corporates and groups. The suites are available for
                 hire on hourly or daily basis making it flexible and cost effective to the
-                users.
+                users as client also have the option for self catering.
             </p>
         </div>
     </div>
@@ -101,7 +100,7 @@
                             <ul class="uk-slider-items uk-grid">
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/shimba/img6.jpg" alt="">
+                                        <img src="images/shimba/img5.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Shimba Hills</h1>
                                         </div>
@@ -117,7 +116,7 @@
                                 </li>
                                 <li class="uk-width-3-4">
                                     <div class="uk-panel">
-                                        <img src="images/cherengani/img4.jpg" alt="">
+                                        <img src="images/cherengani/img2.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Cherangani</h1>
                                         </div>
@@ -128,6 +127,14 @@
                                         <img src="images/Entertainment/img3.jpg" alt="">
                                         <div class="uk-position-center uk-panel">
                                             <h1>Entertainment</h1>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="uk-width-3-4">
+                                    <div class="uk-panel">
+                                        <img src="images/terrace/img3.jpg" alt="">
+                                        <div class="uk-position-center uk-panel">
+                                            <h1>Terrace Area</h1>
                                         </div>
                                     </div>
                                 </li>
@@ -354,7 +361,7 @@
                         </div>
 
                         <div class="content-bottom text-justify">
-                            <p>Tea and Lunch is served on our balcony area covered with sailing canopies
+                            <p>Refreshment and Lunch is served on our balcony area covered with sailing canopies
                                 that exhibit both a business and relaxed environment for the guests. The
                                 terrace can also be used for cocktail parties and small outdoor events.
                             </p>
