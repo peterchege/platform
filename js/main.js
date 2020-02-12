@@ -25,6 +25,10 @@ jQuery(document).ready(function ($) {
                 $('#room_name').val('6');
                 $('.uk-background-cover').css('background-image', 'url("images/entertainment/img3.jpg")');
                 break;
+            case 'terrace':
+                $('#room_name').val('7');
+                $('.uk-background-cover').css('background-image', 'url("images/entertainment/img3.jpg")');
+                break;
 
             default:
                 break;
