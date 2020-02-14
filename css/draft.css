@@ -1158,6 +1158,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
 }
 
+.apollo p{
+     text-align: left;
+}
+
 .header-line {
     width: 450px;
     margin: 0 auto;
