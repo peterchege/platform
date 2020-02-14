@@ -66,9 +66,9 @@
                 <img src="images/line.png" alt="">
             </div>
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Our world-class boardroom provides the perfect meeting place for executive meetings. 
-                With a capacity of up to 18 persons, it is equipped with an extra-large LCD screen & 
-                teleconferencing facilities, guaranteeing both comfort and privacy.
+                Our auditorium can hold up to 40 people & is equipped with state of the art equipment. 
+                It has a high definition projector with a surround sound system suitable for audio/ visual 
+                presentations or training.
             </p>
             <div class="row apollo-btn wow fadeInUp " data-wow-delay="0.1s">
                 <div class="col-md-12 ">

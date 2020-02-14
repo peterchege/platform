@@ -65,12 +65,13 @@
 
             <p class="container content-offer wow fadeInUp" data-wow-delay="0.1s">
                 At Apollo Centre conference suites, enjoy private meetings within a
-                commercial building in the heart of bustling Westlands. Each suite boasts
-                generous space, opening out to spacious balconies. The suites are a hideaway
-                for all business and social meetings with exclusivity and convenience for
-                executives, individuals, corporates and groups. The suites are available for
-                hire on hourly or daily basis making it flexible and cost effective to the
-                users as client also have the option for self catering.
+                commercial building in the heart of bustling Westlands. The suites are a
+                hideaway for all business and social meetings with exclusivity and
+                convenience for executives, individuals, corporates and groups. Each suite
+                boasts of generous space with large sliding doors opening out to spacious
+                balconies that allow natural lighting. The suites are available for hire on
+                hourly or daily basis making it flexible and cost effective to the users as
+                client also have the option for self-catering.
             </p>
         </div>
     </div>
