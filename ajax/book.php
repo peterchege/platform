@@ -63,11 +63,12 @@ switch ($_GET['request']) {
             $more_information = mysqli_real_escape_string($db, $_POST['more_information']);
             $more_informationc = filter_var($more_information, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
             $date = date('D, d M Y H:i:s');
+            $roomvalue = mysqli_fetch_array(mysqli_query($db, "SELECT name FROM apollo_confrence_facilities WHERE id = '$room_namec' LIMIT 1"));
 
             //mail
             $subject ='APOLLO CONFRENCE FACILITY BOOKING MADE ON '.$date;
-            $body = $company_namec .' just sent a booking request. Details are as follows: '. '<br>.';
-            $body.= 'Facility: '. $room_namec.'<br>';
+            $body = $company_namec .' just sent a booking request. Details are as follows: '. '<br><br>';
+            $body.= 'Facility: '. $roomvalue['name'].'<br>';
             $body.= 'Start date: '. $start_datec.'<br>';
             $body.= 'Start time: '. $start_timec.'<br>';
             $body.= 'End date: '. $end_datec.'<br>';
