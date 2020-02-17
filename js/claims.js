@@ -188,15 +188,15 @@ $(document).ready(function () {
         } else if (pdf == 'group life critical illness') {
             var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';
         } else if (pdf == 'group life benefit') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         } else if (pdf == 'group life hospital cash') {
             var claim_form = 'pdf/claim/Hosicare- claim form.pdf';
         } else if (pdf == 'group life total permanent disablility') {
             var claim_form = '';
         } else if (pdf == 'group life occupational') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/WIBA CLAIM FORM.pdf';
         } else if (pdf == 'group life credit') {
-            var claim_form = '';
+            var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         }
         //agriculture
         else if (pdf == 'livestock') {
@@ -265,7 +265,6 @@ $(document).ready(function () {
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
                     '<li>Police Abstract.</li>' +
                     '<li>Copy of the Log Book .</li>' +
-                    '<li>Detailed statement and sketch of the circumstance of the accident. .</li>' +
                     '</ol></p>';
                 break;
             case 'windscreen':
@@ -273,7 +272,6 @@ $(document).ready(function () {
                     '<ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
                     '<li>Windscreen and whole vehicle photos.</li>' +
-                    '<li>Police Abstract (Optional).</li>' +
                     '</ol></p>';
                 break;
 
@@ -282,30 +280,29 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
-                    '<li>Document 1.</li>' +
-                    '<li>Document2.</li>' +
-                    '<li>Document3 .</li>' +
-                    '<li>Document4....</li>' +
+                    '<li>Police abstract incase of theft.</li>' +
+                    '<li>Photo of damaged property.</li>' +
+                    '<li>Report from repairer (Optional).</li>' +
+                    '<li>Invoice.</li>'
+                    '<li>Purchase receipt.</li>' +
                     '</ol></p>';
                 break;
             case 'wiba':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
+                    '<li>Dosh Wiba 4 form.</li>' +
+                    '<li>ID (Copy).</li>' +
+                    '<li>Claimant statement.</li>' +
+                    '<li>Payslip (Last three months prior to injury)</li>' +
+                    '<li>Medical bills.</li>' +
+                    '<li>Sick off sheet.</li>' +
                     '</ol></p>';
                 break;
             case 'personal accident':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
 
@@ -314,10 +311,6 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
 
@@ -325,10 +318,6 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
 
@@ -337,70 +326,42 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life critical illness':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life benefit':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life hospital cash':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life total permanent disablility':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life occupational':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             case 'group life credit':
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
                     ' <ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
-                    '<li>Document 1</li>' +
-                    '<li>Document2</li>' +
-                    '<li>Document3 </li>' +
-                    '<li>Document4...</li>' +
                     '</ol></p>';
                 break;
             default:
