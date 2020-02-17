@@ -168,7 +168,7 @@ $(document).ready(function () {
         } else if (pdf == 'critical illness') {
             var claim_form = 'pdf/claim/Critical Ilness Claim form.pdf';    ``
         } else if (pdf == 'death') {
-            var claim_form = 'pdf/claim/Pumzisha Claim form.pdf';
+            var claim_form = 'pdf/claim/APA LIFE  - Last expense claim form -2019.pdf';
         } else if (pdf == 'maturity') {
             var claim_form = '';
         } else if (pdf == 'partial maturity') {
