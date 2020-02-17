@@ -254,7 +254,7 @@ $(document).ready(function () {
                     '<ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
                     '<li>Police Abstract.</li>' +
-                    '<li>Copy of Driving License.</li>' +
+                    '<li>Copy of Drivers License.</li>' +
                     '<li>Copy of the Log Book .</li>' +
                     '<li>Photos of the accident scene.</li>' +
                     '</ol></p>';
@@ -271,7 +271,7 @@ $(document).ready(function () {
                 var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation:' +
                     '<ol class="text-left">' +
                     '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>).</li>' +
-                    '<li>Windscreen and whole vehicle photos.</li>' +
+                    '<li>Windscreen and Vehicle photos.</li>' +
                     '</ol></p>';
                 break;
 
@@ -294,9 +294,9 @@ $(document).ready(function () {
                     '<li>Dosh Wiba 4 form.</li>' +
                     '<li>ID (Copy).</li>' +
                     '<li>Claimant statement.</li>' +
-                    '<li>Payslip (Last three months prior to injury)</li>' +
+                    '<li>Payslip (Last three months before injury).</li>' +
                     '<li>Medical bills.</li>' +
-                    '<li>Sick off sheet.</li>' +
+                    '<li>Sick-off sheet.</li>' +
                     '</ol></p>';
                 break;
             case 'personal accident':
@@ -315,9 +315,9 @@ $(document).ready(function () {
                 break;
 
             case 'crop':
-                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please download and complete the claim form and prepare the following documentation: ' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process.' +
                     ' <ol class="text-left">' +
-                    '<li>Claim form (<a href="' + claim_form + '">Click here to download</a>)</li>' +
+                    
                     '</ol></p>';
                 break;
 
