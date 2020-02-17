@@ -236,15 +236,13 @@ $(document).ready(function () {
                     '</ol></p>';
                 break;
             case 'maturity':
-                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br> To help us process your claim faster, please attach the following document:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process.' +
                     '<ol class="text-left">' +
-                    '<li>Policy document</li>' +
                     '</ol></p>';
                 break;
             case 'partial maturity':
-                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process. <br><br>  To help us process your claim faster, please attach the following document:' +
+                var sweet_alert = '<p class="text-left">Thank you for providing us with details of your claim. One of our agents will contact you shortly to guide you through the process.' +
                     '<ol class="text-left">' +
-                    '<li>Policy document</li>' +
                     '</ol></p>';
                 break;
 
