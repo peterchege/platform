@@ -12,7 +12,7 @@ require_once 'inc/sessions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>APA INSURANCE</title>
+    <title>Career Internship - APA Insurance</title>
     <link rel="stylesheet" href="css/career.css" media="screen">
     <link rel="stylesheet" href="css/customer.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
