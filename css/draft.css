@@ -2322,6 +2322,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
     text-align: center;
     padding-top: 30px;
+    color: #fff;
+}
+
+#footer .terms-color {
+    color: #fff;
 }
 
 #footer .credits {

@@ -103,7 +103,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="copyright"> Terms & Conditions </div>
+                <div class="copyright"> <a class="terms-color" href="terms_and_conditions.php">Terms & Conditions</a> </div>
             </div>
         </div>
     </div>
