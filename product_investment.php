@@ -375,6 +375,12 @@ require_once 'inc/functions.php';
                 </table>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-10">
+                <p>Terms & condition for the Monry market funds: <a href="disclaimer.php"> Disclaimer</a></p>
+                <br><br>
+            </div>
+        </div>
     </div>
 
 

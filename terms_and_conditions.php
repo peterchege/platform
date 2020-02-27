@@ -90,7 +90,7 @@
                     APA username and password and wish to use those login details). </li><br>
                 <li><b>Usage Data</b> includes information about how you use the App and other APA products and services,
                     as well as device type, the amount of time you use the App and your use of the App’s features. </li><br>
-                <l><b>Marketing and Communications Data</b> includes your preferences in receiving marketing from us and our
+                <li><b>Marketing and Communications Data</b> includes your preferences in receiving marketing from us and our
                     third parties and your communication preferences. </li>
             </ul>
 
