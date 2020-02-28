@@ -73,7 +73,7 @@
                     <p>
                         Apollo Centre, Ring Rd Parklands<br> Westlands
                         Nairobi – Kenya. <br>
-                        Tel: O20 286 2000,<br>
+                        Tel: (O20) 286 2000, (020) 364 1000<br>
                         Phone: (+254) 0709 912 777,<br>
                         Email:</strong> info@apainsurance.org<br>
                     </p>

@@ -59,7 +59,7 @@
                             <p><i class="fas fa-street-view"></i> Addresss : Apollo Centre, Ring Rd Parklands<br>
                                 Westlands Nairobi – Kenya.
                             </p>
-                            <p><i class="fas fa-phone-square"></i> Telephone : O20 286 2000
+                            <p><i class="fas fa-phone-square"></i> Telephone : (O20) 286 2000 , (020) 364 1000
                             </p>
                             <p><i class="fas fa-mobile"></i> Mobile Number :(+254) 709912777
                             </p>
@@ -136,7 +136,7 @@
                         <h2>Head Office</h2>
                         <p>Location: Apollo Centre, Ring Road Parklands, Westlands</p>
                         <p>Tel: +254 (0) 20 364 1000</p>
-                        <p>info@<span class ="color-red">apa</span>insurance.org</p>
+                        <p>info@<span class="color-red">apa</span>insurance.org</p>
                         <hr>
                         <p class="text-center get-direction"><a href="https://www.google.com/maps/place/Apollo+Centre/@-1.2719757,36.8038238,15z/data=!4m8!1m2!2m1!1sapollo+center!3m4!1s0x0:0xc882ec8de269158!8m2!3d-1.2594505!4d36.8044996" target="_blank">
                                 Get Direction >> </a></p>
@@ -147,7 +147,7 @@
                         <h2>City Centre</h2>
                         <p>Location: 3rd Floor, Barclays Plaza, Loita Street, Nairobi</p>
                         <p>Tel: 020-2862000</p>
-                        <p>info@<span class ="color-red">apa</span>insurance.org</p>
+                        <p>info@<span class="color-red">apa</span>insurance.org</p>
                         <hr>
                         <p class="text-center get-direction"><a href="https://www.google.com/maps/place/Barclays+Plaza,+Nairobi/@-1.2844981,36.8155208,17z/data=!4m13!1m7!3m6!1s0x182f10d112aafefb:0x70b69579ce2040ca!2sBarclays+Plaza,+Nairobi!3b1!8m2!3d-1.2845035!4d36.8177095!3m4!1s0x182f10d112aafefb:0x70b69579ce2040ca!8m2!3d-1.2845035!4d36.8177095" target="_blank">Get Direction >> </a></p>
                     </div>
@@ -157,7 +157,7 @@
                         <h2>Thika Branch</h2>
                         <p>Location: 5th Floor, Zuri Centre, Kenyatta Highway</p>
                         <p>Tel:+254 (0) 67 222 0196 </p>
-                        <p>apa.thika@<span class ="color-red">apa</span>insurance.org</p>
+                        <p>apa.thika@<span class="color-red">apa</span>insurance.org</p>
                         <hr>
                         <p class="text-center get-direction"><a href="https://www.google.com/maps/place/Zuri+Centre/@-1.0384864,37.0752592,17z/data=!4m12!1m6!3m5!1s0x182f4e8ed448ce97:0xda9c404007719460!2sZuri+Centre!8m2!3d-1.0384864!4d37.0774479!3m4!1s0x182f4e8ed448ce97:0xda9c404007719460!8m2!3d-1.0384864!4d37.0774479" target="_blank">Get Direction >> </a></p>
                     </div>
@@ -300,7 +300,7 @@
             <br><br><br>
 
             <div class="row">
-    
+
                 <div class="col-md-4 ">
                     <div class="office-branch branch">
                         <h2>Mombasa Branch</h2>
@@ -312,9 +312,9 @@
                         <p class="text-center get-direction"><a href="https://www.google.com/maps/place/Apollo+House/@-4.0607432,39.6562745,17z/data=!3m1!4b1!4m5!3m4!1s0x18401329df036b0f:0x3e432088743117a3!8m2!3d-4.0607486!4d39.6584632" target="_blank"> Get Direction >> </a></p>
 
                     </div>
-                </div> 
+                </div>
                 <div class="offset-8">
-                    
+
                 </div>
                 <br><br><br>
             </div>
