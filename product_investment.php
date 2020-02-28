@@ -377,7 +377,7 @@ require_once 'inc/functions.php';
         </div>
         <div class="row">
             <div class="col-md-10">
-                <p>Terms & condition for the Monry market funds: <a href="disclaimer.php"> Disclaimer</a></p>
+                <p>Terms & condition for the Apollo Asset Money Market Funds: <a href="disclaimer.php"> Disclaimer</a></p>
                 <br><br>
             </div>
         </div>

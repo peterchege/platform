@@ -61,7 +61,7 @@
                             </p>
                             <p><i class="fas fa-phone-square"></i> Telephone : O20 286 2000
                             </p>
-                            <p><i class="fas fa-mobile"></i> Mobile Number :(+254) 70991277
+                            <p><i class="fas fa-mobile"></i> Mobile Number :(+254) 709912777
                             </p>
                             <p><i class="fas fa-envelope-open-text"></i> Email :info@<font color="#C80D10">apa</font>insurance.org
                             </p>
