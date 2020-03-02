@@ -32,7 +32,6 @@ require_once 'inc/functions.php';
     <link rel="stylesheet" href="css/modal.css" media="screen">
     <link rel="stylesheet" href="css/product.css" media="screen">
     <link rel="stylesheet" href="css/parsley.css" media="screen">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
 
 
     <?php include 'views/head_links.php'; ?>
@@ -96,7 +95,7 @@ require_once 'inc/functions.php';
             <div class="container-fliud">
                 <div class="row">
                     <div class="col-md-8">
-                        <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container ammf-form text-left">
+                        <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container  ammf-form campaign-form text-left">
                             <h3 for="inputAddress" class="comp-detail text-center">PERSONAL DETAILS</h3>
                             <p class="text-center">Let's now get you started on your plan</p>
                             <br>
@@ -131,13 +130,12 @@ require_once 'inc/functions.php';
 
 
                             <div style="display: none">
-                                <input type="hidden" id="product_id" name="product_id" value="45">
+                                <input type="hidden" id="product_id" name="product_id" value="47">
                                 <input type="hidden" id="product_category_id" name="product_category_id" value="14">
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
-                                        <i class="fas fa-paper-plane"></i>
+                                    <button type="submit" name="request" class="btn btn-primary campaign-submit-button">SUBMIT <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
                             </div>
@@ -257,7 +255,7 @@ require_once 'inc/functions.php';
     require_once 'inc/scripts.php';
     ?>
     <script src="js/parsley.min.js"></script>
-    <script src="js/lead.js"></script>
+    <script src="js/campaign.js"></script>
 </body>
 
 </html>
