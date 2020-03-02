@@ -151,26 +151,30 @@
 
 /* APOLLO ASSET IMAGE */
 
+/* Apollo Equity Fund */
 .asset-1 {
-    background-image: url(../img/funds.png);   
+    background-image: url(../img/apollo_asset/equityfund.png);
+    border-radius: 20px;   
 }
 .asset-1a {
-    background-image: url(../img/apollo_asset/grow_funds.png);
+    background-image: url(../img/apollo_asset/equityfundbanner.png);
     background-position: center;
 }
 
+/* Apollo Balanced Fund */
 .asset-2 {
-    background-image: url(../img/balance.png);
+    background-image: url(../img/apollo_asset/balancefund.png);
 }
 .asset-2b {
-    background-image: url(../img/apollo_asset/create_wealth.png);
+    background-image: url(../img/apollo_asset/balancefundbanner.png);
 }
 
+/* Apollo Money Market Fund */
 .asset-3 {
-    background-image: url(../img/money.png);
+    background-image: url(../img/apollo_asset/moneymarket.png);
 }
 .asset-3b {
-    background-image: url(../img/apollo_asset/money_funds.jpg);
+    background-image: url(../img/apollo_asset/moneymarketbanner.png);
 }
 
 /* images of commercial products */
