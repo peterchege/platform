@@ -173,7 +173,6 @@ $(document).ready(function () {
                         focusConfirm: false,
                         confirmButtonText: 'Ok!',
                     });
-
                 }
                 buttonClicked.attr("disabled", false).html('Submit');
             }
