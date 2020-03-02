@@ -51,21 +51,19 @@ require_once 'inc/functions.php';
     Intro Section
     ============================-->
 
-    <div class="banner-invest">
+    <div class="banner-ammf">
         <div class="container-fluid">
-            <div class="row csr-cont">
+            <div class="row csr-cont ammf-content">
                 <div class="col-md-offset-6 ">
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h2>
-                        What Is Investment?
+                        What Is Apollo Money Market Fund?
                     </h2>
                     <p>
-                        An investment is an asset or item acquired to generate income or appreciation. In an economic
-                        sense, an investment is the purchase of goods that are not consumed today but are used in the
-                        future to create wealth. In finance, an investment is a monetary asset purchased with the idea
-                        that the asset will provide income in the future or will later be sold at a higher price for a
-                        profit.
+                        This is short to a medium-term investment product that
+                        aims to give a reasonable rate of interest while preserving
+                        capital and offering liquidity.
                     </p>
                 </div>
             </div>
@@ -91,18 +89,64 @@ require_once 'inc/functions.php';
                 <img src="images/line.png" alt="">
             </div>
 
-            <p class="container text-justify content-offer wow fadeInUp" data-wow-delay="0.1s">
-                Apollo Asset Management Company is an asset management firm focused exclusively on meeting the needs of
-                institutional investors like pension schemes, collective investment funds, SACCOs, institutions, and
-                individual high-net-worth investors and their families. We are a 100% owned subsidiary of Apollo
-                Investments Limited, one of Kenya’s leading Insurance and Property Management Company.
+            <p class="container text-center content-offer wow fadeInUp" data-wow-delay="0.1s">
+                No matter what makes you happy, There's a plan for that with apollo unit trust funds
             </p>
-
+            <br><br>
             <div class="container-fliud">
-               
+                <div class="row">
+                    <div class="col-md-8">
+                        <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container ammf-form text-left">
+                            <h3 for="inputAddress" class="comp-detail text-center">PERSONAL DETAILS</h3>
+                            <p class="text-center">Let's noew get you started on your plan</p>
+                            <br>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="full_name">Full Name</label>
+                                        <input name="full_name" type="text" class="form-control" id="full_name" placeholder="John Doe" value="" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="phone">Mobile Number</label>
+                                        <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <label for="email">Email Address</label>
+                                        <input name="email" type="email" class="form-control" id="email" placeholder="john@gmail.com" value="" required data-parsley-type="email" data-parsley-trigger="keyup">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class=" form-group col-md-12">
+                                        <label for="location">Location</label>
+                                        <input name="location" type="text" class="form-control" id="location" placeholder="e.g Nairobi" value="" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div style="display: none">
+                                <input type="hidden" id="product_id" name="product_id" value="45">
+                                <input type="hidden" id="product_category_id" name="product_category_id" value="14">
+                            </div>
+                            <div class="row book-btn">
+                                <div class="col-md-12">
+                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
 
-          
+
         </div>
     </div>
 
