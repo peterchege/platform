@@ -13,8 +13,8 @@ require_once 'inc/functions.php';
 
     <title>Apollo Equity Fund</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
-    <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
-    motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
+    <meta name="description" content="get a quote and buy a product online today. some of our products are: Apollo Balanced Fund, Apollo Equity Fund, 
+    Apollo Money Market Fund ">
     <meta name="keywords" content="apollo asset managment,apollo asset products, apollo asset managment limited, investment , investment products,  
     Apollo Balanced Fund, Apollo Equity Fund, Apollo Money Market Fund,">
     <meta name="author" content="">
@@ -98,7 +98,7 @@ require_once 'inc/functions.php';
                     <div class="col-md-8">
                         <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container ammf-form text-left">
                             <h3 for="inputAddress" class="comp-detail text-center">PERSONAL DETAILS</h3>
-                            <p class="text-center">Let's noew get you started on your plan</p>
+                            <p class="text-center">Let's now get you started on your plan</p>
                             <br>
                             <div class="container">
                                 <div class="row">

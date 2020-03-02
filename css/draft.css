@@ -674,6 +674,15 @@ a:focus {
     background-position: center;
 }
 
+.banner-abf {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/apollo_asset/balancefundbanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .banner-ammf {
     width: 100%;
     height: 70vh;
