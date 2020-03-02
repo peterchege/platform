@@ -11,7 +11,7 @@ require_once 'inc/functions.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Money Market Fund</title>
+    <title>Apollo Equity Fund</title>
     <!-- META DATA DESCRIPTION FOR GOOGLE SEARCH RESULT -->
     <meta name="description" content="get a quote and buy a product online today. some of our products are: travel insurance, 
     motor cover, domestic package, health insurance,personal accident cover, group life, WIBA, last expense, credit life, pension ">
@@ -51,19 +51,19 @@ require_once 'inc/functions.php';
     Intro Section
     ============================-->
 
-    <div class="banner-ammf">
+    <div class="banner-aef">
         <div class="container-fluid">
             <div class="row csr-cont ammf-content">
                 <div class="col-md-offset-6 ">
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h2>
-                        What Is Apollo Money Market Fund?
+                        What Is Apollo Equity Fund?
                     </h2>
                     <p>
-                        This is short to a medium-term investment product that
-                        aims to give a reasonable rate of interest while preserving
-                        capital and offering liquidity.
+                        This fund aims to generate long-term capital growth
+                        through investment in quoted equities and by investing
+                        in a diversified range of e stocks across several sectors..
                     </p>
                 </div>
             </div>
@@ -84,8 +84,8 @@ require_once 'inc/functions.php';
 
     <div class="container">
         <div class="apollo">
-            <h1>APOLLO MONEY MARKET FUNDS</h1>
-            <div class="under-line img3">
+            <h1>APOLLO EQUITY FUND</h1>
+            <div class="under-line img6">
                 <img src="images/line.png" alt="">
             </div>
 
@@ -177,7 +177,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full-abf" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -227,7 +227,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="apollo_money_market_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
