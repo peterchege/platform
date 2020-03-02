@@ -11,10 +11,14 @@ $(document).ready(function () {
             cache: false,
             contentType: false,
             beforeSend: function () {
-
+                alert('be4 send');
             },
             success: function (response) {
-
+                if (response.status === 1) {
+                    alert('success');
+                } else {
+                    alert('error')
+                }
             }
         });
     })

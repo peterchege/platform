@@ -23,7 +23,7 @@ switch ($_GET['mode']) {
             $location = ((isset($_POST['location'])) ? filter_var(mysqli_real_escape_string($db, $_POST['location']), FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH) : null);
 
             $insert = mysqli_query($db, "INSERT INTO campaign(`leads_product_id`,`name`,`email`,`mobile`,`location`,`created_at`)
-                                            VALUES('$product_id','$full_name','$email','$phone','$location','$created_at',)");
+                                            VALUES('$product_id','$full_name','$email','$phone','$location','$created_at')");
             if ($insert) {
                 $response['message'] = 'Thank you for your interest!';
                 $response['status'] = 1;
