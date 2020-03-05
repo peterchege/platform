@@ -135,15 +135,7 @@
                                             execution up to the time of bond discharge by the parties to the bond.
                                             Read Section 108 of the EAC Customs mgt Act and 109 on bond enforcement.
                                         </p2>
-                                        <p> Financial Guarantee </p>
-                                        <p2>This is a first demand indemnity bond that is backed by an insurer to
-                                            guarantee an obligee that principal and interest payments will be made.
-                                            The guarantee provides an additional level of comfort that the investment
-                                            will
-                                            be repaid if the principal would not be able to fulfill the
-                                            contractual
-                                            obligation to make timely payments.
-                                        </p2>
+                                       
                                         <hr>
                                         <br>
                                         <div class="row">
