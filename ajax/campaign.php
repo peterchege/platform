@@ -27,7 +27,7 @@ switch ($_GET['mode']) {
             if ($insert) {
                 $response['message'] = 'Thank you for your interest!';
                 $response['status'] = 1;
-                campaign($full_name, $email);
+                campaign($full_name, $email, $product_id);
             } else {
                 $response['message'] = 'An error occurred: ' . mysqli_error($db);
             }
