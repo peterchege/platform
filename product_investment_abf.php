@@ -69,7 +69,7 @@
                                             investments among ordinary shares, preferred stock, high yielding
                                             bonds, Bank deposits and offshore investments.
                                         </p2><br><br>
-                                        <p2>When compared to Apollo Equity Fund the Balanced Fund will typically perform
+                                        <p2>When compared to Apollo Equity Fund, the Balanced Fund will typically perform
                                             better when the stock market is declining and worse when it is gaining.
                                         </p2><br><br>
                                         <p2>This hybrid fund is suitable for investors with a moderate risk profile
@@ -81,7 +81,7 @@
                                         </p2><br><br>
                                         <p2>The minimum lump sum investment is Sh. 10,000 with additional top-ups of sh.
                                             5,000. Regular voluntary top-ups can be made by cheque, direct cash deposit,
-                                            direct debit order or standing order.
+                                            direct debit order or standing order & M-pesa.
                                         </p2>
 
                                         <br><br><br><br>
@@ -89,7 +89,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
-                                                    <a href="apollo_balance_fund.php" class="btn btn-primary">Get Cover</a>
+                                                    <a href="apollo_balance_fund.php" class="btn btn-primary">Invest Now</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -120,7 +120,7 @@
                                         <!-- <h2 class="text-center">Our main products features include:</h2><br> -->
 
                                         <p> CHARGES</p>
-                                        <p2>A 5 % one-off charge known as an “initial/upfront fee” as well as a
+                                        <p2>A 4 % one-off charge known as an “initial/upfront fee” as well as a
                                             management fee of up to 2% annually.</p2><br><br>
                                         <p2>upfront fees do not apply for switches between Apollo Equity Fund and Apollo
                                             Balanced Fund</p2><br><br><br>
@@ -168,7 +168,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
-                                            <a href="apollo_balance_fund.php" class="btn btn-primary">Get Cover</a>
+                                            <a href="apollo_balance_fund.php" class="btn btn-primary">Invest Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">

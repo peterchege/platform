@@ -85,7 +85,7 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
-                                                    <a href="apollo_equity_fund.php" class="btn btn-primary">Get Cover</a>
+                                                    <a href="apollo_equity_fund.php" class="btn btn-primary">Invest Now</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -163,7 +163,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
-                                            <a href="apollo_equity_fund.php" class="btn btn-primary">Get Cover</a>
+                                            <a href="apollo_equity_fund.php" class="btn btn-primary">Invest Now</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
