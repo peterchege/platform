@@ -61,8 +61,8 @@ require_once 'inc/functions.php';
                         What Is Apollo Balance Fund?
                     </h2>
                     <p>
-                        This is a short to medium term investment product 
-                        that aims to give a reasonable rate of interest while 
+                        This is a short to medium term investment product
+                        that aims to give a reasonable rate of interest while
                         preserving capital and offering liquidity.
                     </p>
                 </div>
@@ -96,7 +96,7 @@ require_once 'inc/functions.php';
             <div class="container-fliud">
                 <div class="row">
                     <div class="col-md-8">
-                        <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container ammf-form text-left">
+                        <form id="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" class="form-container ammf-form campaign-form text-left">
                             <h3 for="inputAddress" class="comp-detail text-center">PERSONAL DETAILS</h3>
                             <p class="text-center">Let's now get you started on your plan</p>
                             <br>
@@ -110,7 +110,7 @@ require_once 'inc/functions.php';
                                 <div class="row">
                                     <div class="form-group col-md-12">
                                         <label for="phone">Mobile Number</label>
-                                        <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                        <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx254xxx" value="" required>
                                     </div>
                                 </div>
 
@@ -136,7 +136,7 @@ require_once 'inc/functions.php';
                             </div>
                             <div class="row book-btn">
                                 <div class="col-md-12">
-                                    <button type="submit" name="request" class="btn btn-primary">SUBMIT
+                                    <button type="submit" name="request" class="btn btn-primary campaign-submit-button">SUBMIT
                                         <i class="fas fa-paper-plane"></i>
                                     </button>
                                 </div>
@@ -177,7 +177,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-abf" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_balance_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -201,7 +201,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-aef" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_equity_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -227,7 +227,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_money_market_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -246,6 +246,7 @@ require_once 'inc/functions.php';
 
 
 
+
     <!-- =====================================FOOTER===================================== -->
     <?php include 'views/footer.php'; ?>
     <!-- #footer -->
@@ -258,6 +259,7 @@ require_once 'inc/functions.php';
     ?>
     <script src="js/parsley.min.js"></script>
     <script src="js/lead.js"></script>
+    <script src="js/campaign.js"></script>
 </body>
 
 </html>

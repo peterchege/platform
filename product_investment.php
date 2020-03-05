@@ -206,7 +206,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-abf" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_balance_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -230,7 +230,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-aef" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_equity_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -256,7 +256,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-ammf" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_money_market_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">

@@ -84,8 +84,8 @@
 
                                         <div class="row">
                                             <div class="col-md-4">
-                                                <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                                    <a href="#" class="btn btn-primary">Get Cover</a>
+                                                <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
+                                                    <a href="apollo_equity_fund.php" class="btn btn-primary">Get Cover</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
@@ -162,8 +162,8 @@
                                 </p><br> <br>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <div class="load-more text-center" data-target="#modal-full" uk-toggle>
-                                            <a href="#" class="btn btn-primary">Get Cover</a>
+                                        <div class="load-more text-center" data-target="#modal-full212" uk-toggle>
+                                            <a href="apollo_equity_fund.php" class="btn btn-primary">Get Cover</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4">

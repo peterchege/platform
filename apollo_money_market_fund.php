@@ -109,7 +109,7 @@ require_once 'inc/functions.php';
                                 <div class="row">
                                     <div class="form-group col-md-12">
                                         <label for="phone">Mobile Number</label>
-                                        <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx 254 xxx" value="" required>
+                                        <input name="phone" type="tel" class="form-control" id="phone" data-parsley-pattern="^(?:254|\+254|0)?(7(?:(?:[123456789][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$" data-parsley-trigger="keyup" placeholder="07xx254xxx" value="" required>
                                     </div>
                                 </div>
 
@@ -175,7 +175,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_balance_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
@@ -199,7 +199,7 @@ require_once 'inc/functions.php';
                         <!-- button click -->
                         <div class="row prod-btn">
                             <div class="col-6 text-center">
-                                <a href="#modal-full-aef" uk-toggle class="btn btn-primary">Get Cover</a>
+                                <a href="apollo_equity_fund.php" uk-toggle class="btn btn-primary">Get Cover</a>
                             </div>
 
                             <div class="col-6 text-left prod-lf">
