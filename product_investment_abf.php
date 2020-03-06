@@ -34,7 +34,7 @@
             <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
@@ -46,7 +46,7 @@
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
-                    </ul>
+                    </ul> -->
                     <div class="tab-content" id="myTabContent">
 
                         <!-- OVERVIEW -->
@@ -83,6 +83,9 @@
                                             5,000. Regular voluntary top-ups can be made by cheque, direct cash deposit,
                                             direct debit order or standing order & M-pesa.
                                         </p2>
+                                        <br><br><br>
+
+                                        <p2>Apollo Unit Trust Fund Disclaimer: <a href="disclaimer.php"> Click here</a></p2>
 
                                         <br><br><br><br>
 
@@ -92,11 +95,11 @@
                                                     <a href="apollo_balance_fund.php" class="btn btn-primary">Invest Now</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <!-- <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
