@@ -34,7 +34,7 @@
             <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
@@ -46,7 +46,7 @@
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
-                    </ul>
+                    </ul> -->
                     <div class="tab-content" id="myTabContent">
 
                         <!-- OVERVIEW -->

@@ -55,29 +55,24 @@
                             <div class="job-description text-center">
 
                                 <h2> Apollo Balanced Fund </h2>
-                                <P class="text-justify">This is a short to medium term investment product that aims to
-                                    give a reasonable rate of interest while preserving capital
-                                    and offering liquidity.
+                                <P class="text-justify">This fund invests in a well balanced portfolio comparing of quoted
+                                    shares in the NSE and secure high interest bearing investment. The diversification boosts
+                                    returns by providing a cushion during a down turn in one asset class
+                                </P>
+                                <P class="text-justify">It is suitable for investors looking for medium to long term growth
+                                    of their capital with a 3-5 year investment horizon
                                 </P>
 
 
                                 <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Apollo Balanced Fund? (Features) </h2>
-                                        <p2>The Fund aims to balance a medium risk investment strategy by spreading its
-                                            investments among ordinary shares, preferred stock, high yielding
-                                            bonds, Bank deposits and offshore investments.
-                                        </p2><br><br>
-                                        <p2>When compared to Apollo Equity Fund, the Balanced Fund will typically perform
-                                            better when the stock market is declining and worse when it is gaining.
-                                        </p2><br><br>
-                                        <p2>This hybrid fund is suitable for investors with a moderate risk profile
-                                            seeking a reasonable level of income and capital growth. Based on personal
-                                            objectives clients who do not want the hassle of investing in a variety of
+
+                                        <p2>
+                                            Based on objectives of the clients who do not want the hassle of investing in a variety of
                                             products that need to be re-balanced at regular intervals are advised
-                                            to invest for at least 3 years in order to derive ‘the best of both worlds’
-                                            as the fund’s portfolio is invested in a combination of equities and debt.
+                                            to invest in this fund in order to derive ‘the best of both worlds’.
+                                          
                                         </p2><br><br>
                                         <p2>The minimum lump sum investment is Sh. 10,000 with additional top-ups of sh.
                                             5,000. Regular voluntary top-ups can be made by cheque, direct cash deposit,
