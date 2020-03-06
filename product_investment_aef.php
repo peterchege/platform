@@ -64,7 +64,7 @@
                                 <p class="text-justify">The main investment in this fund is predominately in shares of companies,
                                     showing strong potential for growth, that are listed
                                     on the Nairobi Securities Exchange.</p>
-                                    
+
                                 <P class="text-justify">The fund is suitable for investors with a long term investment
                                     horizon.
                                 </P>
@@ -76,6 +76,10 @@
                                             investor’s discretion. Regular voluntary top ups can be made by cheque,
                                             direct cash deposit, direct debit order or standing order.
                                         </p2>
+                                        <br><br><br><br>
+                                        
+                                        <p2>Apollo Unit Trust Fund Disclaimer: <a href="disclaimer.php"> Click here</a></p2>
+
                                         <br><br><br><br>
 
                                         <div class="row">

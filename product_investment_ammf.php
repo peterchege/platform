@@ -63,13 +63,15 @@
                                 <div class="job-content">
                                     <div class="text-justify">
                                         <p2>The fund is suitable for investors seeking an alternative to a fixed bank
-                                            deposit.                                         </p2><br><br>
+                                            deposit. </p2><br><br>
                                         <p2>The minimum lump sum investment is KES. 10,000 and additional
                                             top-ups of KES. 2,000 can be made thereafter. Regular voluntary top-ups can
                                             be made by cheque, direct cash deposit, direct debit order or standing
                                             order.
                                         </p2><br><br>
-                                        <br><br>
+                                        <p2>Apollo Unit Trust Fund Disclaimer: <a href="disclaimer.php"> Click here</a></p2>
+
+                                        <br><br><br><br>
 
                                         <div class="row">
                                             <div class="col-md-4">
