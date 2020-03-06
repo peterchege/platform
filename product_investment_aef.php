@@ -55,27 +55,23 @@
                             <div class="job-description text-center">
 
                                 <h2> Apollo Equity Fund </h2>
-                                <P class="text-justify">This fund aims to generate long-term capital growth through
-                                    investment in quoted equities and by investing in a
-                                    diversified range of e stocks across several sectors..
+                                <P class="text-justify">This fund invest in professionally selected securities listed
+                                    in the Nairobi Securities Exchange. It is a suitable investment option for investors
+                                    looking to put money in the stock market but lack the professional capacity to select
+                                    and manage their portfolio.
+
+                                </P>
+                                <p class="text-justify">The main investment in this fund is predominately in shares of companies,
+                                    showing strong potential for growth, that are listed
+                                    on the Nairobi Securities Exchange.</p>
+                                    
+                                <P class="text-justify">The fund is suitable for investors with a long term investment
+                                    horizon.
                                 </P>
 
-
-                                <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Apollo Equity Fund? (Features) </h2>
-                                        <p2>This fund aims to generate long-term capital growth through investment in
-                                            quoted equities and by investing in a diversified
-                                            range of e stocks across several sectors.
-                                        </p2><br><br>
-                                        <p2>The fund is suitable for investors with a higher risk profile seeking
-                                            long-term capital growth and is recommended for those
-                                            with an investment horizon of at least 5 years.
-                                        </p2><br><br>
-                                        <p2>The main investment in this fund is predominately in shares of companies,
-                                            showing strong potential for growth, that are listed
-                                            on the Nairobi Securities Exchange. The minimum initial investment is
+                                        <p2> The minimum initial investment is
                                             Kes.10,000 with additional top ups of Kesh. 5,000 at the
                                             investor’s discretion. Regular voluntary top ups can be made by cheque,
                                             direct cash deposit, direct debit order or standing order.
@@ -88,11 +84,11 @@
                                                     <a href="apollo_equity_fund.php" class="btn btn-primary">Invest Now</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <!-- <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
@@ -166,11 +162,11 @@
                                             <a href="apollo_equity_fund.php" class="btn btn-primary">Invest Now</a>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <!-- <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                             <a href="#" class="btn btn-danger"> Download Forms </a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-4">
                                         <div class="load-more text-center" data-target="#modal-full_r" uk-toggle>
                                             <a href="#" class="btn btn-dark">I Need Assistance</a>

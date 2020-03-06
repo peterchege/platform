@@ -64,7 +64,6 @@
                                 </P>
 
 
-                                <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
 
