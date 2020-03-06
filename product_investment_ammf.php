@@ -34,7 +34,7 @@
             <div class="col-11 job-box1 wow fadeInUp" data-wow-delay="0.07s">
 
                 <div class="overview-nav">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">OVERVIEW</a>
                         </li>
@@ -46,7 +46,7 @@
                             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#start" role="tab" aria-controls="profile" aria-selected="false">HOW DO I START</a>
                         </li>
 
-                    </ul>
+                    </ul> -->
                     <div class="tab-content" id="myTabContent">
 
                         <!-- OVERVIEW -->
@@ -55,29 +55,21 @@
                             <div class="job-description text-center">
 
                                 <h2> Apollo Money Market Fund </h2>
-                                <P class="text-justify">This is short to a medium-term investment product that aims to
-                                    give a reasonable rate of interest while preserving capital and offering liquidity.
+                                <P class="text-justify">This fund invest in low-risk investments with an element of guaranteed returns
+                                    such as fixed deposit, treasury bills, commercial paper, goverment and corprate bonds. The fund is for
+                                    investors looking for a safe parking place for their funds and with a low risk appetite
                                 </P>
 
-
-                                <hr>
                                 <div class="job-content">
                                     <div class="text-justify">
-                                        <h2>Why the Apollo Money Market Fund? (Features) </h2>
-                                        <p2>This is short to a medium-term investment product that aims to give a
-                                            reasonable rate of interest while preserving capital and offering liquidity.
-                                            The fund is suitable for investors seeking an alternative to a fixed bank
-                                            deposit. The minimum lump sum investment is KES. 10,000 and additional
+                                        <p2>The fund is suitable for investors seeking an alternative to a fixed bank
+                                            deposit.                                         </p2><br><br>
+                                        <p2>The minimum lump sum investment is KES. 10,000 and additional
                                             top-ups of KES. 2,000 can be made thereafter. Regular voluntary top-ups can
                                             be made by cheque, direct cash deposit, direct debit order or standing
                                             order.
                                         </p2><br><br>
-                                        <p2>
-                                            The principal investments in this are fund is short term (usually less than
-                                            1 year) instruments like bank deposits, commercial papers and Government
-                                            treasury bills.
-                                        </p2>
-                                        <br><br><br><br>
+                                        <br><br>
 
                                         <div class="row">
                                             <div class="col-md-4">
@@ -85,11 +77,11 @@
                                                     <a href="apollo_money_market_fund.php" class="btn btn-primary">Invest Now</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <!-- <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full1" uk-toggle="target: #modal-close-outside">
                                                     <a href="#" class="btn btn-danger"> Download Forms </a>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <div class="col-md-4">
                                                 <div class="load-more text-center " data-target="#modal-full_r" uk-toggle>
                                                     <a href="#" class="btn btn-dark">I Need Assistance</a>
