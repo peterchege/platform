@@ -157,6 +157,85 @@ require_once 'inc/functions.php';
             <!-- New design for what we offer -->
 
             <div class="container">
+                <div class="row row-product1">
+
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-container-img1 asset-2">
+
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center"> Apollo Balanced Fund</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This fund invests in a well balanced portfolio comparing
+                            of quoted shares in the NSE and secure high interest bearing investment. The diversification...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="apollo_balance_fund.php" uk-toggle class="btn btn-primary">Invest Now</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_investment_abf.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="box-container-img1 asset-1">
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Equity Fund</h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This fund invest in professionally selected securities listed in the Nairobi
+                            Securities Exchange. It is a suitable investment option for investors looking...
+                        </p>
+                        <br>
+                        <!-- button click -->
+                        <div class="row prod-btn">
+                            <div class="col-6 text-center">
+                                <a href="apollo_equity_fund.php" uk-toggle class="btn btn-primary">Invest Now</a>
+                            </div>
+
+                            <div class="col-6 text-left prod-lf">
+                                <a href="product_investment_aef.php" class="btn btn-primary prod-grey">Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-container-img1 asset-3">
+
+                        </div>
+                        <div class="head-container">
+                            <h2 class="text-center">Apollo Money Market Fund </h2>
+                        </div>
+                        <br>
+                        <p class="text-justify">This fund invest in low-risk investments with an element of guaranteed
+                            returns such as fixed deposit, treasury bills, commercial paper...
+                            <br><br>
+
+                            <!-- button click -->
+                            <div class="row prod-btn">
+                                <div class="col-6 text-center">
+                                    <a href="apollo_money_market_fund.php" uk-toggle class="btn btn-primary">Invest Now</a>
+                                </div>
+
+                                <div class="col-6 text-left prod-lf">
+                                    <a href="product_investment_ammf.php" class="btn btn-primary prod-grey">Read
+                                        More</a>
+                                </div>
+
+                            </div>
+                    </div>
+
+                </div>
                 <div class="row row-product1 small-opt">
                     <div class="col-md-6 col-lg-4 prod  wow fadeInUp" data-wow-delay="0.1s">
                         <div class="box-container-img prod-2">
