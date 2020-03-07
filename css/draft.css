@@ -256,14 +256,14 @@ a:focus {
     margin-top: 65px;
     width: 100%;
     height: 60vh;
-    background-image: url(../img/banner/pip.jpg);
+    background-image: url(../img/banner/funds.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 
 .banner-home::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
     margin-top: 65px;
     height: 60.5vh;
@@ -285,7 +285,7 @@ a:focus {
 
 
 .banner-home .box-quote {
-    width: 60%;
+    width: 65%;
     background-color: #0D345F;
     position: relative;
     top: 70%;
@@ -305,8 +305,8 @@ a:focus {
     .banner-home {
         margin-top: 65px;
         height: 55vh;
-        background-image: url(../img/pip.jpg);
-        background-position: left;
+        background-image: url(../img/banner/funds.jpg);
+        /* background-position: left; */
         background-repeat: no-repeat;
     }
 
@@ -374,7 +374,7 @@ a:focus {
         margin-top: 65px;
         width: 100%;
         height: 60vh;
-        background-image: url(../img/pip.jpg);
+        background-image: url(../img/banner/funds.jpg);
         background-size: cover;
         background-position: left;
     }
@@ -438,7 +438,7 @@ a:focus {
         margin-top: 65px;
         width: 100%;
         height: 55vh;
-        background-image: url(../img/pip.jpg);
+        background-image: url(../img/banner/funds.jpg);
         background-size: cover;
         background-position: left;
     }

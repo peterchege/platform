@@ -55,7 +55,8 @@ require_once 'inc/functions.php';
     <div class="banner-home">
         <div class="content-camp">
             <h2>
-                ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY
+                <!-- ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY -->
+                No matter What makes you happy
             </h2>
         </div>
 
@@ -63,16 +64,30 @@ require_once 'inc/functions.php';
 
         <div class="box-quote">
             <div class="row">
-                <h3 class="text-center">Select a product to get a quote and buy online</h3>
+                <h3 class="text-center">Select a product to buy now</h3>
             </div>
 
             <div class="container">
                 <div class="row icon-size">
 
-                    <a href="https://portal.apainsurance.org/GISPORTAL/marine/quote/2">
+                    <a href="apollo_balance_fund.php">
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-ship"></i>
-                            <p>Marine Single Transit </p>
+                            <p>Apollo balance Fund </p>
+                        </div>
+                    </a>
+
+                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                        <div class="c0l-md-4  font-awsome text-center">
+                            <i class="fas fa-plane-departure"></i>
+                            <p>Apollo Equity fund</p>
+                        </div>
+                    </a>
+
+                    <a href="calc_domestic_package.php">
+                        <div class="c0l-md-4 font-awsome text-center">
+                            <i class="fas fa-home"></i>
+                            <p>ApolloMoney market Fund</p>
                         </div>
                     </a>
 
@@ -80,13 +95,6 @@ require_once 'inc/functions.php';
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-plane-departure"></i>
                             <p>Travel Insurance</p>
-                        </div>
-                    </a>
-
-                    <a href="calc_domestic_package.php">
-                        <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-home"></i>
-                            <p>Domestic Package</p>
                         </div>
                     </a>
 
