@@ -86,7 +86,7 @@ require_once 'inc/functions.php';
 
                     <a href="apollo_money_market_fund.php">
                         <div class="c0l-md-4 font-awsome text-center">
-                            <i class="fas fa-home"></i>
+                            <i class="fas fa-chart-line"></i>
                             <p>Apollo Money market Fund</p>
                         </div>
                     </a>
