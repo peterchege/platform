@@ -72,22 +72,22 @@ require_once 'inc/functions.php';
 
                     <a href="apollo_balance_fund.php">
                         <div class="c0l-md-4  font-awsome text-center">
-                            <i class="fas fa-ship"></i>
+                            <i class="fas fa-balance-scale"></i>
                             <p>Apollo balance Fund </p>
                         </div>
                     </a>
 
-                    <a href="https://portal.apainsurance.org/GISPORTAL/travel/sts/about-trip/1">
+                    <a href="apollo_equity_fund.php">
                         <div class="c0l-md-4  font-awsome text-center">
-                            <i class="fas fa-plane-departure"></i>
+                            <i class="fas fa-chart-pie"></i>
                             <p>Apollo Equity fund</p>
                         </div>
                     </a>
 
-                    <a href="calc_domestic_package.php">
+                    <a href="apollo_money_market_fund.php">
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-home"></i>
-                            <p>ApolloMoney market Fund</p>
+                            <p>Apollo Money market Fund</p>
                         </div>
                     </a>
 
