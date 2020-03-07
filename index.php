@@ -56,7 +56,8 @@ require_once 'inc/functions.php';
         <div class="content-camp">
             <h2>
                 <!-- ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY -->
-                No matter What makes you happy
+                No matter What makes you happy,<br>
+               <small> there is a plan for that. Invest in apollo unit<br> trust funds today</small>
             </h2>
         </div>
 
