@@ -74,21 +74,21 @@ require_once 'inc/functions.php';
                     <a href="apollo_balance_fund.php">
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-balance-scale"></i>
-                            <p>Apollo balance Fund </p>
+                            <p>Apollo Balance Fund </p>
                         </div>
                     </a>
 
                     <a href="apollo_equity_fund.php">
                         <div class="c0l-md-4  font-awsome text-center">
                             <i class="fas fa-chart-pie"></i>
-                            <p>Apollo Equity fund</p>
+                            <p>Apollo Equity Fund</p>
                         </div>
                     </a>
 
                     <a href="apollo_money_market_fund.php">
                         <div class="c0l-md-4 font-awsome text-center">
                             <i class="fas fa-chart-line"></i>
-                            <p>Apollo Money market Fund</p>
+                            <p>Apollo Money Market Fund</p>
                         </div>
                     </a>
 

@@ -90,7 +90,7 @@ require_once 'inc/functions.php';
             </div>
 
             <p class="container text-center content-offer wow fadeInUp" data-wow-delay="0.1s">
-                No matter what makes you happy, There's a plan for that with apollo unit trust funds
+                No matter what makes you happy, There's a plan for that with Apollo Unit Trust Funds
             </p>
             <br><br>
             <div class="container-fliud">
