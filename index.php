@@ -57,7 +57,7 @@ require_once 'inc/functions.php';
             <h2>
                 <!-- ENJOY THE CONVENIENCE OF <BR> BUYING ONLINE OR REQUESTING A QUOTE TODAY -->
                 No matter What makes you happy,<br>
-               <small> there is a plan for that. Invest in apollo unit<br> trust funds today</small>
+                <small> there is a plan for that. Invest in apollo unit<br> trust funds today</small>
             </h2>
         </div>
 
@@ -166,7 +166,7 @@ require_once 'inc/functions.php';
             <!-- New design for what we offer -->
 
             <div class="container">
-                <div class="row row-product1">
+                <div class="row row-product1 small-opt">
 
 
                     <div class="col-md-6 col-lg-4 prod wow fadeInUp" data-wow-delay="0.2s">
